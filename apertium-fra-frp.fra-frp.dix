@@ -88,7 +88,10 @@
 <e>       <p><l>je<s n="prn"/><s n="tn"/></l><r>je<s n="prn"/><s n="tn"/></r></p></e>
 <e r="RL"><p><l>je<s n="prn"/><s n="tn"/></l><r>ye<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>tu<s n="prn"/><s n="tn"/></l><r>te<s n="prn"/><s n="tn"/></r></p></e>
-<e>       <p><l>il<s n="prn"/><s n="tn"/></l><r>il<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>nous<s n="prn"/><s n="tn"/></l><r>nos<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>vous<s n="prn"/><s n="tn"/></l><r>vos<s n="prn"/><s n="tn"/></r></p></e>
 
@@ -107,8 +110,48 @@
 <e>       <p><l>leur<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lor<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>leur<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lor<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
+<e>       <p><l>moi<s n="prn"/><s n="tn"/></l><r>mè<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>toi<s n="prn"/><s n="tn"/></l><r>tè<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>soi<s n="prn"/><s n="tn"/></l><r>sè<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>eux<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lor<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>lor<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+<e>       <p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+<e>       <p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+<e>       <p><l>avec<s n="pr"/></l><r>avouéc<s n="pr"/></r></p></e>
+<e>       <p><l>par<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
+<e>       <p><l>pour<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+<e>       <p><l>dans<s n="pr"/></l><r>dens<s n="pr"/></r></p></e>
+<e>       <p><l>sans<s n="pr"/></l><r>sen<s n="pr"/></r></p></e>
+<e>       <p><l>contre<s n="pr"/></l><r>contre<s n="pr"/></r></p></e>
+<e>       <p><l>chez<s n="pr"/></l><r>chiéz<s n="pr"/></r></p></e>
+<e r="LR"><p><l>chez<s n="pr"/></l><r>enchiéz<s n="pr"/></r></p></e>
+<e>       <p><l>sur<s n="pr"/></l><r>sur<s n="pr"/></r></p></e>
+<e>       <p><l>sous<s n="pr"/></l><r>sot<s n="pr"/></r></p></e>
+<e>       <p><l>après<s n="pr"/></l><r>aprés<s n="pr"/></r></p></e>
+<e>       <p><l>en<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+<e>       <p><l>devant<s n="pr"/></l><r>devant<s n="pr"/></r></p></e>
+<e>       <p><l>pendant<s n="pr"/></l><r>pendent<s n="pr"/></r></p></e>
+<e>       <p><l>parmi<s n="pr"/></l><r>permié<s n="pr"/></r></p></e>
+<e>       <p><l>autour<b/>de<s n="pr"/></l><r>u<b/>tôrn<b/>de<s n="pr"/></r></p></e>
+<e>       <p><l>hors<b/>de<s n="pr"/></l><r>fôr<s n="pr"/></r></p></e>
+<e r="RL"><p><l>hors<b/>de<s n="pr"/></l><r>fôra<s n="pr"/></r></p></e>
+<e r="LR"><p><l>hors<s n="pr"/></l><r>fôr<s n="pr"/></r></p></e>
+<e>       <p><l>depuis<s n="pr"/></l><r>dês<s n="pr"/></r></p></e>
+<e r="LR"><p><l>dès<s n="pr"/></l><r>dês<s n="pr"/></r></p></e>
+<e>       <p><l>jusqu'à<s n="pr"/></l><r>tant<b/>que<s n="pr"/></r></p></e>
+
+<e>       <p><l>dessus<s n="adv"/></l><r>dessus<s n="adv"/></r></p></e>
+<e>       <p><l>dessous<s n="adv"/></l><r>desot<s n="adv"/></r></p></e>
+
+
+
+
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
+      <e><p><l>avoir<s n="vblex"/></l><r>avêr<s n="vblex"/></r></p></e>
       <e><p><l>aller<s n="vblex"/></l><r>alar<s n="vblex"/></r></p></e>
       <e><p><l>chanter<s n="vblex"/></l><r>chantar<s n="vblex"/></r></p></e>
       <e><p><l>laisser<s n="vblex"/></l><r>lèssier<s n="vblex"/></r></p></e>
