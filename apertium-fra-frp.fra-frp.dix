@@ -17,69 +17,60 @@
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
     <sdef n="pr"              c="Preposition"/>
     <sdef n="adv"             c="Adverb"/>
+    <sdef n="preadv"          c="Pre-Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="det"             c="Determiner"/>
 
-    <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
     <sdef n="cog"             c="Cognomen"/>
     <sdef n="org"             c="Organisation"/>
-    <sdef n="al"              c="Altres / misc proper nouns"/>
 
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
-    <sdef n="res"             c="Reciprocal pronoun"/>
-
-    <sdef n="det"             c="Determiner"/>
-    <sdef n="pos"             c="Possessive"/>
+    <sdef n="tn"              c="Tonic pronoun"/>
+    <sdef n="pro"             c="Proclitic pronoun"/>
+    <sdef n="enc"             c="Enclitic pronoun"/>
 
     <sdef n="p1"              c="1st person"/>
     <sdef n="p2"              c="2nd person"/>
     <sdef n="p3"              c="3rd person"/>
 
-    <sdef n="nt"              c="Neuter"/>
-    <sdef n="ut"              c="Utrum"/>
-    <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
-    <sdef n="un"              c="No gender"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="mf"              c="Masculine / Feminine"/>
+    <sdef n="nt"              c="Neuter"/>
 
     <sdef n="sg"              c="Singular"/>
-    <sdef n="du"              c="Dual"/>
     <sdef n="pl"              c="Plural"/>
-    <sdef n="sp"              c="Singular / plural"/>
+    <sdef n="sp"              c="Singular / Plural"/>
 
-    <sdef n="ind"             c="Indefinite"/>
     <sdef n="def"             c="Definite"/>
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="pos"             c="Possessive"/>
+    <sdef n="dem"             c="Demonstrative"/>
 
     <sdef n="nom"             c="Nominative"/>
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
 
-    <sdef n="dem"             c="Demonstrative"/>
     <sdef n="itg"             c="Question word / interrogative"/>
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
-    <sdef n="emph"            c="Emphatic"/>
 
     <sdef n="inf"             c="Infinitive"/>
-    <sdef n="pres"            c="Present"/>
+    <sdef n="pri"             c="Present Indicative"/>
+    <sdef n="prs"             c="Present Subjunctive"/>
     <sdef n="imp"             c="Imperative"/>
-    <sdef n="pret"            c="Preterite"/>
-    <sdef n="pp"              c="Perfect participle"/>
-    <sdef n="pprs"            c="Present participle"/>
-    <sdef n="pasv"            c="Passive"/>
-    <sdef n="actv"            c="Active voice"/>
+    <sdef n="pp"              c="Past participle"/>
+    <sdef n="ger"             c="Gerund"/>
 
-    <sdef n="sint"            c="Synthetic (of adjectives)"/>
-    <sdef n="pst"             c="Positive"/>
-    <sdef n="comp"            c="Comparative"/>
     <sdef n="sup"             c="Superlative"/>
 
     <sdef n="ord"             c="Ordinal"/>
     <sdef n="acr"             c="Acronym"/>
-    <sdef n="unc"             c="Uncountable"/>
 
     <sdef n="num"             c="Numeral"/>
     <sdef n="sent"            c="Sentence end"/>
@@ -90,13 +81,32 @@
     <sdef n="rpar"            c="Right parenthesis"/>
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
-
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
+
+<e>       <p><l>je<s n="prn"/><s n="tn"/></l><r>je<s n="prn"/><s n="tn"/></r></p></e>
+<e r="RL"><p><l>je<s n="prn"/><s n="tn"/></l><r>ye<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>tu<s n="prn"/><s n="tn"/></l><r>te<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/></l><r>il<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>nous<s n="prn"/><s n="tn"/></l><r>nos<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>vous<s n="prn"/><s n="tn"/></l><r>vos<s n="prn"/><s n="tn"/></r></p></e>
+
+<e>       <p><l>me<s n="prn"/><s n="pro"/></l><r>mè<s n="prn"/><s n="pro"/></r></p></e>
+<e>       <p><l>te<s n="prn"/><s n="pro"/></l><r>tè<s n="prn"/><s n="pro"/></r></p></e>
+<e>       <p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+<e>       <p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>se<s n="prn"/><s n="pro"/></l><r>sè<s n="prn"/><s n="pro"/></r></p></e>
+<e>       <p><l>nous<s n="prn"/><s n="pro"/></l><r>nos<s n="prn"/><s n="pro"/></r></p></e>
+<e>       <p><l>vous<s n="prn"/><s n="pro"/></l><r>vos<s n="prn"/><s n="pro"/></r></p></e>
+<e>       <p><l>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>leur<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lor<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>leur<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>lor<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
       <e><p><l>aller<s n="vblex"/></l><r>alar<s n="vblex"/></r></p></e>
