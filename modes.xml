@@ -8,8 +8,6 @@
       <program name="lt-proc -w">
         <file name="fra-frp.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="fra-frp.rlx.bin"/>
       </program>
@@ -23,7 +21,6 @@
       <program name="lrx-proc -m">
         <file name="fra-frp.autolex.bin"/>
       </program>
-
       <program name="apertium-transfer -b">
         <file name="apertium-fra-frp.fra-frp.t1x"/>
         <file name="fra-frp.t1x.bin"/>
@@ -39,12 +36,24 @@
       <program name="lt-proc $1">
         <file name="fra-frp.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="fra-frp.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
+
+  <mode name="fra-frp-disamb" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="fra-frp.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="fra-frp.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <!-- frp → fra -->
 
@@ -53,15 +62,12 @@
       <program name="lt-proc -w">
         <file name="frp-fra.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="frp-fra.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="frp-fra.prob"/>
       </program>
-
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="frp-fra.autobil.bin"/>
@@ -69,7 +75,6 @@
       <program name="lrx-proc -m">
         <file name="frp-fra.autolex.bin"/>
       </program>
-
       <program name="apertium-transfer -b">
         <file name="apertium-fra-frp.frp-fra.t1x"/>
         <file name="frp-fra.t1x.bin"/>
@@ -85,11 +90,21 @@
       <program name="lt-proc $1">
         <file name="frp-fra.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="frp-fra.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-</modes>
 
+  <mode name="frp-fra-disamb" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="frp-fra.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="frp-fra.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
