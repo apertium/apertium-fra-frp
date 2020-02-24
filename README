@@ -1,12 +1,12 @@
-French and frp: `apertium-fra-frp`
+French and Arpitan: `apertium-fra-frp`
 ===============================================================================
 
 This is an Apertium language pair for translating between French and
-frp. What you can use this language package for:
+Arpitan. What you can use this language package for:
 
-* Translating between French and frp
-* Morphological analysis of French and frp
-* Part-of-speech tagging of French and frp
+* Translating between French and Arpitan
+* Morphological analysis of French and Arpitan
+* Part-of-speech tagging of French and Arpitan
 
 For information on the latter two points, see subheading "For more
 information" below.
@@ -65,14 +65,14 @@ Files and data
 -------------------------------------------------------------------------------
 
 * [`apertium-fra-frp.fra-frp.dix`](apertium-fra-frp.fra-frp.dix) - Bilingual dictionary
-* [`apertium-fra-frp.fra-frp.t1x`](apertium-fra-frp.fra-frp.t1x) - Chunking rules for translating into frp
+* [`apertium-fra-frp.fra-frp.t1x`](apertium-fra-frp.fra-frp.t1x) - Chunking rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.t1x`](apertium-fra-frp.frp-fra.t1x) - Chunking rules for translating into French
-* [`apertium-fra-frp.fra-frp.t2x`](apertium-fra-frp.fra-frp.t2x) - Interchunk rules for translating into frp
+* [`apertium-fra-frp.fra-frp.t2x`](apertium-fra-frp.fra-frp.t2x) - Interchunk rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.t2x`](apertium-fra-frp.frp-fra.t2x) - Interchunk rules for translating into French
-* [`apertium-fra-frp.fra-frp.t3x`](apertium-fra-frp.fra-frp.t3x) - Postchunk rules for translating into frp
+* [`apertium-fra-frp.fra-frp.t3x`](apertium-fra-frp.fra-frp.t3x) - Postchunk rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.t3x`](apertium-fra-frp.frp-fra.t3x) - Postchunk rules for translating into French
-* [`apertium-fra-frp.fra-frp.lrx`](apertium-fra-frp.fra-frp.lrx) - Lexical selection rules for translating into frp
-* [`apertium-fra-frp.frp-fra.lrx`](apertium-fra-frp.frp-fra.lrx) - Lexical selection rules for translating into French
+* [`apertium-fra-frp.fra-frp.metalrx`](apertium-fra-frp.fra-frp.metalrx) - Lexical selection rules for translating into Arpitan
+* [`apertium-fra-frp.frp-fra.metalrx`](apertium-fra-frp.frp-fra.metalrx) - Lexical selection rules for translating into French
 * [`modes.xml`](modes.xml) - Translation modes
 
 For more information
