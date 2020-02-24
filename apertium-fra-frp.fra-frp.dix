@@ -97,7 +97,41 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
+      <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
+      <e><p><l>aller<s n="vblex"/></l><r>alar<s n="vblex"/></r></p></e>
+      <e><p><l>chanter<s n="vblex"/></l><r>chantar<s n="vblex"/></r></p></e>
+      <e><p><l>laisser<s n="vblex"/></l><r>lèssier<s n="vblex"/></r></p></e>
+      <e><p><l>payer<s n="vblex"/></l><r>payér<s n="vblex"/></r></p></e>
+      <e><p><l>commencer<s n="vblex"/></l><r>commenciér<s n="vblex"/></r></p></e>
+      <e><p><l>mâcher<s n="vblex"/></l><r>mâchiér<s n="vblex"/></r></p></e>
+      <e><p><l>juger<s n="vblex"/></l><r>jugiér<s n="vblex"/></r></p></e>
+      <e><p><l>attiser<s n="vblex"/></l><r>atisiér<s n="vblex"/></r></p></e>
+      <e><p><l>baisser<s n="vblex"/></l><r>bèssiér<s n="vblex"/></r></p></e>
+      <e><p><l>guigner<s n="vblex"/></l><r>guegnér<s n="vblex"/></r></p></e>
+      <e><p><l>donner<s n="vblex"/></l><r>balyér<s n="vblex"/></r></p></e>
+      <e><p><l>aider<s n="vblex"/></l><r>édiér<s n="vblex"/></r></p></e>
+      <e><p><l>marier<s n="vblex"/></l><r>mariar<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>sangler<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
+      <e><p><l>serrer<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>manger<s n="vblex"/></l><r>mengiér<s n="vblex"/></r></p></e>
+      <e><p><l>manger<s n="vblex"/></l><r>megiér<s n="vblex"/></r></p></e>
+      <e><p><l>fournir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
+      <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
+      <e><p><l>avancer<s n="vblex"/></l><r>avanciér<s n="vblex"/></r></p></e>
+      <e><p><l>marcher<s n="vblex"/></l><r>marchiér<s n="vblex"/></r></p></e>
+      <e><p><l>embrasser<s n="vblex"/></l><r>bèsier<s n="vblex"/></r></p></e>
+      <e><p><l>blaguer<s n="vblex"/></l><r>blagar<s n="vblex"/></r></p></e>
+      <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
+      <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
+      <e><p><l>devoir<s n="vblex"/></l><r>devêr<s n="vblex"/></r></p></e>
+      <e><p><l>prendre<s n="vblex"/></l><r>prendre<s n="vblex"/></r></p></e>
+      <e><p><l>ouvrir<s n="vblex"/></l><r>uvrir<s n="vblex"/></r></p></e>
+      <e><p><l>boire<s n="vblex"/></l><r>bêre<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>choir<s n="vblex"/></l><r>chêre<s n="vblex"/></r></p></e>
+      <e><p><l>tomber<s n="vblex"/></l><r>chêre<s n="vblex"/></r></p></e>
+      <e><p><l>emplir<s n="vblex"/></l><r>emplir<s n="vblex"/></r></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
