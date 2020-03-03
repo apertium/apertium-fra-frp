@@ -80,8 +80,16 @@
         <file name="frp-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fra-frp.frp-fra.t2x"/>
-        <file name="frp-fra.t2x.bin"/>
+        <file name="apertium-fra-frp.frp-fra.t2ax"/>
+        <file name="frp-fra.t2ax.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-fra-frp.frp-fra.t2bx"/>
+        <file name="frp-fra.t2bx.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-fra-frp.frp-fra.t2cx"/>
+        <file name="frp-fra.t2cx.bin"/>
       </program>
       <program name="apertium-postchunk">
         <file name="apertium-fra-frp.frp-fra.t3x"/>

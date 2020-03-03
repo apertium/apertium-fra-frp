@@ -29,7 +29,9 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).t1x.bin	\
-	$(PREFIX2).t2x.bin	\
+	$(PREFIX2).t2ax.bin	\
+	$(PREFIX2).t2bx.bin	\
+	$(PREFIX2).t2cx.bin	\
 	$(PREFIX2).t3x.bin
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -145,7 +147,15 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
+$(PREFIX2).t2ax.bin: $(BASENAME).$(PREFIX2).t2ax
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX2).t2bx.bin: $(BASENAME).$(PREFIX2).t2bx
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX2).t2cx.bin: $(BASENAME).$(PREFIX2).t2cx
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
@@ -175,7 +185,9 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
 		$(BASENAME).$(PREFIX2).t1x	\
-		$(BASENAME).$(PREFIX2).t2x	\
+		$(BASENAME).$(PREFIX2).t2ax	\
+		$(BASENAME).$(PREFIX2).t2bx	\
+		$(BASENAME).$(PREFIX2).t2cx	\
 		$(BASENAME).$(PREFIX2).t3x	\
 		modes.xml
 
@@ -192,7 +204,9 @@ apertium_fra_frp_DATA=	\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
 	$(BASENAME).$(PREFIX2).t1x			\
-	$(BASENAME).$(PREFIX2).t2x			\
+	$(BASENAME).$(PREFIX2).t2ax			\
+	$(BASENAME).$(PREFIX2).t2bx			\
+	$(BASENAME).$(PREFIX2).t2cx			\
 	$(BASENAME).$(PREFIX2).t3x
 
 
