@@ -267,7 +267,8 @@
 
    <section id="main" type="standard">
 
-<e>       <p><l>le<s n="det"/><s n="def"/></l><r>le<s n="det"/><s n="def"/></r></p></e>
+<e>       <p><l>le<s n="det"/><s n="def"/></l><r>lo<s n="det"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>le<s n="det"/><s n="def"/></l><r>lo<s n="det"/><s n="def"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>un<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
 <e>       <p><l>mon<s n="det"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="mon_mon"/></e>
@@ -279,6 +280,7 @@
 <e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>lyor<s n="det"/><s n="pos"/></r></p></e>
 <e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>lœr<s n="det"/><s n="pos"/></r></p></e>
 <e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>lyœr<s n="det"/><s n="pos"/></r></p></e>
+<e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>loron<s n="det"/><s n="pos"/></r></p><par n="mf_GD"/></e>
 
 <e>       <p><l>ce<s n="det"/><s n="dem"/></l><r>cet<s n="det"/><s n="dem"/></r></p><par n="mon_mon"/></e>
 <e r="RL"><p><l>ce<s n="det"/><s n="dem"/></l><r>iquet<s n="det"/><s n="dem"/></r></p><par n="mon_mon"/></e>
@@ -354,7 +356,23 @@
 
 <e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
 
+<e>       <p><l>un<s n="num"/></l><r>yon<s n="num"/></r></p></e>
+<e>       <p><l>deux<s n="num"/></l><r>doux<s n="num"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>trois<s n="num"/></l><r>três<s n="num"/></r></p></e>
+<e>       <p><l>quatre<s n="num"/></l><r>quatro<s n="num"/></r></p></e>
+<e>       <p><l>cinq<s n="num"/></l><r>cinq<s n="num"/></r></p></e>
+<e>       <p><l>six<s n="num"/></l><r>siéx<s n="num"/></r></p></e>
+<e>       <p><l>sept<s n="num"/></l><r>sèpt<s n="num"/></r></p></e>
+<e r="RL"><p><l>sept<s n="num"/></l><r>sèpte<s n="num"/></r></p></e>
+<e>       <p><l>huit<s n="num"/></l><r>huét<s n="num"/></r></p></e>
+<e r="RL"><p><l>huit<s n="num"/></l><r>huéte<s n="num"/></r></p></e>
+<e>       <p><l>neuf<s n="num"/></l><r>nôf<s n="num"/></r></p></e>
+<e>       <p><l>dix<s n="num"/></l><r>diéx<s n="num"/></r></p></e>
+
 <e>       <p><l>très<s n="preadv"/></l><r>franc<s n="preadv"/></r></p></e>
+
+<e>       <p><l>comment<s n="adv"/></l><r>coment<s n="adv"/></r></p></e>
+<e>       <p><l>où<s n="adv"/></l><r>yô<s n="adv"/></r></p></e>
 
 <e>       <p><l>dessus<s n="adv"/></l><r>dessus<s n="adv"/></r></p></e>
 <e>       <p><l>dessous<s n="adv"/></l><r>desot<s n="adv"/></r></p></e>
@@ -363,6 +381,7 @@
 <e>       <p><l>toujours<s n="adv"/></l><r>tojorn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>toujours<s n="adv"/></l><r>adés<s n="adv"/></r></p></e>
 <e>       <p><l>alors<s n="adv"/></l><r>adonc<s n="adv"/></r></p></e>
+<e r="LR"><p><l>ne<s n="adv"/></l><r>pas<s n="adv"/></r></p></e>
 <e>       <p><l>pas<s n="adv"/></l><r>pas<s n="adv"/></r></p></e>
 <e>       <p><l>non<s n="adv"/></l><r>nan<s n="adv"/></r></p></e>
 <e>       <p><l>lentement<s n="adv"/></l><r>plan<b/>plan<s n="adv"/></r></p></e>
@@ -373,9 +392,11 @@
 <e>       <p><l>encore<s n="adv"/></l><r>oncor<s n="adv"/></r></p></e>
 <e>       <p><l>dehors<s n="adv"/></l><r>defôr<s n="adv"/></r></p></e>
 <e>       <p><l>ensemble<s n="adv"/></l><r>en-un-mouél<s n="adv"/></r></p></e>
-<e>       <p><l>aussi<s n="adv"/></l><r>asse-bien<s n="adv"/></r></p></e>
+<e>       <p><l>aussi<s n="adv"/></l><r>asse-ben<s n="adv"/></r></p></e>
 <e>       <p><l>puis<s n="adv"/></l><r>pués<s n="adv"/></r></p></e>
 <e>       <p><l>partout<s n="adv"/></l><r>pertot<s n="adv"/></r></p></e>
+<e>       <p><l>jamais<s n="adv"/></l><r>jamés<s n="adv"/></r></p></e>
+<e>       <p><l>bien<b/>sûr<s n="adv"/></l><r>de<b/>sûr<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
@@ -386,8 +407,10 @@
       <e><p><l>payer<s n="vblex"/></l><r>payér<s n="vblex"/></r></p></e>
       <e><p><l>jouer<s n="vblex"/></l><r>jouyér<s n="vblex"/></r></p></e>
       <e><p><l>jouer<s n="vblex"/></l><r>menar<s n="vblex"/></r></p></e>
+      <e><p><l>écouter<s n="vblex"/></l><r>acutar<s n="vblex"/></r></p></e>
       <e><p><l>trouver<s n="vblex"/></l><r>trovar<s n="vblex"/></r></p></e>
       <e><p><l>compter<s n="vblex"/></l><r>comptar<s n="vblex"/></r></p></e>
+      <e><p><l>demander<s n="vblex"/></l><r>demandar<s n="vblex"/></r></p></e>
       <e><p><l>commencer<s n="vblex"/></l><r>commenciér<s n="vblex"/></r></p></e>
       <e><p><l>mâcher<s n="vblex"/></l><r>mâchiér<s n="vblex"/></r></p></e>
       <e><p><l>juger<s n="vblex"/></l><r>jugiér<s n="vblex"/></r></p></e>
@@ -399,16 +422,20 @@
       <e><p><l>marier<s n="vblex"/></l><r>mariar<s n="vblex"/></r></p></e>
       <e r="LR"><p><l>sangler<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
       <e><p><l>serrer<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
-      <e r="LR"><p><l>manger<s n="vblex"/></l><r>mengiér<s n="vblex"/></r></p></e>
       <e><p><l>manger<s n="vblex"/></l><r>megiér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>manger<s n="vblex"/></l><r>mengiér<s n="vblex"/></r></p></e>
+      <e><p><l>parler<s n="vblex"/></l><r>prègiér<s n="vblex"/></r></p></e> <!-- PROVISIONNEL: + parlar -->
+      <e r="RL"><p><l>parler<s n="vblex"/></l><r>prèchiér<s n="vblex"/></r></p></e>
       <e><p><l>fournir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
       <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
       <e><p><l>avancer<s n="vblex"/></l><r>avanciér<s n="vblex"/></r></p></e>
       <e><p><l>marcher<s n="vblex"/></l><r>marchiér<s n="vblex"/></r></p></e>
+      <e><p><l>chercher<s n="vblex"/></l><r>chèrchiér<s n="vblex"/></r></p></e>
       <e><p><l>embrasser<s n="vblex"/></l><r>bèsier<s n="vblex"/></r></p></e>
       <e><p><l>blaguer<s n="vblex"/></l><r>blagar<s n="vblex"/></r></p></e>
       <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
       <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>dormir<s n="vblex"/></l><r>dromir<s n="vblex"/></r></p></e>
       <e><p><l>devoir<s n="vblex"/></l><r>devêr<s n="vblex"/></r></p></e>
       <e><p><l>prendre<s n="vblex"/></l><r>prendre<s n="vblex"/></r></p></e>
       <e><p><l>ouvrir<s n="vblex"/></l><r>uvrir<s n="vblex"/></r></p></e>
@@ -425,7 +452,7 @@
 <e>       <p><l>chat<s n="n"/><s n="m"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>chien<s n="n"/><s n="m"/></l><r>chin<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jardin<s n="n"/><s n="m"/></l><r>cortil<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>jouet<s n="n"/><s n="m"/></l><r>juè<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>jeu<s n="n"/><s n="m"/></l><r>juè<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>enfant<s n="n"/><s n="mf"/></l><r>enfant<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>enfant<s n="n"/></l><r>megnât<s n="n"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>enfant<s n="n"/></l><r>menât<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -439,6 +466,7 @@
 <e>       <p><l>animal<s n="n"/><s n="m"/></l><r>bétye<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>bête<s n="n"/><s n="m"/></l><r>bétye<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>animal<s n="n"/><s n="m"/></l><r>animâl<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fille<s n="n"/><s n="f"/></l><r>felye<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <p><l>froid<s n="n"/><s n="m"/></l><r>frêd<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>maison<s n="n"/><s n="f"/></l><r>mêson<s n="n"/><s n="f"/></r></p></e>
@@ -453,12 +481,14 @@
 <e>       <p><l>chaise<s n="n"/><s n="f"/></l><r>sèla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>attention<s n="n"/><s n="f"/></l><r>atencion<s n="n"/><s n="f"/></r></p></e>
 
+<e>       <p><l>autre<s n="adj"/><s n="ind"/></l><r>ôtro<s n="adj"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>froid<s n="adj"/></l><r>frêd<s n="adj"/></r></p></e>
 <e>       <p><l>chaud<s n="adj"/></l><r>chôd<s n="adj"/></r></p></e>
 <e>       <p><l>grand<s n="adj"/></l><r>grant<s n="adj"/></r></p></e>
 <e>       <p><l>vert<s n="adj"/></l><r>vèrd<s n="adj"/></r></p></e>
 <e>       <p><l>gros<s n="adj"/></l><r>grôs<s n="adj"/></r></p></e>
 <e>       <p><l>content<s n="adj"/></l><r>content<s n="adj"/></r></p></e>
+<e>       <p><l>petit<s n="adj"/></l><r>petiôt<s n="adj"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
