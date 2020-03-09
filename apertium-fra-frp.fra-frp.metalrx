@@ -503,17 +503,72 @@
 
 <rules>
 
-<!-- **************** NP **************** -->
+<!-- **************** N **************** -->
 
-  <!-- Hercule >> Hèrcules, Hercule -->
+  <!-- fille >> menât/megnât, fill -->
   <rule weight="0.8">
-    <match lemma="Hercule" tags="np.*"><select lemma="Hèrcules"/></match>
+    <match lemma="fille" tags="n.*"><select lemma="felye"/></match>
+  </rule>
+<!--
+  <rule weight="0.8">
+    <match lemma="fille" tags="n.*"><select lemma="menât"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="Hercule" tags="np.*"><select lemma="Hercule"/></match>
-    <match tags="np.cog.*"/>
+    <match tags="det.pos.*"/>
+    <match lemma="fille" tags="n.*"><select lemma="felye" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+    <or><match tags="num.*"/><match tags="num"/></or>
+    <match lemma="fille" tags="n.*"><select lemma="felye" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="avoir"/>
+    <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
+    <match lemma="fille" tags="n.*"><select lemma="felye" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fille" tags="n.*"><select lemma="felye" tags="n.*"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <seq n="personne"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fille" tags="n.*"><select lemma="felye" tags="n.*"/></match>
+    <match tags="adj.*"/>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <seq n="personne"/>
+    </or>
+  </rule>
+-->
+
+<!-- **************** V **************** -->
+
+  <!-- jouer >> jouyér, menar -->
+  <rule weight="0.8">
+    <match lemma="jouer" tags="vblex.*"><select lemma="jouyér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="jouer" tags="vblex.*"><select lemma="menar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
   </rule>
 
+<!-- **************** NP **************** -->
+
+  <macro name="noms_propres" p1="Jean" p2="Jian" />
+
+<!--
   <macro name="noms_propres" p1="Charles" p2="Carles" />
   <macro name="noms_propres" p1="Philippe" p2="Felip" />
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
@@ -524,7 +579,6 @@
   <macro name="noms_propres" p1="Élisabeth" p2="Isabel" />
   <macro name="noms_propres" p1="Marie" p2="Maria" />
   <macro name="noms_propres" p1="Jeanne" p2="Joana" />
-  <macro name="noms_propres" p1="Jean" p2="Joan" />
   <macro name="noms_propres" p1="Juan Carlos" p2="Joan Carles" />
   <macro name="noms_propres" p1="Sophie" p2="Sofia" />
   <macro name="noms_propres" p1="Paul" p2="Pau" />
@@ -570,6 +624,7 @@
   <macro name="noms_propres" p1="Léopold" p2="Leopold" />
   <macro name="noms_propres" p1="Amédée" p2="Amadeu" />
   <macro name="noms_propres" p1="André" p2="Andreu" />
+-->
 
 </rules>
 </metalrx>
