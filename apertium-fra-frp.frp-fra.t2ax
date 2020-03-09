@@ -687,6 +687,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: SV > subjècte SV">
       <pattern>
         <pattern-item n="SV_pers"/>
@@ -762,6 +763,7 @@
         <let><var n="fifrase"/><lit v="no"/></let>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: cnjsub_adv SV (que cantes -> que TU chantes)">
       <pattern>

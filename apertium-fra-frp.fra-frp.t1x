@@ -3241,30 +3241,19 @@
          <call-macro n="tipus_prn">
            <with-param pos="1"/>
          </call-macro>
-         <choose>
-           <when>
-             <test>
-               <not>
-                 <equal caseless="yes">
-                   <clip pos="1" side="sl" part="lem"/><lit v="est-ce que"/>
-                 </equal>
-               </not>
-             </test>
-             <out>
-               <chunk name="prn">
-                 <tags>
-                   <tag><lit-tag v="SPron"/></tag>
-                   <tag><var n="tipusprn"/></tag>
-                 </tags>
-                 <lu>
-                   <clip pos="1" side="tl" part="lemh"/>
-                   <clip pos="1" side="tl" part="tags"/>
-                   <clip pos="1" side="tl" part="lemq"/>
-                 </lu>
-               </chunk>
-             </out>
-           </when>
-         </choose>
+         <out>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
        </action>
     </rule>
 
@@ -9810,6 +9799,7 @@
 
   <!-- REGLAS C'EST -->
 
+<!--
     <rule comment="REGLA: CE VBSER: ce fut > foguèt">
        <pattern>
          <pattern-item n="ce"/>
@@ -9844,6 +9834,7 @@
          </out>
        </action>
     </rule>
+-->
 
   <!-- FIN REGLAS C'EST -->
 
