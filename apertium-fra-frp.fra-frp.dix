@@ -367,15 +367,24 @@
 <e>       <p><l>vers<s n="pr"/></l><r>vers<s n="pr"/></r></p></e>
 <e>       <p><l>derrière<s n="pr"/></l><r>dèrriér<s n="pr"/></r></p></e>
 
+<e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+
 <e>       <p><l>et<s n="cnjcoo"/></l><r>et<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ou<s n="cnjcoo"/></l><r>ou<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>ou<s n="cnjcoo"/></l><r>sêt<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>mais<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
 
-<e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+<e>       <p><l>alors<s n="cnjadv"/></l><r>alor<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>alors<s n="cnjadv"/></l><r>adonc<s n="cnjadv"/></r></p></e>
+<e>       <p><l>lorsque<s n="cnjadv"/></l><r>lorsque<s n="cnjadv"/></r></p></e>
+<e>       <p><l>quand<s n="cnjadv"/></l><r>quand<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>quand<s n="cnjadv"/></l><r>quora<s n="cnjadv"/></r></p></e>
 
 <e>       <p><l>que<s n="rel"/></l><r>que<s n="rel"/></r></p></e>
 <e>       <p><l>qui<s n="rel"/></l><r>qui<s n="rel"/></r></p></e>
+<e>       <p><l>où<s n="rel"/><s n="adv"/></l><r>yô<s n="rel"/><s n="adv"/></r></p></e>
+<e>       <p><l>quand<s n="rel"/><s n="adv"/></l><r>quand<s n="rel"/><s n="adv"/></r></p></e>
+<e r="RL"><p><l>quand<s n="rel"/><s n="adv"/></l><r>quora<s n="rel"/><s n="adv"/></r></p></e>
 
 <e>       <p><l>un<s n="num"/></l><r>yon<s n="num"/></r></p></e>
 <e>       <p><l>deux<s n="num"/></l><r>doux<s n="num"/></r></p><par n="mf_GD"/></e>
@@ -392,10 +401,16 @@
 
 <e>       <p><l>très<s n="preadv"/></l><r>franc<s n="preadv"/></r></p></e>
 
-<e>       <p><l>comment<s n="adv"/></l><r>coment<s n="adv"/></r></p></e>
-<e>       <p><l>où<s n="adv"/></l><r>yô<s n="adv"/></r></p></e>
-<e>       <p><l>pourquoi<s n="adv"/></l><r>porquè<s n="adv"/></r></p></e>
-<e r="RL"><p><l>pourquoi<s n="adv"/></l><r>porquê<s n="adv"/></r></p></e>
+<e>       <p><l>comment<s n="adv"/><s n="itg"/></l><r>coment<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>combien<s n="adv"/><s n="itg"/></l><r>comben<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>combien<s n="adv"/><s n="itg"/></l><r>quant<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>combien<s n="adv"/><s n="itg"/></l><r>gouéro<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>combien<s n="adv"/><s n="itg"/></l><r>où<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>où<s n="adv"/><s n="itg"/></l><r>yô<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>quand<s n="adv"/><s n="itg"/></l><r>quand<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>quand<s n="adv"/><s n="itg"/></l><r>quora<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>pourquoi<s n="adv"/><s n="itg"/></l><r>porquè<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>pourquoi<s n="adv"/><s n="itg"/></l><r>porquê<s n="adv"/><s n="itg"/></r></p></e>
 
 <e>       <p><l>dessus<s n="adv"/></l><r>dessus<s n="adv"/></r></p></e>
 <e>       <p><l>dessous<s n="adv"/></l><r>desot<s n="adv"/></r></p></e>
@@ -571,8 +586,16 @@
 <e r="RL"><p><l>beau<s n="adj"/></l><r>gent<s n="adj"/></r></p></e>
 <e>       <p><l>bel<s n="adj"/></l><r>bél<s n="adj"/></r></p></e>
 
+<e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
+<e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>  <r><s n="lpar"/></r></p></e>
+<e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>  <r><s n="rpar"/></r></p></e>
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+<!--
+<e>       <re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+<e>       <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+-->
+
    </section>
 </dictionary>
 
