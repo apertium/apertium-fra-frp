@@ -550,7 +550,35 @@
   </rule>
 -->
 
+<!-- **************** PRN **************** -->
+
+  <!-- il >> il, o -->
+  <rule weight="0.8">
+    <match lemma="il" tags="prn.*"><select lemma="il"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="p"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="pleuvoir" tags="vblex.*"/>
+      <match lemma="neiger" tags="vblex.*"/>
+      <match lemma="geler" tags="vblex.*"/>
+    </or>
+  </rule>
+
 <!-- **************** V **************** -->
+
+  <!-- retourner >> reveriér, etc. -->
+  <rule weight="0.8">
+    <match lemma="retourner" tags="vblex.*"><select lemma="reveriér"/></match>
+  </rule>
+
+  <!-- regarder >> agouétiér, etc. -->
+  <rule weight="0.8">
+    <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
+  </rule>
 
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">

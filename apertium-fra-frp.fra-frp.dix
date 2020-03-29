@@ -299,6 +299,7 @@
 <e r="RL"><p><l>je<s n="prn"/><s n="tn"/></l><r>ye<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>tu<s n="prn"/><s n="tn"/></l><r>te<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>o<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -450,6 +451,7 @@
 <e r="LR"><p><l>de<b/>bonne<b/>heure<s n="adv"/></l><r>de<b/>bon<b/>hora<s n="adv"/></r></p></e>
 <e>       <p><l>tout<b/>à<b/>l'heure<s n="adv"/></l><r>tot<b/>hora<s n="adv"/></r></p></e>
 <e r="LR"><p><l>tout<b/>à<b/>l'heure<s n="adv"/></l><r>tot<b/>alora<s n="adv"/></r></p></e>
+<e>       <p><l>probablement<s n="adv"/></l><r>probâblament<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
@@ -477,7 +479,8 @@
       <e><p><l>serrer<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
       <e><p><l>manger<s n="vblex"/></l><r>megiér<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>manger<s n="vblex"/></l><r>mengiér<s n="vblex"/></r></p></e>
-      <e><p><l>parler<s n="vblex"/></l><r>prègiér<s n="vblex"/></r></p></e> <!-- PROVISIONNEL: + parlar -->
+      <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>parler<s n="vblex"/></l><r>prègiér<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>parler<s n="vblex"/></l><r>prèchiér<s n="vblex"/></r></p></e>
       <e><p><l>fournir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
       <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
@@ -489,7 +492,6 @@
       <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
       <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>dormir<s n="vblex"/></l><r>dromir<s n="vblex"/></r></p></e>
-      <e><p><l>devoir<s n="vblex"/></l><r>devêr<s n="vblex"/></r></p></e>
       <e><p><l>prendre<s n="vblex"/></l><r>prendre<s n="vblex"/></r></p></e>
       <e><p><l>ouvrir<s n="vblex"/></l><r>uvrir<s n="vblex"/></r></p></e>
       <e><p><l>boire<s n="vblex"/></l><r>bêre<s n="vblex"/></r></p></e>
@@ -497,6 +499,32 @@
       <e><p><l>tomber<s n="vblex"/></l><r>chêre<s n="vblex"/></r></p></e>
       <e><p><l>emplir<s n="vblex"/></l><r>emplir<s n="vblex"/></r></p></e>
       <e><p><l>faire<s n="vblex"/></l><r>fére<s n="vblex"/></r></p></e>
+      <e><p><l>penser<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>penser<s n="vblex"/></l><r>musar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>penser<s n="vblex"/></l><r>cudiér<s n="vblex"/></r></p></e>
+      <e><p><l>aimer<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
+      <e><p><l>rentrer<s n="vblex"/></l><r>rentrar<s n="vblex"/></r></p></e>
+      <e><p><l>entrer<s n="vblex"/></l><r>entrar<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>reveriér<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>retornar<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>revèrchiér<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>veriolar<s n="vblex"/></r></p></e>
+      <e><p><l>adorer<s n="vblex"/></l><r>adorar<s n="vblex"/></r></p></e>
+      <e><p><l>approcher<s n="vblex"/></l><r>aprochiér<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>agouétar<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>gouétar<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>agouétiér<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>gouétiér<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>avisar<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>avisiér<s n="vblex"/></r></p></e>
+      <e><p><l>regarder<s n="vblex"/></l><r>regardar<s n="vblex"/></r></p></e>
+      <e><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>recafar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>cafolar<s n="vblex"/></r></p></e>
+
+      <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
+      <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
+      <e><p><l>vouloir<s n="vbmod"/></l><r>volêr<s n="vbmod"/></r></p></e>
 
 <e i="yes"><p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>		<!-- VERIFY -->
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
