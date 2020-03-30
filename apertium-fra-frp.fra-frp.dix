@@ -367,6 +367,14 @@
 <e>       <p><l>jusqu'à<s n="pr"/></l><r>tant<b/>que<s n="pr"/></r></p></e>
 <e>       <p><l>vers<s n="pr"/></l><r>vers<s n="pr"/></r></p></e>
 <e>       <p><l>derrière<s n="pr"/></l><r>dèrriér<s n="pr"/></r></p></e>
+<e>       <p><l>à<b/>côté<b/>de<s n="pr"/></l><r>de-couta<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>de-coute<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>a<b/>coutâ<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>du<b/>fllanc<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>u<b/>fllanc<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>u<b/>lât<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>du<b/>lât<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>du-râs<s n="pr"/></r></p></e>
 
 <e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
 
@@ -452,6 +460,9 @@
 <e>       <p><l>tout<b/>à<b/>l'heure<s n="adv"/></l><r>tot<b/>hora<s n="adv"/></r></p></e>
 <e r="LR"><p><l>tout<b/>à<b/>l'heure<s n="adv"/></l><r>tot<b/>alora<s n="adv"/></r></p></e>
 <e>       <p><l>probablement<s n="adv"/></l><r>probâblament<s n="adv"/></r></p></e>
+<e>       <p><l>à<b/>côté<s n="adv"/></l><r>de-couta<s n="adv"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<s n="adv"/></l><r>de-coute<s n="adv"/></r></p></e>
+<e r="RL"><p><l>à<b/>côté<s n="adv"/></l><r>a<b/>coutâ<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
@@ -508,6 +519,7 @@
       <e><p><l>retourner<s n="vblex"/></l><r>reveriér<s n="vblex"/></r></p></e>
       <e><p><l>retourner<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
       <e><p><l>retourner<s n="vblex"/></l><r>retornar<s n="vblex"/></r></p></e>
+      <e><p><l>retourner<s n="vblex"/></l><r>rentornar<s n="vblex"/></r></p></e> <!-- FIXME: rentornar pron -->
       <e><p><l>retourner<s n="vblex"/></l><r>revèrchiér<s n="vblex"/></r></p></e>
       <e><p><l>retourner<s n="vblex"/></l><r>veriolar<s n="vblex"/></r></p></e>
       <e><p><l>adorer<s n="vblex"/></l><r>adorar<s n="vblex"/></r></p></e>
@@ -568,6 +580,7 @@
 <e r="RL"><p><l>moment<s n="n"/><s n="m"/></l><r>vouarba<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>moment<s n="n"/><s n="m"/></l><r>pousa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>heure<s n="n"/><s n="f"/></l><r>hora<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>menotte<s n="n"/><s n="f"/></l><r>menota<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <p><l>janvier<s n="n"/><s n="m"/></l><r>janviér<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>février<s n="n"/><s n="m"/></l><r>fevriér<s n="n"/><s n="m"/></r></p></e>
