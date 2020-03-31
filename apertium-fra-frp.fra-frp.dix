@@ -473,6 +473,12 @@
 <e r="RL"><p><l>à<b/>côté<s n="adv"/></l><r>a<b/>coutâ<s n="adv"/></r></p></e>
 <e>       <p><l>alors<s n="adv"/></l><r>adonc<s n="adv"/></r></p></e>
 <e r="RL"><p><l>alors<s n="adv"/></l><r>alors<s n="adv"/></r></p></e>
+<e>       <p><l>à<b/>peu<b/>près<s n="adv"/></l><r>a<b/>pou<b/>prés<s n="adv"/></r></p></e>
+<e>       <p><l>presque<s n="adv"/></l><r>quâsi<s n="adv"/></r></p></e>
+<e r="RL"><p><l>presque<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
+<e r="RL"><p><l>presque<s n="adv"/></l><r>quâsiment<s n="adv"/></r></p></e>
+<e r="LR"><p><l>quasi<s n="adv"/></l><r>quâsi<s n="adv"/></r></p></e>
+<e r="LR"><p><l>quasiment<s n="adv"/></l><r>quâsiment<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
@@ -543,6 +549,8 @@
       <e><p><l>regarder<s n="vblex"/></l><r>regardar<s n="vblex"/></r></p></e>
       <e><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>recafar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>cafolar<s n="vblex"/></r></p></e>
+      <e><p><l>voir<s n="vblex"/></l><r>vêr<s n="vblex"/></r></p></e>
+      <e><p><l>finir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
