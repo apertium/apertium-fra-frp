@@ -375,6 +375,9 @@
 <e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>u<b/>lât<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>du<b/>lât<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>à<b/>côté<b/>de<s n="pr"/></l><r>du-râs<s n="pr"/></r></p></e>
+<e>       <p><l>près<b/>de<s n="pr"/></l><r>prés<b/>de<s n="pr"/></r></p></e>
+<e>       <p><l>à<b/>travers<s n="pr"/></l><r>a<b/>travèrs<s n="pr"/></r></p></e>
+<e>       <p><l>au<b/>travers<b/>de<s n="pr"/></l><r>u<b/>travèrs<b/>de<s n="pr"/></r></p></e>
 
 <e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
 
@@ -473,12 +476,37 @@
 <e r="RL"><p><l>à<b/>côté<s n="adv"/></l><r>a<b/>coutâ<s n="adv"/></r></p></e>
 <e>       <p><l>alors<s n="adv"/></l><r>adonc<s n="adv"/></r></p></e>
 <e r="RL"><p><l>alors<s n="adv"/></l><r>alors<s n="adv"/></r></p></e>
+<e>       <p><l>près<s n="adv"/></l><r>prés<s n="adv"/></r></p></e>
 <e>       <p><l>à<b/>peu<b/>près<s n="adv"/></l><r>a<b/>pou<b/>prés<s n="adv"/></r></p></e>
 <e>       <p><l>presque<s n="adv"/></l><r>quâsi<s n="adv"/></r></p></e>
 <e r="RL"><p><l>presque<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
 <e r="RL"><p><l>presque<s n="adv"/></l><r>quâsiment<s n="adv"/></r></p></e>
 <e r="LR"><p><l>quasi<s n="adv"/></l><r>quâsi<s n="adv"/></r></p></e>
 <e r="LR"><p><l>quasiment<s n="adv"/></l><r>quâsiment<s n="adv"/></r></p></e>
+<e>       <p><l>à<b/>travers<s n="adv"/></l><r>a<b/>travèrs<s n="adv"/></r></p></e>
+<e>       <p><l>là<s n="adv"/></l><r>lé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>ilé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>ique<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>inque<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>qué<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>iqué<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<s n="adv"/></l><r>inqué<s n="adv"/></r></p></e>
+<e>       <p><l>là-bas<s n="adv"/></l><r>drêt-lé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-bas<s n="adv"/></l><r>drêt-que<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-bas<s n="adv"/></l><r>lé-outre<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-bas<s n="adv"/></l><r>lé-en<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-bas<s n="adv"/></l><r>lé-en<s n="adv"/></r></p></e>
+<e>       <p><l>là-dedans<s n="adv"/></l><r>lé-en<s n="adv"/></r></p></e>
+<e>       <p><l>là-haut<s n="adv"/></l><r>lé-d'amont<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-haut<s n="adv"/></l><r>lé-hôt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-haut<s n="adv"/></l><r>lé-'n-hôt<s n="adv"/></r></p></e>
+<e>       <p><l>là<b/>en<b/>bas<s n="adv"/></l><r>lé-d'aval<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<b/>en<b/>bas<s n="adv"/></l><r>lé-bâs<s n="adv"/></r></p></e>
+<e>       <p><l>là<b/>en<b/>bas<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là<b/>en<b/>bas<s n="adv"/></l><r>lé-bâs<s n="adv"/></r></p></e>
+<e>       <p><l>alentour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
+<e r="LR"><p><l>a<b/>l'entour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
+<e r="RL"><p><l>alentour<s n="adv"/></l><r>a<b/>l'entôrn<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
@@ -550,7 +578,11 @@
       <e><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>recafar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>cafolar<s n="vblex"/></r></p></e>
       <e><p><l>voir<s n="vblex"/></l><r>vêr<s n="vblex"/></r></p></e>
+      <e><p><l>savoir<s n="vblex"/></l><r>savêr<s n="vblex"/></r></p></e>
       <e><p><l>finir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
+      <e><p><l>cacher<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>cacher<s n="vblex"/></l><r>recondre<s n="vblex"/></r></p></e>	<!-- FIXME: recondre pron -->
+      <e><p><l>écraser<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
@@ -580,6 +612,7 @@
 <e>       <p><l>arbre<s n="n"/><s n="m"/></l><r>âbro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>an<s n="n"/><s n="m"/></l><r>an<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mois<s n="n"/><s n="m"/></l><r>mês<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>travers<s n="n"/><s n="m"/></l><r>travèrs<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>animal<s n="n"/><s n="m"/></l><r>bétye<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>bête<s n="n"/><s n="m"/></l><r>bétye<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>animal<s n="n"/><s n="m"/></l><r>animâl<s n="n"/><s n="m"/></r></p></e>
@@ -599,6 +632,7 @@
 <e r="RL"><p><l>moment<s n="n"/><s n="m"/></l><r>pousa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>heure<s n="n"/><s n="f"/></l><r>hora<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>menotte<s n="n"/><s n="f"/></l><r>menota<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>alentour<s n="n"/><s n="m"/></l><r>alentôrn<s n="n"/><s n="m"/></r></p></e>
 
 <e>       <p><l>janvier<s n="n"/><s n="m"/></l><r>janviér<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>février<s n="n"/><s n="m"/></l><r>fevriér<s n="n"/><s n="m"/></r></p></e>
