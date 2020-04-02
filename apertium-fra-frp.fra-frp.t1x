@@ -5788,6 +5788,7 @@
        </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PRNSUBJ HAVERconj SER_PP > SER + SER_PP: j'ai été > soi estat">
        <pattern>
         <pattern-item n="prnsubj"/>
@@ -6423,6 +6424,7 @@
          </out>
        </action>
     </rule>
+-->
 
     <!-- FIN REGLAS CAMBI AUXILIAR -->
 
@@ -6958,7 +6960,8 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: PRNSUBJ NE VERB PREP PERSONNE/RIEN > VERB PAS PREP DEGUN/RES: il ne dit à personne > Jean ditz pas a degun">
+<!--
+    <rule comment="REGLA: PRNSUBJ NE VERB PREP PERSONNE/RIEN > VERB PAS PREP DEGUN/RES: il ne dit à personne > il ditz pas a degun">
       <pattern>
         <pattern-item n="prnsubj"/>
         <pattern-item n="ne"/>
@@ -7012,6 +7015,7 @@
          </out>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: NE AVOIR RIEN PP > AVER PAS PP RES: Jean n'a rien dit > Jean a diz pas res">
        <pattern>
@@ -7060,6 +7064,7 @@
        </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PRNSUBJ NE AVOIR RIEN PP > AVER PAS PP RES: il n'a rien dit > a diz pas res">
        <pattern>
          <pattern-item n="prnsubj"/>
@@ -7111,6 +7116,7 @@
          </out>
        </action>
     </rule>
+-->
 
     <rule comment="REGLA: NE PRNPRO AVOIR RIEN PP > PRNPRO AVER PAS PP RES: Jean ne lui a rien dit > Jean li a diz pas res">
        <pattern>
@@ -7166,6 +7172,7 @@
        </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PRNSUBJ NE PRNPRO AVOIR RIEN PP > PRNPRO AVER PAS PP RES: il ne lui a rien dit > li a diz pas res">
        <pattern>
          <pattern-item n="prnsubj"/>
@@ -7224,11 +7231,13 @@
          </out>
        </action>
     </rule>
+-->
 
   <!-- FIN REGLAS ELISION NE -->
 
   <!-- REGLAS ELISION SUBJECTE -->
 
+<!--
     <rule comment="REGLA: PRNSUBJ VERB (il arrive: arriba)">
       <pattern>
         <pattern-item n="prnsubj"/>
@@ -8241,6 +8250,7 @@
          </choose>
       </action>
     </rule>
+-->
 
   <!-- FIN REGLAS ELISION SUBJECTE -->
 
@@ -8299,6 +8309,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PRNSUBJ HAVER PP PRNPRO INF (ils auraient pu l'imaginer: l’aurián pogut imaginar)">
        <pattern>
          <pattern-item n="prnsubj"/>
@@ -8357,6 +8368,7 @@
          </out>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: HAVER ADV PP PRNPRO INF (auraient bien pu l'imaginer: l’aurián fòrça pogut imaginar)">
        <pattern>
@@ -8418,6 +8430,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PRNSUBJ HAVER ADV PP PRNPRO INF (ils auraient bien pu l'imaginer: l’aurián fòrça pogut imaginar)">
        <pattern>
          <pattern-item n="prnsubj"/>
@@ -8483,6 +8496,7 @@
          </out>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: NE HAVER ADV PP PRNPRO INF (n'auraient pas pu l'imaginer: l’aurián pas pogut imaginar; n'auraient jamais pu l'imaginer: l’aurián pas jamai pogut imaginar)">
        <pattern>
@@ -8658,6 +8672,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: prnsubj être en train de inf = verb-conj: il est en train de dormir > dòrm">
       <pattern>
         <pattern-item n="prnsubj"/>
@@ -8715,6 +8730,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: être en train de prnpro inf = prnpro verb-conj: est en train de lui dire > li ditz">
       <pattern>
@@ -8785,6 +8801,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: prnsubj être en train de prnpro inf = prnpro verb-conj: il est en train de lui dire > li ditz">
       <pattern>
         <pattern-item n="prnsubj"/>
@@ -8861,6 +8878,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: ne être pas en train de inf = verb-conj pas: Jean n'est pas en train de dormir > Jean dòrm pas">
       <pattern>
