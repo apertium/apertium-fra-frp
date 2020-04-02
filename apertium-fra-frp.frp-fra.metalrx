@@ -503,6 +503,20 @@
 
 <rules>
 
+<!-- **************** ADV **************** -->
+
+  <!-- lé-en >> là-dedans, là-bas -->
+  <rule weight="0.8">
+    <match lemma="lé-en" tags="vblex.*"><select lemma="là-dedans"/></match>
+  </rule>
+
+<!-- **************** V **************** -->
+
+  <!-- cachiér >> cacher, écraser -->
+  <rule weight="0.8">
+    <match lemma="cachiér" tags="vblex.*"><select lemma="cacher"/></match>
+  </rule>
+
 <!-- **************** NP **************** -->
 
   <macro name="noms_propres" p1="Jian" p2="Jean" />
