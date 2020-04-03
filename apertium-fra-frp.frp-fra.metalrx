@@ -503,11 +503,29 @@
 
 <rules>
 
+<!-- **************** PRN **************** -->
+
+  <!-- què >> que, quoi -->
+  <rule weight="0.8">
+    <match lemma="què" tags="prn.itg.*"><select lemma="que"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="què" tags="prn.itg.*"><select lemma="quoi"/></match>
+    <match tags="sent"/>
+  </rule>
+
+<!-- **************** PRN **************** -->
+
+  <!-- qui >> qui, celui qui -->
+  <rule weight="0.8">
+    <match lemma="qui" tags="rel.*"><select lemma="qui"/></match>
+  </rule>
+
 <!-- **************** ADV **************** -->
 
   <!-- lé-en >> là-dedans, là-bas -->
   <rule weight="0.8">
-    <match lemma="lé-en" tags="vblex.*"><select lemma="là-dedans"/></match>
+    <match lemma="lé-en" tags="adv"><select lemma="là-dedans"/></match>
   </rule>
 
 <!-- **************** V **************** -->
