@@ -30,6 +30,9 @@
     <def-cat n="adv">
       <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="advitg">
+      <cat-item tags="adv.itg"/>
+    </def-cat>
     <def-cat n="preadv">
       <cat-item tags="preadv"/>
     </def-cat>
@@ -2929,6 +2932,31 @@
     <rule comment="REGLA: ADV">
       <pattern>
         <pattern-item n="adv_preadv"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <modify-case><var n="lemma"/><lit v="aa"/></modify-case>
+        <out>
+          <chunk namefrom="lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ADVITG">
+      <pattern>
+        <pattern-item n="advitg"/>
       </pattern>
       <action>
         <call-macro n="firstWord">
