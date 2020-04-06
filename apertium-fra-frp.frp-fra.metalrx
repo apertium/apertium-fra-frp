@@ -530,6 +530,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- apondre >> ajouter, rattacher -->
+  <rule weight="0.8">
+    <match lemma="apondre" tags="vblex.*"><select lemma="ajouter"/></match>
+  </rule>
+
   <!-- cachiér >> cacher, écraser -->
   <rule weight="0.8">
     <match lemma="cachiér" tags="vblex.*"><select lemma="cacher"/></match>

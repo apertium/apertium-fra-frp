@@ -518,7 +518,8 @@
 <e r="RL"><p><l>là<b/>en<b/>bas<s n="adv"/></l><r>lé-bâs<s n="adv"/></r></p></e>
 <e>       <p><l>là<b/>en<b/>bas<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>là<b/>en<b/>bas<s n="adv"/></l><r>lé-bâs<s n="adv"/></r></p></e>
-<e>       <p><l>alentour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
+<e>       <p><l>autour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
+<e r="LR"><p><l>alentour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>l'entour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>alentour<s n="adv"/></l><r>a<b/>l'entôrn<s n="adv"/></r></p></e>
 
@@ -598,8 +599,61 @@
       <e r="RL"><p><l>cacher<s n="vblex"/></l><r>recondre<s n="vblex"/></r></p></e>	<!-- FIXME: recondre pron -->
       <e><p><l>écraser<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
       <e><p><l>venir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+      <e><p><l>advenir<s n="vblex"/></l><r>advenir<s n="vblex"/></r></p></e>
+      <e><p><l>convenir<s n="vblex"/></l><r>convenir<s n="vblex"/></r></p></e>
+      <e><p><l>devenir<s n="vblex"/></l><r>devenir<s n="vblex"/></r></p></e>
+      <e><p><l>intervenir<s n="vblex"/></l><r>entèrvenir<s n="vblex"/></r></p></e>
+      <e><p><l>parvenir<s n="vblex"/></l><r>parvenir<s n="vblex"/></r></p></e>
+      <e><p><l>parvenir<s n="vblex"/></l><r>aventar<s n="vblex"/></r></p></e>
+      <e><p><l>parvenir<s n="vblex"/></l><r>avengiér<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>atteindre<s n="vblex"/></l><r>avengiér<s n="vblex"/></r></p></e>
+      <e><p><l>prévenir<s n="vblex"/></l><r>prèvenir<s n="vblex"/></r></p></e>
+      <e><p><l>provenir<s n="vblex"/></l><r>provenir<s n="vblex"/></r></p></e>
+      <e><p><l>ressouvenir<s n="vblex"/></l><r>ressovenir<s n="vblex"/></r></p></e>
+      <e><p><l>revenir<s n="vblex"/></l><r>recampar<s n="vblex"/></r></p></e>
+      <e><p><l>revenir<s n="vblex"/></l><r>revenir<s n="vblex"/></r></p></e>
+      <e><p><l>souvenir<s n="vblex"/></l><r>sovenir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>souvenir<s n="vblex"/></l><r>soventar<s n="vblex"/></r></p></e>
+      <e><p><l>survenir<s n="vblex"/></l><r>survenir<s n="vblex"/></r></p></e>
       <e><p><l>dire<s n="vblex"/></l><r>dére<s n="vblex"/></r></p></e>
       <e><p><l>partir<s n="vblex"/></l><r>modar<s n="vblex"/></r></p></e>
+      <e><p><l>rire<s n="vblex"/></l><r>rire<s n="vblex"/></r></p></e>
+      <e><p><l>tenir<s n="vblex"/></l><r>tenir<s n="vblex"/></r></p></e>
+      <e><p><l>obtenir<s n="vblex"/></l><r>obtenir<s n="vblex"/></r></p></e>
+      <e><p><l>soutenir<s n="vblex"/></l><r>sotenir<s n="vblex"/></r></p></e>
+      <e><p><l>retenir<s n="vblex"/></l><r>retenir<s n="vblex"/></r></p></e>
+      <e><p><l>maintenir<s n="vblex"/></l><r>mantenir<s n="vblex"/></r></p></e>
+      <e><p><l>entretenir<s n="vblex"/></l><r>entretenir<s n="vblex"/></r></p></e>
+      <e><p><l>détenir<s n="vblex"/></l><r>dètenir<s n="vblex"/></r></p></e>
+      <e><p><l>contenir<s n="vblex"/></l><r>contenir<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>appartenir<s n="vblex"/></l><r>être<s n="vblex"/></r></p></e>	<!-- FIXME lui appartient > est à lui -->
+      <e><p><l>abstenir<s n="vblex"/></l><r>abstenir<s n="vblex"/></r></p></e>
+      <e><p><l>entendre<s n="vblex"/></l><r>aouire<s n="vblex"/></r></p></e>
+      <e><p><l>répondre<s n="vblex"/></l><r>rèpondre<s n="vblex"/></r></p></e>
+      <e><p><l>ajouter<s n="vblex"/></l><r>apondre<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>ajouter<s n="vblex"/></l><r>rapondre<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>ajouter<s n="vblex"/></l><r>ajoutar<s n="vblex"/></r></p></e>
+      <e><p><l>correspondre<s n="vblex"/></l><r>corrèspondre<s n="vblex"/></r></p></e>
+      <e><p><l>disjoindre<s n="vblex"/></l><r>dèpondre<s n="vblex"/></r></p></e>
+      <e><p><l>disjoindre<s n="vblex"/></l><r>dèjuendre<s n="vblex"/></r></p></e>
+      <e><p><l>rattacher<s n="vblex"/></l><r>apondre<s n="vblex"/></r></p></e>
+      <e><p><l>rattacher<s n="vblex"/></l><r>ratachiér<s n="vblex"/></r></p></e>
+      <e><p><l>lire<s n="vblex"/></l><r>liére<s n="vblex"/></r></p></e>
+      <e><p><l>écrire<s n="vblex"/></l><r>ècrire<s n="vblex"/></r></p></e>
+      <e><p><l>décrire<s n="vblex"/></l><r>dècrire<s n="vblex"/></r></p></e>
+      <e><p><l>inscrire<s n="vblex"/></l><r>enscrire<s n="vblex"/></r></p></e>
+      <e><p><l>frire<s n="vblex"/></l><r>frecassiér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>frire<s n="vblex"/></l><r>frire<s n="vblex"/></r></p></e>
+      <e><p><l>circonscrire<s n="vblex"/></l><r>circonscrire<s n="vblex"/></r></p></e>
+      <e><p><l>apporter<s n="vblex"/></l><r>aportar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>apporter<s n="vblex"/></l><r>aduire<s n="vblex"/></r></p></e>
+      <e><p><l>luire<s n="vblex"/></l><r>luire<s n="vblex"/></r></p></e>
+      <e><p><l>fuir<s n="vblex"/></l><r>fuire<s n="vblex"/></r></p></e>
+      <e><p><l>essuyer<s n="vblex"/></l><r>èssuyér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>essuyer<s n="vblex"/></l><r>rèssuyér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>essuyer<s n="vblex"/></l><r>èssuire<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>essuyer<s n="vblex"/></l><r>panar<s n="vblex"/></r></p></e>
+      <e><p><l>torcher<s n="vblex"/></l><r>torchiér<s n="vblex"/></r></p></e>
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
