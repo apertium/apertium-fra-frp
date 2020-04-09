@@ -523,9 +523,9 @@
 <e r="LR"><p><l>a<b/>l'entour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>alentour<s n="adv"/></l><r>a<b/>l'entôrn<s n="adv"/></r></p></e>
 
-      <e><p><l>être<s n="vbser"/></l><r>être<s n="vbser"/></r></p></e>
-      <e r="LR"><p><l>être<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sp"/></l><r>être<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>être<s n="vbser"/><s n="pp"/></l><r>être<s n="vbser"/><s n="pp"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
+      <e><p><l>être<s n="vbser"/></l><r>étre<s n="vbser"/></r></p></e>
+      <e r="LR"><p><l>être<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sp"/></l><r>étre<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>être<s n="vbser"/><s n="pp"/></l><r>étre<s n="vbser"/><s n="pp"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
       <e><p><l>avoir<s n="vbhaver"/></l><r>avêr<s n="vbhaver"/></r></p></e>
       <e><p><l>avoir<s n="vblex"/></l><r>avêr<s n="vblex"/></r></p></e>
       <e><p><l>aller<s n="vblex"/></l><r>alar<s n="vblex"/></r></p></e>
@@ -551,6 +551,8 @@
       <e><p><l>serrer<s n="vblex"/></l><r>cengllar<s n="vblex"/></r></p></e>
       <e><p><l>manger<s n="vblex"/></l><r>megiér<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>manger<s n="vblex"/></l><r>mengiér<s n="vblex"/></r></p></e>
+      <e><p><l>partager<s n="vblex"/></l><r>partagiér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>partager<s n="vblex"/></l><r>mèteyér<s n="vblex"/></r></p></e>
       <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>parler<s n="vblex"/></l><r>prègiér<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>parler<s n="vblex"/></l><r>prèchiér<s n="vblex"/></r></p></e>
@@ -565,6 +567,12 @@
       <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>dormir<s n="vblex"/></l><r>dromir<s n="vblex"/></r></p></e>
       <e><p><l>prendre<s n="vblex"/></l><r>prendre<s n="vblex"/></r></p></e>
+      <e><p><l>apprendre<s n="vblex"/></l><r>aprendre<s n="vblex"/></r></p></e>
+      <e><p><l>comprendre<s n="vblex"/></l><r>comprendre<s n="vblex"/></r></p></e>
+      <e><p><l>emprendre<s n="vblex"/></l><r>emprendre<s n="vblex"/></r></p></e>
+      <e><p><l>entreprendre<s n="vblex"/></l><r>entreprendre<s n="vblex"/></r></p></e>
+      <e><p><l>reprendre<s n="vblex"/></l><r>reprendre<s n="vblex"/></r></p></e>
+      <e><p><l>surprendre<s n="vblex"/></l><r>surprendre<s n="vblex"/></r></p></e>
       <e><p><l>ouvrir<s n="vblex"/></l><r>uvrir<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>ouvrir<s n="vblex"/></l><r>duvrir<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>ouvrir<s n="vblex"/></l><r>dèfremar<s n="vblex"/></r></p></e>
@@ -602,8 +610,8 @@
       <e><p><l>regarder<s n="vblex"/></l><r>regardar<s n="vblex"/></r></p></e>
       <e><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>recafar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></l><r>cafolar<s n="vblex"/></r></p></e>
-      <e><p><l>voir<s n="vblex"/></l><r>vêr<s n="vblex"/></r></p></e>
-      <e><p><l>entrevoir<s n="vblex"/></l><r>entrevêr<s n="vblex"/></r></p></e>
+      <e><p><l>voir<s n="vblex"/></l><r>vêre<s n="vblex"/></r></p></e>
+      <e><p><l>entrevoir<s n="vblex"/></l><r>entrevêre<s n="vblex"/></r></p></e>
       <e><p><l>savoir<s n="vblex"/></l><r>savêr<s n="vblex"/></r></p></e>
       <e><p><l>finir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
       <e><p><l>cacher<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
@@ -627,7 +635,12 @@
       <e r="RL"><p><l>souvenir<s n="vblex"/></l><r>soventar<s n="vblex"/></r></p></e>
       <e><p><l>survenir<s n="vblex"/></l><r>survenir<s n="vblex"/></r></p></e>
       <e><p><l>dire<s n="vblex"/></l><r>dére<s n="vblex"/></r></p></e>
-      <e><p><l>partir<s n="vblex"/></l><r>modar<s n="vblex"/></r></p></e>
+      <e><p><l>partir<s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>partir<s n="vblex"/></l><r>modar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>partir<s n="vblex"/></l><r>emmodar<s n="vblex"/></r></p></e>
+      <e><p><l>sortir<s n="vblex"/></l><r>sortir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>sortir<s n="vblex"/></l><r>salyir<s n="vblex"/></r></p></e>
+      <e><p><l>courir<s n="vblex"/></l><r>corir<s n="vblex"/></r></p></e>
       <e><p><l>rire<s n="vblex"/></l><r>rire<s n="vblex"/></r></p></e>
       <e><p><l>tenir<s n="vblex"/></l><r>tenir<s n="vblex"/></r></p></e>
       <e><p><l>obtenir<s n="vblex"/></l><r>obtenir<s n="vblex"/></r></p></e>
@@ -656,8 +669,44 @@
       <e r="LR"><p><l>frire<s n="vblex"/></l><r>frecassiér<s n="vblex"/></r></p></e>	<!-- VERIFY: frire ou faire frire ? -->
       <e i="yes"><p><l>frire<s n="vblex"/></l><r>frire<s n="vblex"/></r></p></e>	<!-- VERIFY: frire ou faire frire ? -->
       <e><p><l>circonscrire<s n="vblex"/></l><r>circonscrire<s n="vblex"/></r></p></e>
+      <e><p><l>porter<s n="vblex"/></l><r>portar<s n="vblex"/></r></p></e>
       <e><p><l>apporter<s n="vblex"/></l><r>aportar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>apporter<s n="vblex"/></l><r>aduire<s n="vblex"/></r></p></e>
+      <e><p><l>colporter<s n="vblex"/></l><r>colportar<s n="vblex"/></r></p></e>
+      <e><p><l>comporter<s n="vblex"/></l><r>comportar<s n="vblex"/></r></p></e>
+      <e><p><l>déporter<s n="vblex"/></l><r>dèportar<s n="vblex"/></r></p></e>
+      <e><p><l>emporter<s n="vblex"/></l><r>emportar<s n="vblex"/></r></p></e>
+      <e><p><l>exporter<s n="vblex"/></l><r>èxportar<s n="vblex"/></r></p></e>
+      <e><p><l>importer<s n="vblex"/></l><r>importar<s n="vblex"/></r></p></e>
+      <e><p><l>rapporter<s n="vblex"/></l><r>raportar<s n="vblex"/></r></p></e>
+      <e><p><l>remporter<s n="vblex"/></l><r>remportar<s n="vblex"/></r></p></e>
+      <e><p><l>reporter<s n="vblex"/></l><r>reportar<s n="vblex"/></r></p></e>
+      <e><p><l>supporter<s n="vblex"/></l><r>suportar<s n="vblex"/></r></p></e>
+      <e><p><l>transporter<s n="vblex"/></l><r>charrotar<s n="vblex"/></r></p></e>
+      <e><p><l>transporter<s n="vblex"/></l><r>transportar<s n="vblex"/></r></p></e>
+      <e><p><l>poser<s n="vblex"/></l><r>posar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>poser<s n="vblex"/></l><r>ponar<s n="vblex"/></r></p></e>
+      <e><p><l>composer<s n="vblex"/></l><r>composar<s n="vblex"/></r></p></e>
+      <e><p><l>décomposer<s n="vblex"/></l><r>dècomposar<s n="vblex"/></r></p></e>
+      <e><p><l>déposer<s n="vblex"/></l><r>dèposar<s n="vblex"/></r></p></e>
+      <e><p><l>disposer<s n="vblex"/></l><r>disposar<s n="vblex"/></r></p></e>
+      <e><p><l>entreposer<s n="vblex"/></l><r>entreposar<s n="vblex"/></r></p></e>
+      <e><p><l>exposer<s n="vblex"/></l><r>èxposar<s n="vblex"/></r></p></e>
+      <e><p><l>imposer<s n="vblex"/></l><r>emposar<s n="vblex"/></r></p></e>
+      <e><p><l>opposer<s n="vblex"/></l><r>oposar<s n="vblex"/></r></p></e>
+      <e><p><l>proposer<s n="vblex"/></l><r>proposar<s n="vblex"/></r></p></e>
+      <e><p><l>reposer<s n="vblex"/></l><r>reposar<s n="vblex"/></r></p></e>
+      <e><p><l>supposer<s n="vblex"/></l><r>suposar<s n="vblex"/></r></p></e>
+      <e><p><l>demeurer<s n="vblex"/></l><r>demorar<s n="vblex"/></r></p></e>
+      <e><p><l>rester<s n="vblex"/></l><r>réster<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>rester<s n="vblex"/></l><r>sobrar<s n="vblex"/></r></p></e>
+      <e><p><l>servir<s n="vblex"/></l><r>sèrvir<s n="vblex"/></r></p></e>
+      <e><p><l>recevoir<s n="vblex"/></l><r>recevêr<s n="vblex"/></r></p></e>
+      <e><p><l>asseoir<s n="vblex"/></l><r>assietar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>asseoir<s n="vblex"/></l><r>sietar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>asseoir<s n="vblex"/></l><r>assetar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>asseoir<s n="vblex"/></l><r>rassietar<s n="vblex"/></r></p></e>
+
       <e><p><l>luire<s n="vblex"/></l><r>luire<s n="vblex"/></r></p></e>
       <e><p><l>fuir<s n="vblex"/></l><r>fuire<s n="vblex"/></r></p></e>
       <e><p><l>essuyer<s n="vblex"/></l><r>èssuyér<s n="vblex"/></r></p></e>
@@ -671,6 +720,7 @@
       <e><p><l>détruire<s n="vblex"/></l><r>dètruire<s n="vblex"/></r></p></e>
       <e><p><l>instruire<s n="vblex"/></l><r>enstruire<s n="vblex"/></r></p></e>
       <e><p><l>introduire<s n="vblex"/></l><r>entroduire<s n="vblex"/></r></p></e>
+<!-- 2e : la deuxième personne du présent, sans le -s (sauf sôrs, pârs, sers, et peut-être quelques autres qui seraient difficile à comprendre) -->
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
@@ -721,6 +771,8 @@
 <e>       <p><l>heure<s n="n"/><s n="f"/></l><r>hora<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>menotte<s n="n"/><s n="f"/></l><r>menota<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>alentour<s n="n"/><s n="m"/></l><r>alentôrn<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>partie<s n="n"/><s n="f"/></l><r>partia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>partie<s n="n"/><s n="f"/></l><r>empartia<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <p><l>janvier<s n="n"/><s n="m"/></l><r>janviér<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>février<s n="n"/><s n="m"/></l><r>fevriér<s n="n"/><s n="m"/></r></p></e>

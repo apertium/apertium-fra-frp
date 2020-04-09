@@ -570,6 +570,11 @@
 
 <!-- **************** V **************** -->
 
+  <!-- transporter >> charrotar, transportar -->
+  <rule weight="0.8">
+    <match lemma="transporter" tags="vblex.*"><select lemma="charrotar"/></match>
+  </rule>
+
   <!-- rattacher >> apondre, ratachiér -->
   <rule weight="0.8">
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
