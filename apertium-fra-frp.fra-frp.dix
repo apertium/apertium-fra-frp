@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>aAáÁàÀâÂäÄăảạÆbBcCçÇčćdDÐeEéÉèÈêÊëËfFgGhHiIíÍîÎïÏjJkKlLmMnNoOóÓòÒöÖpPqQrRsSšştTŢuUúÚùÙûÛüÜvVwWxXyYzZœæŒ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -522,6 +522,12 @@
 <e r="LR"><p><l>alentour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>l'entour<s n="adv"/></l><r>alentôrn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>alentour<s n="adv"/></l><r>a<b/>l'entôrn<s n="adv"/></r></p></e>
+<e>       <p><l>ainsi<s n="adv"/></l><r>ense<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ainsi<s n="adv"/></l><r>d'ense<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ainsi<s n="adv"/></l><r>ensé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ainsi<s n="adv"/></l><r>d'inse<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ainsi<s n="adv"/></l><r>asse<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ainsi<s n="adv"/></l><r>assé<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>étre<s n="vbser"/></r></p></e>
       <e r="LR"><p><l>être<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sp"/></l><r>étre<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -566,6 +572,8 @@
       <e><p><l>manquer<s n="vblex"/></l><r>mancar<s n="vblex"/></r></p></e>
       <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>dormir<s n="vblex"/></l><r>dromir<s n="vblex"/></r></p></e>
+      <e><p><l>endormir<s n="vblex"/></l><r>endormir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>endormir<s n="vblex"/></l><r>endromir<s n="vblex"/></r></p></e>
       <e><p><l>prendre<s n="vblex"/></l><r>prendre<s n="vblex"/></r></p></e>
       <e><p><l>apprendre<s n="vblex"/></l><r>aprendre<s n="vblex"/></r></p></e>
       <e><p><l>comprendre<s n="vblex"/></l><r>comprendre<s n="vblex"/></r></p></e>
@@ -614,8 +622,11 @@
       <e><p><l>entrevoir<s n="vblex"/></l><r>entrevêre<s n="vblex"/></r></p></e>
       <e><p><l>savoir<s n="vblex"/></l><r>savêr<s n="vblex"/></r></p></e>
       <e><p><l>finir<s n="vblex"/></l><r>fenir<s n="vblex"/></r></p></e>
+      <e i="yes"><p><l>finir<s n="vblex"/></l><r>fornir<s n="vblex"/></r></p></e>
+      <e><p><l>fournir<s n="vblex"/></l><r>fornir<s n="vblex"/></r></p></e>
       <e><p><l>cacher<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
-      <e r="RL"><p><l>cacher<s n="vblex"/></l><r>recondre<s n="vblex"/></r></p></e>	<!-- FIXME: recondre pron -->
+      <e r="RL"><p><l>cacher<s n="vblex"/></l><r>recondre<s n="vblex"/></r></p></e>	<!-- FIXME: cacher pron -->
+      <e r="RL"><p><l>cacher<s n="vblex"/></l><r>ècondre<s n="vblex"/></r></p></e>	<!-- FIXME: cacher pron -->
       <e><p><l>écraser<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
       <e><p><l>venir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
       <e><p><l>advenir<s n="vblex"/></l><r>advenir<s n="vblex"/></r></p></e>
@@ -700,6 +711,21 @@
       <e><p><l>demeurer<s n="vblex"/></l><r>demorar<s n="vblex"/></r></p></e>
       <e><p><l>rester<s n="vblex"/></l><r>réster<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>rester<s n="vblex"/></l><r>sobrar<s n="vblex"/></r></p></e>
+      <e><p><l>acheter<s n="vblex"/></l><r>achetar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>acheter<s n="vblex"/></l><r>agetar<s n="vblex"/></r></p></e>
+      <e><p><l>racheter<s n="vblex"/></l><r>rachetar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>racheter<s n="vblex"/></l><r>ragetar<s n="vblex"/></r></p></e>
+      <e><p><l>peigner<s n="vblex"/></l><r>pegnér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>peigner<s n="vblex"/></l><r>penar<s n="vblex"/></r></p></e>
+      <e><p><l>dépeigner<s n="vblex"/></l><r>dèpegnér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>dépeigner<s n="vblex"/></l><r>dèpenar<s n="vblex"/></r></p></e>
+      <e><p><l>abriter<s n="vblex"/></l><r>abritar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>abriter<s n="vblex"/></l><r>avrelyér<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>abriter<s n="vblex"/></l><r>assotar<s n="vblex"/></r></p></e>
+      <e><p><l>peser<s n="vblex"/></l><r>pesar<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>peser<s n="vblex"/></l><r>apesar<s n="vblex"/></r></p></e>
+      <e><p><l>repeser<s n="vblex"/></l><r>repesar<s n="vblex"/></r></p></e>
+
       <e><p><l>servir<s n="vblex"/></l><r>sèrvir<s n="vblex"/></r></p></e>
       <e><p><l>recevoir<s n="vblex"/></l><r>recevêr<s n="vblex"/></r></p></e>
       <e><p><l>asseoir<s n="vblex"/></l><r>assietar<s n="vblex"/></r></p></e>
@@ -720,7 +746,6 @@
       <e><p><l>détruire<s n="vblex"/></l><r>dètruire<s n="vblex"/></r></p></e>
       <e><p><l>instruire<s n="vblex"/></l><r>enstruire<s n="vblex"/></r></p></e>
       <e><p><l>introduire<s n="vblex"/></l><r>entroduire<s n="vblex"/></r></p></e>
-<!-- 2e : la deuxième personne du présent, sans le -s (sauf sôrs, pârs, sers, et peut-être quelques autres qui seraient difficile à comprendre) -->
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
