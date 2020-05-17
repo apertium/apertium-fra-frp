@@ -495,6 +495,7 @@
       <match lemma="neuvième" tags="adj.*"/>
       <match lemma="dixième" tags="adj.*"/>
       <match lemma="dernier" tags="adj.*"/>
+      <match lemma="Ier" tags="adj.*"/>
       <match lemma="1er" tags="adj.*"/>
       <match lemma="2nd" tags="adj.*"/>
       <match lemma="3ème" tags="adj.*"/>
@@ -505,10 +506,52 @@
 
 <!-- **************** N **************** -->
 
-  <!-- fille >> menât/megnât, fill -->
+  <!-- place >> place, plâtro -->
+  <rule weight="0.8">
+    <match lemma="place" tags="n.*"><select lemma="place"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <or>
+      <match tags="n.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="grand" tags="adj.*"/>
+    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
+    <or>
+      <match lemma="central" tags="adj.*"/>
+      <match lemma="royal" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <seq n="adj_ord"/>
+    </or>
+    <match lemma="place" tags="n.*"><select lemma="place"/></match>
+  </rule>
+
+  <!-- fille >> felye, etc. -->
   <rule weight="0.8">
     <match lemma="fille" tags="n.*"><select lemma="felye"/></match>
   </rule>
+  <!-- fille >> menât/megnât, fill -->
 <!--
   <rule weight="0.8">
     <match lemma="fille" tags="n.*"><select lemma="menât"/></match>
@@ -566,6 +609,51 @@
       <match lemma="neiger" tags="vblex.*"/>
       <match lemma="geler" tags="vblex.*"/>
     </or>
+  </rule>
+
+  <!-- cela, ceci, ce >> cen, ço, ce, quen, iquen -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="cela" tags="prn.*"><select lemma="cen"/></match>
+      <match lemma="ceci" tags="prn.*"><select lemma="cen"/></match>
+      <match lemma="ce" tags="prn.*"><select lemma="cen"/></match>
+    </or>
+  </rule>
+
+<!-- **************** POSTADV **************** -->
+
+  <!-- ci >> ce, cé, que, qué -->
+  <rule weight="0.8">
+    <match lemma="ci" tags="postadv"><select lemma="cé"/></match>
+  </rule>
+
+  <!-- là >> lé, que, qué -->
+  <rule weight="0.8">
+    <match lemma="là" tags="postadv"><select lemma="lé"/></match>
+  </rule>
+
+<!-- **************** ADV **************** -->
+
+  <!-- plus >> més, pas més -->
+  <rule weight="0.8">
+    <match lemma="plus" tags="adv"><select lemma="més"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ne" tags="adv"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.*"/>
+    </repeat>
+    <or><match tags="vblex.*"/><match tags="vbser.*"/><match tags="vbhaver.*"/><match tags="vbmod.*"/></or>
+    <match lemma="plus" tags="adv"><select lemma="pas més"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ne" tags="adv"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.*"/>
+    </repeat>
+    <or><match tags="vblex.*"/><match tags="vbser.*"/><match tags="vbhaver.*"/><match tags="vbmod.*"/></or>
+    <match tags="adv"/>
+    <match lemma="plus" tags="adv"><select lemma="pas més"/></match>
   </rule>
 
 <!-- **************** V **************** -->

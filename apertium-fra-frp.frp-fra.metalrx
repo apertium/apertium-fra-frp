@@ -514,11 +514,63 @@
     <match tags="sent"/>
   </rule>
 
-<!-- **************** PRN **************** -->
+  <!-- cél, quél, iquél >> celui-là, celui -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="cél" tags="prn.*"><select lemma="celui-là"/></match>
+      <match lemma="quél" tags="prn.*"><select lemma="celui-là"/></match>
+      <match lemma="iquél" tags="prn.*"><select lemma="celui-là"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="cél" tags="prn.*"><select lemma="celui"/></match>
+      <match lemma="quél" tags="prn.*"><select lemma="celui"/></match>
+      <match lemma="iquél" tags="prn.*"><select lemma="celui"/></match>
+    </or>
+    <or> 
+      <match tags="rel.*"/>
+      <match tags="pr"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="cél" tags="prn.*"><select lemma="celui"/></match>
+      <match lemma="quél" tags="prn.*"><select lemma="celui"/></match>
+      <match lemma="iquél" tags="prn.*"><select lemma="celui"/></match>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
+  <!-- ço, ce, cen, quen, iquen >> cela, ceci, ce -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="ço" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="ce" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="cen" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="quen" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="iquen" tags="prn.*"><select lemma="cela"/></match>
+    </or>
+  </rule>
+
+<!-- **************** REL **************** -->
 
   <!-- qui >> qui, celui qui -->
   <rule weight="0.8">
     <match lemma="qui" tags="rel.*"><select lemma="qui"/></match>
+  </rule>
+
+<!-- **************** POSTADV **************** -->
+
+  <!-- que, qué >> ci, là -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="que" tags="postadv"><select lemma="là"/></match>
+      <match lemma="qué" tags="postadv"><select lemma="là"/></match>
+    </or>
   </rule>
 
 <!-- **************** ADV **************** -->
