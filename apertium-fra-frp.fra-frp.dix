@@ -287,6 +287,16 @@
 <e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>lyœr<s n="det"/><s n="pos"/></r></p></e>
 <e r="RL"><p><l>leur<s n="det"/><s n="pos"/></l><r>loron<s n="det"/><s n="pos"/></r></p><par n="mf_GD"/></e>
 
+<e>       <p><l>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
+<e>       <p><l>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
+<e>       <p><l>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
+<e>       <p><l>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+<e>       <p><l>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+<e>       <p><l>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+<e r="RL"><p><l>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+<e r="RL"><p><l>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+<e r="RL"><p><l>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/></l><r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mon_mon"/></e>
+
 <e>       <p><l>ce<s n="det"/><s n="dem"/></l><r>cet<s n="det"/><s n="dem"/></r></p><par n="mon_mon"/></e>
 <e r="RL"><p><l>ce<s n="det"/><s n="dem"/></l><r>iquet<s n="det"/><s n="dem"/></r></p><par n="mon_mon"/></e>
 <e r="RL"><p><l>ce<s n="det"/><s n="dem"/></l><r>quet<s n="det"/><s n="dem"/></r></p><par n="mon_mon"/></e>
