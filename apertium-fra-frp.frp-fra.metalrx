@@ -592,6 +592,27 @@
     <match lemma="cachiér" tags="vblex.*"><select lemma="cacher"/></match>
   </rule>
 
+  <!-- venir, vegnir >> venir, devenir -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+      <match lemma="vegnir" tags="vblex.*"><select lemma="venir"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="venir" tags="vblex.*"><select lemma="devenir"/></match>
+      <match lemma="vegnir" tags="vblex.*"><select lemma="devenir"/></match>
+    </or>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
 <!-- **************** NP **************** -->
 
   <macro name="noms_propres" p1="Jian" p2="Jean" />

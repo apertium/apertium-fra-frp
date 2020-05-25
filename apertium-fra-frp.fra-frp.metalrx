@@ -693,6 +693,11 @@
     <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
   </rule>
 
+  <!-- devenir >> venir, devegnir, devenir -->
+  <rule weight="0.8">
+    <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+  </rule>
+
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">
     <match lemma="jouer" tags="vblex.*"><select lemma="jouyér"/></match>
