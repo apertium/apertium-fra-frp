@@ -381,6 +381,9 @@
 <e>       <p><l>rien<s n="prn"/><s n="tn"/><s n="nt"/></l><r>ren<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>quelque<b/>chose<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>quârque-ren<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
+<e>       <p r="LR"><l>tous<b/>les<b/>deux<s n="prn"/><s n="tn"/></l><r>ambedoux<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
+<e>       <p r="RL"><l>les<b/>deux<s n="prn"/><s n="tn"/></l><r>ambedoux<s n="prn"/><s n="tn"/></r></p></e>
+
 <e>       <p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
 <e>       <p><l>avec<s n="pr"/></l><r>avouéc<s n="pr"/></r></p></e>
@@ -440,6 +443,9 @@
 <e r="RL"><p><l>quand<s n="cnjadv"/></l><r>quora<s n="cnjadv"/></r></p></e>
 <e>       <p><l>or<s n="cnjadv"/></l><r>ben<b/>sûr<s n="cnjadv"/></r></p></e>
 <e>       <p><l>avant<b/>que<s n="cnjadv"/></l><r>devant<b/>que<s n="cnjadv"/></r></p></e>
+<e>       <p><l>car<s n="cnjadv"/></l><r>câr<s n="cnjadv"/></r></p></e>
+<e>       <p><l>donc<s n="cnjadv"/></l><r>donc<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>donc<s n="cnjadv"/></l><r>vêr<s n="cnjadv"/></r></p></e>
 
 <e>       <p><l>que<s n="rel"/><s n="mf"/><s n="sp"/></l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>qui<s n="rel"/><s n="mf"/><s n="sp"/></l><r>qui<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -621,7 +627,14 @@
 <e r="RL"><p><l>au<b/>loin<s n="adv"/></l><r>viâ<s n="adv"/></r></p></e>
 <e>       <p><l>quand<b/>même<s n="adv"/></l><r>quand<b/>mémo<s n="adv"/></r></p></e>
 <e>       <p><l>même<s n="adv"/></l><r>mémament<s n="adv"/></r></p></e>
-<e i="RL"><p><l>même<s n="adv"/></l><r>nios<s n="adv"/></r></p></e>
+<e r="RL"><p><l>même<s n="adv"/></l><r>nios<s n="adv"/></r></p></e>
+<e>       <p><l>encore<s n="adv"/></l><r>oncora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>encore<s n="adv"/></l><r>oncor<s n="adv"/></r></p></e>
+<e r="RL"><p><l>encore<s n="adv"/></l><r>encora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>encore<s n="adv"/></l><r>encor<s n="adv"/></r></p></e>
+<e>       <p><l>tant<s n="adv"/></l><r>tant<s n="adv"/></r></p></e>
+<e>       <p><l>tellement<s n="adv"/></l><r>tâlament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tellement<s n="adv"/></l><r>tèlament<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>étre<s n="vbser"/></r></p></e>
       <e r="LR"><p><l>être<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sp"/></l><r>étre<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -723,9 +736,12 @@
       <e r="RL"><p><l>cacher<s n="vblex"/></l><r>ècondre<s n="vblex"/></r></p></e>	<!-- FIXME: cacher pron -->
       <e><p><l>écraser<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
       <e><p><l>venir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>venir<s n="vblex"/></l><r>vegnir<s n="vblex"/></r></p></e>
       <e><p><l>advenir<s n="vblex"/></l><r>advenir<s n="vblex"/></r></p></e>
       <e><p><l>convenir<s n="vblex"/></l><r>convenir<s n="vblex"/></r></p></e>
       <e><p><l>devenir<s n="vblex"/></l><r>devenir<s n="vblex"/></r></p></e>
+      <e><p><l>devenir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>devegnir<s n="vblex"/></l><r>vegnir<s n="vblex"/></r></p></e>
       <e><p><l>intervenir<s n="vblex"/></l><r>entèrvenir<s n="vblex"/></r></p></e>
       <e><p><l>parvenir<s n="vblex"/></l><r>parvenir<s n="vblex"/></r></p></e>
       <e><p><l>parvenir<s n="vblex"/></l><r>aventar<s n="vblex"/></r></p></e>
@@ -904,6 +920,15 @@
 <e r="RL"><p><l>place<s n="n"/><s n="f"/></l><r>pôsto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>place<s n="n"/><s n="f"/></l><r>plâtro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>devant<s n="n"/><s n="m"/></l><r>devant<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>homme<s n="n"/><s n="m"/></l><r>homo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>homme<s n="n"/><s n="m"/></l><r>home<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ciel<s n="n"/><s n="m"/></l><r>cièl<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>jour<s n="n"/><s n="m"/></l><r>jorn<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>royaume<s n="n"/><s n="m"/></l><r>royômo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mort<s n="n"/><s n="f"/></l><r>môrt<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>roi<s n="n"/><s n="m"/></l><r>rê<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>seigneur<s n="n"/><s n="m"/></l><r>sègnor<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dieu<s n="n"/><s n="m"/></l><r>diô<s n="n"/><s n="m"/></r></p></e>
 
 <e>       <p><l>janvier<s n="n"/><s n="m"/></l><r>janviér<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>février<s n="n"/><s n="m"/></l><r>fevriér<s n="n"/><s n="m"/></r></p></e>
@@ -953,6 +978,8 @@
 <e>       <p><l>Ier<s n="adj"/></l><r>Iiér<s n="adj"/></r></p></e>
 <e>       <p><l>plein<s n="adj"/></l><r>plen<s n="adj"/></r></p></e>
 <e>       <p><l>gaillard<s n="adj"/></l><r>galyârd<s n="adj"/></r></p></e>
+<e>       <p><l>mort<s n="adj"/></l><r>môrt<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mort<s n="adj"/></l><r>muert<s n="adj"/></r></p></e>
 
 <e>       <p><l>français<s n="adj"/></l><r>francès<s n="adj"/></r></p></e>
 <e>       <p><l>français<s n="n"/></l><r>francès<s n="n"/></r></p></e>
