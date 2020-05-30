@@ -506,6 +506,78 @@
 
 <!-- **************** N **************** -->
 
+  <!-- siège >> èscabél, sièta, sièjo -->
+  <rule weight="0.8">
+    <match lemma="siège" tags="n.*"><select lemma="èscabél"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="siège" tags="n.*"><select lemma="sièjo"/></match>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="siège" tags="n.*"><select lemma="sièjo"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="ville" tags="n.*"/>
+      <match lemma="château" tags="n.*"/>
+      <match lemma="château-fort" tags="n.*"/>
+      <match lemma="forteresse" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="siège" tags="n.*"><select lemma="sièta"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="voiture" tags="n.*"/>
+      <match lemma="auto" tags="n.*"/>
+      <match lemma="automobile" tags="n.*"/>
+      <match lemma="camion" tags="n.*"/>
+      <match lemma="autobus" tags="n.*"/>
+      <match lemma="autocar" tags="n.*"/>
+      <match lemma="bus" tags="n.*"/>
+      <match lemma="car" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="voiture" tags="n.*"/>
+      <match lemma="auto" tags="n.*"/>
+      <match lemma="automobile" tags="n.*"/>
+      <match lemma="camion" tags="n.*"/>
+      <match lemma="autobus" tags="n.*"/>
+      <match lemma="autocar" tags="n.*"/>
+      <match lemma="bus" tags="n.*"/>
+      <match lemma="car" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="siège" tags="n.*"><select lemma="sièta"/></match>
+  </rule>
+
+  <!-- sœur >> suèra, seror, sœr, sor -->
+  <rule weight="0.8">
+    <match lemma="sœur" tags="n.*"><select lemma="suèra"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sœur" tags="n.*"><select lemma="sœr"/></match>
+    <match tags="np.ant.*"/>
+  </rule>
+
+
+  <!-- sœur >> suèra, seror, sœr, sor -->
+  <rule weight="0.8">
+    <match lemma="sœur" tags="n.*"><select lemma="suèra"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sœur" tags="n.*"><select lemma="sœr"/></match>
+    <match tags="np.ant.*"/>
+  </rule>
+
   <!-- place >> place, plâtro -->
   <rule weight="0.8">
     <match lemma="place" tags="n.*"><select lemma="place"/></match>
