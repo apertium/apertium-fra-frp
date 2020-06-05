@@ -506,6 +506,23 @@
 
 <!-- **************** N **************** -->
 
+  <!-- dé >> diél, diâl, dê -->
+  <rule weight="0.8">
+    <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
+  </rule>
+
+  <!-- pêche >> pêche, pêrche -->
+  <rule weight="0.8">
+    <match lemma="pêche" tags="n.*"><select lemma="pêche"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pêche" tags="n.f.pl"><select lemma="pêrche"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un" tags="det.*"/>
+    <match lemma="pêche" tags="n.*"><select lemma="pêrche"/></match>
+  </rule>
+
   <!-- siège >> èscabél, sièta, sièjo -->
   <rule weight="0.8">
     <match lemma="siège" tags="n.*"><select lemma="èscabél"/></match>
@@ -667,20 +684,336 @@
 
 <!-- **************** PRN **************** -->
 
-  <!-- il >> il, o -->
+  <!-- je >> je/ye, jo/yo -->
+  <rule weight="0.8">
+    <match lemma="je" tags="prn.*"><select lemma="je"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*.p1.sg"/>
+      <match tags="vbhaver.*.p1.sg"/>
+      <match tags="vblex.*.p1.sg"/>
+      <match tags="vbmod.*.p1.sg"/>
+    </or>
+    <match lemma="je" tags="prn.*"><select lemma="jo"/></match>
+  </rule>
+
+  <!-- tu >> te, tu -->
+  <rule weight="0.8">
+    <match lemma="tu" tags="prn.*"><select lemma="te"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*.p2.sg"/>
+      <match tags="vbhaver.*.p2.sg"/>
+      <match tags="vblex.*.p2.sg"/>
+      <match tags="vbmod.*.p2.sg"/>
+    </or>
+    <match lemma="tu" tags="prn.*"><select lemma="tu"/></match>
+  </rule>
+
+  <!-- il >> il, o, lui, lor -->
   <rule weight="0.8">
     <match lemma="il" tags="prn.*"><select lemma="il"/></match>
   </rule>
+
   <rule weight="1.0">
-    <match lemma="il" tags="prn.*"><select lemma="p"/></match>
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
     <or>
-      <match lemma="pleuvoir" tags="vblex.*"/>
-      <match lemma="neiger" tags="vblex.*"/>
-      <match lemma="geler" tags="vblex.*"/>
+      <match lemma="pleuvoir" tags="vblex.*.p3.sg"/>
+      <match lemma="neiger" tags="vblex.*.p3.sg"/>
+      <match lemma="geler" tags="vblex.*.p3.sg"/>
+      <match lemma="falloir" tags="vblex.*.p3.sg"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="pleuvoir" tags="vblex.pp.*"/>
+      <match lemma="neiger" tags="vblex.pp.*"/>
+      <match lemma="geler" tags="vblex.pp.*"/>
+      <match lemma="falloir" tags="vblex.pp.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="pleuvoir" tags="vblex.pp.*"/>
+      <match lemma="neiger" tags="vblex.pp.*"/>
+      <match lemma="geler" tags="vblex.pp.*"/>
+      <match lemma="falloir" tags="vblex.pp.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="pleuvoir" tags="vblex.inf"/>
+      <match lemma="neiger" tags="vblex.inf"/>
+      <match lemma="geler" tags="vblex.inf"/>
+      <match lemma="falloir" tags="vblex.inf"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="pleuvoir" tags="vblex.inf"/>
+      <match lemma="neiger" tags="vblex.inf"/>
+      <match lemma="geler" tags="vblex.inf"/>
+      <match lemma="falloir" tags="vblex.inf"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="faire" tags="vblex.*.p3.sg"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="faire" tags="vblex.*.p3.sg"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.pp.*"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.pp.*"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.pp.*"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.pp.*"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="pr"/>
+    <match lemma="il" tags="prn.tn.p3.*.sg"><select lemma="lui"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="pr"/>
+    <match lemma="il" tags="prn.tn.p3.*.pl"><select lemma="lor"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.tn.p3.f.sg"><select lemma="lui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <match lemma="il" tags="prn.tn.p3.f.sg"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.tn.p3.f.pl"><select lemma="lor"/></match>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <match lemma="il" tags="prn.tn.p3.f.pl"/>
   </rule>
 
   <!-- cela, ceci, ce >> cen, ço, ce, quen, iquen -->
@@ -690,6 +1023,97 @@
       <match lemma="ceci" tags="prn.*"><select lemma="cen"/></match>
       <match lemma="ce" tags="prn.*"><select lemma="cen"/></match>
     </or>
+  </rule>
+
+  <!-- le (prn.pro) >> lo, o -->
+  <rule weight="0.8">
+    <match lemma="le" tags="prn.pro.p3.m.sg"><select lemma="lo"  tags="prn.pro.p3.m.sg"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="le" tags="prn.pro.p3.m.sg"><select lemma="lo"  tags="prn.pro.p3.nt"/></match>
+    <match lemma="faire" tags="vblex.*"/>
+  </rule>
+
+  <!-- le (prn.enc) >> lo, o -->
+  <rule weight="0.8">
+    <match lemma="le" tags="prn.enc.p3.m.sg"><select lemma="lo"  tags="prn.enc.p3.m.sg"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="faire" tags="vblex.*"/>
+    <match lemma="le" tags="prn.enc.p3.m.sg"><select lemma="lo"  tags="prn.enc.p3.nt"/></match>
+  </rule>
+
+  <!-- un >> un, yon -->
+  <rule weight="0.8">
+    <match lemma="un" tags="prn.*"><select lemma="un"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv.*"/>
+        <match tags="cnjadv.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+      <match tags="vblex.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match tags="det.*"/>
+    <match lemma="un" tags="prn.*"><select lemma="un"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv.*"/>
+        <match tags="cnjadv.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+      <match tags="vblex.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="prn.pro.adv"/>
+    <or>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+      <match tags="vblex.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv.*"/>
+        <match tags="cnjadv.*"/>
+      </or>
+    </repeat>
+    <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="prn.pro.adv"/>
+    <match tags="vbhaver.*"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv.*"/>
+        <match tags="cnjadv.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="vbser.pp.*"/>
+      <match tags="vbhaver.pp.*"/>
+      <match tags="vblex.pp.*"/>
+      <match tags="vbmod.pp.*"/>
+    </or>
+    <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
   </rule>
 
 <!-- **************** POSTADV **************** -->
