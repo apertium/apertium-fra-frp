@@ -684,6 +684,11 @@
 
 <!-- **************** PRN **************** -->
 
+  <!-- avant >> avant, devant -->
+  <rule weight="0.8">
+    <match lemma="avant" tags="pr.*"><select lemma="avant"/></match>
+  </rule>
+
   <!-- je >> je/ye, jo/yo -->
   <rule weight="0.8">
     <match lemma="je" tags="prn.*"><select lemma="je"/></match>
