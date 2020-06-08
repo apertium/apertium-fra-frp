@@ -44,10 +44,9 @@
     </def-cat>
     <def-cat n="PREP">
       <cat-item tags="PREP"/>
-      <cat-item tags="PREP.*"/>
     </def-cat>
     <def-cat n="PREP_de">
-      <cat-item tags="PREP.de"/>
+      <cat-item lemma="de" tags="PREP"/>
     </def-cat>
     <def-cat n="SENT_PREP_CNJ_REL">
       <cat-item tags="SENT"/>

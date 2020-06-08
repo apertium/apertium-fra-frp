@@ -491,7 +491,7 @@
       <list-item v="aucun"/>
     </def-list>
 
-    <def-list n="verbs_amb_partitiu">
+    <def-list n="verbs_amb_partitiu">	<!-- cal frp -->
       <list-item v="aculhir"/>
       <list-item v="acuélher"/>
       <list-item v="agropar"/>
@@ -556,172 +556,6 @@
 <!--      <list-item v="utilizar"/> -->
 <!--      <list-item v="vendre"/> -->
 <!--      <list-item v="voler"/> -->
-    </def-list>
-
-    <def-list n="lang_dial">
-      <list-item v="portugais"/>
-      <list-item v="espagnol"/>
-      <list-item v="catalan"/>
-      <list-item v="valencien"/>
-      <list-item v="majorquin"/>
-      <list-item v="minorquin"/>
-      <list-item v="ibizois"/>
-      <list-item v="baléare"/>
-      <list-item v="alguérois"/>
-      <list-item v="roussillonnais"/>
-      <list-item v="aragonais"/>
-      <list-item v="asturien"/>
-      <list-item v="léonais"/>
-      <list-item v="mirandais"/>
-      <list-item v="basque"/>
-      <list-item v="castillan"/>
-      <list-item v="espagnol"/>
-      <list-item v="andalou"/>
-      <list-item v="mozarabe"/>
-      <list-item v="français"/>
-      <list-item v="breton"/>
-      <list-item v="normand"/>
-      <list-item v="picard"/>
-      <list-item v="alsacien"/>
-      <list-item v="occitan"/>
-      <list-item v="aranais"/>
-      <list-item v="corse"/>
-      <list-item v="auvergnat"/>
-      <list-item v="limousin"/>
-      <list-item v="gascon"/>
-      <list-item v="béarnais"/>
-      <list-item v="languedocien"/>
-      <list-item v="provençal"/>
-      <list-item v="niçois"/>
-      <list-item v="savoyard"/>
-      <list-item v="luxembourgeois"/>
-      <list-item v="anglais"/>
-      <list-item v="écossais"/>
-      <list-item v="gallois"/>
-      <list-item v="cornique"/>
-      <list-item v="irlandais"/>
-      <list-item v="mannois"/>
-      <list-item v="wallon"/>
-      <list-item v="flamand"/>
-      <list-item v="hollandais"/>
-      <list-item v="allemand"/>
-      <list-item v="bavarois"/>
-      <list-item v="danois"/>
-      <list-item v="islandais"/>
-      <list-item v="norvégien"/>
-      <list-item v="suédois"/>
-      <list-item v="finlandais"/>
-      <list-item v="russe"/>
-      <list-item v="tchétchène"/>
-      <list-item v="abkhaze"/>
-      <list-item v="ossète"/>
-      <list-item v="tchouvache"/>
-      <list-item v="tatare"/>
-      <list-item v="bachkir"/>
-      <list-item v="oudmourte"/>
-      <list-item v="yakoute"/>
-      <list-item v="iakoute"/>
-      <list-item v="estonien"/>
-      <list-item v="letton"/>
-      <list-item v="lithuanien"/>
-      <list-item v="balte"/>
-      <list-item v="polonais"/>
-      <list-item v="tchèque"/>
-      <list-item v="slovake"/>
-      <list-item v="hongrois"/>
-      <list-item v="italien"/>
-      <list-item v="sarde"/>
-      <list-item v="sicilien"/>
-      <list-item v="piémontais"/>
-      <list-item v="napolitain"/>
-      <list-item v="toscan"/>
-      <list-item v="vénitien"/>
-      <list-item v="frioulan"/>
-      <list-item v="maltais"/>
-      <list-item v="slovène"/>
-      <list-item v="dalmatien"/>
-      <list-item v="croate"/>
-      <list-item v="serbe"/>
-      <list-item v="bosnien"/>
-      <list-item v="bosniaque"/>
-      <list-item v="monténégrin"/>
-      <list-item v="macédonien"/>
-      <list-item v="roumain"/>
-      <list-item v="moldave"/>
-      <list-item v="bulgare"/>
-      <list-item v="rom"/>
-      <list-item v="romani"/>
-      <list-item v="grec"/>
-      <list-item v="béotien"/>
-      <list-item v="ukrainien"/>
-      <list-item v="biélorusse"/>
-      <list-item v="moldave"/>
-      <list-item v="turc"/>
-      <list-item v="kurde"/>
-      <list-item v="arménien"/>
-      <list-item v="géorgien"/>
-      <list-item v="azerbaïdjanais"/>
-      <list-item v="kazakh"/>
-      <list-item v="turkmène"/>
-      <list-item v="ouzbek"/>
-      <list-item v="kirghiz"/>
-      <list-item v="tadjik"/>
-      <list-item v="mongol"/>
-      <list-item v="ouïghour"/>
-      <list-item v="cachemiri"/>
-      <list-item v="cachemirien"/>
-      <list-item v="arabe"/>
-      <list-item v="sarrasin"/>
-      <list-item v="hébreu"/>
-      <list-item v="juif"/>	<!-- ce n'est pas une langue, mais il faut enlever la majuscule, si elle y est -->
-      <list-item v="amazigh"/>
-      <list-item v="berbère"/>
-      <list-item v="kabyle"/>
-      <list-item v="touareg"/>
-      <list-item v="bengali"/>
-      <list-item v="bengalais"/>
-      <list-item v="népalais"/>
-      <list-item v="tibétain"/>
-      <list-item v="chinois"/>
-      <list-item v="cantonais"/>
-      <list-item v="taïwanais"/>
-      <list-item v="japonais"/>
-      <list-item v="aïnou"/>
-      <list-item v="coréen"/>
-      <list-item v="vietnamien"/>
-      <list-item v="thaïlandais"/>
-      <list-item v="birman"/>
-      <list-item v="laotien"/>
-      <list-item v="malais"/>
-      <list-item v="indonésien"/>
-      <list-item v="javanais"/>
-      <list-item v="taïwanais"/>
-      <list-item v="hawaïen"/>
-      <list-item v="tahitien"/>
-      <list-item v="maori"/>
-      <list-item v="éthiopien"/>
-      <list-item v="somalien"/>
-      <list-item v="malgache"/>
-      <list-item v="zoulou"/>
-      <list-item v="swazi"/>
-      <list-item v="apache"/>
-      <list-item v="algonquien"/>
-      <list-item v="algonquin"/>
-      <list-item v="chinook"/>
-      <list-item v="esquimau"/>
-      <list-item v="groenlandais"/>
-      <list-item v="gaulois"/>
-      <list-item v="ibère"/>
-      <list-item v="étrusque"/>
-      <list-item v="latin"/>
-      <list-item v="troyen"/>
-      <list-item v="perse"/>
-      <list-item v="persan"/>
-      <list-item v="baloutche"/>
-      <list-item v="sumérien"/>
-      <list-item v="akkadien"/>
-      <list-item v="nabatéen"/>
-      <list-item v="araméen"/>
     </def-list>
 
     <def-list n="nptop_amb_detdef">
@@ -2944,31 +2778,6 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_maj_gentilici" npar="1">
-<!-- si es tracta d'un gentilici, traiem la majúscula -->
-<!-- p1 = det, p2 = n -->
-      <choose>
-        <when>
-          <test>
-            <and>
-              <in caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
-                <list n="lang_dial"/>
-              </in>
-              <equal>
-                <case-of pos="1" side="sl" part="lem"/>
-                <lit v="Aa"/>
-              </equal>
-            </and>
-          </test>
-          <modify-case>
-            <clip pos="1" side="tl" part="lemh"/>
-            <lit v="aa"/>
-          </modify-case>
-        </when>
-      </choose>
-    </def-macro>
-
     <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
       <choose>
         <when>
@@ -3033,9 +2842,6 @@
       </pattern>
       <action>
         <call-macro n="f_concord1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
@@ -3278,35 +3084,17 @@
         <pattern-item n="pr"/>
       </pattern>
       <action>
-       <choose>
-          <when>
-            <test><equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="de"/></equal></test>
-            <out>
-              <chunk name="pr">
-                <tags>
-                  <tag><lit-tag v="PREP"/></tag>
-                  <tag><lit-tag v="de"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="whole"/>
-                </lu>
-              </chunk>
-            </out>
-          </when>
-          <otherwise>
-            <out>
-              <chunk name="pr">
-                <tags>
-                  <tag><lit-tag v="PREP"/></tag>
-                  <tag><lit-tag v="pr"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="whole"/>
-                </lu>
-              </chunk>
-            </out>
-          </otherwise>
-       </choose>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <out>
+          <chunk namefrom="lemma">
+           <tags>
+             <tag><lit-tag v="PREP"/></tag>
+           </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+         </chunk>
+        </out>
       </action>
     </rule>
 
@@ -3372,8 +3160,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-         <chunk name="d">
+          <chunk namefrom="lemma">
            <tags>
              <tag><lit-tag v="Rel"/></tag>
            </tags>
@@ -3454,9 +3243,6 @@
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
@@ -3757,9 +3543,6 @@
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
@@ -3818,9 +3601,6 @@
           <with-param pos="3"/>
           <with-param pos="1"/>
           <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
@@ -3977,9 +3757,6 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
         </call-macro>
@@ -4082,9 +3859,6 @@
           <with-param pos="3"/>
           <with-param pos="4"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
@@ -4151,9 +3925,6 @@
           <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
@@ -4222,9 +3993,6 @@
           <with-param pos="4"/>
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
         </call-macro>
@@ -4290,9 +4058,6 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
           <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
@@ -4360,9 +4125,6 @@
           <with-param pos="3"/>
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="4"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="4"/>
         </call-macro>
@@ -4427,9 +4189,6 @@
           <with-param pos="3"/>
           <with-param pos="2"/>
           <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
@@ -4516,9 +4275,6 @@
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
@@ -4634,9 +4390,6 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
@@ -4714,9 +4467,6 @@
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="1"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="1"/>
         </call-macro>
@@ -4762,9 +4512,6 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
           <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
@@ -4812,9 +4559,6 @@
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
@@ -4861,9 +4605,6 @@
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
         </call-macro>
@@ -4909,9 +4650,6 @@
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="1"/>
-        </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="1"/>
         </call-macro>
@@ -4956,9 +4694,6 @@
         <call-macro n="f_concord2">
           <with-param pos="3"/>
           <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_maj_gentilici">
-          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_chunk_tags">
           <with-param pos="3"/>
