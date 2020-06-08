@@ -597,6 +597,11 @@
 
 <!-- **************** REL **************** -->
 
+  <!-- que >> que, qui, dont -->
+  <rule weight="0.8">
+    <match lemma="que" tags="rel.*"><select lemma="que"/></match>
+  </rule>
+
   <!-- qui >> qui, celui qui -->
   <rule weight="0.8">
     <match lemma="qui" tags="rel.*"><select lemma="qui"/></match>

@@ -413,7 +413,10 @@
 <e r="RL"><p><l>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>t'o<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>qui<b/>t'o<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>quâl<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qui<s n="prn"/><s n="itg"/></l><r>quâl<s n="prn"/><s n="itg"/></r></p><par n="mf_GD"/><par n="sg_ND"/></e>
+<e>       <p><l>quel<s n="prn"/><s n="itg"/></l><r>quint<s n="prn"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>quel<s n="prn"/><s n="itg"/></l><r>quin<s n="prn"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>quel<s n="prn"/><s n="itg"/></l><r>quâl<s n="prn"/><s n="itg"/></r></p></e>
 
 <e>       <p><l>cela<s n="prn"/><s n="tn"/><s n="nt"/></l><r>cen<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>ce<s n="prn"/><s n="tn"/><s n="nt"/></l><r>o<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -604,14 +607,28 @@
 <e><p><l>tant<b/>que<s n="cnjadv"/></l><r>tant<b/>que<s n="cnjadv"/></r></p></e>
 <e><p><l>pour<b/>que<s n="cnjadv"/></l><r>por<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>afin<b/>que<s n="cnjadv"/></l><r>por<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>cependant<s n="cnjadv"/></l><r>pas-muens<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>cependant<s n="cnjadv"/></l><r>cependent<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>cependant<s n="cnjadv"/></l><r>tot-un<s n="cnjadv"/></r></p></e>
+<e r="LR" a="hector"><p><l>néanmoins<s n="cnjadv"/></l><r>pas-muens<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>parce<b/>que<s n="cnjadv"/></l><r>per<b/>l'amôr<s n="cnjadv"/></r></p></e>
+<e i="yes"><p><l>puisque<s n="cnjadv"/></l><r>dês<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>quand<b/>bien<b/>même<s n="cnjadv"/></l><r>quand<b/>ben<s n="cnjadv"/></r></p></e>
+<e i="yes"><p><l>quand<b/>bien<b/>même<s n="cnjadv"/></l><r>ben<b/>que<s n="cnjadv"/></r></p></e>
 
 <e>       <p><l>que<s n="rel"/><s n="mf"/><s n="sp"/></l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>qui<s n="rel"/><s n="mf"/><s n="sp"/></l><r>qui<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>qui<s n="rel"/><s n="mf"/><s n="sp"/></l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>dont<s n="rel"/><s n="mf"/><s n="sp"/></l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>dont<s n="rel"/><s n="mf"/><s n="sp"/></l><r>dont<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>celui<b/>qui<s n="rel"/></l><r>qui<s n="rel"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e>       <p><l>où<s n="rel"/><s n="adv"/></l><r>yô<b/>que<s n="rel"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l>où<s n="rel"/><s n="adv"/></l><r>yô<s n="rel"/><s n="adv"/></r></p></e>
 <e>       <p><l>quand<s n="rel"/><s n="adv"/></l><r>quand<s n="rel"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l>quand<s n="rel"/><s n="adv"/></l><r>quora<s n="rel"/><s n="adv"/></r></p></e>
+<e>       <p><l>lequel<s n="rel"/></l><r>loquint<s n="rel"/></r></p></e>
+<e r="RL"><p><l>lequel<s n="rel"/></l><r>loquâl<s n="rel"/></r></p></e>
+<e r="RL"><p><l>lequel<s n="rel"/></l><r>quint<s n="rel"/></r></p></e>
+<e r="RL"><p><l>lequel<s n="rel"/></l><r>quin<s n="rel"/></r></p></e>
 
 <e>       <p><l>zéro<s n="num"/></l><r>zérô<s n="num"/></r></p></e>
 <e>       <p><l>un<s n="num"/></l><r>yon<s n="num"/></r></p></e>
@@ -799,6 +816,16 @@
 <e>       <p><l>là<s n="postadv"/></l><r>lé<s n="postadv"/></r></p></e>
 <e>       <p><l>là<s n="postadv"/></l><r>que<s n="postadv"/></r></p></e>
 <e>       <p><l>là<s n="postadv"/></l><r>qué<s n="postadv"/></r></p></e>
+
+<e>       <p><l>comme<s n="cnjadv"/></l>          <r>comme<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>'ment<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
+<e>       <p><l>comme<s n="pr"/></l>              <r>comme<s n="pr"/></r></p></e>
+<e r="RL"><p><l>comme<s n="pr"/></l><r>'ment<s n="pr"/></r></p></e>
+<e r="RL"><p><l>comme<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+<e>       <p><l>comme<s n="rel"/><s n="adv"/></l> <r>comme<s n="rel"/><s n="adv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="rel"/><s n="adv"/></l><r>'ment<s n="rel"/><s n="adv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="rel"/><s n="adv"/></l><r>come<s n="rel"/><s n="adv"/></r></p></e>
 
 <e>       <p><l>comment<s n="adv"/><s n="itg"/></l><r>coment<s n="adv"/><s n="itg"/></r></p></e>
 <e r="RL"><p><l>comment<s n="adv"/><s n="itg"/></l><r>'ment<s n="adv"/><s n="itg"/></r></p></e>
@@ -1186,6 +1213,9 @@
       <e><p><l>instruire<s n="vblex"/></l><r>enstruire<s n="vblex"/></r></p></e>
       <e><p><l>introduire<s n="vblex"/></l><r>entroduire<s n="vblex"/></r></p></e>
       <e><p><l>appuyer<s n="vblex"/></l><r>apoyér<s n="vblex"/></r></p></e>
+      <e><p><l>pleuvoir<s n="vblex"/></l><r>plôver<s n="vblex"/></r></p></e>
+      <e><p><l>neiger<s n="vblex"/></l><r>nêvre<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>neiger<s n="vblex"/></l><r>negiér<s n="vblex"/></r></p></e>
 
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
@@ -1435,7 +1465,8 @@
 
 <e>       <p><l>chat<s n="n"/><s n="m"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>contremaître<s n="n"/><s n="m"/></l><r>contremêtre<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>França<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Gaule<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gôla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Belgique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Belgique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Étalie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
