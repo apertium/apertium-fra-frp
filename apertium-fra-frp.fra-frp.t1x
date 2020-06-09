@@ -5300,7 +5300,7 @@
                <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
-               <lit v="èsser"/>
+               <lit v="étre"/>
                <lit-tag v="vbser"/>
                <clip pos="1" side="tl" part="temps"/>
                <clip pos="1" side="tl" part="pers"/>
@@ -5379,7 +5379,7 @@
                <tag><lit-tag v="normal"/></tag>
              </tags>
              <lu>
-               <lit v="èsser"/>
+               <lit v="étre"/>
                <lit-tag v="vbser"/>
                <clip pos="1" side="tl" part="temps"/>
                <clip pos="1" side="tl" part="pers"/>
@@ -5432,7 +5432,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="2" side="tl" part="temps"/>
@@ -5488,7 +5488,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="2" side="tl" part="temps"/>
@@ -5579,7 +5579,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="2" side="tl" part="temps"/>
@@ -5644,7 +5644,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="3" side="tl" part="temps"/>
@@ -5704,7 +5704,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="2" side="tl" part="temps"/>
@@ -5809,7 +5809,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="3" side="tl" part="temps"/>
@@ -5874,7 +5874,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="2" side="tl" part="temps"/>
@@ -5990,7 +5990,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="èsser"/>
+                 <lit v="étre"/>
                </get-case-from>
                <lit-tag v="vbser"/>
                <clip pos="3" side="tl" part="temps"/>
