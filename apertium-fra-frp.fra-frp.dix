@@ -445,6 +445,7 @@
 <e>       <p><l>un<s n="prn"/><s n="tn"/></l><r>un<s n="prn"/><s n="tn"/></r></p><par n="mf_mf"/><par n="sp_sp"/></e>
 <e>       <p><l>un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>yon<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>un<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>yon<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>autrui<s n="prn"/><s n="tn"/></l><r>ôtrui<s n="prn"/><s n="tn"/></r></p></e>
 
 <e>       <p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
@@ -505,9 +506,10 @@
 <e>       <p><l>lors<b/>de<s n="pr"/></l><r>alor<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>à<b/>travers<s n="pr"/></l><r>a<b/>travèrs<s n="pr"/></r></p></e>
 <e>       <p><l>au<b/>travers<b/>de<s n="pr"/></l><r>u<b/>travèrs<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>comment<s n="pr"/></l><r>coment<s n="pr"/></r></p></e>
-<e r="RL"><p><l>comment<s n="pr"/></l><r>'ment<s n="pr"/></r></p></e>
-<e r="RL"><p><l>comment<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+<e>       <p><l>comme<s n="pr"/></l><r>coment<s n="pr"/></r></p></e>
+<e r="RL"><p><l>comme<s n="pr"/></l><r>'ment<s n="pr"/></r></p></e>
+<e r="RL"><p><l>comme<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
+<e r="RL" c="corpus"><p><l>comme<s n="pr"/></l><r>coma<s n="pr"/></r></p></e>
 
 <e r="RL"><p><l>avant<b/>de<s n="pr"/></l><r>devant<b/>que<s n="pr"/></r></p></e>
 <e r="LR"><p><l>avant<b/>que<b/>de<s n="pr"/></l><r>devant<b/>que<b/>de<s n="pr"/></r></p></e>
@@ -574,9 +576,10 @@
 <e r="RL"><p><l>donc<s n="cnjadv"/></l><r>vêr<s n="cnjadv"/></r></p></e>
 <e>       <p><l>si<s n="cnjadv"/></l><r>se<s n="cnjadv"/></r></p></e>
 <e>       <p><l>si<s n="adv"/></l><r>se<s n="adv"/></r></p></e>
-<e>       <p><l>comment<s n="cnjadv"/></l><r>coment<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>comment<s n="cnjadv"/></l><r>'ment<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>comment<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
+<e>       <p><l>comme<s n="cnjadv"/></l><r>coment<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>'ment<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
+<e r="RL" c="corpus"><p><l>comme<s n="cnjadv"/></l><r>coma<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>même<b/>si<s n="cnjadv"/></l><r>quand<b/>ben<s n="cnjadv"/></r></p></e>
 <e i="yes"><p><l>même<b/>si<s n="cnjadv"/></l><r>ben<b/>que<s n="cnjadv"/></r></p></e>
 
@@ -817,19 +820,19 @@
 <e>       <p><l>là<s n="postadv"/></l><r>que<s n="postadv"/></r></p></e>
 <e>       <p><l>là<s n="postadv"/></l><r>qué<s n="postadv"/></r></p></e>
 
-<e>       <p><l>comme<s n="cnjadv"/></l>          <r>comme<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>'ment<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>comme<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
-<e>       <p><l>comme<s n="pr"/></l>              <r>comme<s n="pr"/></r></p></e>
+<e>       <p><l>comme<s n="pr"/></l>              <r>coment<s n="pr"/></r></p></e>
 <e r="RL"><p><l>comme<s n="pr"/></l><r>'ment<s n="pr"/></r></p></e>
 <e r="RL"><p><l>comme<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
-<e>       <p><l>comme<s n="rel"/><s n="adv"/></l> <r>comme<s n="rel"/><s n="adv"/></r></p></e>
+<e r="RL" c="corpus"><p><l>comme<s n="pr"/></l><r>coma<s n="pr"/></r></p></e>
+<e>       <p><l>comme<s n="rel"/><s n="adv"/></l> <r>coment<s n="rel"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l>comme<s n="rel"/><s n="adv"/></l><r>'ment<s n="rel"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l>comme<s n="rel"/><s n="adv"/></l><r>come<s n="rel"/><s n="adv"/></r></p></e>
+<e r="RL" c="corpus"><p><l>comme<s n="rel"/><s n="adv"/></l><r>coma<s n="rel"/><s n="adv"/></r></p></e>
 
 <e>       <p><l>comment<s n="adv"/><s n="itg"/></l><r>coment<s n="adv"/><s n="itg"/></r></p></e>
 <e r="RL"><p><l>comment<s n="adv"/><s n="itg"/></l><r>'ment<s n="adv"/><s n="itg"/></r></p></e>
 <e r="RL"><p><l>comment<s n="adv"/><s n="itg"/></l><r>come<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL" c="corpus"><p><l>comment<s n="adv"/><s n="itg"/></l><r>coma<s n="adv"/><s n="itg"/></r></p></e>
 <e r="LR"><p><l>comment<b/>est-ce<b/>que<s n="adv"/><s n="itg"/></l><r>coment<s n="adv"/><s n="itg"/></r></p></e>
 <e r="RL"><p><l>comment<b/>est-ce<b/>que<s n="adv"/><s n="itg"/></l><r>coment<b/>t'o<b/>que<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>combien<s n="adv"/><s n="itg"/></l><r>comben<s n="adv"/><s n="itg"/></r></p></e>
@@ -905,7 +908,9 @@
 <e r="RL"><p><l>beaucoup<s n="adv"/></l><r>biôcôp<s n="adv"/></r></p></e>
 <e>       <p><l>peu<s n="adv"/></l><r>pou<s n="adv"/></r></p></e>
 <e>       <p><l>mieux<s n="adv"/></l><r>mielx<s n="adv"/></r></p></e>
-<e>       <p><l>pis<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
+<e>       <p><l>pire<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pire<s n="adv"/></l><r>pire<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pis<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
 <e>       <p><l>beau<s n="adv"/></l><r>biô<s n="adv"/></r></p></e>
 <e>       <p><l>nouveau<s n="adj"/></l><r>nôvo<s n="adj"/></r></p></e>
 <e r="LR"><p><l>nouveau<s n="adj"/></l><r>nuevo<s n="adj"/></r></p></e>
@@ -989,6 +994,384 @@
 <e>       <p><l>tellement<s n="adv"/></l><r>tâlament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>tellement<s n="adv"/></l><r>tèlament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>bellement<s n="adv"/></l><r>gentament<s n="adv"/></r></p></e>
+
+<e><p><l>absolument<s n="adv"/></l><r>absolument<s n="adv"/></r></p></e>
+<e><p><l>ailleurs<s n="adv"/></l><r>alyor<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ailleurs<s n="adv"/></l><r>ôtra<b/>pârt<s n="adv"/></r></p></e>
+<e><p><l>anciennement<s n="adv"/></l><r>ancianament<s n="adv"/></r></p></e>
+<e><p><l>après<s n="adv"/></l><r>aprés<s n="adv"/></r></p></e>
+<e><p><l>après-demain<s n="adv"/></l><r>aprés-deman<s n="adv"/></r></p></e>
+<e><p><l>en<b/>arrière<s n="adv"/></l><r>en<b/>dèrriér<s n="adv"/></r></p></e>
+<e><p><l>artistement<s n="adv"/></l><r>artistament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>assez<s n="adv"/></l><r>prod<s n="adv"/></r></p></e>
+<e i="yes"><p><l>assez<s n="adv"/></l><r>brâvament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>assez<s n="adv"/></l><r>assèz<s n="adv"/></r></p></e>
+<e><p><l>assurément<s n="adv"/></l><r>sûrament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>assurément<s n="adv"/></l><r>sûrement<s n="adv"/></r></p></e>
+<e><p><l>au-delà<s n="adv"/></l><r>en-delé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>au-delà<s n="adv"/></l><r>très<s n="adv"/></r></p></e>
+<e><p><l>au-dessus<s n="adv"/></l><r>en-dessus<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aujourd'hui<s n="adv"/></l><r>ceti-houé<s n="adv"/></r></p></e>
+<e r="RL" c="corpus"><p><l>aujourd'hui<s n="adv"/></l><r>a-n-houé<s n="adv"/></r></p></e>
+<e><p><l>auprès<s n="adv"/></l><r>uprés<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aussi<s n="adv"/></l><r>avouéc<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aussi<s n="adv"/></l><r>étot<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aussi<s n="adv"/></l><r>nan<b/>ples<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aussi<s n="adv"/></l><r>giére<s n="adv"/></r></p></e>
+<e i="yes"><p><l>aussitôt<s n="adv"/></l><r>d'abôrd<s n="adv"/></r></p></e>
+<e><p><l>autant<s n="adv"/></l><r>atant<s n="adv"/></r></p></e>
+<e r="LR"><p><l>autrefois<s n="adv"/></l><r>ôtro<b/>côp<s n="adv"/></r></p></e>
+<e i="yes"><p><l>autrefois<s n="adv"/></l><r>les<b/>ôtros<b/>côps<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autrefois<s n="adv"/></l><r>viâjo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autrefois<s n="adv"/></l><r>viâjos<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autrefois<s n="adv"/></l><r>fês<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autrefois<s n="adv"/></l><r>vês<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autrefois<s n="adv"/></l><r>dens<b/>lo<b/>temps<s n="adv"/></r></p></e>
+<e i="yes"><p><l>autrefois<s n="adv"/></l><r>un<b/>viâjo<s n="adv"/></r></p></e>
+<e><p><l>autrement<s n="adv"/></l><r>ôtrament<s n="adv"/></r></p></e>
+<e><p><l>en<b/>avant<s n="adv"/></l><r>en-ant<s n="adv"/></r></p></e>
+<e><p><l>avant-hier<s n="adv"/></l><r>avant-hièr<s n="adv"/></r></p></e>
+<e r="LR"><p><l>avant-hier<s n="adv"/></l><r>devant-hièr<s n="adv"/></r></p></e>
+<e><p><l>bas<s n="adv"/></l><r>bâs<s n="adv"/></r></p></e>
+<e i="yes"><p><l>beau<s n="adv"/></l><r>gentament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>beaucoup<s n="adv"/></l><r>pècllâmo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>bientôt<s n="adv"/></l><r>bentout<s n="adv"/></r></p></e>
+<e i="yes"><p><l>bientôt<s n="adv"/></l><r>asse-tout<s n="adv"/></r></p></e>
+<e i="yes"><p><l>bientôt<s n="adv"/></l><r>d'abôrd<s n="adv"/></r></p></e>
+<e i="yes"><p><l>bientôt<s n="adv"/></l><r>vito<s n="adv"/></r></p></e>
+<e><p><l>bonnement<s n="adv"/></l><r>bônament<s n="adv"/></r></p></e>
+<e><p><l>bougrement<s n="adv"/></l><r>bougrament<s n="adv"/></r></p></e>
+<e><p><l>bougrement<s n="adv"/></l><r>chancrament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>bravement<s n="adv"/></l><r>brâvament<s n="adv"/></r></p></e>
+<e><p><l>certainement<s n="adv"/></l><r>cèrtênament<s n="adv"/></r></p></e>
+<e><p><l>complètement<s n="adv"/></l><r>complètament<s n="adv"/></r></p></e>
+<e><p><l>continuellement<s n="adv"/></l><r>continuèlament<s n="adv"/></r></p></e>
+<e><p><l>contre<s n="adv"/></l><r>contre<s n="adv"/></r></p></e>
+<e r="RL"><p><l>contre<s n="adv"/></l><r>contro<s n="adv"/></r></p></e>
+<e r="RL"><p><l>contre<s n="adv"/></l><r>contra<s n="adv"/></r></p></e>
+<e><p><l>cordialement<s n="adv"/></l><r>cordialament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>davantage<s n="adv"/></l><r>més<s n="adv"/></r></p></e>
+<e r="RL"><p><l>davantage<s n="adv"/></l><r>davantâjo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>debout<s n="adv"/></l><r>debout<s n="adv"/></r></p></e>
+<e><p><l>debout<s n="adv"/></l><r>de<b/>pouenta<s n="adv"/></r></p></e>
+<e><p><l>dedans<s n="adv"/></l><r>dedens<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dedans<s n="adv"/></l><r>dediens<s n="adv"/></r></p></e>
+<e><p><l>définitivement<s n="adv"/></l><r>dèfenitivament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dehors<s n="adv"/></l><r>defôra<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dehors<s n="adv"/></l><r>dehôr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dehors<s n="adv"/></l><r>fôr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dehors<s n="adv"/></l><r>fôra<s n="adv"/></r></p></e>
+<e><p><l>déjà<s n="adv"/></l><r>dejâ<s n="adv"/></r></p></e>
+<e r="RL"><p><l>déjà<s n="adv"/></l><r>ja<s n="adv"/></r></p></e>
+<e><p><l>delà<s n="adv"/></l><r>delé<s n="adv"/></r></p></e>
+<e><p><l>au-delà<s n="adv"/></l><r>en-delé<s n="adv"/></r></p></e>
+<e><p><l>demain<s n="adv"/></l><r>deman<s n="adv"/></r></p></e>
+<e><p><l>dernièrement<s n="adv"/></l><r>dèrriérement<s n="adv"/></r></p></e>
+<e><p><l>derrière<s n="adv"/></l><r>dèrriér<s n="adv"/></r></p></e>
+<e r="RL"><p><l>derrière<s n="adv"/></l><r>dèrniér<s n="adv"/></r></p></e>
+<e><p><l>désormais<s n="adv"/></l><r>dês<b/>ora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>désormais<s n="adv"/></l><r>orendrêt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dessus<s n="adv"/></l><r>sur<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dessus<s n="adv"/></l><r>sus<s n="adv"/></r></p></e>
+<e><p><l>au-dessus<s n="adv"/></l><r>en-dessus<s n="adv"/></r></p></e>
+<e><p><l>deuxièmement<s n="adv"/></l><r>secondament<s n="adv"/></r></p></e>
+<e><p><l>diablement<s n="adv"/></l><r>diablament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>diablement<s n="adv"/></l><r>chancrament<s n="adv"/></r></p></e>
+<e><p><l>dimanche<s n="adv"/></l><r>demenge<s n="adv"/></r></p></e>
+<e r="RL"><p><l>dimanche<s n="adv"/></l><r>demenche<s n="adv"/></r></p></e>
+<e><p><l>directement<s n="adv"/></l><r>dirèctament<s n="adv"/></r></p></e>
+<e><p><l>dorénavant<s n="adv"/></l><r>dês<b/>ora<s n="adv"/></r></p></e>
+<e><p><l>doucement<s n="adv"/></l><r>docement<s n="adv"/></r></p></e>
+<e><p><l>droit<s n="adv"/></l><r>drêt<s n="adv"/></r></p></e>
+<e r="LR"><p><l>également<s n="adv"/></l><r>asse-ben<s n="adv"/></r></p></e>
+<e i="yes"><p><l>également<s n="adv"/></l><r>avouéc<s n="adv"/></r></p></e>
+<e i="yes"><p><l>également<s n="adv"/></l><r>d'atot<s n="adv"/></r></p></e>
+<e i="RL"><p><l>également<s n="adv"/></l><r>étot<s n="adv"/></r></p></e>
+<e i="RL"><p><l>également<s n="adv"/></l><r>ègalament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér<s n="adv"/></r></p></e>
+<e r="LR"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér-més<s n="adv"/></r></p></e>
+<e><p><l>enfin<s n="adv"/></l><r>enfin<s n="adv"/></r></p></e>
+<e><p><l>énormément<s n="adv"/></l><r>chancrament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>énormément<s n="adv"/></l><r>monstrament<s n="adv"/></r></p></e>
+<e i="yes"><p><l>énormément<s n="adv"/></l><r>rudament<s n="adv"/></r></p></e>
+<e><p><l>entièrement<s n="adv"/></l><r>a<b/>chavon<s n="adv"/></r></p></e>
+<e><p><l>entre-temps<s n="adv"/></l><r>entre-temps<s n="adv"/></r></p></e>
+<e><p><l>à<b/>l'envers<s n="adv"/></l><r>a<b/>rebort<s n="adv"/></r></p></e>
+<e><p><l>environ<s n="adv"/></l><r>enveron<s n="adv"/></r></p></e>
+<e><p><l>exactement<s n="adv"/></l><r>ègzactament<s n="adv"/></r></p></e>
+<e><p><l>exclusivement<s n="adv"/></l><r>èxcllusivament<s n="adv"/></r></p></e>
+<e><p><l>exprès<s n="adv"/></l><r>èxprès<s n="adv"/></r></p></e>
+<e r="RL"><p><l>extrêmement<s n="adv"/></l><r>rudament<s n="adv"/></r></p></e>
+<e><p><l>finalement<s n="adv"/></l><r>finalament<s n="adv"/></r></p></e>
+<e><p><l>finement<s n="adv"/></l><r>prim<s n="adv"/></r></p></e>
+<e><p><l>forcément<s n="adv"/></l><r>forciêment<s n="adv"/></r></p></e>
+<e><p><l>franchement<s n="adv"/></l><r>franchement<s n="adv"/></r></p></e>
+<e r="LR"><p><l>grandement<s n="adv"/></l><r>rudo<s n="adv"/></r></p></e>
+<e r="LR"><p><l>guère<s n="adv"/></l><r>gouéro<s n="adv"/></r></p></e>
+<e r="RL"><p><l>guère<s n="adv"/></l><r>gota<s n="adv"/></r></p></e>
+<e><p><l>habilement<s n="adv"/></l><r>habilament<s n="adv"/></r></p></e>
+<e><p><l>habituellement<s n="adv"/></l><r>habituèlament<s n="adv"/></r></p></e>
+<e><p><l>heureusement<s n="adv"/></l><r>herosament<s n="adv"/></r></p></e>
+<e><p><l>honnêtement<s n="adv"/></l><r>honétament<s n="adv"/></r></p></e>
+<e><p><l>ici<s n="adv"/></l><r>cé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ici<s n="adv"/></l><r>icé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>ici<s n="adv"/></l><r>ce<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>ique<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>inque<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>qué<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>iqué<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>inqué<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>drêt-lé<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ici<s n="adv"/></l><r>drêt-que<s n="adv"/></r></p></e>
+<e><p><l>immédiatement<s n="adv"/></l><r>imèdiatament<s n="adv"/></r></p></e>
+<e><p><l>jadis<s n="adv"/></l><r>dens<b/>lo<b/>temps<s n="adv"/></r></p></e>
+<e><p><l>justement<s n="adv"/></l><r>justament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-bas<s n="adv"/></l><r>cé-en<s n="adv"/></r></p></e>
+<e r="RL"><p><l>là-haut<s n="adv"/></l><r>sus<s n="adv"/></r></p></e>
+<e r="RL"><p><l>lentement<s n="adv"/></l><r>lentament<s n="adv"/></r></p></e>
+<e><p><l>lestement<s n="adv"/></l><r>lèstament<s n="adv"/></r></p></e>
+<e><p><l>loin<s n="adv"/></l><r>luen<s n="adv"/></r></p></e>
+<e><p><l>longtemps<s n="adv"/></l><r>grant-temps<s n="adv"/></r></p></e>
+<e r="RL"><p><l>longtemps<s n="adv"/></l><r>long-temps<s n="adv"/></r></p></e>
+<e r="RL"><p><l>maintenant<s n="adv"/></l><r>drêt-ora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>même<s n="adv"/></l><r>mém<s n="adv"/></r></p></e>
+<e r="LR"><p><l>mêmement<s n="adv"/></l><r>mémament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>au<b/>moins<s n="adv"/></l><r>u<b/>muens<s n="adv"/></r></p></e>
+<e><p><l>plutôt<s n="adv"/></l><r>râva<s n="adv"/></r></p></e>
+<e r="RL"><p><l>non<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+<e><p><l>non<b/>plus<s n="adv"/></l><r>nan<b/>ples<s n="adv"/></r></p></e>
+<e r="RL"><p><l>non<b/>plus<s n="adv"/></l><r>ni-més<s n="adv"/></r></p></e>
+<e r="LR"><p><l>de<b/>nouveau<s n="adv"/></l><r>oncor<s n="adv"/></r></p></e>
+<e i="yes"><p><l>de<b/>nouveau<s n="adv"/></l><r>oncor<b/>un<b/>côp<s n="adv"/></r></p></e>
+<e r="RL"><p><l>de<b/>nouveau<s n="adv"/></l><r>tôrne-més<s n="adv"/></r></p></e>
+<e><p><l>oui<s n="adv"/></l><r>ouè<s n="adv"/></r></p></e>
+<e><p><l>pareillement<s n="adv"/></l><r>pariérement<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pareillement<s n="adv"/></l><r>parèlyement<s n="adv"/></r></p></e>
+<e><p><l>parfaitement<s n="adv"/></l><r>pèrfètament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>parfaitement<s n="adv"/></l><r>parfètament<s n="adv"/></r></p></e>
+<e><p><l>parfois<s n="adv"/></l><r>des<b/>côps<s n="adv"/></r></p></e>
+<e><p><l>nulle<b/>part<s n="adv"/></l><r>nion<b/>sens<s n="adv"/></r></p></e>
+<e r="RL"><p><l>nulle<b/>part<s n="adv"/></l><r>niona<b/>pârt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>nulle<b/>part<s n="adv"/></l><r>nula<b/>pârt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>nulle<b/>part<s n="adv"/></l><r>nion<b/>luè<s n="adv"/></r></p></e>
+<e r="RL"><p><l>nulle<b/>part<s n="adv"/></l><r>non<b/>luè<s n="adv"/></r></p></e>
+<e><p><l>quelque<b/>part<s n="adv"/></l><r>quârque<b/>pârt<s n="adv"/></r></p></e>
+<e i="yes"><p><l>pas<s n="adv"/></l><r>peca<s n="adv"/></r></p></e>
+<e><p><l>pas<b/>du<b/>tout<s n="adv"/></l><r>pas<b/>du<b/>tot<s n="adv"/></r></p></e>
+<e><p><l>patiemment<s n="adv"/></l><r>paciemment<s n="adv"/></r></p></e>
+<e><p><l>pauvrement<s n="adv"/></l><r>pourament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pauvrement<s n="adv"/></l><r>pouvrament<s n="adv"/></r></p></e>
+<e><p><l>petit<b/>à<b/>petit<s n="adv"/></l><r>petit<b/>a<b/>petit<s n="adv"/></r></p></e>
+<e r="RL"><p><l>petit<b/>à<b/>petit<s n="adv"/></l><r>a<b/>châ<b/>pou<s n="adv"/></r></p></e>
+<e i="yes"><p><l>à<b/>peu<b/>près<s n="adv"/></l><r>quâsi<s n="adv"/></r></p></e>
+<e i="yes"><p><l>à<b/>peu<b/>près<s n="adv"/></l><r>quâsiment<s n="adv"/></r></p></e>
+<e><p><l>peu<b/>à<b/>peu<s n="adv"/></l><r>a<b/>châ<b/>pou<s n="adv"/></r></p></e>
+<e><p><l>peut-être<s n="adv"/></l><r>pôt-étre<s n="adv"/></r></p></e>
+<e i="yes"><p><l>peut-être<s n="adv"/></l><r>ben<s n="adv"/></r></p></e>
+<e r="RL"><p><l>peut-être<s n="adv"/></l><r>bon<b/>lèf<s n="adv"/></r></p></e>
+<e r="RL"><p><l>peut-être<s n="adv"/></l><r>des<b/>vês<s n="adv"/></r></p></e>
+<e r="RL"><p><l>peut-être<s n="adv"/></l><r>èpêr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>peut-être<s n="adv"/></l><r>bentout<s n="adv"/></r></p></e>
+<e r="RL"><p><l>peut-être<s n="adv"/></l><r>mentout<s n="adv"/></r></p></e>
+<e><p><l>piano<s n="adv"/></l><r>piano<s n="adv"/></r></p></e>
+<e><p><l>plutôt<s n="adv"/></l><r>pletout<s n="adv"/></r></p></e>
+<e><p><l>pourtant<s n="adv"/></l><r>portant<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pourtant<s n="adv"/></l><r>pas-muens<s n="adv"/></r></p></e>
+<e><p><l>premièrement<s n="adv"/></l><r>premiérement<s n="adv"/></r></p></e>
+<e r="RL"><p><l>presque<s n="adv"/></l><r>présque<s n="adv"/></r></p></e>
+<e><p><l>promptement<s n="adv"/></l><r>prontament<s n="adv"/></r></p></e>
+<e><p><l>proprement<s n="adv"/></l><r>proprament<s n="adv"/></r></p></e>
+<e><p><l>quelquefois<s n="adv"/></l><r>quârque-côp<s n="adv"/></r></p></e>
+<e r="RL"><p><l>quelquefois<s n="adv"/></l><r>fês<s n="adv"/></r></p></e>
+<e r="RL"><p><l>quelquefois<s n="adv"/></l><r>vês<s n="adv"/></r></p></e>
+<e><p><l>rarement<s n="adv"/></l><r>rârament<s n="adv"/></r></p></e>
+<e><p><l>réellement<s n="adv"/></l><r>rèèlament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér<s n="adv"/></r></p></e>
+<e i="yes"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér-més<s n="adv"/></r></p></e>
+<e><p><l>sagement<s n="adv"/></l><r>sâgement<s n="adv"/></r></p></e>
+<e><p><l>saintement<s n="adv"/></l><r>santament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>saintement<s n="adv"/></l><r>sentement<s n="adv"/></r></p></e>
+<e><p><l>sans<b/>cesse<s n="adv"/></l><r>sen<b/>dècèssar<s n="adv"/></r></p></e>
+<e><p><l>sans<b/>doute<s n="adv"/></l><r>ben<b/>lèf<s n="adv"/></r></p></e>
+<e r="RL"><p><l>sans<b/>doute<s n="adv"/></l><r>bon<b/>lèf<s n="adv"/></r></p></e>
+<e><p><l>sensiblement<s n="adv"/></l><r>sensiblament<s n="adv"/></r></p></e>
+<e><p><l>sérieusement<s n="adv"/></l><r>de<b/>bon<s n="adv"/></r></p></e>
+<e r="RL"><p><l>sérieusement<s n="adv"/></l><r>por<b/>de<b/>bon<s n="adv"/></r></p></e>
+<e><p><l>seulement<s n="adv"/></l><r>solament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>seulement<s n="adv"/></l><r>pués<b/>ora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>seulement<s n="adv"/></l><r>ren<b/>que<s n="adv"/></r></p></e>
+<e i="yes"><p><l>tellement<s n="adv"/></l><r>tant<s n="adv"/></r></p></e>
+<e><p><l>simplement<s n="adv"/></l><r>simplament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>sitôt<s n="adv"/></l><r>setout<s n="adv"/></r></p></e>
+<e><p><l>soi-disant<s n="adv"/></l><r>sè-desent<s n="adv"/></r></p></e>
+<e><p><l>hier<b/>soir<s n="adv"/></l><r>hièr<b/>sêr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>hier<b/>soir<s n="adv"/></l><r>a-nuet<s n="adv"/></r></p></e>
+<e><p><l>soudain<s n="adv"/></l><r>soden<s n="adv"/></r></p></e>
+<e><p><l>souvent<s n="adv"/></l><r>sovent<s n="adv"/></r></p></e>
+<e><p><l>subitement<s n="adv"/></l><r>subitament<s n="adv"/></r></p></e>
+<e><p><l>suffisamment<s n="adv"/></l><r>sufisament<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>de<b/>suite<s n="adv"/></l><r>tot<b/>de<b/>suite<s n="adv"/></r></p></e>
+<e><p><l>sûrement<s n="adv"/></l><r>sûrament<s n="adv"/></r></p></e>
+<e i="RL"><p><l>sûrement<s n="adv"/></l><r>sûrement<s n="adv"/></r></p></e>
+<e><p><l>surtout<s n="adv"/></l><r>surtot<s n="adv"/></r></p></e>
+<e><p><l>tantôt<s n="adv"/></l><r>tantout<s n="adv"/></r></p></e>
+<e i="RL"><p><l>tantôt<s n="adv"/></l><r>puéte<s n="adv"/></r></p></e>
+<e><p><l>tard<s n="adv"/></l><r>târd<s n="adv"/></r></p></e>
+<e i="yes"><p><l>tellement<s n="adv"/></l><r>tant<s n="adv"/></r></p></e>
+<e><p><l>tendrement<s n="adv"/></l><r>tendrament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>tôt<s n="adv"/></l><r>d'hora<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tôt<s n="adv"/></l><r>tout<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tôt<s n="adv"/></l><r>matin<s n="adv"/></r></p></e>
+<e r="RL"><p><l>toujours<s n="adv"/></l><r>tot-adés<s n="adv"/></r></p></e>
+<e r="RL"><p><l>toujours<s n="adv"/></l><r>tot<b/>du<b/>long<s n="adv"/></r></p></e>
+<e r="RL"><p><l>toujours<s n="adv"/></l><r>tot<b/>lo<b/>temps<s n="adv"/></r></p></e>
+<e r="RL"><p><l>toujours<s n="adv"/></l><r>tota-vie<s n="adv"/></r></p></e>
+<e r="RL"><p><l>toujours<s n="adv"/></l><r>totes-vies<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>à<b/>fait<s n="adv"/></l><r>tot<b/>a<b/>fêt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tout<b/>à<b/>fait<s n="adv"/></l><r>tot<b/>a<b/>fin<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tout<b/>à<b/>fait<s n="adv"/></l><r>tot<b/>a<b/>fina<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tout<b/>à<b/>l'heure<s n="adv"/></l><r>pués<b/>ora<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>de<b/>même<s n="adv"/></l><r>tot<b/>de<b/>mémo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tout<b/>de<b/>même<s n="adv"/></l><r>tot-un<s n="adv"/></r></p></e>
+<e r="LR"><p><l>tout<b/>de<b/>suite<s n="adv"/></l><r>d'abôrd<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>de<b/>suite<s n="adv"/></l><r>tot<b/>de<b/>suite<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>doucement<s n="adv"/></l><r>plan<s n="adv"/></r></p></e>
+<e><p><l>toutefois<s n="adv"/></l><r>totes<b/>fês<s n="adv"/></r></p></e>
+<e><p><l>tranquillement<s n="adv"/></l><r>tranquilament<s n="adv"/></r></p></e>
+<e><p><l>tristement<s n="adv"/></l><r>tristament<s n="adv"/></r></p></e>
+<e><p><l>trop<s n="adv"/></l><r>trop<s n="adv"/></r></p></e>
+<e><p><l>vainement<s n="adv"/></l><r>en<b/>van<s n="adv"/></r></p></e>
+<e r="RL"><p><l>vainement<s n="adv"/></l><r>vanament<s n="adv"/></r></p></e>
+<e><p><l>vilainement<s n="adv"/></l><r>pouetament<s n="adv"/></r></p></e>
+<e><p><l>vivement<s n="adv"/></l><r>vivament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>vivement<s n="adv"/></l><r>prontament<s n="adv"/></r></p></e>
+<e><p><l>voici<s n="adv"/></l><r>vê-ce<s n="adv"/></r></p></e>
+<e><p><l>voilà<s n="adv"/></l><r>vê-que<s n="adv"/></r></p></e>
+<e r="RL"><p><l>voilà<s n="adv"/></l><r>vê-inque<s n="adv"/></r></p></e>
+<e r="RL"><p><l>voilà<s n="adv"/></l><r>vê-lé<s n="adv"/></r></p></e>
+<e><p><l>voire<s n="adv"/></l><r>vêr<s n="adv"/></r></p></e>
+<e><p><l>volontairement<s n="adv"/></l><r>volontèrament<s n="adv"/></r></p></e>
+<e><p><l>volontiers<s n="adv"/></l><r>volontiér<s n="adv"/></r></p></e>
+<e r="RL"><p><l>volontiers<s n="adv"/></l><r>suâf<s n="adv"/></r></p></e>
+<e><p><l>vraiment<s n="adv"/></l><r>verément<s n="adv"/></r></p></e>
+<e r="RL"><p><l>vraiment<s n="adv"/></l><r>franc<s n="adv"/></r></p></e>
+<e><p><l>patiemment<s n="adv"/></l><r>avouéc<b/>pacience<s n="adv"/></r></p></e>
+
+<e><p><l>en<b/>abondance<s n="adv"/></l><r>d'abondo<s n="adv"/></r></p></e>
+<e><p><l>d'accord<s n="adv"/></l><r>d'acôrd<s n="adv"/></r></p></e>
+<e i="yes"><p><l>ailleurs<s n="adv"/></l><r>ôtra<b/>pârt<s n="adv"/></r></p></e>
+<e><p><l>d'ailleurs<s n="adv"/></l><r>d'alyor<s n="adv"/></r></p></e>
+<e><p><l>à<b/>l'amiable<s n="adv"/></l><r>a<b/>l'amiâblo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>à<b/>l'amiable<s n="adv"/></l><r>a<b/>l'amiâbla<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aussi<s n="adv"/></l><r>le<b/>bôrg<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aujourd'hui<s n="adv"/></l><r>enqu'houé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>aujourd'hui<s n="adv"/></l><r>u<b/>jorn<b/>d'houé<s n="adv"/></r></p></e>
+<e><p><l>en<b/>automne<s n="adv"/></l><r>d'ôton<s n="adv"/></r></p></e>
+<e r="RL"><p><l>autour<s n="adv"/></l><r>d'enveron<s n="adv"/></r></p></e>
+<e><p><l>en<b/>bas<s n="adv"/></l><r>d'avâl<s n="adv"/></r></p></e>
+<e r="LR"><p><l>en<b/>aval<s n="adv"/></l><r>d'avâl<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pour<b/>de<b/>bon<s n="adv"/></l><r>por<b/>de<b/>bon<s n="adv"/></r></p></e>
+<e r="RL"><p><l>de<b/>bonne<b/>heure<s n="adv"/></l><r>de<b/>bôn'hora<s n="adv"/></r></p></e>
+<e><p><l>en<b/>cachette<s n="adv"/></l><r>a<b/>cachon<s n="adv"/></r></p></e>
+<e><p><l>céans<s n="adv"/></l><r>ce-en<s n="adv"/></r></p></e>
+<e r="LR"><p><l>comme<b/>ça<s n="adv"/></l><r>ense<s n="adv"/></r></p></e>
+<e r="LR"><p><l>comme<b/>ça<s n="adv"/></l><r>d'ense<s n="adv"/></r></p></e>
+<e r="LR"><p><l>comme<b/>ça<s n="adv"/></l><r>ensé<s n="adv"/></r></p></e>
+<e r="LR"><p><l>comme<b/>ça<s n="adv"/></l><r>d'inse<s n="adv"/></r></p></e>
+<e r="LR"><p><l>au<b/>contraire<s n="adv"/></l><r>arriér<s n="adv"/></r></p></e>
+<e r="LR"><p><l>au<b/>contraire<s n="adv"/></l><r>arriér-més<s n="adv"/></r></p></e>
+<e r="LR"><p><l>de<b/>ce<b/>côté-là<s n="adv"/></l><r>lé-outre<s n="adv"/></r></p></e>
+<e><p><l>d'ailleurs<s n="adv"/></l><r>d'alyor<s n="adv"/></r></p></e>
+<e r="RL"><p><l>debout<s n="adv"/></l><r>d'en-pied<s n="adv"/></r></p></e>
+<e><p><l>deçà<s n="adv"/></l><r>decé<s n="adv"/></r></p></e>
+<e><p><l>deci-delà<s n="adv"/></l><r>decé-delé<s n="adv"/></r></p></e>
+<e r="LR"><p><l>dès<b/>maintenant<s n="adv"/></l><r>dês<b/>ora<s n="adv"/></r></p></e>
+<e><p><l>par-dessus<s n="adv"/></l><r>per-dessus<s n="adv"/></r></p></e>
+<e><p><l>droit<b/>en<b/>haut<s n="adv"/></l><r>drêt-hôt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>également<s n="adv"/></l><r>ègalament<s n="adv"/></r></p></e>
+<e><p><l>en<b/>deçà<s n="adv"/></l><r>en-decé<s n="adv"/></r></p></e>
+<e><p><l>en<b/>soi<s n="adv"/></l><r>permié<s n="adv"/></r></p></e>
+<e><p><l>en<b/>soi-même<s n="adv"/></l><r>entre-sè<s n="adv"/></r></p></e>
+<e><p><l>en-dessous<s n="adv"/></l><r>en-desot<s n="adv"/></r></p></e>
+<e><p><l>à<b/>l'envi<s n="adv"/></l><r>u<b/>pir<b/>fére<s n="adv"/></r></p></e>
+<e><p><l>à<b/>qui<b/>mieux<b/>mieux<s n="adv"/></l><r>u<b/>pir<b/>fére<s n="adv"/></r></p></e>
+<e><p><l>gaiment<s n="adv"/></l><r>guêment<s n="adv"/></r></p></e>
+<e><p><l>hardiment<s n="adv"/></l><r>hardiament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>également<s n="adv"/></l><r>l'hermance<s n="adv"/></r></p></e>
+<e><p><l>par<b/>ici<s n="adv"/></l><r>per-cé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>par<b/>ici<s n="adv"/></l><r>ce-vers<s n="adv"/></r></p></e>
+<e r="RL"><p><l>par<b/>ici<s n="adv"/></l><r>per-ce-outre<s n="adv"/></r></p></e>
+<e r="RL"><p><l>par<b/>ici<s n="adv"/></l><r>per-cé<s n="adv"/></r></p></e>
+<e r="RL"><p><l>par<b/>ici<s n="adv"/></l><r>per-que<s n="adv"/></r></p></e>
+<e r="RL"><p><l>par<b/>ici<s n="adv"/></l><r>per-ique<s n="adv"/></r></p></e>
+<e><p><l>ici<b/>dedans<s n="adv"/></l><r>ce-en<s n="adv"/></r></p></e>
+<e><p><l>ici<b/>en<b/>bas<s n="adv"/></l><r>ce-avâl<s n="adv"/></r></p></e>
+<e><p><l>ici<b/>en<b/>haut<s n="adv"/></l><r>ce-amont<s n="adv"/></r></p></e>
+<e><p><l>jeudi<s n="adv"/></l><r>dejô<s n="adv"/></r></p></e>
+<e r="RL"><p><l>jeudi<s n="adv"/></l><r>jôdi<s n="adv"/></r></p></e>
+<e><p><l>à<b/>jeun<s n="adv"/></l><r>a<b/>jon<s n="adv"/></r></p></e>
+<e r="LR"><p><l>joliment<s n="adv"/></l><r>galyârd<s n="adv"/></r></p></e>
+<e i="yes"><p><l>joliment<s n="adv"/></l><r>gentament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>tout<b/>juste<s n="adv"/></l><r>pués<b/>ora<s n="adv"/></r></p></e>
+<e r="LR"><p><l>vers<b/>là<s n="adv"/></l><r>lé-vers<s n="adv"/></r></p></e>
+<e><p><l>par<b/>là<s n="adv"/></l><r>per-lé<s n="adv"/></r></p></e>
+<e><p><l>lundi<s n="adv"/></l><r>delon<s n="adv"/></r></p></e>
+<e r="RL"><p><l>lundi<s n="adv"/></l><r>delion<s n="adv"/></r></p></e>
+<e r="RL"><p><l>lundi<s n="adv"/></l><r>lon<s n="adv"/></r></p></e>
+<e r="RL"><p><l>lundi<s n="adv"/></l><r>londi<s n="adv"/></r></p></e>
+<e><p><l>mardi<s n="adv"/></l><r>demârs<s n="adv"/></r></p></e>
+<e r="RL"><p><l>mardi<s n="adv"/></l><r>mârs<s n="adv"/></r></p></e>
+<e r="RL"><p><l>mardi<s n="adv"/></l><r>mârdi<s n="adv"/></r></p></e>
+<e r="LR"><p><l>méchamment<s n="adv"/></l><r>pouetament<s n="adv"/></r></p></e>
+<e><p><l>mercredi<s n="adv"/></l><r>demécro<s n="adv"/></r></p></e>
+<e r="RL"><p><l>mercredi<s n="adv"/></l><r>mécredi<s n="adv"/></r></p></e>
+<e><p><l>non<b/>pas<s n="adv"/></l><r>nan<b/>pas<s n="adv"/></r></p></e>
+<e r="RL"><p><l>de<b/>nouveau<s n="adv"/></l><r>oncor<b/>un<b/>côp<s n="adv"/></r></p></e>
+<e><p><l>à<b/>la<b/>nuit<b/>noire<s n="adv"/></l><r>a<b/>la<b/>sâre<b/>nuet<s n="adv"/></r></p></e>
+<e r="LR"><p><l>à<b/>la<b/>nuit<b/>close<s n="adv"/></l><r>a<b/>la<b/>sâre<b/>nuet<s n="adv"/></r></p></e>
+<e r="RL"><p><l>à<b/>la<b/>nuit<b/>noire<s n="adv"/></l><r>u<b/>sâre<b/>de<b/>la<b/>nuet<s n="adv"/></r></p></e>
+<e><p><l>par-dessus<s n="adv"/></l><r>per-dessus<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pas<b/>davantage<s n="adv"/></l><r>pas<b/>més<s n="adv"/></r></p></e>
+<e><p><l>à<b/>plein<b/>pot<s n="adv"/></l><r>a<b/>taly<b/>de<b/>bichon<s n="adv"/></r></p></e>
+<e r="LR"><p><l>poliment<s n="adv"/></l><r>honétament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pour<b/>de<b/>bon<s n="adv"/></l><r>por<b/>de<b/>bon<s n="adv"/></r></p></e>
+<e i="yes"><p><l>pour<b/>de<b/>bon<s n="adv"/></l><r>de<b/>bon<s n="adv"/></r></p></e>
+<e><p><l>rien<b/>du<b/>tout<s n="adv"/></l><r>ren<b/>du<b/>tot<s n="adv"/></r></p></e>
+<e><p><l>samedi<s n="adv"/></l><r>dessando<s n="adv"/></r></p></e>
+<e r="RL"><p><l>samedi<s n="adv"/></l><r>samedi<s n="adv"/></r></p></e>
+<e r="RL"><p><l>samedi<s n="adv"/></l><r>sando<s n="adv"/></r></p></e>
+<e><p><l>sans<b/>aide<s n="adv"/></l><r>de<b/>per<s n="adv"/></r></p></e>
+<e i="yes"><p><l>sans<b/>aide<s n="adv"/></l><r>de<b/>per<b/>sè<s n="adv"/></r></p></e>
+<e><p><l>de<b/>soi-même<s n="adv"/></l><r>de<b/>per<s n="adv"/></r></p></e>
+<e r="RL"><p><l>de<b/>soi-même<s n="adv"/></l><r>de<b/>per<b/>sè<s n="adv"/></r></p></e>
+<e r="RL"><p><l>seulement<s n="adv"/></l><r>'lament<s n="adv"/></r></p></e>
+<e><p><l>en<b/>soi<s n="adv"/></l><r>permié<s n="adv"/></r></p></e>
+<e><p><l>en<b/>soi-même<s n="adv"/></l><r>entre-sè<s n="adv"/></r></p></e>
+<e><p><l>hier<b/>au<b/>soir<s n="adv"/></l><r>hièr<b/>u<b/>sêr<s n="adv"/></r></p></e>
+<e r="LR"><p><l>vers<b/>le<b/>soir<s n="adv"/></l><r>tantout<s n="adv"/></r></p></e>
+<e><p><l>vers<b/>le<b/>soir<s n="adv"/></l><r>de-vers-le-nuet<s n="adv"/></r></p></e>
+<e r="RL"><p><l>vers<b/>le<b/>soir<s n="adv"/></l><r>de-vers-sêr<s n="adv"/></r></p></e>
+<e><p><l>soit<s n="adv"/></l><r>sêt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>soudain<s n="adv"/></l><r>tot<b/>d'un<b/>côp<s n="adv"/></r></p></e>
+<e r="RL"><p><l>subitement<s n="adv"/></l><r>tot<b/>d'un<b/>côp<s n="adv"/></r></p></e>
+<e><p><l>de<b/>suite<s n="adv"/></l><r>de<b/>tire<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tantôt<s n="adv"/></l><r>puéte<s n="adv"/></r></p></e>
+<e><p><l>tête-bêche<s n="adv"/></l><r>a<b/>bèchevèt<s n="adv"/></r></p></e>
+<e r="RL"><p><l>tôt<s n="adv"/></l><r>de<b/>bôn'hora<s n="adv"/></r></p></e>
+<e><p><l>à<b/>l'instant<s n="adv"/></l><r>finament<s n="adv"/></r></p></e>
+<e><p><l>tout<b/>d'un<b/>coup<s n="adv"/></l><r>tot<b/>d'un<b/>côp<s n="adv"/></r></p></e>
+<e r="LR"><p><l>tout<b/>juste<s n="adv"/></l><r>pués<b/>ora<s n="adv"/></r></p></e>
+<e><p><l>vendredi<s n="adv"/></l><r>devendro<s n="adv"/></r></p></e>
+<e r="RL"><p><l>vendredi<s n="adv"/></l><r>vendredi<s n="adv"/></r></p></e>
+<e r="LR"><p><l>vers<b/>là<s n="adv"/></l><r>lé-vers<s n="adv"/></r></p></e>
+<e r="LR"><p><l>vers<b/>l'après-midi<s n="adv"/></l><r>tantout<s n="adv"/></r></p></e>
+<e r="LR"><p><l>vers<b/>le<b/>soir<s n="adv"/></l><r>tantout<s n="adv"/></r></p></e>
+<e><p><l>verticalement<s n="adv"/></l><r>d'aplomb<s n="adv"/></r></p></e>
+<e r="RL"><p><l>verticalement<s n="adv"/></l><r>d'aplan<s n="adv"/></r></p></e>
+<e><p><l>vis-à-vis<s n="adv"/></l><r>vis-a-vis<s n="adv"/></r></p></e>
+<e><p><l>en<b/>vrac<s n="adv"/></l><r>totu-botu<s n="adv"/></r></p></e>
+<e r="RL"><p><l>en<b/>vrac<s n="adv"/></l><r>tordu-botu<s n="adv"/></r></p></e>
+<e r="RL"><p><l>en<b/>vrac<s n="adv"/></l><r>otu-botu<s n="adv"/></r></p></e>
 
       <e><p><l>être<s n="vbser"/></l><r>étre<s n="vbser"/></r></p></e>
       <e r="LR"><p><l>être<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sp"/></l><r>étre<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1226,11 +1609,16 @@
 <e i="yes"><p><l>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>		<!-- VERIFY -->
 <e>       <p><l>Marie<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marie<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 
+<e>       <p><l>lunette<s n="n"/><s n="f"/><s n="pl"/></l><r>beséclles<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>lunette<s n="n"/><s n="f"/><s n="pl"/></l><r>berécllo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>lunette<s n="n"/><s n="f"/><s n="pl"/></l><r>berécllo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>lunette<s n="n"/><s n="f"/></l><r>lenèta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>élément<s n="n"/><s n="m"/></l><r>èlèment<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>livre<s n="n"/><s n="m"/></l><r>lévro<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>livre<s n="n"/><s n="f"/></l><r>livra<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>chat<s n="n"/><s n="m"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>chien<s n="n"/><s n="m"/></l><r>chin<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>livre<s n="n"/><s n="f"/></l><r>livra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>chat<s n="n"/></l><r>chat<s n="n"/></r></p></e>
+<e>       <p><l>chien<s n="n"/></l><r>chin<s n="n"/></r></p></e>
+<e r="RL"><p><l>chien<s n="n"/><s n="f"/></l><r>cagna<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>jardin<s n="n"/><s n="m"/></l><r>cortil<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jeu<s n="n"/><s n="m"/></l><r>juè<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>enfant<s n="n"/><s n="mf"/></l><r>enfant<s n="n"/><s n="mf"/></r></p></e>
@@ -1354,12 +1742,11 @@
 <e>       <p><l>personne<s n="n"/><s n="f"/></l><r>pèrsona<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>personne<s n="n"/><s n="f"/><s n="sg"/></l><r>gent<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>gens<s n="n"/><s n="m"/><s n="pl"/></l><r>gens<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e>       <p><l>acteur<s n="n"/><s n="m"/></l><r>actor<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>acteur<s n="n"/><s n="f"/></l><r>actrice<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>acteur<s n="n"/></l><r>actor<s n="n"/></r></p></e>
 <e>       <p><l>franc<s n="n"/><s n="m"/></l><r>franc<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>franc<g><b/>CFA</g><s n="n"/><s n="m"/></l><r>franc<g><b/>CFA</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>franc<g><b/>CFP</g><s n="n"/><s n="m"/></l><r>franc<g><b/>CFP</g><s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>franc_peuple<s n="n"/></l><r>franc_poplo<s n="n"/></r></p></e>
+<e>       <p><l>Franc_peuple<s n="n"/></l><r>Franc_poplo<s n="n"/></r></p></e>
 
 <e>       <p><l>autre<s n="adj"/><s n="ind"/></l><r>ôtro<s n="adj"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>même<s n="adj"/><s n="ind"/></l><r>mémo<s n="adj"/><s n="ind"/></r></p><par n="mf_GD"/></e>
@@ -1400,20 +1787,20 @@
 <e>       <p><l>anglais<s n="n"/></l><r>anglês<s n="n"/></r></p></e>
 <e>       <p><l>espagnol<s n="adj"/></l><r>espagnol<s n="adj"/></r></p></e>
 <e>       <p><l>espagnol<s n="n"/></l><r>espagnol<s n="n"/></r></p></e>
-<e>       <p><l>afriquain<s n="adj"/></l><r>afriquen<s n="adj"/></r></p></e>
-<e>       <p><l>Afriquain<s n="n"/></l><r>Afriquen<s n="n"/></r></p></e>
+<e>       <p><l>africain<s n="adj"/></l><r>afriquen<s n="adj"/></r></p></e>
+<e>       <p><l>Africain<s n="n"/></l><r>Afriquen<s n="n"/></r></p></e>
 <e>       <p><l>américain<s n="adj"/></l><r>amèriquen<s n="adj"/></r></p></e>
 <e>       <p><l>Américain<s n="n"/></l><r>Amèriquen<s n="n"/></r></p></e>
 <e>       <p><l>européen<s n="adj"/></l><r>eropèen<s n="adj"/></r></p></e>
 <e>       <p><l>européen<s n="n"/></l><r>Eropèen<s n="n"/></r></p></e>
 <e r="RL"><p><l>européen<s n="adj"/></l><r>uropèen<s n="adj"/></r></p></e>
 <e r="RL"><p><l>européen<s n="n"/></l><r>Uropèen<s n="n"/></r></p></e>
-<e>       <p><l>asiatique<s n="adj"/></l><r>asian<s n="adj"/></r></p></e>
-<e>       <p><l>Asiatique<s n="n"/></l><r>Asian<s n="n"/></r></p></e>
-<e r="RL"><p><l>asiatique<s n="adj"/></l><r>asiatico<s n="adj"/></r></p></e>
-<e r="RL"><p><l>Asiatique<s n="n"/></l><r>Asiatico<s n="n"/></r></p></e>
+<e>       <p><l>asiatique<s n="adj"/></l><r>asian<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>Asiatique<s n="n"/></l><r>Asian<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>asiatique<s n="adj"/></l><r>asiatico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>Asiatique<s n="n"/></l><r>Asiatico<s n="n"/></r></p><par n="mf_GD"/></e>
 
-<e>       <p><l>ami<s n="n"/></l><r>ami<s n="n"/></r></p></e>
+<e>       <p><l>ami<s n="n"/></l><r>ami<s n="n"/></r></p><par n="mf_mf"/></e>
 <e r="RL"><p><l>ami<s n="n"/><s n="f"/></l><r>mia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>saint<s n="n"/></l><r>sant<s n="n"/></r></p></e>
 <e r="RL"><p><l>saint<s n="n"/></l><r>sent<s n="n"/></r></p></e>
@@ -1463,7 +1850,6 @@
 <e>       <p><l>pêche<s n="n"/><s n="f"/></l><r>pêche<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>pécheur<s n="n"/></l><r>pèchior<s n="n"/></r></p></e>
 
-<e>       <p><l>chat<s n="n"/><s n="m"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>contremaître<s n="n"/><s n="m"/></l><r>contremêtre<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Gaule<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gôla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
