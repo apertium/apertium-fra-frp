@@ -624,6 +624,25 @@
     <match lemma="lé-en" tags="adv"><select lemma="là-dedans"/></match>
   </rule>
 
+<!-- **************** ADJ **************** -->
+
+<!-- **************** N **************** -->
+
+  <!-- ensemblo >> ensemble, complexe -->
+  <rule weight="0.8">
+    <match lemma="ensemblo" tags="n.*"><select lemma="ensemble"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ensemblo" tags="n.*"><select lemma="complexe"/></match>
+    <or>
+      <match lemma="sportif" tags="adj.*"/>
+      <match lemma="esportif" tags="adj.*"/>
+      <match lemma="endustriâl" tags="adj.*"/>
+      <match lemma="hèpetaliér" tags="adj.*"/>
+      <match lemma="comèrciâl" tags="adj.*"/>
+    </or>
+  </rule>
+
 <!-- **************** V **************** -->
 
   <!-- apondre >> ajouter, rattacher -->

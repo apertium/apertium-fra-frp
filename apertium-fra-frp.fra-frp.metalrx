@@ -506,6 +506,22 @@
 
 <!-- **************** N **************** -->
 
+  <!-- complexe >> complèxo, ensemblo -->
+  <rule weight="0.8">
+    <match lemma="complexe" tags="n.*"><select lemma="complèxo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="complexe" tags="n.*"><select lemma="ensemblo"/></match>
+    <or>
+      <match lemma="sportif" tags="adj.*"/>
+      <match lemma="industriel" tags="adj.*"/>
+      <match lemma="hospitalier" tags="adj.*"/>
+      <match lemma="commercial" tags="adj.*"/>
+      <match lemma="récréatif" tags="adj.*"/>
+      <match lemma="touristique" tags="adj.*"/>
+    </or>
+  </rule>
+
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
@@ -1155,6 +1171,21 @@
     <or><match tags="vblex.*"/><match tags="vbser.*"/><match tags="vbhaver.*"/><match tags="vbmod.*"/></or>
     <match tags="adv"/>
     <match lemma="plus" tags="adv"><select lemma="pas més"/></match>
+  </rule>
+
+<!-- **************** ADJ **************** -->
+
+  <!-- propre >> pôpro, prôpro -->
+  <rule weight="0.8">
+    <match lemma="propre" tags="adj.*"><select lemma="pôpro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="propre" tags="adj.*"><select lemma="prôpro"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.*"/>
+    <match lemma="propre" tags="adj.*"><select lemma="prôpro"/></match>
   </rule>
 
 <!-- **************** V **************** -->
