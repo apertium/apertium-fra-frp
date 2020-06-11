@@ -2596,6 +2596,7 @@
             </equal>
           </test>
           <let><var n="tipusverb"/><lit-tag v="partitiu"/></let>
+          <let><var n="tipusverb"/><lit-tag v="normal"/></let>
         </when>
         <otherwise>
           <let><var n="tipusverb"/><lit-tag v="normal"/></let>

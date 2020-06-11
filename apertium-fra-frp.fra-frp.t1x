@@ -491,7 +491,7 @@
       <list-item v="aucun"/>
     </def-list>
 
-    <def-list n="verbs_amb_partitiu">	<!-- cal frp -->
+    <def-list n="verbs_amb_partitiu">	<!-- de moment, no cal frp -->
       <list-item v="aculhir"/>
       <list-item v="acuélher"/>
       <list-item v="agropar"/>
@@ -2728,6 +2728,7 @@
           </or>
           </test>
           <let><var n="tipusverb"/><lit-tag v="partitiu"/></let>
+          <let><var n="tipusverb"/><lit-tag v="normal"/></let>
         </when>
         <otherwise>
           <let><var n="tipusverb"/><lit-tag v="normal"/></let>
