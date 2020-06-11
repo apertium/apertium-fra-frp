@@ -594,6 +594,16 @@
       <match lemma="iquen" tags="prn.*"><select lemma="cela"/></match>
     </or>
   </rule>
+  <rule weight="0.8">
+    <or>
+      <match lemma="ço" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="ce" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="cen" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="quen" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="iquen" tags="prn.*"><select lemma="ce"/></match>
+    </or>
+    <match lemma="que"/>
+  </rule>
 
 <!-- **************** REL **************** -->
 
@@ -626,6 +636,40 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- famox >> fameux, célèbre -->
+  <rule weight="0.8">
+    <match lemma="famox" tags="n.*"><select lemma="fameux"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="famox" tags="n.*"><select lemma="célèbre"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="cnjcoo"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <match tags="n.*"/>
+  </rule>
+
+  <!-- premiér >> premier, aîné -->
+  <rule weight="0.8">
+    <match lemma="premiér" tags="adj.*"><select lemma="premier"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="frâre" tags="n.*"/>
+      <match lemma="suèra" tags="n.*"/>
+      <match lemma="seror" tags="n.*"/>
+      <match lemma="sœr" tags="n.*"/>
+      <match lemma="sor" tags="n.*"/>
+    </or>
+    <match lemma="premiér" tags="adj.*"><select lemma="aîné"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
 
   <!-- ensemblo >> ensemble, complexe -->
@@ -641,6 +685,11 @@
       <match lemma="hèpetaliér" tags="adj.*"/>
       <match lemma="comèrciâl" tags="adj.*"/>
     </or>
+  </rule>
+
+  <!-- premiér >> premier, aîné -->
+  <rule weight="0.8">
+    <match lemma="premiér" tags="n.*"><select lemma="premier"/></match>
   </rule>
 
 <!-- **************** V **************** -->
@@ -679,6 +728,7 @@
 <!-- **************** NP **************** -->
 
   <macro name="noms_propres" p1="Jian" p2="Jean" />
+  <macro name="noms_propres" p1="François" p2="Françouès" />
 
 <!--
   <macro name="noms_propres" p1="Charles" p2="Carles" />
@@ -696,7 +746,6 @@
   <macro name="noms_propres" p1="Paul" p2="Pau" />
   <macro name="noms_propres" p1="Jean-Paul" p2="Joan Pau" />
   <macro name="noms_propres" p1="Benoît" p2="Benet" />
-  <macro name="noms_propres" p1="François" p2="Francesc" />
   <macro name="noms_propres" p1="Sixte" p2="Sixt" />
   <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
   <macro name="noms_propres" p1="Léon" p2="Lleó" />

@@ -1045,6 +1045,13 @@
       <match lemma="ce" tags="prn.*"><select lemma="cen"/></match>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="ce" tags="prn.*"><select lemma="o"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vbser.*"/>
+  </rule>
 
   <!-- le (prn.pro) >> lo, o -->
   <rule weight="0.8">
@@ -1245,6 +1252,7 @@
 <!-- **************** NP **************** -->
 
   <macro name="noms_propres" p1="Jean" p2="Jian" />
+  <macro name="noms_propres" p1="François" p2="Françouès" />
 
 <!--
   <macro name="noms_propres" p1="Charles" p2="Carles" />
@@ -1262,7 +1270,6 @@
   <macro name="noms_propres" p1="Paul" p2="Pau" />
   <macro name="noms_propres" p1="Jean-Paul" p2="Joan Pau" />
   <macro name="noms_propres" p1="Benoît" p2="Benet" />
-  <macro name="noms_propres" p1="François" p2="Francesc" />
   <macro name="noms_propres" p1="Sixte" p2="Sixt" />
   <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
   <macro name="noms_propres" p1="Léon" p2="Lleó" />
