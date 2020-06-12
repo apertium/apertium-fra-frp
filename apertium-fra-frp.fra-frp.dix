@@ -609,6 +609,7 @@
 <e><p><l>un<b/>peu<b/>de<s n="pr"/></l><r>un<b/>pou<b/>de<s n="pr"/></r></p></e>
 <e><p><l>un<b/>peu<b/>avant<s n="pr"/></l><r>un<b/>pou<b/>avant<s n="pr"/></r></p></e>
 <e><p><l>un<b/>peu<b/>après<s n="pr"/></l><r>un<b/>pou<b/>aprés<s n="pr"/></r></p></e>
+<e r="LR"><p><l>par<b/>rapport<b/>à<s n="pr"/></l><r>comparâ<b/>avouéc<s n="pr"/></r></p></e>
 
 
 <e>       <p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
@@ -924,33 +925,35 @@
 <e>       <p><l>XXIX<s n="num"/></l><r>XXIX<s n="num"/></r></p></e>
 <e>       <p><l>XXX<s n="num"/></l><r>XXX<s n="num"/></r></p></e>
 <e>       <p><l>IIIe<s n="adj"/></l><r>IIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>IVe<s n="num"/></l><r>IVo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>Ve<s n="num"/></l><r>Vo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>VIe<s n="num"/></l><r>VIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>VIIe<s n="num"/></l><r>VIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>VIIIe<s n="num"/></l><r>VIIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>IXe<s n="num"/></l><r>IXo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>Xe<s n="num"/></l><r>Xo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XIe<s n="num"/></l><r>XIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XIIe<s n="num"/></l><r>XIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XIIIe<s n="num"/></l><r>XIIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XIVe<s n="num"/></l><r>XIVo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XVe<s n="num"/></l><r>XVo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XVIe<s n="num"/></l><r>XVIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XVIIe<s n="num"/></l><r>XVIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XVIIIe<s n="num"/></l><r>XVIIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XIXe<s n="num"/></l><r>XIXo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXe<s n="num"/></l><r>XXo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXIe<s n="num"/></l><r>XXIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXIIe<s n="num"/></l><r>XXIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXIIIe<s n="num"/></l><r>XXIIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXIVe<s n="num"/></l><r>XXIVo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXVe<s n="num"/></l><r>XXVo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXVIe<s n="num"/></l><r>XXVIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXVIIe<s n="num"/></l><r>XXVIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXVIIIe<s n="num"/></l><r>XXVIIIo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXIXe<s n="num"/></l><r>XXIXo<s n="num"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>XXXe<s n="num"/></l><r>XXXo<s n="num"/></r></p><par n="mf_GD"/></e>
+<!--
+<e>       <p><l>IVe<s n="adj"/></l><r>IVo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>Ve<s n="adj"/></l><r>Vo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>VIe<s n="adj"/></l><r>VIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>VIIe<s n="adj"/></l><r>VIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>VIIIe<s n="adj"/></l><r>VIIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>IXe<s n="adj"/></l><r>IXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>Xe<s n="adj"/></l><r>Xo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XIe<s n="adj"/></l><r>XIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XIIe<s n="adj"/></l><r>XIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XIIIe<s n="adj"/></l><r>XIIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XIVe<s n="adj"/></l><r>XIVo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XVe<s n="adj"/></l><r>XVo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XVIe<s n="adj"/></l><r>XVIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XVIIe<s n="adj"/></l><r>XVIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XVIIIe<s n="adj"/></l><r>XVIIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XIXe<s n="adj"/></l><r>XIXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXe<s n="adj"/></l><r>XXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXIe<s n="adj"/></l><r>XXIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXIIe<s n="adj"/></l><r>XXIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXIIIe<s n="adj"/></l><r>XXIIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXIVe<s n="adj"/></l><r>XXIVo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXVe<s n="adj"/></l><r>XXVo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXVIe<s n="adj"/></l><r>XXVIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXVIIe<s n="adj"/></l><r>XXVIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXVIIIe<s n="adj"/></l><r>XXVIIIo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXIXe<s n="adj"/></l><r>XXIXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>XXXe<s n="adj"/></l><r>XXXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
+-->
 
 <e>       <p><l>très<s n="preadv"/></l><r>brâvament<s n="preadv"/></r></p></e>
 <e r="RL"><p><l>très<s n="preadv"/></l><r>franc<s n="preadv"/></r></p></e>
