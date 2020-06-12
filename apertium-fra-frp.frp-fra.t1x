@@ -218,6 +218,7 @@
 
     <def-attr n="a_adjec">
       <attr-item tags="adj.ind"/>
+      <attr-item tags="adj.pos"/>
       <attr-item tags="adj.sup"/>
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.pos"/>
