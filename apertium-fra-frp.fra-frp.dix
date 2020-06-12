@@ -3864,6 +3864,49 @@
 <e><p><l>valser<s n="vblex"/></l><r>valsiér<s n="vblex"/></r></p></e>
 <e><p><l>vaquer<s n="vblex"/></l><r>vacar<s n="vblex"/></r></p></e>
 <e><p><l>voguer<s n="vblex"/></l><r>vogar<s n="vblex"/></r></p></e>
+<e><p><l>apprécier<s n="vblex"/></l><r>aprèciyér<s n="vblex"/></r></p></e>
+<e><p><l>asphyxier<s n="vblex"/></l><r>asfixiyér<s n="vblex"/></r></p></e>
+<e><p><l>assigner<s n="vblex"/></l><r>assignér<s n="vblex"/></r></p></e>
+<e><p><l>associer<s n="vblex"/></l><r>associyér<s n="vblex"/></r></p></e>
+<e><p><l>béer<s n="vblex"/></l><r>bayér<s n="vblex"/></r></p></e>
+<e><p><l>bénéficier<s n="vblex"/></l><r>bènèficiyér<s n="vblex"/></r></p></e>
+<e><p><l>châtier<s n="vblex"/></l><r>chateyér<s n="vblex"/></r></p></e>
+<e><p><l>consigner<s n="vblex"/></l><r>consignér<s n="vblex"/></r></p></e>
+<e><p><l>copier<s n="vblex"/></l><r>copiyér<s n="vblex"/></r></p></e>
+<e><p><l>coudoyer<s n="vblex"/></l><r>codeyér<s n="vblex"/></r></p></e>
+<e><p><l>daigner<s n="vblex"/></l><r>dègnér<s n="vblex"/></r></p></e>
+<e><p><l>déblayer<s n="vblex"/></l><r>dèblèyér<s n="vblex"/></r></p></e>
+<e><p><l>défrayer<s n="vblex"/></l><r>dèfreyér<s n="vblex"/></r></p></e>
+<e><p><l>déligner<s n="vblex"/></l><r>dèlegnér<s n="vblex"/></r></p></e>
+<e><p><l>déprécier<s n="vblex"/></l><r>dèprèciyér<s n="vblex"/></r></p></e>
+<e><p><l>désigner<s n="vblex"/></l><r>dèsignér<s n="vblex"/></r></p></e>
+<e><p><l>effrayer<s n="vblex"/></l><r>èfreyér<s n="vblex"/></r></p></e>
+<e><p><l>éloigner<s n="vblex"/></l><r>èluegnér<s n="vblex"/></r></p></e>
+<e><p><l>employer<s n="vblex"/></l><r>empleyér<s n="vblex"/></r></p></e>
+<e><p><l>empoigner<s n="vblex"/></l><r>empouegnér<s n="vblex"/></r></p></e>
+<e><p><l>épierrer<s n="vblex"/></l><r>èpiérreyér<s n="vblex"/></r></p></e>
+<e><p><l>fienter<s n="vblex"/></l><r>câyér<s n="vblex"/></r></p></e>
+<e><p><l>foudroyer<s n="vblex"/></l><r>fudreyér<s n="vblex"/></r></p></e>
+<e><p><l>gagner<s n="vblex"/></l><r>gâgnér<s n="vblex"/></r></p></e>
+<e><p><l>humilier<s n="vblex"/></l><r>humiliyér<s n="vblex"/></r></p></e>
+<e><p><l>incendier<s n="vblex"/></l><r>encendiyér<s n="vblex"/></r></p></e>
+<e><p><l>mendier<s n="vblex"/></l><r>mandeyér<s n="vblex"/></r></p></e>
+<e><p><l>négocier<s n="vblex"/></l><r>nègociyér<s n="vblex"/></r></p></e>
+<e><p><l>ondoyer<s n="vblex"/></l><r>ondeyér<s n="vblex"/></r></p></e>
+<e><p><l>privilégier<s n="vblex"/></l><r>privilègiyér<s n="vblex"/></r></p></e>
+<e><p><l>provigner<s n="vblex"/></l><r>provegnér<s n="vblex"/></r></p></e>
+<e><p><l>rechigner<s n="vblex"/></l><r>rechegnér<s n="vblex"/></r></p></e>
+<e><p><l>relier<s n="vblex"/></l><r>reliyér<s n="vblex"/></r></p></e>
+<e><p><l>relouer<s n="vblex"/></l><r>rèloyér<s n="vblex"/></r></p></e>
+<e><p><l>remblayer<s n="vblex"/></l><r>remblèyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rentrer<s n="vblex"/></l><r>ètoyér<s n="vblex"/></r></p></e>
+<e><p><l>replier<s n="vblex"/></l><r>repleyér<s n="vblex"/></r></p></e>
+<e><p><l>répugner<s n="vblex"/></l><r>repugnér<s n="vblex"/></r></p></e>
+<e><p><l>rudoyer<s n="vblex"/></l><r>rudeyér<s n="vblex"/></r></p></e>
+<e><p><l>signer<s n="vblex"/></l><r>signér<s n="vblex"/></r></p></e>
+<e><p><l>soucier<s n="vblex"/></l><r>souciyér<s n="vblex"/></r></p></e>
+<e><p><l>supplier<s n="vblex"/></l><r>supleyér<s n="vblex"/></r></p></e>
+<e><p><l>tutoyer<s n="vblex"/></l><r>tuteyér<s n="vblex"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
