@@ -730,9 +730,10 @@
   <macro name="noms_propres" p1="Jian" p2="Jean" />
   <macro name="noms_propres" p1="Françouès" p2="François" />
   <macro name="noms_propres" p1="Charlo" p2="Charles" />
+  <macro name="noms_propres" p1="Filipo" p2="Philippe" />
+  <macro name="noms_propres" p1="Èdouard" p2="Édouard" />
 
 <!--
-  <macro name="noms_propres" p1="Philippe" p2="Felip" />
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
   <macro name="noms_propres" p1="Ramire" p2="Ramir" />
@@ -776,7 +777,6 @@
   <macro name="noms_propres" p1="Germain" p2="Germànic" />
   <macro name="noms_propres" p1="Antoine" p2="Antoine" />
   <macro name="noms_propres" p1="René" p2="Renat" />
-  <macro name="noms_propres" p1="Édouard" p2="Eduard" />
   <macro name="noms_propres" p1="Anne" p2="Anna" />
   <macro name="noms_propres" p1="Eugénie" p2="Eugènia" />
   <macro name="noms_propres" p1="Baudouin" p2="Balduí" />
