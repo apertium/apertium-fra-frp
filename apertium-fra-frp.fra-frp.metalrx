@@ -506,6 +506,15 @@
 
 <!-- **************** N **************** -->
 
+  <!-- année >> anâ, anâye, sêson -->
+  <rule weight="0.8">
+    <match lemma="année" tags="n.*"><select lemma="anâ"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="année" tags="n.*"><select lemma="sêson"/></match>
+    <match lemma="scolaire" tags="adj.*"/>
+  </rule>
+
   <!-- complexe >> complèxo, ensemblo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="n.*"><select lemma="complèxo"/></match>

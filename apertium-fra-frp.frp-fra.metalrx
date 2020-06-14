@@ -672,6 +672,15 @@
 
 <!-- **************** N **************** -->
 
+  <!-- sêson >> saison, année -->
+  <rule weight="0.8">
+    <match lemma="sêson" tags="n.*"><select lemma="saison"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sêson" tags="n.*"><select lemma="année"/></match>
+    <match lemma="scolèro" tags="adj.*"/>
+  </rule>
+
   <!-- ensemblo >> ensemble, complexe -->
   <rule weight="0.8">
     <match lemma="ensemblo" tags="n.*"><select lemma="ensemble"/></match>
