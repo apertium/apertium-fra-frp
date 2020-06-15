@@ -1058,9 +1058,6 @@
 <e>       <p><l>peu<s n="adv"/></l><r>pou<s n="adv"/></r></p></e>
 <e>       <p><l>un<b/>peu<s n="adv"/></l><r>un<b/>pou<s n="adv"/></r></p></e>
 <e>       <p><l>mieux<s n="adv"/></l><r>mielx<s n="adv"/></r></p></e>
-<e>       <p><l>pire<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
-<e r="RL"><p><l>pire<s n="adv"/></l><r>pire<s n="adv"/></r></p></e>
-<e r="LR"><p><l>pis<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
 <e>       <p><l>beau<s n="adv"/></l><r>biô<s n="adv"/></r></p></e>
 <e>       <p><l>compliqué<s n="adj"/></l><r>complicâ<s n="adj"/></r></p></e>
 <e r="LR"><p><l>complexe<s n="adj"/></l><r>complicâ<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -1239,7 +1236,7 @@
 <e r="LR"><p><l>également<s n="adv"/></l><r>asse-ben<s n="adv"/></r></p></e>
 <e i="yes"><p><l>également<s n="adv"/></l><r>avouéc<s n="adv"/></r></p></e>
 <e i="yes"><p><l>également<s n="adv"/></l><r>d'atot<s n="adv"/></r></p></e>
-<e i="RL"><p><l>également<s n="adv"/></l><r>étot<s n="adv"/></r></p></e>
+<e r="RL"><p><l>également<s n="adv"/></l><r>étot<s n="adv"/></r></p></e>
 <e i="RL"><p><l>également<s n="adv"/></l><r>ègalament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér<s n="adv"/></r></p></e>
 <e r="LR"><p><l>en<b/>revanche<s n="adv"/></l><r>arriér-més<s n="adv"/></r></p></e>
@@ -1764,6 +1761,7 @@
       <e><p><l>devoir<s n="vbmod"/></l><r>devêr<s n="vbmod"/></r></p></e>
       <e><p><l>pouvoir<s n="vbmod"/></l><r>povêr<s n="vbmod"/></r></p></e>
       <e><p><l>vouloir<s n="vbmod"/></l><r>volêr<s n="vbmod"/></r></p></e>
+      <e><p><l>falloir<s n="vbmod"/></l><r>falêr<s n="vbmod"/></r></p></e>
 
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -7197,6 +7195,43 @@
 <e r="RL"><p><l>un<b/>peu<s n="adv"/></l><r>vouére<s n="adv"/></r></p></e>
 <e r="RL"><p><l>un<b/>peu<s n="adv"/></l><r>vouèrea<s n="adv"/></r></p></e>
 <e r="RL"><p><l>un<b/>peu<s n="adv"/></l><r>vouèra<s n="adv"/></r></p></e>
+<e><p><l>corvée<s n="n"/><s n="f"/></l><r>corvâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>corvée<s n="n"/><s n="f"/></l><r>corvâ<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rail<s n="n"/><s n="m"/></l><r>râlye<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rail<s n="n"/><s n="m"/></l><r>râlye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rouille<s n="n"/><s n="f"/></l><r>roulye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rouille<s n="n"/><s n="f"/></l><r>roulye<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gamin<s n="n"/></l><r>gamin<s n="n"/></r></p></e>
+<e><p><l>dauphinois<s n="n"/></l><r>dôfinouès<s n="n"/></r></p></e>
+<e><p><l>dauphinois<s n="adj"/></l><r>dôfinouès<s n="adj"/></r></p></e>
+<e><p><l>déparier<s n="adj"/></l><r>dèpareyér<s n="adj"/></r></p></e>
+<e r="RL"><p><l>déparier<s n="adj"/></l><r>dèparelyér<s n="adj"/></r></p></e>
+<e r="LR"><p><l>dépareiller<s n="adj"/></l><r>dèpareyér<s n="adj"/></r></p></e>
+<e><p><l>malheureux<s n="adj"/></l><r>mâlherox<s n="adj"/></r></p></e>
+<e><p><l>malheureux<s n="n"/></l><r>mâlherox<s n="n"/></r></p></e>
+<e><p><l>pain<s n="n"/><s n="m"/></l><r>pan<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pire<s n="adj"/></l><r>pire<s n="adj"/></r></p></e>
+<e r="RL"><p><l>pire<s n="adj"/></l><r>pir<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>pire<s n="adv"/></l><r>pire<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pire<s n="adv"/></l><r>pir<s n="adv"/></r></p></e>
+<e r="LR"><p><l>pis<s n="adv"/></l><r>pire<s n="adv"/></r></p></e>
+<e><p><l>loup<s n="n"/><s n="m"/></l><r>lop<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arithmétique<s n="adj"/></l><r>aritmètico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>biélorusse<s n="adj"/></l><r>bièlorusso<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>complice<s n="adj"/></l><r>complice<s n="adj"/></r></p></e>
+<e><p><l>délégué<s n="adj"/></l><r>dèlègâ<s n="adj"/></r></p></e>
+<e><p><l>dérisoire<s n="adj"/></l><r>dèrisouère<s n="adj"/></r></p></e>
+<e><p><l>flamand<s n="adj"/></l><r>flamenc<s n="adj"/></r></p></e>
+<e><p><l>immense<s n="adj"/></l><r>imanse<s n="adj"/></r></p></e>
+<e><p><l>malien<s n="adj"/></l><r>malien<s n="adj"/></r></p></e>
+<e><p><l>nîmois<s n="adj"/></l><r>nimosenc<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>oratoire<s n="adj"/></l><r>oratouère<s n="adj"/></r></p></e>
+<e><p><l>pécheur<s n="adj"/></l><r>pèchior<s n="adj"/></r></p></e>
+<e><p><l>dominicain<s n="adj"/></l><r>dominiquen<s n="adj"/></r></p></e>
+<e><p><l>riche<s n="adj"/></l><r>recho<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>tenace<s n="adj"/></l><r>tenace<s n="adj"/></r></p></e>
+<e><p><l>contraire<s n="adj"/></l><r>contrèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>contraire<s n="n"/></l><r>contrèro<s n="n"/></r></p><par n="mf_GD"/></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
