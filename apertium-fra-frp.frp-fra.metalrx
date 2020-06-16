@@ -672,13 +672,9 @@
 
 <!-- **************** N **************** -->
 
-  <!-- sêson >> saison, année -->
+  <!-- avis >> avis, conseil -->
   <rule weight="0.8">
-    <match lemma="sêson" tags="n.*"><select lemma="saison"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="sêson" tags="n.*"><select lemma="année"/></match>
-    <match lemma="scolèro" tags="adj.*"/>
+    <match lemma="avis" tags="n.*"><select lemma="avis"/></match>
   </rule>
 
   <!-- ensemblo >> ensemble, complexe -->
@@ -699,6 +695,15 @@
   <!-- premiér >> premier, aîné -->
   <rule weight="0.8">
     <match lemma="premiér" tags="n.*"><select lemma="premier"/></match>
+  </rule>
+
+  <!-- sêson >> saison, année -->
+  <rule weight="0.8">
+    <match lemma="sêson" tags="n.*"><select lemma="saison"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sêson" tags="n.*"><select lemma="année"/></match>
+    <match lemma="scolèro" tags="adj.*"/>
   </rule>
 
 <!-- **************** V **************** -->

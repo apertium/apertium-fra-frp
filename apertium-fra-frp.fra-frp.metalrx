@@ -531,9 +531,31 @@
     </or>
   </rule>
 
+  <!-- conseil >> consèly, avis -->
+  <rule weight="0.8">
+    <match lemma="conseil" tags="n.*"><select lemma="consèly"/></match>
+  </rule>
+
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
+  </rule>
+
+  <!-- maturité >> morèson, maturitât -->
+  <rule weight="0.8">
+    <match lemma="maturité" tags="n.*"><select lemma="morèson"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="examen" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match lemma="maturité" tags="n.*"><select lemma="maturitât"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="maturité" tags="n.*"><select lemma="maturitât"/></match>
+    <match lemma="gymnasial" tags="adj"/>
   </rule>
 
   <!-- pêche >> pêche, pêrche -->
@@ -1197,6 +1219,15 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- complexe >> complicâ, complèxo -->
+  <rule weight="0.8">
+    <match lemma="complexe" tags="adj.*"><select lemma="complicâ"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nombre" tags="n.*"/>
+    <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
+  </rule>
 
   <!-- propre >> pôpro, prôpro -->
   <rule weight="0.8">
