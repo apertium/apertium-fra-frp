@@ -1244,19 +1244,33 @@
 
 <!-- **************** V **************** -->
 
-  <!-- transporter >> charrotar, transportar -->
+  <!-- devenir >> venir, devegnir, devenir -->
   <rule weight="0.8">
-    <match lemma="transporter" tags="vblex.*"><select lemma="charrotar"/></match>
-  </rule>
-
-  <!-- rattacher >> apondre, ratachiér -->
-  <rule weight="0.8">
-    <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
+    <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
   </rule>
 
   <!-- disjoindre >> dèpondre, dèjuendre -->
   <rule weight="0.8">
     <match lemma="disjoindre" tags="vblex.*"><select lemma="dèpondre"/></match>
+  </rule>
+
+  <!-- jouer >> jouyér, menar -->
+  <rule weight="0.8">
+    <match lemma="jouer" tags="vblex.*"><select lemma="jouyér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="jouer" tags="vblex.*"><select lemma="menar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
+
+  <!-- rattacher >> apondre, ratachiér -->
+  <rule weight="0.8">
+    <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
   </rule>
 
   <!-- revenir >> recampar, revenir -->
@@ -1279,21 +1293,9 @@
     <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
   </rule>
 
-  <!-- devenir >> venir, devegnir, devenir -->
+  <!-- transporter >> charrotar, transportar -->
   <rule weight="0.8">
-    <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
-  </rule>
-
-  <!-- jouer >> jouyér, menar -->
-  <rule weight="0.8">
-    <match lemma="jouer" tags="vblex.*"><select lemma="jouyér"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="jouer" tags="vblex.*"><select lemma="menar"/></match>
-    <repeat from="0" upto="2">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="de" tags="pr"/>
+    <match lemma="transporter" tags="vblex.*"><select lemma="charrotar"/></match>
   </rule>
 
 <!-- **************** NP **************** -->
