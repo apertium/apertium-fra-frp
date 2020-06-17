@@ -677,6 +677,21 @@
     <match lemma="avis" tags="n.*"><select lemma="avis"/></match>
   </rule>
 
+  <!-- bocon >> bouchée, morceau -->
+  <rule weight="0.8">
+    <match lemma="bocon" tags="n.*"><select lemma="bouchée"/></match>
+  </rule>
+
+  <!-- corsâjo >> chemisier, corsage -->
+  <rule weight="0.8">
+    <match lemma="corsâjo" tags="n.*"><select lemma="chemisier"/></match>
+  </rule>
+
+  <!-- crox >> creux, ravin, fosse -->
+  <rule weight="0.8">
+    <match lemma="crox" tags="n.*"><select lemma="creux"/></match>
+  </rule>
+
   <!-- ensemblo >> ensemble, complexe -->
   <rule weight="0.8">
     <match lemma="ensemblo" tags="n.*"><select lemma="ensemble"/></match>
@@ -689,6 +704,63 @@
       <match lemma="endustriâl" tags="adj.*"/>
       <match lemma="hèpetaliér" tags="adj.*"/>
       <match lemma="comèrciâl" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- fllor >> fleur, crème -->
+  <!-- fllorèta >> fleur, crème -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="fllor" tags="n.*"><select lemma="fleur"/></match>
+      <match lemma="fllorèta" tags="n.*"><select lemma="fleurette"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="fllor" tags="n.*"><select lemma="crème"/></match>
+      <match lemma="fllorèta" tags="n.*"><select lemma="crème"/></match>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="gâtél" tags="n.*"/>
+      <match lemma="gâto" tags="n.*"/>
+      <match lemma="gâtio" tags="n.*"/>
+      <match lemma="quegnou" tags="n.*"/>
+      <match lemma="quegnoua" tags="n.*"/>
+      <match lemma="fllan" tags="n.*"/>
+      <match lemma="crèssent" tags="n.*"/>
+      <match lemma="radice" tags="n.*"/>
+      <match lemma="megiér" tags="vblex.*"/>
+      <match lemma="mengiér" tags="vblex.*"/>
+      <match lemma="apondre" tags="vblex.*"/>
+      <match lemma="rapondre" tags="vblex.*"/>
+      <match lemma="ajoutar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="gâtél" tags="n.*"/>
+      <match lemma="gâto" tags="n.*"/>
+      <match lemma="gâtio" tags="n.*"/>
+      <match lemma="quegnou" tags="n.*"/>
+      <match lemma="quegnoua" tags="n.*"/>
+      <match lemma="fllan" tags="n.*"/>
+      <match lemma="crèssent" tags="n.*"/>
+      <match lemma="radice" tags="n.*"/>
+      <match lemma="megiér" tags="vblex.*"/>
+      <match lemma="mengiér" tags="vblex.*"/>
+      <match lemma="apondre" tags="vblex.*"/>
+      <match lemma="rapondre" tags="vblex.*"/>
+      <match lemma="ajoutar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="fllor" tags="n.*"><select lemma="crème"/></match>
+      <match lemma="fllorèta" tags="n.*"><select lemma="crème"/></match>
     </or>
   </rule>
 
