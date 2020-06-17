@@ -7092,7 +7092,6 @@
 <e><p><l>veau<s n="n"/><s n="m"/></l><r>vél<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>épouser<s n="vblex"/></l><r>èposar<s n="vblex"/></r></p></e>
 <e><p><l>crier<s n="vblex"/></l><r>criar<s n="vblex"/></r></p></e>
-<e><p><l>désirer<s n="vblex"/></l><r>désirer<s n="vblex"/></r></p></e>
 <e><p><l>déterminer<s n="vblex"/></l><r>dètèrmenar<s n="vblex"/></r></p></e>
 <e><p><l>quitter<s n="vblex"/></l><r>quitar<s n="vblex"/></r></p></e>
 <e><p><l>passer<s n="vblex"/></l><r>passar<s n="vblex"/></r></p></e>
@@ -8677,6 +8676,254 @@
 <e r="RL"><p><l>crasseux<s n="adj"/></l><r>crassiox<s n="adj"/></r></p></e>
 <e r="RL"><p><l>crasseux<s n="adj"/></l><r>crassu<s n="adj"/></r></p><par n="anglais_GD"/></e>
 <e><p><l>crédule<s n="adj"/></l><r>crèdulo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>empereur<s n="n"/><s n="m"/></l><r>emperor<s n="n"/><s n="m"/></r></p></e>
+
+<e><p><l>dépareiller<s n="vblex"/></l><r>dèparelyér<s n="vblex"/></r></p></e>
+<e><p><l>déparier<s n="vblex"/></l><r>dèpareyér<s n="vblex"/></r></p></e>
+<e><p><l>danser<s n="vblex"/></l><r>danciér<s n="vblex"/></r></p></e>
+<e><p><l>déballer<s n="vblex"/></l><r>dèbâlar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déballer<s n="vblex"/></l><r>dèbagagiér<s n="vblex"/></r></p></e>
+<e><p><l>débiter<s n="vblex"/></l><r>dèbitar<s n="vblex"/></r></p></e>
+<e><p><l>débloquer<s n="vblex"/></l><r>dèblocar<s n="vblex"/></r></p></e>
+<e><p><l>déborder<s n="vblex"/></l><r>dèbordar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déborder<s n="vblex"/></l><r>regolyér<s n="vblex"/></r></p></e>
+<e><p><l>débourrer<s n="vblex"/></l><r>dèborrar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>déboucher<s n="vblex"/></l><r>dèborrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déboucher<s n="vblex"/></l><r>dèbouchiér<s n="vblex"/></r></p></e>
+<e><p><l>débrouiller<s n="vblex"/></l><r>dègremelyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>débrouiller<s n="vblex"/></l><r>dèbrolyér<s n="vblex"/></r></p></e>
+<e><p><l>débroussailler<s n="vblex"/></l><r>èbrossalyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>débroussailler<s n="vblex"/></l><r>dèbrossalyér<s n="vblex"/></r></p></e>
+<e><p><l>déchirer<s n="vblex"/></l><r>dèchiriér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déchirer<s n="vblex"/></l><r>châtreyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déchirer<s n="vblex"/></l><r>chatrotar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déchirer<s n="vblex"/></l><r>châtregnér<s n="vblex"/></r></p></e>
+<e><p><l>décliner<s n="vblex"/></l><r>dècllinar<s n="vblex"/></r></p></e>
+<e><p><l>détacher<s n="vblex"/></l><r>dègllètar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>décoller<s n="vblex"/></l><r>dègllètar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>décoller<s n="vblex"/></l><r>dècôlar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>décoller<s n="vblex"/></l><r>dèpègenar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>décoller<s n="vblex"/></l><r>dèpegiér<s n="vblex"/></r></p></e>
+<e><p><l>découper<s n="vblex"/></l><r>dècopar<s n="vblex"/></r></p></e>
+<e><p><l>décourager<s n="vblex"/></l><r>dècoragiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>décourager<s n="vblex"/></l><r>dèmarcorar<s n="vblex"/></r></p></e>
+<e><p><l>dédaigner<s n="vblex"/></l><r>dèdègnér<s n="vblex"/></r></p></e>
+<e><p><l>défier<s n="vblex"/></l><r>dèfiar<s n="vblex"/></r></p></e>
+<e><p><l>défoncer<s n="vblex"/></l><r>dèfonciér<s n="vblex"/></r></p></e>
+<e><p><l>défricher<s n="vblex"/></l><r>dèfrichiér<s n="vblex"/></r></p></e>
+<e><p><l>dégager<s n="vblex"/></l><r>dègagiér<s n="vblex"/></r></p></e>
+<e><p><l>dégonfler<s n="vblex"/></l><r>dègonfllar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dégonfler<s n="vblex"/></l><r>dèconfllar<s n="vblex"/></r></p></e>
+<e><p><l>dégringoler<s n="vblex"/></l><r>dèbarroular<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dégringoler<s n="vblex"/></l><r>dègringolar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dégringoler<s n="vblex"/></l><r>barroular<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déguster<s n="vblex"/></l><r>agôtar<s n="vblex"/></r></p></e>
+<e><p><l>déjeuner<s n="vblex"/></l><r>dèjonar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déjeuner<s n="vblex"/></l><r>denar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déjeuner<s n="vblex"/></l><r>dinar<s n="vblex"/></r></p></e>
+<e><p><l>déjeuner<s n="n"/><s n="m"/></l><r>dèjon<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>déjeuner<s n="n"/><s n="m"/></l><r>dèjonon<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>déjeuner<s n="n"/><s n="m"/></l><r>denâ<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>petit<b/>déjeuner<s n="n"/><s n="m"/></l><r>dèjon<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>petit<b/>déjeuner<s n="n"/><s n="m"/></l><r>dèjonon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dîner<s n="vblex"/></l><r>sopar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>souper<s n="vblex"/></l><r>sopar<s n="vblex"/></r></p></e>
+<e><p><l>dîner<s n="n"/><s n="m"/></l><r>sopar<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>souper<s n="n"/><s n="m"/></l><r>sopar<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dîner<s n="n"/><s n="m"/></l><r>sopâ<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>goûter<s n="n"/><s n="m"/><s n="sg"/></l><r>quatro-hores<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>délier<s n="vblex"/></l><r>dèliyér<s n="vblex"/></r></p></e>
+<e><p><l>délirer<s n="vblex"/></l><r>dèparlar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>délirer<s n="vblex"/></l><r>catenar<s n="vblex"/></r></p></e>
+<e><p><l>démantibuler<s n="vblex"/></l><r>dèmantibular<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>démantibuler<s n="vblex"/></l><r>dèmanguelyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>démantibuler<s n="vblex"/></l><r>dèmangognér<s n="vblex"/></r></p></e>
+<e><p><l>déménager<s n="vblex"/></l><r>dècabanar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déménager<s n="vblex"/></l><r>dèmènagiér<s n="vblex"/></r></p></e>
+<e><p><l>démolir<s n="vblex"/></l><r>dèmolir<s n="vblex"/></r></p></e>
+<e><p><l>dénicher<s n="vblex"/></l><r>dèniciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dénicher<s n="vblex"/></l><r>dènichiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dénicher<s n="vblex"/></l><r>dènilyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dénicher<s n="vblex"/></l><r>dèniar<s n="vblex"/></r></p></e>
+<e><p><l>dénigrer<s n="vblex"/></l><r>dènigrar<s n="vblex"/></r></p></e>
+<e><p><l>dépasser<s n="vblex"/></l><r>dèpassar<s n="vblex"/></r></p></e>
+<e><p><l>dépayser<s n="vblex"/></l><r>dèpayisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dépayser<s n="vblex"/></l><r>dèpayisiér<s n="vblex"/></r></p></e>
+<e><p><l>dépenser<s n="vblex"/></l><r>dèpensar<s n="vblex"/></r></p></e>
+<e><p><l>déraciner<s n="vblex"/></l><r>dèracenar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déraciner<s n="vblex"/></l><r>dèragiér<s n="vblex"/></r></p></e>
+<e><p><l>déranger<s n="vblex"/></l><r>dèrengiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déranger<s n="vblex"/></l><r>dètorbar<s n="vblex"/></r></p></e>
+<e><p><l>voler<s n="vblex"/></l><r>robar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>voler<s n="vblex"/></l><r>dèrobar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>dérober<s n="vblex"/></l><r>robar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>gaspiller<s n="vblex"/></l><r>gaspilyér<s n="vblex"/></r></p></e>
+<e><p><l>désagréger<s n="vblex"/></l><r>dècatonar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>désagréger<s n="vblex"/></l><r>dècamotar<s n="vblex"/></r></p></e>
+<e><p><l>déshabiller<s n="vblex"/></l><r>dèshabelyér<s n="vblex"/></r></p></e>
+<e><p><l>déshonorer<s n="vblex"/></l><r>dèshonorar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>déshonorer<s n="vblex"/></l><r>dèshondrar<s n="vblex"/></r></p></e>
+<e><p><l>désinfecter<s n="vblex"/></l><r>dèpèstar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>désinfecter<s n="vblex"/></l><r>dèsenfèctar<s n="vblex"/></r></p></e>
+<e><p><l>désirer<s n="vblex"/></l><r>dèsirar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>désobéir<s n="vblex"/></l><r>acutar<g><b/>pas</g><s n="vblex"/></r></p></e>
+<e><p><l>soustraire<s n="vblex"/></l><r>sostrère<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>soustraire<s n="vblex"/></l><r>sotrère<s n="vblex"/></r></p></e>
+<e><p><l>désosser<s n="vblex"/></l><r>dèsossiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>désosser<s n="vblex"/></l><r>dèsossar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>détacher<s n="vblex"/></l><r>dècapelyér<s n="vblex"/></r></p></e>
+<e><p><l>déterrer<s n="vblex"/></l><r>dètèrrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>détester<s n="vblex"/></l><r>dètèstar<s n="vblex"/></r></p></e>
+<e><p><l>détourner<s n="vblex"/></l><r>dètornar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>détourner<s n="vblex"/></l><r>dèveriér<s n="vblex"/></r></p></e>
+<e><p><l>détremper<s n="vblex"/></l><r>dètemprar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>détremper<s n="vblex"/></l><r>dètrempar<s n="vblex"/></r></p></e>
+<e><p><l>dévaster<s n="vblex"/></l><r>dèvastar<s n="vblex"/></r></p></e>
+<e><p><l>diminuer<s n="vblex"/></l><r>diminuar<s n="vblex"/></r></p></e>
+<e><p><l>discuter<s n="vblex"/></l><r>discutar<s n="vblex"/></r></p></e>
+<e><p><l>disloquer<s n="vblex"/></l><r>dèloyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>disloquer<s n="vblex"/></l><r>dèlocar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>disloquer<s n="vblex"/></l><r>dislocar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>disperser<s n="vblex"/></l><r>dispèrsar<s n="vblex"/></r></p></e>
+<e><p><l>disputer<s n="vblex"/></l><r>disputar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>disputer<s n="vblex"/></l><r>dipustar<s n="vblex"/></r></p></e>
+<e><p><l>distinguer<s n="vblex"/></l><r>distingar<s n="vblex"/></r></p></e>
+<e><p><l>divertir<s n="vblex"/></l><r>divèrtir<s n="vblex"/></r></p></e>
+<e><p><l>démarier<s n="vblex"/></l><r>dèmariar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>divorcer<s n="vblex"/></l><r>dèmariar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>divorcer<s n="vblex"/></l><r>divorciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>donner<s n="vblex"/></l><r>donar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dorloter<s n="vblex"/></l><r>dorlotar<s n="vblex"/></r></p></e>
+<e><p><l>dresser<s n="vblex"/></l><r>drèciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>duper<s n="vblex"/></l><r>dupar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>durcir<s n="vblex"/></l><r>durcir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>agacer<s n="vblex"/></l><r>agaçar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>cabosser<s n="vblex"/></l><r>caboçar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>défoncer<s n="vblex"/></l><r>dèfonçar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dégringoler<s n="vblex"/></l><r>dègringredalar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>divorcer<s n="vblex"/></l><r>divorçar<s n="vblex"/></r></p></e>
+<e><p><l>combler<s n="vblex"/></l><r>comblar<s n="vblex"/></r></p></e>
+<e><p><l>dételer<s n="vblex"/></l><r>dèpleyér<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>déplier<s n="vblex"/></l><r>dèpleyér<s n="vblex"/></r></p></e>
+<e><p><l>dévorer<s n="vblex"/></l><r>dèvorar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dévorer<s n="vblex"/></l><r>dèlavorar<s n="vblex"/></r></p></e>
+<e><p><l>annoncer<s n="vblex"/></l><r>anonciér<s n="vblex"/></r></p></e>
+<e><p><l>vie<s n="n"/><s n="f"/></l><r>via<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dame<s n="n"/><s n="f"/></l><r>dama<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>danse<s n="n"/><s n="f"/></l><r>dance<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dard<s n="n"/><s n="m"/></l><r>dârd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dé<s n="n"/><s n="m"/></l><r>diél<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dé<s n="n"/><s n="m"/></l><r>diâl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dé<s n="n"/><s n="m"/></l><r>dê<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>débris<s n="n"/><s n="m"/></l><r>rafardalye<s n="n"/><s n="f"/></r></p><par n="sp_ND"/></e>
+<e r="RL"><p><l>débrouillard<s n="n"/></l><r>entregant<s n="n"/></r></p></e>
+<e><p><l>décadence<s n="n"/><s n="f"/></l><r>dècadence<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>décadence<s n="n"/><s n="f"/></l><r>dècadance<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>déchet<s n="n"/><s n="m"/></l><r>dèchèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>découragement<s n="n"/><s n="m"/></l><r>dècoragement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>déesse<s n="n"/><s n="f"/></l><r>déèsse<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>déesse<s n="n"/><s n="f"/></l><r>déèssa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>degré<s n="n"/><s n="m"/></l><r>degrâ<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>démagogue<s n="n"/></l><r>populaciér<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>démagogue<s n="n"/><s n="mf"/></l><r>dèmagogue<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>démangeaison<s n="n"/><s n="f"/></l><r>dèmegèson<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>démangeaison<s n="n"/><s n="f"/></l><r>megèson<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>démon<s n="n"/><s n="m"/></l><r>dèmon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>département<s n="n"/><s n="m"/></l><r>dèpartement<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>département<s n="n"/><s n="m"/></l><r>dèpartament<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dépensier<s n="n"/></l><r>dèpensior<s n="n"/></r></p></e>
+<e r="RL"><p><l>dépensier<s n="n"/></l><r>dèpensiér<s n="n"/></r></p></e>
+<e><p><l>dépôt<s n="n"/><s n="m"/></l><r>dèpôt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dépôt<s n="n"/><s n="m"/></l><r>drâche<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>désaccord<s n="n"/><s n="m"/></l><r>dèsacôrd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>déserteur<s n="n"/></l><r>dèsèrtor<s n="n"/></r></p></e>
+<e r="RL"><p><l>déserteur<s n="n"/></l><r>dèsèrtior<s n="n"/></r></p></e>
+<e><p><l>désordre<s n="n"/><s n="m"/></l><r>dèsôrdre<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>désordre<s n="n"/><s n="m"/></l><r>chenis<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>détenu<s n="n"/></l><r>dètenu<s n="n"/></r></p></e>
+<e><p><l>détresse<s n="n"/><s n="f"/></l><r>dètrèssa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>détresse<s n="n"/><s n="f"/></l><r>dètrèsse<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dette<s n="n"/><s n="f"/></l><r>dèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dette<s n="n"/><s n="f"/></l><r>dèto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dette<s n="n"/><s n="f"/></l><r>dèvala<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dette<s n="n"/><s n="f"/></l><r>dèvito<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>deuil<s n="n"/><s n="m"/></l><r>duely<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>deuil<s n="n"/><s n="m"/></l><r>duer<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>devoir<s n="n"/><s n="m"/></l><r>devêr<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>devoir<s n="n"/><s n="m"/></l><r>devouèr<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>devoir<s n="n"/><s n="m"/></l><r>uevra<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dévot<s n="n"/></l><r>dèvôt<s n="n"/></r></p></e>
+<e><p><l>diable<s n="n"/></l><r>diâblo<s n="n"/></r></p></e>
+<e r="RL"><p><l>diable<s n="n"/></l><r>mèchient<s n="n"/></r></p></e>
+<e><p><l>dialecte<s n="n"/><s n="m"/></l><r>dialècte<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dialecte<s n="n"/><s n="m"/></l><r>dialècto<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dialogue<s n="n"/><s n="m"/></l><r>dialogo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dialogue<s n="n"/><s n="m"/></l><r>dialogue<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>diarrhée<s n="n"/><s n="f"/></l><r>rafa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>diarrhée<s n="n"/><s n="f"/></l><r>diarrê<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>diarrhée<s n="n"/><s n="f"/></l><r>prima<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>diarrhée<s n="n"/><s n="f"/></l><r>riflla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>diarrhée<s n="n"/><s n="f"/></l><r>corenta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dictée<s n="n"/><s n="f"/></l><r>dictâ<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>difficulté<s n="n"/><s n="f"/></l><r>dificultât<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dimanche<s n="n"/><s n="m"/></l><r>demenge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dimanche<s n="n"/><s n="m"/></l><r>demenche<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dîme<s n="n"/><s n="f"/></l><r>dima<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dîme<s n="n"/><s n="f"/></l><r>dimo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dinde<s n="n"/><s n="f"/></l><r>dinda<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dinde<s n="n"/><s n="f"/></l><r>piota<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>diplôme<s n="n"/><s n="m"/></l><r>diplome<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>diplôme<s n="n"/><s n="m"/></l><r>diplomo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>discours<s n="n"/><s n="m"/></l><r>discors<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dispute<s n="n"/><s n="f"/></l><r>disputa<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>domaine<s n="n"/><s n="m"/></l><r>bien<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>domaine<s n="n"/><s n="m"/></l><r>domêno<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>domestique<s n="n"/></l><r>domèstico<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>dommage<s n="n"/><s n="m"/></l><r>damâjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>don<s n="n"/><s n="m"/></l><r>don<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dormeur<s n="n"/></l><r>dromient<s n="n"/></r></p></e>
+<e r="RL"><p><l>dos<s n="n"/><s n="m"/></l><r>dous<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>douanier<s n="n"/></l><r>douaniér<s n="n"/></r></p></e>
+<e><p><l>double<s n="n"/><s n="m"/></l><r>doblo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>double<s n="n"/><s n="m"/></l><r>droblo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>douceur<s n="n"/><s n="f"/></l><r>docior<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>douceur<s n="n"/><s n="f"/></l><r>doçor<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>douve<s n="n"/><s n="f"/></l><r>dova<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>douve<s n="n"/><s n="f"/></l><r>duèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>douzaine<s n="n"/><s n="f"/></l><r>dozêna<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>douzaine<s n="n"/><s n="f"/></l><r>dogêna<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>douzième<s n="n"/></l><r>doziémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>douzième<s n="n"/></l><r>dogiémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>doyen<s n="n"/></l><r>doyen<s n="n"/></r></p></e>
+<e r="RL"><p><l>doyen<s n="n"/></l><r>deyen<s n="n"/></r></p></e>
+<e><p><l>dressoir<s n="n"/><s n="m"/></l><r>drècior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dressoir<s n="n"/><s n="m"/></l><r>redrècior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>dressoir<s n="n"/><s n="m"/></l><r>celiér<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>drogue<s n="n"/><s n="f"/></l><r>drôga<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>drogue<s n="n"/><s n="f"/></l><r>potringa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>droit<s n="n"/><s n="m"/></l><r>drêt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>droit<s n="n"/><s n="m"/></l><r>drouèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>druide<s n="n"/></l><r>druido<s n="n"/></r></p></e>
+<e r="RL"><p><l>druide<s n="n"/></l><r>druide<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>duvet<s n="n"/><s n="m"/></l><r>duvèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>duvet<s n="n"/><s n="m"/></l><r>levèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>diarrhée<s n="n"/><s n="f"/></l><r>fouère<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>dysenterie<s n="n"/><s n="f"/></l><r>fouère<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dysenterie<s n="n"/><s n="f"/></l><r>dèscenterie<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>dévot<s n="n"/></l><r>dèvociox<s n="n"/></r></p><par n="GD_ox"/></e>
+<e><p><l>dormeur<s n="n"/></l><r>dromiox<s n="n"/></r></p><par n="GD_ox"/></e>
+<e><p><l>débrouillard<s n="adj"/></l><r>dèbrolyârd<s n="adj"/></r></p></e>
+<e r="RL"><p><l>dernier<s n="adj"/></l><r>dèrniér<s n="adj"/></r></p></e>
+<e><p><l>désagréable<s n="adj"/></l><r>dèsagrèâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>détenu<s n="adj"/></l><r>dètenu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>détenu<s n="adj"/></l><r>chalvèrien<s n="adj"/></r></p></e>
+<e><p><l>difficile<s n="adj"/></l><r>dificilo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>docile<s n="adj"/><s n="mf"/></l><r>de<b/>bon<b/>comand<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>docile<s n="adj"/></l><r>docilo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>domestique<s n="adj"/></l><r>domèstico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>douanier<s n="adj"/></l><r>douaniér<s n="adj"/></r></p></e>
+<e r="RL"><p><l>douanier<s n="adj"/></l><r>gâpian<s n="adj"/></r></p></e>
+<e><p><l>dur<s n="adj"/></l><r>dur<s n="adj"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

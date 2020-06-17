@@ -692,6 +692,15 @@
     <match lemma="crox" tags="n.*"><select lemma="creux"/></match>
   </rule>
 
+  <!-- dèjon >> déjeuner, petit déjeuner -->
+  <!-- dèjonon >> déjeuner, petit déjeuner -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="dèjon" tags="n.*"><select lemma="déjeuner"/></match>
+      <match lemma="dèjonon" tags="n.*"><select lemma="déjeuner"/></match>
+    </or>
+  </rule>
+
   <!-- ensemblo >> ensemble, complexe -->
   <rule weight="0.8">
     <match lemma="ensemblo" tags="n.*"><select lemma="ensemble"/></match>
