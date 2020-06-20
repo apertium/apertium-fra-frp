@@ -621,8 +621,8 @@
 <e>       <p><l>mais<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
 
-<e>       <p><l>alors<s n="cnjadv"/></l><r>alor<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>alors<s n="cnjadv"/></l><r>adonc<s n="cnjadv"/></r></p></e>
+<e>       <p><l>alors<s n="cnjadv"/></l><r>adonc<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>alors<s n="cnjadv"/></l><r>alor<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>or<s n="cnjadv"/></l><r>adonc<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>lorsque<s n="cnjadv"/></l><r>quand<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>lorsque<s n="cnjadv"/></l><r>lorsque<s n="cnjadv"/></r></p></e>
@@ -955,8 +955,10 @@
 <e>       <p><l>XXXe<s n="adj"/></l><r>XXXo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD"/></e>
 -->
 
-<e>       <p><l>très<s n="preadv"/></l><r>brâvament<s n="preadv"/></r></p></e>
-<e r="RL"><p><l>très<s n="preadv"/></l><r>franc<s n="preadv"/></r></p></e>
+<e c="préférance d'alanfavre"><p><l>très<s n="preadv"/></l><r>franc<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>très<s n="preadv"/></l><r>brâvament<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>très<s n="preadv"/></l><r>brâvo<s n="preadv"/></r></p></e>
+<e r="RL"><p><l>très<s n="preadv"/></l><r>brament<s n="preadv"/></r></p></e>
 <e r="RL"><p><l>très<s n="preadv"/></l><r>grôs<s n="preadv"/></r></p></e>
 <e r="RL"><p><l>très<s n="preadv"/></l><r>rudo<s n="preadv"/></r></p></e>
 <e r="RL"><p><l>très<s n="preadv"/></l><r>très<s n="preadv"/></r></p></e>
@@ -1011,7 +1013,7 @@
 <e>       <p><l>toujours<s n="adv"/></l><r>tojorn<s n="adv"/></r></p></e>
 <e r="RL"><p><l>toujours<s n="adv"/></l><r>adés<s n="adv"/></r></p></e>
 <e>       <p><l>alors<s n="adv"/></l><r>alor<s n="adv"/></r></p></e>
-<e r="RL"><p><l>alors<s n="adv"/></l><r>adonc<s n="adv"/></r></p></e>
+<e>       <p><l>alors<s n="adv"/></l><r>adonc<s n="adv"/></r></p></e>
 <e>       <p><l>ne<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
 <e>       <p><l>pas<s n="adv"/></l><r>pas<s n="adv"/></r></p></e>
 <e>       <p><l>non<s n="adv"/></l><r>nan<s n="adv"/></r></p></e>

@@ -1283,6 +1283,24 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- alors >> alor, adonc -->
+  <rule weight="0.8">
+    <match lemma="alors" tags="adv"><select lemma="alor"/></match>
+  </rule>
+  <!-- règles pour générer parfois adonc pour donner plus de variété aux textes -->
+  <rule weight="1.0">
+    <match tags="cm"/>
+    <match lemma="alors" tags="adv"><select lemma="adonc"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vblex.*"/>
+    <match lemma="alors" tags="adv"><select lemma="adonc"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="alors" tags="adv"><select lemma="alor"/></match>
+    <match tags="sent"/>
+  </rule>
+
   <!-- plus >> més, pas més -->
   <rule weight="0.8">
     <match lemma="plus" tags="adv"><select lemma="més"/></match>
