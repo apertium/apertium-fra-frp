@@ -104,32 +104,45 @@
 	  <rule weight="1.0">
 		 <or>
 		   <match lemma="pape" tags="n.*"/>
+		   <match lemma="papa" tags="n.*"/>
 		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
+		   <match lemma="èvèque" tags="n.*"/>
+		   <match lemma="èvèco" tags="n.*"/>
+		   <match lemma="archèvèque" tags="n.*"/>
+		   <match lemma="archèvèco" tags="n.*"/>
+		   <match lemma="sant" tags="n.*"/>
+		   <match lemma="sant" tags="adj.*"/>
+		   <match lemma="sent" tags="n.*"/>
+		   <match lemma="sent" tags="adj.*"/>
+		   <match lemma="apôtro" tags="n.*"/>
+		   <match lemma="emperor" tags="n.*"/>
+		   <match lemma="empèratrice" tags="n.*"/>
+		   <match lemma="rê" tags="n.*"/>
+		   <match lemma="rêna" tags="n.*"/>
 		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
+		   <match lemma="tsarena" tags="n.*"/>
+		   <match lemma="vice-rê" tags="n.*"/>
+		   <match lemma="règent" tags="n.*"/>
 		   <match lemma="prince" tags="n.*"/>
+		   <match lemma="princèssa" tags="n.*"/>
 		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
+		   <match lemma="infanta" tags="n.*"/>
+		   <match lemma="darfin" tags="n.*"/>
+		   <match lemma="darfena" tags="n.*"/>
+		   <match lemma="comto" tags="n.*"/>
+		   <match lemma="comtèssa" tags="n.*"/>
+		   <match lemma="vicomto" tags="n.*"/>
+		   <match lemma="vicomtèssa" tags="n.*"/>
 		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
+		   <match lemma="duchèssa" tags="n.*"/>
 		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
+		   <match lemma="granta-duchèssa" tags="n.*"/>
 		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
+		   <match lemma="archiduchèssa" tags="n.*"/>
 		   <match lemma="marquis" tags="n.*"/>
+		   <match lemma="marquisa" tags="n.*"/>
 		   <match lemma="baron" tags="n.*"/>
+		   <match lemma="barona" tags="n.*"/>
 		 </or>
 		 <match tags="np.ant.*"/>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -137,32 +150,45 @@
 	  <rule weight="1.0">
 		 <or>
 		   <match lemma="pape" tags="n.*"/>
+		   <match lemma="papa" tags="n.*"/>
 		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
+		   <match lemma="èvèque" tags="n.*"/>
+		   <match lemma="èvèco" tags="n.*"/>
+		   <match lemma="archèvèque" tags="n.*"/>
+		   <match lemma="archèvèco" tags="n.*"/>
+		   <match lemma="sant" tags="n.*"/>
+		   <match lemma="sant" tags="adj.*"/>
+		   <match lemma="sent" tags="n.*"/>
+		   <match lemma="sent" tags="adj.*"/>
+		   <match lemma="apôtro" tags="n.*"/>
+		   <match lemma="emperor" tags="n.*"/>
+		   <match lemma="empèratrice" tags="n.*"/>
+		   <match lemma="rê" tags="n.*"/>
+		   <match lemma="rêna" tags="n.*"/>
 		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
+		   <match lemma="tsarena" tags="n.*"/>
+		   <match lemma="vice-rê" tags="n.*"/>
+		   <match lemma="règent" tags="n.*"/>
 		   <match lemma="prince" tags="n.*"/>
+		   <match lemma="princèssa" tags="n.*"/>
 		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
+		   <match lemma="infanta" tags="n.*"/>
+		   <match lemma="darfin" tags="n.*"/>
+		   <match lemma="darfena" tags="n.*"/>
+		   <match lemma="comto" tags="n.*"/>
+		   <match lemma="comtèssa" tags="n.*"/>
+		   <match lemma="vicomto" tags="n.*"/>
+		   <match lemma="vicomtèssa" tags="n.*"/>
 		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
+		   <match lemma="duchèssa" tags="n.*"/>
 		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
+		   <match lemma="granta-duchèssa" tags="n.*"/>
 		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
+		   <match lemma="archiduchèssa" tags="n.*"/>
 		   <match lemma="marquis" tags="n.*"/>
+		   <match lemma="marquisa" tags="n.*"/>
 		   <match lemma="baron" tags="n.*"/>
+		   <match lemma="barona" tags="n.*"/>
 		 </or>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
 	  </rule>
@@ -171,32 +197,45 @@
 		 <match tags="cm"/>
 		 <or>
 		   <match lemma="pape" tags="n.*"/>
+		   <match lemma="papa" tags="n.*"/>
 		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
+		   <match lemma="èvèque" tags="n.*"/>
+		   <match lemma="èvèco" tags="n.*"/>
+		   <match lemma="archèvèque" tags="n.*"/>
+		   <match lemma="archèvèco" tags="n.*"/>
+		   <match lemma="sant" tags="n.*"/>
+		   <match lemma="sant" tags="adj.*"/>
+		   <match lemma="sent" tags="n.*"/>
+		   <match lemma="sent" tags="adj.*"/>
+		   <match lemma="apôtro" tags="n.*"/>
+		   <match lemma="emperor" tags="n.*"/>
+		   <match lemma="empèratrice" tags="n.*"/>
+		   <match lemma="rê" tags="n.*"/>
+		   <match lemma="rêna" tags="n.*"/>
 		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
+		   <match lemma="tsarena" tags="n.*"/>
+		   <match lemma="vice-rê" tags="n.*"/>
+		   <match lemma="règent" tags="n.*"/>
 		   <match lemma="prince" tags="n.*"/>
+		   <match lemma="princèssa" tags="n.*"/>
 		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
+		   <match lemma="infanta" tags="n.*"/>
+		   <match lemma="darfin" tags="n.*"/>
+		   <match lemma="darfena" tags="n.*"/>
+		   <match lemma="comto" tags="n.*"/>
+		   <match lemma="comtèssa" tags="n.*"/>
+		   <match lemma="vicomto" tags="n.*"/>
+		   <match lemma="vicomtèssa" tags="n.*"/>
 		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
+		   <match lemma="duchèssa" tags="n.*"/>
 		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
+		   <match lemma="granta-duchèssa" tags="n.*"/>
 		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
+		   <match lemma="archiduchèssa" tags="n.*"/>
 		   <match lemma="marquis" tags="n.*"/>
+		   <match lemma="marquisa" tags="n.*"/>
 		   <match lemma="baron" tags="n.*"/>
+		   <match lemma="barona" tags="n.*"/>
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
@@ -205,42 +244,55 @@
 		 <match tags="cm"/>
 		 <or>
 		   <match lemma="pape" tags="n.*"/>
+		   <match lemma="papa" tags="n.*"/>
 		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
+		   <match lemma="èvèque" tags="n.*"/>
+		   <match lemma="èvèco" tags="n.*"/>
+		   <match lemma="archèvèque" tags="n.*"/>
+		   <match lemma="archèvèco" tags="n.*"/>
+		   <match lemma="sant" tags="n.*"/>
+		   <match lemma="sant" tags="adj.*"/>
+		   <match lemma="sent" tags="n.*"/>
+		   <match lemma="sent" tags="adj.*"/>
+		   <match lemma="apôtro" tags="n.*"/>
+		   <match lemma="emperor" tags="n.*"/>
+		   <match lemma="empèratrice" tags="n.*"/>
+		   <match lemma="rê" tags="n.*"/>
+		   <match lemma="rêna" tags="n.*"/>
 		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
+		   <match lemma="tsarena" tags="n.*"/>
+		   <match lemma="vice-rê" tags="n.*"/>
+		   <match lemma="règent" tags="n.*"/>
 		   <match lemma="prince" tags="n.*"/>
+		   <match lemma="princèssa" tags="n.*"/>
 		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
+		   <match lemma="infanta" tags="n.*"/>
+		   <match lemma="darfin" tags="n.*"/>
+		   <match lemma="darfena" tags="n.*"/>
+		   <match lemma="comto" tags="n.*"/>
+		   <match lemma="comtèssa" tags="n.*"/>
+		   <match lemma="vicomto" tags="n.*"/>
+		   <match lemma="vicomtèssa" tags="n.*"/>
 		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
+		   <match lemma="duchèssa" tags="n.*"/>
 		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
+		   <match lemma="granta-duchèssa" tags="n.*"/>
 		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
+		   <match lemma="archiduchèssa" tags="n.*"/>
 		   <match lemma="marquis" tags="n.*"/>
+		   <match lemma="marquisa" tags="n.*"/>
 		   <match lemma="baron" tags="n.*"/>
+		   <match lemma="barona" tags="n.*"/>
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
-		   <match lemma="papauté" tags="n.*"/>
+		   <match lemma="papotâ" tags="n.*"/>
 		   <match lemma="pontificat" tags="n.*"/>
-		   <match lemma="empire" tags="n.*"/>
-		   <match lemma="règne" tags="n.*"/>
-		   <match lemma="régence" tags="n.*"/>
-		   <match lemma="vice-royauté" tags="n.*"/>
+		   <match lemma="empiro" tags="n.*"/>
+		   <match lemma="règno" tags="n.*"/>
+		   <match lemma="règence" tags="n.*"/>
+		   <match lemma="vice-royotâ" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -349,29 +401,29 @@
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="être" tags="vbser.*.p1.sg"/>
+        <match lemma="étre" tags="vbser.*.p1.sg"/>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="être" tags="vbser.*.p2.sg"/>
+        <match lemma="étre" tags="vbser.*.p2.sg"/>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="être" tags="vbser.*.p1.pl"/>
+        <match lemma="étre" tags="vbser.*.p1.pl"/>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="être" tags="vbser.*.p2.pl"/>
+        <match lemma="étre" tags="vbser.*.p2.pl"/>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="être" tags="vbser.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="être" tags="vbser.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match lemma="étre" tags="vbser.*.p3.sg"/>
+          <match lemma="étre" tags="vbser.*.p3.pl"/>
         </or>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
@@ -420,32 +472,76 @@
 
     <def-seq n="personne">
       <match lemma="pape" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
       <match lemma="patriarche" tags="n.*"/>
-      <match lemma="évêque" tags="n.*"/>
-      <match lemma="archevêque" tags="n.*"/>
-      <match lemma="saint" tags="n.*"/>
-      <match lemma="saint" tags="adj.*"/>
-      <match lemma="apôtre" tags="n.*"/>
-      <match lemma="empereur" tags="n.*"/>
-      <match lemma="roi" tags="n.*"/>
+      <match lemma="èvèque" tags="n.*"/>
+      <match lemma="èvèco" tags="n.*"/>
+      <match lemma="archèvèque" tags="n.*"/>
+      <match lemma="archèvèco" tags="n.*"/>
+      <match lemma="sant" tags="n.*"/>
+      <match lemma="sant" tags="adj.*"/>
+      <match lemma="sent" tags="n.*"/>
+      <match lemma="sent" tags="adj.*"/>
+      <match lemma="apôtro" tags="n.*"/>
+      <match lemma="emperor" tags="n.*"/>
+      <match lemma="empèratrice" tags="n.*"/>
+      <match lemma="rê" tags="n.*"/>
+      <match lemma="rêna" tags="n.*"/>
       <match lemma="tsar" tags="n.*"/>
-      <match lemma="vice-roi" tags="n.*"/>
-      <match lemma="régent" tags="n.*"/>
+      <match lemma="tsarena" tags="n.*"/>
+      <match lemma="vice-rê" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
       <match lemma="prince" tags="n.*"/>
+      <match lemma="princèssa" tags="n.*"/>
       <match lemma="infant" tags="n.*"/>
-      <match lemma="dauphin" tags="n.*"/>
-      <match lemma="comte" tags="n.*"/>
-      <match lemma="comtesse" tags="n.*"/>
-      <match lemma="vicomte" tags="n.*"/>
-      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="infanta" tags="n.*"/>
+      <match lemma="darfin" tags="n.*"/>
+      <match lemma="darfena" tags="n.*"/>
+      <match lemma="comto" tags="n.*"/>
+      <match lemma="comtèssa" tags="n.*"/>
+      <match lemma="vicomto" tags="n.*"/>
+      <match lemma="vicomtèssa" tags="n.*"/>
       <match lemma="duc" tags="n.*"/>
-      <match lemma="duchesse" tags="n.*"/>
-      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="duchèssa" tags="n.*"/>
       <match lemma="grand-duc" tags="n.*"/>
-      <match lemma="grande-duchesse" tags="n.*"/>
-      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="granta-duchèssa" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="archiduchèssa" tags="n.*"/>
       <match lemma="marquis" tags="n.*"/>
+      <match lemma="marquisa" tags="n.*"/>
       <match lemma="baron" tags="n.*"/>
+      <match lemma="barona" tags="n.*"/>
+      
+<!-- il faut encore traduire ici -->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+
       <match lemma="maréchal" tags="n.*"/>
       <match lemma="général" tags="n.*"/>
       <match lemma="colonel" tags="n.*"/>
@@ -458,6 +554,65 @@
       <match lemma="copain" tags="n.*"/>
       <match lemma="copine" tags="n.*"/>
       <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="parent">
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grand-mère" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petite-fille" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </def-seq>
 
     <def-seq n="bétail">
@@ -773,9 +928,55 @@
     </or>
   </rule>
 
+  <!-- par >> paire, pair -->
+  <!-- pâr >> paire, pair -->
+  <!-- pàr >> paire, pair -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="par" tags="n.*"><select lemma="paire"/></match>
+      <match lemma="pâr" tags="n.*"><select lemma="paire"/></match>
+      <match lemma="pàr" tags="n.*"><select lemma="paire"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="par" tags="n.*"><select lemma="pair"/></match>
+      <match lemma="pâr" tags="n.*"><select lemma="pair"/></match>
+      <match lemma="pàr" tags="n.*"><select lemma="pair"/></match>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.top"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="par" tags="n.*"><select lemma="pair"/></match>
+      <match lemma="pâr" tags="n.*"><select lemma="pair"/></match>
+      <match lemma="pàr" tags="n.*"><select lemma="pair"/></match>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="rê" tags="n*"/>
+      <match lemma="royômo" tags="n*"/>
+    </or>
+  </rule>
+
   <!-- premiér >> premier, aîné -->
   <rule weight="0.8">
     <match lemma="premiér" tags="n.*"><select lemma="premier"/></match>
+  </rule>
+
+  <!-- règent >> instituteur, régent -->
+  <rule weight="0.8">
+    <match lemma="règent" tags="n.*"><select lemma="instituteur"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="règent" tags="n.*"><select lemma="instituteur"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match tags="np.top"/>
   </rule>
 
   <!-- sêson >> saison, année -->
@@ -789,6 +990,9 @@
 
 <!-- **************** V **************** -->
 
+  <!-- abosar >> démolir, écrouler -->
+  <macro name="verb_nopron_pron" p1="abosar" p2="démolir" p3="écrouler" />
+
   <!-- apondre >> ajouter, rattacher -->
   <rule weight="0.8">
     <match lemma="apondre" tags="vblex.*"><select lemma="ajouter"/></match>
@@ -797,6 +1001,44 @@
   <!-- cachiér >> cacher, écraser -->
   <rule weight="0.8">
     <match lemma="cachiér" tags="vblex.*"><select lemma="cacher"/></match>
+  </rule>
+
+  <!-- enveyér >> envier, envoyer -->
+  <rule weight="0.8">
+    <match lemma="enveyér" tags="vblex.*"><select lemma="envier"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="enveyér" tags="vblex.*"><select lemma="envoyer"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="lètra" tags="n.*"/>
+      <match lemma="dèpèche" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller  -->
+  <macro name="verb_nopron_pron" p1="rèvelyér" p2="éveiller" p3="réveiller" />
+  <macro name="verb_nopron_pron" p1="èvelyér" p2="éveiller" p3="réveiller" />
+  <macro name="verb_nopron_pron" p1="dèvelyér" p2="éveiller" p3="réveiller" />
+  <rule weight="1.2">
+    <or>
+      <match lemma="rèvelyér" tags="vblex.*"><select lemma="réveiller"/></match>
+      <match lemma="èvelyér" tags="vblex.*"><select lemma="réveiller"/></match>
+      <match lemma="dèvelyér" tags="vblex.*"><select lemma="réveiller"/></match>
+    </or>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
   </rule>
 
   <!-- venir, vegnir >> venir, devenir -->
@@ -827,6 +1069,8 @@
   <macro name="noms_propres" p1="Charlo" p2="Charles" />
   <macro name="noms_propres" p1="Filipo" p2="Philippe" />
   <macro name="noms_propres" p1="Èdouard" p2="Édouard" />
+  <macro name="noms_propres" p1="Jâque" p2="Jacques" />
+  <macro name="noms_propres" p1="Hanri" p2="Henri" />
 
 <!--
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
@@ -846,7 +1090,6 @@
   <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
   <macro name="noms_propres" p1="Léon" p2="Lleó" />
   <macro name="noms_propres" p1="Pierre" p2="Pere" />
-  <macro name="noms_propres" p1="Jacques" p2="Jaume" />
   <macro name="noms_propres" p1="Ferdinand" p2="Ferran" />
   <macro name="noms_propres" p1="Richard" p2="Ricard" />
   <macro name="noms_propres" p1="Martin" p2="Martí" />

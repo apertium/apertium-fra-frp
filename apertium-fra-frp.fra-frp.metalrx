@@ -370,8 +370,8 @@
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="être" tags="vbser.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="être" tags="vbser.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match lemma="être" tags="vbser.*.p3.sg"/>
+          <match lemma="être" tags="vbser.*.p3.pl"/>
         </or>
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
@@ -419,6 +419,34 @@
     </def-seq>
 
     <def-seq n="personne">
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
       <match lemma="pape" tags="n.*"/>
       <match lemma="patriarche" tags="n.*"/>
       <match lemma="évêque" tags="n.*"/>
@@ -458,6 +486,63 @@
       <match lemma="copain" tags="n.*"/>
       <match lemma="copine" tags="n.*"/>
       <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="parent">
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </def-seq>
 
     <def-seq n="bétail">
@@ -714,6 +799,7 @@
     </repeat>
     <or>
       <seq n="personne"/>
+      <seq n="parent"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -725,6 +811,7 @@
     </repeat>
     <or>
       <seq n="personne"/>
+      <seq n="parent"/>
     </or>
   </rule>
 -->
@@ -1254,6 +1341,11 @@
     <match lemma="disjoindre" tags="vblex.*"><select lemma="dèpondre"/></match>
   </rule>
 
+  <!-- éveiller >> rèvelyér, èvelyér, dèvelyér  -->
+  <rule weight="0.8">
+    <match lemma="éveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">
     <match lemma="jouer" tags="vblex.*"><select lemma="jouyér"/></match>
@@ -1266,6 +1358,7 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <!-- moquer >> mourgar, mocar -->
   <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
 
   <!-- rattacher >> apondre, ratachiér -->
@@ -1293,6 +1386,11 @@
     <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
   </rule>
 
+  <!-- réveiller >> rèvelyér, èvelyér, dèvelyér  -->
+  <rule weight="0.8">
+    <match lemma="réveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
   <!-- transporter >> charrotar, transportar -->
   <rule weight="0.8">
     <match lemma="transporter" tags="vblex.*"><select lemma="charrotar"/></match>
@@ -1305,6 +1403,7 @@
   <macro name="noms_propres" p1="Charles" p2="Charlo" />
   <macro name="noms_propres" p1="Philippe" p2="Filipo" />
   <macro name="noms_propres" p1="Édouard" p2="Èdouard" />
+  <macro name="noms_propres" p1="Jacques" p2="Jâque" />
 
 <!--
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
@@ -1324,7 +1423,6 @@
   <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
   <macro name="noms_propres" p1="Léon" p2="Lleó" />
   <macro name="noms_propres" p1="Pierre" p2="Pere" />
-  <macro name="noms_propres" p1="Jacques" p2="Jaume" />
   <macro name="noms_propres" p1="Ferdinand" p2="Ferran" />
   <macro name="noms_propres" p1="Richard" p2="Ricard" />
   <macro name="noms_propres" p1="Martin" p2="Martí" />
