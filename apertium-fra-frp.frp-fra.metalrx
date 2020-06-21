@@ -837,6 +837,15 @@
     <match lemma="bocon" tags="n.*"><select lemma="bouchée"/></match>
   </rule>
 
+  <!-- ciba >> cible, but -->
+  <rule weight="0.8">
+    <match lemma="ciba" tags="n.*"><select lemma="cible"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match tags="num.*"/><match tags="num"/></or>
+    <match lemma="ciba" tags="n.*"><select lemma="but"/></match>
+  </rule>
+
   <!-- corsâjo >> chemisier, corsage -->
   <rule weight="0.8">
     <match lemma="corsâjo" tags="n.*"><select lemma="chemisier"/></match>
@@ -997,6 +1006,9 @@
   <rule weight="0.8">
     <match lemma="apondre" tags="vblex.*"><select lemma="ajouter"/></match>
   </rule>
+
+  <!-- aprèstar >> apprêter, préparer -->
+  <macro name="verb_nopron_pron" p1="aprèstar" p2="apprêter" p3="préparer" />
 
   <!-- cachiér >> cacher, écraser -->
   <rule weight="0.8">

@@ -29,7 +29,7 @@
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
     <sdef n="cog"             c="Cognomen"/>
-    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Other"/>
 
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
@@ -299,7 +299,6 @@
 <e>       <p><l>aucun<s n="det"/><s n="ind"/></l><r>gins<b/>de<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL"><p><l>aucun<s n="det"/><s n="ind"/></l><r>gint<b/>de<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL"><p><l>aucun<s n="det"/><s n="ind"/></l><r>ôcun<s n="det"/><s n="ind"/></r></p></e>
-<e>       <p><l>chacun<s n="det"/><s n="ind"/></l><r>châcun<s n="det"/><s n="ind"/></r></p></e>
 
 <e>       <p><l>certain<s n="det"/><s n="ind"/></l><r>cèrtin<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>certain<s n="adj"/></l><r>cèrtin<s n="adj"/></r></p></e>
@@ -1757,7 +1756,7 @@
       <e><p><l>instruire<s n="vblex"/></l><r>enstruire<s n="vblex"/></r></p></e>
       <e><p><l>introduire<s n="vblex"/></l><r>entroduire<s n="vblex"/></r></p></e>
       <e><p><l>appuyer<s n="vblex"/></l><r>apoyér<s n="vblex"/></r></p></e>
-      <e><p><l>pleuvoir<s n="vblex"/></l><r>plôver<s n="vblex"/></r></p></e>
+      <e><p><l>pleuvoir<s n="vblex"/></l><r>plovêr<s n="vblex"/></r></p></e>
       <e><p><l>neiger<s n="vblex"/></l><r>nêvre<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>neiger<s n="vblex"/></l><r>negiér<s n="vblex"/></r></p></e>
       <e><p><l>lever<s n="vblex"/></l><r>levar<s n="vblex"/></r></p></e>
@@ -1769,6 +1768,8 @@
       <e><p><l>falloir<s n="vbmod"/></l><r>falêr<s n="vbmod"/></r></p></e>
 
 <e>       <p><l>Charlemagne<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Charlomagno<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Jésus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jèsus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Jésus-Christ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jèsus-Crist<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1969,7 +1970,9 @@
 <e>       <p><l>vert<s n="adj"/></l><r>vèrd<s n="adj"/></r></p></e>
 <e>       <p><l>gros<s n="adj"/></l><r>grôs<s n="adj"/></r></p></e>
 <e>       <p><l>content<s n="adj"/></l><r>content<s n="adj"/></r></p></e>
-<e>       <p><l>petit<s n="adj"/></l><r>petiôt<s n="adj"/></r></p></e>
+<e>       <p><l>petit<s n="adj"/></l><r>petit<s n="adj"/></r></p></e>
+<e r="RL"><p><l>petit<s n="adj"/></l><r>petiôt<s n="adj"/></r></p></e>
+<e r="RL"><p><l>petit<s n="adj"/></l><r>petiôd<s n="adj"/></r></p></e>
 <e>       <p><l>beau<s n="adj"/></l><r>biô<s n="adj"/></r></p></e>
 <e r="RL"><p><l>beau<s n="adj"/></l><r>gent<s n="adj"/></r></p></e>
 <e>       <p><l>Ier<s n="adj"/></l><r>Iiér<s n="adj"/></r></p></e>
@@ -2104,6 +2107,8 @@
 <e r="RL"><p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Uropa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Asie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Asie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" a="Vouiquipèdia"><p><l>Asie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Asia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Euro<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Euro<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
 
 <e><p><l>bourgeois<s n="adj"/></l><r>borgês<s n="adj"/></r></p></e>
@@ -2580,6 +2585,7 @@
 <e><p><l>total<s n="adj"/></l><r>totâl<s n="adj"/></r></p></e>
 <e><p><l>traditionnel<s n="adj"/></l><r>tradicionâl<s n="adj"/></r></p></e>
 <e><p><l>travailleur<s n="adj"/></l><r>travalyor<s n="adj"/></r></p></e>
+<e><p><l>travailleur<s n="n"/></l><r>travalyor<s n="n"/></r></p></e>
 <e><p><l>universel<s n="adj"/></l><r>univèrsâl<s n="adj"/></r></p></e>
 <e><p><l>usité<s n="adj"/></l><r>usitâ<s n="adj"/></r></p></e>
 <e><p><l>velouté<s n="adj"/></l><r>veloutâ<s n="adj"/></r></p></e>
@@ -9518,6 +9524,45 @@
 <e><p><l>utiliser<s n="vblex"/></l><r>utilisar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>utiliser<s n="vblex"/></l><r>utilisiér<s n="vblex"/></r></p></e>
 
+<e r="LR"><p><l>affreux<s n="adj"/></l><r>afrox<s n="adj"/></r></p></e>
+<e r="RL"><p><l>badaud<s n="adj"/></l><r>badôl<s n="adj"/></r></p></e>
+<e r="RL"><p><l>badaud<s n="adj"/></l><r>badôd<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bâtard<s n="adj"/></l><r>bascolin<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bohémien<s n="adj"/></l><r>pascatin<s n="adj"/></r></p></e>
+<e r="RL"><p><l>boiteux<s n="adj"/></l><r>gambot<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>boiteux<s n="adj"/></l><r>gambiot<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>boiteux<s n="adj"/></l><r>chamberon<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>célibataire<s n="adj"/></l><r>menât<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>célibataire<s n="adj"/></l><r>megnât<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>cochon<s n="adj"/></l><r>cayon<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cochon<s n="adj"/></l><r>cochon<s n="adj"/></r></p></e>
+<e><p><l>débraillé<s n="adj"/></l><r>dèbrâyê<s n="adj"/></r></p></e>
+<e r="RL"><p><l>débraillé<s n="adj"/></l><r>dèbrâlyê<s n="adj"/></r></p></e>
+<e r="RL"><p><l>débraillé<s n="adj"/></l><r>èpantrenâ<s n="adj"/></r></p></e>
+<e><p><l>écervelé<s n="adj"/></l><r>ècèrvelâ<s n="adj"/></r></p></e>
+<e r="RL"><p><l>écervelé<s n="adj"/></l><r>tartavél<s n="adj"/></r></p></e>
+<e><p><l>effronté<s n="adj"/></l><r>afrontâ<s n="adj"/></r></p></e>
+<e r="RL"><p><l>effronté<s n="adj"/></l><r>èfrontâ<s n="adj"/></r></p></e>
+<e><p><l>européen<s n="adj"/></l><r>uropèan<s n="adj"/></r></p></e>
+<e r="RL"><p><l>européen<s n="adj"/></l><r>eropèen<s n="adj"/></r></p></e>
+<e r="RL"><p><l>européen<s n="adj"/></l><r>eropèenc<s n="adj"/></r></p></e>
+<e><p><l>Européen<s n="n"/></l><r>Uropèan<s n="n"/></r></p></e>
+<e r="RL"><p><l>Européen<s n="n"/></l><r>Eropèen<s n="n"/></r></p></e>
+<e r="RL"><p><l>Européen<s n="n"/></l><r>Eropèenc<s n="n"/></r></p></e>
+<e><p><l>euro<s n="n"/><s n="m"/></l><r>uro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>euro<s n="n"/><s n="m"/></l><r>erô<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>travailler<s n="vblex"/></l><r>travalyér<s n="vblex"/></r></p></e>
+<e><p><l>travail<s n="n"/><s n="m"/></l><r>travâly<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>matin<s n="n"/><s n="m"/></l><r>matin<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>matin<s n="n"/><s n="m"/></l><r>madin<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>préparer<s n="vblex"/></l><r>prèparar<s n="vblex"/></r></p></e>
+<e><p><l>préparer<s n="vblex"/></l><r>aprèstar<s n="vblex"/></r></p></e>
+<e><p><l>apprêter<s n="vblex"/></l><r>aprèstar<s n="vblex"/></r></p></e>
+<e><p><l>cible<s n="n"/><s n="f"/></l><r>ciba<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>but<s n="n"/><s n="m"/></l><r>ciba<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>but<s n="n"/><s n="m"/></l><r>toche<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>but<s n="n"/><s n="m"/></l><r>but<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>église<s n="n"/><s n="f"/></l><r>égllése<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
