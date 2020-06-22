@@ -8845,6 +8845,7 @@
 <e r="RL"><p><l>donner<s n="vblex"/></l><r>donar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>dorloter<s n="vblex"/></l><r>dorlotar<s n="vblex"/></r></p></e>
 <e><p><l>dresser<s n="vblex"/></l><r>drèciér<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>dresser<s n="vblex"/></l><r>fâre<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>duper<s n="vblex"/></l><r>dupar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>durcir<s n="vblex"/></l><r>durcir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>agacer<s n="vblex"/></l><r>agaçar<s n="vblex"/></r></p></e>
@@ -9180,7 +9181,7 @@
 <e a="corpus"><p><l>globaliser<s n="vblex"/></l><r>globalisar<s n="vblex"/></r></p></e>
 <e a="corpus"><p><l>privatiser<s n="vblex"/></l><r>privatisar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>très<b/>bien<s n="adv"/></l><r>u<b/>pecolon<s n="adv"/></r></p></e>
-<e a="corpus"><p><l>démocratiquement<s n="adv"/></l><r>dèmocraticament<s n="adv"/></r></p></e>
+<e r="RL" a="corpus"><p><l>démocratiquement<s n="adv"/></l><r>dèmocraticament<s n="adv"/></r></p></e>
 <e a="corpus"><p><l>écologiquement<s n="adv"/></l><r>ècologicament<s n="adv"/></r></p></e>
 <e a="stich"><p><l>vaguement<s n="adv"/></l><r>vagament<s n="adv"/></r></p></e>
 <e a="hector"><p><l>musicalement<s n="adv"/></l><r>musicalament<s n="adv"/></r></p></e>
@@ -9195,10 +9196,6 @@
 <e><p><l>drap<s n="n"/><s n="m"/></l><r>drap<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>drap<s n="n"/><s n="m"/></l><r>drat<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>très<b/>bien<s n="adv"/></l><r>u<b/>pecolon<s n="adv"/></r></p></e>
-<e a="corpus"><p><l>démocratiquement<s n="adv"/></l><r>dèmocraticament<s n="adv"/></r></p></e>
-<e a="corpus"><p><l>écologiquement<s n="adv"/></l><r>ècologicament<s n="adv"/></r></p></e>
-<e a="stich"><p><l>vaguement<s n="adv"/></l><r>vagament<s n="adv"/></r></p></e>
-<e a="hector"><p><l>musicalement<s n="adv"/></l><r>musicalament<s n="adv"/></r></p></e>
 <e><p><l>albanais<s n="n"/></l><r>albanês<s n="n"/></r></p></e>
 <e a="hector"><p><l>colonisation<s n="n"/><s n="f"/></l><r>colonisacion<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>sémite<s n="n"/></l><r>sèmito<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -9828,6 +9825,239 @@
 <e><p><l>gouverner<s n="vblex"/></l><r>govèrnar<s n="vblex"/></r></p></e>
 <e><p><l>placer<s n="vblex"/></l><r>placiér<s n="vblex"/></r></p></e>
 <e><p><l>bourgeoisie<s n="n"/><s n="f"/></l><r>borgèsie<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>apôtre<s n="n"/><s n="m"/></l><r>apôtro<s n="n"/><s n="m"/></r></p></e>
+
+<e r="LR" a="alanfavre"><p><l>annuellement<s n="adv"/></l><r>tôs<b/>los<b/>ans<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>en<b/>cause<s n="adv"/></l><r>en<b/>quèstion<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>certes<s n="adv"/></l><r>de<b/>sûr<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>contrairement<s n="adv"/></l><r>u<b/>contrèro<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>par<b/>contre<s n="adv"/></l><r>arriér-més<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>démocratiquement<s n="adv"/></l><r>de<b/>façon<b/>dèmocratica<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>durement<s n="adv"/></l><r>durament<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>sous<b/>les<b/>écrous<s n="adv"/></l><r>en<b/>prêson<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>faussement<s n="adv"/></l><r>en<b/>fôx<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>formellement<s n="adv"/></l><r>de<b/>façon<b/>formèla<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>institutionnellement<s n="adv"/></l><r>de<b/>façon<b/>enstitucionèla<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>ouvertement<s n="adv"/></l><r>uvèrtament<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>progressivement<s n="adv"/></l><r>a<b/>châ<b/>pou<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>relativement<s n="adv"/></l><r>relativament<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>simultanément<s n="adv"/></l><r>en<b/>mémo<b/>temps<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>soudainement<s n="adv"/></l><r>tot<b/>d'un<b/>côp<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>symboliquement<s n="adv"/></l><r>de<b/>façon<b/>sembolica<s n="adv"/></r></p></e>
+<e a="alanfavre"><p><l>systématiquement<s n="adv"/></l><r>de<b/>façon<b/>sistèmatica<s n="adv"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>abonder<s n="vblex"/></l><r>apondre<s n="vblex"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>acquérir<s n="vblex"/></l><r>aquérir<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>adhérer<s n="vblex"/></l><r>enscrire<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>allier<s n="vblex"/></l><r>alyér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>alterner<s n="vblex"/></l><r>altèrnar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>brutaliser<s n="vblex"/></l><r>borriôdar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>capter<s n="vblex"/></l><r>capturar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>clamer<s n="vblex"/></l><r>borlar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>collecter<s n="vblex"/></l><r>recuelyir<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>concéder<s n="vblex"/></l><r>concèdar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>conceptualiser<s n="vblex"/></l><r>concèptualisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>concrétiser<s n="vblex"/></l><r>concrètisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>conditionner<s n="vblex"/></l><r>condicionar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>contracter<s n="vblex"/></l><r>contractar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>coopérer<s n="vblex"/></l><r>coopèrar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>cristalliser<s n="vblex"/></l><r>cristalisar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>déciller<s n="vblex"/></l><r>uvrir<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>déclamer<s n="vblex"/></l><r>dècllâmar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>décontracter<s n="vblex"/></l><r>dècontractar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>dédier<s n="vblex"/></l><r>dèdiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>démocratiser<s n="vblex"/></l><r>dèmocratisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>démondialiser<s n="vblex"/></l><r>dèmondialisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>dépolitiser<s n="vblex"/></l><r>dèpolitisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>désinvestir<s n="vblex"/></l><r>dèsenvèstir<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>déstructurer<s n="vblex"/></l><r>dèstructurar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>dialoguer<s n="vblex"/></l><r>discutar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>discipliner<s n="vblex"/></l><r>disciplinar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>écrouer<s n="vblex"/></l><r>emprêsonar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>embraser<s n="vblex"/></l><r>enfarar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>émerger<s n="vblex"/></l><r>èmèrgiér<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>favoriser<s n="vblex"/></l><r>avantagiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>filmer<s n="vblex"/></l><r>filmar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>formaliser<s n="vblex"/></l><r>formalisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>galvaniser<s n="vblex"/></l><r>galvanisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>galvauder<s n="vblex"/></l><r>trop<b/>usar<s n="vblex"/></r></p></e>
+<e><p><l>reprocher<s n="vblex"/></l><r>reprochiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>reprocher<s n="vblex"/></l><r>reprogiér<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>faire<g><b/>grief</g><s n="vblex"/></l><r>reprochiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>immigrer<s n="vblex"/></l><r>imigrar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>instaurer<s n="vblex"/></l><r>betar<g><b/>en<b/>place</g><s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>instituer<s n="vblex"/></l><r>enstituar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>institutionnaliser<s n="vblex"/></l><r>enstitucionalisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>insurger<s n="vblex"/></l><r>ensurgiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>internaliser<s n="vblex"/></l><r>entèrnalisar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>interner<s n="vblex"/></l><r>enfremar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>interposer<s n="vblex"/></l><r>entèrposar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>investiguer<s n="vblex"/></l><r>enquétar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>investir<s n="vblex"/></l><r>envèstir<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>islamiser<s n="vblex"/></l><r>islamisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>manigancer<s n="vblex"/></l><r>maniganciér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>mettre<g><b/>sur<b/>pied</g><s n="vblex"/></l><r>enganciér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>mondialiser<s n="vblex"/></l><r>mondialisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>muscler<s n="vblex"/></l><r>musclar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>orchestrer<s n="vblex"/></l><r>orquèstrar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>parapher<s n="vblex"/></l><r>parafar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>paramétrer<s n="vblex"/></l><r>paramètrar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>podcaster<s n="vblex"/></l><r>podcastar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>politiser<s n="vblex"/></l><r>politisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>quadrupler<s n="vblex"/></l><r>quadruplar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>radicaliser<s n="vblex"/></l><r>radicalisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>raviver<s n="vblex"/></l><r>ravivar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>récidiver<s n="vblex"/></l><r>rècidivar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>référer<s n="vblex"/></l><r>rèfèrar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>régresser<s n="vblex"/></l><r>règrèssiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>résigner<s n="vblex"/></l><r>rèsegnér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>résilier<s n="vblex"/></l><r>rèsiliér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>restructurer<s n="vblex"/></l><r>restructurar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>sanctionner<s n="vblex"/></l><r>sanccionar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>sexualiser<s n="vblex"/></l><r>sèxualisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>simuler<s n="vblex"/></l><r>simular<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>spécifier<s n="vblex"/></l><r>prècisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>structurer<s n="vblex"/></l><r>structurar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>surestimer<s n="vblex"/></l><r>surèstimar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>symboliser<s n="vblex"/></l><r>sembolisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>sympathiser<s n="vblex"/></l><r>sempatisar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>systématiser<s n="vblex"/></l><r>sistèmatisar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>tabler<s n="vblex"/></l><r>comptar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>tolérer<s n="vblex"/></l><r>tolèrar<s n="vblex"/></r></p></e>
+<e i="yes" a="alanfavre"><p><l>trancher<s n="vblex"/></l><r>chouèsir<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>transgresser<s n="vblex"/></l><r>transgrèssiér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>uniformiser<s n="vblex"/></l><r>uniformisar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>relever<g><b/>le<b/>gant</g><s n="vblex"/></l><r>relevar<g><b/>lo<b/>dèfi</g><s n="vblex"/></r></p></e>
+<e><p><l>baigner<s n="vblex"/></l><r>bâgnér<s n="vblex"/></r></p></e>
+<e><p><l>mouiller<s n="vblex"/></l><r>molyér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>impliquer<s n="vblex"/></l><r>molyér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>impliquer<s n="vblex"/></l><r>emplicar<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>budgéter<s n="vblex"/></l><r>enscrire<g><b/>u<b/>budgèt</g><s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>budgétiser<s n="vblex"/></l><r>enscrire<g><b/>u<b/>budgèt</g><s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>tochiér<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>atribuar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>fâre<g><b/>sembllant</g><s n="vblex"/></r></p></e>
+
+<e a="alanfavre"><p><l>abstrait<s n="adj"/></l><r>abstrèt<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>acceptable<s n="adj"/></l><r>accèptâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>accusateur<s n="adj"/></l><r>acusator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>adéquat<s n="adj"/></l><r>adaptâ<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>adjoint<s n="adj"/></l><r>adjuent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>administratif<s n="adj"/></l><r>administratif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>agroalimentaire<s n="adj"/></l><r>agroalimentèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>annuel<s n="adj"/></l><r>anuèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>associatif<s n="adj"/></l><r>associatif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>athlétique<s n="adj"/></l><r>atlètico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>avéré<s n="adj"/></l><r>recognu<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>bénévole<s n="adj"/></l><r>volontéro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>brut<s n="adj"/></l><r>bruto<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>brutal<s n="adj"/></l><r>brutal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>budgétaire<s n="adj"/></l><r>budgètèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>chevronné<s n="adj"/></l><r>èxpèrt<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>chronique<s n="adj"/></l><r>cronico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>collectif<s n="adj"/></l><r>colèctif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>communautaire<s n="adj"/></l><r>comunôtèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="alanfavre"><p><l>complice<s n="adj"/></l><r>compliço<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>concret<s n="adj"/></l><r>concrèt<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>conflictuel<s n="adj"/></l><r>conflictuèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>contrôlable<s n="adj"/></l><r>controlâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>coopérateur<s n="adj"/></l><r>coopèrator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>coopératif<s n="adj"/></l><r>coopèratif<s n="adj"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>correctionnel<s n="adj"/></l><r>corrèccionèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>corrupteur<s n="adj"/></l><r>corruptor<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>critique<s n="adj"/></l><r>critico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>déclencheur<s n="adj"/></l><r>dècllenchior<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>décroissant<s n="adj"/></l><r>dècrèssent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>démocrate<s n="adj"/></l><r>dèmocrato<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>dévastateur<s n="adj"/></l><r>dèvastator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>disciplinaire<s n="adj"/></l><r>disciplinèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>dissident<s n="adj"/></l><r>dissident<s n="adj"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>drastique<s n="adj"/></l><r>dur<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>dynamique<s n="adj"/></l><r>dinamico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>effectif<s n="adj"/></l><r>veretâblo<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>émergent<s n="adj"/></l><r>èmèrgent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>émigrant<s n="adj"/></l><r>èmigrant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>énergétique<s n="adj"/></l><r>ènèrgètico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>environnemental<s n="adj"/></l><r>environamental<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>environnementaliste<s n="adj"/></l><r>environamentalisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>épidémiologique<s n="adj"/></l><r>èpidèmiologico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>exemplaire<s n="adj"/></l><r>ègzemplèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>exigeant<s n="adj"/></l><r>ègzigent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>exigible<s n="adj"/></l><r>ègzigiblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>féru<s n="adj"/></l><r>amouerox<s n="adj"/></r></p><par n="GD_ox"/></e>
+<e a="alanfavre"><p><l>fiscal<s n="adj"/></l><r>fiscal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>formel<s n="adj"/></l><r>formèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>frondeur<s n="adj"/></l><r>frondor<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>géopolitique<s n="adj"/></l><r>gèopolitico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>historique<s n="adj"/></l><r>historico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>indemne<s n="adj"/></l><r>sârvo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>illégal<s n="adj"/></l><r>ilègal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>immigrant<s n="adj"/></l><r>imigrant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>immun<s n="adj"/></l><r>imuno<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>impératif<s n="adj"/></l><r>empèratif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>improductif<s n="adj"/></l><r>emproductif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>inacceptable<s n="adj"/></l><r>inaccèptâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>incontrôlable<s n="adj"/></l><r>encontrolâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>inepte<s n="adj"/></l><r>stupido<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>informel<s n="adj"/></l><r>enformèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>infrarouge<s n="adj"/></l><r>enfraroge<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>initial<s n="adj"/></l><r>inicial<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>institutionnel<s n="adj"/></l><r>enstitucionèl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>insurmontable<s n="adj"/></l><r>ensurmontâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>interne<s n="adj"/></l><r>entèrno<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>intolérant<s n="adj"/></l><r>entolèrant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>intransigeant<s n="adj"/></l><r>entransigent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>investisseur<s n="adj"/></l><r>envèstissor<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>islamiste<s n="adj"/></l><r>islamisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>légaliste<s n="adj"/></l><r>légalisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>ludique<s n="adj"/></l><r>ludico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>majoritaire<s n="adj"/></l><r>majoritèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>matriarcal<s n="adj"/></l><r>matriarcal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>maximal<s n="adj"/></l><r>maximal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>métropolitain<s n="adj"/></l><r>mètropoliten<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>migrant<s n="adj"/></l><r>migrant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>migrateur<s n="adj"/></l><r>migrator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>minimal<s n="adj"/></l><r>minimal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>ministériel<s n="adj"/></l><r>ministèrièl<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>minoritaire<s n="adj"/></l><r>minoritèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>mondial<s n="adj"/></l><r>mondial<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>mondialiste<s n="adj"/></l><r>mondialisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>objectif<s n="adj"/></l><r>objèctif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>occulte<s n="adj"/></l><r>oculto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>paradoxal<s n="adj"/></l><r>paradoxal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>paramétrique<s n="adj"/></l><r>paramètrico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>patriarcal<s n="adj"/></l><r>patriarcal<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>passible<s n="adj"/></l><r>passiblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>performant<s n="adj"/></l><r>pèrformant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>planétaire<s n="adj"/></l><r>planètèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>précautionneux<s n="adj"/></l><r>prudent<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e a="alanfavre"><p><l>préconçu<s n="adj"/></l><r>prèconçu<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>préliminaire<s n="adj"/></l><r>prèliminèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>préventif<s n="adj"/></l><r>prèventif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>prioritaire<s n="adj"/></l><r>prioritèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>producteur<s n="adj"/></l><r>productor<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>productif<s n="adj"/></l><r>productif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>progressif<s n="adj"/></l><r>progrèssif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>protectionniste<s n="adj"/></l><r>protèccionisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>publicitaire<s n="adj"/><s n="mf"/></l><r>de<b/>recllâma<s n="mf"/><s n="adj"/></r></p><par n="ND_sp"/></e>
+<e a="alanfavre"><p><l>punissable<s n="adj"/></l><r>punissâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>radieux<s n="adj"/></l><r>radiox<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>récidiviste<s n="adj"/></l><r>rècidivisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>référent<s n="adj"/></l><r>rèfèrent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>résilient<s n="adj"/></l><r>rèsilyent<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>révélateur<s n="adj"/></l><r>rèvèlator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>spécifique<s n="adj"/></l><r>spècifico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>stratégique<s n="adj"/></l><r>stratègico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>subjectif<s n="adj"/></l><r>subjèctif<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>symbolique<s n="adj"/></l><r>sembolico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>sympathique<s n="adj"/></l><r>sempatico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>systématique<s n="adj"/></l><r>sistèmatico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>thérapeutique<s n="adj"/><s n="mf"/></l><r>de<b/>cura<s n="mf"/><s n="adj"/></r></p><par n="ND_sp"/></e>
+<e a="alanfavre"><p><l>tolérant<s n="adj"/></l><r>tolèrant<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>transformateur<s n="adj"/></l><r>transformator<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>ultraviolet<s n="adj"/></l><r>ultraviolèt<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>univoque<s n="adj"/></l><r>univoco<s n="adj"/></r></p><par n="mf_GD"/></e>
+
+
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

@@ -1381,6 +1381,43 @@
 
 <!-- **************** V **************** -->
 
+  <!-- affecter >> tochier, atribuar, fâre# sembllant -->
+  <rule weight="0.8">
+    <match lemma="affecter" tags="vblex.*"><select lemma="tochier"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="affecter" tags="vblex.*"><select lemma="atribuar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="det" tags="pr"/>
+    </or>
+    <or>
+      <match lemma="fonds" tags="n.*"/>
+      <match lemma="crédit" tags="n.*"/>
+      <match lemma="frais" tags="n.*"/>
+      <match lemma="valeur" tags="n.*"/>
+      <match lemma="ressource" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="affecter" tags="vblex.*"><select lemma="atribuar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match lemma="det" tags="pr"/>
+    <or>
+      <match lemma="fonds" tags="n.*"/>
+      <match lemma="crédit" tags="n.*"/>
+      <match lemma="frais" tags="n.*"/>
+      <match lemma="valeur" tags="n.*"/>
+      <match lemma="ressource" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- devenir >> venir, devegnir, devenir -->
   <rule weight="0.8">
     <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
@@ -1391,9 +1428,53 @@
     <match lemma="disjoindre" tags="vblex.*"><select lemma="dèpondre"/></match>
   </rule>
 
+  <!-- dresser >> drèciér, fâre -->
+  <rule weight="0.8">
+    <match lemma="dresser" tags="vblex.*"><select lemma="drèciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dresser" tags="vblex.*"><select lemma="drèciér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="det" tags="pr"/>
+    </or>
+    <or>
+      <match lemma="bilan" tags="n.*"/>
+      <match lemma="état" tags="n.*"/>
+      <match lemma="inventaire" tags="n.*"/>
+      <match lemma="liste" tags="n.*"/>
+      <match lemma="profil" tags="n.*"/>
+      <match lemma="tableau" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dresser" tags="vblex.*"><select lemma="drèciér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match lemma="det" tags="pr"/>
+    <or>
+      <match lemma="bilan" tags="n.*"/>
+      <match lemma="état" tags="n.*"/>
+      <match lemma="inventaire" tags="n.*"/>
+      <match lemma="liste" tags="n.*"/>
+      <match lemma="profil" tags="n.*"/>
+      <match lemma="tableau" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- éveiller >> rèvelyér, èvelyér, dèvelyér  -->
   <rule weight="0.8">
     <match lemma="éveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
+  <!-- impliquer >> emplicar, molyér  -->
+  <rule weight="0.8">
+    <match lemma="impliquer" tags="vblex.*"><select lemma="emplicar"/></match>
   </rule>
 
   <!-- jouer >> jouyér, menar -->

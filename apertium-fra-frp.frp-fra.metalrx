@@ -1036,6 +1036,11 @@
     </or>
   </rule>
 
+  <!-- molyér >> mouiller, impliquer -->
+  <rule weight="0.8">
+    <match lemma="molyér" tags="vblex.*"><select lemma="mouiller"/></match>
+  </rule>
+
   <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller  -->
   <macro name="verb_nopron_pron" p1="rèvelyér" p2="éveiller" p3="réveiller" />
   <macro name="verb_nopron_pron" p1="èvelyér" p2="éveiller" p3="réveiller" />
