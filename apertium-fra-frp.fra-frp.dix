@@ -2001,8 +2001,20 @@
 <e>       <p><l>espagnol<s n="n"/></l><r>èspagnol<s n="n"/></r></p></e>
 <e>       <p><l>africain<s n="adj"/></l><r>afriquen<s n="adj"/></r></p></e>
 <e>       <p><l>Africain<s n="n"/></l><r>Afriquen<s n="n"/></r></p></e>
+<e r="RL"><p><l>africain<s n="adj"/></l><r>african<s n="adj"/></r></p></e>
+<e r="RL"><p><l>Africain<s n="n"/></l><r>African<s n="n"/></r></p></e>
+<e>       <p><l>sud-soudanais<s n="adj"/></l><r>sud-soudanês<s n="adj"/></r></p></e>
+<e>       <p><l>Sud-Soudanais<s n="n"/></l><r>Sud-Soudanês<s n="n"/></r></p></e>
+<e>       <p><l>sud-africain<s n="adj"/></l><r>sud-afriquen<s n="adj"/></r></p></e>
+<e>       <p><l>Sud-Africain<s n="n"/></l><r>Sud-Afriquen<s n="n"/></r></p></e>
+<e r="RL"><p><l>sud-africain<s n="adj"/></l><r>sud-african<s n="adj"/></r></p></e>
+<e r="RL"><p><l>Sud-Africain<s n="n"/></l><r>Sud-African<s n="n"/></r></p></e>
 <e>       <p><l>américain<s n="adj"/></l><r>amèriquen<s n="adj"/></r></p></e>
 <e>       <p><l>Américain<s n="n"/></l><r>Amèriquen<s n="n"/></r></p></e>
+<e>       <p><l>nord-américain<s n="adj"/></l><r>nord-amèriquen<s n="adj"/></r></p></e>
+<e>       <p><l>Nord-Américain<s n="n"/></l><r>Nord-Amèriquen<s n="n"/></r></p></e>
+<e>       <p><l>sud-américain<s n="adj"/></l><r>sud-amèriquen<s n="adj"/></r></p></e>
+<e>       <p><l>Sud-Américain<s n="n"/></l><r>Sud-Amèriquen<s n="n"/></r></p></e>
 <e>       <p><l>européen<s n="adj"/></l><r>eropèen<s n="adj"/></r></p></e>
 <e>       <p><l>européen<s n="n"/></l><r>Eropèen<s n="n"/></r></p></e>
 <e r="RL"><p><l>européen<s n="adj"/></l><r>uropèen<s n="adj"/></r></p></e>
@@ -2086,6 +2098,7 @@
 <e>       <p><l>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Chine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>China<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Inde<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Inda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Inde<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Indes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Angleterre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Anglletèrra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Autriche<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ôtriche<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Espagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Èspagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2097,12 +2110,12 @@
 <e r="RL"><p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Acadie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Acadie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Allemagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Alemagnes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-<e>       <p><l>Amérique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Amèriques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>Amérique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Amèrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Afrique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Afriques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>Afrique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Africa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eropes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eropa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Amérique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Amèriques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Amérique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Amèrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Afrique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Afriques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Afrique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Africa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eropes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eropa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Uropes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>Europe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Uropa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Asie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Asie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2111,6 +2124,8 @@
 <e>       <p><l>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
 
+<e><p><l>jacobin<s n="adj"/></l><r>jacobin<s n="adj"/></r></p></e>
+<e><p><l>jacobin<s n="n"/></l><r>jacobin<s n="n"/></r></p></e>
 <e><p><l>bourgeois<s n="adj"/></l><r>borgês<s n="adj"/></r></p></e>
 <e><p><l>burundais<s n="adj"/></l><r>bouroundês<s n="adj"/></r></p></e>
 <e><p><l>camerounais<s n="adj"/></l><r>camerounês<s n="adj"/></r></p></e>
@@ -2134,10 +2149,12 @@
 <e><p><l>martiniquais<s n="adj"/></l><r>martiniquês<s n="adj"/></r></p></e>
 <e><p><l>népalais<s n="adj"/></l><r>nèpalês<s n="adj"/></r></p></e>
 <e><p><l>néo-zélandais<s n="adj"/></l><r>nèo-zèlandês<s n="adj"/></r></p></e>
+<e><p><l>Néo-Zélandais<s n="n"/></l><r>Nèo-Zèlandês<s n="n"/></r></p></e>
 <e><p><l>omanais<s n="adj"/></l><r>omanês<s n="adj"/></r></p></e>
 <e><p><l>ougandais<s n="adj"/></l><r>ougandês<s n="adj"/></r></p></e>
 <e><p><l>pakistanais<s n="adj"/></l><r>pakistanês<s n="adj"/></r></p></e>
 <e><p><l>hollandais<s n="adj"/></l><r>holandês<s n="adj"/></r></p></e>
+<e><p><l>hollandais<s n="n"/></l><r>holandês<s n="n"/></r></p></e>
 <e><p><l>piémontais<s n="adj"/></l><r>piemontês<s n="adj"/></r></p></e>
 <e><p><l>portugais<s n="adj"/></l><r>português<s n="adj"/></r></p></e>
 <e><p><l>rwandais<s n="adj"/></l><r>rouandês<s n="adj"/></r></p></e>
@@ -2261,8 +2278,6 @@
 <e><p><l>valaisan<s n="adj"/></l><r>valêsan<s n="adj"/></r></p></e>
 <e><p><l>vaniteux<s n="adj"/></l><r>vanitox<s n="adj"/></r></p></e>
 <e><p><l>vétéran<s n="adj"/></l><r>vètèran<s n="adj"/></r></p></e>
-<e r="RL"><p><l>africain<s n="adj"/></l><r>african<s n="adj"/></r></p></e>
-<e r="RL"><p><l>Africain<s n="n"/></l><r>African<s n="n"/></r></p></e>
 <e><p><l>alezan<s n="adj"/></l><r>alezan<s n="adj"/></r></p></e>
 <e><p><l>bienfaisant<s n="adj"/></l><r>benfesant<s n="adj"/></r></p></e>
 <e><p><l>cordial<s n="adj"/></l><r>benvelyant<s n="adj"/></r></p></e>
@@ -2329,7 +2344,7 @@
 <e><p><l>différent<s n="adj"/></l><r>difèrent<s n="adj"/></r></p></e>
 <e><p><l>dolent<s n="adj"/></l><r>dolent<s n="adj"/></r></p></e>
 <e><p><l>édenté<s n="adj"/></l><r>èdentâ<s n="adj"/></r></p></e>
-<e><p><l>égal<s n="adj"/></l><r>engouo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>égal<s n="adj"/></l><r>engouo<s n="adj"/></r></p></e>
 <e><p><l>électricien<s n="adj"/></l><r>èlectricien<s n="adj"/></r></p></e>
 <e><p><l>éloquent<s n="adj"/></l><r>èloquent<s n="adj"/></r></p></e>
 <e><p><l>enneigé<s n="adj"/></l><r>ennevolâ<s n="adj"/></r></p></e>
@@ -2394,6 +2409,9 @@
 <e><p><l>norvégien<s n="adj"/></l><r>norvègien<s n="adj"/></r></p></e>
 <e><p><l>nourrissant<s n="adj"/></l><r>nurréssent<s n="adj"/></r></p></e>
 <e><p><l>néo-calédonien<s n="adj"/></l><r>nèo-calèdonien<s n="adj"/></r></p></e>
+<e><p><l>Néo-Calédonien<s n="n"/></l><r>Nèo-Calèdonien<s n="n"/></r></p></e>
+<e><p><l>cap-verdien<s n="adj"/></l><r>cap-vèrdien<s n="adj"/></r></p></e>
+<e><p><l>Cap-Verdien<s n="n"/></l><r>Cap-Vèrdien<s n="n"/></r></p></e>
 <e><p><l>outrageant<s n="adj"/></l><r>outragent<s n="adj"/></r></p></e>
 <e><p><l>palestinien<s n="adj"/></l><r>palèstinien<s n="adj"/></r></p></e>
 <e><p><l>passant<s n="adj"/></l><r>passent<s n="adj"/></r></p></e>
@@ -9059,7 +9077,9 @@
 <e><p><l>coquet<s n="adj"/></l><r>faquin<s n="adj"/></r></p></e>
 <e><p><l>coréen<s n="adj"/></l><r>corèen<s n="adj"/></r></p></e>
 <e><p><l>nord-coréen<s n="adj"/></l><r>nord-corèen<s n="adj"/></r></p></e>
+<e><p><l>Nord-Coréen<s n="n"/></l><r>Nord-Corèen<s n="n"/></r></p></e>
 <e><p><l>sud-coréen<s n="adj"/></l><r>sud-corèen<s n="adj"/></r></p></e>
+<e><p><l>Sud-Coréen<s n="n"/></l><r>Sud-Corèen<s n="n"/></r></p></e>
 <e><p><l>court<s n="adj"/></l><r>côrt<s n="adj"/></r></p></e>
 <e a="corpus"><p><l>créatif<s n="adj"/></l><r>crèatif<s n="adj"/></r></p></e>
 <e><p><l>crétin<s n="adj"/></l><r>crètin<s n="adj"/></r></p></e>
@@ -9209,6 +9229,7 @@
 <e a="stich"><p><l>Goth<s n="n"/></l><r>Got<s n="n"/></r></p></e>
 <e a="stich"><p><l>Alain<s n="n"/></l><r>Alan<s n="n"/></r></p></e>
 <e a="stich"><p><l>Saxon<s n="n"/></l><r>Saxon<s n="n"/></r></p></e>
+<e a="hector"><p><l>Anglo-Saxon<s n="n"/></l><r>Anglo-Saxon<s n="n"/></r></p></e>
 <e><p><l>décapiter<s n="vblex"/></l><r>dècapitar<s n="vblex"/></r></p></e>
 <e><p><l>assiéger<s n="vblex"/></l><r>assiegiér<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>bailler<s n="vblex"/></l><r>balyér<s n="vblex"/></r></p></e>
@@ -9290,6 +9311,7 @@
 <e><p><l>zambien<s n="adj"/></l><r>zambien<s n="adj"/></r></p></e>
 <e a="stich"><p><l>goth<s n="adj"/></l><r>got<s n="adj"/></r></p></e>
 <e a="stich"><p><l>saxon<s n="adj"/></l><r>saxon<s n="adj"/></r></p></e>
+<e a="hector"><p><l>anglo-saxon<s n="adj"/></l><r>anglo-saxon<s n="adj"/></r></p></e>
 <e a="stich"><p><l>chaldéen<s n="adj"/></l><r>caldèan<s n="adj"/></r></p></e>
 <e a="hector"><p><l>dimensionnel<s n="adj"/></l><r>dimensionèl<s n="adj"/></r></p></e>
 <e a="corpus"><p><l>multidimensionnel<s n="adj"/></l><r>multidimensionèl<s n="adj"/></r></p></e>
@@ -9560,9 +9582,252 @@
 <e><p><l>apprêter<s n="vblex"/></l><r>aprèstar<s n="vblex"/></r></p></e>
 <e><p><l>cible<s n="n"/><s n="f"/></l><r>ciba<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>but<s n="n"/><s n="m"/></l><r>ciba<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>cible<s n="n"/><s n="f"/></l><r>chiba<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>but<s n="n"/><s n="m"/></l><r>chiba<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>but<s n="n"/><s n="m"/></l><r>toche<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>but<s n="n"/><s n="m"/></l><r>but<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>église<s n="n"/><s n="f"/></l><r>égllése<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>égal<s n="adj"/></l><r>ègâl<s n="adj"/></r></p></e>
+<e r="RL"><p><l>égal<s n="adj"/></l><r>ègâlo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>égal<s n="adj"/></l><r>ègouo<s n="adj"/></r></p></e>
+<e><p><l>émoussé<s n="adj"/></l><r>mocho<s n="adj"/></r></p></e>
+<e r="RL"><p><l>émoussé<s n="adj"/></l><r>motu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>émoussé<s n="adj"/></l><r>mot<s n="adj"/></r></p></e>
+<e r="RL"><p><l>émoussé<s n="adj"/></l><r>moto<s n="adj"/></r></p></e>
+<e r="RL"><p><l>émoussé<s n="adj"/></l><r>motèt<s n="adj"/></r></p></e>
+<e><p><l>engourdi<s n="adj"/></l><r>engôrdi<s n="adj"/></r></p></e>
+<e r="RL"><p><l>engourdi<s n="adj"/></l><r>gôbio<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ennuyeux<s n="adj"/></l><r>rasior<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>envieux<s n="adj"/></l><r>enveyox<s n="adj"/></r></p></e>
+<e r="RL"><p><l>envieux<s n="adj"/></l><r>envediox<s n="adj"/></r></p></e>
+<e><p><l>épais<s n="adj"/></l><r>èpès<s n="adj"/></r></p></e>
+<e><p><l>épistolaire<s n="adj"/></l><r>èpistolâr<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>épistolaire<s n="adj"/></l><r>èpistolèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>éteint<s n="adj"/></l><r>dètiendu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>éteint<s n="adj"/></l><r>dètient<s n="adj"/></r></p></e>
+<e><p><l>éthiopien<s n="adj"/></l><r>ètiopien<s n="adj"/></r></p></e>
+<e r="RL"><p><l>brusque<s n="adj"/></l><r>brivo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>étourdi<s n="adj"/></l><r>brivo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>étourdi<s n="adj"/></l><r>ètordi<s n="adj"/></r></p></e>
+<e><p><l>exact<s n="adj"/></l><r>ègzact<s n="adj"/></r></p></e>
+<e r="RL"><p><l>exact<s n="adj"/></l><r>ègzacto<s n="adj"/></r></p></e>
+<e><p><l>extra<s n="adj"/><s n="mf"/><s n="sp"/></l><r>èxtra<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>extraordinaire<s n="adj"/><s n="mf"/></l><r>èxtra<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>extraordinaire<s n="adj"/></l><r>èxtraordinèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mot<s n="n"/><s n="m"/></l><r>mot<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>grec<s n="adj"/></l><r>grèco<s n="adj"/></r></p></e>
+<e><p><l>grec<s n="n"/></l><r>grèco<s n="n"/></r></p></e>
+<e><p><l>abkhaze<s n="adj"/></l><r>abkhazo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>abkhaze<s n="n"/></l><r>abkhazo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>azéri<s n="adj"/></l><r>azèri<s n="adj"/></r></p></e>
+<e><p><l>azéri<s n="n"/></l><r>azèri<s n="n"/></r></p></e>
+<e><p><l>bengali<s n="adj"/></l><r>bengali<s n="adj"/></r></p></e>
+<e><p><l>bengali<s n="n"/></l><r>bengali<s n="n"/></r></p></e>
+<e><p><l>bus<s n="n"/><s n="m"/></l><r>omnibus<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>bus<s n="n"/><s n="m"/></l><r>bus<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>bus<s n="n"/><s n="m"/></l><r>ôtobus<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>bus<s n="n"/><s n="m"/></l><r>ôtobus<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>car<s n="n"/><s n="m"/></l><r>omnibus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>autobus<s n="n"/><s n="m"/></l><r>omnibus<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>car<s n="n"/><s n="m"/></l><r>bus<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>car<s n="n"/><s n="m"/></l><r>car<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nom<s n="n"/><s n="m"/></l><r>nom<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>nom<s n="n"/><s n="m"/></l><r>niom<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lésothan<s n="adj"/></l><r>lèsotien<s n="adj"/></r></p></e>
+<e><p><l>Lésothan<s n="n"/></l><r>Lèsotien<s n="n"/></r></p></e>
+<e><p><l>malais<s n="adj"/></l><r>malês<s n="adj"/></r></p></e>
+<e><p><l>malais<s n="n"/></l><r>malês<s n="n"/></r></p></e>
+<e><p><l>malawite<s n="adj"/></l><r>malaouito<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>Malawite<s n="n"/></l><r>Malaouito<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mâconnais<s n="adj"/></l><r>mâconês<s n="adj"/></r></p></e>
+<e><p><l>Mâconnais<s n="n"/></l><r>Mâconês<s n="n"/></r></p></e>
+<e><p><l>papou<s n="adj"/></l><r>papou<s n="adj"/></r></p></e>
+<e><p><l>papou<s n="n"/></l><r>papou<s n="n"/></r></p></e>
+<e><p><l>qatarien<s n="adj"/></l><r>qatarien<s n="adj"/></r></p></e>
+<e><p><l>Qatarien<s n="n"/></l><r>Qatarien<s n="n"/></r></p></e>
+<e r="RL"><p><l>à<b/>l'aveuglette<s n="adv"/></l><r>a<b/>nan-veyon<s n="adv"/></r></p></e>
+<e a="hector"><p><l>sévèrement<s n="adv"/></l><r>sevèrament<s n="adv"/></r></p></e>
+
+<e r="LR"><p><l>abkhazien<s n="adj"/></l><r>abkhazo<s n="adj"/></r></p></e>
+<e><p><l>afghan<s n="adj"/></l><r>afghan<s n="adj"/></r></p></e>
+<e><p><l>andorran<s n="adj"/></l><r>andorran<s n="adj"/></r></p></e>
+<e><p><l>angolais<s n="adj"/></l><r>angolês<s n="adj"/></r></p></e>
+<e><p><l>antiguayen<s n="adj"/></l><r>antiguês<s n="adj"/></r></p><par n="GD_ox"/></e>
+<e><p><l>saoudien<s n="adj"/></l><r>saoudien<s n="adj"/></r></p></e>
+<e><p><l>araméen<s n="adj"/></l><r>aramèen<s n="adj"/></r></p></e>
+<e><p><l>argentin<s n="adj"/></l><r>argentin<s n="adj"/></r></p></e>
+<e><p><l>assyrien<s n="adj"/></l><r>assirien<s n="adj"/></r></p></e>
+<e r="LR"><p><l>azerbaïdjanais<s n="adj"/></l><r>azèri<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>bahaméen<s n="adj"/></l><r>bahamèen<s n="adj"/></r></p></e>
+<e><p><l>bahreïnien<s n="adj"/></l><r>bahrêni<s n="adj"/></r></p></e>
+<e r="LR"><p><l>bangladais<s n="adj"/></l><r>bengali<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>barbadien<s n="adj"/></l><r>barbadien<s n="adj"/></r></p></e>
+<e><p><l>belge<s n="adj"/></l><r>bèlge<s n="adj"/></r></p></e>
+<e><p><l>béninois<s n="adj"/></l><r>bèninouès<s n="adj"/></r></p></e>
+<e><p><l>bermudien<s n="adj"/></l><r>bèrmudien<s n="adj"/></r></p></e>
+<e><p><l>bhoutanais<s n="adj"/></l><r>bhoutanês<s n="adj"/></r></p></e>
+<e><p><l>bolivien<s n="adj"/></l><r>bolivien<s n="adj"/></r></p></e>
+<e><p><l>atomique<s n="adj"/></l><r>atomico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>bosniaque<s n="adj"/></l><r>bosniaco<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>botswanais<s n="adj"/></l><r>botsouanês<s n="adj"/></r></p></e>
+<e><p><l>brunéien<s n="adj"/></l><r>brunèyen<s n="adj"/></r></p></e>
+<e><p><l>canadien<s n="adj"/></l><r>canadien<s n="adj"/></r></p></e>
+<e><p><l>chartreux<s n="adj"/></l><r>chartrox<s n="adj"/></r></p></e>
+<e><p><l>colombien<s n="adj"/></l><r>colombien<s n="adj"/></r></p></e>
+<e><p><l>comorien<s n="adj"/></l><r>comorien<s n="adj"/></r></p></e>
+<e><p><l>costaricien<s n="adj"/></l><r>costariquen<s n="adj"/></r></p></e>
+<e><p><l>cubain<s n="adj"/></l><r>cuben<s n="adj"/></r></p></e>
+<e><p><l>djiboutien<s n="adj"/></l><r>djiboutien<s n="adj"/></r></p></e>
+<e><p><l>égyptien<s n="adj"/></l><r>ègipcien<s n="adj"/></r></p></e>
+<e><p><l>érythréen<s n="adj"/></l><r>èritrèen<s n="adj"/></r></p></e>
+<e><p><l>estonien<s n="adj"/></l><r>èstonien<s n="adj"/></r></p></e>
+<e><p><l>gambien<s n="adj"/></l><r>gambien<s n="adj"/></r></p></e>
+<e><p><l>géorgien<s n="adj"/></l><r>georgien<s n="adj"/></r></p></e>
+<e><p><l>ghanéen<s n="adj"/></l><r>ghanèen<s n="adj"/></r></p></e>
+<e><p><l>haïtien<s n="adj"/></l><r>hayicien<s n="adj"/></r></p></e>
+<e><p><l>hawaïen<s n="adj"/></l><r>hawayen<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hollandais<s n="adj"/></l><r>holandouès<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hollandais<s n="n"/></l><r>holandouès<s n="n"/></r></p></e>
+<e><p><l>israélite<s n="adj"/></l><r>israèlito<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>jacobin<s n="adj"/></l><r>francilyon<s n="adj"/></r></p></e>
+<e><p><l>jamaïcain<s n="adj"/></l><r>jamayiquen<s n="adj"/></r></p></e>
+<e><p><l>jordanien<s n="adj"/></l><r>jordanien<s n="adj"/></r></p></e>
+<e><p><l>laotien<s n="adj"/></l><r>laocien<s n="adj"/></r></p></e>
+<e r="LR"><p><l>lésothien<s n="adj"/></l><r>lèsotien<s n="adj"/></r></p></e>
+<e><p><l>libérien<s n="adj"/></l><r>libèrien<s n="adj"/></r></p></e>
+<e><p><l>lilas<s n="adj"/><s n="mf"/><s n="sp"/></l><r>lilâs<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>lituanien<s n="adj"/></l><r>lituanien<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mâconnais<s n="adj"/></l><r>mâcounês<s n="adj"/></r></p></e>
+<e><p><l>malgache<s n="adj"/></l><r>malgache<s n="adj"/></r></p></e>
+<e r="LR"><p><l>malaisien<s n="adj"/></l><r>malês<s n="adj"/></r></p><par n="GD_ox"/></e>
+<e r="LR"><p><l>malawien<s n="adj"/></l><r>malaouito<s n="adj"/></r></p></e>
+<e><p><l>marocain<s n="adj"/></l><r>maroquen<s n="adj"/></r></p></e>
+<e><p><l>micronésien<s n="adj"/></l><r>micronèsien<s n="adj"/></r></p></e>
+<e><p><l>namibien<s n="adj"/></l><r>namibien<s n="adj"/></r></p></e>
+<e r="LR"><p><l>papouasien<s n="adj"/></l><r>papou<s n="adj"/></r></p></e>
+<e><p><l>paraguayen<s n="adj"/></l><r>paragoayen<s n="adj"/></r></p></e>
+<e><p><l>péruvien<s n="adj"/></l><r>pèruvien<s n="adj"/></r></p></e>
+<e><p><l>polynésien<s n="adj"/></l><r>polinèsien<s n="adj"/></r></p></e>
+<e r="LR"><p><l>qatari<s n="adj"/></l><r>qatarien<s n="adj"/></r></p></e>
+<e><p><l>roumain<s n="adj"/></l><r>roumen<s n="adj"/></r></p></e>
+<e><p><l>singapourien<s n="adj"/></l><r>singapourien<s n="adj"/></r></p></e>
+<e><p><l>soi-disant<s n="adj"/><s n="mf"/><s n="sp"/></l><r>sè-desent<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>syrien<s n="adj"/></l><r>sirien<s n="adj"/></r></p></e>
+<e><p><l>tanzanien<s n="adj"/></l><r>tanzanien<s n="adj"/></r></p></e>
+<e><p><l>tchadien<s n="adj"/></l><r>tchadien<s n="adj"/></r></p></e>
+<e><p><l>timorais<s n="adj"/></l><r>timorien<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>tongien<s n="adj"/></l><r>tongien<s n="adj"/></r></p></e>
+<e><p><l>ukrainien<s n="adj"/></l><r>ukrênien<s n="adj"/></r></p></e>
+<e><p><l>vénézuélien<s n="adj"/></l><r>vènèzuèlien<s n="adj"/></r></p></e>
+<e><p><l>vietnamien<s n="adj"/></l><r>viètnamien<s n="adj"/></r></p></e>
+<e a="hector"><p><l>définitif<s n="adj"/></l><r>dèfenitif<s n="adj"/></r></p></e>
+<e><p><l>tchèque<s n="adj"/></l><r>tchèco<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mathématique<s n="adj"/></l><r>matèmatico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>mérovingien<s n="adj"/></l><r>mèrovingien<s n="adj"/></r></p></e>
+<e a="hector"><p><l>olympique<s n="adj"/></l><r>olimpico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>philistin<s n="adj"/></l><r>filistin<s n="adj"/></r></p></e>
+<e><p><l>araméen<s n="n"/></l><r>aramèen<s n="n"/></r></p></e>
+<e r="LR"><p><l>cosmonaute<s n="n"/><s n="mf"/></l><r>cosmonôte<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>azerbaïdjanais<s n="n"/></l><r>azèri<s n="n"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>bosniaque<s n="n"/></l><r>bosniaco<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>estonien<s n="n"/></l><r>èstonien<s n="n"/></r></p></e>
+<e r="RL"><p><l>été<s n="n"/><s n="m"/></l><r>étif<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>éthiopien<s n="n"/></l><r>ètiopien<s n="n"/></r></p></e>
+<e><p><l>fondue<s n="n"/><s n="f"/></l><r>fondua<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>géorgien<s n="n"/></l><r>georgien<s n="n"/></r></p></e>
+<e><p><l>hawaïen<s n="n"/></l><r>hawayen<s n="n"/></r></p></e>
+<e r="RL"><p><l>jacobin<s n="n"/></l><r>francilyon<s n="n"/></r></p></e>
+<e><p><l>laotien<s n="n"/></l><r>laocien<s n="n"/></r></p></e>
+<e><p><l>lituanien<s n="n"/></l><r>lituanien<s n="n"/></r></p></e>
+<e><p><l>malgache<s n="n"/><s n="mf"/></l><r>malgache<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>maréchal<s n="n"/><s n="m"/></l><r>marechâl<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mémé<s n="n"/><s n="f"/></l><r>mèmè<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mérovingien<s n="n"/></l><r>mèrovingien<s n="n"/></r></p></e>
+<e r="LR"><p><l>objectif<s n="n"/><s n="m"/></l><r>but<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pépé<s n="n"/><s n="m"/></l><r>pèpè<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>plupart<s n="n"/><s n="f"/><s n="sg"/></l><r>plepârt<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>roumain<s n="n"/></l><r>roumen<s n="n"/></r></p></e>
+<e><p><l>sol<s n="n"/><s n="m"/></l><r>sol<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ukrainien<s n="n"/></l><r>ukrênien<s n="n"/></r></p></e>
+<e><p><l>vietnamien<s n="n"/></l><r>viètnamien<s n="n"/></r></p></e>
+<e><p><l>tchèque<s n="n"/></l><r>tchèco<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>Afghan<s n="n"/></l><r>Afghan<s n="n"/></r></p></e>
+<e><p><l>Andorran<s n="n"/></l><r>Andorran<s n="n"/></r></p></e>
+<e><p><l>Angolais<s n="n"/></l><r>angolês<s n="n"/></r></p></e>
+<e><p><l>Antiguayen<s n="n"/></l><r>Antiguês<s n="n"/></r></p><par n="GD_ox"/></e>
+<e><p><l>Saoudien<s n="n"/></l><r>Saoudien<s n="n"/></r></p></e>
+<e><p><l>Argentin<s n="n"/></l><r>Argentin<s n="n"/></r></p></e>
+<e><p><l>Australien<s n="n"/></l><r>Ôstralien<s n="n"/></r></p></e>
+<e><p><l>Autrichien<s n="n"/></l><r>Ôtrichien<s n="n"/></r></p></e>
+<e><p><l>Bahaméen<s n="n"/></l><r>Bahamèen<s n="n"/></r></p></e>
+<e><p><l>Bahreïnien<s n="n"/></l><r>Bahrêni<s n="n"/></r></p></e>
+<e><p><l>Barbadien<s n="n"/></l><r>Barbadien<s n="n"/></r></p></e>
+<e><p><l>Bélizien<s n="n"/></l><r>Bèlizien<s n="n"/></r></p></e>
+<e><p><l>Béninois<s n="n"/></l><r>Bèninouès<s n="n"/></r></p></e>
+<e><p><l>Bermudien<s n="n"/></l><r>Bèrmudien<s n="n"/></r></p></e>
+<e><p><l>Bhoutanais<s n="n"/></l><r>Bhoutanês<s n="n"/></r></p></e>
+<e><p><l>Bolivien<s n="n"/></l><r>Bolivien<s n="n"/></r></p></e>
+<e><p><l>Botswanais<s n="n"/></l><r>Botsouanês<s n="n"/></r></p></e>
+<e><p><l>Canadien<s n="n"/></l><r>Canadien<s n="n"/></r></p></e>
+<e><p><l>Carême<s n="n"/><s n="m"/></l><r>Carêma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>Chilien<s n="n"/></l><r>Chilien<s n="n"/></r></p></e>
+<e><p><l>Chypriote<s n="n"/></l><r>Chiprioto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>Colombien<s n="n"/></l><r>Colombien<s n="n"/></r></p></e>
+<e><p><l>Comorien<s n="n"/></l><r>Comorien<s n="n"/></r></p></e>
+<e><p><l>Congolais<s n="n"/></l><r>Congolês<s n="n"/></r></p></e>
+<e><p><l>Costaricien<s n="n"/></l><r>Costariquen<s n="n"/></r></p></e>
+<e><p><l>Cubain<s n="n"/></l><r>Cuben<s n="n"/></r></p></e>
+<e><p><l>Djiboutien<s n="n"/></l><r>Djiboutien<s n="n"/></r></p></e>
+<e><p><l>Dominiquais<s n="n"/></l><r>Dominiquês<s n="n"/></r></p></e>
+<e><p><l>Équatorien<s n="n"/></l><r>Èquatorien<s n="n"/></r></p></e>
+<e><p><l>Érythréen<s n="n"/></l><r>Èritrèen<s n="n"/></r></p></e>
+<e><p><l>Fidjien<s n="n"/></l><r>Fidjien<s n="n"/></r></p></e>
+<e><p><l>fribourgeois<s n="n"/></l><r>friborgês<s n="n"/></r></p></e>
+<e><p><l>Gabonais<s n="n"/></l><r>Gabonês<s n="n"/></r></p></e>
+<e><p><l>Gambien<s n="n"/></l><r>Gambien<s n="n"/></r></p></e>
+<e><p><l>Ghanéen<s n="n"/></l><r>Ghanèen<s n="n"/></r></p></e>
+<e><p><l>Guadeloupéen<s n="n"/></l><r>Goadeloupèen<s n="n"/></r></p></e>
+<e><p><l>Guatémaltèque<s n="n"/></l><r>Goatèmaltèco<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>Guinéen<s n="n"/></l><r>Guinèen<s n="n"/></r></p></e>
+<e><p><l>Guyanais<s n="n"/></l><r>Guiyanês<s n="n"/></r></p></e>
+<e><p><l>Haïtien<s n="n"/></l><r>Hayicien<s n="n"/></r></p></e>
+<e><p><l>Hondurien<s n="n"/></l><r>Hondurien<s n="n"/></r></p></e>
+<e><p><l>Indien<s n="n"/></l><r>Indien<s n="n"/></r></p></e>
+<e><p><l>Iranien<s n="n"/></l><r>Iranien<s n="n"/></r></p></e>
+<e><p><l>Israélien<s n="n"/></l><r>Israèlien<s n="n"/></r></p></e>
+<e><p><l>Israélite<s n="n"/></l><r>Israèlito<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>Jamaïcain<s n="n"/></l><r>Jamayiquen<s n="n"/></r></p></e>
+<e><p><l>Jordanien<s n="n"/></l><r>Jordanien<s n="n"/></r></p></e>
+<e><p><l>Kenyan<s n="n"/></l><r>Kenyan<s n="n"/></r></p></e>
+<e><p><l>Koweïtien<s n="n"/></l><r>Kowêtien<s n="n"/></r></p></e>
+<e><p><l>Libérien<s n="n"/></l><r>Libèrien<s n="n"/></r></p></e>
+<e><p><l>Libyen<s n="n"/></l><r>Libien<s n="n"/></r></p></e>
+<e><p><l>Maldivien<s n="n"/></l><r>Maldivien<s n="n"/></r></p></e>
+<e><p><l>Malien<s n="n"/></l><r>Malien<s n="n"/></r></p></e>
+<e><p><l>Marocain<s n="n"/></l><r>Maroquen<s n="n"/></r></p></e>
+<e><p><l>Martiniquais<s n="n"/></l><r>Martiniquês<s n="n"/></r></p></e>
+<e><p><l>Mauricien<s n="n"/></l><r>Môricien<s n="n"/></r></p></e>
+<e><p><l>Mauritanien<s n="n"/></l><r>Môritanien<s n="n"/></r></p></e>
+<e><p><l>Mexicain<s n="n"/></l><r>Mèxiquen<s n="n"/></r></p></e>
+<e><p><l>Micronésien<s n="n"/></l><r>Micronèsien<s n="n"/></r></p></e>
+<e><p><l>Mozambicain<s n="n"/></l><r>Mozambiquês<s n="n"/></r></p><par n="GD_ox"/></e>
+<e><p><l>Namibien<s n="n"/></l><r>Namibien<s n="n"/></r></p></e>
+<e><p><l>Nigérien<s n="n"/></l><r>Nigèrien<s n="n"/></r></p></e>
+<e><p><l>Nigérian<s n="n"/></l><r>Nigèrian<s n="n"/></r></p></e>
+<e><p><l>Omanais<s n="n"/></l><r>Omanês<s n="n"/></r></p></e>
+<e><p><l>Ougandais<s n="n"/></l><r>Ougandês<s n="n"/></r></p></e>
+<e><p><l>Pakistanais<s n="n"/></l><r>Pakistanês<s n="n"/></r></p></e>
+<e><p><l>Palestinien<s n="n"/></l><r>Palèstinien<s n="n"/></r></p></e>
+<e><p><l>Panaméen<s n="n"/></l><r>Panamèen<s n="n"/></r></p></e>
+<e><p><l>blesser<s n="vblex"/></l><r>blèssiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>blesser<s n="vblex"/></l><r>ferir<s n="vblex"/></r></p></e>
+<e><p><l>risquer<s n="vblex"/></l><r>riscar<s n="vblex"/></r></p></e>
+<e><p><l>crever<s n="vblex"/></l><r>crevar<s n="vblex"/></r></p></e>
+<e><p><l>rassembler<s n="vblex"/></l><r>rassemblar<s n="vblex"/></r></p></e>
+<e><p><l>présenter<s n="vblex"/></l><r>presentar<s n="vblex"/></r></p></e>
+<e><p><l>gouverner<s n="vblex"/></l><r>govèrnar<s n="vblex"/></r></p></e>
+<e><p><l>placer<s n="vblex"/></l><r>placiér<s n="vblex"/></r></p></e>
+<e><p><l>bourgeoisie<s n="n"/><s n="f"/></l><r>borgèsie<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

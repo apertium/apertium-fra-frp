@@ -837,13 +837,19 @@
     <match lemma="bocon" tags="n.*"><select lemma="bouchée"/></match>
   </rule>
 
-  <!-- ciba >> cible, but -->
+  <!-- cibar/chiba >> cible, but -->
   <rule weight="0.8">
-    <match lemma="ciba" tags="n.*"><select lemma="cible"/></match>
+    <or>
+      <match lemma="ciba" tags="n.*"><select lemma="cible"/></match>
+      <match lemma="chiba" tags="n.*"><select lemma="cible"/></match>
+    </or>
   </rule>
   <rule weight="1.0">
     <or><match tags="num.*"/><match tags="num"/></or>
-    <match lemma="ciba" tags="n.*"><select lemma="but"/></match>
+    <or>
+      <match lemma="ciba" tags="n.*"><select lemma="but"/></match>
+      <match lemma="chiba" tags="n.*"><select lemma="but"/></match>
+    </or>
   </rule>
 
   <!-- corsâjo >> chemisier, corsage -->
