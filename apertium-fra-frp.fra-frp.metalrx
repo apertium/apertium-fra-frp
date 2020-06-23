@@ -600,6 +600,14 @@
     <match lemma="scolaire" tags="adj.*"/>
   </rule>
 
+  <!-- bar, café >> taverna, cabarèt -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="bar" tags="n.*"><select lemma="taverna"/></match>
+      <match lemma="café" tags="n.*"><select lemma="taverna"/></match>
+    </or>
+  </rule>
+
   <!-- but >> ciba, toche, but -->
   <rule weight="0.8">
     <match lemma="but" tags="n.*"><select lemma="ciba"/></match>
@@ -658,7 +666,7 @@
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
   </rule>
 
-  <!-- essence >> èssence, benzina, gasolina -->
+  <!-- essence >> èssence, benzina, gasolena -->
   <rule weight="0.8">
     <match lemma="essence" tags="n.*"><select lemma="èssence"/></match>
   </rule>
@@ -1669,12 +1677,13 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="noms_propres" p1="Jean" p2="Jian" />
-  <macro name="noms_propres" p1="François" p2="Françouès" />
   <macro name="noms_propres" p1="Charles" p2="Charlo" />
-  <macro name="noms_propres" p1="Philippe" p2="Filipo" />
   <macro name="noms_propres" p1="Édouard" p2="Èdouard" />
+  <macro name="noms_propres" p1="François" p2="Françouès" />
   <macro name="noms_propres" p1="Jacques" p2="Jâque" />
+  <macro name="noms_propres" p1="Jean" p2="Jian" />
+  <macro name="noms_propres" p1="Joseph" p2="Josèf" />
+  <macro name="noms_propres" p1="Philippe" p2="Filipo" />
 
 <!--
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
@@ -1704,7 +1713,6 @@
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
   <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
-  <macro name="noms_propres" p1="Joseph" p2="Josep" />
   <macro name="noms_propres" p1="Jules" p2="Juli" />
   <macro name="noms_propres" p1="Luc" p2="Lluc" />
   <macro name="noms_propres" p1="Aliénor" p2="Elionor" />

@@ -431,6 +431,7 @@
   </def-macros>
 
   <def-seqs>
+<!--
     <def-seq n="matériel">
        <match lemma="coton" tags="n.*"/>
        <match lemma="laine" tags="n.*"/>
@@ -469,6 +470,7 @@
        <match lemma="plâtre" tags="n.*"/>
        <match lemma="gypse" tags="n.*"/>
     </def-seq>
+-->
 
     <def-seq n="personne">
       <match lemma="pape" tags="n.*"/>
@@ -615,6 +617,7 @@
       <match lemma="belle-sœur" tags="n.*"/>
     </def-seq>
 
+<!--
     <def-seq n="bétail">
       <match lemma="poulet" tags="n.*"/>
       <match lemma="poussin" tags="n.*"/>
@@ -633,8 +636,41 @@
       <match lemma="cheval" tags="n.*"/>
       <match lemma="jument" tags="n.*"/>
       <match lemma="poulain" tags="n.*"/>
-      <match lemma="àne" tags="n.*"/>
+      <match lemma="âne" tags="n.*"/>
       <match lemma="bétail" tags="n.*"/>
+    </def-seq>
+-->
+
+    <def-seq n="temps">
+      <match lemma="segon" tags="n.*"/>
+      <match lemma="minut" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="dia" tags="n.*"/>
+      <match lemma="setmana" tags="n.*"/>
+      <match lemma="mes" tags="n.*"/>
+      <match lemma="any" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
+      <match lemma="segle" tags="n.*"/>
+      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="dilluns" tags="n.*"/>
+      <match lemma="dimarts" tags="n.*"/>
+      <match lemma="dimecres" tags="n.*"/>
+      <match lemma="dijous" tags="n.*"/>
+      <match lemma="divendres" tags="n.*"/>
+      <match lemma="dissabte" tags="n.*"/>
+      <match lemma="diumenge" tags="n.*"/>
+      <match lemma="gener" tags="n.*"/>
+      <match lemma="febrer" tags="n.*"/>
+      <match lemma="març" tags="n.*"/>
+      <match lemma="abril" tags="n.*"/>
+      <match lemma="maig" tags="n.*"/>
+      <match lemma="juny" tags="n.*"/>
+      <match lemma="juliol" tags="n.*"/>
+      <match lemma="agost" tags="n.*"/>
+      <match lemma="setembre" tags="n.*"/>
+      <match lemma="octubre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="desembre" tags="n.*"/>
     </def-seq>
 
     <def-seq n="adj_ord">
@@ -837,6 +873,11 @@
     <match lemma="bocon" tags="n.*"><select lemma="bouchée"/></match>
   </rule>
 
+  <!-- cabarèt >> café, cabaret -->
+  <rule weight="0.8">
+    <match lemma="cabarèt" tags="n.*"><select lemma="café"/></match>
+  </rule>
+
   <!-- cibar/chiba >> cible, but -->
   <rule weight="0.8">
     <or>
@@ -849,6 +890,34 @@
     <or>
       <match lemma="ciba" tags="n.*"><select lemma="but"/></match>
       <match lemma="chiba" tags="n.*"><select lemma="but"/></match>
+    </or>
+  </rule>
+
+  <!-- côp > coup, fois -->
+  <rule weight="0.6">
+    <match lemma="côp" tags="n.*"><select lemma="fois"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="côp" tags="n.*"><select lemma="coup"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="côp" tags="n.*"><select lemma="coup"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="côp" tags="n.*"><select lemma="coup"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="côp" tags="n.*"><select lemma="fois"/></match>
+    <match lemma="a" tags="pr"/>
+    <match tags="det.def.*"/>
+    <or>
+      <seq n="temps"/>
     </or>
   </rule>
 
@@ -1092,13 +1161,14 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="noms_propres" p1="Jian" p2="Jean" />
-  <macro name="noms_propres" p1="Françouès" p2="François" />
   <macro name="noms_propres" p1="Charlo" p2="Charles" />
-  <macro name="noms_propres" p1="Filipo" p2="Philippe" />
   <macro name="noms_propres" p1="Èdouard" p2="Édouard" />
-  <macro name="noms_propres" p1="Jâque" p2="Jacques" />
+  <macro name="noms_propres" p1="Filipo" p2="Philippe" />
+  <macro name="noms_propres" p1="Françouès" p2="François" />
   <macro name="noms_propres" p1="Hanri" p2="Henri" />
+  <macro name="noms_propres" p1="Jâque" p2="Jacques" />
+  <macro name="noms_propres" p1="Jian" p2="Jean" />
+  <macro name="noms_propres" p1="Josèf" p2="Joseph" />
 
 <!--
   <macro name="noms_propres" p1="Guifred" p2="Guifré" />
@@ -1128,7 +1198,6 @@
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
   <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
-  <macro name="noms_propres" p1="Joseph" p2="Josep" />
   <macro name="noms_propres" p1="Jules" p2="Juli" />
   <macro name="noms_propres" p1="Luc" p2="Lluc" />
   <macro name="noms_propres" p1="Aliénor" p2="Elionor" />
