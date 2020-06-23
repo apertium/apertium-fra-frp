@@ -976,6 +976,11 @@
     </or>
   </rule>
 
+  <!-- politico n.f. >> politique n.f., politique n.mf., politicien -->
+  <rule weight="0.8">
+    <match lemma="politico" tags="n.f.*"><select lemma="politique" tags="n.f.*"/></match>
+  </rule>
+
   <!-- premiér >> premier, aîné -->
   <rule weight="0.8">
     <match lemma="premiér" tags="n.*"><select lemma="premier"/></match>

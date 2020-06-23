@@ -5944,7 +5944,9 @@
 <e><p><l>poésie<s n="n"/><s n="f"/></l><r>poèsia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>poitrine<s n="n"/><s n="f"/></l><r>pouetrena<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>polenta<s n="n"/><s n="f"/></l><r>polenta<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>politique<s n="n"/><s n="f"/></l><r>politica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>politique<s n="n"/><s n="f"/></l><r>politico<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>politique<s n="n"/><s n="m"/></l><r>politico<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>politicien<s n="n"/></l><r>politico<s n="n"/></r></p><par n="mf_mf"/></e>
 <e><p><l>polka<s n="n"/><s n="f"/></l><r>polka<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pollution<s n="n"/><s n="f"/></l><r>polucion<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>porte<s n="n"/><s n="f"/></l><r>pôrta<s n="n"/><s n="f"/></r></p></e>
@@ -7629,7 +7631,7 @@
 <e><p><l>terreur<s n="n"/><s n="f"/></l><r>tèrror<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>vapeur<s n="n"/><s n="f"/></l><r>vapor<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>vigueur<s n="n"/><s n="f"/></l><r>vigor<s n="n"/><s n="f"/></r></p></e>
-<e a="corpus"><p><l>résilience<s n="n"/><s n="f"/></l><r>rèsilience<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="corpus"><p><l>résilience<s n="n"/><s n="f"/></l><r>rèsilience<s n="n"/><s n="f"/></r></p></e>
 <e a="corpus"><p><l>complexité<s n="n"/><s n="f"/></l><r>complèxitât<s n="n"/><s n="f"/></r></p></e>
 <e a="corpus"><p><l>néolithique<s n="n"/><s n="m"/></l><r>nèolitico<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>rouge<s n="adj"/></l><r>rojo<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -9847,7 +9849,8 @@
 <e a="alanfavre"><p><l>systématiquement<s n="adv"/></l><r>de<b/>façon<b/>sistèmatica<s n="adv"/></r></p></e>
 <e r="LR" a="alanfavre"><p><l>abonder<s n="vblex"/></l><r>apondre<s n="vblex"/></r></p></e>
 <e r="RL" a="alanfavre"><p><l>acquérir<s n="vblex"/></l><r>aquérir<s n="vblex"/></r></p></e>
-<e r="LR" a="alanfavre"><p><l>adhérer<s n="vblex"/></l><r>enscrire<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>adhérer<s n="vblex"/></l><r>enscrire<s n="vblex"/></r></p></e>	<!-- VERIFY -->
+<e r="LR" a="alanfavre"><p><l>adhérer<s n="vblex"/></l><r>agllètar<s n="vblex"/></r></p></e>	<!-- +pron -->
 <e a="alanfavre"><p><l>allier<s n="vblex"/></l><r>alyér<s n="vblex"/></r></p></e>
 <e a="alanfavre"><p><l>alterner<s n="vblex"/></l><r>altèrnar<s n="vblex"/></r></p></e>
 <e a="alanfavre"><p><l>brutaliser<s n="vblex"/></l><r>borriôdar<s n="vblex"/></r></p></e>
@@ -9936,6 +9939,11 @@
 <e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>tochiér<s n="vblex"/></r></p></e>
 <e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>atribuar<s n="vblex"/></r></p></e>
 <e r="LR" a="alanfavre"><p><l>affecter<s n="vblex"/></l><r>fâre<g><b/>sembllant</g><s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>initier<s n="vblex"/></l><r>comenciér<s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>initier<s n="vblex"/></l><r>iniciér<s n="vblex"/></r></p></e>
+<e a="hector"><p><l>affronter<s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>faire<g><b/>face<b/>à</g><s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>faire<g><b/>face</g><s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
 
 <e a="alanfavre"><p><l>abstrait<s n="adj"/></l><r>abstrèt<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>acceptable<s n="adj"/></l><r>accèptâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -9999,7 +10007,8 @@
 <e a="alanfavre"><p><l>incontrôlable<s n="adj"/></l><r>encontrolâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="alanfavre"><p><l>inepte<s n="adj"/></l><r>stupido<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="alanfavre"><p><l>informel<s n="adj"/></l><r>enformèl<s n="adj"/></r></p></e>
-<e a="alanfavre"><p><l>infrarouge<s n="adj"/></l><r>enfraroge<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>infra-rouge<s n="adj"/></l><r>enfraroge<s n="adj"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>infrarouge<s n="adj"/></l><r>enfraroge<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>initial<s n="adj"/></l><r>inicial<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>institutionnel<s n="adj"/></l><r>enstitucionèl<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>insurmontable<s n="adj"/></l><r>ensurmontâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -10038,7 +10047,7 @@
 <e a="alanfavre"><p><l>productif<s n="adj"/></l><r>productif<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>progressif<s n="adj"/></l><r>progrèssif<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>protectionniste<s n="adj"/></l><r>protèccionisto<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e a="alanfavre"><p><l>publicitaire<s n="adj"/><s n="mf"/></l><r>de<b/>recllâma<s n="mf"/><s n="adj"/></r></p><par n="ND_sp"/></e>
+<e a="alanfavre"><p><l>publicitaire<s n="adj"/><s n="mf"/></l><r>de<b/>recllâma<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e a="alanfavre"><p><l>punissable<s n="adj"/></l><r>punissâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="alanfavre"><p><l>radieux<s n="adj"/></l><r>radiox<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>récidiviste<s n="adj"/></l><r>rècidivisto<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -10051,12 +10060,235 @@
 <e a="alanfavre"><p><l>symbolique<s n="adj"/></l><r>sembolico<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="alanfavre"><p><l>sympathique<s n="adj"/></l><r>sempatico<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="alanfavre"><p><l>systématique<s n="adj"/></l><r>sistèmatico<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e a="alanfavre"><p><l>thérapeutique<s n="adj"/><s n="mf"/></l><r>de<b/>cura<s n="mf"/><s n="adj"/></r></p><par n="ND_sp"/></e>
+<e a="alanfavre"><p><l>thérapeutique<s n="adj"/><s n="mf"/></l><r>de<b/>cura<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e a="alanfavre"><p><l>tolérant<s n="adj"/></l><r>tolèrant<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>transformateur<s n="adj"/></l><r>transformator<s n="adj"/></r></p></e>
-<e a="alanfavre"><p><l>ultraviolet<s n="adj"/></l><r>ultraviolèt<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>ultra-violet<s n="adj"/></l><r>ultraviolèt<s n="adj"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>ultraviolet<s n="adj"/></l><r>ultraviolèt<s n="adj"/></r></p></e>
 <e a="alanfavre"><p><l>univoque<s n="adj"/></l><r>univoco<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>paroissial<s n="adj"/><s n="mf"/></l><r>de<b/>la<b/>paroche<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="LR" a="alanfavre"><p><l>simultané<s n="adj"/></l><r>de<b/>mémo<b/>temps<s n="adj"/><s n="mf"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e a="hector"><p><l>énergique<s n="adj"/></l><r>ènèrgico<s n="adj"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>musclé<s n="adj"/></l><r>ènèrgico<s n="adj"/></r></p></e>
+<e a="alanfavre"><p><l>musclé<s n="adj"/></l><r>musclâ<s n="adj"/></r></p></e>
 
+<e a="alanfavre"><p><l>abstraction<s n="n"/><s n="f"/></l><r>abstraccion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>acquisition<s n="n"/><s n="f"/></l><r>aquisicion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>accusateur<s n="n"/></l><r>acusator<s n="n"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>accusation<s n="n"/><s n="f"/></l><r>acusacion<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>adéquation<s n="n"/><s n="f"/></l><r>corrèspondance<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>adhérent<s n="n"/></l><r>membro<s n="n"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>adhésion<s n="n"/><s n="f"/></l><r>enscripcion<s n="n"/><s n="f"/></r></p></e> <!-- VERIFY -->
+<e a="alanfavre"><p><l>adjoint<s n="n"/></l><r>adjuent<s n="n"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>affectation<s n="n"/><s n="f"/></l><r>atribucion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>affichage<s n="n"/><s n="m"/></l><r>afichâjo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>affirmation<s n="n"/><s n="f"/></l><r>afirmacion<s n="n"/><s n="f"/></r></p></e>
+<e i="yes" a="alanfavre"><p><l>agrément<s n="n"/><s n="m"/></l><r>aprovacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>agroalimentaire<s n="n"/><s n="m"/></l><r>agroalimentèro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>allègement<s n="n"/><s n="m"/></l><r>alègement<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>alliage<s n="n"/><s n="m"/></l><r>aliâjo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>antenne<s n="n"/><s n="f"/></l><r>antèna<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>applaudissement<s n="n"/><s n="m"/></l><r>aplôdissement<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>apport<s n="n"/><s n="m"/></l><r>apôrt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>athlète<s n="n"/></l><r>atlèto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>avancée<s n="n"/><s n="f"/></l><r>avanciê<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>bénévolat<s n="n"/><s n="m"/></l><r>volontariât<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>bénévole<s n="n"/></l><r>volontèro<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>brute<s n="n"/><s n="f"/></l><r>borriô<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>budget<s n="n"/><s n="m"/></l><r>budgèt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>célébration<s n="n"/><s n="f"/></l><r>cèlèbracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>cessez-le-feu<s n="n"/><s n="m"/></l><r>cèssâd-lo-fuè<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e a="alanfavre"><p><l>chiot<s n="n"/><s n="m"/></l><r>chenèt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>chroniqueur<s n="n"/></l><r>cronicor<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>collectif<s n="n"/><s n="m"/></l><r>colèctif<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>collection<s n="n"/><s n="f"/></l><r>colèccion<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>complice<s n="n"/></l><r>compliço<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>complicité<s n="n"/><s n="f"/></l><r>complicitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>concept<s n="n"/><s n="m"/></l><r>concèpt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>conception<s n="n"/><s n="f"/></l><r>concèpcion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>conceptualisation<s n="n"/><s n="f"/></l><r>concèptualisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>concrétisation<s n="n"/><s n="f"/></l><r>concrètisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>contraction<s n="n"/><s n="f"/></l><r>contraccion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>coopérateur<s n="n"/></l><r>coopèrator<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>coopération<s n="n"/><s n="f"/></l><r>coopèracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>coopérative<s n="n"/><s n="f"/></l><r>coopèrativa<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>corrupteur<s n="n"/></l><r>corruptor<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>corruption<s n="n"/><s n="f"/></l><r>corrupcion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>cristallisation<s n="n"/><s n="f"/></l><r>cristalisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>critère<s n="n"/><s n="m"/></l><r>critèro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>déclamation<s n="n"/><s n="f"/></l><r>dècllamacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>déclencheur<s n="n"/><s n="m"/></l><r>dècllenchior<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>déconfiture<s n="n"/><s n="f"/></l><r>cacalye<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>décontraction<s n="n"/><s n="f"/></l><r>dècontraccion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>décroissance<s n="n"/><s n="f"/></l><r>dècrèssua<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>dédicace<s n="n"/><s n="f"/></l><r>dèdicace<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>défi<s n="n"/><s n="m"/></l><r>dèfi<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>défiance<s n="n"/><s n="f"/></l><r>dèfiance<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>démocrate<s n="n"/></l><r>dèmocrato<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>démocratisation<s n="n"/><s n="f"/></l><r>dèmocratisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>démondialisation<s n="n"/><s n="f"/></l><r>dèmondialisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>dépaysement<s n="n"/><s n="m"/></l><r>dèpaysament<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>dépolitisation<s n="n"/><s n="f"/></l><r>dèpolitisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>désinvestissement<s n="n"/><s n="m"/></l><r>dèsenvèstissement<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>discipline<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>disculpation<s n="n"/><s n="f"/></l><r>dègravacion<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>dissension<s n="n"/><s n="f"/></l><r>dèsacôrd<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>dissident<s n="n"/></l><r>dissident<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>dossier<s n="n"/><s n="m"/></l><r>dossiér<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>dynamique<s n="n"/><s n="f"/></l><r>dinamica<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>effectif<s n="n"/><s n="m"/></l><r>nombro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>émancipation<s n="n"/><s n="f"/></l><r>èmancipacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>embrasement<s n="n"/><s n="m"/></l><r>enfarament<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>émigrant<s n="n"/></l><r>èmigrant<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>enfermement<s n="n"/><s n="m"/></l><r>dètencion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>entourage<s n="n"/><s n="m"/></l><r>entorâjo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>entrisme<s n="n"/><s n="m"/></l><r>entrismo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>environnement<s n="n"/><s n="m"/></l><r>environament<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>environnementaliste<s n="n"/></l><r>environamentalisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>épidémiologie<s n="n"/><s n="f"/></l><r>èpidèmiologia<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>épidémiologiste<s n="n"/></l><r>èpidèmiologisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>épiscopat<s n="n"/><s n="m"/></l><r>èpiscopat<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>équation<s n="n"/><s n="f"/></l><r>ècouacion<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>équipée<s n="n"/><s n="f"/></l><r>aventura<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>esquif<s n="n"/><s n="m"/></l><r>barquèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>essence<s n="n"/><s n="f"/></l><r>benzina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>essence<s n="n"/><s n="f"/></l><r>èssence<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>essence<s n="n"/><s n="f"/></l><r>gasolina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gasoline<s n="n"/><s n="f"/></l><r>gasolina<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>estimation<s n="n"/><s n="f"/></l><r>èstimacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>étiquetage<s n="n"/><s n="m"/></l><r>ètiquetâjo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>évaluation<s n="n"/><s n="f"/></l><r>èvaluacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>exigibilité<s n="n"/><s n="f"/></l><r>ègzigibilitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>extorsion<s n="n"/><s n="f"/></l><r>èxtorsion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>favoritisme<s n="n"/><s n="m"/></l><r>èpargnêson<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>filière<s n="n"/><s n="f"/></l><r>felyére<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>formalisation<s n="n"/><s n="f"/></l><r>formalisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>forum<s n="n"/><s n="m"/></l><r>foron<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>fracturation<s n="n"/><s n="f"/></l><r>fracturacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>frappe<s n="n"/><s n="f"/></l><r>ataca<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>frondeur<s n="n"/></l><r>frondor<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>galaxie<s n="n"/><s n="f"/></l><r>galaxia<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>galvanisation<s n="n"/><s n="f"/></l><r>galvanisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>géopolitique<s n="n"/><s n="f"/></l><r>gèopolitica<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>grief<s n="n"/><s n="m"/></l><r>reprôcho<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>historique<s n="n"/><s n="m"/></l><r>historico<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>indemnité<s n="n"/><s n="f"/></l><r>endènitât<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>indemnisation<s n="n"/><s n="f"/></l><r>dèdamagement<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>illégalité<s n="n"/><s n="f"/></l><r>ilègalitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>immersion<s n="n"/><s n="f"/></l><r>plongiê<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>immigrant<s n="n"/></l><r>imigrant<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>immigration<s n="n"/><s n="f"/></l><r>imigracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>immunité<s n="n"/><s n="f"/></l><r>imunitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>impératif<s n="n"/><s n="m"/></l><r>empèratif<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>implication<s n="n"/><s n="f"/></l><r>emplicacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>infra-rouge<s n="n"/><s n="m"/></l><r>enfraroge<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>infrarouge<s n="n"/><s n="m"/></l><r>enfraroge<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>initiale<s n="n"/><s n="f"/></l><r>iniciala<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>initiation<s n="n"/><s n="f"/></l><r>iniciacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>initié<s n="n"/></l><r>iniciê<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="LR" a="alanfavre"><p><l>instauration<s n="n"/><s n="f"/></l><r>mêsa<g><b/>en<b/>place</g><s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>interne<s n="n"/></l><r>entèrno<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>interposition<s n="n"/><s n="f"/></l><r>enterposicion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>intransigeance<s n="n"/><s n="f"/></l><r>entransigence<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>investissement<s n="n"/><s n="m"/></l><r>envèstissement<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>investisseur<s n="n"/></l><r>envèstissor<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>islamisation<s n="n"/><s n="f"/></l><r>islamisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>islamiste<s n="n"/></l><r>islamisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>isolation<s n="n"/><s n="f"/></l><r>isolacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>isolement<s n="n"/><s n="m"/></l><r>isolament<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>légalité<s n="n"/><s n="f"/></l><r>lègalitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>légalisme<s n="n"/><s n="m"/></l><r>lègalismo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>légaliste<s n="n"/></l><r>légalisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>lycée<s n="n"/><s n="m"/></l><r>licê<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>lycéen<s n="n"/></l><r>licêen<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>maximum<s n="n"/><s n="m"/></l><r>maximon<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>mesquinerie<s n="n"/><s n="f"/></l><r>mèsquinerie<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>métro<s n="n"/><s n="m"/></l><r>mètrô<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>métropole<s n="n"/><s n="f"/></l><r>mètropola<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>migrant<s n="n"/></l><r>migrant<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>migration<s n="n"/><s n="f"/></l><r>migracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>minimum<s n="n"/><s n="m"/></l><r>minimon<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>mondialisme<s n="n"/><s n="m"/></l><r>mondialismo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>mondialiste<s n="n"/></l><r>mondialisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR" a="alanfavre"><p><l>moratoire<s n="n"/><s n="m"/></l><r>suspension<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>multiplication<s n="n"/><s n="f"/></l><r>multiplicacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>objectif<s n="n"/><s n="m"/></l><r>objèctif<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>objectivité<s n="n"/><s n="f"/></l><r>objèctivitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>obtention<s n="n"/><s n="f"/></l><r>obtencion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>optimisation<s n="n"/><s n="f"/></l><r>optimisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>orchestre<s n="n"/><s n="m"/></l><r>orquèstro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>paraphe<s n="n"/><s n="m"/></l><r>parafa<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>paradoxe<s n="n"/><s n="m"/></l><r>paradoxo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>paramètre<s n="n"/><s n="m"/></l><r>paramètro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>performance<s n="n"/><s n="f"/></l><r>pèrformance<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>perpétuation<s n="n"/><s n="f"/></l><r>pèrpètuacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>perspective<s n="n"/><s n="f"/></l><r>pèrspèctiva<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>podcast<s n="n"/><s n="m"/></l><r>podcasto<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>politisation<s n="n"/><s n="f"/></l><r>politisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>préliminaire<s n="n"/><s n="m"/></l><r>prèliminèro<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>présentation<s n="n"/><s n="f"/></l><r>presentacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>préservation<s n="n"/><s n="f"/></l><r>prèsèrvacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>présomption<s n="n"/><s n="f"/></l><r>prèsompcion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>prévention<s n="n"/><s n="f"/></l><r>prèvencion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>priorité<s n="n"/><s n="f"/></l><r>prioritât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>producteur<s n="n"/></l><r>productor<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>productivité<s n="n"/><s n="f"/></l><r>productivitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>progression<s n="n"/><s n="f"/></l><r>progrèssion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>prolétariat<s n="n"/><s n="m"/></l><r>prolètariat<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>protectionnisme<s n="n"/><s n="m"/></l><r>protèccionismo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>protectionniste<s n="n"/></l><r>protèccionisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>radicalisation<s n="n"/><s n="f"/></l><r>radicalisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>rayonnement<s n="n"/><s n="m"/></l><r>rayonament<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>rebond<s n="n"/><s n="m"/></l><r>ressôt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>récession<s n="n"/><s n="f"/></l><r>rècèssion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>récidive<s n="n"/><s n="f"/></l><r>rècidiva<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>récidiviste<s n="n"/></l><r>rècidivisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="alanfavre"><p><l>référence<s n="n"/><s n="f"/></l><r>rèfèrence<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>référent<s n="n"/><s n="m"/></l><r>rèfèrent<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>régression<s n="n"/><s n="f"/></l><r>règrèssion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>relais<s n="n"/><s n="m"/></l><r>relê<s n="n"/><s n="f"/></r></p><par n="sp_ND"/></e>
+<e a="alanfavre"><p><l>relégation<s n="n"/><s n="f"/></l><r>relègacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>réouverture<s n="n"/><s n="f"/></l><r>rèuvèrtura<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>résignation<s n="n"/><s n="f"/></l><r>rèsegnacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>résilience<s n="n"/><s n="f"/></l><r>rèsilyence<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>ressortissant<s n="n"/></l><r>citoyen<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>restructuration<s n="n"/><s n="f"/></l><r>restructuracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>sanction<s n="n"/><s n="f"/></l><r>sanccion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>sexualité<s n="n"/><s n="f"/></l><r>sèxualitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>simulation<s n="n"/><s n="f"/></l><r>simulacion<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>soulèvement<s n="n"/><s n="m"/></l><r>ensurrèccion<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>stockage<s n="n"/><s n="m"/></l><r>dèpôt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>stratégie<s n="n"/><s n="f"/></l><r>stratègia<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>structuration<s n="n"/><s n="f"/></l><r>structuracion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>subjectivité<s n="n"/><s n="f"/></l><r>subjèctivitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>surestimation<s n="n"/><s n="f"/></l><r>surèstimacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>symbole<s n="n"/><s n="m"/></l><r>sembolo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>sympathie<s n="n"/><s n="f"/></l><r>sempatia<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>tentative<s n="n"/><s n="f"/></l><r>tentativa<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>thérapie<s n="n"/><s n="f"/></l><r>cura<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>transgression<s n="n"/><s n="f"/></l><r>transgrèssion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>tremplin<s n="n"/><s n="m"/></l><r>trampllen<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>trésorerie<s n="n"/><s n="f"/></l><r>trèsoria<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>ultra-violet<s n="n"/><s n="m"/></l><r>ultraviolèt<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>ultraviolet<s n="n"/><s n="m"/></l><r>ultraviolèt<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>uniformisation<s n="n"/><s n="f"/></l><r>uniformisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>uranium<s n="n"/><s n="m"/></l><r>uranion<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>variabilité<s n="n"/><s n="f"/></l><r>variabilitât<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>magouilleur<s n="n"/></l><r>terior<g><b/>de<b/>plans</g><s n="n"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>putsch<s n="n"/><s n="m"/></l><r>côp<g><b/>d'ètat</g><s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>coup<g><b/>d'État</g><s n="n"/><s n="m"/></l><r>côp<g><b/>d'ètat</g><s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>encours<s n="n"/><s n="m"/></l><r>encôrs<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>prospectus<s n="n"/><s n="m"/></l><r>prospèctus<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>panacée<s n="n"/><s n="f"/></l><r>remédio<b/>merâcllo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>porte-parole<s n="n"/><s n="mf"/></l><r>pôrta-parola<s n="n"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e a="alanfavre"><p><l>fiasco<s n="n"/><s n="m"/></l><r>fiasco<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="alanfavre"><p><l>flop<s n="n"/><s n="m"/></l><r>fiasco<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>transformateur<s n="n"/><s n="m"/></l><r>transformator<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>consulting<s n="n"/><s n="m"/></l><r>consultâjo<s n="n"/><s n="m"/></r></p></e>
+<e a="alanfavre"><p><l>correctionnelle<s n="n"/><s n="f"/></l><r>corrèccionèla<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>contraster<s n="vblex"/></l><r>fâre<g><b/>contrasto</g><s n="vblex"/></r></p></e>
+<e a="alanfavre"><p><l>dédicacer<s n="vblex"/></l><r>dèdicaciér<s n="vblex"/></r></p></e>
+<e><p><l>idée<s n="n"/><s n="f"/></l><r>idê<s n="n"/><s n="f"/></r></p></e>
 
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>

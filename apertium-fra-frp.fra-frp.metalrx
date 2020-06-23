@@ -658,6 +658,87 @@
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
   </rule>
 
+  <!-- essence >> èssence, benzina, gasolina -->
+  <rule weight="0.8">
+    <match lemma="essence" tags="n.*"><select lemma="èssence"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="prendre" tags="vblex.*"/>
+      <match lemma="brûler" tags="vblex.*"/>
+      <match lemma="bruler" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="prendre" tags="vblex.*"/>
+      <match lemma="brûler" tags="vblex.*"/>
+      <match lemma="bruler" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prix" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="litre" tags="n.*"/>
+      <match lemma="réservoir" tags="n.*"/>
+      <match lemma="consommation" tags="n.*"/>
+      <match lemma="bidon" tags="n.*"/>
+      <match lemma="odeur" tags="n.*"/>
+      <match lemma="panne" tags="n.*"/>
+      <match lemma="remise" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+    <match tags="pr"/>
+    <match lemma="plomb" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+    <match lemma="plombé" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="beaucoup de"/>
+      <match lemma="peu de"/>
+    </or>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+    <match tags="cnjcoo"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="diesel" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="diesel" tags="n.*"/>
+    <match tags="cnjcoo"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
+  </rule>
+
   <!-- maturité >> morèson, maturitât -->
   <rule weight="0.8">
     <match lemma="maturité" tags="n.*"><select lemma="morèson"/></match>
@@ -673,6 +754,11 @@
   <rule weight="1.0">
     <match lemma="maturité" tags="n.*"><select lemma="maturitât"/></match>
     <match lemma="gymnasial" tags="adj"/>
+  </rule>
+
+  <!-- objectif >> objèctif, but -->
+  <rule weight="0.8">
+    <match lemma="objectif" tags="n.*"><select lemma="objèctif"/></match>
   </rule>
 
   <!-- pêche >> pêche, pêrche -->
@@ -1366,6 +1452,18 @@
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
   </rule>
 
+  <!-- musclé >> ènèrgico, musclâ -->
+  <rule weight="0.8">
+    <match lemma="musclé" tags="adj.*"><select lemma="ènèrgico"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="musclé" tags="adj.*"><select lemma="musclâ"/></match>
+  </rule>
+
   <!-- propre >> pôpro, prôpro -->
   <rule weight="0.8">
     <match lemma="propre" tags="adj.*"><select lemma="pôpro"/></match>
@@ -1380,6 +1478,22 @@
   </rule>
 
 <!-- **************** V **************** -->
+
+  <!-- adhérer >> s'agllètar, s'enscrire -->
+  <rule weight="0.8">
+    <match lemma="adhérer" tags="vblex.*"><select lemma="agllètar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="adhérer" tags="vblex.*"><select lemma="enscrire"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="association" tags="n.*"/>
+      <match lemma="mouvement" tags="n.*"/>
+      <match lemma="parti" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- affecter >> tochier, atribuar, fâre# sembllant -->
   <rule weight="0.8">
@@ -1475,6 +1589,29 @@
   <!-- impliquer >> emplicar, molyér  -->
   <rule weight="0.8">
     <match lemma="impliquer" tags="vblex.*"><select lemma="emplicar"/></match>
+  </rule>
+
+  <!-- initier >> comenciér, iniciér  -->
+  <rule weight="0.8">
+    <match lemma="initier" tags="vblex.*"><select lemma="comenciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="initier" tags="vblex.*"><select lemma="iniciér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+    <match lemma="initier" tags="vblex.pp.*"><select lemma="iniciér"/></match>
   </rule>
 
   <!-- jouer >> jouyér, menar -->
