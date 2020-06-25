@@ -2136,7 +2136,7 @@
 <e>       <p><l>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Suisse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Belgique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Belgique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Étalie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR" a="Vouiquipèdia"><p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Étalia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Étalia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Italie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Acadie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Acadie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Allemagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Alemagnes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
@@ -6892,7 +6892,7 @@
 <e><p><l>négligent<s n="n"/></l><r>nèglegent<s n="n"/></r></p></e>
 <e><p><l>négociant<s n="n"/></l><r>nègociant<s n="n"/></r></p></e>
 <e><p><l>neuvième<s n="n"/></l><r>nôviémo<s n="n"/></r></p><par n="mf_GD"/></e>
-<e><p><l>nicaraguayen<s n="n"/></l><r>nicaragoayen<s n="n"/></r></p></e>
+<e><p><l>Nicaraguayen<s n="n"/></l><r>Nicaragoayen<s n="n"/></r></p></e>
 <e><p><l>noceur<s n="n"/></l><r>noceyor<s n="n"/></r></p></e>
 <e><p><l>nonantième<s n="n"/></l><r>nonantiémo<s n="n"/></r></p><par n="mf_GD"/></e>
 <e><p><l>norvégien<s n="n"/></l><r>norvègien<s n="n"/></r></p></e>
@@ -11060,7 +11060,112 @@
 <e r="RL"><p><l>Chamonix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chamoniard<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Galilée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Galilê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Sinaï<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sinay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Albertville<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Arbèrtvile<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Antioche<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Antioche<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bourgogne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Borgogne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Gaza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gaza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Loire<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lêre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nazareth<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nazarèt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Michigan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Michigan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Aquitaine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Aquitania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Champagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Champagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Ardennes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Ardenes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Ardenne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ardena<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Corse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Franche-Comté<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Franche-Comtât<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Île-de-France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ila-de-France<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Languedoc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lengouadoc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Roussillon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rosselyon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Limousin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Limosin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Midi-Pyrénées<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mié-jorn-Pirènês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Calais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Calês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Basse-Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bâssa-Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Haute-Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Hôta-Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Nord-Pas-de-Calais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nord-Pâs-de-Calês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Pays<b/>de<b/>la<b/>Loire<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Payis<b/>de<b/>la<b/>Lêre<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Picardie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Pecardie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Poitou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pouètou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Charentes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Charentes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Hauts-de-France<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>D'Amont-de-France<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Guyane<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guiyana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Val<b/>de<b/>Loire<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vâl<b/>de<b/>Lêre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Pas-de-Calais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pâs-de-Calês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Guyane<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guyana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Martinique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Martinique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Belgique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bèlgica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Allemagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Alemagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Hongrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Hongrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Luxembourg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lussembôrg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Tchéquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tchèquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Chypre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cipro<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>Danemark<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Danemârc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bethléem<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bêt-Lèhem<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Corinthe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Corinto<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Cyrène<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cirèna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Forez<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Forêz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Samarie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Samarie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Israël<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Israèl<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Juda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Juda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Euphrate<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ufrata<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tigre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tigre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 
+<e><p><l>drapeau<s n="n"/><s n="m"/></l><r>drapél<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>région<s n="n"/><s n="f"/></l><r>règion<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>midi<s n="n"/><s n="m"/></l><r>mié-jorn<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>midi<s n="n"/><s n="m"/></l><r>mi-jorn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>côte<s n="n"/><s n="f"/></l><r>couta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>arc-boutant<s n="n"/><s n="m"/></l><r>arc-boutent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arc<g>-en-ciel</g><s n="n"/><s n="m"/></l><r>arc-en-cièl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>arpenteur<s n="n"/></l><r>geomètre<s n="n"/></r></p><par n="GD_mf"/></e>
+<e i="yes"><p><l>cale<s n="n"/><s n="f"/></l><r>ecota<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>chiendent<s n="n"/><s n="m"/></l><r>chiendant<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>coteau<s n="n"/><s n="m"/></l><r>couta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>écurie<s n="n"/><s n="f"/></l><r>bouél<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kazakh<s n="n"/></l><r>kazakh<s n="n"/></r></p></e>
+<e r="RL"><p><l>midi<s n="n"/><s n="m"/></l><r>midi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>Parisien<s n="n"/></l><r>Parisien<s n="n"/></r></p></e>
+<e><p><l>Uruguayen<s n="n"/></l><r>Urugoayen<s n="n"/></r></p></e>
+<e><p><l>alaman<s n="adj"/></l><r>alaman<s n="adj"/></r></p></e>
+<e><p><l>aquitain<s n="adj"/></l><r>aquiten<s n="adj"/></r></p></e>
+<e><p><l>athénien<s n="adj"/></l><r>atênien<s n="adj"/></r></p></e>
+<e><p><l>ionien<s n="adj"/></l><r>ionien<s n="adj"/></r></p></e>
+<e><p><l>kazakh<s n="adj"/></l><r>kazakh<s n="adj"/></r></p></e>
+<e><p><l>kirghiz<s n="adj"/></l><r>kirghize<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>parisien<s n="adj"/></l><r>parisien<s n="adj"/></r></p></e>
+<e a="corpus"><p><l>réversible<s n="adj"/></l><r>revèrsiblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="corpus"><p><l>irréversible<s n="adj"/></l><r>irrevèrsiblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>scythe<s n="adj"/></l><r>scito<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>thessalonicien<s n="adj"/></l><r>tèssalonicien<s n="adj"/></r></p></e>
+<e><p><l>unioniste<s n="adj"/></l><r>unionisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>uruguayen<s n="adj"/></l><r>urugoayen<s n="adj"/></r></p></e>
+<e a="hector"><p><l>central<s n="adj"/></l><r>central<s n="adj"/></r></p></e>
+<e><p><l>Alaman<s n="n"/></l><r>Alaman<s n="n"/></r></p></e>
+<e><p><l>Aquitain<s n="n"/></l><r>Aquiten<s n="n"/></r></p></e>
+<e r="LR"><p><l>arc-en-ciel<s n="n"/><s n="m"/></l><r>arc-en-cièl<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>caoutchouc<s n="n"/><s n="m"/></l><r>caoutchou<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>châle<s n="n"/><s n="m"/></l><r>châle<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>corinthien<s n="n"/></l><r>corintien<s n="n"/></r></p></e>
+<e><p><l>Éphésien<s n="n"/></l><r>Èfèsien<s n="n"/></r></p></e>
+<e r="RL"><p><l>chaldéen<s n="adj"/></l><r>caldèen<s n="adj"/></r></p></e>
+<e><p><l>corinthien<s n="adj"/></l><r>corintien<s n="adj"/></r></p></e>
+<e><p><l>éphésien<s n="adj"/></l><r>èfèsien<s n="adj"/></r></p></e>
+<e><p><l>pleurer<s n="vblex"/></l><r>plorar<s n="vblex"/></r></p></e>
+<e><p><l>conquérir<s n="vblex"/></l><r>conquerir<s n="vblex"/></r></p></e>
+<e><p><l>prêtre<s n="n"/><s n="m"/></l><r>prétre<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>prêtre<s n="n"/><s n="f"/></l><r>prétro<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>prêtre<s n="n"/><s n="m"/></l><r>prétro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>prophète<s n="n"/><s n="m"/></l><r>profèto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>prophète<s n="n"/><s n="m"/></l><r>profète<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>haut<s n="adj"/></l><r>hôt<s n="adj"/></r></p></e>
+<e r="RL"><p><l>haut<s n="adj"/></l><r>hiôt<s n="adj"/></r></p></e>
+<e><p><l>moyen<s n="adj"/></l><r>moyen<s n="adj"/></r></p></e>
+<e r="RL"><p><l>moyen<s n="adj"/></l><r>meyen<s n="adj"/></r></p></e>
+<e><p><l>moyen<s n="n"/><s n="m"/></l><r>moyen<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>moyen<s n="n"/><s n="m"/></l><r>meyen<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>établir<s n="adj"/></l><r>enstalar<s n="adj"/></r></p></e>
+<e r="RL"><p><l>établir<s n="adj"/></l><r>ètablir<s n="adj"/></r></p></e>
+<e><p><l>installer<s n="adj"/></l><r>enstalar<s n="adj"/></r></p></e>
+<e><p><l>ministre<s n="n"/></l><r>ministro<s n="n"/></r></p><par n="mf_GD"/></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

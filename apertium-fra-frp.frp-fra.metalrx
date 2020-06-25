@@ -1108,6 +1108,11 @@
     <match lemma="cachiér" tags="vblex.*"><select lemma="cacher"/></match>
   </rule>
 
+  <!-- enstalar >> installer, établir -->
+  <rule weight="0.8">
+    <match lemma="enstalar" tags="vblex.*"><select lemma="installer"/></match>
+  </rule>
+
   <!-- enveyér >> envier, envoyer -->
   <rule weight="0.8">
     <match lemma="enveyér" tags="vblex.*"><select lemma="envier"/></match>
