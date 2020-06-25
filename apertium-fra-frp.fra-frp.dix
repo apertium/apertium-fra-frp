@@ -298,6 +298,7 @@
 <e r="LR"><p><l>maint<s n="det"/><s n="ind"/></l><r>ben<b/>des<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e>       <p><l>aucun<s n="det"/><s n="ind"/></l><r>gins<b/>de<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL"><p><l>aucun<s n="det"/><s n="ind"/></l><r>gint<b/>de<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e r="RL"><p><l>aucun<s n="det"/><s n="ind"/></l><r>gint<b/>de<s n="det"/><s n="ind"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL"><p><l>aucun<s n="det"/><s n="ind"/></l><r>ôcun<s n="det"/><s n="ind"/></r></p></e>
 
 <e>       <p><l>certain<s n="det"/><s n="ind"/></l><r>cèrtin<s n="det"/><s n="ind"/></r></p></e>
@@ -1118,9 +1119,11 @@
 <e r="RL"><p><l>ensuite<s n="adv"/></l><r>pués-ce<s n="adv"/></r></p></e>
 <e r="RL"><p><l>ensuite<s n="adv"/></l><r>dês<b/>inque<s n="adv"/></r></p></e>
 <e r="RL"><p><l>ensuite<s n="adv"/></l><r>dês<b/>ique<s n="adv"/></r></p></e>
-<e>       <p><l>point<s n="adv"/></l><r>gins<s n="adv"/></r></p></e>
-<e r="RL"><p><l>point<s n="adv"/></l><r>gint<s n="adv"/></r></p></e>
+<e r="LR"><p><l>point<s n="adv"/></l><r>gins<s n="adv"/></r></p></e>
 <e r="RL"><p><l>point<s n="adv"/></l><r>pouent<s n="adv"/></r></p></e>
+<e>       <p><l>pas<b/>du<b/>tout<s n="adv"/></l><r>gins<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pas<b/>du<b/>tout<s n="adv"/></l><r>gint<s n="adv"/></r></p></e>
+<e r="RL"><p><l>pas<b/>du<b/>tout<s n="adv"/></l><r>mint<s n="adv"/></r></p></e>
 <e>       <p><l>plus<s n="adv"/></l><r>més<s n="adv"/></r></p></e>
 <e r="RL"><p><l>plus<s n="adv"/></l><r>ples<s n="adv"/></r></p></e>
 <e>       <p><l>plus<s n="adv"/></l><r>pas<b/>més<s n="adv"/></r></p></e>
@@ -1773,6 +1776,27 @@
 <e>       <p><l>Joseph<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joseph<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Joseph<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Josèf<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Josèf<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Josèf<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>André<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>André<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Albert<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Albert<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Albert<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Albèrt<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Albèrt<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Albèrt<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pierre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pierre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pierre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pierro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pierro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pierro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Paul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Paul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Paul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Mathieu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mathieu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Mathieu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Matiô<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Matiô<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Matiô<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Simon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Simon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Thomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Thomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Thomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Tomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tomas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Judas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Judas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Tadée<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tadê<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Pépin<b/>le<b/>Bref<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pèpin<b/>lo<b/>Cortèt<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Charles<b/>Martel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Charlo<b/>Martél<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1798,7 +1822,10 @@
 <e>       <p><l>Édouard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Èdouard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Èdouard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Èdouard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Luc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Luc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Alexandre<b/>le<b/>Grand<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alèxandro<b/>lo<b/>Grant<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
+<e>       <p><l>Bourbon<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Bourbon<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>Médicis<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Mèdici<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Valois<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Valouès<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>de<b/>Valois<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>de<b/>Valouès<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
@@ -2126,6 +2153,353 @@
 <e>       <p><l>Euro<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Euro<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Eurobasket<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
+<e>       <p><l>Saint-Etienne<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Etiève<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Saint-Etienne<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Ètièno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>Abkhazie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Abkhazie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Afrique<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Africa<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Albanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Albanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Algérie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Algèrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Alsace<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Alzace<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Andorre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Anguilla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Anguila<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Antigua-et-Barbuda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Antigua-et-Barbuda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Arabie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Arabie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Arabie<b/>saoudite<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Arabie<b/>Saoudita<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Argentine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Arménie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Armènie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Armorique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Armorica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Aruba<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Aruba<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Asie<b/>Mineure<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Asie<b/>Minore<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Assyrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Assirie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Australie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ôstralie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Auvergne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ôvèrgne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Babylone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Babilona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bahamas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Barbade<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Barbados<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bastille<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bastilye<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bavière<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Baviére<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bermudes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Bèrmudes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Biélorussie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bièlorussie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Birmanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Birmanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bolivie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bolivie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bosnie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bosnie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bosnie-Herzégovine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bosnie-Hèrzegovina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Herzégovine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Hèrzegovina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bulgarie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bulgarie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Cappadoce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Capadoce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Castille<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Castilye<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Chypre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Chipro<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Colombie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Colombie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Comores<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Comores<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Compiègne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Compiègne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Corée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Corée<b/>du<b/>Nord<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corê<b/>du<b/>Nord<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Corée<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corê<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Corse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corsa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Côte<b/>d'Ivoire<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Couta-d'Ivouèro<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Crimée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Crimèa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Croatie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Croacie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Dominique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Dominica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Égypte<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ègipta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Émirats<b/>arabes<b/>unis<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Èmirats<b/>Arabos<b/>Unis<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>Érythrée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Èritrê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Estonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Èstonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>États-Unis<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Ètats-Unis<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>Éthiopie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ètiopie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Fidji<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Fidji<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Finlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Finlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Flandres<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Flandres<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Gambie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gambie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Garonne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Garona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Géorgie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Georgie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Germanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gèrmanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Grèce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grèce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Grenade<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grenâda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Grenoble<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grenoblo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guadeloupe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Goadeloupe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guinée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guinée<b/>équatoriale<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinê-Equatoriala<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guinée-Bissau<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinê-Bissaou<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guyana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guyanâ<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Guyane<b/>française<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guiyana<b/>francêsa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Hollande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Holanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Hongrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Hongries<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Indonésie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Indonèsie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Irlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Irlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Islande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Islande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Jamaïque<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Jamayica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Jordanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Jordanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Judée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Judê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Kiribati<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Kiribati<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Lausanne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Losena<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lettonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lètonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Libye<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Libie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lituanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lituanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lorraine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lorrêna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lotharingie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lotaringie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lutèce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lutèce<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Lydie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lidie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Majorque<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mayorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Malaisie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Malêsie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Maldives<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Maldives<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Malte<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Malta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>la<b/>Manche<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>la<b/>Mange<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Marseille<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Marselye<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Martinique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Martinica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mauritanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Môritanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mayenne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mayène<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mésopotamie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mèsopotamie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Meuse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mosa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Micronésie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Micronèsie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Moldavie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Moldavie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mongolie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mongolie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Moselle<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mosèla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Namibie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Namibie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nauru<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Naourou<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Navarre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Navarra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nice<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nice<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Normandie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Norvège<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Norvège<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Notre-Dame<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Noutra-Dama<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nouvelle-Calédonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Novèla-Calèdonie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nouvelle-Guinée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Novèla-Guinê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Nouvelle-Zélande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Novèla-Zèlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Orléans<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Orléans<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ossétie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ossètie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ossétie<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ossètie<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Palaos<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Palaos<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Palestine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Palèstina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Papouasie-Nouvelle-Guinée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Papouasie-Novèla-Guinê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Pays-Bas<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Payis-Bâs<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>Perse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Pèrsa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Phénicie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Fènicie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Philippines<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Filipines<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Phrygie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Frigie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Pologne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Pologne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Polynésie<b/>française<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Polinèsie<b/>Francêsa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Prusse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Prussa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Pyrénées<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Pirènês<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>République<b/>centrafricaine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Rèpublica<b/>Centrafriquèna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>République<b/>démocratique<b/>du<b/>Congo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Rèpublica<b/>Dèmocratica<b/>du<b/>Congô<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>République<b/>dominicaine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Rèpublica<b/>Dominiquèna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>République<b/>du<b/>Congo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Rèpublica<b/>du<b/>Congô<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>République<b/>tchèque<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Rèpublica<b/>Tchèca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Rome<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Roma<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Roumanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Roumanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Russie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Russie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sainte-Lucie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Santa-Lucie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Samoa<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Samoa<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Samoa<b/>américaines<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Samoa<b/>Amèriquènes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Saône<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Saxe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Saxe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Serbie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sèrbie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Seychelles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Sêchèles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Sibérie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sibèrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sierra<b/>Leone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sièrra<b/>Lèone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Slovaquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovaquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Slovénie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovènie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Smyrne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Smirna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Somalie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Somalie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sparte<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sparta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Suède<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Suède<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Syrie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sirie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tanzanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tanzanie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Terre-Adélie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tèrra-Adèlie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Thaïlande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Taylande<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Thessalonique<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tèssalonica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tonga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Tonga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Trinité<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trinitât<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Trinité-et-Tobago<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trinitât-et-Tobagô<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Troade<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Troada<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Troie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trôye<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tunisie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tunisie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Turquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Turquie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tuvalu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Tuvalu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Ukraine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ukrêna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Venise<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Venise<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Vienne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Vièna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Zambie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Zambie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Union<b/>européenne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Union<b/>Eropèena<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Afghanistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Afghanistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Aix-en-Provence<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Èx-en-Provence<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Alger<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Algiér<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Angola<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Angolâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ararat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ararat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Arles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ârle<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Austerlitz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ôstèrlitz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Avignon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Avignon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Azerbaïdjan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Azèrbayidjan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Azincourt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Azincort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bahreïn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bahrên<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bangladesh<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bangladèche<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Belize<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bèlize<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bénin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bènin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bhoutan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bhoutan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bordeaux<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bordôx<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Botswana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Botsouanâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Brabant<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brabant<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Brésil<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brèsil<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Brunei<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brunèi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Burkina<b/>Faso<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Burkina-Fasô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Burundi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bouroundi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Cambodge<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cambodge<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Cameroun<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cameroun<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Canada<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Canadâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Cap-Vert<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cap-Vèrd<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Carthage<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cartajo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Caucase<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Côcaso<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Chili<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chili<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Clermont-Ferrand<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cllârmont-Fèrrand<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Congo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Congô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Costa<b/>Rica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Costa-Rica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Cuba<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cubâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Curaçao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Curaçao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Danemark<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Danemark<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Danube<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Danubio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Djibouti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Djibouti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Équateur<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Èquator<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Finistère<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Finistèro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Foix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Fouix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Gabon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Gabon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ghana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ghanâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Groenland<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Groenlande<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Guam<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Goame<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Guatemala<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Goatèmalâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Guernesey<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Guèrnesê<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Haïti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hayiti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Haut-Karabagh<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hôt-Karabagh<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hawaï<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hawaiyi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Honduras<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Honduras<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hong<b/>Kong<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hong-Kong<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Irak<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Japon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Japon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jersey<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Jèrsê<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jupiter<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Jupitèr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jura<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Jura<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kazakhstan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kenya<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kènyâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kirghizistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kirghizistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kosovo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kosovo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Koweït<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kowêt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kurdistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kurdistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Languedoc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lengadoc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Laos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Laôs<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Le<b/>Mans<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Le<b/>Mans<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Lesotho<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lèsotô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Liban<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Liban<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Liberia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Libèria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Liechtenstein<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lichtenstên<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Limousin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Limousin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Louvre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Louvre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Luxembourg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Luxembôrg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Maastricht<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mâstrèct<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Macao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Macao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Madagascar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Madagascar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Madrid<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Madrid<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Malawi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Malaoui<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Mali<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mali<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Maroc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Maroc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Maurice<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Môrice<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Metz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mètz<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Mexique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mèxique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Milan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Milan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Milet<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Milêt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Monaco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Monacô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Monténégro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Montènègro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Montserrat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Montsèrrat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Moscou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Moscou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Mozambique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mozambique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Népal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nèpal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Neptune<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Neptuno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nevers<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nevèrs<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nicaragua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nicaragoa<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Niger<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nigèr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nil<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nil<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Nîmes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nimes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Olympe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Olimpo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Oman<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oman<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ouganda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ougandâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ouzbékistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ouzbèkistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Pakistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pakistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Panama<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Panamâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Paraguay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Paragoay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Paris<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Paris<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Pérou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pèrou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Pluton<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pluton<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Porto<b/>Rico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Porto-Rico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Portugal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Portugal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Qatar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Qatar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rhône<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rôno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Royaume-Uni<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Royômo-Uni<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rwanda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rouandâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Christophe-et-Niévès<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sent-Cretôfllo-et-Nieves<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Empire<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Empiro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Empire<b/>romain<b/>germanique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Empiro<b/>romen<b/>gèrmanico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Marin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Marin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Pierre-et-Miquelon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sent-Pierro-et-Miquelon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Siège<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sent-Sièjo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Vincent-et-les-Grenadines<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sent-Vincent-et-les-Grenadines<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Salvador<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Salvador<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sao<b/>Tomé-et-Principe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sao-Tomè-et-Principé<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saturne<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Saturno<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sébastopol<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sèbastopol<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sénégal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sènègal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Singapour<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Singapour<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Somaliland<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Somalilande<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Soudan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Soudan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Soudan<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Soudan<b/>du<b/>Sud<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sri-Lankâ<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Suriname<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Suriname<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Swaziland<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Souazilande<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tadjikistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tadjikistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Taïwan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Taywan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tchad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tchad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tibet<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tibèt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Timor<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Timor<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Timor<b/>oriental<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Timor<b/>Orientâl<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Togo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Togô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tonkin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tonkin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Tunis<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tunis<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Turin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Turin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Turkménistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Turkmènistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Uruguay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Urugoay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Vanuatu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vanouatou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Vatican<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vatican<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Vaud<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vôd<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Venezuela<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vènèzuèla<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Viêt<b/>Nam<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Viètname<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Wallis-et-Futuna<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Wallis-et-Futuna<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Yémen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Yèmèn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Zimbabwe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Zimbabouè<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Alep<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Alèpe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Berlin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bèrlin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jéricho<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Jèricô<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Toulon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Toulon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Toulouse<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Toulousa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Catalogne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Catalogne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Ârpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Alpètes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Damas<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Damas<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Damas<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Damasc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Grande-Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Granta-Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="hector"><p><l>Grande-Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Granda-Bretagne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Londres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Londre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Londres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Londres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Lyonnais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lyonês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Lyonnais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Liyonês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Macédoine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Macèdouèna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Macédoine<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Macèdouèna<b/>du<b/>Nord<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Mont-Blanc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mont-Blanc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Mont-Blanc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mont-Bllanc<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rhin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Troyes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Troyes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Uranus<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Urano<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Uranus<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Uranos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Provence<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Provence<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 
 <e><p><l>jacobin<s n="adj"/></l><r>jacobin<s n="adj"/></r></p></e>
 <e><p><l>jacobin<s n="n"/></l><r>jacobin<s n="n"/></r></p></e>
@@ -6786,6 +7160,7 @@
 <e><p><l>évaluer<s n="vblex"/></l><r>èvaluar<s n="vblex"/></r></p></e>
 <e><p><l>expliquer<s n="vblex"/></l><r>èxplicar<s n="vblex"/></r></p></e>
 <e><p><l>glorifier<s n="vblex"/></l><r>glorifiar<s n="vblex"/></r></p></e>
+<e r="RL" a="stich"><p><l>glorifier<s n="vblex"/></l><r>glorifiyér<s n="vblex"/></r></p></e>
 <e><p><l>habituer<s n="vblex"/></l><r>habituar<s n="vblex"/></r></p></e>
 <e><p><l>mortifier<s n="vblex"/></l><r>mortifiar<s n="vblex"/></r></p></e>
 <e><p><l>nouer<s n="vblex"/></l><r>nuar<s n="vblex"/></r></p></e>
@@ -10294,6 +10669,7 @@
 <e a="alanfavre"><p><l>dédicacer<s n="vblex"/></l><r>dèdicaciér<s n="vblex"/></r></p></e>
 <e a="alanfavre"><p><l>quadruple<s n="n"/><s n="m"/></l><r>quadruplo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>idée<s n="n"/><s n="f"/></l><r>idê<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>jurer<s n="vblex"/></l><r>jurar<s n="vblex"/></r></p></e>
 
 <e r="RL"><p><l>orchestre<s n="n"/><s n="m"/></l><r>orquèstra<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>Paraguayen<s n="n"/></l><r>Paragoayen<s n="n"/></r></p></e>
@@ -10536,6 +10912,155 @@
 <e><p><l>exercice<s n="n"/><s n="m"/></l><r>ègzèrcice<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>exercice<s n="n"/><s n="m"/></l><r>ègzèrciço<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>exercice<s n="n"/><s n="m"/></l><r>ègzèrcicio<s n="n"/><s n="m"/></r></p></e>
+
+<e r="LR"><p><l>affourager<s n="vblex"/></l><r>govèrnar<s n="vblex"/></r></p></e>
+<e><p><l>agir<s n="vblex"/></l><r>agir<s n="vblex"/></r></p></e>
+<e><p><l>délayer<s n="vblex"/></l><r>dèleyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>dételer<s n="vblex"/></l><r>dètelar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>embraser<s n="vblex"/></l><r>embrasar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>empiéter<s n="vblex"/></l><r>empiatar<s n="vblex"/></r></p></e>
+<e><p><l>envahir<s n="vblex"/></l><r>envayir<s n="vblex"/></r></p></e>
+<e><p><l>faire<g><b/>honte</g><s n="vblex"/></l><r>vèrgognér<s n="vblex"/></r></p></e>
+<e><p><l>fonder<s n="vblex"/></l><r>fondar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>formaliser<s n="vblex"/></l><r>formalisiér<s n="vblex"/></r></p></e>
+<e><p><l>impatienter<s n="vblex"/></l><r>empacientar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>installer<s n="vblex"/></l><r>embanchiér<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>mener<s n="vblex"/></l><r>menar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>mouiller<s n="vblex"/></l><r>amolyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rassembler<s n="vblex"/></l><r>rapèrchiér<s n="vblex"/></r></p></e>
+<e><p><l>réjouir<s n="vblex"/></l><r>rejouyir<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>rendre<b/>service<s n="vblex"/></l><r>oblegiér<s n="vblex"/></r></p></e>
+<e><p><l>ressortir<s n="vblex"/></l><r>ressalyir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>retenir<s n="vblex"/></l><r>retegnir<s n="vblex"/></r></p></e>
+<e><p><l>trahir<s n="vblex"/></l><r>trayir<s n="vblex"/></r></p></e>
+<e><p><l>vieillir<s n="vblex"/></l><r>vielyir<s n="vblex"/></r></p></e>
+<e a="corpus"><p><l>dévaluer<s n="vblex"/></l><r>dèvaluar<s n="vblex"/></r></p></e>
+<e a="corpus"><p><l>optimiser<s n="vblex"/></l><r>optimisar<s n="vblex"/></r></p></e>
+<e a="stich"><p><l>évangéliser<s n="vblex"/></l><r>èvangèlisar<s n="vblex"/></r></p></e>
+<e><p><l>banc<s n="n"/><s n="m"/></l><r>banc<s n="n"/><s n="m"/></r></p></e>
+<e a="vouiquipèdia"><p><l>archidiocèse<s n="n"/><s n="m"/></l><r>archidiocèse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>Kosovar<s n="n"/></l><r>Kosovar<s n="n"/></r></p></e>
+<e><p><l>lavande<s n="n"/><s n="f"/></l><r>aspic<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>maison<s n="n"/><s n="f"/></l><r>hothâl<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pont<s n="n"/><s n="m"/></l><r>pont<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>profession<s n="n"/><s n="f"/></l><r>profèssion<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>radio<s n="n"/><s n="f"/></l><r>radiô<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="hector"><p><l>reporter<s n="n"/></l><r>jornalisto<s n="n"/></r></p></e>
+<e><p><l>techno<s n="n"/><s n="f"/></l><r>tècnô<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>Vendéen<s n="n"/></l><r>Vendèen<s n="n"/></r></p></e>
+<e><p><l>vertu<s n="n"/><s n="f"/></l><r>vèrtu<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>vivarais<s n="n"/></l><r>vivarês<s n="n"/></r></p></e>
+<e r="RL"><p><l>week-end<s n="n"/><s n="m"/></l><r>demengiê<s n="n"/><s n="f"/></r></p></e>
+<e a="stich"><p><l>représentant<s n="n"/></l><r>reprèsentant<s n="n"/></r></p></e>
+<e><p><l>Saoudite<s n="n"/></l><r>Saoudito<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="corpus"><p><l>modernité<s n="n"/><s n="f"/></l><r>modèrnitât<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>ottoman<s n="n"/></l><r>otoman<s n="n"/></r></p></e>
+<e a="vouiquipèdia"><p><l>démographie<s n="n"/><s n="f"/></l><r>dèmografia<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>démographe<s n="n"/></l><r>dèmografo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="vouiquipèdia"><p><l>personnalité<s n="n"/><s n="f"/></l><r>pèrsonalitât<s n="n"/><s n="f"/></r></p></e>
+<e a="vouiquipèdia"><p><l>étymologie<s n="n"/><s n="f"/></l><r>ètimologia<s n="n"/><s n="f"/></r></p></e>
+<e a="vouiquipèdia"><p><l>toponymie<s n="n"/><s n="f"/></l><r>toponimia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>andain<s n="n"/><s n="m"/></l><r>anden<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>Arlésien<s n="n"/></l><r>Arlèsien<s n="n"/></r></p></e>
+<e><p><l>Brunéien<s n="n"/></l><r>brunèyen<s n="n"/></r></p></e>
+<e><p><l>chartreux<s n="n"/></l><r>chartrox<s n="n"/></r></p></e>
+<e a="hector"><p><l>colonisateur<s n="n"/></l><r>colonisator<s n="n"/></r></p></e>
+<e r="LR"><p><l>combourgeoisie<s n="n"/><s n="f"/></l><r>borgèsie<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>dauphinois<s n="n"/></l><r>dôfenêro<s n="n"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>hart<s n="n"/><s n="f"/></l><r>riôrta<s n="n"/><s n="f"/></r></p></e>
+<e a="alanfavre"><p><l>impératrice<s n="n"/><s n="f"/></l><r>empèratrice<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>lascar<s n="n"/><s n="m"/></l><r>apôtro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mégarde<s n="n"/><s n="f"/></l><r>mègârda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pharisien<s n="n"/></l><r>farisien<s n="n"/></r></p></e>
+<e><p><l>philistin<s n="n"/></l><r>filistin<s n="n"/></r></p></e>
+<e><p><l>régalade<s n="n"/><s n="f"/></l><r>regalâda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>Salvadorien<s n="n"/></l><r>Salvadorien<s n="n"/></r></p></e>
+<e><p><l>sommelier<s n="n"/></l><r>someliér<s n="n"/></r></p></e>
+<e a="corpus"><p><l>néolibéral<s n="n"/></l><r>nèolibèrâl<s n="n"/></r></p></e>
+<e r="RL"><p><l>dauphinois<s n="adj"/></l><r>dôfenêro<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e><p><l>démagogue<s n="adj"/></l><r>dèmagogue<s n="adj"/></r></p></e>
+<e r="RL"><p><l>docile<s n="adj"/><s n="mf"/></l><r>de<b/>bôna<b/>mèna<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>polonais<s n="adj"/></l><r>polonês<s n="adj"/></r></p></e>
+<e><p><l>vivarais<s n="adj"/></l><r>vivarês<s n="adj"/></r></p></e>
+<e a="corpus"><p><l>idéologique<s n="adj"/></l><r>idèologico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>saoudite<s n="adj"/></l><r>saoudito<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>ottoman<s n="adj"/></l><r>otoman<s n="adj"/></r></p></e>
+<e a="hector"><p><l>démographique<s n="adj"/></l><r>dèmografico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>monténégrin<s n="adj"/></l><r>montènègrin<s n="adj"/></r></p></e>
+<e><p><l>rhétorique<s n="adj"/></l><r>rètorico<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sous-marin<s n="adj"/></l><r>sot-marin<s n="adj"/></r></p></e>
+<e><p><l>monténégrin<s n="n"/></l><r>montènègrin<s n="n"/></r></p></e>
+<e a="alanfavre"><p><l>vice-royauté<s n="n"/><s n="f"/></l><r>vice-royotât<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>savoir-vivre<s n="n"/><s n="m"/></l><r>savêr-vivre<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>sourd<s n="n"/></l><r>sord<s n="n"/></r></p></e>
+<e><p><l>sourd-muet<s n="n"/></l><r>sord-muet<s n="n"/></r></p></e>
+<e><p><l>sourd-muet<s n="adj"/></l><r>sord-muet<s n="adj"/></r></p></e>
+<e><p><l>sous-marin<s n="n"/><s n="m"/></l><r>sot-marin<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tilbury<s n="n"/><s n="m"/></l><r>tapa-cul<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tire-bouchon<s n="n"/><s n="m"/></l><r>tire-bouchon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>wagon-restaurant<s n="n"/><s n="m"/></l><r>vagon-rèstorant<s n="n"/><s n="m"/></r></p></e>
+<e a="vouiquipèdia"><p><l>championnat<s n="n"/><s n="m"/></l><r>championat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>route<s n="n"/><s n="f"/></l><r>rota<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>honte<s n="n"/><s n="f"/></l><r>honta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>honte<s n="n"/><s n="f"/></l><r>honto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>honte<s n="n"/><s n="f"/></l><r>vèrgogne<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>vergogne<s n="n"/><s n="f"/></l><r>vèrgogne<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mourir<s n="vblex"/></l><r>morir<s n="vblex"/></r></p></e>
+<e><p><l>visiter<s n="vblex"/></l><r>vesitar<s n="vblex"/></r></p></e>
+<e r="RL" a="stich"><p><l>visiter<s n="vblex"/></l><r>visitar<s n="vblex"/></r></p></e>
+<e><p><l>visite<s n="n"/><s n="f"/></l><r>vesita<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>visite<s n="n"/><s n="f"/></l><r>visita<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>louer<s n="vblex"/></l><r>loyér<s n="vblex"/></r></p></e>
+<e><p><l>louer<s n="vblex"/></l><r>louar<s n="vblex"/></r></p></e>
+<e><p><l>crucifier<s n="vblex"/></l><r>crucifiyér<s n="vblex"/></r></p></e>
+<e><p><l>débuter<s n="vblex"/></l><r>dèbutar<s n="vblex"/></r></p></e>
+<e><p><l>élève<s n="n"/></l><r>èlèvo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>synagogue<s n="n"/><s n="f"/></l><r>senagôga<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rencontrer<s n="vblex"/></l><r>rencontrar<s n="vblex"/></r></p></e>
+<e><p><l>pape<s n="n"/><s n="m"/></l><r>pape<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pape<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>papa<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
+
+<e><p><l>Ain<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>En<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bâle<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bâla<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Gênes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gêna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Grisons<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Gresons<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>Marengo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Marengo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Naples<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Naple<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>Naples<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Naplle<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>Narbonne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Narbona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tulle<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tula<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="Vouiquipèdia"><p><l>Barcelone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Isère<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Zurich<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Zurique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Zurich<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tsurique<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Berne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bèrna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Genève<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Geneva<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Albi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Albi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Allinges<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Alinjos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Athènes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Atênes<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Fribourg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Fribôrg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Marignan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Marignan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Mayence<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mayence<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Padoue<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Padoua<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Pavie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Pavie<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Ravenne<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ravèna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Gesseney<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Gèssenê<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saint-Gall<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sent-Gale<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Unterwald<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ontrevalde<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Uri<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ouri<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Valais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Valês<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Annecy<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ènneci<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Annecy<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Èneci<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Chablais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chablès<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Bas-Chablais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Plana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Bas-Chablais<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Planna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Chambéry<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chambèri<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Chamonix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chamônix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Chamonix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chamoniard<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Galilée<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Galilê<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sinaï<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sinay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

@@ -1634,6 +1634,33 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <!-- louer >> loyér, louar -->
+  <rule weight="0.8">
+    <match lemma="louer" tags="vblex.*"><select lemma="loyér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="louer" tags="vblex.*"><select lemma="louar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="louer" tags="vblex.*"><select lemma="louar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="dieu" tags="n.*"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+
   <!-- moquer >> mourgar, mocar -->
   <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
 
@@ -1684,25 +1711,22 @@
   <macro name="noms_propres" p1="Jean" p2="Jian" />
   <macro name="noms_propres" p1="Joseph" p2="Josèf" />
   <macro name="noms_propres" p1="Philippe" p2="Filipo" />
+  <macro name="noms_propres" p1="Pierre" p2="Pierro" />
+  <macro name="noms_propres" p1="Paul" p2="Pol" />
+  <macro name="noms_propres" p1="Thomas" p2="Tomas" />
+  <macro name="noms_propres" p1="Albert" p2="Albèrt" />
 
 <!--
-  <macro name="noms_propres" p1="Guifred" p2="Guifré" />
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
-  <macro name="noms_propres" p1="Ramire" p2="Ramir" />
   <macro name="noms_propres" p1="Armengol" p2="Ermengol" />
   <macro name="noms_propres" p1="Isabelle" p2="Isabel" />
   <macro name="noms_propres" p1="Élisabeth" p2="Isabel" />
-  <macro name="noms_propres" p1="Marie" p2="Maria" />
   <macro name="noms_propres" p1="Jeanne" p2="Joana" />
-  <macro name="noms_propres" p1="Juan Carlos" p2="Joan Carles" />
   <macro name="noms_propres" p1="Sophie" p2="Sofia" />
-  <macro name="noms_propres" p1="Paul" p2="Pau" />
-  <macro name="noms_propres" p1="Jean-Paul" p2="Joan Pau" />
   <macro name="noms_propres" p1="Benoît" p2="Benet" />
   <macro name="noms_propres" p1="Sixte" p2="Sixt" />
   <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
   <macro name="noms_propres" p1="Léon" p2="Lleó" />
-  <macro name="noms_propres" p1="Pierre" p2="Pere" />
   <macro name="noms_propres" p1="Ferdinand" p2="Ferran" />
   <macro name="noms_propres" p1="Richard" p2="Ricard" />
   <macro name="noms_propres" p1="Martin" p2="Martí" />
@@ -1714,7 +1738,6 @@
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
   <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
   <macro name="noms_propres" p1="Jules" p2="Juli" />
-  <macro name="noms_propres" p1="Luc" p2="Lluc" />
   <macro name="noms_propres" p1="Aliénor" p2="Elionor" />
   <macro name="noms_propres" p1="Raymond" p2="Ramon" />
   <macro name="noms_propres" p1="Stéphane" p2="Esteve" />
@@ -1732,7 +1755,6 @@
   <macro name="noms_propres" p1="Baudouin" p2="Balduí" />
   <macro name="noms_propres" p1="Léopold" p2="Leopold" />
   <macro name="noms_propres" p1="Amédée" p2="Amadeu" />
-  <macro name="noms_propres" p1="André" p2="Andreu" />
 -->
 
 </rules>
