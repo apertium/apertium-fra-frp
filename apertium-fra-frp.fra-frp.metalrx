@@ -1672,6 +1672,9 @@
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
   </rule>
 
+  <!-- rendre >> rebalyér, rendre -->
+  <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
+
   <!-- revenir >> recampar, revenir -->
   <rule weight="0.8">
     <match lemma="revenir" tags="vblex.*"><select lemma="recampar"/></match>
