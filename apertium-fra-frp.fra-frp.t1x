@@ -558,116 +558,6 @@
 <!--      <list-item v="vendre"/> -->
 <!--      <list-item v="voler"/> -->
     </def-list>
-
-    <def-list n="nptop_amb_detdef">
-      <list-item v="Africa subsahariana"/>
-      <list-item v="America centrala"/>
-      <list-item v="America del Nòrd"/>
-      <list-item v="America del Sud"/>
-      <list-item v="America latina"/>
-      <list-item v="Bassa Normandia"/>
-      <list-item v="Comtat Venaicin"/>
-      <list-item v="Còsta d'Azur"/>
-      <list-item v="Estats Units"/>
-      <list-item v="Gran Bretanha"/>
-      <list-item v="Guaiana"/>
-      <list-item v="Güaiana"/>
-      <list-item v="Illa de França"/>
-      <list-item v="Ilha de França"/>
-      <list-item v="Isla de França"/>
-      <list-item v="Lanas"/>
-      <list-item v="Léger Atlàntic"/>
-      <list-item v="Naut Ren"/>
-      <list-item v="Nauta Normandia"/>
-      <list-item v="Nauta Savòia"/>
-      <list-item v="Nauta Vinhana"/>
-      <list-item v="Nauts de França"/>
-      <list-item v="Nòu Brunswick"/>
-      <list-item v="Nòu Hampshire"/>
-      <list-item v="Nòu Mexic"/>
-      <list-item v="Nòva Aquitània"/>
-      <list-item v="Nòva Caledònia"/>
-      <list-item v="Nòva Jersey"/>
-      <list-item v="Nòva Zelanda"/>
-      <list-item v="Païses Basses"/>
-      <list-item v="País de Galas"/>
-      <list-item v="Païses de Léger"/>
-      <list-item v="Pas de Calais"/>
-      <list-item v="Reialme Unit"/>
-      <list-item v="Republica Chèca"/>
-      <list-item v="Republica Dominicana"/>
-      <list-item v="Territòri de Belfort"/>
-      <list-item v="Union Europèa"/>
-      <list-item v="UE"/>
-      <list-item v="Union Sovietica"/>
-      <list-item v="URSS"/>
-      <list-item v="Val d'Aran"/>
-      <list-item v="Val d'Oise"/>
-      <list-item v="Val de Marna"/>
-
-      <list-item v="Alps"/>
-      <list-item v="Aups"/>
-      <list-item v="Auts Aups"/>
-      <list-item v="Aups Maritims"/>
-      <list-item v="Aups d'Auta Provença"/>
-      <list-item v="Andes"/>
-      <list-item v="Ardenas"/>
-      <list-item v="Carpats"/>
-      <list-item v="Massís Central"/>
-      <list-item v="Orals"/>
-      <list-item v="Pirenèu"/>
-      <list-item v="Pirenèus"/>
-      <list-item v="Hauts Pirenèus"/>
-      <list-item v="Pirenèus Atlantics"/>
-      <list-item v="Pirenèus Orientals"/>
-      <list-item v="Sèlva Negra"/>
-      <list-item v="Termopilas"/>
-      <list-item v="Vòges"/>
-      <list-item v="Mont Blanc"/>
-
-      <list-item v="Mediterrànea"/>
-      <list-item v="mar Baltica"/>
-      <list-item v="mar Mòrta"/>
-      <list-item v="mar d'Aral"/>
-      <list-item v="mar de Japon"/>
-      <list-item v="mar de las Antilhas"/>
-      <list-item v="mar del Nôrd"/>
-      <list-item v="mar del Coralh"/>
-
-      <list-item v="Antilhas"/>
-      <list-item v="Antilhes"/>
-      <list-item v="Balearas"/>
-      <list-item v="Baleares"/>
-      <list-item v="Canàrias"/>
-      <list-item v="Canàries"/>
-      <list-item v="Filipinas"/>
-      <list-item v="Filipines"/>
-      <list-item v="illa de Clipperton"/>
-      <list-item v="Illa de França"/>
-      <list-item v="Illa de Man"/>
-      <list-item v="Illa de Pascas"/>
-      <list-item v="illas Australas"/>
-      <list-item v="illas Caiman"/>
-      <list-item v="illas Chatham"/>
-      <list-item v="illas de Pitcairn"/>
-      <list-item v="illas Malvinas"/>
-      <list-item v="illas Marquesas"/>
-      <list-item v="illas Marshall"/>
-      <list-item v="illas Midway"/>
-      <list-item v="illas Tokelau"/>
-      <list-item v="illas Tuamotu"/>
-      <list-item v="illas Turcas e Caïcas"/>
-      <list-item v="Illas Verges Americanas"/>
-      <list-item v="Illas Verges Britanicas"/>
-      <list-item v="Illas Verges"/>
-      <list-item v="illas Toquelau"/>
-
-
-      <list-item v="Acropòli"/>
-      <list-item v="Camp Nou"/>
-      <list-item v="Santiago Bernabeu"/>
-    </def-list>
-
   </section-def-lists>
 
   <section-def-macros>
@@ -4832,7 +4722,7 @@
 
     <!-- REGLAS TOP -->
 
-    <rule comment="REGLA: DETDEF NPTOP (la France > França, les États-Unis > los Estats Units)">
+    <rule comment="REGLA: DETDEF NPTOP (la Grèce > la Grècia)">
       <pattern>
         <pattern-item n="detdef"/>
         <pattern-item n="nptop"/>
@@ -4845,58 +4735,26 @@
         <call-macro n="f_chunk_tags">
           <with-param pos="2"/>
         </call-macro>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="tl" part="lem"/>
-                <list n="nptop_amb_detdef"/>
-              </in>
-            </test>
-            <out>
-              <chunk name="det-nptop">
-                <tags>
-                  <tag><lit-tag v="SN"/></tag>
-                  <tag><clip pos="2" side="tl" part="gen"/></tag>
-                  <tag><clip pos="2" side="tl" part="nbr"/></tag>
-                  <tag><var n="genero_sl"/></tag>
-                  <tag><var n="numero_sl"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="whole"/>
-                </lu>
-                <b pos="1"/>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh"/>
-                  <clip pos="2" side="tl" part="tags"/>
-                  <clip pos="2" side="tl" part="lemq"/>
-                </lu>
-              </chunk>
-            </out>
-          </when>
-          <otherwise>
-            <call-macro n="f_bcond">
-              <with-param pos="1"/>
-              <with-param pos="2"/>
-            </call-macro>
-            <out>
-              <chunk name="nptop">
-                <tags>
-                  <tag><lit-tag v="SN"/></tag>
-                  <tag><clip pos="2" side="tl" part="gen"/></tag>
-                  <tag><clip pos="2" side="tl" part="nbr"/></tag>
-                  <tag><var n="genero_sl"/></tag>
-                  <tag><var n="numero_sl"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh"/>
-                  <clip pos="2" side="tl" part="tags"/>
-                  <clip pos="2" side="tl" part="lemq"/>
-                </lu>
-              </chunk>
-            </out>
-          </otherwise>
-        </choose>
+        <out>
+          <chunk name="det-nptop">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
       </action>
     </rule>
 
