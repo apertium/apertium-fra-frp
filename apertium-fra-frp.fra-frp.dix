@@ -11253,6 +11253,19 @@
 <e><p><l>attendre<s n="vblex"/></l><r>atendre<s n="vblex"/></r></p></e>
 <e><p><l>ceindre<s n="vblex"/></l><r>ciendre<s n="vblex"/></r></p></e>
 <e><p><l>craindre<s n="vblex"/></l><r>crendre<s n="vblex"/></r></p></e>
+<e><p><l>paraître<s n="vblex"/></l><r>parêtre<s n="vblex"/></r></p></e>
+<e><p><l>apparaître<s n="vblex"/></l><r>aparêtre<s n="vblex"/></r></p></e>
+<e><p><l>comparaître<s n="vblex"/></l><r>comparêtre<s n="vblex"/></r></p></e>
+<e><p><l>disparaître<s n="vblex"/></l><r>disparêtre<s n="vblex"/></r></p></e>
+<e><p><l>croître<s n="vblex"/></l><r>crêtre<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>grandir<s n="vblex"/></l><r>crêtre<s n="vblex"/></r></p></e>
+<e><p><l>accroître<s n="vblex"/></l><r>acrêtre<s n="vblex"/></r></p></e>
+<e><p><l>décroître<s n="vblex"/></l><r>dècrêtre<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>baisser<s n="vblex"/></l><r>dècrêtre<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>diminuer<s n="vblex"/></l><r>dècrêtre<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>rajouter<s n="vblex"/></l><r>recrêtre<s n="vblex"/></r></p></e>
+<e><p><l>recroître<s n="vblex"/></l><r>recrêtre<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>regrandir<s n="vblex"/></l><r>recrêtre<s n="vblex"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
