@@ -640,6 +640,33 @@
     <match lemma="but" tags="n.*"><select lemma="toche"/></match>
   </rule>
 
+  <!-- campagne >> campagne, cabâla -->
+  <rule weight="0.8">
+    <match lemma="campagne" tags="n.*"><select lemma="campagne"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="campagne" tags="n.*"><select lemma="cabâla"/></match>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="électoral" tags="adj.*"/>
+      <match lemma="presidentiel" tags="adj.*"/>
+      <match lemma="départemental" tags="adj.*"/>
+      <match lemma="municipal" tags="adj.*"/>
+      <match lemma="élection" tags="n.*"/>
+      <match lemma="présidence" tags="n.*"/>
+      <match lemma="parlement" tags="n.*"/>
+      <match lemma="référendum" tags="n.*"/>
+      <match lemma="plébiscite" tags="n.*"/>
+      <match lemma="publicitaire" tags="adj.*"/>
+      <match lemma="publicité" tags="n.*"/>
+      <match lemma="marketing" tags="n.*"/>
+      <match lemma="télémarketing" tags="n.*"/>
+      <match lemma="débuter" tags="vblex.*"/>
+    </or>
+  </rule>
+
   <!-- complexe >> complèxo, ensemblo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="n.*"><select lemma="complèxo"/></match>
@@ -1706,6 +1733,51 @@
   </rule>
 
 <!-- **************** NP **************** -->
+
+  <!-- Vienne >> Viène, Vièna -->
+  <rule weight="0.8">
+    <match lemma="Vienne" tags="np.top.*"><select lemma="Viène"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Vienne" tags="np.top.*"><select lemma="Vièna"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="Isère" tags="np.*"/>
+      <match lemma="France" tags="np.*"/>
+      <match lemma="Rhône" tags="np.*"/>
+      <match lemma="Gère" tags="np.*"/>
+      <match lemma="Dauphiné" tags="np.*"/>
+      <match lemma="Auvergne-Rhône-Alpes" tags="np.*"/>
+      <match lemma="département" tags="n.*"/>
+      <match lemma="préfecture" tags="n.*"/>
+      <match lemma="sous-préfecture" tags="n.*"/>
+      <match lemma="arrodissement" tags="n.*"/>
+      <match lemma="commune" tags="n.*"/>
+      <match lemma="chef-lieu" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="Isère" tags="np.*"/>
+      <match lemma="France" tags="np.*"/>
+      <match lemma="Rhône" tags="np.*"/>
+      <match lemma="Gère" tags="np.*"/>
+      <match lemma="Dauphiné" tags="np.*"/>
+      <match lemma="Auvergne-Rhône-Alpes" tags="np.*"/>
+      <match lemma="département" tags="n.*"/>
+      <match lemma="préfecture" tags="n.*"/>
+      <match lemma="sous-préfecture" tags="n.*"/>
+      <match lemma="arrodissement" tags="n.*"/>
+      <match lemma="commune" tags="n.*"/>
+      <match lemma="chef-lieu" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="Vienne" tags="np.top.*"><select lemma="Vièna"/></match>
+  </rule>
 
   <macro name="noms_propres" p1="Charles" p2="Charlo" />
   <macro name="noms_propres" p1="Édouard" p2="Èdouard" />

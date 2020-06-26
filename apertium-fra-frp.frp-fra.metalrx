@@ -873,6 +873,35 @@
     <match lemma="bocon" tags="n.*"><select lemma="bouchée"/></match>
   </rule>
 
+  <!-- cabâla >> campagne, cabale -->
+  <rule weight="0.8">
+    <match lemma="cabâla" tags="n.*"><select lemma="campagne"/></match>
+  </rule>
+<!--
+  <rule weight="1.0">
+    <match lemma="cabâla" tags="n.*"><select lemma="campagne"/></match>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="électoral" tags="adj.*"/>
+      <match lemma="presidentiel" tags="adj.*"/>
+      <match lemma="départemental" tags="adj.*"/>
+      <match lemma="municipal" tags="adj.*"/>
+      <match lemma="élection" tags="n.*"/>
+      <match lemma="présidence" tags="n.*"/>
+      <match lemma="parlement" tags="n.*"/>
+      <match lemma="référendum" tags="n.*"/>
+      <match lemma="plébiscite" tags="n.*"/>
+      <match lemma="publicitaire" tags="adj.*"/>
+      <match lemma="publicité" tags="n.*"/>
+      <match lemma="marketing" tags="n.*"/>
+      <match lemma="télémarketing" tags="n.*"/>
+      <match lemma="débuter" tags="vblex.*"/>
+    </or>
+  </rule>
+-->
+
   <!-- cabarèt >> café, cabaret -->
   <rule weight="0.8">
     <match lemma="cabarèt" tags="n.*"><select lemma="café"/></match>
