@@ -774,6 +774,23 @@
     <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
   </rule>
 
+  <!-- couche >> cuche, lange -->
+  <rule weight="0.8">
+    <match lemma="couche" tags="n.*"><select lemma="cuche"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="bébé" tags="n.*"/>
+      <match lemma="mettre" tags="vblex.*"/>
+      <match lemma="porter" tags="vblex.*"/>
+      <match lemma="changer" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
+  </rule>
+
   <!-- maturité >> morèson, maturitât -->
   <rule weight="0.8">
     <match lemma="maturité" tags="n.*"><select lemma="morèson"/></match>
@@ -1512,6 +1529,24 @@
     <match lemma="propre" tags="adj.*"><select lemma="prôpro"/></match>
   </rule>
 
+  <!-- quelconque >> come los ôtros, come les ôtres -->
+  <rule weight="0.8">
+    <match lemma="quelconque" tags="adj.*"><select lemma="come los ôtros"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.f.*"/>
+      <match tags="adj.f.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="quelconque" tags="adj.*"><select lemma="come les ôtres"/></match>
+  </rule>
+
 <!-- **************** V **************** -->
 
   <!-- adhérer >> s'agllètar, s'enscrire -->
@@ -1565,6 +1600,28 @@
       <match lemma="valeur" tags="n.*"/>
       <match lemma="ressource" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- décoller >> dègllètar, dècôlar -->
+  <rule weight="0.8">
+    <match lemma="décoller" tags="vblex.*"><select lemma="dègllètar"/></match>
+  </rule>
+  <rule weight="1.0">
+<!--
+    <or>
+      <match lemma="avion" tags="n.*"/>
+      <match lemma="fusée" tags="n.*"/>
+      <match lemma="Airbus" tags="np.*"/>
+      <match lemma="Boeing" tags="np.*"/>
+      <match lemma="Concorde" tags="np.*"/>
+      <match lemma="Ariane" tags="np.*"/>
+      <match lemma="Blériot" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat>
+-->
+    <match lemma="décoller" tags="vblex.*"><select lemma="dècôlar"/></match>
   </rule>
 
   <!-- devenir >> venir, devegnir, devenir -->
