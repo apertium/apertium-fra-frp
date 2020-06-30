@@ -791,6 +791,11 @@
     <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
   </rule>
 
+  <!-- Indien >> Endien, Indien -->
+  <rule weight="0.8">
+    <match lemma="Indien" tags="n.*"><select lemma="Endien"/></match>
+  </rule>
+
   <!-- maturité >> morèson, maturitât -->
   <rule weight="0.8">
     <match lemma="maturité" tags="n.*"><select lemma="morèson"/></match>
@@ -1502,6 +1507,19 @@
   <rule weight="1.0">
     <match lemma="nombre" tags="n.*"/>
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
+  </rule>
+
+  <!-- indien >> indien, endien -->
+  <rule weight="0.8">
+    <match lemma="indien" tags="adj.*"><select lemma="indien"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="chef" tags="n.*"/>
+      <match lemma="danse" tags="n.*"/>
+      <match lemma="tribu" tags="n.*"/>
+    </or>
+    <match lemma="indien" tags="adj.*"><select lemma="endien"/></match>
   </rule>
 
   <!-- musclé >> ènèrgico, musclâ -->

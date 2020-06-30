@@ -954,6 +954,40 @@
     </or>
   </rule>
 
+  <!-- cortelyâjo, jardenâjo >> jardinage, légume(s) -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="cortelyâjo" tags="n.*"><select lemma="jardinage"/></match>
+      <match lemma="jardenâjo" tags="n.*"><select lemma="jardinage"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="achetar" tags="vblex.*"/>
+      <match lemma="agetar" tags="vblex.*"/>
+      <match lemma="dèjonar" tags="vblex.*"/>
+      <match lemma="denar" tags="vblex.*"/>
+      <match lemma="dinar" tags="vblex.*"/>
+      <match lemma="sopar" tags="vblex.*"/>
+      <match lemma="cenar" tags="vblex.*"/>
+      <match lemma="marendar" tags="vblex.*"/>
+      <match lemma="sèrvir" tags="vblex.*"/>
+      <match lemma="balyér" tags="vblex.*"/>
+      <match lemma="donar" tags="vblex.*"/>
+      <match lemma="plat" tags="n.*"/>
+      <match lemma="platèl" tags="n.*"/>
+      <match lemma="platelâ" tags="n.*"/>
+      <match lemma="fruit" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="cortelyâjo" tags="n.*"><select lemma="légume"/></match>
+      <match lemma="jardenâjo" tags="n.*"><select lemma="légume"/></match>
+    </or>
+  </rule>
+
   <!-- corsâjo >> chemisier, corsage -->
   <rule weight="0.8">
     <match lemma="corsâjo" tags="n.*"><select lemma="chemisier"/></match>
@@ -1106,12 +1140,16 @@
     <match lemma="règent" tags="n.*"><select lemma="instituteur"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="règent" tags="n.*"><select lemma="instituteur"/></match>
+    <match lemma="règent" tags="n.*"><select lemma="régent"/></match>
     <match lemma="de" tags="pr"/>
     <repeat from="0" upto="1">
       <match tags="det.*"/>
     </repeat>
     <match tags="np.top"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prince" tags="n.*"/>
+    <match lemma="règent" tags="n.*"><select lemma="régent"/></match>
   </rule>
 
   <!-- sêson >> saison, année -->
