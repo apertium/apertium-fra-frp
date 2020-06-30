@@ -1626,7 +1626,7 @@
 
   <!-- devenir >> venir, devegnir, devenir -->
   <rule weight="0.8">
-    <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+    <match lemma="devenir" tags="vblex.*"><select lemma="venir"/></match>
   </rule>
 
   <!-- disjoindre >> dèpondre, dèjuendre -->
@@ -1847,13 +1847,17 @@
   <macro name="noms_propres" p1="Paul" p2="Pol" />
   <macro name="noms_propres" p1="Thomas" p2="Tomas" />
   <macro name="noms_propres" p1="Albert" p2="Albèrt" />
+  <macro name="noms_propres" p1="Humbert" p2="Hombèrt" />
+  <macro name="noms_propres" p1="Michel" p2="Mechiél" />
+
+  <macro name="noms_propres" p1="Catherine" p2="Caterina" />
+  <macro name="noms_propres" p1="Jeanne" p2="Jiana" />
 
 <!--
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
   <macro name="noms_propres" p1="Armengol" p2="Ermengol" />
   <macro name="noms_propres" p1="Isabelle" p2="Isabel" />
   <macro name="noms_propres" p1="Élisabeth" p2="Isabel" />
-  <macro name="noms_propres" p1="Jeanne" p2="Joana" />
   <macro name="noms_propres" p1="Sophie" p2="Sofia" />
   <macro name="noms_propres" p1="Benoît" p2="Benet" />
   <macro name="noms_propres" p1="Sixte" p2="Sixt" />
@@ -1866,7 +1870,6 @@
   <macro name="noms_propres" p1="Guillaume" p2="Guillem" />
   <macro name="noms_propres" p1="Nicolas" p2="Nicolau" />
   <macro name="noms_propres" p1="Maximilien" p2="Maximilià" />
-  <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
   <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
   <macro name="noms_propres" p1="Jules" p2="Juli" />

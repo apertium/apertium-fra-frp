@@ -642,53 +642,51 @@
 -->
 
     <def-seq n="temps">
-      <match lemma="segon" tags="n.*"/>
-      <match lemma="minut" tags="n.*"/>
+      <match lemma="segonda" tags="n.*"/>
+      <match lemma="seconda" tags="n.*"/>
+      <match lemma="menuta" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
-      <match lemma="dia" tags="n.*"/>
-      <match lemma="setmana" tags="n.*"/>
-      <match lemma="mes" tags="n.*"/>
-      <match lemma="any" tags="n.*"/>
-      <match lemma="lustre" tags="n.*"/>
-      <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
-      <match lemma="dilluns" tags="n.*"/>
-      <match lemma="dimarts" tags="n.*"/>
-      <match lemma="dimecres" tags="n.*"/>
-      <match lemma="dijous" tags="n.*"/>
-      <match lemma="divendres" tags="n.*"/>
-      <match lemma="dissabte" tags="n.*"/>
-      <match lemma="diumenge" tags="n.*"/>
-      <match lemma="gener" tags="n.*"/>
-      <match lemma="febrer" tags="n.*"/>
-      <match lemma="març" tags="n.*"/>
-      <match lemma="abril" tags="n.*"/>
-      <match lemma="maig" tags="n.*"/>
-      <match lemma="juny" tags="n.*"/>
-      <match lemma="juliol" tags="n.*"/>
-      <match lemma="agost" tags="n.*"/>
-      <match lemma="setembre" tags="n.*"/>
-      <match lemma="octubre" tags="n.*"/>
-      <match lemma="novembre" tags="n.*"/>
-      <match lemma="desembre" tags="n.*"/>
-    </def-seq>
-
-    <def-seq n="adj_ord">
-      <match lemma="premier" tags="adj.*"/>
-      <match lemma="second" tags="adj.*"/>
-      <match lemma="deuxième" tags="adj.*"/>
-      <match lemma="troisième" tags="adj.*"/>
-      <match lemma="quatrième" tags="adj.*"/>
-      <match lemma="cinquième" tags="adj.*"/>
-      <match lemma="sixième" tags="adj.*"/>
-      <match lemma="septième" tags="adj.*"/>
-      <match lemma="huitième" tags="adj.*"/>
-      <match lemma="neuvième" tags="adj.*"/>
-      <match lemma="dixième" tags="adj.*"/>
-      <match lemma="dernier" tags="adj.*"/>
-      <match lemma="1er" tags="adj.*"/>
-      <match lemma="2nd" tags="adj.*"/>
-      <match lemma="3ème" tags="adj.*"/>
+      <match lemma="jorn" tags="n.*"/>
+      <match lemma="semana" tags="n.*"/>
+      <match lemma="senana" tags="n.*"/>
+      <match lemma="mês" tags="n.*"/>
+      <match lemma="anâ" tags="n.*"/>
+      <match lemma="anâye" tags="n.*"/>
+      <match lemma="sêson" tags="n.*"/>
+      <match lemma="sièclo" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="milènèro" tags="n.*"/>
+      <match lemma="delon" tags="n.*"/>
+      <match lemma="delion" tags="n.*"/>
+      <match lemma="lon" tags="n.*"/>
+      <match lemma="londi" tags="n.*"/>
+      <match lemma="demârs" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="mârdi" tags="n.*"/>
+      <match lemma="demécro" tags="n.*"/>
+      <match lemma="mécredi" tags="n.*"/>
+      <match lemma="dejô" tags="n.*"/>
+      <match lemma="jôdi" tags="n.*"/>
+      <match lemma="devendro" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="dessando" tags="n.*"/>
+      <match lemma="sando" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="demenge" tags="n.*"/>
+      <match lemma="demenche" tags="n.*"/>
+      <match lemma="janviér" tags="n.*"/>
+      <match lemma="fevriér" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mê" tags="n.*"/>
+      <match lemma="jouin" tags="n.*"/>
+      <match lemma="jouen" tags="n.*"/>
+      <match lemma="julyèt" tags="n.*"/>
+      <match lemma="oût" tags="n.*"/>
+      <match lemma="septembro" tags="n.*"/>
+      <match lemma="octobro" tags="n.*"/>
+      <match lemma="novembro" tags="n.*"/>
+      <match lemma="dècembro" tags="n.*"/>
     </def-seq>
   </def-seqs>
 
@@ -698,19 +696,25 @@
 
   <!-- devant >> devant, avant -->
   <rule weight="0.8">
-    <match lemma="devant" tags="pr.*"><select lemma="devant"/></match>
+    <match lemma="devant" tags="pr"><select lemma="devant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="temps"/>
+    </or>
+    <match lemma="devant" tags="pr"><select lemma="avant"/></match>
   </rule>
 
   <!-- aprés >> après, en train de -->
   <rule weight="0.8">
-    <match lemma="aprés" tags="pr.*"><select lemma="après"/></match>
+    <match lemma="aprés" tags="pr"><select lemma="après"/></match>
   </rule>
   <rule weight="1.0">
     <match tags="vbser.*"/>
     <repeat from="0" upto="2">
       <match tags="adv"/>
     </repeat>
-    <match lemma="aprés" tags="pr.*"><select lemma="en train de"/></match>
+    <match lemma="aprés" tags="pr"><select lemma="en train de"/></match>
     <or>
       <match tags="vbser.inf"/>
       <match tags="vbhaver.inf"/>
@@ -723,7 +727,7 @@
     <repeat from="0" upto="2">
       <match tags="adv"/>
     </repeat>
-    <match lemma="aprés" tags="pr.*"><select lemma="en train de"/></match>
+    <match lemma="aprés" tags="pr"><select lemma="en train de"/></match>
     <match tags="prn.pro.*"/>
     <or>
       <match tags="vbser.inf"/>
@@ -1220,13 +1224,18 @@
   <macro name="noms_propres" p1="Tomas" p2="Thomas" />
   <macro name="noms_propres" p1="Pol" p2="Paul" />
   <macro name="noms_propres" p1="Albèrt" p2="Albert" />
+  <macro name="noms_propres" p1="Hombèrt" p2="Humbert" />
+  <macro name="noms_propres" p1="Mechiél" p2="Michel" />
+
+  <macro name="noms_propres" p1="Caterina" p2="Catherine" />
+  <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
+  <macro name="noms_propres" p1="Jiâna" p2="Jeanne" />
 
 <!--
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
   <macro name="noms_propres" p1="Armengol" p2="Ermengol" />
   <macro name="noms_propres" p1="Isabelle" p2="Isabel" />
   <macro name="noms_propres" p1="Élisabeth" p2="Isabel" />
-  <macro name="noms_propres" p1="Jeanne" p2="Joana" />
   <macro name="noms_propres" p1="Sophie" p2="Sofia" />
   <macro name="noms_propres" p1="Benoît" p2="Benet" />
   <macro name="noms_propres" p1="Sixte" p2="Sixt" />
@@ -1239,7 +1248,6 @@
   <macro name="noms_propres" p1="Guillaume" p2="Guillem" />
   <macro name="noms_propres" p1="Nicolas" p2="Nicolau" />
   <macro name="noms_propres" p1="Maximilien" p2="Maximilià" />
-  <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
   <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
   <macro name="noms_propres" p1="Jules" p2="Juli" />
