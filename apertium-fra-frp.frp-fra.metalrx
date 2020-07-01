@@ -954,6 +954,19 @@
     </or>
   </rule>
 
+  <!-- côrp, côrps >> corps, groupe -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="côrp" tags="n.*"><select lemma="corps"/></match>
+      <match lemma="côrps" tags="n.*"><select lemma="corps"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="côrp" tags="n.m.sg"><select lemma="groupe"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="n.*.pl"/>
+  </rule>
+
   <!-- cortelyâjo, jardenâjo >> jardinage, légume(s) -->
   <rule weight="0.8">
     <or>
@@ -1173,6 +1186,16 @@
 
   <!-- aprèstar >> apprêter, préparer -->
   <macro name="verb_nopron_pron" p1="aprèstar" p2="apprêter" p3="préparer" />
+
+  <!-- borrar >> bourrer, frapper, cogner -->
+  <rule weight="0.8">
+    <match lemma="borrar" tags="vblex.*"><select lemma="bourrer"/></match>
+  </rule>
+
+  <!-- bouciér >> bûcher, frapper, cogner -->
+  <rule weight="0.8">
+    <match lemma="bouciér" tags="vblex.*"><select lemma="bûcher"/></match>
+  </rule>
 
   <!-- cachiér >> cacher, écraser -->
   <rule weight="0.8">

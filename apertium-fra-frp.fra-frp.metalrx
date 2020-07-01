@@ -567,6 +567,38 @@
       <match lemma="bétail" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="temps">
+      <match lemma="seconde" tags="n.*"/>
+      <match lemma="minute" tags="n.*"/>
+      <match lemma="heure" tags="n.*"/>
+      <match lemma="jour" tags="n.*"/>
+      <match lemma="semaine" tags="n.*"/>
+      <match lemma="mois" tags="n.*"/>
+      <match lemma="an" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="millénaire" tags="n.*"/>
+      <match lemma="lundi" tags="n.*"/>
+      <match lemma="mardi" tags="n.*"/>
+      <match lemma="mercredi" tags="n.*"/>
+      <match lemma="jeudi" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="dimanche" tags="n.*"/>
+      <match lemma="janvier" tags="n.*"/>
+      <match lemma="février" tags="n.*"/>
+      <match lemma="mars" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mai" tags="n.*"/>
+      <match lemma="juin" tags="n.*"/>
+      <match lemma="juillet" tags="n.*"/>
+      <match lemma="août" tags="n.*"/>
+      <match lemma="septembre" tags="n.*"/>
+      <match lemma="octobre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="décembre" tags="n.*"/>
+    </def-seq>
+
     <def-seq n="adj_ord">
       <match lemma="premier" tags="adj.*"/>
       <match lemma="second" tags="adj.*"/>
@@ -688,6 +720,23 @@
     <match lemma="conseil" tags="n.*"><select lemma="consèly"/></match>
   </rule>
 
+  <!-- couche >> cuche, lange -->
+  <rule weight="0.8">
+    <match lemma="couche" tags="n.*"><select lemma="cuche"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="bébé" tags="n.*"/>
+      <match lemma="mettre" tags="vblex.*"/>
+      <match lemma="porter" tags="vblex.*"/>
+      <match lemma="changer" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
+  </rule>
+
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
@@ -774,21 +823,44 @@
     <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
   </rule>
 
-  <!-- couche >> cuche, lange -->
+  <!-- groupe >> côrp/côrps, groupe -->
   <rule weight="0.8">
-    <match lemma="couche" tags="n.*"><select lemma="cuche"/></match>
+    <match lemma="groupe" tags="n.*"><select lemma="côrp"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
+    <or>
+      <match lemma="sanguin" tags="adj.*"/>
+      <match lemma="scolaire" tags="adj.*"/>
+      <match lemma="commutatif" tags="adj.*"/>
+      <match lemma="abélien" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="algèbre" tags="n.*"/>
+      <match lemma="mathématique" tags="n.*"/>
+      <match lemma="maths" tags="n.*"/>
+      <match lemma="corps" tags="n.*"/>
+      <match lemma="anneau" tags="n.*"/>
+    </or>
   </rule>
   <rule weight="1.0">
     <or>
-      <match lemma="bébé" tags="n.*"/>
-      <match lemma="mettre" tags="vblex.*"/>
-      <match lemma="porter" tags="vblex.*"/>
-      <match lemma="changer" tags="vblex.*"/>
+      <match lemma="algèbre" tags="n.*"/>
+      <match lemma="mathématique" tags="n.*"/>
+      <match lemma="maths" tags="n.*"/>
+      <match lemma="corps" tags="n.*"/>
+      <match lemma="anneau" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
       <match tags="*"/>
     </repeat>
-    <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
+    <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
   </rule>
 
   <!-- Indien >> Endien, Indien -->
@@ -1534,6 +1606,21 @@
     <match lemma="musclé" tags="adj.*"><select lemma="musclâ"/></match>
   </rule>
 
+  <!-- prochain >> prochen, que vint -->
+  <rule weight="0.8">
+    <match lemma="prochain" tags="adj.*"><select lemma="prochen"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prochain" tags="adj.*"><select lemma="que vint"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="temps"/>
+    </or>
+    <match lemma="prochain" tags="adj.*"><select lemma="que vint"/></match>
+  </rule>
+
   <!-- propre >> pôpro, prôpro -->
   <rule weight="0.8">
     <match lemma="propre" tags="adj.*"><select lemma="pôpro"/></match>
@@ -1694,6 +1781,11 @@
   <!-- éveiller >> rèvelyér, èvelyér, dèvelyér  -->
   <rule weight="0.8">
     <match lemma="éveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
+  <!-- frapper >> bouciér, etc.  -->
+  <rule weight="0.8">
+    <match lemma="frapper" tags="vblex.*"><select lemma="bouciér"/></match>
   </rule>
 
   <!-- impliquer >> emplicar, molyér  -->
