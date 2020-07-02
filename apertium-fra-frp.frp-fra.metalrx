@@ -831,6 +831,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- dèbilo >> débile, faible -->
+  <rule weight="0.8">
+    <match lemma="dèbilo" tags="n.*"><select lemma="débile"/></match>
+  </rule>
+
   <!-- famox >> fameux, célèbre -->
   <rule weight="0.8">
     <match lemma="famox" tags="n.*"><select lemma="fameux"/></match>
@@ -843,6 +848,21 @@
         <match tags="adj.*"/>
       </or>
     </repeat>
+    <match tags="n.*"/>
+  </rule>
+
+  <!-- nôvo, nuef >> neuf, nouveau -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="nôvo" tags="n.*"><select lemma="neuf"/></match>
+      <match lemma="nuef" tags="n.*"><select lemma="neuf"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="nôvo" tags="n.*"><select lemma="nouveau"/></match>
+      <match lemma="nuef" tags="n.*"><select lemma="nouveau"/></match>
+    </or>
     <match tags="n.*"/>
   </rule>
 
@@ -1035,6 +1055,14 @@
     </or>
   </rule>
 
+  <!-- éses, ésements >> vaisselle, outil -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="éses" tags="n.*"><select lemma="vaisselle"/></match>
+      <match lemma="ésements" tags="n.*"><select lemma="vaisselle"/></match>
+    </or>
+  </rule>
+
   <!-- fllor >> fleur, crème -->
   <!-- fllorèta >> fleur, crème -->
   <rule weight="0.8">
@@ -1089,6 +1117,44 @@
     <or>
       <match lemma="fllor" tags="n.*"><select lemma="crème"/></match>
       <match lemma="fllorèta" tags="n.*"><select lemma="crème"/></match>
+    </or>
+  </rule>
+
+  <!-- homo, home >> homme, mari -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="homo" tags="n.*"><select lemma="homme"/></match>
+      <match lemma="home" tags="n.*"><select lemma="homme"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+    <or>
+      <match lemma="homo" tags="n.*"><select lemma="mari"/></match>
+      <match lemma="home" tags="n.*"><select lemma="mari"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="homo" tags="n.*"><select lemma="mari"/></match>
+      <match lemma="home" tags="n.*"><select lemma="mari"/></match>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="homo" tags="n.*"><select lemma="mari"/></match>
+      <match lemma="home" tags="n.*"><select lemma="mari"/></match>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
     </or>
   </rule>
 
@@ -1287,6 +1353,8 @@
   <macro name="noms_propres" p1="Albèrt" p2="Albert" />
   <macro name="noms_propres" p1="Hombèrt" p2="Humbert" />
   <macro name="noms_propres" p1="Mechiél" p2="Michel" />
+  <macro name="noms_propres" p1="Guelyômo" p2="Guillaume" />
+  <macro name="noms_propres" p1="Guelyôme" p2="Guillaume" />
 
   <macro name="noms_propres" p1="Caterina" p2="Catherine" />
   <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
@@ -1306,7 +1374,6 @@
   <macro name="noms_propres" p1="Richard" p2="Ricard" />
   <macro name="noms_propres" p1="Martin" p2="Martí" />
   <macro name="noms_propres" p1="Alphonse" p2="Alfons" />
-  <macro name="noms_propres" p1="Guillaume" p2="Guillem" />
   <macro name="noms_propres" p1="Nicolas" p2="Nicolau" />
   <macro name="noms_propres" p1="Maximilien" p2="Maximilià" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />

@@ -1959,6 +1959,7 @@
   <macro name="noms_propres" p1="Albert" p2="Albèrt" />
   <macro name="noms_propres" p1="Humbert" p2="Hombèrt" />
   <macro name="noms_propres" p1="Michel" p2="Mechiél" />
+  <macro name="noms_propres" p1="Guillaume" p2="Guelyômo" />
 
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Jeanne" p2="Jiana" />
@@ -1977,7 +1978,6 @@
   <macro name="noms_propres" p1="Richard" p2="Ricard" />
   <macro name="noms_propres" p1="Martin" p2="Martí" />
   <macro name="noms_propres" p1="Alphonse" p2="Alfons" />
-  <macro name="noms_propres" p1="Guillaume" p2="Guillem" />
   <macro name="noms_propres" p1="Nicolas" p2="Nicolau" />
   <macro name="noms_propres" p1="Maximilien" p2="Maximilià" />
   <macro name="noms_propres" p1="Bernard" p2="Bernat" />
