@@ -779,7 +779,7 @@
     <match tags="adj.*"/>
   </rule>
 
-  <!-- ço, ce, cen, quen, iquen >> cela, ceci, ce -->
+  <!-- ço, ce, cen, quen, iquen >> cela, ceci, ce, ça -->
   <rule weight="0.8">
     <or>
       <match lemma="ço" tags="prn.*"><select lemma="cela"/></match>
@@ -823,6 +823,11 @@
   </rule>
 
 <!-- **************** ADV **************** -->
+
+  <!-- adés >> encore, toujours -->
+  <rule weight="0.8">
+    <match lemma="adés" tags="adv"><select lemma="encore"/></match>
+  </rule>
 
   <!-- lé-en >> là-dedans, là-bas -->
   <rule weight="0.8">
@@ -883,6 +888,18 @@
       <match lemma="sor" tags="n.*"/>
     </or>
     <match lemma="premiér" tags="adj.*"><select lemma="aîné"/></match>
+  </rule>
+
+  <!-- volontèro >> volontaire, bénévole -->
+  <rule weight="0.8">
+    <match lemma="volontèro" tags="adj.*"><select lemma="volontaire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="travâly" tags="n.*"/>
+      <match lemma="colaboracion" tags="n.*"/>
+    </or>
+    <match lemma="volontèro" tags="adj.*"><select lemma="bénévole"/></match>
   </rule>
 
 <!-- **************** N **************** -->
@@ -1238,6 +1255,11 @@
   <rule weight="1.0">
     <match lemma="sêson" tags="n.*"><select lemma="année"/></match>
     <match lemma="scolèro" tags="adj.*"/>
+  </rule>
+
+  <!-- volontèro >> volontaire, bénévole -->
+  <rule weight="0.8">
+    <match lemma="volontèro" tags="n.*"><select lemma="volontaire"/></match>
   </rule>
 
 <!-- **************** V **************** -->

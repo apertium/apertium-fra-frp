@@ -737,6 +737,22 @@
     <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
   </rule>
 
+  <!-- érection >> èrèccion, construccion -->
+  <rule weight="0.8">
+    <match lemma="érection" tags="n.*"><select lemma="èrèccion"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="érection" tags="n.*"><select lemma="construccion"/></match>
+      <match lemma="de" tags="pr"/>
+      <match tags="det.*"/>
+    <or>
+      <match lemma="monument" tags="n.*"/>
+      <match lemma="sculpture" tags="n.*"/>
+      <match lemma="buste" tags="n.*"/>
+      <match lemma="plaque" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
@@ -823,6 +839,59 @@
     <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
   </rule>
 
+  <!-- faille >> sengllo, manco -->
+  <rule weight="0.8">
+    <match lemma="faille" tags="n.*"><select lemma="sengllo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sans" tags="pr"/>
+    <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="dans" tags="pr"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="sécurité" tags="n.*"/>
+      <match lemma="attention" tags="n.*"/>
+      <match lemma="technologie" tags="n.*"/>
+      <match lemma="plan" tags="n.*"/>
+      <match lemma="raisonnment" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
+    <match lemma="fatal" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="avoir" tags="vblex.*"/>
+      <match lemma="trouver" tags="vblex.*"/>
+    </or>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="avoir" tags="vblex.*"/>
+      <match lemma="trouver" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
+  </rule>
+
   <!-- groupe >> côrp/côrps, groupe -->
   <rule weight="0.8">
     <match lemma="groupe" tags="n.*"><select lemma="côrp"/></match>
@@ -866,6 +935,15 @@
   <!-- Indien >> Endien, Indien -->
   <rule weight="0.8">
     <match lemma="Indien" tags="n.*"><select lemma="Endien"/></match>
+  </rule>
+
+  <!-- maintien >> mentin, pôrt -->
+  <rule weight="0.8">
+    <match lemma="maintien" tags="n.*"><select lemma="mentin"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="maintien" tags="n.*"><select lemma="pôrt"/></match>
+    <match lemma="sexuel" tags="adj.*"/>
   </rule>
 
   <!-- maturité >> morèson, maturitât -->
@@ -964,6 +1042,22 @@
     <match tags="np.ant.*"/>
   </rule>
 
+  <!-- seuil >> limita, lendâr -->
+  <rule weight="0.8">
+    <match lemma="seuil" tags="n.*"><select lemma="limita"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="seuil" tags="n.*"><select lemma="lendâr"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <or>
+      <match lemma="porte" tags="n.*"/>
+      <match lemma="maison" tags="n.*"/>
+      <match lemma="hôtel" tags="n.*"/>
+      <match lemma="édifice" tags="n.*"/>
+      <match lemma="ministère" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- sœur >> suèra, seror, sœr, sor -->
   <rule weight="0.8">
@@ -1062,6 +1156,21 @@
     </or>
   </rule>
 -->
+
+  <!-- volet >> volèt, partia -->
+  <rule weight="0.8">
+    <match lemma="volet" tags="n.*"><select lemma="volèt"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="adj_ord"/>
+    </or>
+    <match lemma="volet" tags="n.*"><select lemma="partia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="volet" tags="n.*"><select lemma="partia"/></match>
+    <match lemma="financier" tags="adj.*"/>
+  </rule>
 
 <!-- **************** PRN **************** -->
 
@@ -1402,7 +1511,7 @@
     <match lemma="il" tags="prn.tn.p3.f.pl"/>
   </rule>
 
-  <!-- cela, ceci, ce >> cen, ço, ce, quen, iquen -->
+  <!-- cela, ceci, ce, ça >> cen, ço, ce, quen, iquen -->
   <rule weight="0.8">
     <or>
       <match lemma="cela" tags="prn.*"><select lemma="cen"/></match>
@@ -1548,6 +1657,26 @@
     <match tags="sent"/>
   </rule>
 
+  <!-- encore >> adés, oncor -->
+  <rule weight="0.8">
+    <match lemma="encore" tags="adv"><select lemma="adés"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pas" tags="adv"/>
+    <match lemma="encore" tags="adv"><select lemma="oncor"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="toujours" tags="adv"/>
+    <match lemma="encore" tags="adv"><select lemma="oncor"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="encore" tags="adv"><select lemma="oncor"/></match>
+    <or>
+      <match lemma="plus" tags="adv"/>
+      <match lemma="moins" tags="adv"/>
+    </or>
+  </rule>
+
   <!-- plus >> més, pas més -->
   <rule weight="0.8">
     <match lemma="plus" tags="adv"><select lemma="més"/></match>
@@ -1606,6 +1735,31 @@
     <match lemma="musclé" tags="adj.*"><select lemma="musclâ"/></match>
   </rule>
 
+  <!-- nommé >> qu'at nom, qu'avêt nom -->
+  <rule weight="0.8">
+    <match lemma="nommé" tags="adj.*"><select lemma="qu'at nom"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
+    <repeat from="0" upto="8">
+      <or>
+      <match tags="*.ifi.*"/>
+      <match tags="*.pis.*"/>
+      <match tags="*.pii.*"/>
+      </or>
+    </repeat>
+  </rule>
+  <rule weight="1.0">
+    <repeat from="0" upto="8">
+      <or>
+      <match tags="*.ifi.*"/>
+      <match tags="*.pis.*"/>
+      <match tags="*.pii.*"/>
+      </or>
+    </repeat>
+    <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
+  </rule>
+
   <!-- prochain >> prochen, que vint -->
   <rule weight="0.8">
     <match lemma="prochain" tags="adj.*"><select lemma="prochen"/></match>
@@ -1650,6 +1804,24 @@
       </or>
     </repeat>
     <match lemma="quelconque" tags="adj.*"><select lemma="come les ôtres"/></match>
+  </rule>
+
+  <!-- strict >> sevèro, ètrêt -->
+  <rule weight="0.8">
+    <match lemma="strict" tags="adj.*"><select lemma="sevèro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sens" tags="n.*"/>
+    <match lemma="strict" tags="adj.*"><select lemma="ètrêt"/></match>
+  </rule>
+
+  <!-- susceptible >> suscèptiblo, capâblo -->
+  <rule weight="0.8">
+    <match lemma="susceptible" tags="adj.*"><select lemma="suscèptiblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="susceptible" tags="adj.*"><select lemma="capâblo"/></match>
+    <match lemma="de" tags="pr"/>
   </rule>
 
 <!-- **************** V **************** -->
@@ -1729,6 +1901,9 @@
     <match lemma="décoller" tags="vblex.*"><select lemma="dècôlar"/></match>
   </rule>
 
+  <!-- dérouler >> dèroular, passar -->
+  <macro name="verb_nopron_pron" p1="dérouler" p2="passar" p3="mocar" />
+
   <!-- devenir >> venir, devegnir, devenir -->
   <rule weight="0.8">
     <match lemma="devenir" tags="vblex.*"><select lemma="venir"/></match>
@@ -1767,7 +1942,7 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="de" tags="pr"/>
-    <match lemma="det" tags="pr"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="bilan" tags="n.*"/>
       <match lemma="état" tags="n.*"/>
@@ -1776,6 +1951,42 @@
       <match lemma="profil" tags="n.*"/>
       <match lemma="tableau" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- entamer >> comenciér, entanar, entamar -->
+  <rule weight="0.8">
+    <match lemma="entamer" tags="vblex.*"><select lemma="comenciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="entamer" tags="vblex.*"><select lemma="entanar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match tags="det.*"/>
+    </or>
+    <or>
+      <match lemma="pain" tags="n.*"/>
+      <match lemma="fruit" tags="n.*"/>
+      <match lemma="melon" tags="n.*"/>
+      <match lemma="pastèque" tags="n.*"/>
+      <match lemma="courge" tags="n.*"/>
+      <match lemma="pâté" tags="n.*"/>
+      <match lemma="saucisse" tags="n.*"/>
+      <match lemma="saucisson" tags="n.*"/>
+      <match lemma="repas" tags="n.*"/>
+      <match lemma="déjeuner" tags="n.*"/>
+      <match lemma="petit déjeuner" tags="n.*"/>
+      <match lemma="goûter" tags="n.*"/>
+      <match lemma="dîner" tags="n.*"/>
+      <match lemma="souper" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- étayer >> sotenir, cotar, acotar  -->
+  <rule weight="0.8">
+    <match lemma="étayer" tags="vblex.*"><select lemma="sotenir"/></match>
   </rule>
 
   <!-- éveiller >> rèvelyér, èvelyér, dèvelyér  -->
@@ -1857,6 +2068,26 @@
 
   <!-- moquer >> mourgar, mocar -->
   <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
+
+  <!-- nommer >> nomar, avêr# nom -->
+  <macro name="verb_nopron_pron" p1="nommer" p2="nomar" p3="avêr# nom" />
+
+  <!-- poursuivre >> porsiuvre, prolongiér, continuar -->
+  <macro name="verb_nopron_pron" p1="poursuivre" p2="perseguir" p3="prolongiér" />
+  <rule weight="1.0">
+    <match lemma="poursuivre" tags="vblex.*"><select lemma="continuar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+    <match lemma="étude" tags="n.*"/>
+    <match lemma="marche" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- préparer >> prèparar, aprèstar -->
   <macro name="verb_nopron_pron" p1="préparer" p2="prèparar" p3="aprèstar" />
