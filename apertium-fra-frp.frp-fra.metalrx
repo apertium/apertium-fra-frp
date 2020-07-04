@@ -948,6 +948,34 @@
     <match lemma="cabarèt" tags="n.*"><select lemma="café"/></match>
   </rule>
 
+  <!-- chèrn >> chair, viande -->
+  <rule weight="0.8">
+    <match lemma="chèrn" tags="n.*"><select lemma="chair"/></match>
+  </rule>
+  <rule weight="1.0"> <!-- PENDENT de traduir i de duplicar/invertir -->
+    <match lemma="chèrn" tags="n.*"><select lemma="viande"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="manger" tags="vblex.*"/>
+      <match lemma="cuire" tags="vblex.*"/>
+      <match lemma="frire" tags="vblex.*"/>
+      <match lemma="bouillir" tags="vblex.*"/>
+      <match lemma="préparer" tags="vblex.*"/>
+      <match lemma="hacher" tags="vblex.*"/>
+      <match lemma="salate" tags="n.*"/>
+      <match lemma="soupe" tags="n.*"/>
+      <match lemma="pomme# de terre" tags="n.*"/>
+      <match lemma="plat" tags="n.*"/>
+      <match lemma="porc" tags="n.*"/>
+      <match lemma="mouton" tags="n.*"/>
+      <match lemma="agneau" tags="n.*"/>
+      <match lemma="boeuf" tags="n.*"/>
+      <match lemma="veau" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- cibar/chiba >> cible, but -->
   <rule weight="0.8">
     <or>
