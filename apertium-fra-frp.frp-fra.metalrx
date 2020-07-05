@@ -834,6 +834,15 @@
     <match lemma="lé-en" tags="adv"><select lemma="là-dedans"/></match>
   </rule>
 
+  <!-- prod >> beaucoup, assez -->
+  <rule weight="0.8">
+    <match lemma="prod" tags="adv"><select lemma="beaucoup"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prod" tags="adv"><select lemma="assez"/></match>
+    <match tags="adj.*"/>
+  </rule>
+
 <!-- **************** ADJ **************** -->
 
   <!-- dèbilo >> débile, faible -->
@@ -922,7 +931,7 @@
   <rule weight="1.0">
     <match lemma="cabâla" tags="n.*"><select lemma="campagne"/></match>
     <repeat from="0" upto="4">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="électoral" tags="adj.*"/>
@@ -955,7 +964,7 @@
   <rule weight="1.0"> <!-- PENDENT de traduir i de duplicar/invertir -->
     <match lemma="chèrn" tags="n.*"><select lemma="viande"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="manger" tags="vblex.*"/>
@@ -1058,7 +1067,7 @@
       <match lemma="fruit" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="cortelyâjo" tags="n.*"><select lemma="légume"/></match>
@@ -1122,7 +1131,7 @@
       <match lemma="fllorèta" tags="n.*"><select lemma="crème"/></match>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="gâtél" tags="n.*"/>
@@ -1157,7 +1166,7 @@
       <match lemma="ajoutar" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="fllor" tags="n.*"><select lemma="crème"/></match>
@@ -1330,7 +1339,7 @@
   <rule weight="1.0">
     <match lemma="enveyér" tags="vblex.*"><select lemma="envoyer"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <match/>
     </repeat>
     <or>
       <match lemma="lètra" tags="n.*"/>

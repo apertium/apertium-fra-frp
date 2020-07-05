@@ -408,6 +408,7 @@
 <e>       <p><l>quelque<b/>chose<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>quârque<b/>chousa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>quelque<b/>chose<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>quârque-ren<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>quelque<b/>chose<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>sé-què<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>quelque<b/>chose<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>oque<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>quelqu'un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>quârqu'un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>quelqu'un<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>quârqu'un<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>quelques<b/>uns<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>quârqu'un<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1171,7 +1172,7 @@
 <e><p><l>après-demain<s n="adv"/></l><r>aprés-deman<s n="adv"/></r></p></e>
 <e><p><l>en<b/>arrière<s n="adv"/></l><r>en<b/>dèrriér<s n="adv"/></r></p></e>
 <e><p><l>artistement<s n="adv"/></l><r>artistament<s n="adv"/></r></p></e>
-<e r="LR"><p><l>assez<s n="adv"/></l><r>prod<s n="adv"/></r></p></e>
+<e><p><l>assez<s n="adv"/></l><r>prod<s n="adv"/></r></p></e>
 <e i="yes"><p><l>assez<s n="adv"/></l><r>brâvament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>assez<s n="adv"/></l><r>assèz<s n="adv"/></r></p></e>
 <e><p><l>assurément<s n="adv"/></l><r>sûrament<s n="adv"/></r></p></e>
@@ -1612,6 +1613,8 @@
       <e><p><l>tomber<s n="vblex"/></l><r>chêre<s n="vblex"/></r></p></e>
       <e><p><l>emplir<s n="vblex"/></l><r>emplir<s n="vblex"/></r></p></e>
       <e><p><l>faire<s n="vblex"/></l><r>fâre<s n="vblex"/></r></p></e>
+      <e><p><l>refaire<s n="vblex"/></l><r>tornar<g><b/>fâre</g><s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>refaire<s n="vblex"/></l><r>refâre<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>produire<s n="vblex"/></l><r>fâre<s n="vblex"/></r></p></e>
       <e><p><l>penser<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>penser<s n="vblex"/></l><r>musar<s n="vblex"/></r></p></e>
@@ -1771,6 +1774,7 @@
       <e><p><l>détruire<s n="vblex"/></l><r>dètruire<s n="vblex"/></r></p></e>
       <e><p><l>instruire<s n="vblex"/></l><r>enstruire<s n="vblex"/></r></p></e>
       <e><p><l>introduire<s n="vblex"/></l><r>entroduire<s n="vblex"/></r></p></e>
+      <e><p><l>réduire<s n="vblex"/></l><r>rèduire<s n="vblex"/></r></p></e>
       <e><p><l>appuyer<s n="vblex"/></l><r>apoyér<s n="vblex"/></r></p></e>
       <e><p><l>pleuvoir<s n="vblex"/></l><r>plovêr<s n="vblex"/></r></p></e>
       <e><p><l>neiger<s n="vblex"/></l><r>nêvre<s n="vblex"/></r></p></e>
@@ -2201,8 +2205,8 @@
 <e>       <p><l>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Wikimedia<b/>Commons<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Wikimedia<b/>Commons<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Wikipédia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Vouiquipèdia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Semaine<b/>Sainte<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Grant<b/>Semana<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>Semaine<b/>Sainte<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Grant<b/>Senana<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Semaine<b/>Sainte<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Grant<b/>Semana<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Semaine<b/>Sainte<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Grant<b/>Senana<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>Épiphanie<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Rês<s n="np"/><s n="al"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e>       <p><l>Saint-Etienne<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sant-Etiève<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2664,9 +2668,10 @@
 <e><p><l>vertueux<s n="adj"/></l><r>vèrtuox<s n="adj"/></r></p></e>
 <e><p><l>vicieux<s n="adj"/></l><r>viciox<s n="adj"/></r></p></e>
 <e><p><l>victorieux<s n="adj"/></l><r>victoriox<s n="adj"/></r></p></e>
-<e><p><l>extrême<s n="adj"/></l><r>afrox<s n="adj"/></r></p><par n="mf_ox"/></e>
+<e r="LR"><p><l>extrême<s n="adj"/></l><r>afrox<s n="adj"/></r></p><par n="mf_ox"/></e>
 <e><p><l>fasciste<s n="adj"/></l><r>facciox<s n="adj"/></r></p><par n="mf_ox"/></e>
 <e><p><l>revêche<s n="adj"/></l><r>regeniox<s n="adj"/></r></p><par n="mf_ox"/></e>
+<e r="RL"><p><l>revêche<s n="adj"/></l><r>revèrs<s n="adj"/></r></p><par n="mf_ox"/></e>
 <e><p><l>arrangeant<s n="adj"/></l><r>arrengiox<s n="adj"/></r></p><par n="GD_ox"/></e>
 <e><p><l>contrariant<s n="adj"/></l><r>contrariox<s n="adj"/></r></p><par n="GD_ox"/></e>
 <e><p><l>rancunier<s n="adj"/></l><r>rancunox<s n="adj"/></r></p><par n="GD_ox"/></e>
@@ -2739,6 +2744,7 @@
 <e><p><l>algérien<s n="adj"/></l><r>algèrien<s n="adj"/></r></p></e>
 <e><p><l>ancien<s n="adj"/></l><r>ancian<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ancien<s n="adj"/></l><r>ancien<s n="adj"/></r></p></e>
+<e r="LR" a="hector"><p><l>antique<s n="adj"/></l><r>ancian<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e><p><l>appétissant<s n="adj"/></l><r>apetissent<s n="adj"/></r></p></e>
 <e><p><l>ardent<s n="adj"/></l><r>ardent<s n="adj"/></r></p></e>
 <e><p><l>assermenté<s n="adj"/></l><r>assèrmentâ<s n="adj"/></r></p></e>
@@ -5351,7 +5357,8 @@
 <e><p><l>satin<s n="n"/><s n="m"/></l><r>satin<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>saut<s n="n"/><s n="m"/></l><r>sôt<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sauvetage<s n="n"/><s n="m"/></l><r>sôvetâjo<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>scandale<s n="n"/><s n="m"/></l><r>escandâlo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>scandale<s n="n"/><s n="m"/></l><r>scandâlo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>scandale<s n="n"/><s n="m"/></l><r>escandâlo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>scarificateur<s n="n"/><s n="m"/></l><r>griboliér<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sceptre<s n="n"/><s n="m"/></l><r>scèptro<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>scribe<s n="n"/><s n="m"/></l><r>scribo<s n="n"/><s n="m"/></r></p></e>
@@ -8966,6 +8973,8 @@
 <e><p><l>col<s n="n"/><s n="m"/></l><r>col<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>colère<s n="n"/><s n="f"/></l><r>colère<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>colère<s n="n"/><s n="f"/></l><r>colèra<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>colère<s n="n"/><s n="f"/></l><r>ira<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>colère<s n="n"/><s n="f"/></l><r>ire<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>colique<s n="n"/><s n="f"/></l><r>colica<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>collecte<s n="n"/><s n="f"/></l><r>colècta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>collet<s n="n"/><s n="m"/></l><r>colèt<s n="n"/><s n="m"/></r></p></e>
@@ -9273,6 +9282,7 @@
 <e r="RL"><p><l>désinfecter<s n="vblex"/></l><r>dèsenfèctar<s n="vblex"/></r></p></e>
 <e><p><l>désirer<s n="vblex"/></l><r>dèsirar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>désobéir<s n="vblex"/></l><r>acutar<g><b/>pas</g><s n="vblex"/></r></p></e>
+<e><p><l>désobéir<s n="vblex"/></l><r>dèsobeyir<s n="vblex"/></r></p></e>
 <e><p><l>soustraire<s n="vblex"/></l><r>sostrère<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>soustraire<s n="vblex"/></l><r>sotrère<s n="vblex"/></r></p></e>
 <e><p><l>désosser<s n="vblex"/></l><r>dèsossiér<s n="vblex"/></r></p></e>
@@ -10003,7 +10013,7 @@
 <e><p><l>utiliser<s n="vblex"/></l><r>utilisar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>utiliser<s n="vblex"/></l><r>utilisiér<s n="vblex"/></r></p></e>
 
-<e r="LR"><p><l>affreux<s n="adj"/></l><r>afrox<s n="adj"/></r></p></e>
+<e><p><l>affreux<s n="adj"/></l><r>afrox<s n="adj"/></r></p></e>
 <e r="RL"><p><l>badaud<s n="adj"/></l><r>badôl<s n="adj"/></r></p></e>
 <e r="RL"><p><l>badaud<s n="adj"/></l><r>badôd<s n="adj"/></r></p></e>
 <e r="RL"><p><l>bâtard<s n="adj"/></l><r>bascolin<s n="adj"/></r></p></e>
@@ -10724,7 +10734,7 @@
 <e a="alanfavre"><p><l>structuration<s n="n"/><s n="f"/></l><r>structuracion<s n="n"/><s n="f"/></r></p></e>
 <e a="alanfavre"><p><l>subjectivité<s n="n"/><s n="f"/></l><r>subjèctivitât<s n="n"/><s n="f"/></r></p></e>
 <e a="alanfavre"><p><l>surestimation<s n="n"/><s n="f"/></l><r>surèstimacion<s n="n"/><s n="f"/></r></p></e>
-<e a="alanfavre"><p><l>symbole<s n="n"/><s n="m"/></l><r>sembolo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="alanfavre"><p><l>symbole<s n="n"/><s n="m"/></l><r>sembolo<s n="n"/><s n="m"/></r></p></e>
 <e a="alanfavre"><p><l>sympathie<s n="n"/><s n="f"/></l><r>sempatia<s n="n"/><s n="f"/></r></p></e>
 <e a="alanfavre"><p><l>tentative<s n="n"/><s n="f"/></l><r>tentativa<s n="n"/><s n="f"/></r></p></e>
 <e a="alanfavre"><p><l>thérapie<s n="n"/><s n="f"/></l><r>cura<s n="n"/><s n="f"/></r></p></e>
@@ -10787,10 +10797,10 @@
 <e r="LR"><p><l>bluejean<s n="n"/><s n="m"/></l><r>cortil<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>hôtel<g><b/>de<b/>ville</g><s n="n"/><s n="m"/></l><r>hotâl<g><b/>de<b/>vela</g><s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>hôtel<g><b/>de<b/>ville</g><s n="n"/><s n="m"/></l><r>hotâl<g><b/>de<b/>viala</g><s n="n"/><s n="m"/></r></p></e>
-<e><p><l>semaine<s n="n"/><s n="f"/></l><r>semana<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>semaine<s n="n"/><s n="f"/></l><r>senana<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>week-end<s n="n"/><s n="m"/></l><r>fin<g><b/>de<b/>semana</g><s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>week-end<s n="n"/><s n="m"/></l><r>fin<g><b/>de<b/>senana</g><s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>semaine<s n="n"/><s n="f"/></l><r>semana<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>semaine<s n="n"/><s n="f"/></l><r>senana<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>week-end<s n="n"/><s n="m"/></l><r>fin<g><b/>de<b/>semana</g><s n="n"/><s n="f"/></r></p></e>
+<e><p><l>week-end<s n="n"/><s n="m"/></l><r>fin<g><b/>de<b/>senana</g><s n="n"/><s n="f"/></r></p></e>
 
 <e i="yes"><p><l>arc<s n="n"/><s n="m"/></l><r>arçon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>argent<s n="n"/><s n="m"/><s n="sg"/></l><r>argent<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12399,9 +12409,11 @@
 <e><p><l>geste<s n="n"/><s n="m"/></l><r>gèsto<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>geste<s n="n"/><s n="m"/></l><r>gèsta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>gibet<s n="n"/><s n="m"/></l><r>gebèt<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>gifle<s n="n"/><s n="f"/></l><r>atot<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>gifle<s n="n"/><s n="f"/></l><r>giflla<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>gifle<s n="n"/><s n="f"/></l><r>mochiê<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>gifle<s n="n"/><s n="f"/></l><r>potâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>gifle<s n="n"/><s n="f"/></l><r>ètèrsa<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>gilet<s n="n"/><s n="m"/></l><r>gilèt<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>girouette<s n="n"/><s n="f"/></l><r>verèt<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>gîte<s n="n"/><s n="m"/></l><r>jieto<s n="n"/><s n="m"/></r></p></e>
@@ -14579,6 +14591,753 @@
 <e><p><l>fin<s n="adj"/></l><r>fin<s n="adj"/></r></p></e>
 <e a="stich"><p><l>insecte<s n="n"/><s n="m"/></l><r>ensècto<s n="n"/><s n="m"/></r></p></e>
 
+<e><p><l>sentir<s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sentir<s n="vblex"/></l><r>sentonar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sentir<s n="vblex"/></l><r>assadar<s n="vblex"/></r></p></e>
+<e><p><l>consentir<s n="vblex"/></l><r>consentir<s n="vblex"/></r></p></e>
+<e><p><l>ressentir<s n="vblex"/></l><r>ressentir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>peser<s n="vblex"/></l><r>apesentir<s n="vblex"/></r></p></e>
+<e><p><l>fondre<s n="vblex"/></l><r>fondre<s n="vblex"/></r></p></e>
+<e><p><l>confondre<s n="vblex"/></l><r>confondre<s n="vblex"/></r></p></e>
+<e><p><l>valoir<s n="vblex"/></l><r>valêr<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>valoir<s n="vblex"/></l><r>valyêr<s n="vblex"/></r></p></e>
+<e><p><l>peindre<s n="vblex"/></l><r>pindre<s n="vblex"/></r></p></e>
+<e><p><l>plaindre<s n="vblex"/></l><r>plendre<s n="vblex"/></r></p></e>
+<e><p><l>maîtriser<s n="vblex"/></l><r>mêtreyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>maîtriser<s n="vblex"/></l><r>mêtrisar<s n="vblex"/></r></p></e>
+<e><p><l>restreindre<s n="vblex"/></l><r>rètrendre<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>restreindre<s n="vblex"/></l><r>rèthrendre<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>restreindre<s n="vblex"/></l><r>rèstrendre<s n="vblex"/></r></p></e>
+<e><p><l>chevreau<s n="n"/><s n="m"/></l><r>chevrél<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>chevreuil<s n="n"/><s n="m"/></l><r>chevroly<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="Vouiquipèdia"><p><l>externe<s n="adj"/><s n="mf"/></l><r>de<b/>defôr<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e><p><l>coût<s n="n"/><s n="m"/></l><r>côte<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>publicité<s n="n"/><s n="f"/></l><r>recllâma<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>pub<s n="n"/><s n="f"/></l><r>recllâma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>grève<s n="n"/><s n="f"/></l><r>chôma<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>grève<s n="n"/><s n="f"/></l><r>grèva<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>bétail<s n="n"/><s n="m"/></l><r>armalye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>reçu<s n="n"/><s n="m"/></l><r>reçu<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rougir<s n="vblex"/></l><r>rougir<s n="vblex"/></r></p></e>
+<e><p><l>rougeoyer<s n="vblex"/></l><r>rogeyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>supermarché<s n="n"/><s n="m"/></l><r>grant<b/>marchiê<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soigner<s n="vblex"/></l><r>souegnér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>bêcher<s n="vblex"/></l><r>pecar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>buter<s n="vblex"/></l><r>cotar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>buter<s n="vblex"/></l><r>acotar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>meurtrir<s n="vblex"/></l><r>cachiér<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>peiner<s n="vblex"/></l><r>pênar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>pleuviner<s n="vblex"/></l><r>margalyér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>pleuviner<s n="vblex"/></l><r>marcagnér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>pleuviner<s n="vblex"/></l><r>margolar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>pleuviner<s n="vblex"/></l><r>margotar<s n="vblex"/></r></p></e>
+<e><p><l>rabâcher<s n="vblex"/></l><r>rabâchiér<s n="vblex"/></r></p></e>
+<e><p><l>raccommoder<s n="vblex"/></l><r>remendar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>raccommoder<s n="vblex"/></l><r>trapouentar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>raccommoder<s n="vblex"/></l><r>racomodar<s n="vblex"/></r></p></e>
+<e><p><l>raccourcir<s n="vblex"/></l><r>acorciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>raccourcir<s n="vblex"/></l><r>racorciér<s n="vblex"/></r></p></e>
+<e><p><l>radoter<s n="vblex"/></l><r>barbelar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>radoter<s n="vblex"/></l><r>barbotar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>radoter<s n="vblex"/></l><r>radotar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>radoter<s n="vblex"/></l><r>radontar<s n="vblex"/></r></p></e>
+<e><p><l>rafraîchir<s n="vblex"/></l><r>rafrèchir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rafraîchir<s n="vblex"/></l><r>rèfrèchiér<s n="vblex"/></r></p></e>
+<e><p><l>raidir<s n="vblex"/></l><r>rêdir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>raidir<s n="vblex"/></l><r>enrêdir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>railler<s n="vblex"/></l><r>râlyér<s n="vblex"/></r></p></e>
+<e><p><l>ramoner<s n="vblex"/></l><r>èssurchiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ramoner<s n="vblex"/></l><r>ramonar<s n="vblex"/></r></p></e>
+<e><p><l>ranger<s n="vblex"/></l><r>rengiér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>ranger<s n="vblex"/></l><r>ètoyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rapiécer<s n="vblex"/></l><r>repiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rapiécer<s n="vblex"/></l><r>recopèlar<s n="vblex"/></r></p></e>
+<e><p><l>rapiner<s n="vblex"/></l><r>rapenar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rapiner<s n="vblex"/></l><r>grapenar<s n="vblex"/></r></p></e>
+<e><p><l>rassasier<s n="vblex"/></l><r>benésiér<s n="vblex"/></r></p></e>
+<e><p><l>râteler<s n="vblex"/></l><r>râtelar<s n="vblex"/></r></p></e>
+<e><p><l>ratiboiser<s n="vblex"/></l><r>ratibouèsiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ratiboiser<s n="vblex"/></l><r>ratibouèsar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ravauder<s n="vblex"/></l><r>ravôdar<s n="vblex"/></r></p></e>
+<e><p><l>rebiffer<s n="vblex"/></l><r>rebifar<s n="vblex"/></r></p></e>
+<e><p><l>reboiser<s n="vblex"/></l><r>rebouesiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>reboiser<s n="vblex"/></l><r>rebouesar<s n="vblex"/></r></p></e>
+<e><p><l>receler<s n="vblex"/></l><r>recelar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>receler<s n="vblex"/></l><r>reforgar<s n="vblex"/></r></p></e>
+<e><p><l>réchauffer<s n="vblex"/></l><r>rechôdar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>réchauffer<s n="vblex"/></l><r>chandir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>réchauffer<s n="vblex"/></l><r>èchandir<s n="vblex"/></r></p></e>
+<e><p><l>rechercher<s n="vblex"/></l><r>rechèrchiér<s n="vblex"/></r></p></e>
+<e><p><l>récolter<s n="vblex"/></l><r>rècoltar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>récolter<s n="vblex"/></l><r>rècortar<s n="vblex"/></r></p></e>
+<e><p><l>réconcilier<s n="vblex"/></l><r>reconciliyér<s n="vblex"/></r></p></e>
+<e><p><l>rectifier<s n="vblex"/></l><r>rèctifiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rectifier<s n="vblex"/></l><r>rèctifiyér<s n="vblex"/></r></p></e>
+<e><p><l>reculer<s n="vblex"/></l><r>recular<s n="vblex"/></r></p></e>
+<e><p><l>récurer<s n="vblex"/></l><r>rècurar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>récurer<s n="vblex"/></l><r>panossiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>récurer<s n="vblex"/></l><r>panossar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>redire<s n="vblex"/></l><r>raportar<s n="vblex"/></r></p></e>
+<e><p><l>redoubler<s n="vblex"/></l><r>redoblar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>redoubler<s n="vblex"/></l><r>redroblar<s n="vblex"/></r></p></e>
+<e><p><l>redresser<s n="vblex"/></l><r>redrèciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>refaire<s n="vblex"/></l><r>tornar<g><b/>fére</g><s n="vblex"/></r></p></e>
+<e><p><l>réfléchir<s n="vblex"/></l><r>rèflèchir<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>réfléchir<s n="vblex"/></l><r>musar<s n="vblex"/></r></p></e>
+<e><p><l>refroidir<s n="vblex"/></l><r>refrègiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>refroidir<s n="vblex"/></l><r>refrèdir<s n="vblex"/></r></p></e>
+<e><p><l>régénérer<s n="vblex"/></l><r>regènèrar<s n="vblex"/></r></p></e>
+<e><p><l>régenter<s n="vblex"/></l><r>règentar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>régenter<s n="vblex"/></l><r>rèjantar<s n="vblex"/></r></p></e>
+<e><p><l>regimber<s n="vblex"/></l><r>regimbar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>regimber<s n="vblex"/></l><r>reguenar<s n="vblex"/></r></p></e>
+<e><p><l>régler<s n="vblex"/></l><r>règllar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>régler<s n="vblex"/></l><r>adreyér<s n="vblex"/></r></p></e>
+<e><p><l>régulariser<s n="vblex"/></l><r>règularisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>régulariser<s n="vblex"/></l><r>règularisiér<s n="vblex"/></r></p></e>
+<e><p><l>remédier<s n="vblex"/></l><r>remèdiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>remédier<s n="vblex"/></l><r>remèdiyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rencontrer<s n="vblex"/></l><r>contrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rencontrer<s n="vblex"/></l><r>encontrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>reneiger<s n="vblex"/></l><r>renegiér<s n="vblex"/></r></p></e>
+<e><p><l>renfrogner<s n="vblex"/></l><r>refrognér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>renfrogner<s n="vblex"/></l><r>renfrognér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>renifler<s n="vblex"/></l><r>snupar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>renifler<s n="vblex"/></l><r>senupar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>renoncer<s n="vblex"/></l><r>dèportar<s n="vblex"/></r></p></e>
+<e><p><l>renseigner<s n="vblex"/></l><r>rensègnér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>renverser<s n="vblex"/></l><r>renvèrsar<s n="vblex"/></r></p></e>
+<e><p><l>réparer<s n="vblex"/></l><r>rèparar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>réparer<s n="vblex"/></l><r>arrengiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>répartir<s n="vblex"/></l><r>rèpartir<s n="vblex"/></r></p></e>
+<e><p><l>repasser<s n="vblex"/></l><r>repassar<s n="vblex"/></r></p></e>
+<e><p><l>repenser<s n="vblex"/></l><r>repensar<s n="vblex"/></r></p></e>
+<e><p><l>répéter<s n="vblex"/></l><r>rèpètar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>répliquer<s n="vblex"/></l><r>rèplicar<s n="vblex"/></r></p></e>
+<e><p><l>requinquer<s n="vblex"/></l><r>requincar<s n="vblex"/></r></p></e>
+<e><p><l>résonner<s n="vblex"/></l><r>resonar<s n="vblex"/></r></p></e>
+<e><p><l>respirer<s n="vblex"/></l><r>rèspirar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>ressembler<s n="vblex"/></l><r>semblar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>ressembler<s n="vblex"/></l><r>ressemblar<s n="vblex"/></r></p></e>
+<e><p><l>retentir<s n="vblex"/></l><r>retentir<s n="vblex"/></r></p></e>
+<e><p><l>retrousser<s n="vblex"/></l><r>retrossar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>retrousser<s n="vblex"/></l><r>retrossiér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>retrousser<s n="vblex"/></l><r>revèrchiér<s n="vblex"/></r></p></e>
+<e><p><l>réussir<s n="vblex"/></l><r>reussir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>réveiller<s n="vblex"/></l><r>dèssongiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rêver<s n="vblex"/></l><r>rèvar<s n="vblex"/></r></p></e>
+<e><p><l>revigorer<s n="vblex"/></l><r>requinquar<s n="vblex"/></r></p></e>
+<e><p><l>ricaner<s n="vblex"/></l><r>ricanar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ricaner<s n="vblex"/></l><r>ricaniér<s n="vblex"/></r></p></e>
+<e><p><l>rincer<s n="vblex"/></l><r>rinciér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rincer<s n="vblex"/></l><r>renciér<s n="vblex"/></r></p></e>
+<e><p><l>riposter<s n="vblex"/></l><r>ripostar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>riposter<s n="vblex"/></l><r>rispotar<s n="vblex"/></r></p></e>
+<e><p><l>rivaliser<s n="vblex"/></l><r>rivalisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>rivaliser<s n="vblex"/></l><r>rivalisiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ronchonner<s n="vblex"/></l><r>ronchonar<s n="vblex"/></r></p></e>
+<e><p><l>ronronner<s n="vblex"/></l><r>ronronar<s n="vblex"/></r></p></e>
+<e><p><l>ruiner<s n="vblex"/></l><r>ruinar<s n="vblex"/></r></p></e>
+<e><p><l>sacrifier<s n="vblex"/></l><r>sacrifiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sacrifier<s n="vblex"/></l><r>sacrifiyér<s n="vblex"/></r></p></e>
+<e><p><l>saigner<s n="vblex"/></l><r>sagnér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>saigner<s n="vblex"/></l><r>sènar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>saisir<s n="vblex"/></l><r>sêsir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>salir<s n="vblex"/></l><r>sâlir<s n="vblex"/></r></p></e>
+<e><p><l>sanctifier<s n="vblex"/></l><r>sanctifiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sanctifier<s n="vblex"/></l><r>sanctifiyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>saupoudrer<s n="vblex"/></l><r>sâl-pudrar<s n="vblex"/></r></p></e>
+<e><p><l>sauter<s n="vblex"/></l><r>sôtar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sauter<s n="vblex"/></l><r>drigodar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sautiller<s n="vblex"/></l><r>sôtelar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sautiller<s n="vblex"/></l><r>sôtalyér<s n="vblex"/></r></p></e>
+<e><p><l>savourer<s n="vblex"/></l><r>savorar<s n="vblex"/></r></p></e>
+<e><p><l>scandaliser<s n="vblex"/></l><r>scandalisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>scandaliser<s n="vblex"/></l><r>escandalisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>scandaliser<s n="vblex"/></l><r>scandalisiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>scandaliser<s n="vblex"/></l><r>escandalisiér<s n="vblex"/></r></p></e>
+<e><p><l>scier<s n="vblex"/></l><r>rèssiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>scier<s n="vblex"/></l><r>serrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>scier<s n="vblex"/></l><r>serratar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sculpter<s n="vblex"/></l><r>scultar<s n="vblex"/></r></p></e>
+<e><p><l>sécher<s n="vblex"/></l><r>sechiér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>sécher<s n="vblex"/></l><r>èssuyér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>sécher<s n="vblex"/></l><r>rèssuyér<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>sécher<s n="vblex"/></l><r>èssuire<s n="vblex"/></r></p></e>
+<e><p><l>semer<s n="vblex"/></l><r>senar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>semer<s n="vblex"/></l><r>semenar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>semer<s n="vblex"/></l><r>semar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>seriner<s n="vblex"/></l><r>ritoular<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>serrer<s n="vblex"/></l><r>sangllar<s n="vblex"/></r></p></e>
+<e><p><l>sevrer<s n="vblex"/></l><r>dèlêtiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sevrer<s n="vblex"/></l><r>dètreyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sevrer<s n="vblex"/></l><r>sevrar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>siffler<s n="vblex"/></l><r>sublar<s n="vblex"/></r></p></e>
+<e><p><l>signifier<s n="vblex"/></l><r>signifiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>signifier<s n="vblex"/></l><r>signifiyér<s n="vblex"/></r></p></e>
+<e><p><l>sillonner<s n="vblex"/></l><r>rayér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sillonner<s n="vblex"/></l><r>selyonar<s n="vblex"/></r></p></e>
+<e><p><l>skier<s n="vblex"/></l><r>squiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>skier<s n="vblex"/></l><r>esquiar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>skier<s n="vblex"/></l><r>caletar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>skier<s n="vblex"/></l><r>coletar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>sommeiller<s n="vblex"/></l><r>sonicar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>souffleter<s n="vblex"/></l><r>mornifllar<s n="vblex"/></r></p></e>
+<e><p><l>soufrer<s n="vblex"/></l><r>soprar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>soufrer<s n="vblex"/></l><r>sofrar<s n="vblex"/></r></p></e>
+<e><p><l>souhaiter<s n="vblex"/></l><r>souhètar<s n="vblex"/></r></p></e>
+<e><p><l>souiller<s n="vblex"/></l><r>soulyér<s n="vblex"/></r></p></e>
+<e><p><l>soûler<s n="vblex"/></l><r>pintar<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>soulever<s n="vblex"/></l><r>levar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>soulever<s n="vblex"/></l><r>solevar<s n="vblex"/></r></p></e>
+<e><p><l>soupirer<s n="vblex"/></l><r>soupirar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>soupirer<s n="vblex"/></l><r>souspirar<s n="vblex"/></r></p></e>
+<e><p><l>stationner<s n="vblex"/></l><r>stacionar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>stationner<s n="vblex"/></l><r>estacionar<s n="vblex"/></r></p></e>
+<e><p><l>stériliser<s n="vblex"/></l><r>stèrilisar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>stériliser<s n="vblex"/></l><r>stèrilisiér<s n="vblex"/></r></p></e>
+<e><p><l>sucer<s n="vblex"/></l><r>suciér<s n="vblex"/></r></p></e>
+<e><p><l>suinter<s n="vblex"/></l><r>traplorar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>suinter<s n="vblex"/></l><r>souintar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>miséreux<s n="n"/></l><r>crèva-fam<s n="n"/></r></p><par n="anglais_mf"/></e>
+
+<e a="hector"><p><l>anticommuniste<s n="adj"/></l><r>anticomenisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>engagé<s n="adj"/></l><r>volontèro<s n="adj"/></r></p></e>
+<e a="hector"><p><l>antifasciste<s n="adj"/></l><r>antifacciox<s n="adj"/></r></p><par n="mf_ox"/></e>
+<e r="RL" a="hector"><p><l>antifasciste<s n="adj"/></l><r>antifascisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e i="yes"><p><l>hautain<s n="adj"/></l><r>puant<s n="adj"/></r></p></e>
+<e r="LR"><p><l>poli<s n="adj"/></l><r>honéto<s n="adj"/></r></p></e>
+<e><p><l>rance<s n="adj"/></l><r>ranço<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>rance<s n="adj"/></l><r>rance<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ras<s n="adj"/></l><r>râso<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>rassasié<s n="adj"/></l><r>rassasiê<s n="adj"/></r></p></e>
+<e r="RL"><p><l>regrettable<s n="adj"/></l><r>regrètâblo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>repu<s n="adj"/></l><r>repu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>repu<s n="adj"/></l><r>repèssu<s n="adj"/></r></p></e>
+<e><p><l>résolu<s n="adj"/></l><r>rèsolu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>retraité<s n="adj"/></l><r>retrètâ<s n="adj"/></r></p></e>
+<e><p><l>rétréci<s n="adj"/></l><r>rètrent<s n="adj"/></r></p></e>
+<e r="RL"><p><l>revêche<s n="adj"/></l><r>rechegnârd<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>revêche<s n="adj"/></l><r>revèrche<s n="adj"/></r></p></e>
+<e><p><l>revenant<s n="adj"/></l><r>revenent<s n="adj"/></r></p></e>
+<e r="RL"><p><l>revenant<s n="adj"/></l><r>revegnent<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ridé<s n="adj"/></l><r>ridâ<s n="adj"/></r></p></e>
+<e><p><l>ronchonneur<s n="adj"/></l><r>rognassior<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ronchonneur<s n="adj"/></l><r>roneriér<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rose<s n="adj"/></l><r>rôse<s n="adj"/></r></p></e>
+<e r="RL"><p><l>rustre<s n="adj"/></l><r>pagan<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>rustre<s n="adj"/></l><r>pacan<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sage<s n="adj"/></l><r>sâjo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>sale<s n="adj"/></l><r>sâlo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>salutaire<s n="adj"/></l><r>salutèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sauvage<s n="adj"/></l><r>sarvâjo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>sauvage<s n="adj"/></l><r>sarvâge<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sauvage<s n="adj"/></l><r>sârvâjo<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>sauvagin<s n="adj"/></l><r>sarvajon<s n="adj"/></r></p></e>
+<e i="yes"><p><l>sauvagin<s n="adj"/></l><r>sarvagen<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sec<s n="adj"/></l><r>sèche<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e><p><l>secret<s n="adj"/></l><r>secrèt<s n="adj"/></r></p></e>
+<e r="RL"><p><l>secret<s n="adj"/></l><r>segrèt<s n="adj"/></r></p></e>
+<e r="RL"><p><l>septentrional<s n="adj"/></l><r>enversenc<s n="adj"/></r></p></e>
+<e r="RL"><p><l>septentrional<s n="adj"/></l><r>septentrionâl<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sérieux<s n="adj"/></l><r>posâ<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e a="vouiquipèdia"><p><l>serré<s n="adj"/></l><r>sarrâ<s n="adj"/></r></p></e>
+<e r="RL"><p><l>solide<s n="adj"/></l><r>solido<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>solitaire<s n="adj"/></l><r>solèt<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e i="yes"><p><l>solitaire<s n="adj"/></l><r>sol<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>solitaire<s n="adj"/></l><r>solitèro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sombre<s n="adj"/></l><r>sombro<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>soupirant<s n="adj"/></l><r>soupirant<s n="adj"/></r></p></e>
+<e r="RL"><p><l>soupirant<s n="adj"/></l><r>chaland<s n="adj"/></r></p></e>
+<e><p><l>sournois<s n="adj"/></l><r>cachârd<s n="adj"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>sournois<s n="adj"/></l><r>sornouès<s n="adj"/></r></p></e>
+<e><p><l>spartiate<s n="adj"/></l><r>sparciato<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>spartiate<s n="adj"/></l><r>esparciato<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>spécial<s n="adj"/></l><r>spèciâl<s n="adj"/></r></p></e>
+<e r="RL"><p><l>spécial<s n="adj"/></l><r>espèciâl<s n="adj"/></r></p></e>
+<e><p><l>splendide<s n="adj"/></l><r>splendid<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>splendide<s n="adj"/></l><r>splendido<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sportif<s n="adj"/></l><r>sportif<s n="adj"/></r></p></e>
+<e r="RL"><p><l>sportif<s n="adj"/></l><r>esportif<s n="adj"/></r></p></e>
+<e><p><l>stéphanois<s n="adj"/></l><r>èstèfanouès<s n="adj"/></r></p></e>
+<e a="hector"><p><l>structuraliste<s n="adj"/></l><r>structuralisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>structuraliste<s n="adj"/></l><r>estructuralisto<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>stupide<s n="adj"/></l><r>stupido<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>pareil<s n="adj"/></l><r>parèly<s n="adj"/></r></p></e>
+<e><p><l>ras<s n="adj"/></l><r>râs<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>vertical<s n="adj"/></l><r>vertical<s n="adj"/></r></p></e>
+<e r="RL" a="vouiquipèdia"><p><l>occidental<s n="adj"/></l><r>cuchientenc<s n="adj"/></r></p></e>
+<e a="hector"><p><l>nazi<s n="adj"/></l><r>nazi<s n="adj"/></r></p></e>
+<e a="lotrèsor"><p><l>externe<s n="adj"/></l><r>èxtèrno<s n="adj"/></r></p><par n="mf_GD"/></e>
+
+<e r="LR"><p><l>avenue<s n="n"/><s n="f"/></l><r>cors<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>campagnard<s n="n"/></l><r>campagnârd<s n="n"/></r></p></e>
+<e><p><l>chou-fleur<s n="n"/><s n="m"/></l><r>chou-fllor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>comédie<s n="n"/><s n="f"/></l><r>comèdia<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>anticommunisme<s n="n"/><s n="m"/></l><r>anticomenismo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>anticommuniste<s n="n"/></l><r>anticomenisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="hector"><p><l>antifascisme<s n="n"/><s n="m"/></l><r>antifascismo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>linteau<s n="n"/><s n="m"/></l><r>lendâr<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>liteau<s n="n"/><s n="m"/></l><r>lista<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>paquet<s n="n"/><s n="m"/></l><r>paquèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>receveur<s n="n"/></l><r>recevor<s n="n"/></r></p></e>
+<e><p><l>rechange<s n="n"/><s n="m"/></l><r>rechanjo<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>réclame<s n="n"/><s n="m"/></l><r>recllâma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>supermarché<s n="n"/><s n="m"/></l><r>supèrmarchiê<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>syndic<s n="n"/></l><r>sendeco<s n="n"/></r></p></e>
+<e r="RL"><p><l>trottoir<s n="n"/><s n="m"/></l><r>trotouèr<s n="n"/><s n="m"/></r></p></e>
+<e a="stich"><p><l>parabole<s n="n"/><s n="f"/></l><r>parabola<s n="n"/><s n="f"/></r></p></e>
+<e a="hector"><p><l>nazi<s n="n"/></l><r>nazi<s n="n"/></r></p></e>
+<e a="lotrèsor"><p><l>externe<s n="n"/></l><r>èxtèrno<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>arche<s n="n"/><s n="f"/></l><r>ârche<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>filleul<s n="n"/></l><r>felyôl<s n="n"/></r></p></e>
+<e><p><l>mongol<s n="n"/></l><r>mongol<s n="n"/></r></p></e>
+<e><p><l>mortel<s n="n"/></l><r>mortèl<s n="n"/></r></p></e>
+<e><p><l>provençal<s n="n"/></l><r>provençâl<s n="n"/></r></p></e>
+<e><p><l>radical<s n="n"/></l><r>radicâl<s n="n"/></r></p></e>
+<e><p><l>sangsue<s n="n"/><s n="f"/></l><r>sang-sua<s n="n"/><s n="f"/></r></p></e>
+<e a="corpus"><p><l>écolo<s n="n"/><s n="mf"/></l><r>ècolô<s n="n"/><s n="mf"/></r></p></e>
+<e a="corpus"><p><l>dynamisation<s n="n"/><s n="f"/></l><r>dinamisacion<s n="n"/><s n="f"/></r></p></e>
+<e a="stich"><p><l>antimatière<s n="n"/><s n="f"/></l><r>anti-matiére<s n="n"/><s n="f"/></r></p></e>
+
+<e i="yes"><p><l>après-midi<s n="n"/><s n="m"/></l><r>vèprâ<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>boussole<s n="n"/><s n="f"/></l><r>calamita<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="hector"><p><l>antifasciste<s n="n"/></l><r>antifascisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>fontaine<s n="n"/><s n="f"/></l><r>fontana<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>hotte<s n="n"/><s n="f"/></l><r>benèta<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>hotte<s n="n"/><s n="f"/></l><r>benot<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>passereau<s n="n"/><s n="m"/></l><r>pâsserâ<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>passereau<s n="n"/><s n="m"/></l><r>moniô<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>printemps<s n="n"/><s n="m"/></l><r>renovél<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>quai<s n="n"/><s n="m"/></l><r>quê<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>quai<s n="n"/><s n="m"/></l><r>trotior<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>quatorzième<s n="n"/></l><r>quatorziémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>quatorzième<s n="n"/></l><r>quatorgiémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>quenelle<s n="n"/><s n="f"/></l><r>quenèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quenouille<s n="n"/><s n="f"/></l><r>cologne<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>quenouille<s n="n"/><s n="f"/></l><r>conolye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>querelle<s n="n"/><s n="f"/></l><r>querèla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>querelle<s n="n"/><s n="f"/></l><r>trènâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>querelleur<s n="n"/></l><r>rognox<s n="n"/></r></p><par n="GD_ox"/></e>
+<e r="RL"><p><l>queue<s n="n"/><s n="f"/></l><r>coa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quille<s n="n"/><s n="f"/></l><r>guelye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quinzaine<s n="n"/><s n="f"/></l><r>quinzêna<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>quinzaine<s n="n"/><s n="f"/></l><r>quingêna<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>quinzième<s n="n"/></l><r>quinziémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>quinzième<s n="n"/></l><r>quingiémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>quittance<s n="n"/><s n="f"/></l><r>quitence<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>quittance<s n="n"/><s n="f"/></l><r>reçu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rabot<s n="n"/><s n="m"/></l><r>rabot<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>raccourci<s n="n"/><s n="m"/></l><r>racorciê<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>raccourci<s n="n"/><s n="m"/></l><r>racorciére<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>raccourci<s n="n"/><s n="m"/></l><r>travèrsa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>race<s n="n"/><s n="f"/></l><r>race<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rachat<s n="n"/><s n="m"/></l><r>rençon<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>racine<s n="n"/><s n="f"/></l><r>rés<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>racine<s n="n"/><s n="f"/></l><r>réce<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>racket<s n="n"/><s n="m"/></l><r>dètrossâjo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>racket<s n="n"/><s n="m"/></l><r>dèplomâjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>raclée<s n="n"/><s n="f"/></l><r>racllâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>raclée<s n="n"/><s n="f"/></l><r>trifolyê<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>racloir<s n="n"/><s n="m"/></l><r>râcllo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>racloir<s n="n"/><s n="m"/></l><r>racllèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>radis<s n="n"/><s n="m"/></l><r>râdis<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>radis<s n="n"/><s n="m"/></l><r>ravonèt<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e r="RL"><p><l>ragoût<s n="n"/><s n="m"/></l><r>ragôt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>râle<s n="n"/><s n="m"/></l><r>râlo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>râle<s n="n"/><s n="m"/></l><r>rancot<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>râle<s n="n"/><s n="m"/></l><r>ranquèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rallonge<s n="n"/><s n="f"/></l><r>alonge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rallonge<s n="n"/><s n="f"/></l><r>ralonge<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rameau<s n="n"/><s n="m"/></l><r>ramél<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rameau<s n="n"/><s n="m"/></l><r>jèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rameau<s n="n"/><s n="m"/></l><r>rejèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ramoneur<s n="n"/></l><r>ramonor<s n="n"/></r></p></e>
+<e><p><l>rancune<s n="n"/><s n="f"/></l><r>rancuna<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>rancune<s n="n"/><s n="f"/></l><r>ira<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>rancune<s n="n"/><s n="f"/></l><r>ire<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rang<s n="n"/><s n="m"/></l><r>reng<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rang<s n="n"/><s n="m"/></l><r>rang<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rangée<s n="n"/><s n="f"/></l><r>renche<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rangée<s n="n"/><s n="f"/></l><r>renchiê<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rangée<s n="n"/><s n="f"/></l><r>tire<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rapide<s n="n"/></l><r>rapido<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>rapide<s n="n"/></l><r>rêdo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>ras<s n="n"/><s n="m"/></l><r>râs<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ras<s n="n"/><s n="m"/></l><r>râso<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>ratatouille<s n="n"/><s n="f"/></l><r>ratatôlye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ratatouille<s n="n"/><s n="f"/></l><r>chichomèye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rate<s n="n"/><s n="f"/></l><r>meça<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rate<s n="n"/><s n="f"/></l><r>ratèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rebord<s n="n"/><s n="m"/></l><r>rebôrd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rebut<s n="n"/><s n="m"/></l><r>retrèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rebut<s n="n"/><s n="m"/></l><r>rafatalye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rebut<s n="n"/><s n="m"/></l><r>rebuts<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>rebut<s n="n"/><s n="m"/></l><r>trialyes<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e><p><l>receleur<s n="n"/></l><r>recelior<s n="n"/></r></p></e>
+<e r="RL"><p><l>receleur<s n="n"/></l><r>reforguior<s n="n"/></r></p></e>
+<e><p><l>récolte<s n="n"/><s n="f"/></l><r>rècôlta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>récolte<s n="n"/><s n="f"/></l><r>rècôrta<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>récolte<s n="n"/><s n="f"/></l><r>campagne<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>recueil<s n="n"/><s n="m"/></l><r>recuély<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>recueil<s n="n"/><s n="m"/></l><r>recolyence<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>redingote<s n="n"/><s n="f"/></l><r>redincota<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>réfectoire<s n="n"/><s n="m"/></l><r>refèctouèr<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>réfectoire<s n="n"/><s n="m"/></l><r>refèctouèro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>refrain<s n="n"/><s n="m"/></l><r>refren<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>refrain<s n="n"/><s n="m"/></l><r>refredon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>réfrigérateur<s n="n"/><s n="m"/></l><r>refrègior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>réfrigérateur<s n="n"/><s n="m"/></l><r>refrèdissor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>réglisse<s n="n"/><s n="f"/></l><r>règalisse<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>réglisse<s n="n"/><s n="f"/></l><r>ègalisse<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rein<s n="n"/><s n="m"/></l><r>ren<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rein<s n="n"/><s n="m"/></l><r>eren<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rejeton<s n="n"/><s n="m"/></l><r>rejeton<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>remède<s n="n"/><s n="m"/></l><r>remédo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>remède<s n="n"/><s n="m"/></l><r>remédio<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rencontre<s n="n"/><s n="f"/></l><r>encontra<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rencontre<s n="n"/><s n="f"/></l><r>rencontra<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rencontre<s n="n"/><s n="f"/></l><r>rencontro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rêne<s n="n"/><s n="f"/></l><r>rèna<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>renommée<s n="n"/><s n="f"/></l><r>renom<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>renommée<s n="n"/><s n="f"/></l><r>renomâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>renommée<s n="n"/><s n="f"/></l><r>renoméya<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>repas<s n="n"/><s n="m"/></l><r>repâs<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>repas<s n="n"/><s n="m"/></l><r>souye<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>repentir<s n="n"/><s n="m"/></l><r>repentir<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>repentir<s n="n"/><s n="m"/></l><r>repentre<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>réplique<s n="n"/><s n="f"/></l><r>rèplica<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>repos<s n="n"/><s n="m"/></l><r>repôs<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>reprise<s n="n"/><s n="f"/></l><r>reprêsa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>reprise<s n="n"/><s n="f"/></l><r>reprêssa<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>reproche<s n="n"/><s n="m"/></l><r>reprôcho<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>reproche<s n="n"/><s n="m"/></l><r>reprôjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>réservoir<s n="n"/><s n="m"/></l><r>resèrvouèr<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>réservoir<s n="n"/><s n="m"/></l><r>èthang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>résistance<s n="n"/><s n="f"/></l><r>rèsistance<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>résistance<s n="n"/><s n="f"/></l><r>rèsistence<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rétameur<s n="n"/><s n="m"/></l><r>rètamior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rétameur<s n="n"/><s n="m"/></l><r>rètamor<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rétameur<s n="n"/><s n="m"/></l><r>ètamior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rétameur<s n="n"/><s n="m"/></l><r>ètamor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>retraite<s n="n"/><s n="f"/></l><r>retrèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>retraite<s n="n"/><s n="f"/></l><r>retrète<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>retraité<s n="n"/></l><r>retrètâ<s n="n"/></r></p><par n="GD_mf"/></e>
+<e><p><l>réunion<s n="n"/><s n="f"/></l><r>rèunion<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>réunion<s n="n"/><s n="f"/></l><r>tablâ<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>revanche<s n="n"/><s n="f"/></l><r>revenjo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>revanche<s n="n"/><s n="f"/></l><r>revenge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>revanche<s n="n"/><s n="f"/></l><r>revenge<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rêve<s n="n"/><s n="m"/></l><r>rèvo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>revendeur<s n="n"/></l><r>revendor<s n="n"/></r></p></e>
+<e r="RL"><p><l>revendeur<s n="n"/></l><r>revendior<s n="n"/></r></p></e>
+<e r="RL"><p><l>revendeur<s n="n"/></l><r>revendiér<s n="n"/></r></p></e>
+<e r="RL"><p><l>revers<s n="n"/><s n="m"/></l><r>devèrs<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>révolte<s n="n"/><s n="f"/></l><r>rèvolta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>révolte<s n="n"/><s n="f"/></l><r>rebêna<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>révolution<s n="n"/><s n="f"/></l><r>rèvolucion<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>révolution<s n="n"/><s n="f"/></l><r>rebênâda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>revue<s n="n"/><s n="f"/></l><r>revua<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>revue<s n="n"/><s n="f"/></l><r>reviua<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rhume<s n="n"/><s n="m"/></l><r>ruma<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ribambelle<s n="n"/><s n="f"/></l><r>ribambèla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ribambelle<s n="n"/><s n="f"/></l><r>ribendâye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ribambelle<s n="n"/><s n="f"/></l><r>ribandâda<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>richard<s n="n"/></l><r>recharèt<s n="n"/></r></p></e>
+<e><p><l>ridelle<s n="n"/><s n="f"/></l><r>redèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rigole<s n="n"/><s n="f"/></l><r>regôla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ripaille<s n="n"/><s n="f"/></l><r>ripalye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>risque<s n="n"/><s n="m"/></l><r>risco<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>risque<s n="n"/><s n="m"/></l><r>risca<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rivage<s n="n"/><s n="m"/></l><r>gllére<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rivage<s n="n"/><s n="m"/></l><r>rivâjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>robe<s n="n"/><s n="f"/></l><r>gona<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>robe<s n="n"/><s n="f"/></l><r>gonèla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rocher<s n="n"/><s n="m"/></l><r>rochiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rocher<s n="n"/><s n="m"/></l><r>sèx<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>rocher<s n="n"/><s n="m"/></l><r>sèr<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rocher<s n="n"/><s n="m"/></l><r>chiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rognure<s n="n"/><s n="f"/></l><r>rognure<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>romarin<s n="n"/><s n="m"/></l><r>romani<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>romarin<s n="n"/><s n="m"/></l><r>romanin<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ronchonneur<s n="n"/></l><r>rognassior<s n="n"/></r></p></e>
+<e r="RL"><p><l>ronchonneur<s n="n"/></l><r>roneriér<s n="n"/></r></p></e>
+<e><p><l>roncier<s n="n"/></l><r>ronziér<s n="n"/></r></p></e>
+<e><p><l>rond<s n="n"/><s n="m"/></l><r>riond<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rond<s n="n"/><s n="m"/></l><r>rolyon<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rondelle<s n="n"/><s n="f"/></l><r>riondèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ronflement<s n="n"/><s n="m"/></l><r>ronfllo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ronflement<s n="n"/><s n="m"/></l><r>ronfllement<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ronflement<s n="n"/><s n="m"/></l><r>ronfllâ<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ronfleur<s n="n"/></l><r>ronfllor<s n="n"/></r></p></e>
+<e r="RL"><p><l>ronfleur<s n="n"/></l><r>ronfllârd<s n="n"/></r></p></e>
+<e><p><l>roquet<s n="n"/><s n="m"/></l><r>japèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>roquet<s n="n"/><s n="m"/></l><r>japelyèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>roseau<s n="n"/><s n="m"/></l><r>rosél<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rossignol<s n="n"/><s n="m"/></l><r>rossignol<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rossignol<s n="n"/><s n="m"/></l><r>rossignolo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rossignol<s n="n"/><s n="m"/></l><r>rossignolèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rouet<s n="n"/></l><r>rouèt<s n="n"/></r></p></e>
+<e r="RL"><p><l>rouet<s n="n"/></l><r>borgo<s n="n"/></r></p></e>
+<e><p><l>rouleau<s n="n"/><s n="m"/></l><r>roulô<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>roulette<s n="n"/><s n="f"/></l><r>roulèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>roulette<s n="n"/><s n="f"/></l><r>rouèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rouvraie<s n="n"/><s n="f"/></l><r>rovêre<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rouvraie<s n="n"/><s n="f"/></l><r>rovrêre<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>royal<s n="n"/></l><r>royâl<s n="n"/></r></p></e>
+<e><p><l>ruban<s n="n"/><s n="m"/></l><r>ruban<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ruban<s n="n"/><s n="m"/></l><r>trècior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ruche<s n="n"/><s n="f"/></l><r>brusc<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rucher<s n="n"/><s n="m"/></l><r>avelyér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rucher<s n="n"/><s n="m"/></l><r>ruchiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rue<s n="n"/><s n="f"/></l><r>rua<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>rue<s n="n"/><s n="f"/></l><r>routa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ruisseau<s n="n"/><s n="m"/></l><r>riâl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ruisseau<s n="n"/><s n="m"/></l><r>riolèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ruisseau<s n="n"/><s n="m"/></l><r>égouâl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ruisseau<s n="n"/><s n="m"/></l><r>risa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rusé<s n="n"/></l><r>agouesiê<s n="n"/></r></p></e>
+<e r="RL"><p><l>rusé<s n="n"/></l><r>malin<s n="n"/></r></p></e>
+<e r="RL"><p><l>pansement<s n="n"/><s n="m"/></l><r>blèche<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rustre<s n="n"/><s n="m"/></l><r>pagan<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rustre<s n="n"/><s n="m"/></l><r>pacan<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sabot<s n="n"/><s n="m"/></l><r>sabôt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sabot<s n="n"/><s n="m"/></l><r>cabôt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sabot<s n="n"/><s n="m"/></l><r>cabôta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sabotier<s n="n"/></l><r>sabotiér<s n="n"/></r></p></e>
+<e r="RL"><p><l>sabotier<s n="n"/></l><r>cabôtiér<s n="n"/></r></p></e>
+<e><p><l>sabre<s n="n"/><s n="m"/></l><r>sâbro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sabre<s n="n"/><s n="m"/></l><r>sâpro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sacrement<s n="n"/><s n="m"/></l><r>sacrament<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sacrement<s n="n"/><s n="m"/></l><r>sacrement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sacrifice<s n="n"/><s n="m"/></l><r>sacrificio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sacrifice<s n="n"/><s n="m"/></l><r>sacrifiço<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sacristain<s n="n"/></l><r>sacristin<s n="n"/></r></p></e>
+<e><p><l>sacristie<s n="n"/><s n="f"/></l><r>sacristia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sacristie<s n="n"/><s n="f"/></l><r>sacristie<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sage<s n="n"/></l><r>sâjo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>sage<s n="n"/></l><r>brâvo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>salade<s n="n"/><s n="f"/></l><r>salâda<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>salade<s n="n"/><s n="f"/></l><r>salârda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>saladier<s n="n"/><s n="m"/></l><r>saladiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saladier<s n="n"/><s n="m"/></l><r>salardiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>salaire<s n="n"/><s n="m"/></l><r>salèro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saleté<s n="n"/><s n="f"/></l><r>mâlnètior<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>salière<s n="n"/><s n="f"/></l><r>saliére<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>salière<s n="n"/><s n="f"/></l><r>sanelyon<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>salive<s n="n"/><s n="f"/></l><r>saliva<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>salsifis<s n="n"/><s n="m"/></l><r>barbouchèt<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>samedi<s n="n"/><s n="m"/></l><r>dessando<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>samedi<s n="n"/><s n="m"/></l><r>samedi<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>samedi<s n="n"/><s n="m"/></l><r>sando<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saponaire<s n="n"/><s n="f"/></l><r>savonère<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>saponaire<s n="n"/><s n="f"/></l><r>saponère<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sarcloir<s n="n"/><s n="m"/></l><r>rablèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sarriette<s n="n"/><s n="f"/></l><r>savoria<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sarriette<s n="n"/><s n="f"/></l><r>sarrièta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>saucisse<s n="n"/><s n="f"/></l><r>socesse<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>saucisson<s n="n"/><s n="m"/></l><r>socesson<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saucisson<s n="n"/><s n="m"/></l><r>boutefa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sauge<s n="n"/><s n="f"/></l><r>sôrge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sauge<s n="n"/><s n="f"/></l><r>sôrgèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>saule<s n="n"/><s n="m"/></l><r>sôge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>saule<s n="n"/><s n="m"/></l><r>sôjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>saumure<s n="n"/><s n="f"/></l><r>mouère<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>saumure<s n="n"/><s n="f"/></l><r>sarmouère<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sauterelle<s n="n"/><s n="f"/></l><r>salyèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sauterelle<s n="n"/><s n="f"/></l><r>sôterél<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sauterelle<s n="n"/><s n="f"/></l><r>sôterèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sauvage<s n="n"/></l><r>sarvâjo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>sauvage<s n="n"/><s n="mf"/></l><r>sarvâge<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>sauvage<s n="n"/></l><r>sârvâjo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>sauvagin<s n="n"/></l><r>sarvajon<s n="n"/></r></p></e>
+<e i="yes"><p><l>sauvagin<s n="n"/></l><r>sarvagen<s n="n"/></r></p></e>
+<e><p><l>sauvé<s n="n"/></l><r>sôvo<s n="n"/></r></p></e>
+<e r="RL"><p><l>sauvé<s n="n"/></l><r>sârvo<s n="n"/></r></p></e>
+<e><p><l>savetier<s n="n"/><s n="m"/></l><r>savatiér<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>saxophone<s n="n"/><s n="m"/></l><r>saxofono<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saxophone<s n="n"/><s n="m"/></l><r>saxofone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>scanner<s n="n"/><s n="m"/></l><r>scanor<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>scanner<s n="n"/><s n="m"/></l><r>escanor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>science<s n="n"/><s n="f"/></l><r>science<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>scierie<s n="n"/><s n="f"/></l><r>rèsserie<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>scierie<s n="n"/><s n="f"/></l><r>serrie<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>scieur<s n="n"/></l><r>rèssior<s n="n"/></r></p></e>
+<e r="RL"><p><l>scieur<s n="n"/></l><r>setêro<s n="n"/></r></p></e>
+<e r="RL"><p><l>scieur<s n="n"/></l><r>serriér<s n="n"/></r></p></e>
+<e r="RL"><p><l>scieur<s n="n"/></l><r>sèrror<s n="n"/></r></p></e>
+<e><p><l>sciure<s n="n"/><s n="f"/></l><r>rèsson<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sciure<s n="n"/><s n="f"/></l><r>serron<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>scorbut<s n="n"/><s n="m"/></l><r>scorbut<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>scorbut<s n="n"/><s n="m"/></l><r>escorbut<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>scorpion<s n="n"/><s n="m"/></l><r>scorpion<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>scorpion<s n="n"/><s n="m"/></l><r>escorpion<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>séance<s n="n"/><s n="f"/></l><r>sèance<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>seau<s n="n"/><s n="m"/></l><r>sèlye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>seau<s n="n"/><s n="m"/></l><r>sèly<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sécheresse<s n="n"/><s n="f"/></l><r>sècherèce<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sécheresse<s n="n"/><s n="f"/></l><r>sèchiê<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>secret<s n="n"/><s n="m"/></l><r>secrèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>secret<s n="n"/><s n="m"/></l><r>segrèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>secrétaire<s n="n"/></l><r>secrètèro<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>secrétaire<s n="n"/></l><r>segrètèro<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>seigle<s n="n"/><s n="m"/></l><r>sèglla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>seigle<s n="n"/><s n="m"/></l><r>sêla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sein<s n="n"/><s n="m"/></l><r>sen<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>seizième<s n="n"/></l><r>sèziémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>seizième<s n="n"/></l><r>sègiémo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>semailles<s n="n"/><s n="f"/><s n="pl"/></l><r>senalyes<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>semailles<s n="n"/><s n="f"/><s n="pl"/></l><r>senâjo<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>semailles<s n="n"/><s n="f"/><s n="pl"/></l><r>vouagnèson<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>semblant<s n="n"/><s n="m"/></l><r>semblent<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>semblant<s n="n"/><s n="m"/></l><r>semblant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>semelle<s n="n"/><s n="f"/></l><r>semèla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>semelle<s n="n"/><s n="f"/></l><r>sôla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>semence<s n="n"/><s n="f"/></l><r>sement<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>semence<s n="n"/><s n="f"/></l><r>sement<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>semence<s n="n"/><s n="f"/></l><r>èssement<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>semence<s n="n"/><s n="f"/></l><r>èssement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>semeur<s n="n"/></l><r>vouagnor<s n="n"/></r></p></e>
+<e r="RL"><p><l>semeur<s n="n"/></l><r>senor<s n="n"/></r></p></e>
+<e r="RL"><p><l>semeur<s n="n"/></l><r>semor<s n="n"/></r></p></e>
+<e><p><l>semoir<s n="n"/><s n="m"/></l><r>senior<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>semoir<s n="n"/><s n="m"/></l><r>semior<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>séneçon<s n="n"/><s n="m"/></l><r>seneçon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>senteur<s n="n"/><s n="f"/></l><r>sentor<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>senteur<s n="n"/><s n="f"/></l><r>sentior<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sentier<s n="n"/><s n="m"/></l><r>sentiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sentier<s n="n"/><s n="m"/></l><r>sendèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sentier<s n="n"/><s n="m"/></l><r>sendolèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sérénade<s n="n"/><s n="f"/></l><r>serènâda<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sérénade<s n="n"/><s n="f"/></l><r>serènârda<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sérénade<s n="n"/><s n="f"/></l><r>serénâda<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>serfouette<s n="n"/><s n="f"/></l><r>bèquèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>serpette<s n="n"/><s n="f"/></l><r>corbèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>serpette<s n="n"/><s n="f"/></l><r>corbèla<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>serpette<s n="n"/><s n="f"/></l><r>gogèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>serpette<s n="n"/><s n="f"/></l><r>golyèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>serpillière<s n="n"/><s n="f"/></l><r>panossa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>serpillière<s n="n"/><s n="f"/></l><r>sèrpilyére<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>serpolet<s n="n"/><s n="m"/></l><r>sèrpolèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>serpolet<s n="n"/><s n="m"/></l><r>primpiolèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>serpolet<s n="n"/><s n="m"/></l><r>pegnolèt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>serpolet<s n="n"/><s n="m"/></l><r>fresolèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>serrure<s n="n"/><s n="f"/></l><r>sarralye<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>serrurier<s n="n"/></l><r>sarraliér<s n="n"/></r></p></e>
+<e r="RL"><p><l>serrurier<s n="n"/></l><r>sarralyon<s n="n"/></r></p></e>
+<e><p><l>service<s n="n"/><s n="m"/></l><r>sèrvicio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>service<s n="n"/><s n="m"/></l><r>sèrviço<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>serviette<s n="n"/><s n="f"/></l><r>sèrviéta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>seuil<s n="n"/><s n="m"/></l><r>sôl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>seuil<s n="n"/><s n="m"/></l><r>suel<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sieste<s n="n"/><s n="f"/></l><r>sièsta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sieur<s n="n"/><s n="m"/></l><r>siœr<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>signal<s n="n"/><s n="m"/></l><r>signâl<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>signal<s n="n"/><s n="m"/></l><r>signâblo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>silence<s n="n"/><s n="m"/></l><r>silence<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>silence<s n="n"/><s n="m"/></l><r>silance<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>silex<s n="n"/><s n="m"/></l><r>silice<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e><p><l>simagrée<s n="n"/><s n="f"/></l><r>simagrê<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>simagrée<s n="n"/><s n="f"/></l><r>simagrèya<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sire<s n="n"/><s n="m"/></l><r>sire<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sire<s n="n"/><s n="m"/></l><r>siro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>site<s n="n"/><s n="m"/></l><r>sete<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>site<s n="n"/><s n="m"/></l><r>seto<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>site<s n="n"/><s n="m"/></l><r>pagena<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ski<s n="n"/><s n="m"/></l><r>squi<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ski<s n="n"/><s n="m"/></l><r>esqui<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soc<s n="n"/><s n="m"/></l><r>rélye<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>soc<s n="n"/><s n="m"/></l><r>soc<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>soc<s n="n"/><s n="m"/></l><r>suèc<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>soirée<s n="n"/><s n="f"/></l><r>serenâ<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>soleil<s n="n"/><s n="m"/></l><r>çolely<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>solive<s n="n"/><s n="f"/></l><r>soleva<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>somalien<s n="n"/></l><r>somalien<s n="n"/></r></p></e>
+<e r="RL"><p><l>somalien<s n="n"/></l><r>somali<s n="n"/></r></p></e>
+<e><p><l>sommeil<s n="n"/><s n="m"/></l><r>sono<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sommeil<s n="n"/><s n="m"/></l><r>suen<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sommet<s n="n"/><s n="m"/></l><r>som<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sommet<s n="n"/><s n="m"/></l><r>bechèt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>son<s n="n"/><s n="m"/></l><r>son<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sonnette<s n="n"/><s n="f"/></l><r>sonèta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sorbier<s n="n"/><s n="m"/></l><r>sorbiér<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sorbier<s n="n"/><s n="m"/></l><r>temél<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sorbier<s n="n"/><s n="m"/></l><r>temèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sorcellerie<s n="n"/><s n="f"/></l><r>sorcèlerie<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sorcellerie<s n="n"/><s n="f"/></l><r>vôdèsie<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sorcier<s n="n"/></l><r>sorciér<s n="n"/></r></p></e>
+<e r="RL"><p><l>sorcier<s n="n"/></l><r>vôdês<s n="n"/></r></p><par n="GD_ox"/></e>
+<e><p><l>sorcière<s n="n"/><s n="f"/></l><r>sorciére<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sorcière<s n="n"/><s n="f"/></l><r>norche<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sorcière<s n="n"/><s n="f"/></l><r>gièna<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sorcière<s n="n"/><s n="f"/></l><r>mâsca<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sornette<s n="n"/><s n="f"/></l><r>sornèta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sortie<s n="n"/><s n="f"/></l><r>salyête<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>souche<s n="n"/><s n="f"/></l><r>moche<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>souci<s n="n"/><s n="m"/></l><r>souci<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>souci<s n="n"/><s n="m"/></l><r>sôrcis<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>souci<s n="n"/><s n="m"/></l><r>sôrcisa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>soudure<s n="n"/><s n="f"/></l><r>soudura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>soudure<s n="n"/><s n="f"/></l><r>soudâjo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soue<s n="n"/><s n="f"/></l><r>soue<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>soue<s n="n"/><s n="f"/></l><r>souta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>souffle<s n="n"/><s n="m"/></l><r>sôfllo<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>souffle<s n="n"/><s n="m"/></l><r>fllâr<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>souffle<s n="n"/><s n="m"/></l><r>fllât<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soufre<s n="n"/><s n="m"/></l><r>sopro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>soufre<s n="n"/><s n="m"/></l><r>sofro<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soupe<s n="n"/><s n="f"/></l><r>sopa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>souper<s n="n"/><s n="m"/></l><r>cenar<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>souper<s n="n"/><s n="m"/></l><r>cena<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>soupir<s n="n"/><s n="m"/></l><r>soupir<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>soupir<s n="n"/><s n="m"/></l><r>souspir<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>soupirant<s n="n"/></l><r>soupirant<s n="n"/></r></p></e>
+<e i="yes"><p><l>soupirant<s n="n"/></l><r>chaland<s n="n"/></r></p></e>
+<e r="RL"><p><l>source<s n="n"/><s n="f"/></l><r>dor<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>source<s n="n"/><s n="f"/></l><r>doa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>source<s n="n"/><s n="f"/></l><r>sôrsèla<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sourire<s n="n"/><s n="m"/></l><r>sorire<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sournois<s n="n"/></l><r>cachârd<s n="n"/></r></p><par n="anglais_GD"/></e>
+<e r="RL"><p><l>sournois<s n="n"/></l><r>sornouès<s n="n"/></r></p></e>
+<e><p><l>sous-ventrière<s n="n"/><s n="f"/></l><r>ventriére<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>souvenir<s n="n"/><s n="m"/></l><r>sovenir<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>Spartiate<s n="n"/></l><r>Sparciato<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>Spartiate<s n="n"/></l><r>Esparciato<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>splendide<s n="n"/></l><r>splendid<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>splendide<s n="n"/></l><r>splendido<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>sportif<s n="n"/></l><r>sportif<s n="n"/></r></p></e>
+<e r="RL"><p><l>sportif<s n="n"/></l><r>esportif<s n="n"/></r></p></e>
+<e><p><l>stade<s n="n"/><s n="m"/></l><r>stade<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>stade<s n="n"/><s n="m"/></l><r>estade<s n="n"/><s n="m"/></r></p></e>
+<e i="yes"><p><l>station-service<s n="n"/><s n="f"/></l><r>relê<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>stature<s n="n"/><s n="f"/></l><r>statura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>stature<s n="n"/><s n="f"/></l><r>estatura<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>stéphanois<s n="n"/></l><r>èstèfanouès<s n="n"/></r></p></e>
+<e><p><l>stratège<s n="n"/><s n="mf"/></l><r>stratège<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>stratège<s n="n"/><s n="mf"/></l><r>estratège<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>stratège<s n="n"/></l><r>stratègo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>stratège<s n="n"/></l><r>estratègo<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>structuralisme<s n="n"/><s n="m"/></l><r>structuralismo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>structuralisme<s n="n"/><s n="m"/></l><r>estructuralismo<s n="n"/><s n="m"/></r></p></e>
+<e a="hector"><p><l>structuraliste<s n="n"/></l><r>structuralisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="hector"><p><l>structuraliste<s n="n"/></l><r>estructuralisto<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>stupide<s n="n"/></l><r>stupido<s n="n"/></r></p><par n="mf_GD"/></e>
+<e><p><l>stylo<s n="n"/><s n="m"/></l><r>stilô<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>stylo<s n="n"/><s n="m"/></l><r>estilô<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>suc<s n="n"/><s n="m"/></l><r>égoua<s n="n"/><s n="f"/></r></p></e>
+<e i="yes"><p><l>suc<s n="n"/><s n="m"/></l><r>égoue<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sud<s n="n"/><s n="m"/><s n="sg"/></l><r>miéjorn<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>suie<s n="n"/><s n="f"/></l><r>surche<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>suie<s n="n"/><s n="f"/></l><r>surge<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>suie<s n="n"/><s n="f"/></l><r>mâcheron<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>suif<s n="n"/><s n="m"/></l><r>siuf<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sureau<s n="n"/><s n="m"/></l><r>savuc<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sureau<s n="n"/><s n="m"/></l><r>sambuc<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>surprise<s n="n"/><s n="f"/></l><r>surprêsa<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>surprise<s n="n"/><s n="f"/></l><r>surprêssa<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>symbole<s n="n"/><s n="m"/></l><r>simbolo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>symbole<s n="n"/><s n="m"/></l><r>simbole<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>abbé<s n="n"/><s n="m"/></l><r>âbè<s n="n"/><s n="m"/></r></p></e>
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
