@@ -806,6 +806,91 @@
   <rule weight="0.8">
     <match lemma="que" tags="rel.*"><select lemma="que"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="venir" tags="vblex.*"/>
+      <match lemma="vegnir" tags="vblex.*"/>
+      <match lemma="arrevar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <match tags="vbhaver.*"/>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vbser.pp.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.sg"/>
+      <match tags="adj.*.sg"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*.sg"/>
+      <match tags="vbser.*.sg"/>
+      <match tags="vbhaver.*.sg"/>
+      <match tags="vbmod.*.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.pl"/>
+      <match tags="adj.*.pl"/>
+    </or>
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*.pl"/>
+      <match tags="vbser.*.pl"/>
+      <match tags="vbhaver.*.pl"/>
+      <match tags="vbmod.*.pl"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.sg"/>
+      <match tags="adj.*.sg"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="prn.pro.*"/>
+    <or>
+      <match tags="vblex.*.sg"/>
+      <match tags="vbhaver.*.sg"/>
+      <match tags="vbmod.*.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.pl"/>
+      <match tags="adj.*.pl"/>
+    </or>
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="prn.pro.*"/>
+    <or>
+      <match tags="vblex.*.pl"/>
+      <match tags="vbhaver.*.pl"/>
+      <match tags="vbmod.*.pl"/>
+    </or>
+  </rule>
 
   <!-- qui >> qui, celui qui -->
   <rule weight="0.8">
