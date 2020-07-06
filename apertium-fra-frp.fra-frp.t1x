@@ -8514,6 +8514,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: ON DOIT (on doit: cal)">
       <pattern>
         <pattern-item n="on"/>
@@ -8709,9 +8710,11 @@
          </out>
       </action>
     </rule>
+-->
 
   <!-- FIN REGLAS VBMOD + PRO + VBMOD -->
 
+<!--
     <rule comment="REGLA: EST-CE QUE > 0">
        <pattern>
          <pattern-item n="estceque"/>
@@ -8744,6 +8747,7 @@
         </call-macro>
        </action>
     </rule>
+-->
 
     <rule comment="REGLA: IL EN FAIT > en fa (pedaç per evitar il + ´en fa' (adv) ">
        <pattern>
