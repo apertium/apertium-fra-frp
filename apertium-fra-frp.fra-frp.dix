@@ -726,6 +726,7 @@
 <e r="LR"><p><l>lequel<s n="rel"/></l><r>que<s n="rel"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="LR"><p><l>auquel<s n="rel"/></l><r>que<s n="rel"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="LR"><p><l>duquel<s n="rel"/></l><r>que<s n="rel"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e>       <p><l>qui<s n="rel"/><s n="mf"/><s n="sp"/></l><r>qui<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>celui<b/>qui<s n="rel"/></l><r>qui<s n="rel"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e>       <p><l>où<s n="rel"/><s n="adv"/></l><r>yô<b/>que<s n="rel"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l>où<s n="rel"/><s n="adv"/></l><r>yô<s n="rel"/><s n="adv"/></r></p></e>
@@ -1689,7 +1690,7 @@
       <e><p><l>contenir<s n="vblex"/></l><r>contenir<s n="vblex"/></r></p></e>
       <e><p><l>appartenir<s n="vblex"/></l><r>étre<s n="vblex"/></r></p></e>	<!-- FIXME lui appartient > est à lui -->
       <e><p><l>abstenir<s n="vblex"/></l><r>abstenir<s n="vblex"/></r></p></e>
-      <e><p><l>entendre<s n="vblex"/></l><r>aouire<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>entendre<s n="vblex"/></l><r>aouire<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>entendre<s n="vblex"/></l><r>aouir<s n="vblex"/></r></p></e>
       <e><p><l>répondre<s n="vblex"/></l><r>rèpondre<s n="vblex"/></r></p></e>
       <e><p><l>ajouter<s n="vblex"/></l><r>apondre<s n="vblex"/></r></p></e>
@@ -12946,7 +12947,8 @@
 <e r="RL"><p><l>purifier<s n="vblex"/></l><r>purifiyér<s n="vblex"/></r></p></e>
 <e><p><l>qualifier<s n="vblex"/></l><r>qualifiar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>qualifier<s n="vblex"/></l><r>qualifiyér<s n="vblex"/></r></p></e>
-<e><p><l>quérir<s n="vblex"/></l><r>querir<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>quérir<s n="vblex"/></l><r>querir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>chercher<s n="vblex"/></l><r>querir<s n="vblex"/></r></p></e>
 <e><p><l>descendre<s n="vblex"/></l><r>dèscendre<s n="vblex"/></r></p></e>
 <e><p><l>hésiter<s n="vblex"/></l><r>margalyér<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>hésiter<s n="vblex"/></l><r>marcagnér<s n="vblex"/></r></p></e>
@@ -13976,6 +13978,7 @@
 <e><p><l>plaque<s n="n"/><s n="f"/></l><r>plata<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>plaque<s n="n"/><s n="f"/></l><r>platena<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>plat<s n="n"/><s n="m"/></l><r>plat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>plat<s n="adj"/></l><r>plat<s n="adj"/></r></p></e>
 <e><p><l>platane<s n="n"/><s n="m"/></l><r>platâna<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>platane<s n="n"/><s n="m"/></l><r>platâno<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>plâtre<s n="n"/><s n="m"/></l><r>plâtro<s n="n"/><s n="m"/></r></p></e>
@@ -15338,6 +15341,56 @@
 <e><p><l>symbole<s n="n"/><s n="m"/></l><r>simbolo<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>symbole<s n="n"/><s n="m"/></l><r>simbole<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>abbé<s n="n"/><s n="m"/></l><r>âbè<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sorte<s n="n"/><s n="f"/></l><r>sôrta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>songe<s n="n"/><s n="m"/></l><r>sonjo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>plat<s n="n"/><s n="m"/></l><r>platél<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vêtement<s n="n"/><s n="m"/></l><r>vetura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>vêtement<s n="n"/><s n="m"/></l><r>vètement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sous-vêtement<s n="n"/><s n="m"/></l><r>sot-vetura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>sous-vêtement<s n="n"/><s n="m"/></l><r>sot-vètement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>survêtement<s n="n"/><s n="m"/></l><r>survetura<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>survêtement<s n="n"/><s n="m"/></l><r>survètement<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>contour<s n="n"/><s n="m"/></l><r>contôrn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arche<s n="n"/><s n="f"/></l><r>ârche<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>citèrne<s n="n"/><s n="f"/></l><r>citèrna<s n="n"/><s n="f"/></r></p></e>
+
+<e><p><l>vaincre<s n="vblex"/></l><r>vencre<s n="vblex"/></r></p></e>
+<e><p><l>convaincre<s n="vblex"/></l><r>convencre<s n="vblex"/></r></p></e>
+<e><p><l>défendre<s n="vblex"/></l><r>dèfendre<s n="vblex"/></r></p></e>
+<e><p><l>fendre<s n="vblex"/></l><r>fendre<s n="vblex"/></r></p></e>
+<e><p><l>refendre<s n="vblex"/></l><r>refendre<s n="vblex"/></r></p></e>
+<e><p><l>teindre<s n="vblex"/></l><r>tiendre<s n="vblex"/></r></p></e>
+<e><p><l>éteindre<s n="vblex"/></l><r>ètiendre<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>éteindre<s n="vblex"/></l><r>dètiendre<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>déteindre<s n="vblex"/></l><r>dètiendre<s n="vblex"/></r></p></e>
+<e><p><l>tendre<s n="vblex"/></l><r>tendre<s n="vblex"/></r></p></e>
+<e><p><l>entendre<s n="vblex"/></l><r>entendre<s n="vblex"/></r></p></e>
+<e><p><l>détendre<s n="vblex"/></l><r>dètendre<s n="vblex"/></r></p></e>
+<e><p><l>étendre<s n="vblex"/></l><r>ètendre<s n="vblex"/></r></p></e>
+<e><p><l>prétendre<s n="vblex"/></l><r>prètendre<s n="vblex"/></r></p></e>
+<e><p><l>conduire<s n="vblex"/></l><r>conduire<s n="vblex"/></r></p></e>
+<e><p><l>traduire<s n="vblex"/></l><r>traduire<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>produire<s n="vblex"/></l><r>produire<s n="vblex"/></r></p></e>
+<e><p><l>reproduire<s n="vblex"/></l><r>reproduire<s n="vblex"/></r></p></e>
+<e><p><l>instruire<s n="vblex"/></l><r>instruire<s n="vblex"/></r></p></e>
+<e><p><l>luire<s n="vblex"/></l><r>luire<s n="vblex"/></r></p></e>
+<e><p><l>reluire<s n="vblex"/></l><r>reluire<s n="vblex"/></r></p></e>
+<e><p><l>nuire<s n="vblex"/></l><r>nuére<s n="vblex"/></r></p></e>
+<e><p><l>réduire<s n="vblex"/></l><r>rèduire<s n="vblex"/></r></p></e>
+<e><p><l>séduire<s n="vblex"/></l><r>sèduire<s n="vblex"/></r></p></e>
+<e><p><l>bruire<s n="vblex"/></l><r>bruire<s n="vblex"/></r></p></e>
+<e><p><l>conclure<s n="vblex"/></l><r>concllure<s n="vblex"/></r></p></e>
+<e><p><l>coudre<s n="vblex"/></l><r>codre<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>clore<s n="vblex"/></l><r>cllôre<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>fermer<s n="vblex"/></l><r>cllôre<s n="vblex"/></r></p></e>
+<e><p><l>vêtir<s n="vblex"/></l><r>vetir<s n="vblex"/></r></p></e>
+<e><p><l>dévêtir<s n="vblex"/></l><r>dèvetir<s n="vblex"/></r></p></e>
+<e><p><l>revêtir<s n="vblex"/></l><r>revetir<s n="vblex"/></r></p></e>
+<e><p><l>répandre<s n="vblex"/></l><r>regolyér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>répandre<s n="vblex"/></l><r>èpanchiér<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>épandre<s n="vblex"/></l><r>èpanchiér<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>arranger<s n="vblex"/></l><r>adobar<s n="vblex"/></r></p></e>
+
 
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>

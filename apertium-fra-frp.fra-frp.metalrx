@@ -1618,6 +1618,13 @@
     <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
   </rule>
 
+<!-- **************** REL **************** -->
+
+  <!-- qui >> que, qui -->
+  <rule weight="0.8">
+    <match lemma="qui" tags="rel.*"><select lemma="que"/></match>
+  </rule>
+
 <!-- **************** CNJADV **************** -->
 
   <!-- alors que >> pendent que, tandis que-->
