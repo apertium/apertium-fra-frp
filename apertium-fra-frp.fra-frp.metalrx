@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metalrx>
+<lrx>
 
   <def-macros>
 	<def-macro name="noms_propres">
@@ -737,12 +737,12 @@
     <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
   </rule>
 
-  <!-- érection >> èrèccion, construccion -->
+  <!-- érection >> èrèccion, enstalacion -->
   <rule weight="0.8">
     <match lemma="érection" tags="n.*"><select lemma="èrèccion"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="érection" tags="n.*"><select lemma="construccion"/></match>
+    <match lemma="érection" tags="n.*"><select lemma="enstalacion"/></match>
       <match lemma="de" tags="pr"/>
       <match tags="det.*"/>
     <or>
@@ -750,6 +750,9 @@
       <match lemma="sculpture" tags="n.*"/>
       <match lemma="buste" tags="n.*"/>
       <match lemma="plaque" tags="n.*"/>
+      <match lemma="plate-forme" tags="n.*"/>
+      <match lemma="plateforme" tags="n.*"/>
+      <match lemma="estrade" tags="n.*"/>
     </or>
   </rule>
 
@@ -978,6 +981,16 @@
   <rule weight="1.0">
     <match lemma="un" tags="det.*"/>
     <match lemma="pêche" tags="n.*"><select lemma="pêrche"/></match>
+  </rule>
+
+  <!-- promotion >> nominacion, promocion -->
+  <rule weight="0.8">
+    <match lemma="promotion" tags="n.*"><select lemma="nominacion"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="promotion" tags="n.*"><select lemma="promocion"/></match>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="num.*"/><match tags="num"/></or>
   </rule>
 
   <!-- siège >> èscabél, sièta, sièjo -->
@@ -1975,7 +1988,7 @@
     </or>
   </rule>
 
-  <!-- entamer >> comenciér, entanar, entamar -->
+  <!-- entamer >> comenciér, entanar/entamar, atacar -->
   <rule weight="0.8">
     <match lemma="entamer" tags="vblex.*"><select lemma="comenciér"/></match>
   </rule>
@@ -2004,6 +2017,14 @@
       <match lemma="dîner" tags="n.*"/>
       <match lemma="souper" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="entamer" tags="vblex.*"><select lemma="atacar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="réputation" tags="n.*"/>
   </rule>
 
   <!-- étayer >> sotenir, cotar, acotar  -->
@@ -2094,6 +2115,11 @@
   <!-- nommer >> nomar, avêr# nom -->
   <macro name="verb_nopron_pron" p1="nommer" p2="nomar" p3="avêr# nom" />
 
+  <!-- parvenir >> avengiér, aventar, avendre, parvenir -->
+  <rule weight="0.8">
+    <match lemma="parvenir" tags="vblex.*"><select lemma="avengiér"/></match>
+  </rule>
+
   <!-- poursuivre >> porsiuvre, prolongiér, continuar -->
   <macro name="verb_nopron_pron" p1="poursuivre" p2="perseguir" p3="prolongiér" />
   <rule weight="1.0">
@@ -2119,32 +2145,62 @@
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
   </rule>
 
+  <!-- regarder >> agouétiér, etc. -->
+  <rule weight="0.8">
+    <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
+  </rule>
+
   <!-- rendre >> rebalyér, rendre -->
   <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
-
-  <!-- revenir >> recampar, revenir -->
-  <rule weight="0.8">
-    <match lemma="revenir" tags="vblex.*"><select lemma="recampar"/></match>
-  </rule>
-
-  <!-- parvenir >> avengiér, aventar, avendre, parvenir -->
-  <rule weight="0.8">
-    <match lemma="parvenir" tags="vblex.*"><select lemma="avengiér"/></match>
-  </rule>
 
   <!-- retourner >> reveriér, etc. -->
   <rule weight="0.8">
     <match lemma="retourner" tags="vblex.*"><select lemma="reveriér"/></match>
   </rule>
 
-  <!-- regarder >> agouétiér, etc. -->
-  <rule weight="0.8">
-    <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
-  </rule>
-
   <!-- réveiller >> rèvelyér, èvelyér, dèvelyér  -->
   <rule weight="0.8">
     <match lemma="réveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
+  <!-- revenir >> recampar, revenir -->
+  <rule weight="0.8">
+    <match lemma="revenir" tags="vblex.*"><select lemma="recampar"/></match>
+  </rule>
+
+  <!-- saisir >> arrapar, empouegnér -->
+  <rule weight="0.8">
+    <match lemma="saisir" tags="vblex.*"><select lemma="arrapar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="saisir" tags="vblex.*"><select lemma="empouegnér"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <or>
+      <match lemma="fourchette" tags="n.*"/>
+      <match lemma="couteau" tags="n.*"/>
+      <match lemma="cuillère" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match tags="prn.pro.ref.p3.*.sp"><remove/></match>
+    <match lemma="saisir" tags="vblex.*"><select lemma="prendre"/></match>
+    <match lemma="de" tags="pr"><remove tags="pr"/></match>
+  </rule>
+
+  <!-- suffire >> sufir, bâstar -->
+  <rule weight="0.8">
+    <match lemma="suffire" tags="vblex.*"><select lemma="sufir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ça" tags="prn.*"><remove/></match>
+      <match lemma="cela" tags="prn.*"><remove/></match>
+    </or>
+    <match lemma="suffire" tags="vblex.*"><select lemma="bâstar"/></match>
   </rule>
 
   <!-- transporter >> charrotar, transportar -->
@@ -2256,4 +2312,4 @@
 -->
 
 </rules>
-</metalrx>
+</lrx>
