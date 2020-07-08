@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metalrx>
+<lrx>
 
   <def-macros>
 	<def-macro name="noms_propres">
@@ -810,6 +810,7 @@
     <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
     <or>
       <match tags="vbser.*"/>
+      <match lemma="étre" tags="vblex.*"/>
       <match lemma="venir" tags="vblex.*"/>
       <match lemma="vegnir" tags="vblex.*"/>
       <match lemma="arrevar" tags="vblex.*"/>
@@ -829,10 +830,38 @@
       <match tags="adj.*.sg"/>
       <match tags="np.ant.*"/>
       <match tags="np.cog.*"/>
+      <match tags="np.top.*.sg"/>
+      <match lemma="celi" tags="prn.*.sg"/>
     </or>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
     <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*.sg"/>
+      <match tags="vbser.*.sg"/>
+      <match tags="vbhaver.*.sg"/>
+      <match tags="vbmod.*.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match tags="np.ant.*"/>
+    <or><match tags="num.*"/><match tags="num"/></or>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="prn.pro.*"/>
     </repeat>
     <or>
       <match tags="vblex.*.sg"/>
@@ -845,10 +874,18 @@
     <or>
       <match tags="n.*.pl"/>
       <match tags="adj.*.pl"/>
+      <match lemma="celi" tags="prn.*.pl"/>
+      <match tags="np.top.*.pl"/>
     </or>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
     <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="prn.pro.*"/>
     </repeat>
     <or>
       <match tags="vblex.*.pl"/>
@@ -858,38 +895,57 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <or>
-      <match tags="n.*.sg"/>
-      <match tags="adj.*.sg"/>
-      <match tags="np.ant.*"/>
-      <match tags="np.cog.*"/>
-    </or>
+    <match lemma="cen" tags="prn.*.sg"/>
     <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="prn.pro.*"/>
+    <match lemma="lo" tags="prn.pro.*"/>
     <or>
       <match tags="vblex.*.sg"/>
+      <match tags="vbser.*.sg"/>
       <match tags="vbhaver.*.sg"/>
       <match tags="vbmod.*.sg"/>
     </or>
   </rule>
   <rule weight="1.0">
-    <or>
-      <match tags="n.*.pl"/>
-      <match tags="adj.*.pl"/>
-    </or>
+    <match lemma="cen" tags="prn.*.sg"/>
     <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match tags="prn.pro.*"/>
     <or>
-      <match tags="vblex.*.pl"/>
-      <match tags="vbhaver.*.pl"/>
-      <match tags="vbmod.*.pl"/>
+      <match tags="vblex.*.sg"/>
+      <match tags="vbser.*.sg"/>
+      <match tags="vbhaver.*.sg"/>
+      <match tags="vbmod.*.sg"/>
     </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="cen" tags="prn.*.sg"/>
+    <match lemma="que" tags="rel.*"><select lemma="que"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*.sg"/>
+      <match tags="vbser.*.sg"/>
+      <match tags="vbhaver.*.sg"/>
+      <match tags="vbmod.*.sg"/>
+    </or>
+    <or>
+      <match tags="det.*.sg"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+      <match tags="np.top.*.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="que" tags="rel.*"><select lemma="que"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="falêr" tags="vbmod.*.sg"/>
   </rule>
 
   <!-- qui >> qui, celui qui -->
@@ -1503,6 +1559,7 @@
   <macro name="noms_propres" p1="Caterina" p2="Catherine" />
   <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
   <macro name="noms_propres" p1="Jiâna" p2="Jeanne" />
+  <macro name="noms_propres" p1="Ana" p2="Anne" />
 
 <!--
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
@@ -1535,7 +1592,6 @@
   <macro name="noms_propres" p1="Germain" p2="Germànic" />
   <macro name="noms_propres" p1="Antoine" p2="Antoine" />
   <macro name="noms_propres" p1="René" p2="Renat" />
-  <macro name="noms_propres" p1="Anne" p2="Anna" />
   <macro name="noms_propres" p1="Eugénie" p2="Eugènia" />
   <macro name="noms_propres" p1="Baudouin" p2="Balduí" />
   <macro name="noms_propres" p1="Léopold" p2="Leopold" />
@@ -1543,4 +1599,4 @@
 -->
 
 </rules>
-</metalrx>
+</lrx>

@@ -623,6 +623,29 @@
 
 <!-- **************** N **************** -->
 
+  <!-- aire >> endrêt, surface -->
+  <rule weight="0.8">
+    <match lemma="aire" tags="n.*"><select lemma="endrêt"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="aire" tags="n.*"><select lemma="surface"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="triangle" tags="n.*"/>
+      <match lemma="carré" tags="n.*"/>
+      <match lemma="rectangle" tags="n.*"/>
+      <match lemma="trapèze" tags="n.*"/>
+      <match lemma="losange" tags="n.*"/>
+      <match lemma="pentagone" tags="n.*"/>
+      <match lemma="hexagone" tags="n.*"/>
+      <match lemma="cercle" tags="n.*"/>
+      <match lemma="ellipse" tags="n.*"/>
+      <match lemma="figure" tags="n.*"/>
+      <match lemma="côté" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- année >> anâ, anâye, sêson -->
   <rule weight="0.8">
     <match lemma="année" tags="n.*"><select lemma="anâ"/></match>
@@ -697,6 +720,7 @@
   <rule weight="0.8">
     <match lemma="campagne" tags="n.*"><select lemma="campagne"/></match>
   </rule>
+<!--
   <rule weight="1.0">
     <match lemma="campagne" tags="n.*"><select lemma="cabâla"/></match>
     <repeat from="0" upto="4">
@@ -719,6 +743,7 @@
       <match lemma="débuter" tags="vblex.*"/>
     </or>
   </rule>
+-->
 
   <!-- complexe >> complèxo, ensemblo -->
   <rule weight="0.8">
@@ -764,8 +789,8 @@
   </rule>
   <rule weight="1.0">
     <match lemma="érection" tags="n.*"><select lemma="enstalacion"/></match>
-      <match lemma="de" tags="pr"/>
-      <match tags="det.*"/>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="monument" tags="n.*"/>
       <match lemma="sculpture" tags="n.*"/>
@@ -916,17 +941,21 @@
     <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
   </rule>
 
-  <!-- groupe >> côrp/côrps, groupe -->
+  <!-- groupe >> benda, groupe -->
   <rule weight="0.8">
-    <match lemma="groupe" tags="n.*"><select lemma="côrp"/></match>
+    <match lemma="groupe" tags="n.*"><select lemma="benda"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
     <or>
       <match lemma="sanguin" tags="adj.*"/>
+      <match lemma="vulnérable" tags="adj.*"/>
       <match lemma="scolaire" tags="adj.*"/>
       <match lemma="commutatif" tags="adj.*"/>
       <match lemma="abélien" tags="adj.*"/>
+      <match tags="np.al.*"/>
+      <match tags="np.cog.*"/>
+      <match tags=""/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -954,6 +983,14 @@
       <match/>
     </repeat>
     <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+    </or>
   </rule>
 
   <!-- Indien >> Endien, Indien -->
@@ -2293,6 +2330,7 @@
 
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Jeanne" p2="Jiana" />
+  <macro name="noms_propres" p1="Anne" p2="Ana" />
 
 <!--
   <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
@@ -2325,7 +2363,6 @@
   <macro name="noms_propres" p1="Germain" p2="Germànic" />
   <macro name="noms_propres" p1="Antoine" p2="Antoine" />
   <macro name="noms_propres" p1="René" p2="Renat" />
-  <macro name="noms_propres" p1="Anne" p2="Anna" />
   <macro name="noms_propres" p1="Eugénie" p2="Eugènia" />
   <macro name="noms_propres" p1="Baudouin" p2="Balduí" />
   <macro name="noms_propres" p1="Léopold" p2="Leopold" />
