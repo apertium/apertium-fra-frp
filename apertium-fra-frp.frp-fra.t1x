@@ -5114,6 +5114,7 @@
        </action>
     </rule>
 
+<!--
     <rule comment="REGLA: IMP PRNENC PRNENC">
        <pattern>
          <pattern-item n="imp"/>
@@ -5164,6 +5165,7 @@
          </out>
        </action>
     </rule>
+-->
 
     <rule comment="INF + ENCLÍTIC (regla per l'aranés: pensar-o > le penser)">
       <pattern>
