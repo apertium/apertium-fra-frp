@@ -1543,6 +1543,7 @@
   <macro name="noms_propres" p1="Èdouard" p2="Édouard" />
   <macro name="noms_propres" p1="Filipo" p2="Philippe" />
   <macro name="noms_propres" p1="Françouès" p2="François" />
+  <macro name="noms_propres" p1="Frèdèric" p2="Frédéric" />
   <macro name="noms_propres" p1="Hanri" p2="Henri" />
   <macro name="noms_propres" p1="Jâque" p2="Jacques" />
   <macro name="noms_propres" p1="Jian" p2="Jean" />
@@ -1552,50 +1553,64 @@
   <macro name="noms_propres" p1="Pol" p2="Paul" />
   <macro name="noms_propres" p1="Albèrt" p2="Albert" />
   <macro name="noms_propres" p1="Hombèrt" p2="Humbert" />
+  <macro name="noms_propres" p1="Humbèrt" p2="Humbert" />
+  <macro name="noms_propres" p1="Hubèrt" p2="Hubert" />
   <macro name="noms_propres" p1="Mechiél" p2="Michel" />
+  <macro name="noms_propres" p1="Michèl" p2="Michel" />
   <macro name="noms_propres" p1="Guelyômo" p2="Guillaume" />
   <macro name="noms_propres" p1="Guelyôme" p2="Guillaume" />
+  <macro name="noms_propres" p1="Alèxandro" p2="Alexandre" />
+  <macro name="noms_propres" p1="Bèrtrand" p2="Bertrand" />
+  <macro name="noms_propres" p1="Danièl" p2="Daniel" />
+  <macro name="noms_propres" p1="Ètièno" p2="Étienne" />
+  <macro name="noms_propres" p1="Reniér" p2="René" />
+  <macro name="noms_propres" p1="Renâ" p2="René" />
+  <macro name="noms_propres" p1="Gregouère" p2="Grégoire" />
+  <macro name="noms_propres" p1="Èmanuèl" p2="Emmanuel" />
+  <macro name="noms_propres" p1="Bèrnârd" p2="Bernard" />
+  <macro name="noms_propres" p1="Jian-Pol" p2="Jean-Paul" />
+  <macro name="noms_propres" p1="Benêt" p2="Benoît" />
+  <macro name="noms_propres" p1="Sixto" p2="Sixte" />
+  <macro name="noms_propres" p1="Inocent" p2="Innocent" />
+  <macro name="noms_propres" p1="Lion" p2="Léon" />
+  <macro name="noms_propres" p1="Fèrnand" p2="Ferdinand" />
+  <macro name="noms_propres" p1="Richârd" p2="Richard" />
+  <macro name="noms_propres" p1="Alfonse" p2="Alphonse" />
+  <macro name="noms_propres" p1="Rêmond" p2="Raymond" />
+  <macro name="noms_propres" p1="Cllèment" p2="Clément" />
+  <macro name="noms_propres" p1="Jôrjo" p2="Georges" />
+  <macro name="noms_propres" p1="Jorio" p2="Georges" />
+  <macro name="noms_propres" p1="Antouèno" p2="Antoine" />
+  <macro name="noms_propres" p1="Ugènia" p2="Eugénie" />
+  <macro name="noms_propres" p1="Baldouin" p2="Baudouin" />
+  <macro name="noms_propres" p1="Liopold" p2="Léopold" />
+  <macro name="noms_propres" p1="Amèdê" p2="Amédée" />
+  <macro name="noms_propres" p1="Rèmi" p2="Rémi" />
+  <macro name="noms_propres" p1="Robèrt" p2="Robert" />
+  <macro name="noms_propres" p1="Hugo" p2="Hugues" />
+  <macro name="noms_propres" p1="Urben" p2="Urbain" />
+  <macro name="noms_propres" p1="Fèlix" p2="Félix" />
+  <macro name="noms_propres" p1="Filibèrt" p2="Philibert" />
+  <macro name="noms_propres" p1="Sigimond" p2="Sigismond" />
+  <macro name="noms_propres" p1="Ansèlmo" p2="Anselme" />
+  <macro name="noms_propres" p1="Jèfrê" p2="Geoffroy" />
 
   <macro name="noms_propres" p1="Caterina" p2="Catherine" />
   <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
   <macro name="noms_propres" p1="Jiâna" p2="Jeanne" />
   <macro name="noms_propres" p1="Ana" p2="Anne" />
+  <macro name="noms_propres" p1="Èlisabèt" p2="Élisabeth" />
+  <macro name="noms_propres" p1="Isabèla" p2="Isabelle" />
+  <macro name="noms_propres" p1="Sofia" p2="Sophie" />
+  <macro name="noms_propres" p1="Louisa" p2="Louise" />
+  <macro name="noms_propres" p1="Alionor" p2="Aliénor" />
+  <macro name="noms_propres" p1="Èstèfania" p2="Stéphanie" />
+  <macro name="noms_propres" p1="Iolanda" p2="Yolande" />
+  <macro name="noms_propres" p1="Bèatrice" p2="Béatrice" />
 
 <!--
-  <macro name="noms_propres" p1="Grégoire" p2="Gregori" />
-  <macro name="noms_propres" p1="Armengol" p2="Ermengol" />
-  <macro name="noms_propres" p1="Isabelle" p2="Isabel" />
-  <macro name="noms_propres" p1="Élisabeth" p2="Isabel" />
-  <macro name="noms_propres" p1="Sophie" p2="Sofia" />
-  <macro name="noms_propres" p1="Benoît" p2="Benet" />
-  <macro name="noms_propres" p1="Sixte" p2="Sixt" />
-  <macro name="noms_propres" p1="Innocent" p2="Innocenci" />
-  <macro name="noms_propres" p1="Léon" p2="Lleó" />
-  <macro name="noms_propres" p1="Ferdinand" p2="Ferran" />
-  <macro name="noms_propres" p1="Richard" p2="Ricard" />
-  <macro name="noms_propres" p1="Martin" p2="Martí" />
-  <macro name="noms_propres" p1="Alphonse" p2="Alfons" />
-  <macro name="noms_propres" p1="Nicolas" p2="Nicolau" />
-  <macro name="noms_propres" p1="Maximilien" p2="Maximilià" />
-  <macro name="noms_propres" p1="Bernard" p2="Bernat" />
-  <macro name="noms_propres" p1="Frédéric" p2="Frederic" />
-  <macro name="noms_propres" p1="Jules" p2="Juli" />
-  <macro name="noms_propres" p1="Aliénor" p2="Elionor" />
-  <macro name="noms_propres" p1="Raymond" p2="Ramon" />
-  <macro name="noms_propres" p1="Stéphane" p2="Esteve" />
-  <macro name="noms_propres" p1="Stéphanie" p2="Estefania" />
-  <macro name="noms_propres" p1="Sigismond" p2="Segimon" />
-  <macro name="noms_propres" p1="Claude" p2="Claudi" />
   <macro name="noms_propres" p1="Bonface" p2="Bonfaci" />
-  <macro name="noms_propres" p1="Clément" p2="Climent" />
-  <macro name="noms_propres" p1="Georges" p2="Jordi" />
   <macro name="noms_propres" p1="Germain" p2="Germànic" />
-  <macro name="noms_propres" p1="Antoine" p2="Antoine" />
-  <macro name="noms_propres" p1="René" p2="Renat" />
-  <macro name="noms_propres" p1="Eugénie" p2="Eugènia" />
-  <macro name="noms_propres" p1="Baudouin" p2="Balduí" />
-  <macro name="noms_propres" p1="Léopold" p2="Leopold" />
-  <macro name="noms_propres" p1="Amédée" p2="Amadeu" />
 -->
 
 </rules>
