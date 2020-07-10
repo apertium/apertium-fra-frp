@@ -789,7 +789,7 @@
       <match lemma="iquen" tags="prn.*"><select lemma="cela"/></match>
     </or>
   </rule>
-  <rule weight="0.8">
+  <rule weight="1.0">
     <or>
       <match lemma="ço" tags="prn.*"><select lemma="ce"/></match>
       <match lemma="ce" tags="prn.*"><select lemma="ce"/></match>
@@ -1486,6 +1486,11 @@
       <match lemma="lètra" tags="n.*"/>
       <match lemma="dèpèche" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- ferir >> blesser, frapper -->
+  <rule weight="0.8">
+    <match lemma="ferir" tags="vblex.*"><select lemma="blesser"/></match>
   </rule>
 
   <!-- molyér >> mouiller, impliquer -->

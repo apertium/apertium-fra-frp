@@ -1926,7 +1926,7 @@
 
   <!-- affecter >> tochier, atribuar, fâre# sembllant -->
   <rule weight="0.8">
-    <match lemma="affecter" tags="vblex.*"><select lemma="tochier"/></match>
+    <match lemma="affecter" tags="vblex.*"><select lemma="tochiér"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="affecter" tags="vblex.*"><select lemma="atribuar"/></match>
@@ -2268,6 +2268,23 @@
   <!-- transporter >> charrotar, transportar -->
   <rule weight="0.8">
     <match lemma="transporter" tags="vblex.*"><select lemma="charrotar"/></match>
+  </rule>
+
+  <!-- voler >> volar / robar -->
+  <rule weight="0.8">
+    <match lemma="voler" tags="vblex.*"><select lemma="volar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="voler" tags="vblex.pp.*"><select lemma="robar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="voler" tags="vblex.*"><select lemma="robar"/></match>
+    <match tags="det.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="voler" tags="vblex.*"><select lemma="robar"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
   </rule>
 
 <!-- **************** NP **************** -->
