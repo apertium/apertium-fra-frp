@@ -350,6 +350,26 @@
 		  </rule>
 	</def-macro>
 
+    <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
+    <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
+    <!-- la manera de veure que el verb és transitiu és molt barroera -->
+    <def-macro name="verb_intrans_trans">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <or>
+          <match tags="det.*"/>
+          <match tags="np.*"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="le" tags="prn.pro.*"/>
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb cat, p2 = verb fra no pron, p3 = verb fra pron -->
     <def-macro name="verb_nopron_pron">
@@ -1498,7 +1518,7 @@
     <match lemma="molyér" tags="vblex.*"><select lemma="mouiller"/></match>
   </rule>
 
-  <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller  -->
+  <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller -->
   <macro name="verb_nopron_pron" p1="rèvelyér" p2="éveiller" p3="réveiller" />
   <macro name="verb_nopron_pron" p1="èvelyér" p2="éveiller" p3="réveiller" />
   <macro name="verb_nopron_pron" p1="dèvelyér" p2="éveiller" p3="réveiller" />
