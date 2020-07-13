@@ -412,7 +412,7 @@
        <match lemma="plastique" tags="n.*"/>
        <match lemma="polyester" tags="n.*"/>
        <match lemma="nylon" tags="n.*"/>
-       <match lemma="céràmique" tags="n.*"/>
+       <match lemma="céramique" tags="n.*"/>
        <match lemma="porcelaine" tags="n.*"/>
        <match lemma="bambou" tags="n.*"/>
        <match lemma="boue" tags="n.*"/>
@@ -827,6 +827,92 @@
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
   </rule>
 
+  <!-- emploi >> usâjo, travâly, pôsto -->
+  <rule weight="0.8">
+    <match lemma="emploi" tags="n.*"><select lemma="usâjo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pôle" tags="n.*"/>
+    <match lemma="emploi" tags="n.*"><select lemma="travâly"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="emploi" tags="n.*"><select lemma="travâly"/></match>
+    <or><match lemma="de"/><match lemma="comme"/></or>
+    <or>
+      <match lemma="directeur" tags="n.*"/>
+      <match lemma="informaticien" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="chauffeur" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="service" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="emploi" tags="n.*"><select lemma="travâly"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="emploi" tags="n.*"><select lemma="travâly"/></match>
+    <match tags="cnjcoo"/>
+    <match lemma="ressource" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ressource" tags="n.*"/>
+    <match tags="cnjcoo"/>
+    <match lemma="emploi" tags="n.*"><select lemma="travâly"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="création" tags="n.*"/>
+      <match lemma="génération" tags="n.*"/>
+      <match lemma="créateur"/>
+      <match lemma="générateur"/>
+      <match lemma="suppression" tags="n.*"/>
+      <match lemma="perte" tags="n.*"/>
+      <match lemma="disparition" tags="n.*"/>
+      <match lemma="destruction" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <match lemma="emploi" tags="n.*"><select lemma="pôsto"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="créér" tags="vblex.*"/>
+      <match lemma="générer" tags="vblex.*"/>
+      <match lemma="supprimer" tags="vblex.*"/>
+      <match lemma="perdre" tags="vblex.*"/>
+      <match lemma="dispaître" tags="vblex.*"/>
+      <match lemma="détruire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="emploi" tags="n.*"><select lemma="pôsto"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="emploi" tags="n.*"><select lemma="pôsto"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="public" tags="adj.*"/>
+      <match lemma="rémunéré" tags="adj.*"/>
+      <match lemma="rémunérer" tags="vblex.pp.*"/>
+      <match lemma="payé" tags="adj.*"/>
+      <match lemma="payer" tags="vblex.pp.*"/>
+    </or>
+  </rule>
+
   <!-- essence >> èssence, benzina, gasolena -->
   <rule weight="0.8">
     <match lemma="essence" tags="n.*"><select lemma="èssence"/></match>
@@ -907,6 +993,7 @@
     </repeat>
     <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
   </rule>
+-->
 
   <!-- faille >> sengllo, manco -->
   <rule weight="0.8">
@@ -1862,6 +1949,27 @@
     <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
   </rule>
 
+  <!-- postérieur >> d'après, du dèrriér -->
+  <rule weight="0.8">
+    <match lemma="postérieur" tags="adj.*"><select lemma="d'après"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="patte" tags="n.*"/>
+      <match lemma="roue" tags="n.*"/>
+      <match lemma="pneu" tags="n.*"/>
+      <match lemma="droit" tags="adj.*"/>
+      <match lemma="gauche" tags="adj.*"/>
+      <match lemma="muscle" tags="n.*"/>
+      <match lemma="nerf" tags="n.*"/>
+      <match lemma="cortex" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="postérieur" tags="adj.*"><select lemma="du dèrriér"/></match>
+  </rule>
+
   <!-- prochain >> prochen, que vint -->
   <rule weight="0.8">
     <match lemma="prochain" tags="adj.*"><select lemma="prochen"/></match>
@@ -1978,6 +2086,32 @@
       <match lemma="frais" tags="n.*"/>
       <match lemma="valeur" tags="n.*"/>
       <match lemma="ressource" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- causer >> provocar, côsar -->
+  <rule weight="0.8">
+    <match lemma="causer" tags="vblex.*"><select lemma="provocar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="causer" tags="vblex.*"><select lemma="côsar" tags="vblex.*"/></match>
+    <match lemma="avec" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="causer" tags="vblex.*"><select lemma="côsar" tags="vblex.*"/></match>
+    <match lemma="avec" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="causer" tags="vblex.*"><select lemma="côsar" tags="vblex.*"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="*.sg"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="causer" tags="vblex.*"><select lemma="côsar" tags="vblex.*"/></match>
+    <or>
+      <match lemma="amicalement" tags="adv"/>
+      <match lemma="tranquillement" tags="adv"/>
+      <match lemma="dehors" tags="adv"/>
     </or>
   </rule>
 
@@ -2123,6 +2257,11 @@
   <!-- éveiller >> rèvelyér, èvelyér, dèvelyér -->
   <rule weight="0.8">
     <match lemma="éveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
+  </rule>
+
+  <!-- excéder >> surpassar, ègzaspérar -->
+  <rule weight="0.8">
+    <match lemma="excéder" tags="vblex.*"><select lemma="surpassar"/></match>
   </rule>
 
   <!-- frapper >> bouciér, etc. -->
