@@ -2549,6 +2549,7 @@
   <macro name="noms_propres" p1="Sigismond" p2="Sigimond" />
   <macro name="noms_propres" p1="Anselme" p2="Ansèlmo" />
   <macro name="noms_propres" p1="Geoffroy" p2="Jèfrê" />
+  <macro name="noms_propres" p1="Claude" p2="Gllôdo" />
 
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Jeanne" p2="Jiana" />

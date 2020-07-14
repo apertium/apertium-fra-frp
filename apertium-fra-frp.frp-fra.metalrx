@@ -1181,6 +1181,16 @@
     <match tags="adj.*"/>
   </rule>
   <rule weight="1.2">
+    <or><match tags="num.*"/><match tags="num"/></or>
+    <match lemma="côp" tags="n.*"><select lemma="fois"/></match>
+    <or>
+      <match lemma="més" tags="adv"/>
+      <match lemma="peca" tags="adv"/>
+      <match lemma="ples" tags="adv"/>
+      <match lemma="muens" tags="adv"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
     <match lemma="côp" tags="n.*"><select lemma="fois"/></match>
     <match lemma="a" tags="pr"/>
     <match tags="det.def.*"/>
@@ -1370,6 +1380,18 @@
     <or>
       <seq n="personne"/>
       <seq n="parent"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="homo" tags="n.*"><select lemma="homme"/></match>
+      <match lemma="home" tags="n.*"><select lemma="homme"/></match>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="Diô" tags="np.ant.*"/>
+      <match lemma="diô" tags="n.*"/>
+      <match lemma="sègnor" tags="n.*"/>
     </or>
   </rule>
 
@@ -1619,6 +1641,7 @@
   <macro name="noms_propres" p1="Sigimond" p2="Sigismond" />
   <macro name="noms_propres" p1="Ansèlmo" p2="Anselme" />
   <macro name="noms_propres" p1="Jèfrê" p2="Geoffroy" />
+  <macro name="noms_propres" p1="Gllôdo" p2="Claude" />
 
   <macro name="noms_propres" p1="Caterina" p2="Catherine" />
   <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
