@@ -2254,6 +2254,20 @@
     <match lemma="étayer" tags="vblex.*"><select lemma="sotenir"/></match>
   </rule>
 
+  <!-- être# à l'arrêt, être# aux arrêts >> étre# arrètâ, étre# arrètâs -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="être# à l'arrêt" tags="vblex.*"><select lemma="étre# arrètâ"/></match>
+      <match lemma="être# aux arrêts" tags="vblex.*"><select lemma="étre# arrètâ"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="être# à l'arrêt" tags="vblex.*.pl"><select lemma="étre# arrètâs"/></match>
+      <match lemma="être# aux arrêts" tags="vblex.*.pl"><select lemma="étre# arrètâs"/></match>
+    </or>
+  </rule>
+
   <!-- éveiller >> rèvelyér, èvelyér, dèvelyér -->
   <rule weight="0.8">
     <match lemma="éveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
