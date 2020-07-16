@@ -508,6 +508,12 @@
       <match lemma="collègue" tags="n.*"/>
       <match lemma="policier" tags="n.*"/>
       <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
       <match lemma="politicien" tags="n.*"/>
       <match lemma="homme politique" tags="n.*"/>
       <match lemma="femme politique" tags="n.*"/>
@@ -1899,6 +1905,44 @@
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
   </rule>
 
+  <!-- de col blanc, en col blanc >> de grata-papiér, grata-papiér -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="de col blanc" tags="adj.*"><select lemma="de grata-papiér"/></match>
+      <match lemma="en col blanc" tags="adj.*"><select lemma="de grata-papiér"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+    <seq n="personne"/>
+      <match lemma="de col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
+      <match lemma="en col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
+    </or>
+
+  </rule>
+
+  <!-- excentrique >> folaru, excentrico -->
+  <rule weight="0.8">
+    <match lemma="excentrique" tags="adj.*"><select lemma="folaru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="orbite" tags="n.*"/>
+      <match lemma="trajectoire" tags="n.*"/>
+      <match lemma="cercle" tags="n.*"/>
+      <match lemma="ellipse" tags="n.*"/>
+      <match lemma="quartier" tags="n.*"/>
+      <match lemma="mouvement" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="excentrique" tags="adj.*"><select lemma="excentrico"/></match>
+  </rule>
+
   <!-- indien >> indien, endien -->
   <rule weight="0.8">
     <match lemma="indien" tags="adj.*"><select lemma="indien"/></match>
@@ -2089,6 +2133,24 @@
     </or>
   </rule>
 
+  <!-- assumer >> chargiér# de, accèptar -->
+  <rule weight="0.8">
+    <match lemma="assumer" tags="vblex.*"><select lemma="chargiér# de"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="assumer" tags="vblex.pp.*"><select lemma="accèptar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="pr"/>
+  </rule>
+
+  <!-- baser >> fondar, enstalar -->
+  <macro name="verb_prep" p1="baser" p2="fondar" p3="à" p4="enstalar" />
+
   <!-- causer >> provocar, côsar -->
   <rule weight="0.8">
     <match lemma="causer" tags="vblex.*"><select lemma="provocar" tags="vblex.*"/></match>
@@ -2246,6 +2308,9 @@
     <match lemma="réputation" tags="n.*"/>
   </rule>
 
+  <!-- ériger >> construire, èlevar -->
+  <macro name="verb_prep" p1="ériger" p2="construire" p3="en" p4="èlevar" />
+
   <!-- établir >> ètablir, enstalar -->
   <macro name="verb_nopron_pron" p1="établir" p2="ètablir" p3="enstalar" />
 
@@ -2278,14 +2343,77 @@
     <match lemma="excéder" tags="vblex.*"><select lemma="surpassar"/></match>
   </rule>
 
+  <!-- exclure >> betar# defôr, ècartar -->
+  <rule weight="0.8">
+    <match lemma="exclure" tags="vblex.*"><select lemma="betar# defôr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="exclure" tags="vblex.pp.*"><select lemma="ècartar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="pr"/>
+  </rule>
+
+  <!-- expulser >> chaciér# defôr, chaciér -->
+  <rule weight="0.8">
+    <match lemma="expulser" tags="vblex.*"><select lemma="chaciér# defôr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="expulser" tags="vblex.pp.*"><select lemma="chaciér"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="pr"/>
+  </rule>
+
   <!-- frapper >> bouciér, etc. -->
   <rule weight="0.8">
     <match lemma="frapper" tags="vblex.*"><select lemma="bouciér"/></match>
   </rule>
 
+  <!-- implanter >> grèfar, emplantar -->
+  <macro name="verb_prep" p1="implanter" p2="grèfar" p3="à" p4="emplantar" />
+
   <!-- impliquer >> emplicar, molyér -->
   <rule weight="0.8">
     <match lemma="impliquer" tags="vblex.*"><select lemma="emplicar"/></match>
+  </rule>
+
+  <!-- inclure >> betar# dedens, apondre -->
+  <rule weight="0.8">
+    <match lemma="inclure" tags="vblex.*"><select lemma="betar# dedens"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="inclure" tags="vblex.pp.*"><select lemma="apondre"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="pr"/>
+  </rule>
+
+  <!-- influencer >> pesar# sur, enfluenciér -->
+  <rule weight="0.8">
+    <match lemma="influencer" tags="vblex.*"><select lemma="pesar# sur"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="influencer" tags="vblex.pp.*"><select lemma="enfluenciér"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="pr"/>
   </rule>
 
   <!-- initier >> comenciér, iniciér -->
