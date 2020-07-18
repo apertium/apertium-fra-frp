@@ -649,7 +649,7 @@
 
 <!-- **************** N **************** -->
 
-  <!-- aire >> endrêt, surface -->
+  <!-- aire >> endrêt, surface, ètendua -->
   <rule weight="0.8">
     <match lemma="aire" tags="n.*"><select lemma="endrêt"/></match>
   </rule>
@@ -669,6 +669,17 @@
       <match lemma="ellipse" tags="n.*"/>
       <match lemma="figure" tags="n.*"/>
       <match lemma="côté" tags="n.*"/>
+      <match lemma="ville" tags="n.*"/>
+      <match lemma="commune" tags="n.*"/>
+      <match lemma="agglomération" tags="n.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="aire" tags="n.*"><select lemma="ètendua"/></match>
+    <or>
+      <match lemma="urbain" tags="adj.*"/>
+      <match lemma="métropolitain" tags="adj.*"/>
     </or>
   </rule>
 
@@ -2134,6 +2145,46 @@
   <rule weight="1.0">
     <match lemma="susceptible" tags="adj.*"><select lemma="capâblo"/></match>
     <match lemma="de" tags="pr"/>
+  </rule>
+
+  <!-- urbain >> de la vela, de vela, en vela, urben -->
+  <rule weight="0.8">
+    <match lemma="urbain" tags="adj.*"><select lemma="de la vela"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tourisme" tags="n.*"/>
+      <match lemma="shopping" tags="n.*"/>
+      <match lemma="randonnée" tags="n.*"/>
+      <match lemma="promenade" tags="n.*"/>
+    </or>
+    <match lemma="urbain" tags="adj.*"><select lemma="en vela"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="musique" tags="n.*"/>
+      <match lemma="coutume" tags="n.*"/>
+      <match lemma="habitude" tags="n.*"/>
+      <match lemma="langue" tags="n.*"/>
+      <match lemma="dialecte" tags="n.*"/>
+      <match lemma="jargon" tags="n.*"/>
+      <match lemma="alimentation" tags="n.*"/>
+      <match lemma="produit" tags="n.*"/>
+    </or>
+    <match lemma="urbain" tags="adj.*"><select lemma="de vela"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="aire" tags="n.*"/>
+      <match lemma="agglomération" tags="n.*"/>
+      <match lemma="commune" tags="n.*"/>
+      <match lemma="investissement" tags="n.*"/>
+      <match lemma="communauté" tags="n.*"/>
+      <match lemma="transport" tags="n.*"/>
+      <match lemma="unité" tags="n.*"/>
+      <match lemma="zone" tags="n.*"/>
+    </or>
+    <match lemma="urbain" tags="adj.*"><select lemma="urben"/></match>
   </rule>
 
 <!-- **************** V **************** -->
