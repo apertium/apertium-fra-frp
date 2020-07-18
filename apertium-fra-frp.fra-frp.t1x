@@ -2673,17 +2673,6 @@
       </choose>
     </def-macro>
 
-    <def-macro n="neg_imp" npar="1"> <!-- canvia imp per prs (negació) -->
-      <choose>
-        <when>
-          <test>
-            <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="imp"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="temps"/><lit-tag v="prs"/></let>
-        </when>
-      </choose>
-    </def-macro>
-
     <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
       <choose>
         <when>
@@ -5659,9 +5648,6 @@
          <call-macro n="tipus_verb">
           <with-param pos="2"/>
          </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5692,9 +5678,6 @@
        </pattern>
        <action>
          <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="neg_imp">
           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_bcond">
@@ -5728,9 +5711,6 @@
        </pattern>
        <action>
          <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="neg_imp">
           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_bcond">
@@ -5775,9 +5755,6 @@
          <call-macro n="tipus_verb">
           <with-param pos="2"/>
          </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5820,9 +5797,6 @@
          <call-macro n="tipus_verb">
            <with-param pos="3"/>
          </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5860,9 +5834,6 @@
        </pattern>
        <action>
          <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
-         <call-macro n="neg_imp">
           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_bcond">
@@ -5904,9 +5875,6 @@
        <action>
          <call-macro n="tipus_verb">
            <with-param pos="3"/>
-         </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
@@ -5955,9 +5923,6 @@
        </pattern>
        <action>
          <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
-         <call-macro n="neg_imp">
           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_bcond">
@@ -6060,9 +6025,6 @@
        </pattern>
        <action>
          <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="neg_imp">
           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_bcond">
@@ -7774,9 +7736,6 @@
          <call-macro n="tipus_verb">
           <with-param pos="4"/>
          </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7827,9 +7786,6 @@
        <action>
          <call-macro n="tipus_verb">
           <with-param pos="5"/>
-         </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
@@ -7891,9 +7847,6 @@
          <call-macro n="tipus_verb">
           <with-param pos="5"/>
          </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7952,9 +7905,6 @@
          </call-macro>
          <call-macro n="tipus_verb">
           <with-param pos="6"/>
-         </call-macro>
-         <call-macro n="neg_imp">
-          <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
