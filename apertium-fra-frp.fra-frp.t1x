@@ -145,6 +145,9 @@
     <def-cat n="on">
       <cat-item lemma="on" tags="prn.pro.ref.p3.mf.sp"/>
     </def-cat>
+    <def-cat n="se">
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+    </def-cat>
     <def-cat n="enprn">
       <cat-item lemma="en" tags="prn.*"/>
     </def-cat>
@@ -2607,7 +2610,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="out_verb" npar="1">
+    <def-macro n="out_verb1" npar="1">
       <choose>
         <when>
           <test>
@@ -2704,6 +2707,103 @@
           </choose>
         </when>
         <otherwise>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="temps" />
+                  <lit-tag v="pis" />
+                </equal>
+              </test>
+              <let><clip pos="1" side="sl" part="temps" /><lit-tag v="prs" /></let>
+            </when>
+          </choose>
+          <out>
+            <chunk name="verb">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_verb"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="pers"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="out_verb_ser1" npar="1">	<!-- comme out_verb1, mais toujours avec 'étre' si ifi -->
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="temps" />
+              <lit-tag v="ifi" />
+            </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <case-of pos="1" side="sl" part="lemh" />
+                  <lit v="Aa" />
+                </equal>
+              </test>
+              <modify-case>
+                <clip pos="1" side="tl" part="lemh" />
+                <lit v="aa" />
+              </modify-case>
+            </when>
+          </choose>
+          <out>
+            <chunk name="verb">
+              <tags>
+                <tag><lit-tag v="SVpp"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><var n="genero"/></tag>
+                <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                <tag><var n="genero_sl"/></tag>
+                <tag><var n="numero_sl"/></tag>
+              </tags>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="étre" />
+                </get-case-from>
+                <lit-tag v="vbser" />
+                <lit-tag v="pri" />
+                <clip pos="1" side="sl" part="pers" />
+                <clip pos="1" side="sl" part="nbr" />
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="1" side="tl" part="lemh" />
+                <clip pos="1" side="tl" part="a_verb" />
+                <lit-tag v="pp" />
+                <lit-tag v="3" />
+                <clip pos="1" side="sl" part="nbr" />
+                <clip pos="1" side="tl" part="lemq" />
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="temps" />
+                  <lit-tag v="pis" />
+                </equal>
+              </test>
+              <let><clip pos="1" side="sl" part="temps" /><lit-tag v="prs" /></let>
+            </when>
+          </choose>
           <out>
             <chunk name="verb">
               <tags>
@@ -3127,19 +3227,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
-         <out>
-           <chunk name="vbser">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><lit-tag v="vbser"/></tag>
-             </tags>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="tags"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
+        <call-macro n="out_verb1">
+          <with-param pos="1"/>
+        </call-macro>
        </action>
     </rule>
 
@@ -3148,27 +3238,41 @@
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
-        <call-macro n="out_verb">
+        <call-macro n="out_verb1">
           <with-param pos="1"/>
         </call-macro>
-<!--
+       </action>
+    </rule>
+
+    <rule comment="REGLA: VBNOSER">
+       <pattern>
+         <pattern-item n="se"/>
+         <pattern-item n="vbnoser"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="1"/>
+         </call-macro>
          <out>
-           <chunk name="verb">
+           <chunk name="prn">
              <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_verb"/>
-               <clip pos="1" side="tl" part="temps"/>
-               <clip pos="1" side="tl" part="pers"/>
-               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="tags"/>
                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
+             </lu>
            </chunk>
+           <b pos="1"/>
          </out>
--->
+         <call-macro n="out_verb_ser1">
+           <with-param pos="2"/>
+         </call-macro>
        </action>
     </rule>
 
