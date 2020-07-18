@@ -456,7 +456,6 @@
     <def-var n="number"/>
     <def-var n="numvist"/>
     <def-var n="varporque"/>
-    <def-var n="tipusverb"/>
     <def-var n="tipusdet"/>
     <def-var n="tipusprn"/>
     <def-var n="uno"/>
@@ -506,71 +505,29 @@
       <list-item v="que vint"/>
     </def-list>
 
-    <def-list n="verbs_amb_partitiu">	<!-- de moment, no cal frp -->
-      <list-item v="aculhir"/>
-      <list-item v="acuélher"/>
-      <list-item v="agropar"/>
-      <list-item v="apondre"/>
-      <list-item v="aver"/>
-      <list-item v="auer"/>
-      <list-item v="acceptar"/>
-      <list-item v="apelar"/>
-      <list-item v="bailar"/>
-      <list-item v="balhar"/>
-      <list-item v="baliar"/>
-      <list-item v="beure"/>
-      <list-item v="béuer"/>
-      <list-item v="comprar"/>
-      <list-item v="conclure"/>
-      <list-item v="conéisser"/>
-      <list-item v="conéisher"/>
-      <list-item v="cootrolar"/>
-      <list-item v="cootrotlar"/>
-      <list-item v="contusionar"/>
-      <list-item v="convalidar"/>
-      <list-item v="coovenir"/>
-      <list-item v="coovidar"/>
-      <list-item v="coovocar"/>
-      <list-item v="coordinar"/>
-      <list-item v="copar"/>
-      <list-item v="cridar"/>
-      <list-item v="crompar"/>
-      <list-item v="desenvolopar"/>
-      <list-item v="destinar"/>
-      <list-item v="destruir"/>
-      <list-item v="destrusir"/>
-      <list-item v="determinar"/>
-      <list-item v="develar"/>
-      <list-item v="desvistar"/>
-      <list-item v="dividir"/>
-      <list-item v="divulgar"/>
-      <list-item v="editar"/>
-      <list-item v="esperar"/>
-      <list-item v="èsser"/>
-      <list-item v="encontrar"/>
-      <list-item v="establir"/>
-      <list-item v="evitar"/>
-      <list-item v="ganhar"/>
-      <list-item v="gropar"/>
-      <list-item v="introdusir"/>
-      <list-item v="introduire"/>
-      <list-item v="mandar"/>
-      <list-item v="manjar"/>
-      <list-item v="manténer"/>
-      <list-item v="memorizar"/>
-      <list-item v="nomenar"/>
-      <list-item v="recebre"/>
-      <list-item v="regropar"/>
-      <list-item v="reintrodusir"/>
-      <list-item v="reintroduire"/>
-      <list-item v="rencontrar"/>
-      <list-item v="sonar"/>
-      <list-item v="tranmetre"/>
-      <list-item v="televizar"/>
-      <list-item v="tuar"/>
-<!--      <list-item v="utilizar"/> -->
-<!--      <list-item v="vendre"/> -->
-<!--      <list-item v="voler"/> -->
+    <def-list n="vaux_etre"> <!-- verbes qu'il faut conjuguer avec étre -->
+      <list-item v="alar"/>
+      <list-item v="aparêtre"/>
+      <list-item v="parêtre"/>
+      <list-item v="arrevar"/>
+      <list-item v="venir"/>
+      <list-item v="vegnir"/>
+      <list-item v="partir"/>
+      <list-item v="nêtre"/>
+      <list-item v="renêtre"/>
+      <list-item v="morir"/>
+      <list-item v="dèscendre"/>
+      <list-item v="montar"/>
+      <list-item v="entrar"/>
+      <list-item v="rentrar"/>
+      <list-item v="sortir"/>
+      <list-item v="chêre"/>
+      <list-item v="retornar"/>
+      <list-item v="rentornar"/>
+      <list-item v="passar"/>
+      <list-item v="réstar"/>
+      <list-item v="devenir"/>
+      <list-item v="revenir"/>
     </def-list>
   </section-def-lists>
 
@@ -2618,29 +2575,6 @@
       </choose>
     </def-macro>
 
-    <def-macro n="tipus_verb" npar="1"> <!-- tots els verbs passen per aqui -->
-      <choose>
-        <when>
-          <test>
-          <or>
-            <equal>
-             <clip pos="1" side="tl" part="tv"/><lit-tag v="tv"/>
-            </equal>
-            <in caseless="yes">
-             <clip pos="1" side="tl" part="lemh"/>
-             <list n="verbs_amb_partitiu"/>
-            </in>
-          </or>
-          </test>
-          <let><var n="tipusverb"/><lit-tag v="partitiu"/></let>
-          <let><var n="tipusverb"/><lit-tag v="normal"/></let>
-        </when>
-        <otherwise>
-          <let><var n="tipusverb"/><lit-tag v="normal"/></let>
-        </otherwise>
-      </choose>
-    </def-macro>
-
     <def-macro n="tipus_det" npar="1"> <!-- tots els det passen per aqui -->
       <choose>
         <when>
@@ -2668,7 +2602,124 @@
           <let><var n="tipusprn"/><lit-tag v="ref"/></let>
         </when>
         <otherwise>
-          <let><var n="tipusverb"/><lit-tag v="normal"/></let>
+          <let><var n="tipusprn"/><lit-tag v="normal"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="out_verb" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="temps" />
+              <lit-tag v="ifi" />
+            </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <case-of pos="1" side="sl" part="lemh" />
+                  <lit v="Aa" />
+                </equal>
+              </test>
+              <modify-case>
+                <clip pos="1" side="tl" part="lemh" />
+                <lit v="aa" />
+              </modify-case>
+            </when>
+          </choose>
+          <choose>
+            <when>
+              <test>
+                <in caseless="yes">
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <list n="vaux_etre"/>
+                </in>
+              </test>
+              <out>
+                <chunk name="verb">
+                  <tags>
+                    <tag><lit-tag v="SVpp"/></tag>
+                    <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                    <tag><var n="genero"/></tag>
+                    <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                    <tag><var n="genero_sl"/></tag>
+                    <tag><var n="numero_sl"/></tag>
+                  </tags>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="étre" />
+                    </get-case-from>
+                    <lit-tag v="vbser" />
+                    <lit-tag v="pri" />
+                    <clip pos="1" side="sl" part="pers" />
+                    <clip pos="1" side="sl" part="nbr" />
+                  </lu>
+                  <b/>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh" />
+                    <clip pos="1" side="tl" part="a_verb" />
+                    <lit-tag v="pp" />
+                    <lit-tag v="3" />
+                    <clip pos="1" side="sl" part="nbr" />
+                    <clip pos="1" side="tl" part="lemq" />
+                  </lu>
+                </chunk>
+              </out>
+            </when>
+            <otherwise>
+              <out>
+                <chunk name="verb">
+                  <tags>
+                    <tag><lit-tag v="SVpp"/></tag>
+                    <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                    <tag><lit-tag v="m"/></tag>
+                    <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                    <tag><var n="genero_sl"/></tag>
+                    <tag><var n="numero_sl"/></tag>
+                  </tags>
+                  <lu>
+                    <get-case-from pos="1">
+                      <lit v="avêr" />
+                    </get-case-from>
+                    <lit-tag v="vbhaver" />
+                    <lit-tag v="pri" />
+                    <clip pos="1" side="sl" part="pers" />
+                    <clip pos="1" side="sl" part="nbr" />
+                  </lu>
+                  <b/>
+                  <lu>
+                    <clip pos="1" side="tl" part="lemh" />
+                    <clip pos="1" side="tl" part="a_verb" />
+                    <lit-tag v="pp" />
+                    <lit-tag v="m" />
+                    <lit-tag v="sg" />
+                    <clip pos="1" side="tl" part="lemq" />
+                  </lu>
+                </chunk>
+              </out>
+            </otherwise>
+          </choose>
+        </when>
+        <otherwise>
+          <out>
+            <chunk name="verb">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_verb"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="pers"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+            </chunk>
+          </out>
         </otherwise>
       </choose>
     </def-macro>
@@ -2952,7 +3003,6 @@
        </action>
     </rule>
 
-
     <rule comment="REGLA: NUMERAL">
       <pattern>
         <pattern-item n="num"/>
@@ -3077,15 +3127,11 @@
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="tipus_verb">
-          <with-param pos="1"/>
-        </call-macro>
          <out>
            <chunk name="vbser">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="lemh"/>
@@ -3102,15 +3148,15 @@
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
-        <call-macro n="tipus_verb">
+        <call-macro n="out_verb">
           <with-param pos="1"/>
         </call-macro>
+<!--
          <out>
            <chunk name="verb">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="lemh"/>
@@ -3122,6 +3168,7 @@
               </lu>
            </chunk>
          </out>
+-->
        </action>
     </rule>
 
@@ -4803,9 +4850,6 @@
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="2"/>
          </call-macro>
@@ -4814,7 +4858,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <lit v="étre"/>
@@ -4929,9 +4972,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="3"/>
          </call-macro>
@@ -4944,7 +4984,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -4985,9 +5024,6 @@
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="4"/>
          </call-macro>
@@ -5000,7 +5036,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5137,9 +5172,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="5"/>
          </call-macro>
@@ -5156,7 +5188,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5201,9 +5232,6 @@
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="4"/>
          </call-macro>
@@ -5216,7 +5244,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5302,9 +5329,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="5"/>
          </call-macro>
@@ -5321,7 +5345,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5371,9 +5394,6 @@
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="4"/>
          </call-macro>
@@ -5386,7 +5406,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5483,9 +5502,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_concord1">
           <with-param pos="5"/>
          </call-macro>
@@ -5502,7 +5518,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5567,9 +5582,6 @@
          <pattern-item n="inf"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5579,7 +5591,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5604,9 +5615,6 @@
          <pattern-item n="inf"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5616,7 +5624,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5645,9 +5652,6 @@
          <pattern-item n="vbser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5657,7 +5661,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5677,9 +5680,6 @@
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5689,7 +5689,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5710,9 +5709,6 @@
          <pattern-item n="jamais_plus"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5722,7 +5718,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5752,9 +5747,6 @@
          <pattern-item n="jamais_plus_rien_personne"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5764,7 +5756,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5794,9 +5785,6 @@
          <pattern-item n="vbser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-           <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5806,7 +5794,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5833,9 +5820,6 @@
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5845,7 +5829,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5873,9 +5856,6 @@
          <pattern-item n="jamais_plus"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-           <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5885,7 +5865,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5922,9 +5901,6 @@
          <pattern-item n="jamais_plus_rien"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5934,7 +5910,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -5970,9 +5945,6 @@
         <pattern-item n="verbconj"/>
       </pattern>
       <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <out>
            <chunk name="prn">
              <tags>
@@ -5996,7 +5968,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6024,9 +5995,6 @@
          <pattern-item n="rien_personne"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6036,7 +6004,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6076,9 +6043,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6092,7 +6056,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6128,9 +6091,6 @@
          <pattern-item n="pp_no_ser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6140,7 +6100,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6177,9 +6136,6 @@
          <pattern-item n="pp_no_ser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6193,7 +6149,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6230,9 +6185,6 @@
          <pattern-item n="pp_no_ser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6242,7 +6194,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6286,9 +6237,6 @@
          <pattern-item n="pp_no_ser"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="6"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6302,7 +6250,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="6" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6350,9 +6297,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6362,7 +6306,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6386,15 +6329,11 @@
         <call-macro n="f_concord0">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="tipus_verb">
-         <with-param pos="1"/>
-        </call-macro>
         <out>
            <chunk name="verb">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="lemh"/>
@@ -6416,9 +6355,6 @@
         <call-macro n="f_concord0">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="tipus_verb">
-         <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="prn">
             <tags>
@@ -6437,7 +6373,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="2">
@@ -6465,9 +6400,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6477,7 +6409,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6548,9 +6479,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6568,7 +6496,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -6598,7 +6525,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -6641,9 +6567,6 @@
         <call-macro n="f_concord0">
           <with-param pos="2"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6657,7 +6580,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6688,9 +6610,6 @@
         <call-macro n="f_concord0">
           <with-param pos="2"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6704,7 +6623,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6729,9 +6647,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6745,7 +6660,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6771,9 +6685,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6787,7 +6698,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6825,9 +6735,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6841,7 +6748,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6877,9 +6783,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6893,7 +6796,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -6940,9 +6842,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -6960,7 +6859,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -6990,7 +6888,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7037,9 +6934,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7057,7 +6951,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7096,7 +6989,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7152,9 +7044,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7176,7 +7065,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7206,7 +7094,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7254,9 +7141,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7278,7 +7162,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7317,7 +7200,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7370,15 +7252,11 @@
          <call-macro n="f_concord1">
            <with-param pos="3"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <out>
            <chunk name="pro-verb">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7428,9 +7306,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7440,7 +7315,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7485,15 +7359,11 @@
          <call-macro n="f_concord1">
            <with-param pos="4"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <out>
            <chunk name="pro-verb">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7550,9 +7420,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="6"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7562,7 +7429,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="6" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7614,9 +7480,6 @@
          <call-macro n="f_concord1">
            <with-param pos="5"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="6"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7634,7 +7497,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="6" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7681,7 +7543,6 @@
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="6" side="tl" part="a_verb"/></tag>
-                   <tag><var n="tipusverb"/></tag>
                  </tags>
                  <lu>
                    <get-case-from pos="1">
@@ -7733,9 +7594,6 @@
          <pattern-item n="inf"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7745,7 +7603,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7784,9 +7641,6 @@
          <pattern-item n="inf"/>
        </pattern>
        <action>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7796,7 +7650,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7844,9 +7697,6 @@
          <call-macro n="f_concord0">
            <with-param pos="1"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="5"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7860,7 +7710,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -7903,9 +7752,6 @@
          <call-macro n="f_concord0">
            <with-param pos="1"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="6"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -7919,7 +7765,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8004,9 +7849,6 @@
         <call-macro n="f_concord1">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="tipus_verb">
-          <with-param pos="2"/>
-        </call-macro>
         <call-macro n="f_bcond">
           <with-param pos="1"/>
           <with-param pos="2"/>
@@ -8016,7 +7858,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><lit-tag v="vbser"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8045,15 +7886,11 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="3"/>
-         </call-macro>
          <out>
            <chunk name="pro-vbmod-inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8093,9 +7930,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -8105,7 +7939,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8140,9 +7973,6 @@
       <action>
          <call-macro n="f_concord0">
            <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
@@ -8180,9 +8010,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -8192,7 +8019,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="4" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8229,9 +8055,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -8245,7 +8068,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8282,9 +8104,6 @@
         <call-macro n="f_concord0">
           <with-param pos="1"/>
         </call-macro>
-         <call-macro n="tipus_verb">
-          <with-param pos="4"/>
-         </call-macro>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -8298,7 +8117,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="5" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -8381,7 +8199,6 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-               <tag><var n="tipusverb"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
