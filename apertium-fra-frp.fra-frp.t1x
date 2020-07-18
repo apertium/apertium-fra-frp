@@ -53,6 +53,15 @@
       <cat-item tags="adv"/>
       <cat-item tags="preadv"/>
     </def-cat>
+    <def-cat n="postadv">
+      <cat-item tags="postadv"/>
+    </def-cat>
+    <def-cat n="ci_postadv">
+      <cat-item lemma="ci" tags="postadv"/>
+    </def-cat>
+    <def-cat n="la_postadv">
+      <cat-item lemma="là" tags="postadv"/>
+    </def-cat>
     <def-cat n="ne">
       <cat-item lemma="ne" tags="adv"/>
     </def-cat>
@@ -4719,6 +4728,116 @@
     </rule>
 
     <!-- FIN REGLAS CONCORDANÇA -->
+
+    <!-- REGLAS CET NOM-CI/LÀ -->
+
+    <rule comment="REGLA: CE_DET NOM-CI > CETI NOM">
+      <pattern>
+        <pattern-item n="ce_det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="ci_postadv"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="tipus_det">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det">
+            <tags>
+              <tag><lit-tag v="Det"/></tag>
+              <tag><var n="tipusdet"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="cet"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: CE_DET NOM-LÀ > CÉL NOM">
+      <pattern>
+        <pattern-item n="ce_det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="la_postadv"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="tipus_det">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det">
+            <tags>
+              <tag><lit-tag v="Det"/></tag>
+              <tag><var n="tipusdet"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="cél"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- FIN REGLAS CET NOM-CI/LÀ -->
 
     <!-- REGLAS TOP -->
 
