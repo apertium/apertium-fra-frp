@@ -5,6 +5,16 @@
       <cat-item name="subj"/>
     </def-cat>
 
+    <def-cat n="ne">
+      <cat-item name="ne"/>
+    </def-cat>
+    <def-cat n="verb_aa">
+      <cat-item name="verb_aa"/>
+    </def-cat>
+    <def-cat n="prn_aa">
+      <cat-item name="prn_aa"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
@@ -75,6 +85,40 @@
         <call-macro n="subjecte">
           <with-param pos="1"/>
         </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: verb_aa (changing case to aa)">
+      <pattern>
+        <pattern-item n="verb_aa"/>
+      </pattern>
+      <action>
+        <modify-case>
+          <clip pos="1" part="whole"/>
+          <lit v="aa"/>
+        </modify-case>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: prn_aa (changing case to aa)">
+      <pattern>
+        <pattern-item n="prn_aa"/>
+      </pattern>
+      <action>
+        <modify-case>
+          <clip pos="1" part="whole"/>
+          <lit v="aa"/>
+        </modify-case>
         <out>
           <lu>
             <clip pos="1" part="whole"/>
