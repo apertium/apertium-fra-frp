@@ -967,6 +967,19 @@
     </repeat>
     <match lemma="falêr" tags="vbmod.*.sg"/>
   </rule>
+  <rule weight="1.0">
+    <match lemma="que" tags="rel.*"><select lemma="qui"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="lo" tags="prn.pro.*"/>
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+  </rule>
 
   <!-- qui >> qui, celui qui -->
   <rule weight="0.8">
