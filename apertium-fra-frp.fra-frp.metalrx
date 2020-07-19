@@ -1250,6 +1250,14 @@
   </rule>
   <rule weight="1.0">
     <match lemma="siège" tags="n.*"><select lemma="sièta"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match tags="np.al.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="siège" tags="n.*"><select lemma="sièta"/></match>
     <repeat from="0" upto="6">
       <match/>
     </repeat>
@@ -2062,9 +2070,9 @@
     <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
   </rule>
 
-  <!-- postérieur >> d'après, du dèrriér -->
+  <!-- postérieur >> d'aprés, du dèrriér -->
   <rule weight="0.8">
-    <match lemma="postérieur" tags="adj.*"><select lemma="d'après"/></match>
+    <match lemma="postérieur" tags="adj.*"><select lemma="d'aprés"/></match>
   </rule>
   <rule weight="1.0">
     <or>
