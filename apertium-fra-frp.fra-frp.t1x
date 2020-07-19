@@ -332,38 +332,6 @@
       <cat-item lemma="train" tags="n.*"/>
     </def-cat>
 
-    <def-cat n="unite_temps">
-      <cat-item lemma="seconde" tags="n.*"/>
-      <cat-item lemma="minute" tags="n.*"/>
-      <cat-item lemma="heure" tags="n.*"/>
-      <cat-item lemma="jour" tags="n.*"/>
-      <cat-item lemma="journée" tags="n.*"/>
-      <cat-item lemma="semaine" tags="n.*"/>
-      <cat-item lemma="mois" tags="n.*"/>
-      <cat-item lemma="an" tags="n.*"/>
-      <cat-item lemma="année" tags="n.*"/>
-      <cat-item lemma="lustre" tags="n.*"/>
-      <cat-item lemma="décennie" tags="n.*"/>
-      <cat-item lemma="décade" tags="n.*"/>
-      <cat-item lemma="siècle" tags="n.*"/>
-      <cat-item lemma="millénaire" tags="n.*"/>
-    </def-cat>
-
-    <def-cat n="nom_mois">
-      <cat-item lemma="janvier" tags="n.*"/>
-      <cat-item lemma="février" tags="n.*"/>
-      <cat-item lemma="mars" tags="n.*"/>
-      <cat-item lemma="avril" tags="n.*"/>
-      <cat-item lemma="mai" tags="n.*"/>
-      <cat-item lemma="juin" tags="n.*"/>
-      <cat-item lemma="juillet" tags="n.*"/>
-      <cat-item lemma="août" tags="n.*"/>
-      <cat-item lemma="septembre" tags="n.*"/>
-      <cat-item lemma="octobre" tags="n.*"/>
-      <cat-item lemma="novembre" tags="n.*"/>
-      <cat-item lemma="décembre" tags="n.*"/>
-    </def-cat>
-
   </section-def-cats>
 
   <section-def-attrs>
@@ -3219,7 +3187,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: VBSER">
+    <rule comment="REGLA: VBSER: elles furent > els ant étâ">
        <pattern>
          <pattern-item n="vbser"/>
        </pattern>
@@ -3233,7 +3201,7 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: VBNOSER">
+    <rule comment="REGLA: VBNOSER: elles mangèrent > els ant megiê, elles arrivèrent > els sont arrevâyes">
        <pattern>
          <pattern-item n="vbnoser"/>
        </pattern>
@@ -3244,7 +3212,7 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: VBNOSER">
+    <rule comment="REGLA: SE VBNOSER: elles se remarièrent > els sè sont remariâyes">
        <pattern>
          <pattern-item n="se"/>
          <pattern-item n="vbnoser"/>
@@ -7690,7 +7658,7 @@
 
   <!-- REGLAS NE... QUE + INF -->
 
-    <rule comment="REGLA: NE VERB QUE INF (ne veut qu'à manger > vòl pas que manjar)">
+    <rule comment="REGLA: NE VERB QUE INF (ne veut que manger > vòl pas que manjar)">
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbnoser"/>
@@ -7789,7 +7757,8 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: PRNSUBJ NE VERB QUE INF (il ne veut qu'à manger > vòl pas que manjar)">
+<!--
+    <rule comment="REGLA: PRNSUBJ NE VERB QUE INF (il ne veut que manger > vòl pas que manjar)">
        <pattern>
          <pattern-item n="prnsubj"/>
          <pattern-item n="ne"/>
@@ -7903,6 +7872,7 @@
          </out>
        </action>
     </rule>
+-->
 
   <!-- FIN REGLAS NE... QUE + INF -->
 
@@ -7980,6 +7950,7 @@
 
   <!-- REGLAS VBMOD + PRO + VBMOD -->
 
+<!--
     <rule comment="REGLA: VBMOD PRNPRO VERB (Cet article peut se lire > Aqueste article se pòt legir)">
       <pattern>
         <pattern-item n="vbmod"/>
@@ -8068,7 +8039,6 @@
       </action>
     </rule>
 
-<!--
     <rule comment="REGLA: ON DOIT (on doit: cal)">
       <pattern>
         <pattern-item n="on"/>
