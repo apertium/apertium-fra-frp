@@ -1166,6 +1166,20 @@
     <match lemma="Indien" tags="n.*"><select lemma="Endien"/></match>
   </rule>
 
+  <!-- intérieur >> dedens, entèrior -->
+  <rule weight="0.8">
+    <match lemma="intérieur" tags="n.*"><select lemma="dedens"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ministère" tags="n.*"/>
+      <match lemma="ministre" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="intérieur" tags="n.*"><select lemma="entèrior"/></match>
+  </rule>
+
   <!-- internet >> malyâjo, lo malyâjo -->
   <rule weight="0.8">
     <match lemma="internet" tags="n.*"><select lemma="malyâjo"/></match>
