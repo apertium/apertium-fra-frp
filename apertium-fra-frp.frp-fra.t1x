@@ -39,6 +39,11 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="adjec_pref">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="pref"/>
+    </def-cat>
 
     <def-cat n="adv">
       <cat-item tags="adv"/>
@@ -3595,7 +3600,7 @@
     <rule comment="REGLA: DET ADJ NOM">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -3764,7 +3769,7 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -3830,7 +3835,7 @@
     <rule comment="REGLA: DET ADJ NOM ADJ">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
       </pattern>
@@ -4183,7 +4188,7 @@
 
     <rule comment="REGLA: ADJ NOM">
       <pattern>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -4294,7 +4299,7 @@
     <rule comment="REGLA: NOM ADJ ADJ">
       <pattern>
         <pattern-item n="nom"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -4339,7 +4344,7 @@
 
     <rule comment="REGLA: ADJ NOM ADJ">
       <pattern>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
       </pattern>
@@ -4432,7 +4437,7 @@
     <rule comment="REGLA: NUM ADJ NOM">
       <pattern>
         <pattern-item n="num"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_pref"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
