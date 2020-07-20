@@ -428,6 +428,7 @@
 
     <!-- REGLAS PEL PARTITIU -->
 
+<!--
     <rule comment="REGLA: SV PR_de DET_def SN: élimination de l'article définit du partitif: Je veux de l'eau. > Vòli d'aiga">
       <pattern>
         <pattern-item n="SV_partitiu"/>
@@ -707,6 +708,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <!-- FIN REGLAS PEL PARTITIU -->
 
