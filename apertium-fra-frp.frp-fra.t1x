@@ -3052,8 +3052,9 @@
            <with-param pos="1"/>
          </call-macro>
         <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="prn" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
              <tags>
                <tag><lit-tag v="SPron"/></tag>
                <tag><clip pos="1" side="tl" part="a_prn"/></tag>
@@ -3193,12 +3194,15 @@
           <with-param pos="1"/>
         </call-macro>
         <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verb" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -3219,12 +3223,15 @@
        </pattern>
        <action>
         <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="verb" case="caseFirstWord">
+          <chunk namefrom="lemma" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>

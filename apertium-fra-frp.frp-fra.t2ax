@@ -41,6 +41,11 @@
       <cat-item tags="SV.*.inf"/>
       <cat-item tags="SV.*.inf.*"/>
     </def-cat>
+    <def-cat n="SV_faut">
+      <cat-item lemma="falloir" tags="SV.*"/>
+      <cat-item lemma="pleuvoir" tags="SV.*"/>
+      <cat-item lemma="neiger" tags="SV.*"/>
+    </def-cat>
 
     <def-cat n="SV_pers"><!--Formes personals. Exclou inf i ger (i alguns imperatius per ara) -->
       <cat-item lemma="sercj" tags="SV.*"/>
@@ -189,6 +194,10 @@
 
   <section-def-lists>
     <def-list n="SV_personals">
+      <list-item v="falloir"/>
+      <list-item v="pleuvoir"/>
+      <list-item v="neiger"/>
+
       <list-item v="verbcj"/>
       <list-item v="aux_verb"/>
       <list-item v="haver_pp"/>
@@ -281,6 +290,10 @@
                     </modify-case>
                   </when>
                 </choose>
+                <let>
+                  <clip pos="1" part="lem"/>
+                  <lit v="verb_aa"/>
+                </let>
               </when>
             </choose>
           </when>
@@ -703,6 +716,25 @@
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SV > subjècte SV">
+      <pattern>
+        <pattern-item n="SV_faut"/>
+      </pattern>
+      <action>
+        <call-macro n="generate_subject1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
           </chunk>
         </out>
         <let><var n="fifrase"/><lit v="no"/></let>
