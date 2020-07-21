@@ -73,7 +73,7 @@
     <def-cat n="pas">
       <cat-item lemma="pas" tags="adv"/>
     </def-cat>
-    <def-cat n="jamais_plus">
+    <def-cat n="plus_guere">
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
     </def-cat>
@@ -84,14 +84,14 @@
       <cat-item lemma="personne" tags="prn.*"/>
       <cat-item lemma="aucun" tags="prn.*"/>
     </def-cat>
-    <def-cat n="jamais_plus_rien_personne">
+    <def-cat n="plus_guere_rien_personne">
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
       <cat-item lemma="rien" tags="prn.*"/>
       <cat-item lemma="personne" tags="prn.*"/>
       <cat-item lemma="aucun" tags="prn.*"/>
     </def-cat>
-    <def-cat n="jamais_plus_rien">
+    <def-cat n="plus_guere_rien">
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
       <cat-item lemma="rien" tags="prn.*"/>
@@ -461,7 +461,7 @@
       <list-item v="décembre"/>
     </def-list>
 
-    <def-list n="l_jamais_plus_rien_personne">
+    <def-list n="l_plus_guere_rien_personne">
       <list-item v="plus"/>
       <list-item v="guère"/>
       <list-item v="rien"/>
@@ -5298,7 +5298,7 @@
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbhaver"/>
-         <pattern-item n="jamais_plus"/>
+         <pattern-item n="plus_guere"/>
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
@@ -5392,7 +5392,7 @@
         <pattern-item n="prnsubj"/>
         <pattern-item n="ne"/>
         <pattern-item n="vbhaverconj"/>
-        <pattern-item n="jamais_plus"/>
+        <pattern-item n="plus_guere"/>
          <pattern-item n="vbser_pp"/>
        </pattern>
        <action>
@@ -5774,7 +5774,7 @@
     <rule comment="REGLA: NE JAMAIS INF > INF PAS JAMAI: ne jamais manger > manjar pas jamai">
        <pattern>
          <pattern-item n="ne"/>
-         <pattern-item n="jamais_plus"/>
+         <pattern-item n="plus_guere"/>
          <pattern-item n="inf"/>
        </pattern>
        <action>
@@ -5819,21 +5819,27 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
-         <out>
-           <chunk name="vbser">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <clip pos="2" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="2" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="2" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="2"/>
+         </call-macro>
        </action>
     </rule>
 
@@ -5847,21 +5853,27 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
-         <out>
-           <chunk name="verb">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <clip pos="2" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-              </lu>
-           </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="2" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="2" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="2"/>
+         </call-macro>
        </action>
     </rule>
 
@@ -5869,7 +5881,7 @@
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbser"/>
-         <pattern-item n="jamais_plus"/>
+         <pattern-item n="plus_guere"/>
        </pattern>
        <action>
          <call-macro n="f_bcond">
@@ -5903,31 +5915,44 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: NE VBNOSER JAMAIS > VBNOSER PAS JAMAI: Jean ne dit jamais > Jean ditz pas jamai">
+    <rule comment="REGLA: NE VBNOSER JAMAIS > VBNOSER PAS JAMAI: ne dure guère > ne dura gouéro">
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbnoser"/>
-         <pattern-item n="jamais_plus_rien_personne"/>
+         <pattern-item n="plus_guere_rien_personne"/>
        </pattern>
        <action>
          <call-macro n="f_bcond">
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="2" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="2" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
-           <chunk name="verb">
+           <b/>
+           <chunk name="pas">
              <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="SAdv"/></tag>
              </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <clip pos="2" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-              </lu>
-             <b/>
              <lu>
                <lit v="pas"/>
                <lit-tag v="adv"/>
@@ -6016,7 +6041,7 @@
          <pattern-item n="ne"/>
          <pattern-item n="prnpro"/>
          <pattern-item n="vbser"/>
-         <pattern-item n="jamais_plus"/>
+         <pattern-item n="plus_guere"/>
        </pattern>
        <action>
          <call-macro n="f_bcond">
@@ -6061,7 +6086,7 @@
          <pattern-item n="ne"/>
          <pattern-item n="prnpro"/>
          <pattern-item n="vbnoser"/>
-         <pattern-item n="jamais_plus_rien"/>
+         <pattern-item n="plus_guere_rien"/>
        </pattern>
        <action>
          <call-macro n="f_bcond">
@@ -6842,7 +6867,7 @@
         <pattern-item n="prnsubj"/>
         <pattern-item n="ne"/>
         <pattern-item n="verbconj"/>
-        <pattern-item n="jamais_plus_rien_personne"/>
+        <pattern-item n="plus_guere_rien_personne"/>
       </pattern>
       <action>
         <call-macro n="f_concord0">
@@ -6937,7 +6962,7 @@
         <pattern-item n="ne"/>
         <pattern-item n="prnpro"/>
         <pattern-item n="verbconj"/>
-        <pattern-item n="jamais_plus_rien"/>
+        <pattern-item n="plus_guere_rien"/>
       </pattern>
       <action>
          <call-macro n="f_concord1">
@@ -7085,7 +7110,7 @@
         <pattern-item n="prnpro"/>
         <pattern-item n="prnpro"/>
         <pattern-item n="verbconj"/>
-        <pattern-item n="jamais_plus_rien"/>
+        <pattern-item n="plus_guere_rien"/>
       </pattern>
       <action>
          <call-macro n="f_concord1">
@@ -7292,7 +7317,7 @@
         <pattern-item n="prnpro"/>
         <pattern-item n="prnpro"/>
         <pattern-item n="verbconj"/>
-        <pattern-item n="jamais_plus_rien"/>
+        <pattern-item n="plus_guere_rien"/>
       </pattern>
       <action>
          <call-macro n="f_concord1">
@@ -7652,7 +7677,7 @@
             <test>
               <in caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
-                <list n="l_jamais_plus_rien_personne"/>
+                <list n="l_plus_guere_rien_personne"/>
               </in>
             </test>
              <out>
@@ -8262,7 +8287,7 @@
         <pattern-item n="on"/>
         <pattern-item n="ne"/>
         <pattern-item n="devoirp3sg"/>
-        <pattern-item n="jamais_plus_rien_personne"/>
+        <pattern-item n="plus_guere_rien_personne"/>
         <pattern-item n="inf"/>
       </pattern>
       <action>
