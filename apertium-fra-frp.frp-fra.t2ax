@@ -46,6 +46,9 @@
       <cat-item lemma="pleuvoir" tags="SV.*"/>
       <cat-item lemma="neiger" tags="SV.*"/>
     </def-cat>
+    <def-cat n="SV_avoir_p3sg">
+      <cat-item lemma="avoir" tags="SV.vbhaver.*.p3.sg"/>
+    </def-cat>
 
     <def-cat n="SV_pers"><!--Formes personals. Exclou inf i ger (i alguns imperatius per ara) -->
       <cat-item lemma="sercj" tags="SV.*"/>
@@ -91,6 +94,10 @@
     <def-cat n="SPron_pro">
       <cat-item tags="SPron.pro"/>
       <cat-item tags="SPron.pro.*"/>
+    </def-cat>
+    <def-cat n="SPron_y">
+      <cat-item lemma="y" tags="SPron.pro"/>
+      <cat-item lemma="y" tags="SPron.pro.*"/>
     </def-cat>
 
     <def-cat n="Num">
@@ -194,6 +201,7 @@
 
   <section-def-lists>
     <def-list n="SV_personals">
+      <list-item v="avoir"/>
       <list-item v="falloir"/>
       <list-item v="pleuvoir"/>
       <list-item v="neiger"/>
@@ -240,6 +248,7 @@
              <list n="SV_personals"/>
            </in>
        </test>
+<!--
         <choose>
           <when>
             <test>
@@ -248,6 +257,7 @@
                 <lit v="yes"/>
               </equal>
             </test>
+-->
             <choose>
               <when>
                 <test>
@@ -296,8 +306,10 @@
                 </let>
               </when>
             </choose>
+<!--
           </when>
         </choose>
+-->
      </when>
    </choose>
  </def-macro>
@@ -312,6 +324,7 @@
              <list n="SV_personals"/>
            </in>
        </test>
+<!--
         <choose>
           <when>
             <test>
@@ -320,6 +333,7 @@
                 <lit v="yes"/>
               </equal>
             </test>
+-->
             <choose>
               <when>
                 <test>
@@ -360,12 +374,18 @@
                       <clip pos="2" part="lem"/>
                       <lit v="aa"/>
                     </modify-case>
+                <let>
+                  <clip pos="2" part="lem"/>
+                  <lit v="prn_aa"/>
+                </let>
                   </when>
                 </choose>
               </when>
             </choose>
+<!--
           </when>
         </choose>
+-->
      </when>
    </choose>
  </def-macro>
@@ -722,7 +742,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SV > subjècte SV">
+    <rule comment="REGLA: falloir > subjècte falloir">
       <pattern>
         <pattern-item n="SV_faut"/>
       </pattern>
@@ -735,6 +755,90 @@
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SPron_pro falloir > subjècte SPron_pro falloir">
+      <pattern>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SV_faut"/>
+      </pattern>
+      <action>
+        <call-macro n="generate_subject2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SPron_tn SPron_pro SV (aquesta regla és per impedir la generació del prn.tn">
+      <pattern>
+        <pattern-item n="SPron_tn"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: y avoir > subjècte y avoir">
+      <pattern>
+        <pattern-item n="SPron_y"/>
+        <pattern-item n="SV_avoir_p3sg"/>
+      </pattern>
+      <action>
+        <call-macro n="generate_subject2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
         <let><var n="fifrase"/><lit v="no"/></let>
@@ -1071,6 +1175,56 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SPron_tn SPron_pro SV pas > SPron_tn ne SPron_pro SV pas">
+      <pattern>
+        <pattern-item n="SPron_tn"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="pas"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
