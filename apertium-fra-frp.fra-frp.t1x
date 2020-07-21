@@ -74,10 +74,8 @@
       <cat-item lemma="pas" tags="adv"/>
     </def-cat>
     <def-cat n="jamais_plus">
-      <cat-item lemma="jamais" tags="adv"/>
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
-      <cat-item lemma="pas du tout" tags="adv"/>
     </def-cat>
     <def-cat n="rien">
       <cat-item lemma="rien" tags="prn.*"/>
@@ -87,19 +85,15 @@
       <cat-item lemma="aucun" tags="prn.*"/>
     </def-cat>
     <def-cat n="jamais_plus_rien_personne">
-      <cat-item lemma="jamais" tags="adv"/>
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
-      <cat-item lemma="pas du tout" tags="adv"/>
       <cat-item lemma="rien" tags="prn.*"/>
       <cat-item lemma="personne" tags="prn.*"/>
       <cat-item lemma="aucun" tags="prn.*"/>
     </def-cat>
     <def-cat n="jamais_plus_rien">
-      <cat-item lemma="jamais" tags="adv"/>
       <cat-item lemma="plus" tags="adv"/>
       <cat-item lemma="guère" tags="adv"/>
-      <cat-item lemma="pas du tout" tags="adv"/>
       <cat-item lemma="rien" tags="prn.*"/>
       <cat-item lemma="aucun" tags="prn.*"/>
     </def-cat>
@@ -468,7 +462,6 @@
     </def-list>
 
     <def-list n="l_jamais_plus_rien_personne">
-      <list-item v="jamais"/>
       <list-item v="plus"/>
       <list-item v="guère"/>
       <list-item v="rien"/>
