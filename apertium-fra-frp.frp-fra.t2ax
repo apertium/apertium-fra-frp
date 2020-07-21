@@ -845,6 +845,49 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: PREP SPron_tn y avoir > PREP SPron_tn subjècte y avoir">
+      <pattern>
+        <pattern-item n="PREP"/>
+        <pattern-item n="SPron_tn"/>
+        <pattern-item n="SPron_y"/>
+        <pattern-item n="SV_avoir_p3sg"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+        </out>
+        <call-macro n="generate_subject2">
+          <with-param pos="4"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
 <!--
     <rule comment="REGLA: SV > subjècte SV">
       <pattern>
