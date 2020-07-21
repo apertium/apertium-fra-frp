@@ -1137,6 +1137,7 @@
       <match lemma="maths" tags="n.*"/>
       <match lemma="corps" tags="n.*"/>
       <match lemma="anneau" tags="n.*"/>
+      <match lemma="PDG" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1146,6 +1147,7 @@
       <match lemma="maths" tags="n.*"/>
       <match lemma="corps" tags="n.*"/>
       <match lemma="anneau" tags="n.*"/>
+      <match lemma="PDG" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
       <match/>
