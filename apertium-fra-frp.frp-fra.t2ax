@@ -17,6 +17,14 @@
       <cat-item lemma="ne" tags="SAdv"/>
       <cat-item lemma="ne" tags="SAdv.*"/>
     </def-cat>
+    <def-cat n="ne_toujours_encore">
+      <cat-item lemma="ne" tags="SAdv"/>
+      <cat-item lemma="ne" tags="SAdv.*"/>
+      <cat-item lemma="toujours" tags="SAdv"/>
+      <cat-item lemma="toujours" tags="SAdv.*"/>
+      <cat-item lemma="encore" tags="SAdv"/>
+      <cat-item lemma="encore" tags="SAdv.*"/>
+    </def-cat>
     <def-cat n="pas">
       <cat-item lemma="pas" tags="SAdv"/>
       <cat-item lemma="pas" tags="SAdv.*"/>
@@ -28,6 +36,10 @@
     <def-cat n="SV_vbser">
       <cat-item tags="SV.vbser"/>
       <cat-item tags="SV.vbser.*"/>
+    </def-cat>
+    <def-cat n="SVinf">
+      <cat-item tags="SV.*.inf"/>
+      <cat-item tags="SV.*.inf.*"/>
     </def-cat>
 
     <def-cat n="SV_pers"><!--Formes personals. Exclou inf i ger (i alguns imperatius per ara) -->
@@ -1116,6 +1128,246 @@
           <b/>
           <chunk>
             <lit v="prn_aa"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ne/toujours/encore SAdv SVinf (cette règle est pour empécher la surgénération de 'ne'">
+      <pattern>
+        <pattern-item n="ne_toujours_encore"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pas SVinf > ne pas SVinf">
+      <pattern>
+        <pattern-item n="pas"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <lit v="adv_aa"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ne/toujours/encore SAdv SPron SVinf (cette règle est pour empécher la surgénération de 'ne'">
+      <pattern>
+        <pattern-item n="ne_toujours_encore"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pas SPron SVinf > ne pas SPron SVinf">
+      <pattern>
+        <pattern-item n="pas"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <lit v="adv_aa"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ne/toujours/encore SAdv SPron SPron SVinf (cette règle est pour empécher la surgénération de 'ne'">
+      <pattern>
+        <pattern-item n="ne_toujours_encore"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pas SPron SPron SVinf > ne pas SPron SPron SVinf">
+      <pattern>
+        <pattern-item n="pas"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SVinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="1">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <lit v="adv_aa"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
           </chunk>

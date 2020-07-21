@@ -14,6 +14,9 @@
     <def-cat n="prn_aa">
       <cat-item name="prn_aa"/>
     </def-cat>
+    <def-cat n="adv_aa">
+      <cat-item name="adv_aa"/>
+    </def-cat>
 
     <def-cat n="sent">
       <cat-item name="punt"/>
@@ -113,6 +116,23 @@
     <rule comment="CHUNK: prn_aa (changing case to aa)">
       <pattern>
         <pattern-item n="prn_aa"/>
+      </pattern>
+      <action>
+        <modify-case>
+          <clip pos="1" part="whole"/>
+          <lit v="aa"/>
+        </modify-case>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: adv_aa (changing case to aa)">
+      <pattern>
+        <pattern-item n="adv_aa"/>
       </pattern>
       <action>
         <modify-case>

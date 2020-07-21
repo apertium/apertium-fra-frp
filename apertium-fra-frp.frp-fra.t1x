@@ -3198,6 +3198,7 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -3223,6 +3224,7 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -5994,6 +5996,8 @@
            <chunk name="v_enc" case="caseFirstWord">
              <tags>
                <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
              </tags>
              <mlu>
                <lu>
@@ -6379,6 +6383,7 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
                <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="3" side="tl" part="temps"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
