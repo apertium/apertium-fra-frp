@@ -320,6 +320,10 @@
       <cat-item tags="vbmod.pp.*"/>
     </def-cat>
 
+    <def-cat n="alar">
+      <cat-item lemma="alar" tags="vblex.*"/>
+    </def-cat>
+
     <def-cat n="cm">
       <cat-item tags="cm"/>
     </def-cat>
@@ -6019,6 +6023,46 @@
                  <clip pos="2" side="tl" part="lemh"/>
                  <clip pos="2" side="tl" part="tags"/>
                  <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: IMP PRNENC PRNENC">
+       <pattern>
+         <pattern-item n="alar"/>
+         <pattern-item n="prnenc"/>
+         <pattern-item n="prnenc"/>
+       </pattern>
+       <action>
+        <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+         <out>
+           <chunk name="v_enc" case="caseFirstWord">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <clip pos="1" side="tl" part="temps"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
