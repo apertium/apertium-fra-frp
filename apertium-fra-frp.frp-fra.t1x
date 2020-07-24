@@ -3004,7 +3004,18 @@
         <pattern-item n="adv_preadv"/>
       </pattern>
       <action>
-        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+       <!-- if faut un traitement spécifique ultérieur de 'pas més', donc nous le mettons comme lemme -->
+       <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="lem"/><lit v="pas més"/></equal>
+            </test>
+            <let><var n="lemma"/><clip pos="1" side="sl" part="lem"/></let>
+          </when>
+          <otherwise>
+            <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+          </otherwise>
+       </choose>
         <out>
           <chunk namefrom="lemma">
             <tags>

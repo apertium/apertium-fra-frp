@@ -37,6 +37,8 @@
       <cat-item lemma="pas" tags="SAdv.*"/>
       <cat-item lemma="rien" tags="SPron"/>
       <cat-item lemma="rien" tags="SPron.*"/>
+      <cat-item lemma="pas més" tags="SAdv"/>
+      <cat-item lemma="pas més" tags="SAdv.*"/>
     </def-cat>
     <def-cat n="rien">
       <cat-item lemma="rien" tags="SPron"/>
