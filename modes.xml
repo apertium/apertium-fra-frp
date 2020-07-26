@@ -18,7 +18,7 @@
       <program name="lt-proc -b">
         <file name="fra-frp.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="fra-frp.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -33,6 +33,7 @@
         <file name="apertium-fra-frp.fra-frp.t3x"/>
         <file name="fra-frp.t3x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="fra-frp.autogen.bin"/>
       </program>
@@ -72,22 +73,22 @@
       <program name="lt-proc -b">
         <file name="frp-fra.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="frp-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-fra-frp.frp-fra.t1x"/>
         <file name="frp-fra.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk1">
         <file name="apertium-fra-frp.frp-fra.t2ax"/>
         <file name="frp-fra.t2ax.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk2">
         <file name="apertium-fra-frp.frp-fra.t2bx"/>
         <file name="frp-fra.t2bx.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk3">
         <file name="apertium-fra-frp.frp-fra.t2cx"/>
         <file name="frp-fra.t2cx.bin"/>
       </program>
@@ -95,6 +96,7 @@
         <file name="apertium-fra-frp.frp-fra.t3x"/>
         <file name="frp-fra.t3x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="frp-fra.autogen.bin"/>
       </program>
