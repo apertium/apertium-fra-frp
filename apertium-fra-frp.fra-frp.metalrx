@@ -846,6 +846,11 @@
     <match lemma="chef" tags="n.*"><select lemma="chèf"/></match>
   </rule>
 
+  <!-- cliché >> banalitât, fotô -->
+  <rule weight="0.8">
+    <match lemma="cliché" tags="n.*"><select lemma="banalitât"/></match>
+  </rule>
+
   <!-- complexe >> complèxo, ensemblo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="n.*"><select lemma="complèxo"/></match>
@@ -916,6 +921,11 @@
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
+  </rule>
+
+  <!-- embouchure >> embochiura, embochior -->
+  <rule weight="0.8">
+    <match lemma="embouchure" tags="n.*"><select lemma="embochiura"/></match>
   </rule>
 
   <!-- emploi >> usâjo, travâly, pôsto -->
@@ -1148,6 +1158,11 @@
     <match lemma="sur" tags="pr"/>
   </rule>
 
+  <!-- fût >> fonda, bosse -->
+  <rule weight="0.8">
+    <match lemma="fût" tags="n.*"><select lemma="fonda"/></match>
+  </rule>
+
   <!-- groupe >> benda, groupe -->
   <rule weight="0.8">
     <match lemma="groupe" tags="n.*"><select lemma="benda"/></match>
@@ -1217,6 +1232,28 @@
       <match tags="np.*"/>
       <match tags=""/>
     </or>
+  </rule>
+
+  <!-- indice >> tôx, signo -->
+  <rule weight="0.8">
+    <match lemma="indice" tags="n.*"><select lemma="tôx"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="indice" tags="n.*"><select lemma="signo"/></match>
+    <or>
+      <match lemma="matériel" tags="adj.*"/>
+      <match lemma="subtil" tags="adj.*"/>
+      <match lemma="clair" tags="adj.*"/>
+      <match lemma="révélateur" tags="adj.*"/>
+      <match lemma="insuffisant" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="aucun" tags="det.*"/>
+      <match lemma="moindre" tags="adj.*"/>
+    </or>
+    <match lemma="indice" tags="n.*"><select lemma="signo"/></match>
   </rule>
 
   <!-- Indien >> Endien, Indien -->
@@ -1298,6 +1335,30 @@
     <match lemma="promotion" tags="n.*"><select lemma="promocion"/></match>
     <match lemma="de" tags="pr"/>
     <or><match tags="num.*"/><match tags="num"/></or>
+  </rule>
+
+  <!-- rejet >> refus, rebiolon -->
+  <rule weight="0.8">
+    <match lemma="rejet" tags="n.*"><select lemma="refus"/></match>
+  </rule>
+
+  <!-- remise >> rabès, atribucion, chapa -->
+  <rule weight="0.8">
+    <match lemma="remise" tags="n.*"><select lemma="rabès"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="remise" tags="n.*"><select lemma="atribucion"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <or>
+      <match lemma="prix" tags="n.*"/>
+      <match lemma="oscar" tags="n.*"/>
+      <match lemma="césar" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- siège >> èscabél, sièta, sièjo -->

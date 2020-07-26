@@ -1408,6 +1408,29 @@
     </or>
   </rule>
 
+  <!-- lira >> lire, lyre -->
+  <rule weight="0.8">
+    <match lemma="lira" tags="n.*"><select lemma="lire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="menar" tags="vblex.*"/>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <match lemma="lira" tags="n.*"><select lemma="lyre"/></match>
+  </rule>
+
+  <!-- parcâjo >> parking, stationnement -->
+  <rule weight="0.8">
+    <match lemma="parcâjo" tags="n.*"><select lemma="parking"/></match>
+  </rule>
+
   <!-- papa >> papa, pape -->
   <rule weight="0.8">
     <match lemma="papa" tags="n.*"><select lemma="papa"/></match>
@@ -1452,6 +1475,11 @@
       <match lemma="rê" tags="n*"/>
       <match lemma="royômo" tags="n*"/>
     </or>
+  </rule>
+
+  <!-- prêsa >> prise, proie, capture -->
+  <rule weight="0.8">
+    <match lemma="prêsa" tags="n.*"><select lemma="prise"/></match>
   </rule>
 
   <!-- politico n.f. >> politique n.f., politique n.mf., politicien -->
