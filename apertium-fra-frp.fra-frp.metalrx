@@ -692,6 +692,30 @@
     <match lemma="scolaire" tags="adj.*"/>
   </rule>
 
+  <!-- bac >> bacalôrèat, bachèt, trâlye -->
+  <rule weight="0.8">
+    <match lemma="bac" tags="n.*"><select lemma="bacalôrèat"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dans" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="bac" tags="n.*"><select lemma="bachèt"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="bac" tags="n.*"><select lemma="bachèt"/></match>
+    <match lemma="à" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="par" tags="pr"/>
+      <match lemma="sur" tags="pr"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="bac" tags="n.*"><select lemma="trâlye"/></match>
+  </rule>
+
   <!-- bar, café >> taverna, cabarèt -->
   <rule weight="0.8">
     <or>
@@ -858,6 +882,16 @@
       <match/>
     </repeat>
     <match lemma="couche" tags="n.f.pl"><select lemma="lange"/></match>
+  </rule>
+
+  <!-- courreur >> corror, corratiér -->
+  <rule weight="0.8">
+    <match lemma="courreur" tags="n.*"><select lemma="corror"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="courreur" tags="n.*"><select lemma="corratiér"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="femme" tags="n.*"/>
   </rule>
 
   <!-- érection >> èrèccion, enstalacion -->
@@ -1105,6 +1139,15 @@
     <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
   </rule>
 
+  <!-- fixation >> atache, obsèssion -->
+  <rule weight="0.8">
+    <match lemma="fixation" tags="n.*"><select lemma="atache"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fixation" tags="n.*"><select lemma="obsèssion"/></match>
+    <match lemma="sur" tags="pr"/>
+  </rule>
+
   <!-- groupe >> benda, groupe -->
   <rule weight="0.8">
     <match lemma="groupe" tags="n.*"><select lemma="benda"/></match>
@@ -1156,6 +1199,19 @@
   </rule>
   <rule weight="1.0">
     <match lemma="groupe" tags="n.*"><select lemma="groupe"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+    </or>
+  </rule>
+
+  <!-- guide >> atache, obsèssion -->
+  <rule weight="0.8">
+    <match lemma="guide" tags="n.*"><select lemma="guido" tags="n.GD.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guide" tags="n.*"><select lemma="guido" tags="n.f.*"/></match>
     <match lemma="de" tags="pr"/>
     <or>
       <match tags="np.*"/>
@@ -1493,7 +1549,7 @@
       <match lemma="pleuvoir" tags="vblex.*.p3.sg"/>
       <match lemma="neiger" tags="vblex.*.p3.sg"/>
       <match lemma="geler" tags="vblex.*.p3.sg"/>
-      <match lemma="falloir" tags="vblex.*.p3.sg"/>
+      <match lemma="xxxfalloir" tags="vblex.*.p3.sg"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1509,7 +1565,7 @@
       <match lemma="pleuvoir" tags="vblex.pp.*"/>
       <match lemma="neiger" tags="vblex.pp.*"/>
       <match lemma="geler" tags="vblex.pp.*"/>
-      <match lemma="falloir" tags="vblex.pp.*"/>
+      <match lemma="xxxfalloir" tags="vblex.pp.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1526,7 +1582,7 @@
       <match lemma="pleuvoir" tags="vblex.pp.*"/>
       <match lemma="neiger" tags="vblex.pp.*"/>
       <match lemma="geler" tags="vblex.pp.*"/>
-      <match lemma="falloir" tags="vblex.pp.*"/>
+      <match lemma="xxxfalloir" tags="vblex.pp.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1542,7 +1598,7 @@
       <match lemma="pleuvoir" tags="vblex.inf"/>
       <match lemma="neiger" tags="vblex.inf"/>
       <match lemma="geler" tags="vblex.inf"/>
-      <match lemma="falloir" tags="vblex.inf"/>
+      <match lemma="xxxfalloir" tags="vblex.inf"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1559,7 +1615,7 @@
       <match lemma="pleuvoir" tags="vblex.inf"/>
       <match lemma="neiger" tags="vblex.inf"/>
       <match lemma="geler" tags="vblex.inf"/>
-      <match lemma="falloir" tags="vblex.inf"/>
+      <match lemma="xxxfalloir" tags="vblex.inf"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1675,89 +1731,93 @@
       <match tags="adj.*"/>
       <match tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
+    <match tags="adv"/>
+    <match lemma="aller" tags="vblex.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <or>
+      	<match tags="adv"/>
+      	<match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match lemma="faire" tags="vblex.inf"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
+    <or>
+      <match lemma="beau"/>
+      <match lemma="chaud"/>
+      <match lemma="froid"/>
+      <match tags="adj.*"/>
+      <match tags="n.*"/>
+    </or>
+  </rule>
 
-  </rule>
-  <rule weight="1.0">
-    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
-    <match lemma="aller" tags="vblex.*.p3.sg"/>
-    <repeat from="0" upto="2">
-      <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match lemma="faire" tags="vblex.inf"/>
-    <or>
-      <match lemma="beau"/>
-      <match lemma="chaud"/>
-      <match lemma="froid"/>
-      <match tags="adj.*"/>
-      <match tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
-    <match lemma="aller" tags="vblex.*.p3.sg"/>
-    <repeat from="0" upto="2">
-      <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match lemma="faire" tags="vblex.inf"/>
-    <or>
-      <match tags="preadv"/>
-      <match tags="adv"/>
-    </or>
-    <or>
-      <match lemma="beau"/>
-      <match lemma="chaud"/>
-      <match lemma="froid"/>
-      <match tags="adj.*"/>
-      <match tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
-    <match tags="adv"/>
-    <match lemma="aller" tags="vblex.*.p3.sg"/>
-    <repeat from="0" upto="2">
-      <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match lemma="faire" tags="vblex.inf"/>
-    <or>
-      <match lemma="beau"/>
-      <match lemma="chaud"/>
-      <match lemma="froid"/>
-      <match tags="adj.*"/>
-      <match tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="il" tags="prn.*"><select lemma="o"/></match>
-    <match tags="adv"/>
-    <match lemma="aller" tags="vblex.*.p3.sg"/>
-    <repeat from="0" upto="2">
-      <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match lemma="faire" tags="vblex.inf"/>
-    <or>
-      <match tags="preadv"/>
-      <match tags="adv"/>
-    </or>
-    <or>
-      <match lemma="beau"/>
-      <match lemma="chaud"/>
-      <match lemma="froid"/>
-      <match tags="adj.*"/>
-      <match tags="n.*"/>
-    </or>
+  <rule weight="2.0">
+    <match lemma="il" tags="prn.tn.p3.m.sg"><remove/></match>
+    <match lemma="falloir" tags="vbmod.*.p3.sg"/>
   </rule>
 
   <rule weight="1.0">
@@ -1954,6 +2014,11 @@
       <match lemma="plus" tags="adv"/>
       <match lemma="moins" tags="adv"/>
     </or>
+  </rule>
+
+  <!-- pas du tout >> gins, pas du tot -->
+  <rule weight="0.8">
+    <match lemma="pas du tout" tags="adv"><select lemma="gins"/></match>
   </rule>
 
   <!-- plus >> més, pas més -->
@@ -2634,8 +2699,8 @@
     </repeat>
     <match tags="det.*"/>
     <or>
-    <match lemma="étude" tags="n.*"/>
-    <match lemma="marche" tags="n.*"/>
+      <match lemma="étude" tags="n.*"/>
+      <match lemma="marche" tags="n.*"/>
     </or>
   </rule>
 
@@ -2654,6 +2719,28 @@
 
   <!-- rendre >> rebalyér, rendre -->
   <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
+
+  <!-- repousser >> rebouciér, rebiolar -->
+  <rule weight="0.8">
+    <match lemma="repousser" tags="vblex.*"><select lemma="rebouciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="plante" tags="n.*"/>
+      <match lemma="végétation" tags="n.*"/>
+      <match lemma="arbre" tags="n.*"/>
+      <match lemma="forêt" tags="n.*"/>
+      <match lemma="bois" tags="n.*"/>
+      <match lemma="queue" tags="n.*"/>
+      <match lemma="cheveu" tags="n.*"/>
+      <match lemma="chevelure" tags="n.*"/>
+      <match lemma="cil" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="repousser" tags="vblex.*"><select lemma="rebiolar"/></match>
+  </rule>
 
   <!-- retourner >> reveriér, etc. -->
   <rule weight="0.8">
