@@ -1361,6 +1361,11 @@
     </or>
   </rule>
 
+  <!-- serveur >> sèrvor, garçon -->
+  <rule weight="0.8">
+    <match lemma="serveur" tags="n.m.*"><select lemma="sèrvor"/></match>
+  </rule>
+
   <!-- siège >> èscabél, sièta, sièjo -->
   <rule weight="0.8">
     <match lemma="siège" tags="n.*"><select lemma="èscabél"/></match>

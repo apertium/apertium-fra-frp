@@ -719,10 +719,19 @@
     <match lemma="devant" tags="pr"><select lemma="devant"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="devant" tags="pr"><select lemma="avant"/></match>
+    <match lemma="J.C." tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="devant" tags="pr"><select lemma="avant"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+      </or>
     <or>
       <seq n="temps"/>
     </or>
-    <match lemma="devant" tags="pr"><select lemma="avant"/></match>
   </rule>
 
   <!-- aprés >> après, en train de -->
@@ -1001,6 +1010,17 @@
   <!-- adés >> encore, toujours -->
   <rule weight="0.8">
     <match lemma="adés" tags="adv"><select lemma="encore"/></match>
+  </rule>
+
+  <!-- devant >> devant, avant -->
+  <rule weight="0.8">
+    <match lemma="devant" tags="adv"><select lemma="devant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="temps"/>
+    </or>
+    <match lemma="devant" tags="adv"><select lemma="avant"/></match>
   </rule>
 
   <!-- lé-en >> là-dedans, là-bas -->
@@ -1516,6 +1536,51 @@
   <rule weight="1.0">
     <match lemma="sêson" tags="n.*"><select lemma="année"/></match>
     <match lemma="scolèro" tags="adj.*"/>
+  </rule>
+
+  <!-- ton >> ton, thon -->
+  <rule weight="0.8">
+    <match lemma="ton" tags="n.*"><select lemma="ton"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="megiér" tags="vblex.*"/>
+      <match lemma="mengiér" tags="vblex.*"/>
+      <match lemma="gôtar" tags="vblex.*"/>
+      <match lemma="couére" tags="vblex.*"/>
+      <match lemma="prèparar" tags="vblex.*"/>
+      <match lemma="denar" tags="vblex.*"/>
+      <match lemma="dèjonar" tags="vblex.*"/>
+      <match lemma="cusenar" tags="vblex.*"/>
+      <match lemma="frire" tags="vblex.*"/>
+      <match lemma="pèchiér" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="ton" tags="n.*"><select lemma="thon"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ton" tags="n.*"><select lemma="thon"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="sôça" tags="n.*"/>
+      <match lemma="tomata" tags="n.*"/>
+      <match lemma="tarteflla" tags="n.*"/>
+      <match lemma="catrolye" tags="n.*"/>
+      <match lemma="perét# de tèrra" tags="n.*"/>
+      <match lemma="poma# de tèrra" tags="n.*"/>
+      <match lemma="trufa" tags="n.*"/>
+      <match lemma="truflla" tags="n.*"/>
+      <match lemma="cortelyâjo" tags="n.*"/>
+      <match lemma="jardenâjo" tags="n.*"/>
+      <match lemma="hortolâjo" tags="n.*"/>
+      <match lemma="vèrdura" tags="n.*"/>
+      <match lemma="vèrdior" tags="n.*"/>
+      <match lemma="lègumo" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- volontèro >> volontaire, bénévole -->
