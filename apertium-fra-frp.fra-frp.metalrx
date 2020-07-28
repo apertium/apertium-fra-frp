@@ -647,6 +647,13 @@
 
 <rules>
 
+<!-- **************** DET **************** -->
+
+  <!-- le >> lo, [remove] -->
+  <rule weight="0.8">
+    <match lemma="le" tags="det.*"><select lemma="lo"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
 
   <!-- aire >> endrêt, surface, ètendua -->
@@ -690,6 +697,10 @@
   <rule weight="1.0">
     <match lemma="année" tags="n.*"><select lemma="sêson"/></match>
     <match lemma="scolaire" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="année" tags="n.*"><select lemma="an"/></match>
+    <or><match tags="num.*"/><match tags="num"/></or>
   </rule>
 
   <!-- bac >> bacalôrèat, bachèt, trâlye -->
@@ -921,6 +932,22 @@
   <!-- dé >> diél, diâl, dê -->
   <rule weight="0.8">
     <match lemma="dé" tags="n.*"><select lemma="diél"/></match>
+  </rule>
+
+  <!-- début >> dèbut, comencement -->
+  <rule weight="0.8">
+    <match lemma="début" tags="n.*"><select lemma="dèbut"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="début" tags="n.*"><select lemma="comencement"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <seq n="temps"/>
+    </or>
   </rule>
 
   <!-- embouchure >> embochiura, embochior -->
@@ -1883,7 +1910,23 @@
 
   <rule weight="2.0">
     <match lemma="il" tags="prn.tn.p3.m.sg"><remove/></match>
-    <match lemma="falloir" tags="vbmod.*.p3.sg"/>
+    <or>
+      <match lemma="falloir" tags="vbmod.*.p3.sg"/>
+      <match lemma="pleuvoir" tags="vblex.*.p3.sg"/>
+      <match lemma="neiger" tags="vblex.*.p3.sg"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="il" tags="prn.tn.p3.m.sg"><remove/></match>
+    <match tags="vbhaver.*.p3.sg"/>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="falloir" tags="vbmod.pp.*"/>
+      <match lemma="pleuvoir" tags="vblex.pp.*"/>
+      <match lemma="neiger" tags="vblex.pp.*"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
@@ -1946,6 +1989,15 @@
   <!-- un >> un, yon -->
   <rule weight="0.8">
     <match lemma="un" tags="prn.*"><select lemma="un"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.def.mf.sg"><remove/></match>
+    <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
+    <match lemma="de" tags="pr"/>
   </rule>
   <rule weight="1.0">
     <match lemma="un" tags="prn.*"><select lemma="yon"/></match>
