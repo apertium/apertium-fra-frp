@@ -2870,6 +2870,9 @@
   <!-- expulser >> chaciér# defôr, chaciér -->
   <macro name="verb_locprep" p1="expulser" p2="chaciér# defôr" p3="chaciér" />
 
+  <!-- finaliser >> betar# bôna fin a, betar# bôna fin -->
+  <macro name="verb_locprep" p1="finaliser" p2="betar# bôna fin a" p3="betar# bôna fin" />
+
   <!-- frapper >> bouciér, etc. -->
   <rule weight="0.8">
     <match lemma="frapper" tags="vblex.*"><select lemma="bouciér"/></match>
@@ -3037,6 +3040,9 @@
   <rule weight="0.8">
     <match lemma="regarder" tags="vblex.*"><select lemma="agouétiér"/></match>
   </rule>
+
+  <!-- réintroduire >> rebetar# dedens, rèentroduire -->
+  <macro name="verb_locprep" p1="réintroduire" p2="rebetar# dedens" p3="rèentroduire" />
 
   <!-- rendre >> rebalyér, rendre -->
   <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
