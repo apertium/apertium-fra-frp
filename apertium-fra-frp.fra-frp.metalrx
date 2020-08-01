@@ -306,6 +306,24 @@
 		  </rule>
 	</def-macro>
 
+	<!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une présposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre préposition) -->
+ 	<!-- <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" /> -->
+	<def-macro name="verb_locprep">
+		<rule weight="0.8">
+			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+		</rule>
+		<rule weight="1.0">
+			<match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+			<repeat from="0" upto="2">
+				<or>
+					<match tags="adv"/>
+					<match tags="cnjadv"/>
+				</or>
+			</repeat>
+			<match tags="pr"/>
+		</rule>
+	</def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
     <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
     <!-- la manera de veure que el verb és transitiu és molt barroera -->
@@ -2616,19 +2634,7 @@
   </rule>
 
   <!-- assumer >> chargiér# de, accèptar -->
-  <rule weight="0.8">
-    <match lemma="assumer" tags="vblex.*"><select lemma="chargiér# de"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="assumer" tags="vblex.pp.*"><select lemma="accèptar"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match tags="adv"/>
-        <match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match tags="pr"/>
-  </rule>
+  <macro name="verb_locprep" p1="assumer" p2="chargiér# de" p3="accèptar" />
 
   <!-- baser >> fondar, enstalar -->
   <macro name="verb_prep" p1="baser" p2="fondar" p3="à" p4="enstalar" />
@@ -2657,6 +2663,39 @@
       <match lemma="tranquillement" tags="adv"/>
       <match lemma="dehors" tags="adv"/>
     </or>
+  </rule>
+
+  <!-- commémorer >> fétar, rapelar -->
+  <rule weight="0.8">
+    <match lemma="commémorer" tags="vblex.*"><select lemma="fétar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="commémorer" tags="vblex.*"><select lemma="rapelar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="mort" tags="n.*"/>
+      <match lemma="meutre" tags="n.*"/>
+      <match lemma="assassinat" tags="n.*"/>
+      <match lemma="génocide" tags="n.*"/>
+      <match lemma="bataille" tags="n.*"/>
+      <match lemma="guerre" tags="n.*"/>
+      <match lemma="défaite" tags="n.*"/>
+      <match lemma="capitulation" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="commémorer" tags="vblex.*"><select lemma="rapelar"/></match>
+    <match tags="np.loc.*"/>
   </rule>
 
   <!-- décoller >> dègllètar, dècôlar -->
@@ -2826,34 +2865,10 @@
   </rule>
 
   <!-- exclure >> betar# defôr, ècartar -->
-  <rule weight="0.8">
-    <match lemma="exclure" tags="vblex.*"><select lemma="betar# defôr"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="exclure" tags="vblex.pp.*"><select lemma="ècartar"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match tags="adv"/>
-        <match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match tags="pr"/>
-  </rule>
+  <macro name="verb_locprep" p1="exclure" p2="betar# defôr" p3="ècartar" />
 
   <!-- expulser >> chaciér# defôr, chaciér -->
-  <rule weight="0.8">
-    <match lemma="expulser" tags="vblex.*"><select lemma="chaciér# defôr"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="expulser" tags="vblex.pp.*"><select lemma="chaciér"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match tags="adv"/>
-        <match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match tags="pr"/>
-  </rule>
+  <macro name="verb_locprep" p1="expulser" p2="chaciér# defôr" p3="chaciér" />
 
   <!-- frapper >> bouciér, etc. -->
   <rule weight="0.8">
@@ -2872,34 +2887,10 @@
   </rule>
 
   <!-- inclure >> betar# dedens, apondre -->
-  <rule weight="0.8">
-    <match lemma="inclure" tags="vblex.*"><select lemma="betar# dedens"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="inclure" tags="vblex.pp.*"><select lemma="apondre"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match tags="adv"/>
-        <match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match tags="pr"/>
-  </rule>
+  <macro name="verb_locprep" p1="inclure" p2="betar# dedens" p3="apondre" />
 
   <!-- influencer >> pesar# sur, enfluenciér -->
-  <rule weight="0.8">
-    <match lemma="influencer" tags="vblex.*"><select lemma="pesar# sur"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="influencer" tags="vblex.pp.*"><select lemma="enfluenciér"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match tags="adv"/>
-        <match tags="cnjadv"/>
-      </or>
-    </repeat>
-    <match tags="pr"/>
-  </rule>
+  <macro name="verb_locprep" p1="influencer" p2="pesar# sur" p3="enfluenciér" />
 
   <!-- initier >> comenciér, iniciér -->
   <rule weight="0.8">
@@ -2923,6 +2914,9 @@
     </or>
     <match lemma="initier" tags="vblex.pp.*"><select lemma="iniciér"/></match>
   </rule>
+
+  <!-- insérer >> betar# dens, betar -->
+  <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" />
 
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">
@@ -2994,6 +2988,46 @@
   <!-- préparer >> prèparar, aprèstar -->
   <macro name="verb_nopron_pron" p1="préparer" p2="prèparar" p3="aprèstar" />
 
+  <!-- primer >> devanciér, rècompensar -->
+  <rule weight="0.8">
+    <match lemma="primer" tags="vblex.*"><select lemma="devanciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="primer" tags="vblex.*"><select lemma="rècompensar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+      <match lemma="de" tags="pr"/>
+    </or>
+    <or>
+      <match lemma="film" tags="n.*"/>
+      <match lemma="œuvre" tags="n.*"/>
+      <match lemma="travail" tags="n.*"/>
+      <match lemma="acteur" tags="n.*"/>
+      <match lemma="directeur" tags="n.*"/>
+      <match lemma="réalisateur" tags="n.*"/>
+      <match lemma="scénariste" tags="n.*"/>
+      <match lemma="metteur# en scène" tags="n.*"/>
+      <match lemma="artiste" tags="n.*"/>
+      <match lemma="meilleur" tags="adj.*"/>
+      <match lemma="plus" tags="adv"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="primer" tags="vblex.*"><select lemma="rècompensar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+
   <!-- rattacher >> apondre, ratachiér -->
   <rule weight="0.8">
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
@@ -3050,10 +3084,14 @@
   </rule>
   <rule weight="1.0">
     <match lemma="saisir" tags="vblex.*"><select lemma="empouegnér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
     <or>
       <match tags="det.*"/>
       <match tags="num.*"/>
       <match tags="num"/>
+      <match lemma="de" tags="pr"/>
     </or>
     <or>
       <match lemma="fourchette" tags="n.*"/>
@@ -3067,6 +3105,11 @@
     <match lemma="de" tags="pr"><remove tags="pr"/></match>
   </rule>
 
+  <!-- subdiviser >> divisar, redivisar -->
+  <rule weight="0.8">
+    <match lemma="subdiviser" tags="vblex.*"><select lemma="divisar"/></match>
+  </rule>
+
   <!-- suffire >> sufir, bâstar -->
   <rule weight="0.8">
     <match lemma="suffire" tags="vblex.*"><select lemma="sufir"/></match>
@@ -3077,6 +3120,70 @@
       <match lemma="cela" tags="prn.*"><remove/></match>
     </or>
     <match lemma="suffire" tags="vblex.*"><select lemma="bâstar"/></match>
+  </rule>
+
+  <!-- synthétiser >> sintètisar, rèsumar -->
+  <rule weight="0.8">
+    <match lemma="synthétiser" tags="vblex.*"><select lemma="sintètisar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="synthétiser" tags="vblex.*"><select lemma="rèsumar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+      <match lemma="de" tags="pr"/>
+    </or>
+    <or>
+      <match lemma="conversation" tags="n.*"/>
+      <match lemma="connaissance" tags="n.*"/>
+      <match lemma="données" tags="n.*"/>
+      <match lemma="information" tags="n.*"/>
+      <match lemma="résultat" tags="n.*"/>
+      <match lemma="texte" tags="n.*"/>
+      <match lemma="article" tags="n.*"/>
+      <match lemma="livre" tags="n.*"/>
+      <match lemma="travail" tags="n.*"/>
+      <match lemma="roman" tags="n.*"/>
+      <match lemma="problème" tags="n.*"/>
+      <match lemma="action" tags="n.*"/>
+      <match lemma="procédure" tags="n.*"/>
+      <match lemma="loi" tags="n.*"/>
+      <match lemma="législation" tags="n.*"/>
+      <match lemma="disposition" tags="n.*"/>
+      <match lemma="ordre" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="synthétiser" tags="vblex.*"><select lemma="rèsumar"/></match>
+    <match lemma="tout" tags="prn.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="synthétiser" tags="vblex.*"><select lemma="rèsumar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="en" tags="pr"/>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <or>
+      <match lemma="mot" tags="n.*"/>
+      <match lemma="image" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- suffire >> sufir, bâstar -->
+  <rule weight="0.8">
+    <match lemma="suffire" tags="vblex.*"><select lemma="sufir"/></match>
   </rule>
 
   <!-- transporter >> charrotar, transportar -->
