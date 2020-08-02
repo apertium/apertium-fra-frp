@@ -306,7 +306,7 @@
 		  </rule>
 	</def-macro>
 
-	<!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une présposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre préposition) -->
+	<!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une préposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre situation dans laquelle ne pas pas précéder une préposition) -->
  	<!-- <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" /> -->
 	<def-macro name="verb_locprep">
 		<rule weight="0.8">
@@ -320,7 +320,11 @@
 					<match tags="cnjadv"/>
 				</or>
 			</repeat>
-			<match tags="pr"/>
+			<or>
+				<match tags="pr"/>
+				<match tags="cnjsub"/>
+				<match tags="sent"/>
+			</or>
 		</rule>
 	</def-macro>
 
