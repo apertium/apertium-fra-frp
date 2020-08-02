@@ -1622,6 +1622,54 @@
     <match lemma="plateau" tags="n.*"><select lemma="platél"/></match>
   </rule>
 
+  <!-- précipitation >> couèta, ploge, prècipitacion -->
+  <rule weight="0.8">
+    <match lemma="précipitation" tags="n.*"><select lemma="couèta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="précipitation" tags="n.f.pl"><select lemma="ploge"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="précipitation" tags="n.f.sg"><select lemma="prècipitacion"/></match>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="alcohol" tags="n.*"/>
+      <match lemma="acide" tags="n.*"/>
+      <match lemma="chlorure" tags="n.*"/>
+      <match lemma="sulfate" tags="n.*"/>
+      <match lemma="carbonate" tags="n.*"/>
+      <match lemma="ammoniac" tags="n.*"/>
+      <match lemma="eau" tags="n.*"/>
+      <match lemma="chimie" tags="n.*"/>
+      <match lemma="réaction" tags="n.*"/>
+      <match lemma="vase" tags="n.*"/>
+      <match lemma="éprouvette" tags="n.*"/>
+      <match lemma="bécher" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="alcohol" tags="n.*"/>
+      <match lemma="acide" tags="n.*"/>
+      <match lemma="chlorure" tags="n.*"/>
+      <match lemma="sulfate" tags="n.*"/>
+      <match lemma="carbonate" tags="n.*"/>
+      <match lemma="ammoniac" tags="n.*"/>
+      <match lemma="eau" tags="n.*"/>
+      <match lemma="chimie" tags="n.*"/>
+      <match lemma="réaction" tags="n.*"/>
+      <match lemma="vase" tags="n.*"/>
+      <match lemma="éprouvette" tags="n.*"/>
+      <match lemma="bécher" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <match lemma="précipitation" tags="n.f.sg"><select lemma="prècipitacion"/></match>
+  </rule>
+
   <!-- promotion >> nominacion, promocion -->
   <rule weight="0.8">
     <match lemma="promotion" tags="n.*"><select lemma="nominacion"/></match>
@@ -2794,6 +2842,9 @@
     </or>
   </rule>
 
+  <!-- éjecter >> champar# defôr, champar -->
+  <macro name="verb_locprep" p1="éjecter" p2="champar# defôr" p3="champar" />
+
   <!-- entamer >> comenciér, entanar/entamar, atacar -->
   <rule weight="0.8">
     <match lemma="entamer" tags="vblex.*"><select lemma="comenciér"/></match>
@@ -3035,6 +3086,29 @@
     </or>
   </rule>
 
+  <!-- professer >> dècllarar, ensègnér -->
+  <rule weight="0.8">
+    <match lemma="professer" tags="vblex.*"><select lemma="dècllarar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="professer" tags="vblex.*"><select lemma="ensègnér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="philosophie" tags="n.*"/>
+      <match lemma="théologie" tags="n.*"/>
+      <match lemma="droit" tags="n.*"/>
+      <match lemma="mathématique" tags="n.*"/>
+      <match lemma="physique" tags="n.*"/>
+      <match lemma="chimie" tags="n.*"/>
+      <match lemma="science" tags="n.*"/>
+      <match lemma="médecine" tags="n.*"/>
+      <match lemma="philologie" tags="n.*"/>
+      <match lemma="langue" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- rattacher >> apondre, ratachiér -->
   <rule weight="0.8">
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
@@ -3194,6 +3268,32 @@
   <!-- suffire >> sufir, bâstar -->
   <rule weight="0.8">
     <match lemma="suffire" tags="vblex.*"><select lemma="sufir"/></match>
+  </rule>
+
+  <!-- terrasser >> tèrrassiér, abatre -->
+  <rule weight="0.8">
+    <match lemma="terrasser" tags="vblex.*"><select lemma="tèrrassiér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="terrasser" tags="vblex.*"><select lemma="abatre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="terrasser" tags="vblex.*"><select lemma="abatre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
   </rule>
 
   <!-- transporter >> charrotar, transportar -->
