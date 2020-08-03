@@ -849,6 +849,11 @@
     <match lemma="bac" tags="n.*"><select lemma="trâlye"/></match>
   </rule>
 
+  <!-- baie >> grana, baye ; xxx ; granta fenétra -->
+  <rule weight="0.8">
+    <match lemma="baie" tags="n.*"><select lemma="grana"/></match>
+  </rule>
+
   <!-- bar, café >> taverna, cabarèt -->
   <rule weight="0.8">
     <or>
@@ -1620,6 +1625,11 @@
       <match/>
     </repeat>
     <match lemma="plateau" tags="n.*"><select lemma="platél"/></match>
+  </rule>
+
+  <!-- portable >> mobilo, portâblo -->
+  <rule weight="0.8">
+    <match lemma="portable" tags="n.*"><select lemma="mobilo"/></match>
   </rule>
 
   <!-- précipitation >> couèta, ploge, prècipitacion -->
@@ -2415,7 +2425,7 @@
 
   </rule>
 
-  <!-- excentrique >> folaru, excentrico -->
+  <!-- excentrique >> folaru, èxcentrico -->
   <rule weight="0.8">
     <match lemma="excentrique" tags="adj.*"><select lemma="folaru"/></match>
   </rule>
@@ -2434,7 +2444,7 @@
       	<match tags="preadv"/>
       </or>
     </repeat>
-    <match lemma="excentrique" tags="adj.*"><select lemma="excentrico"/></match>
+    <match lemma="excentrique" tags="adj.*"><select lemma="èxcentrico"/></match>
   </rule>
 
   <!-- imaginaire >> imaginâ, émaginèro -->
@@ -3155,11 +3165,6 @@
   <!-- réveiller >> rèvelyér, èvelyér, dèvelyér -->
   <rule weight="0.8">
     <match lemma="réveiller" tags="vblex.*"><select lemma="rèvelyér"/></match>
-  </rule>
-
-  <!-- revenir >> recampar, revenir -->
-  <rule weight="0.8">
-    <match lemma="revenir" tags="vblex.*"><select lemma="recampar"/></match>
   </rule>
 
   <!-- saisir >> arrapar, empouegnér -->

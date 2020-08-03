@@ -1570,13 +1570,18 @@
     <repeat from="0" upto="2">
       <match tags="adv"/>
     </repeat>
-    <repeat from="0" upto="1">
+    <repeat from="0" upto="2">
       <or>
         <match lemma="de" tags="pr"/>
         <match tags="det.*"/>
       </or>
     </repeat>
     <match lemma="lira" tags="n.*"><select lemma="lyre"/></match>
+  </rule>
+
+  <!-- ôdiance >> audience, audition -->
+  <rule weight="0.8">
+    <match lemma="ôdiance" tags="n.*"><select lemma="audience"/></match>
   </rule>
 
   <!-- parcâjo >> parking, stationnement -->
