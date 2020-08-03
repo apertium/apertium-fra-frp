@@ -2400,6 +2400,20 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- atteint >> avengiê, tochiê -->
+  <rule weight="0.8">
+    <match lemma="atteint" tags="adj.*"><select lemma="avengiê"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="atteint" tags="adj.*"><select lemma="tochiê"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="det" tags="pr"/>
+    <or>
+      <match lemma="maladie" tags="n.*"/>
+      <match lemma="infection" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- complexe >> complicâ, complèxo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="adj.*"><select lemma="complicâ"/></match>
@@ -2407,6 +2421,11 @@
   <rule weight="1.0">
     <match lemma="nombre" tags="n.*"/>
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
+  </rule>
+
+  <!-- masculin >> masculin, mâcllo -->
+  <rule weight="0.8">
+    <match lemma="masculin" tags="adj.*"><select lemma="masculin"/></match>
   </rule>
 
   <!-- de col blanc, en col blanc >> de grata-papiér, grata-papiér -->
