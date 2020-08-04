@@ -2497,6 +2497,15 @@
     <match lemma="internet" tags="adj.*"><select lemma="entèrnète"/></match>
   </rule>
 
+  <!-- issu >> venu, venent -->
+  <rule weight="0.8">
+    <match lemma="issu" tags="adj.*"><select lemma="venu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="issu" tags="adj.*"><select lemma="venent"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
   <!-- musclé >> ènèrgico, musclâ -->
   <rule weight="0.8">
     <match lemma="musclé" tags="adj.*"><select lemma="ènèrgico"/></match>
@@ -2617,6 +2626,25 @@
   <rule weight="1.0">
     <match lemma="susceptible" tags="adj.*"><select lemma="capâblo"/></match>
     <match lemma="de" tags="pr"/>
+  </rule>
+
+  <!-- suspendu >> suspendu, apendu -->
+  <rule weight="0.8">
+    <match lemma="suspendu" tags="adj.*"><select lemma="suspendu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+      <match lemma="chose" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <repeat from="0" upto="1">
+        <match tags="vbhaver.*"/>
+      </repeat>
+      <match tags="vbser.*"/>
+    </repeat>
+    <match lemma="suspendu" tags="adj.*"><select lemma="apendu"/></match>
   </rule>
 
   <!-- urbain >> de la vela, de vela, en vela, urben -->
