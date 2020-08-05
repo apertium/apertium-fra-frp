@@ -2466,6 +2466,15 @@
     <match lemma="excentrique" tags="adj.*"><select lemma="èxcentrico"/></match>
   </rule>
 
+  <!-- franc >> sincèro, dètaxâ -->
+  <rule weight="0.8">
+    <match lemma="franc" tags="adj.*"><select lemma="sincèro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="port" tags="n.*"/>
+    <match lemma="franc" tags="adj.*"><select lemma="dètaxâ"/></match>
+  </rule>
+
   <!-- imaginaire >> imaginâ, émaginèro -->
   <rule weight="0.8">
     <match lemma="imaginaire" tags="adj.*"><select lemma="imaginâ"/></match>
@@ -2506,6 +2515,16 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <!-- licencié >> emmandâ, licenciê -->
+  <rule weight="0.8">
+    <match lemma="licencié" tags="adj.*"><select lemma="emmandâ"/></match>
+  </rule>
+<!--
+  <rule weight="1.0">
+    <match lemma="licencié" tags="adj.*"><select lemma="licenciê"/></match>
+  </rule>
+-->
+
   <!-- musclé >> ènèrgico, musclâ -->
   <rule weight="0.8">
     <match lemma="musclé" tags="adj.*"><select lemma="ènèrgico"/></match>
@@ -2541,6 +2560,11 @@
       </or>
     </repeat>
     <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
+  </rule>
+
+  <!-- polaire >> des pôlos, du pôlo -->
+  <rule weight="0.8">
+    <match lemma="polaire" tags="adj.*"><select lemma="des pôlos"/></match>
   </rule>
 
   <!-- postérieur >> d'aprés, du dèrriér -->
