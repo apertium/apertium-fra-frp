@@ -2400,6 +2400,51 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- abattu >> dèfêt, dèchesu, abatu -->
+  <rule weight="0.8">
+    <match lemma="abattu" tags="adj.*"><select lemma="dèfêt"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="président" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="député" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="commandant" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="lieutenant" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="caporal" tags="n.*"/>
+      <match lemma="soldat" tags="n.*"/>
+      <match lemma="marine" tags="n.m.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="reine" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="abattu" tags="adj.*"><select lemma="dèchesu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="arbre" tags="n.*"/>
+      <match lemma="chêne" tags="n.*"/>
+      <match lemma="chêne-liège" tags="n.*"/>
+      <match lemma="chêne vert" tags="n.*"/>
+      <match lemma="pin" tags="n.*"/>
+      <match lemma="sapin" tags="n.*"/>
+      <match lemma="forêt" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="abattu" tags="adj.*"><select lemma="abatu"/></match>
+  </rule>
+
   <!-- atteint >> avengiê, tochiê -->
   <rule weight="0.8">
     <match lemma="atteint" tags="adj.*"><select lemma="avengiê"/></match>
@@ -2632,6 +2677,11 @@
       </or>
     </repeat>
     <match lemma="quelconque" tags="adj.*"><select lemma="come les ôtres"/></match>
+  </rule>
+
+  <!-- rangé >> rengiê, rèduit, sèriox -->
+  <rule weight="0.8">
+    <match lemma="rangé" tags="adj.*"><select lemma="rengiê"/></match>
   </rule>
 
   <!-- strict >> sevèro, ètrêt -->
