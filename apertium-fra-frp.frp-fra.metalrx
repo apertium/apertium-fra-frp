@@ -1579,6 +1579,11 @@
     <match lemma="lira" tags="n.*"><select lemma="lyre"/></match>
   </rule>
 
+  <!-- mobilo >> portable, mobile -->
+  <rule weight="0.8">
+    <match lemma="mobilo" tags="n.*"><select lemma="portable"/></match>
+  </rule>
+
   <!-- ôdiance >> audience, audition -->
   <rule weight="0.8">
     <match lemma="ôdiance" tags="n.*"><select lemma="audience"/></match>
