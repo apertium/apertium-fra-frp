@@ -2667,17 +2667,29 @@
   <rule weight="1.0">
     <or>
       <match lemma="patte" tags="n.*"/>
+      <match lemma="membre" tags="n.*"/>
+      <match lemma="extrémité" tags="n.*"/>
       <match lemma="roue" tags="n.*"/>
       <match lemma="pneu" tags="n.*"/>
       <match lemma="droit" tags="adj.*"/>
       <match lemma="gauche" tags="adj.*"/>
       <match lemma="muscle" tags="n.*"/>
+      <match lemma="artère" tags="n.*"/>
+      <match lemma="veine" tags="n.*"/>
       <match lemma="nerf" tags="n.*"/>
       <match lemma="cortex" tags="n.*"/>
     </or>
     <repeat from="0" upto="1">
-      <match tags="adj.*"/>
+      <or>
+        <match tags="adj.*"/>
+        <match tags=""/>
+      </or>
     </repeat>
+    <match lemma="postérieur" tags="adj.*"><select lemma="du dèrriér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="antérieur" tags="adj.*"/>
+    <match tags="cnjcoo"/>
     <match lemma="postérieur" tags="adj.*"><select lemma="du dèrriér"/></match>
   </rule>
 
@@ -3614,6 +3626,7 @@
   <macro name="noms_propres" p1="Anselme" p2="Ansèlmo" />
   <macro name="noms_propres" p1="Geoffroy" p2="Jèfrê" />
   <macro name="noms_propres" p1="Claude" p2="Gllôdo" />
+  <macro name="noms_propres" p1="Mathieu" p2="Matiô" />
 
   <macro name="noms_propres" p1="Catherine" p2="Caterina" />
   <macro name="noms_propres" p1="Jeanne" p2="Jiana" />

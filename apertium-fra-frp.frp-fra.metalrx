@@ -1132,6 +1132,11 @@
     <match lemma="lé-en" tags="adv"><select lemma="là-dedans"/></match>
   </rule>
 
+  <!-- lé-outre >> là-bas, au loin -->
+  <rule weight="0.8">
+    <match lemma="lé-outre" tags="adv"><select lemma="là-bas"/></match>
+  </rule>
+
   <!-- prod >> beaucoup, assez -->
   <rule weight="0.8">
     <match lemma="prod" tags="adv"><select lemma="beaucoup"/></match>
@@ -1894,6 +1899,7 @@
   <macro name="noms_propres" p1="Ansèlmo" p2="Anselme" />
   <macro name="noms_propres" p1="Jèfrê" p2="Geoffroy" />
   <macro name="noms_propres" p1="Gllôdo" p2="Claude" />
+  <macro name="noms_propres" p1="Matiô" p2="Mathieu" />
 
   <macro name="noms_propres" p1="Caterina" p2="Catherine" />
   <macro name="noms_propres" p1="Jiana" p2="Jeanne" />
