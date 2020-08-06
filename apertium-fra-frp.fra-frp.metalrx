@@ -2481,12 +2481,30 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <or>
     <seq n="personne"/>
+    <or>
       <match lemma="de col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
       <match lemma="en col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
     </or>
+  </rule>
 
+  <!-- déchu >> chesu, dègradâ -->
+  <rule weight="0.8">
+    <match lemma="déchu" tags="adj.*"><select lemma="chesu"/></match>
+  </rule>
+
+  <!-- digital >> numèrico, des dêgts -->
+  <rule weight="0.8">
+    <match lemma="digital" tags="adj.*"><select lemma="numèrico"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="empreinte" tags="n.*"/>
+      <match lemma="veine" tags="n.*"/>
+      <match lemma="artère" tags="n.*"/>
+      <match lemma="nerf" tags="n.*"/>
+    </or>
+    <match lemma="digital" tags="adj.*"><select lemma="des dêgts"/></match>
   </rule>
 
   <!-- excentrique >> folaru, èxcentrico -->
@@ -2540,6 +2558,24 @@
       <match lemma="tribu" tags="n.*"/>
     </or>
     <match lemma="indien" tags="adj.*"><select lemma="endien"/></match>
+  </rule>
+
+  <!-- initié >> comenciê, iniciê -->
+  <rule weight="0.8">
+    <match lemma="initié" tags="adj.*"><select lemma="comenciê"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="vbser.*"/>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+    </repeat>
+    <match lemma="initié" tags="adj.*"><select lemma="iniciê"/></match>
   </rule>
 
   <!-- internet >> sur la têla, entèrnète -->
@@ -2607,6 +2643,18 @@
     <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
   </rule>
 
+  <!-- payant >> que fôt payér, que paye -->
+  <rule weight="0.8">
+    <match lemma="payant" tags="adj.*"><select lemma="que fôt payér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+    <match lemma="payant" tags="adj.*"><select lemma="que paye"/></match>
+  </rule>
+
   <!-- polaire >> des pôlos, du pôlo -->
   <rule weight="0.8">
     <match lemma="polaire" tags="adj.*"><select lemma="des pôlos"/></match>
@@ -2631,6 +2679,30 @@
       <match tags="adj.*"/>
     </repeat>
     <match lemma="postérieur" tags="adj.*"><select lemma="du dèrriér"/></match>
+  </rule>
+
+  <!-- pressé >> prèssiê, trolyê -->
+  <rule weight="0.8">
+    <match lemma="pressé" tags="adj.*"><select lemma="prèssiê"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="fruit" tags="n.*"/>
+      <match lemma="orange" tags="n.*"/>
+      <match lemma="citron" tags="n.*"/>
+      <match lemma="jus" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="vbser.*"/>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+    </repeat>
+    <match lemma="pressé" tags="adj.*"><select lemma="trolyê"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fraîchement" tags="adv"/>
+    <match lemma="pressé" tags="adj.*"><select lemma="trolyê"/></match>
   </rule>
 
   <!-- prochain >> prochen, que vint -->
