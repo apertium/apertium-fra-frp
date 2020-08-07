@@ -2925,6 +2925,9 @@
     </or>
   </rule>
 
+  <!-- aliéner >> cèdar, prononciér -->
+  <macro name="verb_nopron_pron" p1="aliéner" p2="cèdar" p3="changiér" />
+
   <!-- articuler >> assemblar, prononciér -->
   <rule weight="0.8">
     <match lemma="articuler" tags="vblex.*"><select lemma="assemblar"/></match>
