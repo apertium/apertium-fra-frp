@@ -542,6 +542,17 @@
         <match lemma="que" tags="cnjsub"/>
       </rule>
     </def-macro>
+
+    <!-- Dans le cas où un verbe se traduit par verbe + adv, l'adverbe doit plutôt précéder ou suivre le verbe -->
+    <!-- p1 = vblex langue source, p2 = adv + vblex (langue cible), p3 = vblex + adv (langue cible) -->
+    <def-macro name="verb_adv">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+      </rule>
+    </def-macro>
   </def-macros>
 
   <def-seqs>
@@ -2484,6 +2495,43 @@
     </or>
   </rule>
 
+  <!-- classifié >> ben cllassiê, complèxo -->
+  <rule weight="0.8">
+    <match lemma="classifié" tags="adj.*"><select lemma="ben cllassiê"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="document" tags="n.*"/>
+      <match lemma="information" tags="n.*"/>
+      <match lemma="gouvernement" tags="n.*"/>
+      <match lemma="armée" tags="n.*"/>
+      <match lemma="CIA" tags="n.*"/>
+      <match lemma="Mossad" tags="n.*"/>
+      <match lemma="MI5" tags="n.*"/>
+      <match lemma="MI6" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="10">
+      <match/>
+    </repeat>
+    <match lemma="classifié" tags="adj.*"><select lemma="secrèt"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="classifié" tags="adj.*"><select lemma="secrèt"/></match>
+    <repeat from="0" upto="10">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="document" tags="n.*"/>
+      <match lemma="information" tags="n.*"/>
+      <match lemma="gouvernement" tags="n.*"/>
+      <match lemma="armée" tags="n.*"/>
+      <match lemma="CIA" tags="n.*"/>
+      <match lemma="Mossad" tags="n.*"/>
+      <match lemma="MI5" tags="n.*"/>
+      <match lemma="MI6" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- complexe >> complicâ, complèxo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="adj.*"><select lemma="complicâ"/></match>
@@ -2950,6 +2998,11 @@
     </or>
   </rule>
 
+  <!-- assujettir >> sometre, dominar, assujètir ; fixar -->
+  <rule weight="0.8">
+    <match lemma="assujettir" tags="vblex.*"><select lemma="sometre" tags="vblex.*"/></match>
+  </rule>
+
   <!-- assumer >> chargiér# de, accèptar -->
   <macro name="verb_locprep" p1="assumer" p2="chargiér# de" p3="accèptar" />
 
@@ -2981,6 +3034,9 @@
       <match lemma="dehors" tags="adv"/>
     </or>
   </rule>
+
+  <!-- classifier >> ben cllassiér, cllassiér# ben -->
+  <macro name="verb_adv" p1="classifier" p2="ben cllassiér" p3="cllassiér# ben" />
 
   <!-- commémorer >> fétar, rapelar -->
   <rule weight="0.8">
@@ -3198,6 +3254,14 @@
     <match lemma="frapper" tags="vblex.*"><select lemma="bouciér"/></match>
   </rule>
 
+  <!-- fustiguer >> fouètar, blâmar -->
+  <rule weight="0.8">
+    <match lemma="fustiguer" tags="vblex.*"><select lemma="blâmar"/></match>
+  </rule>
+
+  <!-- harmoniser >> mariar# ben, harmonisar -->
+  <macro name="verb_intrans_trans" p1="harmoniser" p2="mariar# ben" p3="harmonisar" />
+
   <!-- imaginer >> émaginar, imaginar ; pensar -->
   <macro name="verb_nopron_pronque" p1="émaginar" p2="émaginar" p3="pensar" />
 
@@ -3280,6 +3344,40 @@
     </or>
   </rule>
 
+  <!-- maximiser >> optimisar, ôgmentar, portar# u maximon -->
+  <rule weight="0.8">
+    <match lemma="maximiser" tags="vblex.*"><select lemma="optimisar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="maximiser" tags="vblex.*"><select lemma="portar# u maximon"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="profit" tags="n.*"/>
+      <match lemma="bénéfice" tags="n.*"/>
+      <match lemma="gain" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- minimiser >> rèduire, rèduire# u minimon -->
+<!--
+  <rule weight="0.8">
+    <match lemma="minimiser" tags="vblex.*"><select lemma="rèduire"/></match>
+  </rule>
+-->
+  <rule weight="1.0">
+    <match lemma="minimiser" tags="vblex.*"><select lemma="rèduire# u minimon"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="perte" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- moquer >> mourgar, mocar -->
   <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
 
@@ -3289,6 +3387,11 @@
   <!-- parvenir >> avengiér, aventar, avendre, parvenir -->
   <rule weight="0.8">
     <match lemma="parvenir" tags="vblex.*"><select lemma="avengiér"/></match>
+  </rule>
+
+  <!-- pilonner >> canonar, breyér -->
+  <rule weight="0.8">
+    <match lemma="pilonner" tags="vblex.*"><select lemma="canonar"/></match>
   </rule>
 
   <!-- poursuivre >> porsiuvre, prolongiér, continuar -->
@@ -3493,6 +3596,9 @@
     </or>
     <match lemma="suffire" tags="vblex.*"><select lemma="bâstar"/></match>
   </rule>
+
+  <!-- surchauffer >> trop charfar, charfar# trop -->
+  <macro name="verb_adv" p1="surchauffer" p2="trop charfar" p3="charfar# trop" />
 
   <!-- synthétiser >> sintètisar, rèsumar -->
   <rule weight="0.8">
