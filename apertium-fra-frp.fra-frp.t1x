@@ -133,6 +133,13 @@
     <def-cat n="se">
       <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
     </def-cat>
+    <def-cat n="prnref">
+      <cat-item lemma="me" tags="prn.pro.p1.mf.sg"/>
+      <cat-item lemma="te" tags="prn.pro.p2.mf.sg"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+      <cat-item lemma="nous" tags="prn.pro.p1.mf.pl"/>
+      <cat-item lemma="vous" tags="prn.pro.p2.mf.pl"/>
+    </def-cat>
     <def-cat n="enprn">
       <cat-item lemma="en" tags="prn.*"/>
     </def-cat>
@@ -372,6 +379,11 @@
       <attr-item tags="vbmod"/>
     </def-attr>
 
+    <def-attr n="a_verb_pron">
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vblex.no_pron"/>
+    </def-attr>
+
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -409,6 +421,13 @@
       <attr-item tags="pis"/>
       <attr-item tags="fts"/>
       <attr-item tags="imp"/>
+    </def-attr>
+
+    <def-attr n="pron">
+      <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.enc"/>
     </def-attr>
 
     <def-attr n="tv">
@@ -2700,6 +2719,14 @@
       <choose>
         <when>
           <test>
+            <equal><var n="genero"/><lit v="" /></equal>
+          </test>
+          <let><var n="genero"/><lit-tag v="m" /></let>	<!-- pour qu'il y ait quelque chose -->
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
             <equal>
               <clip pos="1" side="sl" part="temps" />
               <lit-tag v="ifi" />
@@ -3202,9 +3229,13 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: SE VBNOSER: elles se remarièrent > els sè sont remariâyes">
+    <!-- FIN REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+
+    <!-- REGLAS VERBES PRONOMINAUX -->
+
+    <rule comment="REGLA: SE VBNOSER: elles se remarièrent > els sè sont remariâyes ; il s'ingère > il s'entèrfère">
        <pattern>
-         <pattern-item n="se"/>
+         <pattern-item n="prnref"/>
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
@@ -3214,27 +3245,100 @@
          <call-macro n="tipus_prn">
            <with-param pos="1"/>
          </call-macro>
-         <out>
-           <chunk name="prn">
-             <tags>
-               <tag><lit-tag v="SPron"/></tag>
-               <tag><var n="tipusprn"/></tag>
-             </tags>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="tags"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-           <b pos="1"/>
-         </out>
-         <call-macro n="out_verb_ser1">
-           <with-param pos="2"/>
-         </call-macro>
+         <choose>
+           <when>
+             <test> <!-- forme pronominale du verbe ? -->
+               <or>
+                 <and>
+                   <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p1"/></equal>
+                   <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p1"/></equal>
+                   <equal><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></equal>
+                 </and>
+                 <and>
+                   <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p2"/></equal>
+                   <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p2"/></equal>
+                   <equal><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></equal>
+                 </and>
+                 <and>
+                   <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+                   <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+                   <equal><clip pos="1" side="tl" part="pron"/><lit-tag v="prn.pro.ref"/></equal>
+                 </and>
+               </or>
+             </test>
+             <choose>
+               <when>
+                 <test>
+                   <equal><clip pos="2" side="tl" part="a_verb_pron"/><lit-tag v="vblex.no_pron"/></equal>
+                 </test>
+                 <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+                 <choose>
+                   <when>
+                     <test>
+                       <equal>
+                         <case-of pos="1" side="sl" part="lemh" />
+                         <lit v="Aa" />
+                       </equal>
+                     </test>
+                     <modify-case>
+                       <clip pos="2" side="sl" part="lemh" />
+                       <lit v="Aa" />
+                     </modify-case>
+                     <modify-case>
+                       <clip pos="2" side="tl" part="lemh" />
+                       <lit v="Aa" />
+                     </modify-case>
+                   </when>
+                 </choose>
+                 <call-macro n="out_verb1">
+                   <with-param pos="2"/>
+                 </call-macro>
+               </when>
+               <otherwise>
+                 <out>
+                   <chunk name="prn">
+                     <tags>
+                       <tag><lit-tag v="SPron"/></tag>
+                       <tag><var n="tipusprn"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lemh"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                       <clip pos="1" side="tl" part="lemq"/>
+                     </lu>
+                   </chunk>
+                   <b pos="1"/>
+                 </out>
+                 <call-macro n="out_verb_ser1">
+                   <with-param pos="2"/>
+                 </call-macro>
+               </otherwise>
+             </choose>
+           </when>
+           <otherwise> <!-- forme non pronominale du verbe -->
+             <out>
+               <chunk name="prn">
+                 <tags>
+                   <tag><lit-tag v="SPron"/></tag>
+                   <tag><var n="tipusprn"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+               <b pos="1"/>
+             </out>
+             <call-macro n="out_verb1">
+               <with-param pos="2"/>
+             </call-macro>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
-    <!-- FIN REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+    <!-- FIN REGLAS VERBES PRONOMINAUX -->
 
     <!-- REGLAS CONCORDANÇA -->
 
