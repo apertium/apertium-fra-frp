@@ -676,6 +676,9 @@
       <match lemma="femme politique" tags="n.*"/>
       <match lemma="joueur" tags="n.*"/>
       <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
       <match lemma="garçon" tags="n.*"/>
       <match lemma="fille" tags="n.*"/>
       <match lemma="enfant" tags="n.*"/>
@@ -2841,6 +2844,11 @@
     <match lemma="rangé" tags="adj.*"><select lemma="rengiê"/></match>
   </rule>
 
+  <!-- rétrograde >> retrogrado, que mârche a reculon -->
+  <rule weight="0.8">
+    <match lemma="rétrograde" tags="adj.*"><select lemma="retrogrado"/></match>
+  </rule>
+
   <!-- strict >> sevèro, ètrêt -->
   <rule weight="0.8">
     <match lemma="strict" tags="adj.*"><select lemma="sevèro"/></match>
@@ -3384,6 +3392,9 @@
   <!-- nommer >> nomar, avêr# nom -->
   <macro name="verb_nopron_pron" p1="nommer" p2="nomar" p3="avêr# nom" />
 
+  <!-- orbiter >> veriér# utôrn, veriér# utôrn de -->
+  <macro name="verb_intrans_trans" p1="orbiter" p2="veriér# utôrn" p3="veriér# utôrn de" />
+
   <!-- parvenir >> avengiér, aventar, avendre, parvenir -->
   <rule weight="0.8">
     <match lemma="parvenir" tags="vblex.*"><select lemma="avengiér"/></match>
@@ -3392,6 +3403,29 @@
   <!-- pilonner >> canonar, breyér -->
   <rule weight="0.8">
     <match lemma="pilonner" tags="vblex.*"><select lemma="canonar"/></match>
+  </rule>
+
+  <!-- piloter >> pilotar, dirigiér -->
+  <rule weight="0.8">
+    <match lemma="piloter" tags="vblex.*"><select lemma="pilotar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="piloter" tags="vblex.*"><select lemma="dirigiér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="équipe" tags="n.*"/>
+      <seq n="personne"/>
+      <match lemma="entreprise" tags="n.*"/>
+      <match lemma="compagnie" tags="n.*"/>
+      <match lemma="trust" tags="n.*"/>
+      <match lemma="action" tags="n.*"/>
+      <match lemma="transition" tags="n.*"/>
+      <match lemma="changement" tags="n.*"/>
+      <match lemma="période" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- poursuivre >> porsiuvre, prolongiér, continuar -->
@@ -3700,6 +3734,33 @@
       <match tags="det.*"/>
       <match tags="np.*"/>
     </or>
+  </rule>
+
+  <!-- transcrire >> transcrire, copiyér -->
+  <rule weight="0.8">
+    <match lemma="transcrire" tags="vblex.*"><select lemma="transcrire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="transcrire" tags="vblex.*"><select lemma="copiyér"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="moine" tags="n.*"/>
+      <match lemma="monastère" tags="n.*"/>
+      <match lemma="Moyen Âge" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="moine" tags="n.*"/>
+      <match lemma="monastère" tags="n.*"/>
+      <match lemma="Moyen Âge" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="transcrire" tags="vblex.*"><select lemma="copiyér"/></match>
   </rule>
 
   <!-- transporter >> charrotar, transportar -->
