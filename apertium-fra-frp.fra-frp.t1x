@@ -2692,7 +2692,7 @@
                   <lit-tag v="pis" />
                 </equal>
               </test>
-              <let><clip pos="1" side="sl" part="temps" /><lit-tag v="prs" /></let>
+              <let><clip pos="1" side="tl" part="temps" /><lit-tag v="prs" /></let>
             </when>
           </choose>
           <out>
@@ -2786,7 +2786,7 @@
                   <lit-tag v="pis" />
                 </equal>
               </test>
-              <let><clip pos="1" side="sl" part="temps" /><lit-tag v="prs" /></let>
+              <let><clip pos="1" side="tl" part="temps" /><lit-tag v="prs" /></let>
             </when>
           </choose>
           <out>
