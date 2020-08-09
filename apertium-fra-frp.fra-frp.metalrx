@@ -888,9 +888,58 @@
     <match lemma="bac" tags="n.*"><select lemma="trâlye"/></match>
   </rule>
 
-  <!-- baie >> grana, baye ; xxx ; granta fenétra -->
+  <!-- baie >> grana, baye ; bâye ; granta fenétra -->
   <rule weight="0.8">
     <match lemma="baie" tags="n.*"><select lemma="grana"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="baie" tags="n.*"><select lemma="bâye"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="baie" tags="n.*"><select lemma="bâye"/></match>
+    <repeat from="0" upto="4">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="mer" tags="n.*"/>
+      <match lemma="océan" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mer" tags="n.*"/>
+      <match lemma="océan" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match/>
+    </repeat>
+    <match lemma="baie" tags="n.*"><select lemma="bâye"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="baie" tags="n.*"><select lemma="granta fenétra"/></match>
+    <repeat from="0" upto="4">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="mur" tags="n.*"/>
+      <match lemma="maison" tags="n.*"/>
+      <match lemma="église" tags="n.*"/>
+      <match lemma="construction" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mur" tags="n.*"/>
+      <match lemma="maison" tags="n.*"/>
+      <match lemma="église" tags="n.*"/>
+      <match lemma="construction" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match/>
+    </repeat>
+    <match lemma="baie" tags="n.*"><select lemma="granta fenétra"/></match>
   </rule>
 
   <!-- bar, café >> taverna, cabarèt -->
@@ -3392,7 +3441,7 @@
   <!-- nommer >> nomar, avêr# nom -->
   <macro name="verb_nopron_pron" p1="nommer" p2="nomar" p3="avêr# nom" />
 
-  <!-- orbiter >> veriér# utôrn, veriér# utôrn de -->
+  <!-- orbiter >> veriér# utôrn, veriér# utôrn de, orbitar -->
   <macro name="verb_intrans_trans" p1="orbiter" p2="veriér# utôrn" p3="veriér# utôrn de" />
 
   <!-- parvenir >> avengiér, aventar, avendre, parvenir -->
@@ -3526,6 +3575,13 @@
 
   <!-- rendre >> rebalyér, rendre -->
   <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
+  <rule weight="1.4">
+    <match lemma="rendre" tags="vblex.*"><select lemma="rendre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
 
   <!-- repousser >> rebouciér, rebiolar -->
   <rule weight="0.8">
