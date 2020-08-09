@@ -815,6 +815,18 @@
     <match lemma="le" tags="det.*"><select lemma="lo"/></match>
   </rule>
 
+<!-- **************** PR **************** -->
+
+  <!-- à >> à, que -->
+  <rule weight="0.8">
+    <match lemma="à" tags="pr"><select lemma="à"/></match>
+  </rule>
+
+  <!-- de >> de, que -->
+  <rule weight="0.8">
+    <match lemma="de" tags="pr"><select lemma="de"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
 
   <!-- aire >> endrêt, surface, ètendua -->
@@ -2593,9 +2605,47 @@
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
   </rule>
 
-  <!-- masculin >> masculin, mâcllo -->
+  <!-- contemporain >> de noutron temps, du mémo temps, contemporen -->
   <rule weight="0.8">
-    <match lemma="masculin" tags="adj.*"><select lemma="masculin"/></match>
+    <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="contemporain" tags="adj.*"><select lemma="du mémo temps"/></match>
+    <or>
+      <match lemma="de" tags="pr"><select lemma="que"/></match>
+      <match lemma="à" tags="pr"><select lemma="que"/></match>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
+    <or>
+      <match lemma="de" tags="pr"><select lemma="de"/></match>
+      <match lemma="à" tags="pr"><select lemma="a"/></match>
+    </or>
+    <or>
+      <match tags="np.top.*"/>
+      <match tags=""/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="art" tags="n.*"/>
+      <match lemma="musique" tags="n.*"/>
+      <match lemma="architecture" tags="n.*"/>
+    </or>
+    <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="art" tags="n.*"/>
+      <match lemma="musique" tags="n.*"/>
+      <match lemma="architecture" tags="n.*"/>
+    </or>
+    <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
+    <or>
+      <match lemma="de" tags="pr"><select lemma="de"/></match>
+      <match lemma="à" tags="pr"><select lemma="a"/></match>
+    </or>
   </rule>
 
   <!-- de col blanc, en col blanc >> de grata-papiér, grata-papiér -->
@@ -2730,6 +2780,11 @@
     <match lemma="licencié" tags="adj.*"><select lemma="licenciê"/></match>
   </rule>
 -->
+
+  <!-- masculin >> masculin, mâcllo -->
+  <rule weight="0.8">
+    <match lemma="masculin" tags="adj.*"><select lemma="masculin"/></match>
+  </rule>
 
   <!-- musclé >> ènèrgico, musclâ -->
   <rule weight="0.8">
