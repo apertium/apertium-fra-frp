@@ -2827,7 +2827,10 @@
           <choose>
             <when>
               <test>
-                <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+                <or>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit v=""/></equal>
+                </or>
               </test>
               <append n="pronom">
                 <lit v="^"/>
