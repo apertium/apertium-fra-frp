@@ -1102,7 +1102,7 @@
     </repeat>
     <or>
       <match lemma="état" tags="n.*"/>
-      <match lemma="governement" tags="n.*"/>
+      <match lemma="gouvernement" tags="n.*"/>
       <match lemma="entreprise" tags="n.*"/>
       <match lemma="gare" tags="n.*"/>
     </or>
@@ -1826,7 +1826,7 @@
   <rule weight="1.0">
     <match lemma="siège" tags="n.*"><select lemma="sièjo"/></match>
     <match lemma="de" tags="pr"/>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.cog.*"/></or>
+    <or><match tags="np.al.*"/><match tags="np.top.*"/><match tags="np.cog.*"/><match tags=""/></or>
   </rule>
   <rule weight="1.0">
     <match lemma="siège" tags="n.*"><select lemma="sièjo"/></match>

@@ -1586,6 +1586,15 @@
     <match lemma="lira" tags="n.*"><select lemma="lyre"/></match>
   </rule>
 
+  <!-- milo >> mile, mille -->
+  <rule weight="0.8">
+    <match lemma="milo" tags="n.*"><select lemma="mile"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="milo" tags="n.*"><select lemma="mille"/></match>
+    <match tags="adj.*"/>
+  </rule>
+
   <!-- mobilo >> portable, mobile -->
   <rule weight="0.8">
     <match lemma="mobilo" tags="n.*"><select lemma="portable"/></match>
