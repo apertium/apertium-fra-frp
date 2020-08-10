@@ -454,6 +454,7 @@
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
+    <def-var n="pronom"/>
     <def-var n="auxg"/>
     <def-var n="auxn"/>
     <def-var n="temp"/>
@@ -2809,6 +2810,133 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_set_pron" npar="2"> <!-- posa a la variable 'pronom' el pronom reflexiu que calgui si el verb és reflexiu. El segon paramàtre és la repetició del primer, si és una forma conjugada (personal) del verb, altrament és l'auxiliar-->
+      <let><var n="pronom"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.pron"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+          <append n="pronom">
+            <lit v="^"/>
+            <lit v="prn"/>
+            <lit-tag v="SPron.pref"/>
+            <lit v="{"/>
+          </append>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+              </test>
+              <append n="pronom">
+                <lit v="^"/>
+                <get-case-from pos="2">
+                  <lit v="sè"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+                <lit v="$}$"/>
+                <b/>
+              </append>    
+            </when>
+            <when>
+              <test>
+                <and>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p1"/></equal>
+                  <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                </and>
+              </test>
+              <append n="pronom">
+                <lit v="^"/>
+                <get-case-from pos="2">
+                  <lit v="mè"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.p1.mf.sg"/>
+                <lit v="$}$"/>
+                <b/>
+              </append>    
+            </when>
+            <when>
+              <test>
+                <and>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p2"/></equal>
+                  <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                </and>
+              </test>
+              <append n="pronom">
+                <lit v="^"/>
+                <get-case-from pos="2">
+                  <lit v="tè"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.p2.mf.sg"/>
+                <lit v="$}$"/>
+                <b/>
+              </append>    
+            </when>
+            <when>
+              <test>
+                <and>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p1"/></equal>
+                  <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                </and>
+              </test>
+              <append n="pronom">
+                <lit v="^"/>
+                <get-case-from pos="2">
+                  <lit v="nos"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.p1.mf.pl"/>
+                <lit v="$}$"/>
+                <b/>
+              </append>    
+            </when>
+            <when>
+              <test>
+                <and>
+                  <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p2"/></equal>
+                  <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                </and>
+              </test>
+              <append n="pronom">
+                <lit v="^"/>
+                <get-case-from pos="2">
+                  <lit v="vos"/>
+                </get-case-from>
+              </append>
+              <append n="pronom">
+                <lit-tag v="prn.pro.p2.mf.pl"/>
+                <lit v="$}$"/>
+                <b/>
+              </append>    
+            </when>
+          </choose>
+          <!-- ara arreglem la majúscula del verb, si cal -->
+          <choose>
+            <when>
+              <test>
+                <equal>
+                   <case-of pos="2" side="sl" part="lem"/>
+                   <lit v="Aa"/>
+                 </equal>
+              </test>
+              <modify-case>
+                <clip pos="2" side="tl" part="lemh"/>
+                <lit v="aa"/>
+              </modify-case>
+            </when>
+          </choose>
+        </when>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
       <choose>
         <when>
@@ -3223,6 +3351,13 @@
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
+        <call-macro n="f_set_pron">
+          <with-param pos="1"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <var n="pronom"/>
+        </out>
         <call-macro n="out_verb1">
           <with-param pos="1"/>
         </call-macro>
