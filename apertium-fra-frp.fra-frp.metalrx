@@ -2601,7 +2601,10 @@
     <match lemma="complexe" tags="adj.*"><select lemma="complicâ"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="nombre" tags="n.*"/>
+    <or>
+      <match lemma="nombre" tags="n.*"/>
+      <match lemma="plan" tags="n.*"/>
+    </or>
     <match lemma="complexe" tags="adj.*"><select lemma="complèxo"/></match>
   </rule>
 
@@ -3085,6 +3088,21 @@
     </or>
   </rule>
 
+  <!-- affluer >> sè prèssar, colar -->
+  <rule weight="0.8">
+    <match lemma="affluer" tags="vblex.*"><select lemma="prèssar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="affluer" tags="vblex.*"><select lemma="colar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="dans" tags="pr"/>
+      <match lemma="vers" tags="pr"/>
+    </or>
+  </rule>
+
   <!-- aliéner >> cèdar, prononciér -->
   <macro name="verb_nopron_pron" p1="aliéner" p2="cèdar" p3="changiér" />
 
@@ -3112,10 +3130,10 @@
 
   <!-- assujettir >> sometre, dominar, assujètir ; fixar -->
   <rule weight="0.8">
-    <match lemma="assujettir" tags="vblex.*"><select lemma="sometre" tags="vblex.*"/></match>
+    <match lemma="assujettir" tags="vblex.*"><select lemma="sometre"/></match>
   </rule>
 
-  <!-- assumer >> chargiér# de, accèptar -->
+  <!-- assumer >> chargiér# de/ocupar# de, accèptar -->
   <macro name="verb_locprep" p1="assumer" p2="chargiér# de" p3="accèptar" />
 
   <!-- baser >> fondar, enstalar -->
@@ -3592,6 +3610,11 @@
     </or>
   </rule>
 
+  <!-- pressentir >> dèvenar, sè dôbtar -->
+  <rule weight="0.8">
+    <match lemma="pressentir" tags="vblex.*"><select lemma="dèvenar"/></match>
+  </rule>
+
   <!-- professer >> dècllarar, ensègnér -->
   <rule weight="0.8">
     <match lemma="professer" tags="vblex.*"><select lemma="dècllarar"/></match>
@@ -3636,6 +3659,34 @@
       <match tags="adv"/>
     </repeat>
     <match tags="adj.*"/>
+  </rule>
+
+  <!-- répliquer >> rabatre, copiyér -->
+  <rule weight="0.8">
+    <match lemma="répliquer" tags="vblex.*"><select lemma="rabatre"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="répliquer" tags="vblex.*"><select lemma="copiyér"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="1" upto="2">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match lemma="det" tags="pr"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="cellule" tags="n.*"/>
+      <match lemma="ADN" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="répliquer" tags="vblex.*"><select lemma="copiyér"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="ordinateur" tags="n.*"/>
   </rule>
 
   <!-- repousser >> rebouciér, rebiolar -->
