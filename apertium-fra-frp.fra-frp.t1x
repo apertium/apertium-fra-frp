@@ -3476,7 +3476,67 @@
        </action>
     </rule>
 
-    <!-- FIN REGLAS VERBES PRONOMINAUX -->
+    <rule comment="REGLA: HAVER + PP : elles ont mangé > els ant megiê, ils ont convergé > ils sè sont rencontrâs ">
+       <pattern>
+         <pattern-item n="vbhaver"/>
+         <pattern-item n="pp"/>
+       </pattern>
+       <action>
+        <call-macro n="f_set_pron">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <var n="pronom"/>
+        </out>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><var n="pronom"/><lit v=""/></equal>
+            </test>
+            <call-macro n="out_verb1">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+          <otherwise>
+            <let><clip pos="1" side="tl" part="lem"/><lit v="étre"/></let>
+            <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+            <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+            <call-macro n="out_verb1">
+              <with-param pos="1"/>
+            </call-macro>
+          </otherwise>
+        </choose>
+        <out>
+          <b pos="1"/>
+          <chunk name="pp">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+       </action>
+    </rule>
+
+    <!-- FIN REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
 
     <!-- REGLAS CONCORDANÇA -->
 
@@ -6077,7 +6137,7 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: NE VBNOSER > VBNOSER: Jean ne dit pas > Jean ditz pas, ils ne convergent pas > ils sè rencontront pas">
+    <rule comment="REGLA: NE VBNOSER > VBNOSER: Jean ne dit pas > Jean dit pas, ils ne convergent pas > ils sè rencontront pas">
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbnoser"/>
