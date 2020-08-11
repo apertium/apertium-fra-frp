@@ -3349,7 +3349,7 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: VBNOSER: elles mangèrent > els ant megiê, elles arrivèrent > els sont arrevâyes">
+    <rule comment="REGLA: VBNOSER: elles mangèrent > els ant megiê, elles arrivèrent > els sont arrevâyes, ils convergent > ils sè rencontront ">
        <pattern>
          <pattern-item n="vbnoser"/>
        </pattern>
@@ -6077,23 +6077,27 @@
        </action>
     </rule>
 
-    <rule comment="REGLA: NE VBNOSER > VBNOSER: Jean ne dit pas > Jean ditz pas">
+    <rule comment="REGLA: NE VBNOSER > VBNOSER: Jean ne dit pas > Jean ditz pas, ils ne convergent pas > ils sè rencontront pas">
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="vbnoser"/>
        </pattern>
        <action>
-         <call-macro n="f_bcond">
-           <with-param pos="1"/>
+         <call-macro n="f_set_pron">
+           <with-param pos="2"/>
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <out>
+           <var n="pronom"/>
+         </out>
          <choose>
            <when>
              <test>
-               <equal>
-                 <case-of pos="1" side="sl" part="lemh" />
-                 <lit v="Aa" />
-               </equal>
+               <and>
+                 <equal><var n="pronom"/><lit v="" /></equal>
+                 <equal><case-of pos="1" side="sl" part="lemh" /><lit v="Aa" /></equal>
+               </and>
              </test>
              <modify-case>
                <clip pos="2" side="sl" part="lemh" />
