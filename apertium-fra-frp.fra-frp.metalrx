@@ -3661,12 +3661,12 @@
     <match tags="adj.*"/>
   </rule>
 
-  <!-- répliquer >> rabatre, copiyér -->
+  <!-- répliquer >> rabatre, recopiyér -->
   <rule weight="0.8">
     <match lemma="répliquer" tags="vblex.*"><select lemma="rabatre"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="répliquer" tags="vblex.*"><select lemma="copiyér"/></match>
+    <match lemma="répliquer" tags="vblex.*"><select lemma="recopiyér"/></match>
     <repeat from="0" upto="2">
       <match tags="adv"/>
     </repeat>
@@ -3682,7 +3682,7 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <match lemma="répliquer" tags="vblex.*"><select lemma="copiyér"/></match>
+    <match lemma="répliquer" tags="vblex.*"><select lemma="recopiyér"/></match>
     <repeat from="0" upto="6">
       <match/>
     </repeat>
@@ -3711,10 +3711,8 @@
     <match lemma="repousser" tags="vblex.*"><select lemma="rebiolar"/></match>
   </rule>
 
-  <!-- retourner >> reveriér, etc. -->
-  <rule weight="0.8">
-    <match lemma="retourner" tags="vblex.*"><select lemma="reveriér"/></match>
-  </rule>
+  <!-- retourner >> reveriér, retornar, etc. -->
+  <macro name="verb_prep" p1="retourner" p2="reveriér" p3="à" p4="retornar" />
 
   <!-- réveiller >> rèvelyér, èvelyér, dèvelyér -->
   <rule weight="0.8">
