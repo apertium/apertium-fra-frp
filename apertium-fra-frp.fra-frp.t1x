@@ -3507,7 +3507,14 @@
           <otherwise>
             <let><clip pos="1" side="tl" part="lem"/><lit v="étre"/></let>
             <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
-            <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+            <choose>
+              <when>
+                <test>
+                  <not><equal><clip pos="1" side="tl" part="nbr"/><lit v=""/></equal></not>
+                </test>
+                <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+              </when>
+            </choose>
             <call-macro n="out_verb1">
               <with-param pos="1"/>
             </call-macro>
