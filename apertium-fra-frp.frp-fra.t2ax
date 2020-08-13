@@ -267,10 +267,12 @@
               <when>
                 <test>
                   <not>
-                    <equal>
-                      <clip pos="1" part="temps"/>
-                      <lit-tag v="imp"/>
-                    </equal>
+                    <or>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="imp"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="inf"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="ger"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
+                    </or>
                   </not>
                 </test>
                 <out>
@@ -343,10 +345,12 @@
               <when>
                 <test>
                   <not>
-                    <equal>
-                      <clip pos="1" part="temps"/>
-                      <lit-tag v="imp"/>
-                    </equal>
+                    <or>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="imp"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="inf"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="ger"/></equal>
+                      <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
+                    </or>
                   </not>
                 </test>
                 <out>
