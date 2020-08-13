@@ -1661,6 +1661,41 @@
     <match lemma="gymnasial" tags="adj"/>
   </rule>
 
+  <!-- monoplace >> vouètura# a yena place, aèrô# a yena place -->
+  <!-- biplace >> vouètura# a doves places, aèrô# a doves places -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="monoplace" tags="n.*"><select lemma="vouètura# a yena place"/></match>
+      <match lemma="biplace" tags="n.*"><select lemma="vouètura# a doves places"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="monoplace" tags="n.*"><select lemma="aèrô# a yena place"/></match>
+      <match lemma="biplace" tags="n.*"><select lemma="aèrô# a doves places"/></match>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="aile" tags="n.*"/>
+      <match lemma="fuselage" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="aile" tags="n.*"/>
+      <match lemma="fuselage" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="monoplace" tags="n.*"><select lemma="aèrô# a yena place"/></match>
+      <match lemma="biplace" tags="n.*"><select lemma="aèrô# a doves places"/></match>
+    </or>
+  </rule>
+
   <!-- objectif >> objèctif, but -->
   <rule weight="0.8">
     <match lemma="objectif" tags="n.*"><select lemma="objèctif"/></match>
@@ -2553,6 +2588,57 @@
     <match lemma="abattu" tags="adj.*"><select lemma="abatu"/></match>
   </rule>
 
+  <!-- aléatoire >> emprèvisiblo, d'hasârd -->
+  <rule weight="0.8">
+    <match lemma="aléatoire" tags="adj.*"><select lemma="emprèvisiblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="accès" tags="n.*"/>
+      <match lemma="nombre" tags="n.*"/>
+      <match lemma="sélection" tags="n.*"/>
+      <match lemma="tirage" tags="n.*"/>
+      <match lemma="suivi" tags="n.*"/>
+      <match lemma="variable" tags="n.*"/>
+      <match lemma="non" tags="adv"/>
+    </or>
+    <match lemma="aléatoire" tags="adj.*"><select lemma="d'hasârd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="échantillon" tags="n.*"/>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="aléatoire" tags="adj.*"><select lemma="d'hasârd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="aléatoire" tags="adj.*"><select lemma="d'hasârd"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="échantillon" tags="n.*"/>
+  </rule>
+
+  <!-- appartenant >> apartenent, [remove] -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="appartenant" tags="adj.*"><select lemma="apartenent"/></match>
+      <match lemma="appartenir" tags="vblex.ger"><select lemma="étre"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="appartenant" tags="adj.*"><remove/></match>
+      <match lemma="appartenir" tags="vblex.ger"><remove/></match>
+    </or>
+    <match lemma="à" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="en" tags="pr"/>
+    <match lemma="appartenir" tags="vblex.ger"><select lemma="étre"/></match>
+    <match lemma="à" tags="pr"><select lemma="a"/></match>
+  </rule>
+
   <!-- atteint >> avengiê, tochiê -->
   <rule weight="0.8">
     <match lemma="atteint" tags="adj.*"><select lemma="avengiê"/></match>
@@ -2560,10 +2646,25 @@
   <rule weight="1.0">
     <match lemma="atteint" tags="adj.*"><select lemma="tochiê"/></match>
     <match lemma="de" tags="pr"/>
-    <match lemma="det" tags="pr"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="maladie" tags="n.*"/>
       <match lemma="infection" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- avoisinant >> vesin, abatu -->
+  <rule weight="0.8">
+    <match lemma="avoisinant" tags="adj.*"><select lemma="vesin"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="avoisinant" tags="adj.*"><select lemma="aprochient"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
     </or>
   </rule>
 
@@ -2854,6 +2955,15 @@
     <match lemma="nommé" tags="adj.*"><select lemma="qu'avêt nom"/></match>
   </rule>
 
+  <!-- originaire >> d'origina, venent -->
+  <rule weight="0.8">
+    <match lemma="originaire" tags="adj.*"><select lemma="d'origina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="originaire" tags="adj.*"><select lemma="venent"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
   <!-- payant >> que fôt payér, que paye -->
   <rule weight="0.8">
     <match lemma="payant" tags="adj.*"><select lemma="que fôt payér"/></match>
@@ -2864,6 +2974,18 @@
       <seq n="parent"/>
     </or>
     <match lemma="payant" tags="adj.*"><select lemma="que paye"/></match>
+  </rule>
+
+  <!-- pendant >> balant, suspendu -->
+  <rule weight="0.8">
+    <match lemma="pendant" tags="adj.*"><select lemma="balant"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="affaire" tags="n.*"/>
+      <match lemma="question" tags="n.*"/>
+    </or>
+    <match lemma="pendant" tags="adj.*"><select lemma="suspendu"/></match>
   </rule>
 
   <!-- polaire >> des pôlos, du pôlo -->
@@ -3099,7 +3221,7 @@
     </repeat>
     <or>
       <match lemma="de" tags="pr"/>
-      <match lemma="det" tags="pr"/>
+      <match tags="det.*"/>
     </or>
     <or>
       <match lemma="fonds" tags="n.*"/>
@@ -3115,7 +3237,7 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="de" tags="pr"/>
-    <match lemma="det" tags="pr"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="fonds" tags="n.*"/>
       <match lemma="crédit" tags="n.*"/>
@@ -3302,7 +3424,7 @@
     </repeat>
     <or>
       <match lemma="de" tags="pr"/>
-      <match lemma="det" tags="pr"/>
+      <match tags="det.*"/>
     </or>
     <or>
       <match lemma="bilan" tags="n.*"/>
@@ -3710,7 +3832,7 @@
     <repeat from="1" upto="2">
       <or>
         <match lemma="de" tags="pr"/>
-        <match lemma="det" tags="pr"/>
+        <match tags="det.*"/>
       </or>
     </repeat>
     <or>
