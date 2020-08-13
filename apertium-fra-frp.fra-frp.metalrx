@@ -1130,6 +1130,15 @@
     <match lemma="cliché" tags="n.*"><select lemma="banalitât"/></match>
   </rule>
 
+  <!-- cohésion >> union, harmonie -->
+  <rule weight="0.8">
+    <match lemma="cohésion" tags="n.*"><select lemma="union"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cohésion" tags="n.*"><select lemma="harmonie"/></match>
+    <match lemma="social" tags="adj.*"/>
+  </rule>
+
   <!-- complexe >> complèxo, ensemblo -->
   <rule weight="0.8">
     <match lemma="complexe" tags="n.*"><select lemma="complèxo"/></match>
@@ -1389,7 +1398,6 @@
     </repeat>
     <match lemma="essence" tags="n.*"><select lemma="benzina"/></match>
   </rule>
--->
 
   <!-- faille >> sengllo, manco -->
   <rule weight="0.8">
@@ -2635,6 +2643,7 @@
       <match lemma="art" tags="n.*"/>
       <match lemma="musique" tags="n.*"/>
       <match lemma="architecture" tags="n.*"/>
+      <match lemma="histoire" tags="n.*"/>
     </or>
     <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
   </rule>
@@ -2643,6 +2652,7 @@
       <match lemma="art" tags="n.*"/>
       <match lemma="musique" tags="n.*"/>
       <match lemma="architecture" tags="n.*"/>
+      <match lemma="histoire" tags="n.*"/>
     </or>
     <match lemma="contemporain" tags="adj.*"><select lemma="de noutron temps"/></match>
     <or>
@@ -2756,6 +2766,15 @@
     <match lemma="initié" tags="adj.*"><select lemma="iniciê"/></match>
   </rule>
 
+  <!-- intermittent >> per moments, entèrmitent -->
+  <rule weight="0.8">
+    <match lemma="intermittent" tags="adj.*"><select lemma="per moments"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="spectacle" tags="n.*"/>
+    <match lemma="intermittent" tags="adj.*"><select lemma="entèrmitent"/></match>
+  </rule>
+
   <!-- internet >> sur la têla, entèrnète -->
   <rule weight="0.8">
     <match lemma="internet" tags="adj.*"><select lemma="sur la têla"/></match>
@@ -2763,6 +2782,15 @@
   <rule weight="1.0">
     <match lemma="site" tags="n.*"/>
     <match lemma="internet" tags="adj.*"><select lemma="entèrnète"/></match>
+  </rule>
+
+  <!-- irrationnel >> dèrêsonâblo, irracionèl -->
+  <rule weight="0.8">
+    <match lemma="irrationnel" tags="adj.*"><select lemma="dèrêsonâblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nombre" tags="n.*"/>
+    <match lemma="irrationnel" tags="adj.*"><select lemma="irracionèl"/></match>
   </rule>
 
   <!-- issu >> venu, venent -->
@@ -2949,6 +2977,15 @@
   <!-- rangé >> rengiê, rèduit, sèriox -->
   <rule weight="0.8">
     <match lemma="rangé" tags="adj.*"><select lemma="rengiê"/></match>
+  </rule>
+
+  <!-- rationnel >> rêsonâblo, racionèl -->
+  <rule weight="0.8">
+    <match lemma="rationnel" tags="adj.*"><select lemma="rêsonâblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nombre" tags="n.*"/>
+    <match lemma="rationnel" tags="adj.*"><select lemma="racionèl"/></match>
   </rule>
 
   <!-- rétrograde >> retrogrado, que mârche a reculon -->
