@@ -1218,6 +1218,43 @@
 
 <!-- **************** N **************** -->
 
+  <!-- ambra >> ambre, omble/omble chevalier -->
+  <rule weight="0.8">
+    <match lemma="ambra" tags="n.*"><select lemma="ambre"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ambra" tags="n.*"><select lemma="omble"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="pêsson" tags="n.*"/>
+      <match lemma="égoua" tags="n.*"/>
+      <match lemma="égoue" tags="n.*"/>
+      <match lemma="reviére" tags="n.*"/>
+      <match lemma="fluvo" tags="n.*"/>
+      <match lemma="lèc" tags="n.*"/>
+      <match lemma="lac" tags="n.*"/>
+      <match lemma="Lèman" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="pêsson" tags="n.*"/>
+      <match lemma="égoua" tags="n.*"/>
+      <match lemma="égoue" tags="n.*"/>
+      <match lemma="reviére" tags="n.*"/>
+      <match lemma="fluvo" tags="n.*"/>
+      <match lemma="lèc" tags="n.*"/>
+      <match lemma="lac" tags="n.*"/>
+      <match lemma="Lèman" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="ambra" tags="n.*"><select lemma="omble"/></match>
+  </rule>
+
   <!-- an >> an, année -->
   <rule weight="0.8">
     <match lemma="an" tags="n.*"><select lemma="an"/></match>
@@ -1516,6 +1553,11 @@
       <match lemma="fllor" tags="n.*"><select lemma="crème"/></match>
       <match lemma="fllorèta" tags="n.*"><select lemma="crème"/></match>
     </or>
+  </rule>
+
+  <!-- forchèta >> fourchette, perce-oreille/forficule -->
+  <rule weight="0.8">
+    <match lemma="forchèta" tags="n.*"><select lemma="fourchette"/></match>
   </rule>
 
   <!-- homo, home >> homme, mari -->

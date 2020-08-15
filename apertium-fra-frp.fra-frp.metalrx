@@ -1452,6 +1452,11 @@
     <match lemma="faille" tags="n.*"><select lemma="manco"/></match>
   </rule>
 
+  <!-- faune >> sarvagenes, fôna -->
+  <rule weight="0.8">
+    <match lemma="faune" tags="n.*"><select lemma="sarvagen"/></match>
+  </rule>
+
   <!-- fille >> felye, etc. -->
   <rule weight="0.8">
     <match lemma="fille" tags="n.*"><select lemma="felye"/></match>
@@ -1514,6 +1519,55 @@
     <match lemma="fût" tags="n.*"><select lemma="fonda"/></match>
   </rule>
 
+  <!-- grand-duc >> grant-duc, grant-chavan -->
+  <rule weight="0.8">
+    <match lemma="grand-duc" tags="n.*"><select lemma="grant-duc"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="grand-duc" tags="n.*"><select lemma="grant-chavan"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="Europe" tags="np.*"/>
+      <match lemma="Amérique" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="grand-duc" tags="n.*"><select lemma="grant-chavan"/></match>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="hibou" tags="n.*"/>
+      <match lemma="oiseau" tags="n.*"/>
+      <match lemma="aile" tags="n.*"/>
+      <match lemma="vol" tags="n.*"/>
+      <match lemma="voler" tags="vblex.*"/>
+      <match lemma="nocturne" tags="adj.*"/>
+      <match lemma="rapace"/>
+      <match lemma="mâle"/>
+      <match lemma="femelle"/>
+      <match lemma="juvénile"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="hibou" tags="n.*"/>
+      <match lemma="oiseau" tags="n.*"/>
+      <match lemma="aile" tags="n.*"/>
+      <match lemma="vol" tags="n.*"/>
+      <match lemma="voler" tags="vblex.*"/>
+      <match lemma="nocturne" tags="adj.*"/>
+      <match lemma="rapace"/>
+      <match lemma="mâle"/>
+      <match lemma="femelle"/>
+      <match lemma="juvénile"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="grand-duc" tags="n.*"><select lemma="grant-chavan"/></match>
+  </rule>
+
   <!-- groupe >> benda, groupe -->
   <rule weight="0.8">
     <match lemma="groupe" tags="n.*"><select lemma="benda"/></match>
@@ -1530,6 +1584,7 @@
       <match lemma="métallurgique" tags="adj.*"/>
       <match lemma="aérien" tags="adj.*"/>
       <match lemma="bancaire" tags="adj.*"/>
+      <match lemma="phosphate" tags="n.*"/>
       <match tags="np.al.*"/>
       <match tags="np.cog.*"/>
       <match tags=""/>
@@ -1547,6 +1602,13 @@
       <match lemma="corps" tags="n.*"/>
       <match lemma="anneau" tags="n.*"/>
       <match lemma="PDG" tags="n.*"/>
+      <match lemma="oxygène" tags="n.*"/>
+      <match lemma="azote" tags="n.*"/>
+      <match lemma="soufre" tags="n.*"/>
+      <match lemma="phosphore" tags="n.*"/>
+      <match lemma="silicium" tags="n.*"/>
+      <match lemma="sélénium" tags="n.*"/>
+      <match lemma="tellure" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1557,6 +1619,13 @@
       <match lemma="corps" tags="n.*"/>
       <match lemma="anneau" tags="n.*"/>
       <match lemma="PDG" tags="n.*"/>
+      <match lemma="oxygène" tags="n.*"/>
+      <match lemma="azote" tags="n.*"/>
+      <match lemma="soufre" tags="n.*"/>
+      <match lemma="phosphore" tags="n.*"/>
+      <match lemma="silicium" tags="n.*"/>
+      <match lemma="sélénium" tags="n.*"/>
+      <match lemma="tellure" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
       <match/>
@@ -1610,6 +1679,69 @@
   <!-- Indien >> Endien, Indien -->
   <rule weight="0.8">
     <match lemma="Indien" tags="n.*"><select lemma="Endien"/></match>
+  </rule>
+
+  <!-- insecte >> bétyèta, ensècto [mot savant] -->
+  <rule weight="0.8">
+    <match lemma="insecte" tags="n.*"><select lemma="bétyèta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="insecte" tags="n.*"><select lemma="ensècto"/></match>
+    <repeat from="0" upto="10">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="entomologie" tags="n.*"/>
+      <match lemma="entomologue" tags="n.*"/>
+      <match lemma="entomologiste" tags="n.*"/>
+      <match lemma="entomologique" tags="adj.*"/>
+      <match lemma="ornithologie" tags="n.*"/>
+      <match lemma="ornithologue" tags="n.*"/>
+      <match lemma="ornithologiste" tags="n.*"/>
+      <match lemma="ornithologique" tags="adj.*"/>
+      <match lemma="zoologie" tags="n.*"/>
+      <match lemma="zoologue" tags="n.*"/>
+      <match lemma="zoologique" tags="adj.*"/>
+      <match lemma="arthropode" tags="n.*"/>
+      <match lemma="genre" tags="n.*"/>
+      <match lemma="espèce" tags="n.*"/>
+      <match lemma="lépidoptère" tags="n.*"/>
+      <match lemma="lépidoptère" tags="adj.*"/>
+      <match lemma="orthoptère" tags="n.*"/>
+      <match lemma="orthoptère" tags="adj.*"/>
+      <match lemma="pollinisation" tags="n.*"/>
+      <match lemma="polliniser" tags="vblex.*"/>
+      <match lemma="adulte"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="entomologie" tags="n.*"/>
+      <match lemma="entomologue" tags="n.*"/>
+      <match lemma="entomologiste" tags="n.*"/>
+      <match lemma="entomologique" tags="adj.*"/>
+      <match lemma="ornithologie" tags="n.*"/>
+      <match lemma="ornithologue" tags="n.*"/>
+      <match lemma="ornithologiste" tags="n.*"/>
+      <match lemma="ornithologique" tags="adj.*"/>
+      <match lemma="zoologie" tags="n.*"/>
+      <match lemma="zoologue" tags="n.*"/>
+      <match lemma="zoologique" tags="adj.*"/>
+      <match lemma="arthropode" tags="n.*"/>
+      <match lemma="genre" tags="n.*"/>
+      <match lemma="espèce" tags="n.*"/>
+      <match lemma="lépidoptère" tags="n.*"/>
+      <match lemma="lépidoptère" tags="adj.*"/>
+      <match lemma="orthoptère" tags="n.*"/>
+      <match lemma="orthoptère" tags="adj.*"/>
+      <match lemma="pollinisation" tags="n.*"/>
+      <match lemma="polliniser" tags="vblex.*"/>
+      <match lemma="adulte"/>
+    </or>
+    <repeat from="0" upto="10">
+      <match/>
+    </repeat>
+    <match lemma="insecte" tags="n.*"><select lemma="ensècto"/></match>
   </rule>
 
   <!-- intérieur >> dedens, entèrior -->
