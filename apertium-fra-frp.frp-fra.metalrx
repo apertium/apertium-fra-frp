@@ -1150,6 +1150,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- bombu >> ovale, convexe -->
+  <rule weight="0.8">
+    <match lemma="bombu" tags="n.*"><select lemma="ovale"/></match>
+  </rule>
+
   <!-- dèbilo >> débile, faible -->
   <rule weight="0.8">
     <match lemma="dèbilo" tags="n.*"><select lemma="débile"/></match>
