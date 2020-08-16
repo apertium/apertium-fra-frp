@@ -1273,6 +1273,11 @@
     <match lemma="an" tags="n.m.pl"><select lemma="année"/></match>
   </rule>
 
+  <!-- ârche >> arche, coffre -->
+  <rule weight="0.8">
+    <match lemma="ârche" tags="n.*"><select lemma="arche"/></match>
+  </rule>
+
   <!-- avis >> avis, conseil -->
   <rule weight="0.8">
     <match lemma="avis" tags="n.*"><select lemma="avis"/></match>
@@ -1469,6 +1474,11 @@
   <!-- crox >> creux, ravin, fosse -->
   <rule weight="0.8">
     <match lemma="crox" tags="n.*"><select lemma="creux"/></match>
+  </rule>
+
+  <!-- cuchient >> ouest, couchant -->
+  <rule weight="0.8">
+    <match lemma="cuchient" tags="n.*"><select lemma="ouest"/></match>
   </rule>
 
   <!-- dèjon >> déjeuner, petit déjeuner -->
