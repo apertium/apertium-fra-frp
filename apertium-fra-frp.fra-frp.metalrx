@@ -829,6 +829,53 @@
 
 <!-- **************** N **************** -->
 
+  <!-- aiguille >> agouelye, darzon -->
+  <!-- cône >> côno, bovata -->
+  <rule weight="0.8">
+    <match lemma="aiguille" tags="n.*"><select lemma="agouelye"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cône" tags="n.*"><select lemma="côno"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="aiguille" tags="n.*"><select lemma="darzon"/></match>
+      <match lemma="cône" tags="n.*"><select lemma="bovata"/></match>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="forêt" tags="n.*"/>
+      <match lemma="bois" tags="n.*"/>
+      <match lemma="sapin" tags="n.*"/>
+      <match lemma="sapin blanc" tags="n.*"/>
+      <match lemma="pin" tags="n.*"/>
+      <match lemma="pin cembro" tags="n.*"/>
+      <match lemma="pinède" tags="n.*"/>
+      <match lemma="sapinière" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="forêt" tags="n.*"/>
+      <match lemma="bois" tags="n.*"/>
+      <match lemma="sapin" tags="n.*"/>
+      <match lemma="sapin blanc" tags="n.*"/>
+      <match lemma="pin" tags="n.*"/>
+      <match lemma="pin cembro" tags="n.*"/>
+      <match lemma="pinède" tags="n.*"/>
+      <match lemma="sapinière" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="aiguille" tags="n.*"><select lemma="darzon"/></match>
+      <match lemma="cône" tags="n.*"><select lemma="bovata"/></match>
+    </or>
+  </rule>
+
   <!-- aire >> endrêt, surface, ètendua -->
   <rule weight="0.8">
     <match lemma="aire" tags="n.*"><select lemma="endrêt"/></match>
@@ -2202,6 +2249,11 @@
     <match lemma="financier" tags="adj.*"/>
   </rule>
 
+  <!-- vrille >> vilyon, pèrcerèt -->
+  <rule weight="0.8">
+    <match lemma="volet" tags="n.*"><select lemma="vilyon"/></match>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
   <!-- avant >> avant, devant -->
@@ -2866,6 +2918,18 @@
     <match lemma="en" tags="pr"/>
     <match lemma="appartenir" tags="vblex.ger"><select lemma="étre"/></match>
     <match lemma="à" tags="pr"><select lemma="a"/></match>
+  </rule>
+
+  <!-- arbustif >> en âbrelin, d'âbrelin -->
+  <rule weight="0.8">
+    <match lemma="arbustif" tags="adj.*"><select lemma="en âbrelin"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="végétation" tags="n.*"/>
+      <match lemma="strate" tags="n.*"/>
+    </or>
+    <match lemma="arbustif" tags="adj.*"><select lemma="d'âbrelin"/></match>
   </rule>
 
   <!-- atteint >> avengiê, tochiê -->
