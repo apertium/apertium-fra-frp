@@ -1757,6 +1757,16 @@
     <match lemma="pipèta" tags="n.*"><select lemma="pipette"/></match>
   </rule>
 
+  <!-- plâtro >> plâtre, place -->
+  <rule weight="0.8">
+    <match lemma="plâtro" tags="n.*"><select lemma="plâtre"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+    <match tags="np.*"/>
+  </rule>
+
+
   <!-- plomèt >> aigrette, plumet -->
   <rule weight="0.8">
     <match lemma="plomèt" tags="n.*"><select lemma="aigrette"/></match>
@@ -1940,6 +1950,25 @@
 
   <!-- pensar >> penser, imaginer -->
   <macro name="verb_nopron_pronque" p1="pensar" p2="penser" p3="imaginer" />
+
+  <!-- provoquer >> provocar, mourgar -->
+  <rule weight="0.8">
+    <match lemma="provoquer" tags="vblex.*"><select lemma="provocar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="provoquer" tags="vblex.*"><select lemma="morgar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
 
   <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller -->
   <macro name="verb_nopron_pron" p1="rèvelyér" p2="éveiller" p3="réveiller" />
