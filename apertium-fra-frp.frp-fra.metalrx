@@ -1921,6 +1921,36 @@
     <match lemma="cotar" tags="vblex.*"><select lemma="étayer"/></match>
   </rule>
 
+  <!-- engolar >> avaler, engueuler -->
+  <macro name="verb_nopron_pron" p1="engolar" p2="avaler" p3="engueuler" />
+  <rule weight="1.4">
+    <match lemma="engolar" tags="vblex.*"><select lemma="engueuler"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="engolar" tags="vblex.*"><select lemma="engueuler"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+
   <!-- enstalar >> installer, établir -->
   <rule weight="0.8">
     <match lemma="enstalar" tags="vblex.*"><select lemma="installer"/></match>

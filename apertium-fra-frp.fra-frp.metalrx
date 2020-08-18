@@ -822,6 +822,25 @@
     <match lemma="à" tags="pr"><select lemma="à"/></match>
   </rule>
 
+  <!-- concernant >> rapôrt a, que regârde, que regârdont -->
+  <rule weight="0.8">
+    <match lemma="concernant" tags="pr"><select lemma="rapôrt a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.sg"/>
+      <match tags="adj.*.sg"/>
+    </or>
+    <match lemma="concernant" tags="pr"><select lemma="que regârde"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*.pl"/>
+      <match tags="adj.*.pl"/>
+    </or>
+    <match lemma="concernant" tags="pr"><select lemma="que regârdont"/></match>
+  </rule>
+
   <!-- de >> de, que -->
   <rule weight="0.8">
     <match lemma="de" tags="pr"><select lemma="de"/></match>
@@ -3951,6 +3970,9 @@
 
   <!-- influencer >> pesar# sur, enfluenciér -->
   <macro name="verb_locprep" p1="influencer" p2="pesar# sur" p3="enfluenciér" />
+
+  <!-- ingérer >> engolar, entèrfèrar -->
+  <macro name="verb_nopron_pron" p1="ingérer" p2="engolar" p3="entèrfèrar" />
 
   <!-- initier >> comenciér, iniciér -->
   <rule weight="0.8">
