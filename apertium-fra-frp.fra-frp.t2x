@@ -714,6 +714,7 @@
 
     <!-- REGLAS PER LA NEGACION DE "NE... AUCUN (DETERMINANT)" -->
 
+<!--
     <rule comment="REGLA: SV DET_aucun la montagne la plus haute > la montanha mai nauta">
       <pattern>
         <pattern-item n="SV"/>
@@ -744,6 +745,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <!-- FIN REGLAS DE "NE... AUCUN (DETERMINANT)" -->
 
