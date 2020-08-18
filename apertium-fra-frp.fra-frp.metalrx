@@ -3072,6 +3072,11 @@
     <match lemma="déchu" tags="adj.*"><select lemma="chesu"/></match>
   </rule>
 
+  <!-- désuet >> dèmodâ, dèpassâ -->
+  <rule weight="0.8">
+    <match lemma="désuet" tags="adj.*"><select lemma="dèmodâ"/></match>
+  </rule>
+
   <!-- digital >> numèrico, des dêgts -->
   <rule weight="0.8">
     <match lemma="digital" tags="adj.*"><select lemma="numèrico"/></match>
@@ -3084,6 +3089,11 @@
       <match lemma="nerf" tags="n.*"/>
     </or>
     <match lemma="digital" tags="adj.*"><select lemma="des dêgts"/></match>
+  </rule>
+
+  <!-- erratique >> èrrant, enstâblo -->
+  <rule weight="0.8">
+    <match lemma="erratique" tags="adj.*"><select lemma="enstâblo"/></match>
   </rule>
 
   <!-- excentrique >> folaru, èxcentrico -->
@@ -3157,6 +3167,21 @@
     <match lemma="initié" tags="adj.*"><select lemma="iniciê"/></match>
   </rule>
 
+  <!-- inouï >> formidâblo, encreyâblo -->
+  <rule weight="0.8">
+    <match lemma="inouï" tags="adj.*"><select lemma="formidâblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="douleur" tags="n.*"/>
+      <match lemma="mal" tags="n.*"/>
+      <match lemma="horreur" tags="n.*"/>
+      <match lemma="violence" tags="n.*"/>
+      <match lemma="supplice" tags="n.*"/>
+    </or>
+    <match lemma="inouï" tags="adj.*"><select lemma="encreyâblo"/></match>
+  </rule>
+
   <!-- intermittent >> per moments, entèrmitent -->
   <rule weight="0.8">
     <match lemma="intermittent" tags="adj.*"><select lemma="per moments"/></match>
@@ -3173,6 +3198,11 @@
   <rule weight="1.0">
     <match lemma="site" tags="n.*"/>
     <match lemma="internet" tags="adj.*"><select lemma="entèrnète"/></match>
+  </rule>
+
+  <!-- inusité >> pas usitâ, pas més usitâ -->
+  <rule weight="0.8">
+    <match lemma="inusité" tags="adj.*"><select lemma="pas usitâ"/></match>
   </rule>
 
   <!-- irrationnel >> dèrêsonâblo, irracionèl -->
@@ -3203,7 +3233,7 @@
   </rule>
 -->
 
-  <!-- masculin >> masculin, mâcllo -->
+  <!-- masculin >> masculin, mâcllo (Stich 17.08.20 confirme que 'masculin' est préférable en grammaire - pas comme fait Lo Trèsor)" -->
   <rule weight="0.8">
     <match lemma="masculin" tags="adj.*"><select lemma="masculin"/></match>
   </rule>
@@ -3340,6 +3370,15 @@
     <match lemma="pressé" tags="adj.*"><select lemma="trolyê"/></match>
   </rule>
 
+  <!-- prévisible >> prèvisiblo, que dêt arrevar -->
+  <rule weight="0.8">
+    <match lemma="prévisible" tags="adj.*"><select lemma="prèvisiblo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="n.*"/>
+    <match lemma="prévisible" tags="adj.*"><select lemma="que dêt arrevar"/></match>
+  </rule>
+
   <!-- prochain >> prochen, que vint -->
   <rule weight="0.8">
     <match lemma="prochain" tags="adj.*"><select lemma="prochen"/></match>
@@ -3398,6 +3437,18 @@
   <rule weight="1.0">
     <match lemma="nombre" tags="n.*"/>
     <match lemma="rationnel" tags="adj.*"><select lemma="racionèl"/></match>
+  </rule>
+
+  <!-- régressif >> en arriér, racionèl -->
+  <rule weight="0.8">
+    <match lemma="régressif" tags="adj.*"><select lemma="en arriér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="assimilation" tags="n.*"/>
+      <match lemma="dissimilation" tags="n.*"/>
+    </or>
+    <match lemma="régressif" tags="adj.*"><select lemma="règrèssif"/></match>
   </rule>
 
   <!-- rétrograde >> retrogrado, que mârche a reculon -->

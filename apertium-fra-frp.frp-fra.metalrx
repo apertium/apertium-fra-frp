@@ -1662,7 +1662,7 @@
     <match lemma="mango" tags="n.*"><select lemma="mangue"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="mango" tags="n.*"><select lemma="mangue"/></match>
+    <match lemma="mango" tags="n.*"><select lemma="manche"/></match>
     <match lemma="de" tags="pr"/>
     <match tags="det.*"/>
     <or>
@@ -1671,6 +1671,9 @@
       <match lemma="pâla" tags="n.*"/>
       <match lemma="piârda" tags="n.*"/>
       <match lemma="tôrna-visse" tags="n.*"/>
+      <match lemma="brosse" tags="n.*"/>
+      <match lemma="brossa" tags="n.*"/>
+      <match lemma="vèrgèta" tags="n.*"/>
       <match lemma="lance" tags="n.*"/>
       <match lemma="èpèya" tags="n.*"/>
       <match lemma="èpê" tags="n.*"/>
@@ -1752,7 +1755,7 @@
     </or>
   </rule>
 
-  <!-- pipèta >> pipette, plumet -->
+  <!-- pipèta >> pipette, cochique -->
   <rule weight="0.8">
     <match lemma="pipèta" tags="n.*"><select lemma="pipette"/></match>
   </rule>
