@@ -822,6 +822,11 @@
     <match lemma="à" tags="pr"><select lemma="à"/></match>
   </rule>
 
+  <!-- avant >> avant, devant -->
+  <rule weight="0.8">
+    <match lemma="avant" tags="pr.*"><select lemma="avant"/></match>
+  </rule>
+
   <!-- concernant >> rapôrt a, que regârde, que regârdont -->
   <rule weight="0.8">
     <match lemma="concernant" tags="pr"><select lemma="rapôrt a"/></match>
@@ -1704,6 +1709,8 @@
     <or>
       <match tags="np.*"/>
       <match tags=""/>
+      <match lemma="consonne" tags="np.*"/>
+      <match lemma="voyelle" tags="np.*"/>
     </or>
   </rule>
 
@@ -2274,11 +2281,6 @@
   </rule>
 
 <!-- **************** PRN **************** -->
-
-  <!-- avant >> avant, devant -->
-  <rule weight="0.8">
-    <match lemma="avant" tags="pr.*"><select lemma="avant"/></match>
-  </rule>
 
   <!-- je >> je/ye, jo/yo -->
   <rule weight="0.8">
