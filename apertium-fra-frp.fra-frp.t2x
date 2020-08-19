@@ -30,6 +30,10 @@
       <cat-item tags="SAdv"/>
       <cat-item tags="SAdv.*"/>
     </def-cat>
+    <def-cat n="mes_muens">
+      <cat-item lemma="més" tags="SAdv"/>
+      <cat-item lemma="muens" tags="SAdv"/>
+    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
@@ -182,7 +186,7 @@
 
     <!-- REGLAS PEL SUPERLATIU -->
 
-    <rule comment="REGLA: DET_def SN DET_def SAcomp: la montagne la plus haute > la montanha mai nauta">
+    <rule comment="REGLA: DET_def SN DET_def SAcomp: la personne la plus haute > la pèrsona més hôta">
       <pattern>
         <pattern-item n="DET_def"/>
         <pattern-item n="SN"/>
@@ -210,6 +214,46 @@
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
             <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET_def SN DET_def SAcomp: la personne la plus connue > la pèrsona més cognessua">
+      <pattern>
+        <pattern-item n="DET_def"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="DET_def"/>
+        <pattern-item n="mes_muens"/>
+        <pattern-item n="PP"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+        </out>
+        <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
           </chunk>
         </out>
       </action>
