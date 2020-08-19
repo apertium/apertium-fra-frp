@@ -3126,10 +3126,11 @@
         <call-macro n="f_chunk_tags">
           <with-param pos="1"/>
         </call-macro>
+        <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="pp">
+          <chunk namefrom="lemma">
             <tags>
-              <tag><lit-tag v="SA"/></tag>
+              <tag><lit-tag v="SA_pp"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><var n="genero_sl"/></tag>
@@ -3524,11 +3525,12 @@
             </call-macro>
           </otherwise>
         </choose>
+        <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
         <out>
           <b pos="1"/>
-          <chunk name="pp">
+          <chunk namefrom="lemma">
             <tags>
-              <tag><lit-tag v="SA"/></tag>
+              <tag><lit-tag v="SA_pp"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
               <tag><var n="genero_sl"/></tag>
