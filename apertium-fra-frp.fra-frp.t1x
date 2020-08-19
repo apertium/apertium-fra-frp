@@ -161,6 +161,10 @@
       <cat-item tags="num.*"/>
     </def-cat>
 
+    <def-cat n="deux">
+      <cat-item lemma="deux" tags="num.*"/>
+    </def-cat>
+
     <def-cat n="num_premier"> <!-- per datas -->
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
@@ -4602,6 +4606,57 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: NUM CNJCOO NUM NOM (deux ou trois années > doves ou três anâs)">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="4"/>
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="num_n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="4" side="tl" part="gen"/></tag>
+              <tag><clip pos="4" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="tags"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="tags"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+         </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: NOM ADJ ADJ">
       <pattern>
         <pattern-item n="nom"/>
@@ -4734,6 +4789,65 @@
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="tl" part="tags"/>
                 <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+         </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM CNJCOO NUM NOM ADJ (deux ou trois années consécutives > doves ou três anâs siuvues)">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord4">
+          <with-param pos="4"/>
+          <with-param pos="5"/>
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="num_n_a">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="4" side="tl" part="gen"/></tag>
+              <tag><clip pos="4" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="tags"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="tags"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+              <b pos="4"/>
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="tl" part="tags"/>
+                <clip pos="5" side="tl" part="lemq"/>
               </lu>
             </chunk>
          </out>
