@@ -11,6 +11,11 @@
     <def-cat n="ce_det">
       <cat-item lemma="ce" tags="det.dem.*"/>
     </def-cat>
+    <def-cat n="det_num">
+      <cat-item tags="det.*"/>
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
 
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
@@ -251,6 +256,10 @@
       <cat-item tags="vbhaver.*"/>
     </def-cat>
 
+    <def-cat n="a">
+      <cat-item tags="vbhaver.pri.p3.sg"/>
+    </def-cat>
+
     <def-cat n="vbhaverconj">
       <cat-item tags="vbhaver.*.p1.*"/>
       <cat-item tags="vbhaver.*.p2.*"/>
@@ -335,6 +344,21 @@
 
     <def-cat n="aller">
       <cat-item lemma="aller" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="n_temps">
+      <cat-item lemma="seconde" tags="n.*"/>
+      <cat-item lemma="minute" tags="n.*"/>
+      <cat-item lemma="heure" tags="n.*"/>
+      <cat-item lemma="jour" tags="n.*"/>
+      <cat-item lemma="semaine" tags="n.*"/>
+      <cat-item lemma="mois" tags="n.*"/>
+      <cat-item lemma="trimestre" tags="n.*"/>
+      <cat-item lemma="an" tags="n.*"/>
+      <cat-item lemma="année" tags="n.*"/>
+      <cat-item lemma="lustre" tags="n.*"/>
+      <cat-item lemma="siècle" tags="n.*"/>
+      <cat-item lemma="millénaire" tags="n.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -8963,7 +8987,7 @@
     </rule>
 -->
 
-    <rule comment="REGLA: IL EN FAIT > en fa (pedaç per evitar il + ´en fa' (adv) ">
+    <rule comment="REGLA: IL EN FAIT > en fa (pedaç per evitar il + 'en fa' (adv) ">
        <pattern>
          <pattern-item n="il_elle"/>
          <pattern-item n="en_fait"/>
@@ -8989,6 +9013,47 @@
              <lu>
               <lit v="far"/>
               <lit-tag v="vblex.pri.p3.sg"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: IL Y A NUM NOM_TEMPS > NUM NOM_TEMPS EN ARRIÉR">
+       <pattern>
+         <pattern-item n="il"/>
+         <pattern-item n="y"/>
+         <pattern-item n="a"/>
+         <pattern-item n="det_num"/>
+         <pattern-item n="n_temps"/>
+       </pattern>
+       <action>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+         <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
+         <out>
+           <chunk name="en-arriér">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="4" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="4" side="tl" part="tags"/>
+             </lu>
+             <b pos="4"/>
+             <lu>
+               <clip pos="5" side="tl" part="lemh"/>
+               <clip pos="5" side="tl" part="tags"/>
+               <clip pos="5" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="3">
+                 <lit v="en arriér"/>
+               </get-case-from>
+              <lit-tag v="adv"/>
              </lu>
            </chunk>
          </out>
