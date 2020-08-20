@@ -77,6 +77,9 @@
     </def-cat>
     <def-cat n="pas">
       <cat-item lemma="pas" tags="adv"/>
+      <cat-item lemma="jamais" tags="adv"/>
+      <cat-item lemma="plus jamais" tags="adv"/>
+      <cat-item lemma="plus guère" tags="adv"/>
     </def-cat>
     <def-cat n="plus_guere">
       <cat-item lemma="plus" tags="adv"/>
@@ -144,6 +147,14 @@
       <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
       <cat-item lemma="nous" tags="prn.pro.p1.mf.pl"/>
       <cat-item lemma="vous" tags="prn.pro.p2.mf.pl"/>
+    </def-cat>
+    <def-cat n="prndat">
+      <cat-item lemma="me" tags="prn.pro.p1.mf.sg"/>
+      <cat-item lemma="te" tags="prn.pro.p2.mf.sg"/>
+      <cat-item lemma="lui" tags="prn.pro.p3.mf.sg"/>
+      <cat-item lemma="nous" tags="prn.pro.p1.mf.pl"/>
+      <cat-item lemma="vous" tags="prn.pro.p2.mf.pl"/>
+      <cat-item lemma="leur" tags="prn.pro.p3.mf.pl"/>
     </def-cat>
     <def-cat n="enprn">
       <cat-item lemma="en" tags="prn.*"/>
@@ -258,6 +269,14 @@
 
     <def-cat n="a">
       <cat-item tags="vbhaver.pri.p3.sg"/>
+    </def-cat>
+
+    <def-cat n="appartenir">
+      <cat-item lemma="appartenir" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="appartenir_pp">
+      <cat-item lemma="appartenir" tags="vblex.pp.*"/>
     </def-cat>
 
     <def-cat n="vbhaverconj">
@@ -3397,6 +3416,485 @@
     </rule>
 
     <!-- FIN REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+
+    <!-- REGLAS APPARTENIR -->
+
+    <rule comment="REGLA: PRNDAT APPARTENIR: lui appartient > est a lui">
+       <pattern>
+         <pattern-item n="prndat"/>
+         <pattern-item n="appartenir"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="1"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="2" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="2" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="1" side="sl" part="lemh" />
+               <lit v="aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="1" side="tl" part="lemh" />
+               <lit v="aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <b pos="1"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: NE PRNDAT APPARTENIR: ne lui appartient que > est a lui que">
+       <pattern>
+         <pattern-item n="ne"/>
+         <pattern-item n="prndat"/>
+         <pattern-item n="appartenir"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="3" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="3" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <b pos="2"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: NE PRNDAT APPARTENIR PAS: ne lui appartient pas > est pas més a lui">
+       <pattern>
+         <pattern-item n="ne"/>
+         <pattern-item n="prndat"/>
+         <pattern-item n="appartenir"/>
+         <pattern-item n="pas"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="3" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="3" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="3"/>
+         </call-macro>
+         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <b pos="2"/>
+           <chunk namefrom="lemma">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="3"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: NE PRNDAT APPARTENIR PLUS: ne lui appartient plus > est pas més a lui">
+       <pattern>
+         <pattern-item n="ne"/>
+         <pattern-item n="prndat"/>
+         <pattern-item n="appartenir"/>
+         <pattern-item n="plus_guere"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="3" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="3" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <b pos="2"/>
+           <chunk name="pas">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+             <lu>
+               <lit v="pas"/>
+               <lit-tag v="adv"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="3"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: PRNDAT HAVER APPARTENIR_PP : lui a appartenu > a étâ a lui">
+       <pattern>
+         <pattern-item n="prndat"/>
+         <pattern-item n="vbhaver"/>
+         <pattern-item n="appartenir_pp"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="1"/>
+         </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="3"/>
+        </call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="2" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="2" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="2"/>
+         </call-macro>
+         <let><var n="lemma"/><clip pos="3" side="tl" part="lem"/></let>
+         <out>
+          <b pos="1"/>
+           <chunk namefrom="lemma">
+             <tags>
+               <tag><lit-tag v="SA_pp"/></tag>
+               <tag><clip pos="3" side="tl" part="gen"/></tag>
+               <tag><clip pos="3" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="a_verb"/>
+               <clip pos="3" side="tl" part="temps"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="3">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="REGLA: NE PRNDAT HAVER PAS APPARTENIR_PP : ne lui a pas appartenu > a pas étâ a lui">
+       <pattern>
+         <pattern-item n="ne"/>
+         <pattern-item n="prndat"/>
+         <pattern-item n="vbhaver"/>
+         <pattern-item n="pas"/>
+         <pattern-item n="appartenir_pp"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="tipus_prn">
+           <with-param pos="2"/>
+         </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="5"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="5"/>
+        </call-macro>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal>
+                 <case-of pos="1" side="sl" part="lemh" />
+                 <lit v="Aa" />
+               </equal>
+             </test>
+             <modify-case>
+               <clip pos="3" side="sl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+             <modify-case>
+               <clip pos="3" side="tl" part="lemh" />
+               <lit v="Aa" />
+             </modify-case>
+           </when>
+         </choose>
+         <call-macro n="out_verb1">
+           <with-param pos="3"/>
+         </call-macro>
+         <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <b pos="2"/>
+           <chunk namefrom="lemma">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+         <let><var n="lemma"/><clip pos="5" side="tl" part="lem"/></let>
+         <out>
+          <b pos="3"/>
+           <chunk namefrom="lemma">
+             <tags>
+               <tag><lit-tag v="SA_pp"/></tag>
+               <tag><clip pos="5" side="tl" part="gen"/></tag>
+               <tag><clip pos="5" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="5" side="tl" part="lemh"/>
+               <clip pos="5" side="tl" part="a_verb"/>
+               <clip pos="5" side="tl" part="temps"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="5" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="4"/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+            </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+               <tag><var n="tipusprn"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <!-- FIN REGLAS APPARTENIR -->
 
     <!-- REGLAS VERBES PRONOMINAUX -->
 
