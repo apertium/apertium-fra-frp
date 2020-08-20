@@ -817,9 +817,9 @@
 
 <!-- **************** PR **************** -->
 
-  <!-- à >> à, que -->
+  <!-- à >> a, que -->
   <rule weight="0.8">
-    <match lemma="à" tags="pr"><select lemma="à"/></match>
+    <match lemma="à" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <!-- avant >> avant, devant -->
@@ -849,6 +849,11 @@
   <!-- de >> de, que -->
   <rule weight="0.8">
     <match lemma="de" tags="pr"><select lemma="de"/></match>
+  </rule>
+
+  <!-- sur >> sur, a -->
+  <rule weight="0.8">
+    <match lemma="sur" tags="pr"><select lemma="sur"/></match>
   </rule>
 
 <!-- **************** N **************** -->
@@ -1957,6 +1962,16 @@
       <seq n="adj_ord"/>
     </or>
     <match lemma="place" tags="n.*"><select lemma="place"/></match>
+  </rule>
+
+  <!-- plan >> plan, nivél -->
+  <rule weight="0.8">
+    <match lemma="plan" tags="n.*"><select lemma="plan"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sur" tags="pr"><select lemma="a"/></match>
+    <match tags="det.*"/>
+    <match lemma="plan" tags="n.*"><select lemma="nivél"/></match>
   </rule>
 
   <!-- plateau >> pllatél, platél -->
