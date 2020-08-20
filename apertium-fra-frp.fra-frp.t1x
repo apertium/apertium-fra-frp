@@ -9054,6 +9054,8 @@
         <pattern-item n="sent"/>
       </pattern>
       <action>
+        <let><var n="genero"/><lit-tag v="m"/></let>
+        <let><var n="numero"/><lit-tag v="sg"/></let>
         <out>
           <chunk name="sent" case="caseFirstWord">
             <tags>
