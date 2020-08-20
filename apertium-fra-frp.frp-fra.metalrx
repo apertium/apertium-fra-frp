@@ -1883,6 +1883,18 @@
     </or>
   </rule>
 
+  <!-- vielyongement >> vieillissement, obsolescence -->
+  <rule weight="0.8">
+    <match lemma="vielyongement" tags="n.*"><select lemma="vieillissement"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vielyongement" tags="n.*"><select lemma="obsolescence"/></match>
+    <or>
+      <match lemma="programmer" tags="vblex.pp.*"/>
+      <match lemma="programmé" tags="adj.*"/>
+    </or>
+  </rule>
+
   <!-- volontèro >> volontaire, bénévole -->
   <rule weight="0.8">
     <match lemma="volontèro" tags="n.*"><select lemma="volontaire"/></match>
@@ -1948,6 +1960,26 @@
     <or>
       <match tags="np.ant.*"/>
       <match tags="np.cog.*"/>
+    </or>
+  </rule>
+
+  <!-- enolyér >> lubrifier, oindre -->
+  <rule weight="0.8">
+    <match lemma="enolyér" tags="vblex.*"><select lemma="lubrifier"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="enolyér" tags="vblex.*"><select lemma="oindre"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match n="téta" tags="n.*"/>
+      <match n="man" tags="n.*"/>
+      <match n="pied" tags="n.*"/>
     </or>
   </rule>
 

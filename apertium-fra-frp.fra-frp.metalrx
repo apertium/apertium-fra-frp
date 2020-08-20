@@ -2260,7 +2260,7 @@
     <match lemma="vertèbre" tags="n.*"><select lemma="vertèbra"/></match>
   </rule>
 
-  <!-- volet >> volèt, partia -->
+  <!-- volet >> volèt, chantél -->
   <rule weight="0.8">
     <match lemma="volet" tags="n.*"><select lemma="volèt"/></match>
   </rule>
@@ -2268,11 +2268,18 @@
     <or>
       <seq n="adj_ord"/>
     </or>
-    <match lemma="volet" tags="n.*"><select lemma="partia"/></match>
+    <match lemma="volet" tags="n.*"><select lemma="chantél"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="volet" tags="n.*"><select lemma="partia"/></match>
-    <match lemma="financier" tags="adj.*"/>
+    <match lemma="volet" tags="n.*"><select lemma="chantél"/></match>
+    <or>
+      <match lemma="économique" tags="adj.*"/>
+      <match lemma="financier" tags="adj.*"/>
+      <match lemma="juridique" tags="adj.*"/>
+      <match lemma="légal" tags="adj.*"/>
+      <match lemma="législatif" tags="adj.*"/>
+      <match lemma="politique" tags="adj.*"/>
+    </or>
   </rule>
 
   <!-- vrille >> vilyon, pèrcerèt -->
@@ -2796,6 +2803,11 @@
     <match tags="sent"/>
   </rule>
 
+  <!-- bilatéralement >> des doux lâts, de doux lâts -->
+  <rule weight="0.8">
+    <match lemma="bilatéralement" tags="adv"><select lemma="des doux lâts"/></match>
+  </rule>
+
   <!-- encore >> adés, oncor -->
   <rule weight="0.8">
     <match lemma="encore" tags="adv"><select lemma="adés"/></match>
@@ -2977,6 +2989,11 @@
       <match tags="det.*"/>
     </repeat>
     <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
+
+  <!-- bilatéral >> de doux lâts, des doux lâts, bilatèral -->
+  <rule weight="0.8">
+    <match lemma="bilatéral" tags="adj.*"><select lemma="de doux lâts"/></match>
   </rule>
 
   <!-- classifié >> ben cllassiê, complèxo -->
@@ -3367,6 +3384,11 @@
     <match lemma="postérieur" tags="adj.*"><select lemma="du dèrriér"/></match>
   </rule>
 
+  <!-- précaire >> prèquèro, fragilo -->
+  <rule weight="0.8">
+    <match lemma="précaire" tags="adj.*"><select lemma="prèquèro"/></match>
+  </rule>
+
   <!-- pressé >> prèssiê, trolyê -->
   <rule weight="0.8">
     <match lemma="pressé" tags="adj.*"><select lemma="prèssiê"/></match>
@@ -3472,9 +3494,35 @@
     <match lemma="régressif" tags="adj.*"><select lemma="règrèssif"/></match>
   </rule>
 
+  <!-- résineux >> a bejon, de rèsena, a rèsena -->
+  <rule weight="0.8">
+    <match lemma="résineux" tags="adj.*"><select lemma="a bejon"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="odeur" tags="n.*"/>
+    </or>
+    <match lemma="résineux" tags="adj.*"><select lemma="de rèsena"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="sustance" tags="n.*"/>
+      <match lemma="matière" tags="n.*"/>
+      <match lemma="pétrole" tags="n.*"/>
+      <match lemma="bitume" tags="n.*"/>
+      <match lemma="gomme" tags="n.*"/>
+    </or>
+    <match lemma="résineux" tags="adj.*"><select lemma="a rèsena"/></match>
+  </rule>
+
   <!-- rétrograde >> retrogrado, que mârche a reculon -->
   <rule weight="0.8">
     <match lemma="rétrograde" tags="adj.*"><select lemma="retrogrado"/></match>
+  </rule>
+
+  <!-- satellitaire >> de satèlitos, de satèlito -->
+  <rule weight="0.8">
+    <match lemma="satellitaire" tags="adj.*"><select lemma="de satèlitos"/></match>
   </rule>
 
   <!-- sceptique >> mèfiant, scèptico -->
