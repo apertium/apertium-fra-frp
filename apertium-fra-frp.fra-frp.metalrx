@@ -1939,43 +1939,18 @@
     <match lemma="pêche" tags="n.*"><select lemma="pêrche"/></match>
   </rule>
 
-  <!-- place >> place, plâtro -->
+  <!-- place >> place, endrêt -->
   <rule weight="0.8">
     <match lemma="place" tags="n.*"><select lemma="place"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
-    <match lemma="de" tags="pr"/>
-    <match tags="det.def.*"/>
-    <or>
-      <match tags="n.*"/>
-      <match tags="num.*"/>
-      <match tags="num"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
-    <match lemma="de" tags="pr"/>
-    <match tags="np.*"/>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
-    <match tags="np.*"/>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="grand" tags="adj.*"/>
-    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="place" tags="n.*"><select lemma="plâtro"/></match>
-    <or>
-      <match lemma="central" tags="adj.*"/>
-      <match lemma="royal" tags="adj.*"/>
-    </or>
+    <match tags="det.dem.*"/>
+    <match lemma="place" tags="n.*"><select lemma="endrêt"/></match>
   </rule>
   <rule weight="1.2">
     <or>
       <seq n="adj_ord"/>
+      <match tags="det.pos.*"/>
     </or>
     <match lemma="place" tags="n.*"><select lemma="place"/></match>
   </rule>

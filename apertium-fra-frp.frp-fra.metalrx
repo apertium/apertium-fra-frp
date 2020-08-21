@@ -1495,6 +1495,11 @@
     </or>
   </rule>
 
+  <!-- endrêt >> endroit, place -->
+  <rule weight="0.8">
+    <match lemma="endrêt" tags="n.*"><select lemma="endroit"/></match>
+  </rule>
+
   <!-- ensemblo >> ensemble, complexe -->
   <rule weight="0.8">
     <match lemma="ensemblo" tags="n.*"><select lemma="ensemble"/></match>
@@ -1766,9 +1771,38 @@
   </rule>
   <rule weight="1.0">
     <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <or>
+      <match tags="n.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+    <match lemma="de" tags="pr"/>
     <match tags="np.*"/>
   </rule>
-
+  <rule weight="1.0">
+    <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="grant" tags="adj.*"/>
+      <match lemma="grand" tags="adj.*"/>
+    </or>
+    <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="plâtro" tags="n.*"><select lemma="place"/></match>
+    <or>
+      <match lemma="centrâl" tags="adj.*"/>
+      <match lemma="royâl" tags="adj.*"/>
+      <match lemma="royâr" tags="adj.*"/>
+    </or>
+  </rule>
 
   <!-- plomèt >> aigrette, plumet -->
   <rule weight="0.8">
