@@ -337,7 +337,7 @@
 			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
 		</rule>
 		<rule weight="1.0">
-			<match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
 			<repeat from="0" upto="2">
 				<or>
 					<match tags="adv"/>
@@ -350,6 +350,17 @@
 				<match tags="sent"/>
 			</or>
 		</rule>
+		<rule weight="1.2">
+			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+			<repeat from="0" upto="2">
+				<or>
+					<match tags="adv"/>
+					<match tags="cnjadv"/>
+				</or>
+			</repeat>
+			<match lemma="de" tags="pr"/>
+			<match tags="det.def.*"/>
+		</rule>
 	</def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
@@ -361,6 +372,9 @@
       </rule>
       <rule weight="1.0">
         <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <repeat from="0" upto="2">
+          <match tags="adv"/>
+        </repeat>
         <or>
           <match tags="det.*"/>
           <match tags="np.*"/>
@@ -1223,6 +1237,8 @@
     <match lemma="complexe" tags="n.*"><select lemma="ensemblo"/></match>
     <or>
       <match lemma="sportif" tags="adj.*"/>
+      <match lemma="multisport" tags="adj.*"/>
+      <match lemma="omnisports" tags="adj.*"/>
       <match lemma="industriel" tags="adj.*"/>
       <match lemma="hospitalier" tags="adj.*"/>
       <match lemma="commercial" tags="adj.*"/>
@@ -3874,7 +3890,48 @@
   </rule>
 
   <!-- différer >> étre# difèrent, retardar -->
-  <macro name="verb_intrans_trans" p1="différer" p2="étre# difèrent" p3="retardar" />
+  <rule weight="0.8">
+    <match lemma="différer" tags="vblex.*"><select lemma="étre# difèrent"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="différer" tags="vblex.*.pl"><select lemma="étre# difèrents"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match tags="n.f.sg"/>
+      <match tags="adj.f.sg"/>
+      <match tags="prn.tn.p3.f.sg"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="différer" tags="vblex.*.sg"><select lemma="étre# difèrente"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match tags="n.f.pl"/>
+      <match tags="adj.f.pl"/>
+      <match tags="prn.tn.p3.f.pl"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="différer" tags="vblex.*.pl"><select lemma="étre# difèrentes"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="différer" tags="vblex.*"><select lemma="retardar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="le" tags="prn.pro.*"/>
+    <match lemma="différer" tags="vblex.*"><select lemma="retardar"/></match>
+  </rule>
 
   <!-- disjoindre >> dèpondre, dèjuendre -->
   <rule weight="0.8">
@@ -4031,7 +4088,24 @@
   </rule>
 
   <!-- inclure >> betar# dedens, apondre -->
-  <macro name="verb_locprep" p1="inclure" p2="betar# dedens" p3="apondre" />
+  <rule weight="0.8">
+    <match lemma="inclure" tags="vblex.*"><select lemma="betar# dedens"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="inclure" tags="vblex.*"><select lemma="apondre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="inclure" tags="vblex.*"><select lemma="betar# dedens"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+  </rule>
 
   <!-- influencer >> pesar# sur, enfluenciér -->
   <macro name="verb_locprep" p1="influencer" p2="pesar# sur" p3="enfluenciér" />
