@@ -183,11 +183,12 @@
       <cat-item tags="num.*"/>
     </def-cat>
 
-    <def-cat n="num_premier"> <!-- per datas -->
+    <def-cat n="num_premier"> <!-- pour les dates -->
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
-      <cat-item lemma="1er" tags="adj.*"/>
-      <cat-item lemma="premier" tags="adj.*"/>
+      <cat-item lemma="1ér" tags="adj.*"/>
+      <cat-item lemma="premiér" tags="adj.*"/>
+      <cat-item lemma="premiér" tags="n.*"/>
     </def-cat>
 
     <def-cat n="pr">
@@ -346,8 +347,20 @@
       <cat-item tags="sent"/>
     </def-cat>
 
-    <def-cat n="train">
-      <cat-item lemma="train" tags="n.*"/>
+    <def-cat n="nom_mois">
+      <cat-item lemma="janviér" tags="n.*"/>
+      <cat-item lemma="fevriér" tags="n.*"/>
+      <cat-item lemma="mârs" tags="n.*"/>
+      <cat-item lemma="avril" tags="n.*"/>
+      <cat-item lemma="mê" tags="n.*"/>
+      <cat-item lemma="jouin" tags="n.*"/>
+      <cat-item lemma="jouen" tags="n.*"/>
+      <cat-item lemma="julyèt" tags="n.*"/>
+      <cat-item lemma="oût" tags="n.*"/>
+      <cat-item lemma="septembro" tags="n.*"/>
+      <cat-item lemma="octobro" tags="n.*"/>
+      <cat-item lemma="novembre" tags="n.*"/>
+      <cat-item lemma="dècembro" tags="n.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -2770,7 +2783,7 @@
 
   <section-rules>
 
-    <!-- REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+    <!-- REGLES CAPÇALERA CHUNK + LEMH/LEMQ -->
 
     <rule comment="REGLA: DET">
        <pattern>
@@ -3221,9 +3234,94 @@
        </action>
     </rule>
 
-    <!-- FIN REGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+    <!-- FIN REGLES CAPÇALERA CHUNK + LEMH/LEMQ -->
 
-    <!-- REGLAS VERBES PRONOMINAUX -->
+    <!-- REGLES DATES -->
+
+   <rule comment="REGLA: NUMERAL MOIS (20 de janviér: 20 janvier)">
+      <pattern>
+        <pattern-item n="num_premier"/>
+        <pattern-item n="deprep"/>
+        <pattern-item n="nom_mois"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="m"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   <rule comment="REGLA: DET NUMERAL MOIS (lo 20 de janviér: le 20 janvier)">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="num_premier"/>
+        <pattern-item n="deprep"/>
+        <pattern-item n="nom_mois"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="tipus_det">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- FIN REGLES DATES -->
+
+    <!-- REGLES VERBES PRONOMINAUX -->
 
     <rule comment="REGLA: SE VBNOSER: il sè dècabane > il déménage ; te nos dis  > tu nous dis">
        <pattern>
@@ -3321,9 +3419,9 @@
        </action>
     </rule>
 
-    <!-- FIN REGLAS VERBES PRONOMINAUX -->
+    <!-- FIN REGLES VERBES PRONOMINAUX -->
 
-    <!-- REGLAS CONCORDANÇA -->
+    <!-- REGLES ACCORD -->
 
     <rule comment="REGLA: DET NOM">
       <pattern>
@@ -4751,9 +4849,9 @@
       </action>
     </rule>
 
-    <!-- FIN REGLAS CONCORDANÇA -->
+    <!-- FIN REGLES ACCORD -->
 
-    <!-- REGLAS CET NOM-CI/LÀ -->
+    <!-- REGLES CET NOM-CI/LÀ -->
 
     <rule comment="REGLA: CE_DET NOM-CI > CETI NOM">
       <pattern>
@@ -4861,9 +4959,9 @@
       </action>
     </rule>
 
-    <!-- FIN REGLAS CET NOM-CI/LÀ -->
+    <!-- FIN REGLES CET NOM-CI/LÀ -->
 
-    <!-- REGLAS TOP -->
+    <!-- REGLES TOP -->
 
     <rule comment="REGLA: DETDEF NPTOP (la Grèce > la Grècia)">
       <pattern>
@@ -4989,9 +5087,9 @@
       </action>
     </rule>
 
-    <!-- FIN REGLAS TOP -->
+    <!-- FIN REGLES TOP -->
 
-    <!-- REGLAS CAMBI AUXILIAR -->
+    <!-- REGLES CAMBI AUXILIAR -->
 
     <rule comment="REGLA: SER SER_PP > HAVER + SER_PP: su étâ > ai été">
        <pattern>
@@ -5394,9 +5492,9 @@
     </rule>
 -->
 
-    <!-- FIN REGLAS CAMBI AUXILIAR -->
+    <!-- FIN REGLES CAMBI AUXILIAR -->
 
-  <!-- REGLAS REORDENACION PRONOMS -->
+  <!-- REGLES REORDENACION PRONOMS -->
 
 <!--
     <rule comment="REGLA: HAVER PP PRNPRO INF (auraient pu l'imaginer: l’aurián pogut imaginar)">
@@ -5737,9 +5835,9 @@
     </rule>
 -->
 
-  <!-- FIN REGLAS REORDENACION PRONOMS -->
+  <!-- FIN REGLES REORDENACION PRONOMS -->
 
-  <!-- AUTRAS REGLAS VERBALAS -->
+  <!-- AUTRAS REGLES VERBALAS -->
 
     <rule comment="REGLA: IMP PRNENC">
        <pattern>
@@ -5815,9 +5913,9 @@
        </action>
     </rule>
 
-  <!-- FIN AUTRAS REGLAS VERBALAS -->
+  <!-- FIN AUTRAS REGLES VERBALAS -->
 
-  <!-- REGLAS C'EST -->
+  <!-- REGLES C'EST -->
 
 <!--
     <rule comment="REGLA: CE VBSER: ce fut > foguèt">
@@ -5852,9 +5950,9 @@
     </rule>
 -->
 
-  <!-- FIN REGLAS C'EST -->
+  <!-- FIN REGLES C'EST -->
 
-  <!-- REGLAS VBMOD + PRO + VBMOD -->
+  <!-- REGLES VBMOD + PRO + VBMOD -->
 
 <!--
     <rule comment="REGLA: VBMOD PRNPRO VERB (Cet article peut se lire > Aqueste article se pòt legir)">
@@ -6127,7 +6225,7 @@
     </rule>
 -->
 
-  <!-- FIN REGLAS VBMOD + PRO + VBMOD -->
+  <!-- FIN REGLES VBMOD + PRO + VBMOD -->
 
 <!--
     <rule comment="REGLA: EST-CE QUE > 0">
