@@ -16,6 +16,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
+	$(PREFIX1).autosep1.bin	\
+	$(PREFIX1).autosep2.bin	\
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
 	$(PREFIX1).t1x.bin	\
@@ -76,6 +78,15 @@ $(PREFIX2).automorf.bin: .deps/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
 
 $(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
+
+###############################################################################
+## Multiwords
+###############################################################################
+
+$(PREFIX1).autosep1.bin: $(BASENAME).$(PREFIX1).l1x
+	lsx-comp lr $< $@
+$(PREFIX1).autosep2.bin: $(BASENAME).$(PREFIX1).l2x
+	lsx-comp lr $< $@
 
 ###############################################################################
 ## Tagger models
@@ -197,9 +208,14 @@ apertium_fra_frpdir=$(prefix)/share/apertium/$(BASENAME)/
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_fra_frp_DATA=	\
 	$(TARGETS_COMMON)				\
+	$(BASENAME).$(PREFIX1).dix			\
+	$(BASENAME).$(PREFIX1).l1x			\
+	$(BASENAME).$(PREFIX1).l2x			\
+	$(BASENAME).$(PREFIX1).metalrx			\
 	$(BASENAME).$(PREFIX1).t1x			\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
+	$(BASENAME).$(PREFIX2).metalrx			\
 	$(BASENAME).$(PREFIX2).t1x			\
 	$(BASENAME).$(PREFIX2).t2ax			\
 	$(BASENAME).$(PREFIX2).t2bx			\
