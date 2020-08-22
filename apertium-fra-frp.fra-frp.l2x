@@ -325,6 +325,12 @@
       <p><l></l><r>de<s n="pr"/><j/></r></p>
     </e>
 
+    <e lm="oposar a">
+      <p><l>oposar<s n="vblex"/><t/><g><b/>a</g><j/></l><r>oposar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+    </e>
+
     <e lm="pesar sur">
       <p><l>pesar<s n="vblex"/><t/><g><b/>sur</g><j/></l><r>pesar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
@@ -341,6 +347,18 @@
       <p><l>veriér<s n="vblex"/><t/><g><b/>utôrn<b/>de</g><j/></l><r>veriér<s n="vblex"/><t/><j/></r></p>
       <par n="pas"/>
       <p><l></l><r>utôrn<b/>de<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="vivre dens">
+      <p><l>vivre<s n="vblex"/><t/><g><b/>dens</g><j/></l><r>vivre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>dens<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="vivre dessus">
+      <p><l>vivre<s n="vblex"/><t/><g><b/>dessus</g><j/></l><r>vivre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>dessus<s n="pr"/><j/></r></p>
     </e>
 
     <!-- vblex adj n -->
