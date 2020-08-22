@@ -43,30 +43,60 @@
   </pardefs>
   <section id="main" type="standard">
 
-    <!-- vblex adj -->
+    <!-- vblex adj/pp -->
+
+    <e lm="étre assetâ">
+      <p><l>étre<s n="vblex"/><t/><g><b/>assetâ</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>assetar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="étre assetâye">
+      <p><l>étre<s n="vblex"/><t/><g><b/>assetâye</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>assetar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="étre assetâs">
+      <p><l>étre<s n="vblex"/><t/><g><b/>assetâs</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>assetar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p>
+    </e>
+
+    <e lm="étre assetâyes">
+      <p><l>étre<s n="vblex"/><t/><g><b/>assetâyes</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>assetar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
 
     <e lm="étre difèrent">
       <p><l>étre<s n="vblex"/><t/><g><b/>difèrent</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
-      <par n="adv"/>
+      <par n="pas"/>
       <p><l></l><r>difèrent<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="étre difèrente">
       <p><l>étre<s n="vblex"/><t/><g><b/>difèrente</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
-      <par n="adv"/>
+      <par n="pas"/>
       <p><l></l><r>difèrent<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="étre difèrents">
       <p><l>étre<s n="vblex"/><t/><g><b/>difèrents</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
-      <par n="adv"/>
+      <par n="pas"/>
       <p><l></l><r>difèrent<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p>
     </e>
 
     <e lm="étre difèrentes">
       <p><l>étre<s n="vblex"/><t/><g><b/>difèrentes</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
-      <par n="adv"/>
+      <par n="pas"/>
       <p><l></l><r>difèrent<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
+
+    <e lm="rendre oficièl">
+      <p><l>rendre<s n="vblex"/><t/><g><b/>oficièl</g><j/></l><r>rendre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>oficièl<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
     <!-- vblex n -->
@@ -75,6 +105,12 @@
       <p><l>avêr<s n="vblex"/><t/><g><b/>fôta</g><j/></l><r>avêr<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>fôta<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="avêr nom">
+      <p><l>avêr<s n="vblex"/><t/><g><b/>nom</g><j/></l><r>avêr<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>nom<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="fâre comèrço">
@@ -99,6 +135,18 @@
       <p><l>fâre<s n="vblex"/><t/><g><b/>homâjo</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>homâjo<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="fâre horror">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>horror</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>horror<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="fâre pouer">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>pouer</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>pouer<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="fâre semblant">
@@ -141,16 +189,52 @@
       <p><l></l><r>defôr<s n="adv"/><j/></r></p>
     </e>
 
+    <e lm="betar en place">
+      <p><l>betar<s n="vblex"/><t/><g><b/>en<b/>place</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>en<b/>place<s n="adv"/><j/></r></p>
+    </e>
+
     <e lm="chaciér defôr">
       <p><l>chaciér<s n="vblex"/><t/><g><b/>defôr</g><j/></l><r>chaciér<s n="vblex"/><t/><j/></r></p>
       <par n="pas"/>
       <p><l></l><r>defôr<s n="adv"/><j/></r></p>
     </e>
 
+    <e lm="cllassiér ben">
+      <p><l>cllassiér<s n="vblex"/><t/><g><b/>ben</g><j/></l><r>cllassiér<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>ben<s n="adv"/><j/></r></p>
+    </e>
+
     <e lm="champar defôr">
       <p><l>champar<s n="vblex"/><t/><g><b/>defôr</g><j/></l><r>champar<s n="vblex"/><t/><j/></r></p>
       <par n="pas"/>
       <p><l></l><r>defôr<s n="adv"/><j/></r></p>
+    </e>
+
+    <e lm="charfar trop">
+      <p><l>charfar<s n="vblex"/><t/><g><b/>trop</g><j/></l><r>charfar<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>trop<s n="adv"/><j/></r></p>
+    </e>
+
+    <e lm="étre dessus">
+      <p><l>étre<s n="vblex"/><t/><g><b/>dessus</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>dessus<s n="adv"/><j/></r></p>
+    </e>
+
+    <e lm="èxplicar a chavon">
+      <p><l>èxplicar<s n="vblex"/><t/><g><b/>a<b/>chavon</g><j/></l><r>èxplicar<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>a<b/>chavon<s n="adv"/><j/></r></p>
+    </e>
+
+    <e lm="mariar ben">
+      <p><l>mariar<s n="vblex"/><t/><g><b/>ben</g><j/></l><r>mariar<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>ben<s n="adv"/><j/></r></p>
     </e>
 
     <e lm="povêr ben">
@@ -171,6 +255,12 @@
       <p><l></l><r>ensemblo<s n="adv"/><j/></r></p>
     </e>
 
+    <e lm="veriér utôrn">
+      <p><l>veriér<s n="vblex"/><t/><g><b/>utôrn</g><j/></l><r>veriér<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>utôrn<s n="adv"/><j/></r></p>
+    </e>
+
     <!-- vblex inf -->
 
     <e lm="devêr payér">
@@ -179,10 +269,34 @@
       <p><l></l><r>payér<s n="vblex"/><s n="inf"/><j/></r></p>
     </e>
 
+    <e lm="fâre cognetre">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>cognetre</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>cognetre<s n="vblex"/><s n="inf"/><j/></r></p>
+    </e>
+
+    <e lm="fâre subir">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>subir</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>subir<s n="vblex"/><s n="inf"/><j/></r></p>
+    </e>
+
     <e lm="fâre sôtar">
       <p><l>fâre<s n="vblex"/><t/><g><b/>sôtar</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>sôtar<s n="vblex"/><s n="inf"/><j/></r></p>
+    </e>
+
+    <e lm="fâre valêr">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>valêr</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>valêr<s n="vblex"/><s n="inf"/><j/></r></p>
+    </e>
+
+    <e lm="tornar fâre">
+      <p><l>tornar<s n="vblex"/><t/><g><b/>fâre</g><j/></l><r>tornar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>fâre<s n="vblex"/><s n="inf"/><j/></r></p>
     </e>
 
     <!-- vblex pr -->
@@ -191,6 +305,12 @@
       <p><l>amenar<s n="vblex"/><t/><g><b/>a</g><j/></l><r>amenar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>a<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="betar dens">
+      <p><l>betar<s n="vblex"/><t/><g><b/>dens</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>dens<s n="pr"/><j/></r></p>
     </e>
 
     <e lm="chargiér de">
@@ -205,13 +325,97 @@
       <p><l></l><r>de<s n="pr"/><j/></r></p>
     </e>
 
+    <e lm="pesar sur">
+      <p><l>pesar<s n="vblex"/><t/><g><b/>sur</g><j/></l><r>pesar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>sur<s n="pr"/><j/></r></p>
+    </e>
+
     <e lm="venir de">
       <p><l>venir<s n="vblex"/><t/><g><b/>de</g><j/></l><r>venir<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>de<s n="pr"/><j/></r></p>
     </e>
 
+    <e lm="veriér utôrn de">
+      <p><l>veriér<s n="vblex"/><t/><g><b/>utôrn<b/>de</g><j/></l><r>veriér<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>utôrn<b/>de<s n="pr"/><j/></r></p>
+    </e>
+
+    <!-- vblex adj n -->
+
+    <e lm="betar bôna fin">
+      <p><l>betar<s n="vblex"/><t/><g><b/>bôna<b/>fin</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>bon<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>fin<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
     <!-- vblex det n -->
+
+    <e lm="avêr l'avantâjo">
+      <p><l>avêr<s n="vblex"/><t/><g><b/>l'avantâjo</g><j/></l><r>avêr<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>avantâjo<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="balyér des fruits">
+      <p><l>balyér<s n="vblex"/><t/><g><b/>des<b/>fruits</g><j/></l><r>balyér<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/><j/></r></p>
+      <p><l></l><r>fruit<s n="n"/><s n="m"/><s n="pl"/><j/></r></p>
+    </e>
+
+    <e lm="betar lo fuè">
+      <p><l>betar<s n="vblex"/><t/><g><b/>lo<b/>fuè</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>fuè<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="étre lo mèlyor">
+      <p><l>étre<s n="vblex"/><t/><g><b/>lo<b/>mèlyor</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>mèlyor<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="étre la mèlyora">
+      <p><l>étre<s n="vblex"/><t/><g><b/>la<b/>mèlyora</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>mèlyor<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="étre los mèlyors">
+      <p><l>étre<s n="vblex"/><t/><g><b/>los<b/>mèlyors</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><j/></r></p>
+      <p><l></l><r>mèlyor<s n="n"/><s n="m"/><s n="pl"/><j/></r></p>
+    </e>
+
+    <e lm="étre les mèlyores">
+      <p><l>étre<s n="vblex"/><t/><g><b/>les<b/>mèlyores</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><j/></r></p>
+      <p><l></l><r>mèlyor<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
+
+    <e lm="fâre la puta">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>la<b/>puta</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>puta<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="fâre l'enventèro">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>l'enventèro</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>enventèro<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
 
     <e lm="fâre los recllams">
       <p><l>fâre<s n="vblex"/><t/><g><b/>los<b/>recllams</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
@@ -227,6 +431,13 @@
       <p><l></l><r>cllopèt<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
+    <e lm="passar les bornes">
+      <p><l>passar<s n="vblex"/><t/><g><b/>les<b/>bornes</g><j/></l><r>passar<s n="vblex"/><t/><j/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><j/></r></p>
+      <p><l></l><r>borna<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
+
     <e lm="relevar lo dèfi">
       <p><l>relevar<s n="vblex"/><t/><g><b/>lo<b/>dèfi</g><j/></l><r>relevar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
@@ -234,43 +445,78 @@
       <p><l></l><r>dèfi<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
+    <!-- vblex n pr -->
+
+    <e lm="avêr fôta de">
+      <p><l>avêr<s n="vblex"/><t/><g><b/>fôta<b/>de</g><j/></l><r>avêr<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>fôta<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>de<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="fâre pouer a">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>pouer<b/>a</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>pouer<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+    </e>
+
     <!-- vblex pr n -->
 
     <e lm="betar d'acôrd">
       <p><l>betar<s n="vblex"/><t/><g><b/>d'acôrd</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
-      <i>pas<s n="adv"/><j/></i>
+      <par n="adv"/>
       <p><l></l><r>de<s n="pr"/><j/></r></p>
       <p><l></l><r>acôrd<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
+    <e lm="betar en musica">
+      <p><l>betar<s n="vblex"/><t/><g><b/>en<b/>musica</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>en<s n="pr"/><j/></r></p>
+      <p><l></l><r>musica<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="dére de mâl">
+      <p><l>dére<s n="vblex"/><t/><g><b/>de<b/>mâl</g><j/></l><r>dére<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><j/></r></p>
+      <p><l></l><r>mâl<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="menar a ben">
+      <p><l>menar<s n="vblex"/><t/><g><b/>a<b/>ben</g><j/></l><r>menar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+      <p><l></l><r>ben<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
     <e lm="metre en quèstion">
       <p><l>metre<s n="vblex"/><t/><g><b/>en<b/>quèstion</g><j/></l><r>metre<s n="vblex"/><t/><j/></r></p>
-      <i>pas<s n="adv"/><j/></i>
+      <par n="adv"/>
       <p><l></l><r>en<s n="pr"/><j/></r></p>
       <p><l></l><r>quèstion<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="prendre en charge">
       <p><l>prendre<s n="vblex"/><t/><g><b/>en<b/>charge</g><j/></l><r>prendre<s n="vblex"/><t/><j/></r></p>
-      <i>pas<s n="adv"/><j/></i>
+      <par n="adv"/>
       <p><l></l><r>en<s n="pr"/><j/></r></p>
       <p><l></l><r>charge<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
     <e lm="remetre en quèstion">
       <p><l>remetre<s n="vblex"/><t/><g><b/>en<b/>quèstion</g><j/></l><r>remetre<s n="vblex"/><t/><j/></r></p>
-      <i>pas<s n="adv"/><j/></i>
+      <par n="adv"/>
       <p><l></l><r>en<s n="pr"/><j/></r></p>
       <p><l></l><r>quèstion<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
-    <!-- vblex adj n -->
-
-    <e lm="betar bôna fin">
-      <p><l>betar<s n="vblex"/><t/><g><b/>bôna<b/>fin</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+    <e lm="réstar a plat">
+      <p><l>réstar<s n="vblex"/><t/><g><b/>a<b/>plat</g><j/></l><r>réstar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
-      <p><l></l><r>bon<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p>
-      <p><l></l><r>fin<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+      <p><l></l><r>plat<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
     <!-- vblex adj n pr -->
@@ -293,11 +539,35 @@
       <p><l></l><r>de<s n="pr"/><j/></r></p>
     </e>
 
+    <e lm="betar lo fuè a">
+      <p><l>betar<s n="vblex"/><t/><g><b/>lo<b/>fuè<b/>a</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>fuè<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+    </e>
+
     <e lm="étre l'objèt de">
       <p><l>étre<s n="vblex"/><t/><g><b/>l'objèt<b/>de</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
       <p><l></l><r>objèt<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>de<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="fâre l'enventèro de">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>l'enventèro<b/>de</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>enventèro<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>de<s n="pr"/><j/></r></p>
+    </e>
+
+    <e lm="fâre la lista de">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>la<b/>lista<b/>de</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>lista<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
       <p><l></l><r>de<s n="pr"/><j/></r></p>
     </e>
 
@@ -313,7 +583,7 @@
 
     <!-- vblex pr det n -->
 
-    <e lm="betar dens duely">
+    <e lm="betar dens lo duely">
       <p><l>betar<s n="vblex"/><t/><g><b/>dens<b/>lo<b/>duely</g><j/></l><r>betar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
       <p><l></l><r>dens<s n="pr"/><j/></r></p>
@@ -335,6 +605,22 @@
       <p><l></l><r>a<s n="pr"/><j/></r></p>
       <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
       <p><l></l><r>sonjon<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="portar u maximon">
+      <p><l>portar<s n="vblex"/><t/><g><b/>u<b/>maximon</g><j/></l><r>portar<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>maximon<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <e lm="rèduire u minimon">
+      <p><l>rèduire<s n="vblex"/><t/><g><b/>u<b/>minimon</g><j/></l><r>rèduire<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>a<s n="pr"/><j/></r></p>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>minimon<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
 </section>
