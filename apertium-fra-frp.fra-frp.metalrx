@@ -2,366 +2,373 @@
 <lrx>
 
   <def-macros>
-	<def-macro name="noms_propres">
-	  <rule weight="0.6">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match lemma="de" tags="pr"/>
-		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
-		 <match tags="np.ant.*"/>
-		 <match lemma="de" tags="pr"/>
-		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="det.*"/>
-		 <match tags="adj.*"/>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="np.ant.*"/>
-		 <match tags="det.*"/>
-		 <match tags="adj.*"/>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <or>
-		   <match tags="num.*"/>
-		   <match lemma="Ier" tags="adj.*"/>
-		   <match lemma="II" tags="num.*"/>
-		   <match lemma="III" tags="num.*"/>
-		   <match lemma="IV" tags="num.*"/>
-		   <match lemma="V" tags="num.*"/>
-		   <match lemma="VI" tags="num.*"/>
-		   <match lemma="VII" tags="num.*"/>
-		   <match lemma="VIII" tags="num.*"/>
-		   <match lemma="IX" tags="num.*"/>
-		   <match lemma="X" tags="num.*"/>
-		   <match lemma="XI" tags="num.*"/>
-		   <match lemma="XII" tags="num.*"/>
-		   <match lemma="XIII" tags="num.*"/>
-		   <match lemma="XIV" tags="num.*"/>
-		   <match lemma="XV" tags="num.*"/>
-		   <match lemma="XVI" tags="num.*"/>
-		   <match lemma="XVII" tags="num.*"/>
-		   <match lemma="XVIII" tags="num.*"/>
-		   <match lemma="XIX" tags="num.*"/>
-		   <match lemma="XX" tags="num.*"/>
-		   <match lemma="XXI" tags="num.*"/>
-		   <match lemma="XXII" tags="num.*"/>
-		   <match lemma="XXIII" tags="num.*"/>
-		   <match lemma="XXIV" tags="num.*"/>
-		   <match lemma="XXV" tags="num.*"/>
-		   <match lemma="XXVI" tags="num.*"/>
-		   <match lemma="XXVII" tags="num.*"/>
-		   <match lemma="XXVIII" tags="num.*"/>
-		   <match lemma="XXIX" tags="num.*"/>
-		   <match lemma="XXX" tags="num.*"/>
-		   <match lemma="premier" tags="adj.*"/>
-		   <match lemma="second" tags="adj.*"/>
-		   <match lemma="deuxième" tags="adj.*"/>
-		   <match lemma="troisième" tags="adj.*"/>
-		   <match lemma="quatrième" tags="adj.*"/>
-		   <match lemma="cinquième" tags="adj.*"/>
-		   <match lemma="quint" tags="adj.*"/>
-		   <match lemma="sixième" tags="adj.*"/>
-		   <match lemma="septième" tags="adj.*"/>
-		   <match lemma="huitième" tags="adj.*"/>
-		   <match lemma="neuvième" tags="adj.*"/>
-		   <match lemma="dixième" tags="adj.*"/>
-		 </or>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="np.ant.*"/>
-		 <or>
-		   <match tags="num.*"/>
-		   <match lemma="Ier" tags="adj.*"/>
-		   <match lemma="II" tags="num.*"/>
-		   <match lemma="III" tags="num.*"/>
-		   <match lemma="IV" tags="num.*"/>
-		   <match lemma="V" tags="num.*"/>
-		   <match lemma="VI" tags="num.*"/>
-		   <match lemma="VII" tags="num.*"/>
-		   <match lemma="VIII" tags="num.*"/>
-		   <match lemma="IX" tags="num.*"/>
-		   <match lemma="X" tags="num.*"/>
-		   <match lemma="XI" tags="num.*"/>
-		   <match lemma="XII" tags="num.*"/>
-		   <match lemma="XIII" tags="num.*"/>
-		   <match lemma="XIV" tags="num.*"/>
-		   <match lemma="XV" tags="num.*"/>
-		   <match lemma="XVI" tags="num.*"/>
-		   <match lemma="XVII" tags="num.*"/>
-		   <match lemma="XVIII" tags="num.*"/>
-		   <match lemma="XIX" tags="num.*"/>
-		   <match lemma="XX" tags="num.*"/>
-		   <match lemma="XXI" tags="num.*"/>
-		   <match lemma="XXII" tags="num.*"/>
-		   <match lemma="XXIII" tags="num.*"/>
-		   <match lemma="XXIV" tags="num.*"/>
-		   <match lemma="XXV" tags="num.*"/>
-		   <match lemma="XXVI" tags="num.*"/>
-		   <match lemma="XXVII" tags="num.*"/>
-		   <match lemma="XXVIII" tags="num.*"/>
-		   <match lemma="XXIX" tags="num.*"/>
-		   <match lemma="XXX" tags="num.*"/>
-		   <match lemma="premier" tags="adj.*"/>
-		   <match lemma="second" tags="adj.*"/>
-		   <match lemma="deuxième" tags="adj.*"/>
-		   <match lemma="troisième" tags="adj.*"/>
-		   <match lemma="quatrième" tags="adj.*"/>
-		   <match lemma="cinquième" tags="adj.*"/>
-		   <match lemma="quint" tags="adj.*"/>
-		   <match lemma="sixième" tags="adj.*"/>
-		   <match lemma="septième" tags="adj.*"/>
-		   <match lemma="huitième" tags="adj.*"/>
-		   <match lemma="neuvième" tags="adj.*"/>
-		   <match lemma="dixième" tags="adj.*"/>
-		 </or>
-	  </rule>
-	  <rule weight="1.0">
-		 <or>
-		   <match lemma="pape" tags="n.*"/>
-		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
-		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
-		   <match lemma="prince" tags="n.*"/>
-		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
-		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
-		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
-		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
-		   <match lemma="marquis" tags="n.*"/>
-		   <match lemma="baron" tags="n.*"/>
-		   <match lemma="dieu" tags="n.*"/>
-		   <match lemma="déesse" tags="n.*"/>
-		 </or>
-		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <or>
-		   <match lemma="pape" tags="n.*"/>
-		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
-		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
-		   <match lemma="prince" tags="n.*"/>
-		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
-		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
-		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
-		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
-		   <match lemma="marquis" tags="n.*"/>
-		   <match lemma="baron" tags="n.*"/>
-		   <match lemma="dieu" tags="n.*"/>
-		   <match lemma="déesse" tags="n.*"/>
-		 </or>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="cm"/>
-		 <or>
-		   <match lemma="pape" tags="n.*"/>
-		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
-		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
-		   <match lemma="prince" tags="n.*"/>
-		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
-		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
-		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
-		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
-		   <match lemma="marquis" tags="n.*"/>
-		   <match lemma="baron" tags="n.*"/>
-		   <match lemma="dieu" tags="n.*"/>
-		   <match lemma="déesse" tags="n.*"/>
-		 </or>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="np.ant.*"/>
-		 <match tags="cm"/>
-		 <or>
-		   <match lemma="pape" tags="n.*"/>
-		   <match lemma="patriarche" tags="n.*"/>
-		   <match lemma="évêque" tags="n.*"/>
-		   <match lemma="archevêque" tags="n.*"/>
-		   <match lemma="saint" tags="n.*"/>
-		   <match lemma="saint" tags="adj.*"/>
-		   <match lemma="apôtre" tags="n.*"/>
-		   <match lemma="empereur" tags="n.*"/>
-		   <match lemma="roi" tags="n.*"/>
-		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="vice-roi" tags="n.*"/>
-		   <match lemma="régent" tags="n.*"/>
-		   <match lemma="prince" tags="n.*"/>
-		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="dauphin" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="comtesse" tags="n.*"/>
-		   <match lemma="vicomte" tags="n.*"/>
-		   <match lemma="vicomtesse" tags="n.*"/>
-		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="duchesse" tags="n.*"/>
-		   <match lemma="grand-duc" tags="n.*"/>
-		   <match lemma="grande-duchesse" tags="n.*"/>
-		   <match lemma="archiduc" tags="n.*"/>
-		   <match lemma="archiduchesse" tags="n.*"/>
-		   <match lemma="marquis" tags="n.*"/>
-		   <match lemma="baron" tags="n.*"/>
-		   <match lemma="dieu" tags="n.*"/>
-		   <match lemma="déesse" tags="n.*"/>
-		 </or>
-	  </rule>
-	  <rule weight="1.0">
-		 <or>
-		   <match lemma="papauté" tags="n.*"/>
-		   <match lemma="pontificat" tags="n.*"/>
-		   <match lemma="empire" tags="n.*"/>
-		   <match lemma="règne" tags="n.*"/>
-		   <match lemma="régence" tags="n.*"/>
-		   <match lemma="vice-royauté" tags="n.*"/>
-		 </or>
-		 <match lemma="de" tags="pr"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <or>
-		   <match lemma="papauté" tags="n.*"/>
-		   <match lemma="pontificat" tags="n.*"/>
-		   <match lemma="empire" tags="n.*"/>
-		   <match lemma="règne" tags="n.*"/>
-		   <match lemma="régence" tags="n.*"/>
-		   <match lemma="vice-royauté" tags="n.*"/>
-		 </or>
-		 <match lemma="de" tags="pr"/>
-		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <or>
-		   <match lemma="régner" tags="vblex.*"/>
-		   <match lemma="gouverner" tags="vblex.*"/>
-		 </or>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="np.ant.*"/>
-		 <or>
-		   <match lemma="régner" tags="vblex.*"/>
-		   <match lemma="gouverner" tags="vblex.*"/>
-		 </or>
-	  </rule>
-	</def-macro>
+    <def-macro name="noms_propres">
+      <rule weight="0.6">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match lemma="de" tags="pr"/>
+       <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+       <match tags="np.ant.*"/>
+       <match lemma="de" tags="pr"/>
+       <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="det.*"/>
+       <match tags="adj.*"/>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="np.ant.*"/>
+       <match tags="det.*"/>
+       <match tags="adj.*"/>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <or>
+         <match tags="num.*"/>
+         <match lemma="Ier" tags="adj.*"/>
+         <match lemma="II" tags="num.*"/>
+         <match lemma="III" tags="num.*"/>
+         <match lemma="IV" tags="num.*"/>
+         <match lemma="V" tags="num.*"/>
+         <match lemma="VI" tags="num.*"/>
+         <match lemma="VII" tags="num.*"/>
+         <match lemma="VIII" tags="num.*"/>
+         <match lemma="IX" tags="num.*"/>
+         <match lemma="X" tags="num.*"/>
+         <match lemma="XI" tags="num.*"/>
+         <match lemma="XII" tags="num.*"/>
+         <match lemma="XIII" tags="num.*"/>
+         <match lemma="XIV" tags="num.*"/>
+         <match lemma="XV" tags="num.*"/>
+         <match lemma="XVI" tags="num.*"/>
+         <match lemma="XVII" tags="num.*"/>
+         <match lemma="XVIII" tags="num.*"/>
+         <match lemma="XIX" tags="num.*"/>
+         <match lemma="XX" tags="num.*"/>
+         <match lemma="XXI" tags="num.*"/>
+         <match lemma="XXII" tags="num.*"/>
+         <match lemma="XXIII" tags="num.*"/>
+         <match lemma="XXIV" tags="num.*"/>
+         <match lemma="XXV" tags="num.*"/>
+         <match lemma="XXVI" tags="num.*"/>
+         <match lemma="XXVII" tags="num.*"/>
+         <match lemma="XXVIII" tags="num.*"/>
+         <match lemma="XXIX" tags="num.*"/>
+         <match lemma="XXX" tags="num.*"/>
+         <match lemma="premier" tags="adj.*"/>
+         <match lemma="second" tags="adj.*"/>
+         <match lemma="deuxième" tags="adj.*"/>
+         <match lemma="troisième" tags="adj.*"/>
+         <match lemma="quatrième" tags="adj.*"/>
+         <match lemma="cinquième" tags="adj.*"/>
+         <match lemma="quint" tags="adj.*"/>
+         <match lemma="sixième" tags="adj.*"/>
+         <match lemma="septième" tags="adj.*"/>
+         <match lemma="huitième" tags="adj.*"/>
+         <match lemma="neuvième" tags="adj.*"/>
+         <match lemma="dixième" tags="adj.*"/>
+       </or>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="np.ant.*"/>
+       <or>
+         <match tags="num.*"/>
+         <match lemma="Ier" tags="adj.*"/>
+         <match lemma="II" tags="num.*"/>
+         <match lemma="III" tags="num.*"/>
+         <match lemma="IV" tags="num.*"/>
+         <match lemma="V" tags="num.*"/>
+         <match lemma="VI" tags="num.*"/>
+         <match lemma="VII" tags="num.*"/>
+         <match lemma="VIII" tags="num.*"/>
+         <match lemma="IX" tags="num.*"/>
+         <match lemma="X" tags="num.*"/>
+         <match lemma="XI" tags="num.*"/>
+         <match lemma="XII" tags="num.*"/>
+         <match lemma="XIII" tags="num.*"/>
+         <match lemma="XIV" tags="num.*"/>
+         <match lemma="XV" tags="num.*"/>
+         <match lemma="XVI" tags="num.*"/>
+         <match lemma="XVII" tags="num.*"/>
+         <match lemma="XVIII" tags="num.*"/>
+         <match lemma="XIX" tags="num.*"/>
+         <match lemma="XX" tags="num.*"/>
+         <match lemma="XXI" tags="num.*"/>
+         <match lemma="XXII" tags="num.*"/>
+         <match lemma="XXIII" tags="num.*"/>
+         <match lemma="XXIV" tags="num.*"/>
+         <match lemma="XXV" tags="num.*"/>
+         <match lemma="XXVI" tags="num.*"/>
+         <match lemma="XXVII" tags="num.*"/>
+         <match lemma="XXVIII" tags="num.*"/>
+         <match lemma="XXIX" tags="num.*"/>
+         <match lemma="XXX" tags="num.*"/>
+         <match lemma="premier" tags="adj.*"/>
+         <match lemma="second" tags="adj.*"/>
+         <match lemma="deuxième" tags="adj.*"/>
+         <match lemma="troisième" tags="adj.*"/>
+         <match lemma="quatrième" tags="adj.*"/>
+         <match lemma="cinquième" tags="adj.*"/>
+         <match lemma="quint" tags="adj.*"/>
+         <match lemma="sixième" tags="adj.*"/>
+         <match lemma="septième" tags="adj.*"/>
+         <match lemma="huitième" tags="adj.*"/>
+         <match lemma="neuvième" tags="adj.*"/>
+         <match lemma="dixième" tags="adj.*"/>
+       </or>
+      </rule>
+      <rule weight="1.0">
+       <or>
+         <match lemma="pape" tags="n.*"/>
+         <match lemma="patriarche" tags="n.*"/>
+         <match lemma="évêque" tags="n.*"/>
+         <match lemma="archevêque" tags="n.*"/>
+         <match lemma="saint" tags="n.*"/>
+         <match lemma="saint" tags="adj.*"/>
+         <match lemma="apôtre" tags="n.*"/>
+         <match lemma="empereur" tags="n.*"/>
+         <match lemma="roi" tags="n.*"/>
+         <match lemma="tsar" tags="n.*"/>
+         <match lemma="vice-roi" tags="n.*"/>
+         <match lemma="régent" tags="n.*"/>
+         <match lemma="prince" tags="n.*"/>
+         <match lemma="infant" tags="n.*"/>
+         <match lemma="dauphin" tags="n.*"/>
+         <match lemma="comte" tags="n.*"/>
+         <match lemma="comtesse" tags="n.*"/>
+         <match lemma="vicomte" tags="n.*"/>
+         <match lemma="vicomtesse" tags="n.*"/>
+         <match lemma="duc" tags="n.*"/>
+         <match lemma="duchesse" tags="n.*"/>
+         <match lemma="grand-duc" tags="n.*"/>
+         <match lemma="grande-duchesse" tags="n.*"/>
+         <match lemma="archiduc" tags="n.*"/>
+         <match lemma="archiduchesse" tags="n.*"/>
+         <match lemma="marquis" tags="n.*"/>
+         <match lemma="baron" tags="n.*"/>
+         <match lemma="dieu" tags="n.*"/>
+         <match lemma="déesse" tags="n.*"/>
+       </or>
+       <match tags="np.ant.*"/>
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <or>
+         <match lemma="pape" tags="n.*"/>
+         <match lemma="patriarche" tags="n.*"/>
+         <match lemma="évêque" tags="n.*"/>
+         <match lemma="archevêque" tags="n.*"/>
+         <match lemma="saint" tags="n.*"/>
+         <match lemma="saint" tags="adj.*"/>
+         <match lemma="apôtre" tags="n.*"/>
+         <match lemma="empereur" tags="n.*"/>
+         <match lemma="roi" tags="n.*"/>
+         <match lemma="tsar" tags="n.*"/>
+         <match lemma="vice-roi" tags="n.*"/>
+         <match lemma="régent" tags="n.*"/>
+         <match lemma="prince" tags="n.*"/>
+         <match lemma="infant" tags="n.*"/>
+         <match lemma="dauphin" tags="n.*"/>
+         <match lemma="comte" tags="n.*"/>
+         <match lemma="comtesse" tags="n.*"/>
+         <match lemma="vicomte" tags="n.*"/>
+         <match lemma="vicomtesse" tags="n.*"/>
+         <match lemma="duc" tags="n.*"/>
+         <match lemma="duchesse" tags="n.*"/>
+         <match lemma="grand-duc" tags="n.*"/>
+         <match lemma="grande-duchesse" tags="n.*"/>
+         <match lemma="archiduc" tags="n.*"/>
+         <match lemma="archiduchesse" tags="n.*"/>
+         <match lemma="marquis" tags="n.*"/>
+         <match lemma="baron" tags="n.*"/>
+         <match lemma="dieu" tags="n.*"/>
+         <match lemma="déesse" tags="n.*"/>
+       </or>
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="cm"/>
+       <or>
+         <match lemma="pape" tags="n.*"/>
+         <match lemma="patriarche" tags="n.*"/>
+         <match lemma="évêque" tags="n.*"/>
+         <match lemma="archevêque" tags="n.*"/>
+         <match lemma="saint" tags="n.*"/>
+         <match lemma="saint" tags="adj.*"/>
+         <match lemma="apôtre" tags="n.*"/>
+         <match lemma="empereur" tags="n.*"/>
+         <match lemma="roi" tags="n.*"/>
+         <match lemma="tsar" tags="n.*"/>
+         <match lemma="vice-roi" tags="n.*"/>
+         <match lemma="régent" tags="n.*"/>
+         <match lemma="prince" tags="n.*"/>
+         <match lemma="infant" tags="n.*"/>
+         <match lemma="dauphin" tags="n.*"/>
+         <match lemma="comte" tags="n.*"/>
+         <match lemma="comtesse" tags="n.*"/>
+         <match lemma="vicomte" tags="n.*"/>
+         <match lemma="vicomtesse" tags="n.*"/>
+         <match lemma="duc" tags="n.*"/>
+         <match lemma="duchesse" tags="n.*"/>
+         <match lemma="grand-duc" tags="n.*"/>
+         <match lemma="grande-duchesse" tags="n.*"/>
+         <match lemma="archiduc" tags="n.*"/>
+         <match lemma="archiduchesse" tags="n.*"/>
+         <match lemma="marquis" tags="n.*"/>
+         <match lemma="baron" tags="n.*"/>
+         <match lemma="dieu" tags="n.*"/>
+         <match lemma="déesse" tags="n.*"/>
+       </or>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="np.ant.*"/>
+       <match tags="cm"/>
+       <or>
+         <match lemma="pape" tags="n.*"/>
+         <match lemma="patriarche" tags="n.*"/>
+         <match lemma="évêque" tags="n.*"/>
+         <match lemma="archevêque" tags="n.*"/>
+         <match lemma="saint" tags="n.*"/>
+         <match lemma="saint" tags="adj.*"/>
+         <match lemma="apôtre" tags="n.*"/>
+         <match lemma="empereur" tags="n.*"/>
+         <match lemma="roi" tags="n.*"/>
+         <match lemma="tsar" tags="n.*"/>
+         <match lemma="vice-roi" tags="n.*"/>
+         <match lemma="régent" tags="n.*"/>
+         <match lemma="prince" tags="n.*"/>
+         <match lemma="infant" tags="n.*"/>
+         <match lemma="dauphin" tags="n.*"/>
+         <match lemma="comte" tags="n.*"/>
+         <match lemma="comtesse" tags="n.*"/>
+         <match lemma="vicomte" tags="n.*"/>
+         <match lemma="vicomtesse" tags="n.*"/>
+         <match lemma="duc" tags="n.*"/>
+         <match lemma="duchesse" tags="n.*"/>
+         <match lemma="grand-duc" tags="n.*"/>
+         <match lemma="grande-duchesse" tags="n.*"/>
+         <match lemma="archiduc" tags="n.*"/>
+         <match lemma="archiduchesse" tags="n.*"/>
+         <match lemma="marquis" tags="n.*"/>
+         <match lemma="baron" tags="n.*"/>
+         <match lemma="dieu" tags="n.*"/>
+         <match lemma="déesse" tags="n.*"/>
+       </or>
+      </rule>
+      <rule weight="1.0">
+       <or>
+         <match lemma="papauté" tags="n.*"/>
+         <match lemma="pontificat" tags="n.*"/>
+         <match lemma="empire" tags="n.*"/>
+         <match lemma="règne" tags="n.*"/>
+         <match lemma="régence" tags="n.*"/>
+         <match lemma="vice-royauté" tags="n.*"/>
+       </or>
+       <match lemma="de" tags="pr"/>
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <or>
+         <match lemma="papauté" tags="n.*"/>
+         <match lemma="pontificat" tags="n.*"/>
+         <match lemma="empire" tags="n.*"/>
+         <match lemma="règne" tags="n.*"/>
+         <match lemma="régence" tags="n.*"/>
+         <match lemma="vice-royauté" tags="n.*"/>
+       </or>
+       <match lemma="de" tags="pr"/>
+       <match tags="np.ant.*"/>
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <or>
+         <match lemma="régner" tags="vblex.*"/>
+         <match lemma="gouverner" tags="vblex.*"/>
+       </or>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match tags="np.ant.*"/>
+       <or>
+         <match lemma="régner" tags="vblex.*"/>
+         <match lemma="gouverner" tags="vblex.*"/>
+       </or>
+      </rule>
+    </def-macro>
 
-	<!-- p1 verb fra, p2 verb cat estandard, p3 prep fra, p3 verb cat alternatiufra -->
- 	<!-- <macro name="verb_prep" p1="chasser" p2="caçar" p3="de" p4="expulsar" /> -->
-	<def-macro name="verb_prep">
-	  <rule weight="0.6">
-		 <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
-		 <match lemma="{{p3}}" tags="pr"/>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
-		 <match tags="adv"/>
-		 <match lemma="{{p3}}" tags="pr"/>
-	  </rule>
-	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
-		 <match tags="adv"/>
-		 <match tags="adv"/>
-		 <match lemma="{{p3}}" tags="pr"/>
-		  </rule>
-	</def-macro>
+    <!-- p1 verb fra, p2 verb cat estandard, p3 prep fra, p3 verb cat alternatiufra -->
+   <!-- <macro name="verb_prep" p1="chasser" p2="caçar" p3="de" p4="expulsar" /> -->
+    <def-macro name="verb_prep">
+      <rule weight="0.6">
+       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
+       <match lemma="{{p3}}" tags="pr"/>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
+       <match tags="adv"/>
+       <match lemma="{{p3}}" tags="pr"/>
+      </rule>
+      <rule weight="1.0">
+       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
+       <match tags="adv"/>
+       <match tags="adv"/>
+       <match lemma="{{p3}}" tags="pr"/>
+        </rule>
+    </def-macro>
 
-	<!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une préposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre situation dans laquelle ne pas pas précéder une préposition) -->
- 	<!-- <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" /> -->
-	<def-macro name="verb_locprep">
-		<rule weight="0.8">
-			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
-		</rule>
-		<rule weight="1.0">
-			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
-			<repeat from="0" upto="2">
-				<or>
-					<match tags="adv"/>
-					<match tags="cnjadv"/>
-				</or>
-			</repeat>
-			<or>
-				<match tags="pr"/>
-				<match tags="cnjsub"/>
-				<match tags="sent"/>
-			</or>
-		</rule>
-		<rule weight="1.2">
-			<match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
-			<repeat from="0" upto="2">
-				<or>
-					<match tags="adv"/>
-					<match tags="cnjadv"/>
-				</or>
-			</repeat>
-			<match lemma="de" tags="pr"/>
-			<match tags="det.def.*"/>
-		</rule>
-	</def-macro>
+    <!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une préposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre situation dans laquelle ne pas pas précéder une préposition) -->
+   <!-- <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" /> -->
+    <def-macro name="verb_locprep">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="cnjadv"/>
+          </or>
+        </repeat>
+        <or>
+          <match tags="pr"/>
+          <match tags="cnjsub"/>
+          <match tags="sent"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+        </or>
+        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.2">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <repeat from="0" upto="2">
+          <or>
+            <match tags="adv"/>
+            <match tags="cnjadv"/>
+          </or>
+        </repeat>
+        <match lemma="de" tags="pr"/>
+        <match tags="det.def.*"/>
+      </rule>
+    </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
     <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
@@ -567,6 +574,40 @@
         <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
       </rule>
     </def-macro>
+
+    <!-- Dans le cas où un verbe se traduit par verbe + adj, l'adjectif doit s'accorder en genre et nombre. Cette macro est pour des adjectifs a 4 formes différentes -->
+    <!-- p1 = vblex langue source, p2 = vblex + adj msg, p3 = vblex + adj mpl, p4 = vblex + adj fsg, p5 = vblex + adj fpl -->
+    <def-macro name="verb_adj4">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.pl"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.2">
+        <or>
+          <match tags="n.f.sg"/>
+          <match tags="adj.f.sg"/>
+          <match tags="prn.tn.p3.f.sg"/>
+        </or>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <match lemma="{{p1}}" tags="vblex.*.sg"><select lemma="{{p4}}"/></match>
+      </rule>
+      <rule weight="1.2">
+        <or>
+          <match tags="n.f.pl"/>
+          <match tags="adj.f.pl"/>
+          <match tags="prn.tn.p3.f.pl"/>
+        </or>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <match lemma="{{p1}}" tags="vblex.*.pl"><select lemma="{{p5}}"/></match>
+      </rule>
+    </def-macro>
+
   </def-macros>
 
   <def-seqs>
@@ -2345,8 +2386,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <or>
@@ -2362,8 +2403,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <or>
@@ -2378,8 +2419,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <or>
@@ -2395,8 +2436,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <or>
@@ -2443,8 +2484,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.pp.*"/>
@@ -2461,8 +2502,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.pp.*"/>
@@ -2484,8 +2525,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.pp.*"/>
@@ -2503,8 +2544,8 @@
     <match tags="vbhaver.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.pp.*"/>
@@ -2525,8 +2566,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.inf"/>
@@ -2543,8 +2584,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.inf"/>
@@ -2566,8 +2607,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.inf"/>
@@ -2585,8 +2626,8 @@
     <match lemma="aller" tags="vblex.*.p3.sg"/>
     <repeat from="0" upto="2">
       <or>
-      	<match tags="adv"/>
-      	<match tags="cnjadv"/>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
       </or>
     </repeat>
     <match lemma="faire" tags="vblex.inf"/>
@@ -3155,8 +3196,8 @@
     </or>
     <repeat from="0" upto="1">
       <or>
-      	<match tags="adv"/>
-      	<match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
       </or>
     </repeat>
     <match lemma="excentrique" tags="adj.*"><select lemma="èxcentrico"/></match>
@@ -3467,8 +3508,8 @@
     </or>
     <repeat from="0" upto="1">
       <or>
-      	<match tags="adv"/>
-      	<match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
       </or>
     </repeat>
     <match lemma="quelconque" tags="adj.*"><select lemma="come les ôtres"/></match>
@@ -3865,34 +3906,7 @@
   </rule>
 
   <!-- différer >> étre# difèrent, retardar -->
-  <rule weight="0.8">
-    <match lemma="différer" tags="vblex.*"><select lemma="étre# difèrent"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="différer" tags="vblex.*.pl"><select lemma="étre# difèrents"/></match>
-  </rule>
-  <rule weight="1.2">
-    <or>
-      <match tags="n.f.sg"/>
-      <match tags="adj.f.sg"/>
-      <match tags="prn.tn.p3.f.sg"/>
-    </or>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="différer" tags="vblex.*.sg"><select lemma="étre# difèrente"/></match>
-  </rule>
-  <rule weight="1.2">
-    <or>
-      <match tags="n.f.pl"/>
-      <match tags="adj.f.pl"/>
-      <match tags="prn.tn.p3.f.pl"/>
-    </or>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="différer" tags="vblex.*.pl"><select lemma="étre# difèrentes"/></match>
-  </rule>
+  <macro name="verb_adj4" p1="différer" p2="étre# difèrent" p3="étre# difèrents" p4="étre# difèrente" p5="étre# difèrentes" />
   <rule weight="2.0">
     <match lemma="différer" tags="vblex.*"><select lemma="retardar"/></match>
     <repeat from="0" upto="2">
@@ -4029,6 +4043,9 @@
     <match lemma="excéder" tags="vblex.*"><select lemma="surpassar"/></match>
   </rule>
 
+  <!-- exceller >> étre# lo mèlyor, étre# los mèlyors, étre# la mèlyora, étre# les mèlyores -->
+  <macro name="verb_adj4" p1="exceller" p2="étre# lo mèlyor" p3="étre# los mèlyors" p4="étre# la mèlyora" p5="étre# les mèlyores" />
+
   <!-- exclure >> betar# defôr, ècartar -->
   <macro name="verb_locprep" p1="exclure" p2="betar# defôr" p3="ècartar" />
 
@@ -4060,6 +4077,23 @@
   <!-- impliquer >> emplicar, molyér -->
   <rule weight="0.8">
     <match lemma="impliquer" tags="vblex.*"><select lemma="emplicar"/></match>
+  </rule>
+
+  <!-- incendier >> betar# lo fuè, encendiyér -->
+  <macro name="verb_intrans_trans" p1="incendier" p2="betar# lo fuè" p3="betar# lo fuè a" />
+  <rule weight="1.4">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="incendier" tags="vblex.pp.*"><select lemma="encendiyér"/></match>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+    <match lemma="incendier" tags="vblex.pp.*"><select lemma="encendiyér"/></match>
   </rule>
 
   <!-- inclure >> betar# dedens, apondre -->
@@ -4113,6 +4147,9 @@
 
   <!-- insérer >> betar# dens, betar -->
   <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" />
+
+  <!-- inventorier >> fâre# l'enventèro, fâre# l'enventèro de -->
+  <macro name="verb_intrans_trans" p1="inventorier" p2="fâre# l'enventèro" p3="fâre# l'enventèro de" />
 
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">
@@ -4348,6 +4385,9 @@
     <match tags="adj.*"/>
   </rule>
 
+  <!-- répertorier >> fâre# la lista de, listar -->
+  <macro name="verb_locprep" p1="répertorier" p2="fâre# la lista de" p3="listar" />
+
   <!-- répliquer >> rabatre, recopiyér -->
   <rule weight="0.8">
     <match lemma="répliquer" tags="vblex.*"><select lemma="rabatre"/></match>
@@ -4461,6 +4501,9 @@
   <!-- sévir >> punir, agir -->
   <macro name="verb_prep" p1="sévir" p2="punir" p3="contre" p4="agir" />
 
+  <!-- siéger >> étre# assetâ, étre# assetâs, étre# assetâye, étre# assetâyes   -->
+  <macro name="verb_adj4" p1="siéger" p2="étre# assetâ" p3="étre# assetâs" p4="étre# assetâye" p5="étre# assetâyes" />
+
   <!-- subdiviser >> divisar, redivisar -->
   <rule weight="0.8">
     <match lemma="subdiviser" tags="vblex.*"><select lemma="divisar"/></match>
@@ -4572,16 +4615,7 @@
   </rule>
 
   <!-- terroriser >> fâre# pouer, fâre# pouer a -->
-  <rule weight="0.8">
-    <match lemma="terroriser" tags="vblex.*"><select lemma="fâre# pouer"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="terroriser" tags="vblex.*"><select lemma="fâre# pouer a"/></match>
-    <or>
-      <match tags="det.*"/>
-      <match tags="np.*"/>
-    </or>
-  </rule>
+  <macro name="verb_intrans_trans" p1="terroriser" p2="fâre# pouer" p3="fâre# pouer a" />
 
   <!-- transcrire >> transcrire, copiyér -->
   <rule weight="0.8">

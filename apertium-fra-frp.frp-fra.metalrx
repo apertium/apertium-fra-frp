@@ -1585,6 +1585,33 @@
     <match lemma="forchèta" tags="n.*"><select lemma="fourchette"/></match>
   </rule>
 
+  <!-- garçon >> garçon, fils, serveur -->
+  <rule weight="0.8">
+    <match lemma="garçon" tags="n.*"><select lemma="garçon"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.pos.*"/>
+    <match lemma="garçon" tags="n.*"><select lemma="fils"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="garçon" tags="n.*"><select lemma="fils"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="garçon" tags="n.*"><select lemma="fils"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="fèna" tags="n.*"/>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+  </rule>
+
   <!-- homo, home >> homme, mari -->
   <rule weight="0.8">
     <or>
