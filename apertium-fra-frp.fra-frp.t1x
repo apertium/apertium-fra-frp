@@ -380,6 +380,33 @@
       <cat-item lemma="millénaire" tags="n.*"/>
     </def-cat>
 
+    <def-cat n="nom_mois">
+      <cat-item lemma="janvier" tags="n.*"/>
+      <cat-item lemma="février" tags="n.*"/>
+      <cat-item lemma="mars" tags="n.*"/>
+      <cat-item lemma="avril" tags="n.*"/>
+      <cat-item lemma="mai" tags="n.*"/>
+      <cat-item lemma="juin" tags="n.*"/>
+      <cat-item lemma="juillet" tags="n.*"/>
+      <cat-item lemma="août" tags="n.*"/>
+      <cat-item lemma="septembre" tags="n.*"/>
+      <cat-item lemma="octobre" tags="n.*"/>
+      <cat-item lemma="novembre" tags="n.*"/>
+      <cat-item lemma="décembre" tags="n.*"/>
+      <cat-item lemma="vendémiaire" tags="n.*"/>
+      <cat-item lemma="brumaire" tags="n.*"/>
+      <cat-item lemma="frimaire" tags="n.*"/>
+      <cat-item lemma="nivôse" tags="n.*"/>
+      <cat-item lemma="pluviôse" tags="n.*"/>
+      <cat-item lemma="ventôse" tags="n.*"/>
+      <cat-item lemma="germinal" tags="n.*"/>
+      <cat-item lemma="floréal" tags="n.*"/>
+      <cat-item lemma="prairial" tags="n.*"/>
+      <cat-item lemma="messidor" tags="n.*"/>
+      <cat-item lemma="thermidor" tags="n.*"/>
+      <cat-item lemma="fructidor" tags="n.*"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -3416,6 +3443,99 @@
     </rule>
 
     <!-- FIN REGLES CAPÇALERA CHUNK + LEMH/LEMQ -->
+
+    <!-- REGLES DATES -->
+
+   <rule comment="REGLA: NUMERAL MOIS (20 janvier > 20 de janviér)">
+      <pattern>
+        <pattern-item n="num_premier"/>
+        <pattern-item n="nom_mois"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="m"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   <rule comment="REGLA: DET NUMERAL MOIS (lo 20 janvier > le 20 de janviér)">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="num_premier"/>
+        <pattern-item n="nom_mois"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="tipus_det">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="data">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- FIN REGLES DATES -->
 
     <!-- REGLES APPARTENIR -->
 
