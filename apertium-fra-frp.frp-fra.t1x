@@ -4884,7 +4884,7 @@
             </tags>
             <lu>
               <get-case-from pos="1">
-                <lit v="cet"/>
+                <lit v="ceti"/>
               </get-case-from>
               <clip pos="1" side="tl" part="tags"/>
             </lu>
