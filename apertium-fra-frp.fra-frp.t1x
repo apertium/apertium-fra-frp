@@ -8372,12 +8372,12 @@
                  <clip pos="1" side="tl" part="temps"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <lu>
                  <clip pos="2" side="tl" part="lemh"/>
                  <clip pos="2" side="tl" part="tags"/>
                  <clip pos="2" side="tl" part="lemq"/>
+                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
@@ -8404,7 +8404,6 @@
                  <clip pos="1" side="tl" part="temps"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <lu>
                  <clip pos="2" side="tl" part="lemh"/>
@@ -8415,6 +8414,7 @@
                  <clip pos="3" side="tl" part="lemh"/>
                  <clip pos="3" side="tl" part="tags"/>
                  <clip pos="3" side="tl" part="lemq"/>
+                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
