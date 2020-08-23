@@ -216,6 +216,7 @@
 
     <!-- vblex inf -->
 
+<!--
     <e lm="aller chercher">
       <p><l>aller<s n="vblex"/></l><r>aller<g><b/>chercher</g><s n="vblex"/></r></p>
       <i><t/><j/></i>
@@ -227,6 +228,7 @@
       <par n="adv"/>
       <p><l>chercher<s n="vblex"/><s n="inf"/><j/></l><r></r></p>
     </e>
+-->
 
     <e lm="faire avancer">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>avancer</g><s n="vblex"/></r></p>

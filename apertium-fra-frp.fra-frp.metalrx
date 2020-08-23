@@ -2688,7 +2688,7 @@
     <match lemma="il" tags="prn.tn.p3.f.pl"/>
   </rule>
 
-  <!-- cela, ceci, ce, ça >> cen, ço, ce, quen, iquen -->
+  <!-- cela, ceci, ce, ça >> cen, cen-lé, ço, ço-ce, ce-cé, ce-lé, ce, quen, iquen -->
   <rule weight="0.8">
     <or>
       <match lemma="cela" tags="prn.*"><select lemma="cen"/></match>
@@ -3622,6 +3622,19 @@
   <rule weight="1.0">
     <match lemma="sens" tags="n.*"/>
     <match lemma="strict" tags="adj.*"><select lemma="ètrêt"/></match>
+  </rule>
+
+  <!-- sulfureux >> sulfurox, diabolico -->
+  <rule weight="0.8">
+    <match lemma="sulfureux" tags="adj.*"><select lemma="sulfurox"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sulfureux" tags="adj.*"><select lemma="diabolico"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caractère" tags="n.*"/>
+    <match lemma="sulfureux" tags="adj.*"><select lemma="diabolico"/></match>
   </rule>
 
   <!-- susceptible >> suscèptiblo, capâblo -->

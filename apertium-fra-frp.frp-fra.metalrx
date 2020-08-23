@@ -914,12 +914,16 @@
     <match tags="adj.*"/>
   </rule>
 
-  <!-- ço, ce, cen, quen, iquen >> cela, ceci, ce, ça -->
+  <!-- ço, ço-ce, ce-cé, ce-lé, ce, cen, cen-lé, quen, iquen >> cela, ceci, ce, ça -->
   <rule weight="0.8">
     <or>
       <match lemma="ço" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="ço-ce" tags="prn.*"><select lemma="cela"/></match>
       <match lemma="ce" tags="prn.*"><select lemma="cela"/></match>
       <match lemma="cen" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="cen-lé" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="ce-cé" tags="prn.*"><select lemma="cela"/></match>
+      <match lemma="ce-lé" tags="prn.*"><select lemma="cela"/></match>
       <match lemma="quen" tags="prn.*"><select lemma="cela"/></match>
       <match lemma="iquen" tags="prn.*"><select lemma="cela"/></match>
     </or>
@@ -927,8 +931,12 @@
   <rule weight="1.0">
     <or>
       <match lemma="ço" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="ço-ce" tags="prn.*"><select lemma="ce"/></match>
       <match lemma="ce" tags="prn.*"><select lemma="ce"/></match>
       <match lemma="cen" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="cen-lé" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="ce-cé" tags="prn.*"><select lemma="ce"/></match>
+      <match lemma="ce-lé" tags="prn.*"><select lemma="ce"/></match>
       <match lemma="quen" tags="prn.*"><select lemma="ce"/></match>
       <match lemma="iquen" tags="prn.*"><select lemma="ce"/></match>
     </or>
