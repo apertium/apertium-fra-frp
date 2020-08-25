@@ -277,6 +277,12 @@
       <p><l></l><r>cognetre<s n="vblex"/><s n="inf"/><j/></r></p>
     </e>
 
+    <e lm="fâre rebiolar">
+      <p><l>fâre<s n="vblex"/><t/><g><b/>rebiolar</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>rebiolar<s n="vblex"/><s n="inf"/><j/></r></p>
+    </e>
+
     <e lm="fâre subir">
       <p><l>fâre<s n="vblex"/><t/><g><b/>subir</g><j/></l><r>fâre<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
