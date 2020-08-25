@@ -45,6 +45,10 @@
       <cat-item tags="pref"/>
     </def-cat>
 
+    <def-cat n="pref">
+      <cat-item tags="pref"/>
+    </def-cat>
+
     <def-cat n="adv">
       <cat-item tags="adv"/>
     </def-cat>
@@ -57,6 +61,11 @@
     <def-cat n="adv_preadv">
       <cat-item tags="adv"/>
       <cat-item tags="preadv"/>
+    </def-cat>
+    <def-cat n="adv_preadv_pref">
+      <cat-item tags="adv"/>
+      <cat-item tags="preadv"/>
+      <cat-item tags="pref"/>
     </def-cat>
     <def-cat n="postadv">
       <cat-item tags="postadv"/>
@@ -2978,7 +2987,7 @@
 
     <rule comment="REGLA: ADV">
       <pattern>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
       </pattern>
       <action>
        <!-- if faut un traitement spécifique ultérieur de 'pas més', donc nous le mettons comme lemme -->
@@ -3637,7 +3646,7 @@
     <rule comment="REGLA: DET ADV ADJ">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
         <pattern-item n="adj"/>
       </pattern>
       <action>
@@ -4174,7 +4183,7 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -4239,7 +4248,7 @@
     <rule comment="REGLA: DET ADV ADJ NOM">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
         <pattern-item n="adjec"/>
         <pattern-item n="nom"/>
       </pattern>
@@ -4687,7 +4696,7 @@
     <rule comment="REGLA: NOM ADV ADJ">
       <pattern>
         <pattern-item n="nom"/>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -4731,7 +4740,7 @@
 
     <rule comment="REGLA: ADV ADJ NOM">
       <pattern>
-        <pattern-item n="adv_preadv"/>
+        <pattern-item n="adv_preadv_pref"/>
         <pattern-item n="adjec"/>
         <pattern-item n="nom"/>
       </pattern>
