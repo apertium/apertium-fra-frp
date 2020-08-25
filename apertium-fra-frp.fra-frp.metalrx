@@ -619,6 +619,7 @@
   </def-macros>
 
   <def-seqs>
+<!-- pas utilisé
     <def-seq n="matériel">
        <match lemma="coton" tags="n.*"/>
        <match lemma="laine" tags="n.*"/>
@@ -657,6 +658,7 @@
        <match lemma="plâtre" tags="n.*"/>
        <match lemma="gypse" tags="n.*"/>
     </def-seq>
+-->
 
     <def-seq n="personne">
       <match lemma="personne" tags="n.*"/>
@@ -794,6 +796,7 @@
       <match lemma="belle-sœur" tags="n.*"/>
     </def-seq>
 
+<!-- pas utilisé
     <def-seq n="bétail">
       <match lemma="poulet" tags="n.*"/>
       <match lemma="poussin" tags="n.*"/>
@@ -815,6 +818,7 @@
       <match lemma="àne" tags="n.*"/>
       <match lemma="bétail" tags="n.*"/>
     </def-seq>
+-->
 
     <def-seq n="temps">
       <match lemma="seconde" tags="n.*"/>
@@ -1377,7 +1381,39 @@
       <match tags="adj.*"/>
     </repeat>
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="seconde" tags="n.*"/>
+      <match lemma="minute" tags="n.*"/>
+      <match lemma="heure" tags="n.*"/>
+      <match lemma="jour" tags="n.*"/>
+      <match lemma="semaine" tags="n.*"/>
+      <match lemma="mois" tags="n.*"/>
+      <match lemma="an" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="millénaire" tags="n.*"/>
+      <match lemma="saison" tags="n.*"/>
+      <match lemma="lundi" tags="n.*"/>
+      <match lemma="mardi" tags="n.*"/>
+      <match lemma="mercredi" tags="n.*"/>
+      <match lemma="jeudi" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="dimanche" tags="n.*"/>
+      <match lemma="janvier" tags="n.*"/>
+      <match lemma="février" tags="n.*"/>
+      <match lemma="mars" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mai" tags="n.*"/>
+      <match lemma="juin" tags="n.*"/>
+      <match lemma="juillet" tags="n.*"/>
+      <match lemma="août" tags="n.*"/>
+      <match lemma="septembre" tags="n.*"/>
+      <match lemma="octobre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="décembre" tags="n.*"/>
     </or>
   </rule>
 
@@ -2026,8 +2062,27 @@
   </rule>
   <rule weight="1.2">
     <or>
-      <seq n="adj_ord"/>
       <match tags="det.pos.*"/>
+<!--
+      <seq n="adj_ord"/>
+-->
+      <match lemma="premier" tags="adj.*"/>
+      <match lemma="second" tags="adj.*"/>
+      <match lemma="deuxième" tags="adj.*"/>
+      <match lemma="troisième" tags="adj.*"/>
+      <match lemma="quatrième" tags="adj.*"/>
+      <match lemma="cinquième" tags="adj.*"/>
+      <match lemma="quint" tags="adj.*"/>
+      <match lemma="sixième" tags="adj.*"/>
+      <match lemma="septième" tags="adj.*"/>
+      <match lemma="huitième" tags="adj.*"/>
+      <match lemma="neuvième" tags="adj.*"/>
+      <match lemma="dixième" tags="adj.*"/>
+      <match lemma="dernier" tags="adj.*"/>
+      <match lemma="Ier" tags="adj.*"/>
+      <match lemma="1er" tags="adj.*"/>
+      <match lemma="2nd" tags="adj.*"/>
+      <match lemma="3ème" tags="adj.*"/>
     </or>
     <match lemma="place" tags="n.*"><select lemma="place"/></match>
   </rule>
@@ -2366,7 +2421,26 @@
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="adj_ord"/>
+-->
+      <match lemma="premier" tags="adj.*"/>
+      <match lemma="second" tags="adj.*"/>
+      <match lemma="deuxième" tags="adj.*"/>
+      <match lemma="troisième" tags="adj.*"/>
+      <match lemma="quatrième" tags="adj.*"/>
+      <match lemma="cinquième" tags="adj.*"/>
+      <match lemma="quint" tags="adj.*"/>
+      <match lemma="sixième" tags="adj.*"/>
+      <match lemma="septième" tags="adj.*"/>
+      <match lemma="huitième" tags="adj.*"/>
+      <match lemma="neuvième" tags="adj.*"/>
+      <match lemma="dixième" tags="adj.*"/>
+      <match lemma="dernier" tags="adj.*"/>
+      <match lemma="Ier" tags="adj.*"/>
+      <match lemma="1er" tags="adj.*"/>
+      <match lemma="2nd" tags="adj.*"/>
+      <match lemma="3ème" tags="adj.*"/>
     </or>
     <match lemma="volet" tags="n.*"><select lemma="chantél"/></match>
   </rule>
@@ -3210,7 +3284,102 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <seq n="personne"/>
+    <or>
+<!--
+      <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+    </or>
     <or>
       <match lemma="de col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
       <match lemma="en col blanc" tags="adj.*"><select lemma="grata-papiér"/></match>
@@ -3305,8 +3474,142 @@
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="vbser.*"/>
@@ -3440,8 +3743,142 @@
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <match lemma="payant" tags="adj.*"><select lemma="que paye"/></match>
   </rule>
@@ -3544,7 +3981,39 @@
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="seconde" tags="n.*"/>
+      <match lemma="minute" tags="n.*"/>
+      <match lemma="heure" tags="n.*"/>
+      <match lemma="jour" tags="n.*"/>
+      <match lemma="semaine" tags="n.*"/>
+      <match lemma="mois" tags="n.*"/>
+      <match lemma="an" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="millénaire" tags="n.*"/>
+      <match lemma="saison" tags="n.*"/>
+      <match lemma="lundi" tags="n.*"/>
+      <match lemma="mardi" tags="n.*"/>
+      <match lemma="mercredi" tags="n.*"/>
+      <match lemma="jeudi" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="dimanche" tags="n.*"/>
+      <match lemma="janvier" tags="n.*"/>
+      <match lemma="février" tags="n.*"/>
+      <match lemma="mars" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mai" tags="n.*"/>
+      <match lemma="juin" tags="n.*"/>
+      <match lemma="juillet" tags="n.*"/>
+      <match lemma="août" tags="n.*"/>
+      <match lemma="septembre" tags="n.*"/>
+      <match lemma="octobre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="décembre" tags="n.*"/>
     </or>
     <match lemma="prochain" tags="adj.*"><select lemma="que vint"/></match>
   </rule>
@@ -3717,9 +4186,143 @@
   </rule>
   <rule weight="1.0">
     <or>
-      <seq n="personne"/>
-      <seq n="parent"/>
       <match lemma="chose" tags="n.*"/>
+<!--
+      <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
+      <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <repeat from="0" upto="1">
       <repeat from="0" upto="1">
@@ -4029,8 +4632,142 @@
     <or>
       <match lemma="opinion" tags="n.*"/>
       <match lemma="avis" tags="n.*"/>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -4040,8 +4777,142 @@
   <rule weight="1.0">
     <or>
       <match lemma="opinion" tags="n.*"/>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -4294,14 +5165,282 @@
     </repeat>
     <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
     <match lemma="initier" tags="vblex.pp.*"><select lemma="iniciér"/></match>
   </rule>
@@ -4335,8 +5474,142 @@
     </repeat>
     <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -4424,7 +5697,6 @@
     <match tags="det.*"/>
     <or>
       <match lemma="équipe" tags="n.*"/>
-      <seq n="personne"/>
       <match lemma="entreprise" tags="n.*"/>
       <match lemma="compagnie" tags="n.*"/>
       <match lemma="trust" tags="n.*"/>
@@ -4432,6 +5704,100 @@
       <match lemma="transition" tags="n.*"/>
       <match lemma="changement" tags="n.*"/>
       <match lemma="période" tags="n.*"/>
+<!--
+      <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
     </or>
   </rule>
 
@@ -4763,8 +6129,142 @@
     </repeat>
     <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
