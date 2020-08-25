@@ -1020,6 +1020,15 @@
     <or><match tags="num.*"/><match tags="num"/></or>
   </rule>
 
+  <!-- apparat >> pompa, aparèly -->
+  <rule weight="0.8">
+    <match lemma="apparat" tags="n.*"><select lemma="pompa"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="apparat" tags="n.*"><select lemma="aparèly"/></match>
+    <match lemma="critique" tags="adj.*"/>
+  </rule>
+
   <!-- bac >> bacalôrèat, bachèt, trâlye -->
   <rule weight="0.8">
     <match lemma="bac" tags="n.*"><select lemma="bacalôrèat"/></match>
@@ -3473,6 +3482,10 @@
     <match lemma="initié" tags="adj.*"><select lemma="comenciê"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="initié" tags="adj.*"><select lemma="iniciê"/></match>
+    <match lemma="à" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
     <or>
 <!--
       <seq n="personne"/>
@@ -4557,6 +4570,9 @@
     <match tags="np.loc.*"/>
   </rule>
 
+  <!-- déchaîner >> dèchênar, èxplosar -->
+  <macro name="verb_nopron_pron" p1="déchaîner" p2="dèchênar" p3="èxplosar" />
+
   <!-- décoller >> dègllètar, dècôlar -->
   <rule weight="0.8">
     <match lemma="décoller" tags="vblex.*"><select lemma="dègllètar"/></match>
@@ -5157,6 +5173,10 @@
   <!-- initier >> comenciér, iniciér -->
   <rule weight="0.8">
     <match lemma="initier" tags="vblex.*"><select lemma="comenciér"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="initier" tags="vblex.*"><select lemma="iniciér"/></match>
+    <match lemma="à" tags="pr"/>
   </rule>
   <rule weight="1.0">
     <match lemma="initier" tags="vblex.*"><select lemma="iniciér"/></match>
