@@ -2109,6 +2109,11 @@
     </or>
   </rule>
 
+  <!-- recolyir >> ramasser, récolter -->
+  <rule weight="0.8">
+    <match lemma="recolyir" tags="vblex.*"><select lemma="ramasser"/></match>
+  </rule>
+
   <!-- rèvelyér, èvelyér, dèvelyér >> réveiller, éveiller -->
   <macro name="verb_nopron_pron" p1="rèvelyér" p2="éveiller" p3="réveiller" />
   <macro name="verb_nopron_pron" p1="èvelyér" p2="éveiller" p3="réveiller" />
