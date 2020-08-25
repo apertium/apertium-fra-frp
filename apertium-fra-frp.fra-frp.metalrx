@@ -5892,6 +5892,172 @@
   <!-- prostituer >> prostituar, fâre# la puta -->
   <macro name="verb_nopron_pron" p1="prostituer" p2="prostituar" p3="fâre# la puta" />
 
+  <!-- provoquer >> provocar, mourgar -->
+  <rule weight="0.8">
+    <match lemma="provoquer" tags="vblex.*"><select lemma="provocar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="provoquer" tags="vblex.*"><select lemma="mourgar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="provoquer" tags="vblex.*"><select lemma="mourgar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="cnjadv"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+<!--
+      <seq n="personne"/>
+-->
+      <match lemma="personne" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="mec" tags="n.*"/>
+      <match lemma="type" tags="n.*"/>
+      <match lemma="bougre" tags="n.*"/>
+      <match lemma="gus" tags="n.*"/>
+      <match lemma="gusse" tags="n.*"/>
+      <match lemma="pote" tags="n.*"/>
+      <match lemma="gars" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coéquipier" tags="n.*"/>
+      <match lemma="professeur" tags="n.*"/>
+      <match lemma="prof" tags="n.*"/>
+      <match lemma="maître" tags="n.*"/>
+      <match lemma="maître# d'école" tags="n.*"/>
+      <match lemma="maîtresse# de maison" tags="n.*"/>
+      <match lemma="élève" tags="n.*"/>
+      <match lemma="étudiant" tags="n.*"/>
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="évêque" tags="n.*"/>
+      <match lemma="archevêque" tags="n.*"/>
+      <match lemma="saint" tags="n.*"/>
+      <match lemma="saint" tags="adj.*"/>
+      <match lemma="apôtre" tags="n.*"/>
+      <match lemma="empereur" tags="n.*"/>
+      <match lemma="roi" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="vice-roi" tags="n.*"/>
+      <match lemma="régent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="dauphin" tags="n.*"/>
+      <match lemma="comte" tags="n.*"/>
+      <match lemma="comtesse" tags="n.*"/>
+      <match lemma="vicomte" tags="n.*"/>
+      <match lemma="vicomtesse" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchesse" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="grande-duchesse" tags="n.*"/>
+      <match lemma="archiduchesse" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="maréchal" tags="n.*"/>
+      <match lemma="général" tags="n.*"/>
+      <match lemma="colonel" tags="n.*"/>
+      <match lemma="capitaine" tags="n.*"/>
+      <match lemma="sergent" tags="n.*"/>
+      <match lemma="pasteur" tags="n.*"/>
+      <match lemma="prêtre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="voisin" tags="n.*"/>
+      <match lemma="copain" tags="n.*"/>
+      <match lemma="copine" tags="n.*"/>
+      <match lemma="collègue" tags="n.*"/>
+      <match lemma="policier" tags="n.*"/>
+      <match lemma="flic" tags="n.*"/>
+      <match lemma="criminel" tags="n.*"/>
+      <match lemma="délinquant" tags="n.*"/>
+      <match lemma="voleur" tags="n.*"/>
+      <match lemma="assassin" tags="n.*"/>
+      <match lemma="homicide" tags="n.*"/>
+      <match lemma="tueur" tags="n.*"/>
+      <match lemma="politicien" tags="n.*"/>
+      <match lemma="homme politique" tags="n.*"/>
+      <match lemma="femme politique" tags="n.*"/>
+      <match lemma="joueur" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="footballeur" tags="n.*"/>
+      <match lemma="basketeur" tags="n.*"/>
+      <match lemma="handballeur" tags="n.*"/>
+      <match lemma="garçon" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="homme" tags="n.*"/>
+      <match lemma="femme" tags="n.*"/>
+      <match lemma="jeune homme" tags="n.*"/>
+      <match lemma="jeune femme" tags="n.*"/>
+      <match lemma="jeune fille" tags="n.*"/>
+<!--
+      <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="père" tags="n.*"/>
+      <match lemma="mère" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="maman" tags="n.*"/>
+      <match lemma="grand-père" tags="n.*"/>
+      <match lemma="grands-parents" tags="n.*"/>
+      <match lemma="aïeul" tags="n.*"/>
+      <match lemma="mamie" tags="n.*"/>
+      <match lemma="mamé" tags="n.*"/>
+      <match lemma="mammy" tags="n.*"/>
+      <match lemma="mémé" tags="n.*"/>
+      <match lemma="mémère" tags="n.*"/>
+      <match lemma="papé" tags="n.*"/>
+      <match lemma="papie" tags="n.*"/>
+      <match lemma="papy" tags="n.*"/>
+      <match lemma="pépé" tags="n.*"/>
+      <match lemma="pépère" tags="n.*"/>
+      <match lemma="yayo" tags="n.*"/>
+      <match lemma="fils" tags="n.*"/>
+      <match lemma="fille" tags="n.*"/>
+      <match lemma="petit-fils" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="frère" tags="n.*"/>
+      <match lemma="sœur" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="oncle" tags="n.*"/>
+      <match lemma="tante" tags="n.*"/>
+      <match lemma="neveu" tags="n.*"/>
+      <match lemma="nièce" tags="n.*"/>
+      <match lemma="cousin" tags="n.*"/>
+      <match lemma="beau-père" tags="n.*"/>
+      <match lemma="belle-mère" tags="n.*"/>
+      <match lemma="beaux-parents" tags="n.*"/>
+      <match lemma="beau-fils" tags="n.*"/>
+      <match lemma="belle-fille" tags="n.*"/>
+      <match lemma="beau-frère" tags="n.*"/>
+      <match lemma="belle-sœur" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- rattacher >> apondre, ratachiér -->
   <rule weight="0.8">
     <match lemma="rattacher" tags="vblex.*"><select lemma="apondre"/></match>
