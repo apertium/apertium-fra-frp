@@ -832,7 +832,54 @@
       <match tags="num"/>
       </or>
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="segonda" tags="n.*"/>
+      <match lemma="seconda" tags="n.*"/>
+      <match lemma="menuta" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="jorn" tags="n.*"/>
+      <match lemma="semana" tags="n.*"/>
+      <match lemma="senana" tags="n.*"/>
+      <match lemma="mês" tags="n.*"/>
+      <match lemma="anâ" tags="n.*"/>
+      <match lemma="anâye" tags="n.*"/>
+      <match lemma="sêson" tags="n.*"/>
+      <match lemma="sièclo" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="milènèro" tags="n.*"/>
+      <match lemma="delon" tags="n.*"/>
+      <match lemma="delion" tags="n.*"/>
+      <match lemma="lon" tags="n.*"/>
+      <match lemma="londi" tags="n.*"/>
+      <match lemma="demârs" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="mârdi" tags="n.*"/>
+      <match lemma="demécro" tags="n.*"/>
+      <match lemma="mécredi" tags="n.*"/>
+      <match lemma="dejô" tags="n.*"/>
+      <match lemma="jôdi" tags="n.*"/>
+      <match lemma="devendro" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="dessando" tags="n.*"/>
+      <match lemma="sando" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="demenge" tags="n.*"/>
+      <match lemma="demenche" tags="n.*"/>
+      <match lemma="janviér" tags="n.*"/>
+      <match lemma="fevriér" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mê" tags="n.*"/>
+      <match lemma="jouin" tags="n.*"/>
+      <match lemma="jouen" tags="n.*"/>
+      <match lemma="julyèt" tags="n.*"/>
+      <match lemma="oût" tags="n.*"/>
+      <match lemma="septembro" tags="n.*"/>
+      <match lemma="octobro" tags="n.*"/>
+      <match lemma="novembro" tags="n.*"/>
+      <match lemma="dècembro" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1132,7 +1179,54 @@
   </rule>
   <rule weight="1.0">
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="segonda" tags="n.*"/>
+      <match lemma="seconda" tags="n.*"/>
+      <match lemma="menuta" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="jorn" tags="n.*"/>
+      <match lemma="semana" tags="n.*"/>
+      <match lemma="senana" tags="n.*"/>
+      <match lemma="mês" tags="n.*"/>
+      <match lemma="anâ" tags="n.*"/>
+      <match lemma="anâye" tags="n.*"/>
+      <match lemma="sêson" tags="n.*"/>
+      <match lemma="sièclo" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="milènèro" tags="n.*"/>
+      <match lemma="delon" tags="n.*"/>
+      <match lemma="delion" tags="n.*"/>
+      <match lemma="lon" tags="n.*"/>
+      <match lemma="londi" tags="n.*"/>
+      <match lemma="demârs" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="mârdi" tags="n.*"/>
+      <match lemma="demécro" tags="n.*"/>
+      <match lemma="mécredi" tags="n.*"/>
+      <match lemma="dejô" tags="n.*"/>
+      <match lemma="jôdi" tags="n.*"/>
+      <match lemma="devendro" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="dessando" tags="n.*"/>
+      <match lemma="sando" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="demenge" tags="n.*"/>
+      <match lemma="demenche" tags="n.*"/>
+      <match lemma="janviér" tags="n.*"/>
+      <match lemma="fevriér" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mê" tags="n.*"/>
+      <match lemma="jouin" tags="n.*"/>
+      <match lemma="jouen" tags="n.*"/>
+      <match lemma="julyèt" tags="n.*"/>
+      <match lemma="oût" tags="n.*"/>
+      <match lemma="septembro" tags="n.*"/>
+      <match lemma="octobro" tags="n.*"/>
+      <match lemma="novembro" tags="n.*"/>
+      <match lemma="dècembro" tags="n.*"/>
     </or>
     <match lemma="devant" tags="adv"><select lemma="avant"/></match>
   </rule>
@@ -1395,7 +1489,54 @@
       <match tags="adj.*"/>
     </repeat>
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="segonda" tags="n.*"/>
+      <match lemma="seconda" tags="n.*"/>
+      <match lemma="menuta" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="jorn" tags="n.*"/>
+      <match lemma="semana" tags="n.*"/>
+      <match lemma="senana" tags="n.*"/>
+      <match lemma="mês" tags="n.*"/>
+      <match lemma="anâ" tags="n.*"/>
+      <match lemma="anâye" tags="n.*"/>
+      <match lemma="sêson" tags="n.*"/>
+      <match lemma="sièclo" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="milènèro" tags="n.*"/>
+      <match lemma="delon" tags="n.*"/>
+      <match lemma="delion" tags="n.*"/>
+      <match lemma="lon" tags="n.*"/>
+      <match lemma="londi" tags="n.*"/>
+      <match lemma="demârs" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="mârdi" tags="n.*"/>
+      <match lemma="demécro" tags="n.*"/>
+      <match lemma="mécredi" tags="n.*"/>
+      <match lemma="dejô" tags="n.*"/>
+      <match lemma="jôdi" tags="n.*"/>
+      <match lemma="devendro" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="dessando" tags="n.*"/>
+      <match lemma="sando" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="demenge" tags="n.*"/>
+      <match lemma="demenche" tags="n.*"/>
+      <match lemma="janviér" tags="n.*"/>
+      <match lemma="fevriér" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mê" tags="n.*"/>
+      <match lemma="jouin" tags="n.*"/>
+      <match lemma="jouen" tags="n.*"/>
+      <match lemma="julyèt" tags="n.*"/>
+      <match lemma="oût" tags="n.*"/>
+      <match lemma="septembro" tags="n.*"/>
+      <match lemma="octobro" tags="n.*"/>
+      <match lemma="novembro" tags="n.*"/>
+      <match lemma="dècembro" tags="n.*"/>
     </or>
   </rule>
 
@@ -1433,7 +1574,54 @@
     <match lemma="a" tags="pr"/>
     <match tags="det.def.*"/>
     <or>
+<!--
       <seq n="temps"/>
+-->
+      <match lemma="segonda" tags="n.*"/>
+      <match lemma="seconda" tags="n.*"/>
+      <match lemma="menuta" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="jorn" tags="n.*"/>
+      <match lemma="semana" tags="n.*"/>
+      <match lemma="senana" tags="n.*"/>
+      <match lemma="mês" tags="n.*"/>
+      <match lemma="anâ" tags="n.*"/>
+      <match lemma="anâye" tags="n.*"/>
+      <match lemma="sêson" tags="n.*"/>
+      <match lemma="sièclo" tags="n.*"/>
+      <match lemma="siècle" tags="n.*"/>
+      <match lemma="milènèro" tags="n.*"/>
+      <match lemma="delon" tags="n.*"/>
+      <match lemma="delion" tags="n.*"/>
+      <match lemma="lon" tags="n.*"/>
+      <match lemma="londi" tags="n.*"/>
+      <match lemma="demârs" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="mârdi" tags="n.*"/>
+      <match lemma="demécro" tags="n.*"/>
+      <match lemma="mécredi" tags="n.*"/>
+      <match lemma="dejô" tags="n.*"/>
+      <match lemma="jôdi" tags="n.*"/>
+      <match lemma="devendro" tags="n.*"/>
+      <match lemma="vendredi" tags="n.*"/>
+      <match lemma="dessando" tags="n.*"/>
+      <match lemma="sando" tags="n.*"/>
+      <match lemma="samedi" tags="n.*"/>
+      <match lemma="demenge" tags="n.*"/>
+      <match lemma="demenche" tags="n.*"/>
+      <match lemma="janviér" tags="n.*"/>
+      <match lemma="fevriér" tags="n.*"/>
+      <match lemma="mârs" tags="n.*"/>
+      <match lemma="avril" tags="n.*"/>
+      <match lemma="mê" tags="n.*"/>
+      <match lemma="jouin" tags="n.*"/>
+      <match lemma="jouen" tags="n.*"/>
+      <match lemma="julyèt" tags="n.*"/>
+      <match lemma="oût" tags="n.*"/>
+      <match lemma="septembro" tags="n.*"/>
+      <match lemma="octobro" tags="n.*"/>
+      <match lemma="novembro" tags="n.*"/>
+      <match lemma="dècembro" tags="n.*"/>
     </or>
   </rule>
 
@@ -1620,8 +1808,151 @@
     <match tags="det.*"/>
     <or>
       <match lemma="fèna" tags="n.*"/>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="èvèque" tags="n.*"/>
+      <match lemma="èvèco" tags="n.*"/>
+      <match lemma="archèvèque" tags="n.*"/>
+      <match lemma="archèvèco" tags="n.*"/>
+      <match lemma="sant" tags="n.*"/>
+      <match lemma="sant" tags="adj.*"/>
+      <match lemma="sent" tags="n.*"/>
+      <match lemma="sent" tags="adj.*"/>
+      <match lemma="apôtro" tags="n.*"/>
+      <match lemma="emperor" tags="n.*"/>
+      <match lemma="empèratrice" tags="n.*"/>
+      <match lemma="rê" tags="n.*"/>
+      <match lemma="rêna" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="tsarena" tags="n.*"/>
+      <match lemma="vice-rê" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="princèssa" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="infanta" tags="n.*"/>
+      <match lemma="darfin" tags="n.*"/>
+      <match lemma="darfena" tags="n.*"/>
+      <match lemma="comto" tags="n.*"/>
+      <match lemma="comtèssa" tags="n.*"/>
+      <match lemma="vicomto" tags="n.*"/>
+      <match lemma="vicomtèssa" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchèssa" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="granta-duchèssa" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="archiduchèssa" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="marquisa" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="barona" tags="n.*"/>
+      
+      <match lemma="pèrsona" tags="n.*"/>
+      <match lemma="homo" tags="n.*"/>
+      <match lemma="fèna" tags="n.*"/>
+      <match lemma="joueno" tags="n.*"/>
+      <match lemma="jouena fèna" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="menât" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="tipo" tags="n.*"/>
+      <match lemma="bougro" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coèquipiér" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="ècouliér" tags="n.*"/>
+      <match lemma="profèssor" tags="n.*"/>
+      <match lemma="mêtro" tags="n.*"/>
+      <match lemma="èlèvo" tags="n.*"/>
+      <match lemma="ètudiant" tags="n.*"/>
+
+      <match lemma="marechâl" tags="n.*"/>
+      <match lemma="gènèral" tags="n.*"/>
+      <match lemma="colonèl" tags="n.*"/>
+      <match lemma="capiten" tags="n.*"/>
+      <match lemma="sèrgent" tags="n.*"/>
+      <match lemma="pastor" tags="n.*"/>
+      <match lemma="prétre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="vesin" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="policiér" tags="n.*"/>
+      <match lemma="pompiér" tags="n.*"/>
+      <match lemma="gâpian" tags="n.*"/>
+      <match lemma="politico" tags="n.*"/>
+      <match lemma="fèna politica" tags="n.*"/>
+      <match lemma="jouyor" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="esportif" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="pâre" tags="n.*"/>
+      <match lemma="mâre" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="mama" tags="n.*"/>
+      <match lemma="grant-pâre" tags="n.*"/>
+      <match lemma="pâre-grant" tags="n.*"/>
+      <match lemma="grant-mâre" tags="n.*"/>
+      <match lemma="mâre-grant" tags="n.*"/>
+      <match lemma="grants-parents" tags="n.*"/>
+      <match lemma="arriér-grant-pâre" tags="n.*"/>
+      <match lemma="arriér-grant-mâre" tags="n.*"/>
+      <match lemma="arriér-grant-parents" tags="n.*"/>
+      <match lemma="mèmè" tags="n.*"/>
+      <match lemma="pèpè" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="petit-fily" tags="n.*"/>
+      <match lemma="petit-fely" tags="n.*"/>
+      <match lemma="petit-garçon" tags="n.*"/>
+      <match lemma="petita-filye" tags="n.*"/>
+      <match lemma="petita-felye" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="arriér-petit-fily" tags="n.*"/>
+      <match lemma="arriér-petit-fely" tags="n.*"/>
+      <match lemma="arriér-petit-garçon" tags="n.*"/>
+      <match lemma="arriér-petita-filye" tags="n.*"/>
+      <match lemma="arriér-petita-felye" tags="n.*"/>
+      <match lemma="arriér-petits-enfants" tags="n.*"/>
+      <match lemma="frâre" tags="n.*"/>
+      <match lemma="suèra" tags="n.*"/>
+      <match lemma="seror" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="oncllo" tags="n.*"/>
+      <match lemma="tanta" tags="n.*"/>
+      <match lemma="nevot" tags="n.*"/>
+      <match lemma="niéce" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="biô-pâre" tags="n.*"/>
+      <match lemma="parâtro" tags="n.*"/>
+      <match lemma="paréthro" tags="n.*"/>
+      <match lemma="bèla-mâre" tags="n.*"/>
+      <match lemma="biôs-parents" tags="n.*"/>
+      <match lemma="biô-fily" tags="n.*"/>
+      <match lemma="biô-fely" tags="n.*"/>
+      <match lemma="bèla-filye" tags="n.*"/>
+      <match lemma="bèla-felye" tags="n.*"/>
+      <match lemma="biôe" tags="n.*"/>
+      <match lemma="bèla-suèra" tags="n.*"/>
+      <match lemma="bèla-seror" tags="n.*"/>
     </or>
   </rule>
 
@@ -1658,8 +1989,151 @@
     <match lemma="de" tags="pr"/>
     <match tags="det.*"/>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="èvèque" tags="n.*"/>
+      <match lemma="èvèco" tags="n.*"/>
+      <match lemma="archèvèque" tags="n.*"/>
+      <match lemma="archèvèco" tags="n.*"/>
+      <match lemma="sant" tags="n.*"/>
+      <match lemma="sant" tags="adj.*"/>
+      <match lemma="sent" tags="n.*"/>
+      <match lemma="sent" tags="adj.*"/>
+      <match lemma="apôtro" tags="n.*"/>
+      <match lemma="emperor" tags="n.*"/>
+      <match lemma="empèratrice" tags="n.*"/>
+      <match lemma="rê" tags="n.*"/>
+      <match lemma="rêna" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="tsarena" tags="n.*"/>
+      <match lemma="vice-rê" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="princèssa" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="infanta" tags="n.*"/>
+      <match lemma="darfin" tags="n.*"/>
+      <match lemma="darfena" tags="n.*"/>
+      <match lemma="comto" tags="n.*"/>
+      <match lemma="comtèssa" tags="n.*"/>
+      <match lemma="vicomto" tags="n.*"/>
+      <match lemma="vicomtèssa" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchèssa" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="granta-duchèssa" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="archiduchèssa" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="marquisa" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="barona" tags="n.*"/>
+      
+      <match lemma="pèrsona" tags="n.*"/>
+      <match lemma="homo" tags="n.*"/>
+      <match lemma="fèna" tags="n.*"/>
+      <match lemma="joueno" tags="n.*"/>
+      <match lemma="jouena fèna" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="menât" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="tipo" tags="n.*"/>
+      <match lemma="bougro" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coèquipiér" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="ècouliér" tags="n.*"/>
+      <match lemma="profèssor" tags="n.*"/>
+      <match lemma="mêtro" tags="n.*"/>
+      <match lemma="èlèvo" tags="n.*"/>
+      <match lemma="ètudiant" tags="n.*"/>
+
+      <match lemma="marechâl" tags="n.*"/>
+      <match lemma="gènèral" tags="n.*"/>
+      <match lemma="colonèl" tags="n.*"/>
+      <match lemma="capiten" tags="n.*"/>
+      <match lemma="sèrgent" tags="n.*"/>
+      <match lemma="pastor" tags="n.*"/>
+      <match lemma="prétre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="vesin" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="policiér" tags="n.*"/>
+      <match lemma="pompiér" tags="n.*"/>
+      <match lemma="gâpian" tags="n.*"/>
+      <match lemma="politico" tags="n.*"/>
+      <match lemma="fèna politica" tags="n.*"/>
+      <match lemma="jouyor" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="esportif" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="pâre" tags="n.*"/>
+      <match lemma="mâre" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="mama" tags="n.*"/>
+      <match lemma="grant-pâre" tags="n.*"/>
+      <match lemma="pâre-grant" tags="n.*"/>
+      <match lemma="grant-mâre" tags="n.*"/>
+      <match lemma="mâre-grant" tags="n.*"/>
+      <match lemma="grants-parents" tags="n.*"/>
+      <match lemma="arriér-grant-pâre" tags="n.*"/>
+      <match lemma="arriér-grant-mâre" tags="n.*"/>
+      <match lemma="arriér-grant-parents" tags="n.*"/>
+      <match lemma="mèmè" tags="n.*"/>
+      <match lemma="pèpè" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="petit-fily" tags="n.*"/>
+      <match lemma="petit-fely" tags="n.*"/>
+      <match lemma="petit-garçon" tags="n.*"/>
+      <match lemma="petita-filye" tags="n.*"/>
+      <match lemma="petita-felye" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="arriér-petit-fily" tags="n.*"/>
+      <match lemma="arriér-petit-fely" tags="n.*"/>
+      <match lemma="arriér-petit-garçon" tags="n.*"/>
+      <match lemma="arriér-petita-filye" tags="n.*"/>
+      <match lemma="arriér-petita-felye" tags="n.*"/>
+      <match lemma="arriér-petits-enfants" tags="n.*"/>
+      <match lemma="frâre" tags="n.*"/>
+      <match lemma="suèra" tags="n.*"/>
+      <match lemma="seror" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="oncllo" tags="n.*"/>
+      <match lemma="tanta" tags="n.*"/>
+      <match lemma="nevot" tags="n.*"/>
+      <match lemma="niéce" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="biô-pâre" tags="n.*"/>
+      <match lemma="parâtro" tags="n.*"/>
+      <match lemma="paréthro" tags="n.*"/>
+      <match lemma="bèla-mâre" tags="n.*"/>
+      <match lemma="biôs-parents" tags="n.*"/>
+      <match lemma="biô-fily" tags="n.*"/>
+      <match lemma="biô-fely" tags="n.*"/>
+      <match lemma="bèla-filye" tags="n.*"/>
+      <match lemma="bèla-felye" tags="n.*"/>
+      <match lemma="biôe" tags="n.*"/>
+      <match lemma="bèla-suèra" tags="n.*"/>
+      <match lemma="bèla-seror" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.2">
@@ -2019,8 +2493,151 @@
     </repeat>
     <match tags="det.*"/>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="èvèque" tags="n.*"/>
+      <match lemma="èvèco" tags="n.*"/>
+      <match lemma="archèvèque" tags="n.*"/>
+      <match lemma="archèvèco" tags="n.*"/>
+      <match lemma="sant" tags="n.*"/>
+      <match lemma="sant" tags="adj.*"/>
+      <match lemma="sent" tags="n.*"/>
+      <match lemma="sent" tags="adj.*"/>
+      <match lemma="apôtro" tags="n.*"/>
+      <match lemma="emperor" tags="n.*"/>
+      <match lemma="empèratrice" tags="n.*"/>
+      <match lemma="rê" tags="n.*"/>
+      <match lemma="rêna" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="tsarena" tags="n.*"/>
+      <match lemma="vice-rê" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="princèssa" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="infanta" tags="n.*"/>
+      <match lemma="darfin" tags="n.*"/>
+      <match lemma="darfena" tags="n.*"/>
+      <match lemma="comto" tags="n.*"/>
+      <match lemma="comtèssa" tags="n.*"/>
+      <match lemma="vicomto" tags="n.*"/>
+      <match lemma="vicomtèssa" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchèssa" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="granta-duchèssa" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="archiduchèssa" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="marquisa" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="barona" tags="n.*"/>
+      
+      <match lemma="pèrsona" tags="n.*"/>
+      <match lemma="homo" tags="n.*"/>
+      <match lemma="fèna" tags="n.*"/>
+      <match lemma="joueno" tags="n.*"/>
+      <match lemma="jouena fèna" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="menât" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="tipo" tags="n.*"/>
+      <match lemma="bougro" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coèquipiér" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="ècouliér" tags="n.*"/>
+      <match lemma="profèssor" tags="n.*"/>
+      <match lemma="mêtro" tags="n.*"/>
+      <match lemma="èlèvo" tags="n.*"/>
+      <match lemma="ètudiant" tags="n.*"/>
+
+      <match lemma="marechâl" tags="n.*"/>
+      <match lemma="gènèral" tags="n.*"/>
+      <match lemma="colonèl" tags="n.*"/>
+      <match lemma="capiten" tags="n.*"/>
+      <match lemma="sèrgent" tags="n.*"/>
+      <match lemma="pastor" tags="n.*"/>
+      <match lemma="prétre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="vesin" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="policiér" tags="n.*"/>
+      <match lemma="pompiér" tags="n.*"/>
+      <match lemma="gâpian" tags="n.*"/>
+      <match lemma="politico" tags="n.*"/>
+      <match lemma="fèna politica" tags="n.*"/>
+      <match lemma="jouyor" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="esportif" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="pâre" tags="n.*"/>
+      <match lemma="mâre" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="mama" tags="n.*"/>
+      <match lemma="grant-pâre" tags="n.*"/>
+      <match lemma="pâre-grant" tags="n.*"/>
+      <match lemma="grant-mâre" tags="n.*"/>
+      <match lemma="mâre-grant" tags="n.*"/>
+      <match lemma="grants-parents" tags="n.*"/>
+      <match lemma="arriér-grant-pâre" tags="n.*"/>
+      <match lemma="arriér-grant-mâre" tags="n.*"/>
+      <match lemma="arriér-grant-parents" tags="n.*"/>
+      <match lemma="mèmè" tags="n.*"/>
+      <match lemma="pèpè" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="petit-fily" tags="n.*"/>
+      <match lemma="petit-fely" tags="n.*"/>
+      <match lemma="petit-garçon" tags="n.*"/>
+      <match lemma="petita-filye" tags="n.*"/>
+      <match lemma="petita-felye" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="arriér-petit-fily" tags="n.*"/>
+      <match lemma="arriér-petit-fely" tags="n.*"/>
+      <match lemma="arriér-petit-garçon" tags="n.*"/>
+      <match lemma="arriér-petita-filye" tags="n.*"/>
+      <match lemma="arriér-petita-felye" tags="n.*"/>
+      <match lemma="arriér-petits-enfants" tags="n.*"/>
+      <match lemma="frâre" tags="n.*"/>
+      <match lemma="suèra" tags="n.*"/>
+      <match lemma="seror" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="oncllo" tags="n.*"/>
+      <match lemma="tanta" tags="n.*"/>
+      <match lemma="nevot" tags="n.*"/>
+      <match lemma="niéce" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="biô-pâre" tags="n.*"/>
+      <match lemma="parâtro" tags="n.*"/>
+      <match lemma="paréthro" tags="n.*"/>
+      <match lemma="bèla-mâre" tags="n.*"/>
+      <match lemma="biôs-parents" tags="n.*"/>
+      <match lemma="biô-fily" tags="n.*"/>
+      <match lemma="biô-fely" tags="n.*"/>
+      <match lemma="bèla-filye" tags="n.*"/>
+      <match lemma="bèla-felye" tags="n.*"/>
+      <match lemma="biôe" tags="n.*"/>
+      <match lemma="bèla-suèra" tags="n.*"/>
+      <match lemma="bèla-seror" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.4">
@@ -2113,8 +2730,151 @@
     </repeat>
     <match tags="det.*"/>
     <or>
+<!--
       <seq n="personne"/>
+-->
+      <match lemma="pape" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="patriarche" tags="n.*"/>
+      <match lemma="èvèque" tags="n.*"/>
+      <match lemma="èvèco" tags="n.*"/>
+      <match lemma="archèvèque" tags="n.*"/>
+      <match lemma="archèvèco" tags="n.*"/>
+      <match lemma="sant" tags="n.*"/>
+      <match lemma="sant" tags="adj.*"/>
+      <match lemma="sent" tags="n.*"/>
+      <match lemma="sent" tags="adj.*"/>
+      <match lemma="apôtro" tags="n.*"/>
+      <match lemma="emperor" tags="n.*"/>
+      <match lemma="empèratrice" tags="n.*"/>
+      <match lemma="rê" tags="n.*"/>
+      <match lemma="rêna" tags="n.*"/>
+      <match lemma="tsar" tags="n.*"/>
+      <match lemma="tsarena" tags="n.*"/>
+      <match lemma="vice-rê" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="prince" tags="n.*"/>
+      <match lemma="princèssa" tags="n.*"/>
+      <match lemma="infant" tags="n.*"/>
+      <match lemma="infanta" tags="n.*"/>
+      <match lemma="darfin" tags="n.*"/>
+      <match lemma="darfena" tags="n.*"/>
+      <match lemma="comto" tags="n.*"/>
+      <match lemma="comtèssa" tags="n.*"/>
+      <match lemma="vicomto" tags="n.*"/>
+      <match lemma="vicomtèssa" tags="n.*"/>
+      <match lemma="duc" tags="n.*"/>
+      <match lemma="duchèssa" tags="n.*"/>
+      <match lemma="grand-duc" tags="n.*"/>
+      <match lemma="granta-duchèssa" tags="n.*"/>
+      <match lemma="archiduc" tags="n.*"/>
+      <match lemma="archiduchèssa" tags="n.*"/>
+      <match lemma="marquis" tags="n.*"/>
+      <match lemma="marquisa" tags="n.*"/>
+      <match lemma="baron" tags="n.*"/>
+      <match lemma="barona" tags="n.*"/>
+      
+      <match lemma="pèrsona" tags="n.*"/>
+      <match lemma="homo" tags="n.*"/>
+      <match lemma="fèna" tags="n.*"/>
+      <match lemma="joueno" tags="n.*"/>
+      <match lemma="jouena fèna" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="menât" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="tipo" tags="n.*"/>
+      <match lemma="bougro" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="compagnon" tags="n.*"/>
+      <match lemma="compagne" tags="n.*"/>
+      <match lemma="coèquipiér" tags="n.*"/>
+      <match lemma="règent" tags="n.*"/>
+      <match lemma="ècouliér" tags="n.*"/>
+      <match lemma="profèssor" tags="n.*"/>
+      <match lemma="mêtro" tags="n.*"/>
+      <match lemma="èlèvo" tags="n.*"/>
+      <match lemma="ètudiant" tags="n.*"/>
+
+      <match lemma="marechâl" tags="n.*"/>
+      <match lemma="gènèral" tags="n.*"/>
+      <match lemma="colonèl" tags="n.*"/>
+      <match lemma="capiten" tags="n.*"/>
+      <match lemma="sèrgent" tags="n.*"/>
+      <match lemma="pastor" tags="n.*"/>
+      <match lemma="prétre" tags="n.*"/>
+      <match lemma="ami" tags="n.*"/>
+      <match lemma="vesin" tags="n.*"/>
+      <match lemma="colègo" tags="n.*"/>
+      <match lemma="policiér" tags="n.*"/>
+      <match lemma="pompiér" tags="n.*"/>
+      <match lemma="gâpian" tags="n.*"/>
+      <match lemma="politico" tags="n.*"/>
+      <match lemma="fèna politica" tags="n.*"/>
+      <match lemma="jouyor" tags="n.*"/>
+      <match lemma="sportif" tags="n.*"/>
+      <match lemma="esportif" tags="n.*"/>
+<!--
       <seq n="parent"/>
+-->
+      <match lemma="parent" tags="n.*"/>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="pâre" tags="n.*"/>
+      <match lemma="mâre" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+      <match lemma="mama" tags="n.*"/>
+      <match lemma="grant-pâre" tags="n.*"/>
+      <match lemma="pâre-grant" tags="n.*"/>
+      <match lemma="grant-mâre" tags="n.*"/>
+      <match lemma="mâre-grant" tags="n.*"/>
+      <match lemma="grants-parents" tags="n.*"/>
+      <match lemma="arriér-grant-pâre" tags="n.*"/>
+      <match lemma="arriér-grant-mâre" tags="n.*"/>
+      <match lemma="arriér-grant-parents" tags="n.*"/>
+      <match lemma="mèmè" tags="n.*"/>
+      <match lemma="pèpè" tags="n.*"/>
+      <match lemma="fily" tags="n.*"/>
+      <match lemma="fely" tags="n.*"/>
+      <match lemma="filys" tags="n.*"/>
+      <match lemma="filye" tags="n.*"/>
+      <match lemma="felye" tags="n.*"/>
+      <match lemma="petit-fily" tags="n.*"/>
+      <match lemma="petit-fely" tags="n.*"/>
+      <match lemma="petit-garçon" tags="n.*"/>
+      <match lemma="petita-filye" tags="n.*"/>
+      <match lemma="petita-felye" tags="n.*"/>
+      <match lemma="petits-enfants" tags="n.*"/>
+      <match lemma="arriér-petit-fily" tags="n.*"/>
+      <match lemma="arriér-petit-fely" tags="n.*"/>
+      <match lemma="arriér-petit-garçon" tags="n.*"/>
+      <match lemma="arriér-petita-filye" tags="n.*"/>
+      <match lemma="arriér-petita-felye" tags="n.*"/>
+      <match lemma="arriér-petits-enfants" tags="n.*"/>
+      <match lemma="frâre" tags="n.*"/>
+      <match lemma="suèra" tags="n.*"/>
+      <match lemma="seror" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="oncllo" tags="n.*"/>
+      <match lemma="tanta" tags="n.*"/>
+      <match lemma="nevot" tags="n.*"/>
+      <match lemma="niéce" tags="n.*"/>
+      <match lemma="cusin" tags="n.*"/>
+      <match lemma="biô-pâre" tags="n.*"/>
+      <match lemma="parâtro" tags="n.*"/>
+      <match lemma="paréthro" tags="n.*"/>
+      <match lemma="bèla-mâre" tags="n.*"/>
+      <match lemma="biôs-parents" tags="n.*"/>
+      <match lemma="biô-fily" tags="n.*"/>
+      <match lemma="biô-fely" tags="n.*"/>
+      <match lemma="bèla-filye" tags="n.*"/>
+      <match lemma="bèla-felye" tags="n.*"/>
+      <match lemma="biôe" tags="n.*"/>
+      <match lemma="bèla-suèra" tags="n.*"/>
+      <match lemma="bèla-seror" tags="n.*"/>
     </or>
   </rule>
 
