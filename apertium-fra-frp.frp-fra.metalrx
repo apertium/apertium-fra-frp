@@ -1160,20 +1160,20 @@
 
   <!-- bombu >> ovale, convexe -->
   <rule weight="0.8">
-    <match lemma="bombu" tags="n.*"><select lemma="ovale"/></match>
+    <match lemma="bombu" tags="adj.*"><select lemma="ovale"/></match>
   </rule>
 
   <!-- dèbilo >> débile, faible -->
   <rule weight="0.8">
-    <match lemma="dèbilo" tags="n.*"><select lemma="débile"/></match>
+    <match lemma="dèbilo" tags="adj.*"><select lemma="débile"/></match>
   </rule>
 
   <!-- famox >> fameux, célèbre -->
   <rule weight="0.8">
-    <match lemma="famox" tags="n.*"><select lemma="fameux"/></match>
+    <match lemma="famox" tags="adj.*"><select lemma="fameux"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="famox" tags="n.*"><select lemma="célèbre"/></match>
+    <match lemma="famox" tags="adj.*"><select lemma="célèbre"/></match>
     <repeat from="0" upto="2">
       <or>
         <match tags="cnjcoo"/>
@@ -1183,17 +1183,22 @@
     <match tags="n.*"/>
   </rule>
 
+  <!-- grôssa >> gros, enceinte -->
+  <rule weight="0.8">
+    <match lemma="grôssa" tags="adj.*"><select lemma="gros"/></match>
+  </rule>
+
   <!-- nôvo, nuef >> neuf, nouveau -->
   <rule weight="0.8">
     <or>
-      <match lemma="nôvo" tags="n.*"><select lemma="neuf"/></match>
-      <match lemma="nuef" tags="n.*"><select lemma="neuf"/></match>
+      <match lemma="nôvo" tags="adj.*"><select lemma="neuf"/></match>
+      <match lemma="nuef" tags="adj.*"><select lemma="neuf"/></match>
     </or>
   </rule>
   <rule weight="1.0">
     <or>
-      <match lemma="nôvo" tags="n.*"><select lemma="nouveau"/></match>
-      <match lemma="nuef" tags="n.*"><select lemma="nouveau"/></match>
+      <match lemma="nôvo" tags="adj.*"><select lemma="nouveau"/></match>
+      <match lemma="nuef" tags="adj.*"><select lemma="nouveau"/></match>
     </or>
     <match tags="n.*"/>
   </rule>

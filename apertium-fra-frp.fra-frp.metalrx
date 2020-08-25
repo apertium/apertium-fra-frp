@@ -819,6 +819,7 @@
       <match lemma="lustre" tags="n.*"/>
       <match lemma="siècle" tags="n.*"/>
       <match lemma="millénaire" tags="n.*"/>
+      <match lemma="saison" tags="n.*"/>
       <match lemma="lundi" tags="n.*"/>
       <match lemma="mardi" tags="n.*"/>
       <match lemma="mercredi" tags="n.*"/>
@@ -1293,6 +1294,14 @@
     <match lemma="conseil" tags="n.*"><select lemma="consèly"/></match>
   </rule>
 
+  <!-- copain, copine >> camerâdo, ami, amouerox -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="copain" tags="n.*"><select lemma="camerâdo"/></match>
+      <match lemma="copine" tags="n.*"><select lemma="camerâdo"/></match>
+    </or>
+  </rule>
+
   <!-- couche >> cuche, lange -->
   <rule weight="0.8">
     <match lemma="couche" tags="n.*"><select lemma="cuche"/></match>
@@ -1350,8 +1359,12 @@
   </rule>
   <rule weight="1.0">
     <match lemma="début" tags="n.*"><select lemma="comencement"/></match>
-    <match lemma="de" tags="pr"/>
-    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="de" tags="pr"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <repeat from="0" upto="1">
       <match tags="adj.*"/>
     </repeat>
@@ -1588,6 +1601,16 @@
   <!-- faune >> sarvagenes, fôna -->
   <rule weight="0.8">
     <match lemma="faune" tags="n.*"><select lemma="sarvagen"/></match>
+  </rule>
+
+  <!-- fête foraine >> vôga, etc. -->
+  <rule weight="0.8">
+    <match lemma="fête foraine" tags="n.*"><select lemma="vôga"/></match>
+  </rule>
+
+  <!-- fête patronale >> vôga, etc. -->
+  <rule weight="0.8">
+    <match lemma="fête patronale" tags="n.*"><select lemma="vôga"/></match>
   </rule>
 
   <!-- fille >> felye, etc. -->
@@ -1968,6 +1991,11 @@
     <match lemma="objectif" tags="n.*"><select lemma="objèctif"/></match>
   </rule>
 
+  <!-- paroxysme >> sonjon, comblo -->
+  <rule weight="0.8">
+    <match lemma="paroxysme" tags="n.*"><select lemma="sonjon"/></match>
+  </rule>
+
   <!-- pêche >> pêche, pêrche -->
   <rule weight="0.8">
     <match lemma="pêche" tags="n.*"><select lemma="pêche"/></match>
@@ -2241,6 +2269,23 @@
   <rule weight="1.0">
     <match lemma="sœur" tags="n.*"><select lemma="sœr"/></match>
     <match tags="np.ant.*"/>
+  </rule>
+
+  <!-- turbulence >> agitacion, turbulence -->
+  <rule weight="0.8">
+    <match lemma="turbulence" tags="n.*"><select lemma="agitacion"/></match>
+  </rule>
+
+  <!-- ulcère >> chancro, ulcèro -->
+  <rule weight="0.8">
+    <match lemma="ulcère" tags="n.*"><select lemma="chancro"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ulcère" tags="n.*"><select lemma="ulcèro"/></match>
+    <or>
+      <match tags="adj.*"/>
+      <match tags=""/>
+    </or>
   </rule>
 
   <!-- urine >> pisse, urena -->
@@ -2947,6 +2992,18 @@
       <match/>
     </repeat>
     <match lemma="abattu" tags="adj.*"><select lemma="abatu"/></match>
+  </rule>
+
+  <!-- addictif >> adictif, que rend èscllâvo -->
+  <rule weight="0.8">
+    <match lemma="addictif" tags="adj.*"><select lemma="adictif"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+    <match lemma="addictif" tags="adj.*"><select lemma="que rend èscllâvo"/></match>
   </rule>
 
   <!-- aléatoire >> emprèvisiblo, d'hasârd -->
@@ -3705,6 +3762,19 @@
     <match lemma="urbain" tags="adj.*"><select lemma="urben"/></match>
   </rule>
 
+  <!-- viable >> vivâble, durâble -->
+  <rule weight="0.8">
+    <match lemma="viable" tags="adj.*"><select lemma="durâble"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="enfant" tags="n.*"/>
+      <match lemma="né" tags="adj.*"/>
+      <match lemma="naître" tags="vblex.pp.*"/>
+    </or>
+    <match lemma="viable" tags="adj.*"><select lemma="vivâble"/></match>
+  </rule>
+
 <!-- **************** V **************** -->
 
   <!-- adhérer >> s'agllètar, s'enscrire -->
@@ -3810,6 +3880,9 @@
 
   <!-- baser >> fondar, enstalar -->
   <macro name="verb_prep" p1="baser" p2="fondar" p3="à" p4="enstalar" />
+
+  <!-- cadrer >> alar, cadrar -->
+  <macro name="verb_intrans_trans" p1="cadrer" p2="alar" p3="cadrar" />
 
   <!-- causer >> provocar, côsar -->
   <rule weight="0.8">
@@ -3938,6 +4011,73 @@
   <!-- disjoindre >> dèpondre, dèjuendre -->
   <rule weight="0.8">
     <match lemma="disjoindre" tags="vblex.*"><select lemma="dèpondre"/></match>
+  </rule>
+
+  <!-- diverger >> èluegnér# l'un de l'ôtro, étre# en dèsacôrd -->
+  <rule weight="0.8">
+    <match lemma="diverger" tags="vblex.*"><select lemma="èluegnér# l'un de l'ôtro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="opinion" tags="n.*"/>
+      <match lemma="avis" tags="n.*"/>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="diverger" tags="vblex.*"><select lemma="étre# en dèsacôrd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="opinion" tags="n.*"/>
+      <seq n="personne"/>
+      <seq n="parent"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vbhaver.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="diverger" tags="vblex.pp.*"><select lemma="étre# en dèsacôrd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="point" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match lemma="vue" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="diverger" tags="vblex.*"><select lemma="étre# en dèsacôrd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="point" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match lemma="vue" tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vbhaver.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="diverger" tags="vblex.pp.*"><select lemma="étre# en dèsacôrd"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="diverger" tags="vblex.*"><select lemma="étre# en dèsacôrd"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="sur" tags="pr"/>
+      <match lemma="selon" tags="pr"/>
+      <match lemma="dans" tags="pr"/>
+      <match lemma="quant à" tags="pr"/>
+      <match lemma="à propos de" tags="pr"/>
+    </or>
   </rule>
 
   <!-- dresser >> drèciér, fâre -->
@@ -4374,6 +4514,9 @@
       <match lemma="langue" tags="n.*"/>
     </or>
   </rule>
+
+  <!-- prostituer >> prostituar, fâre# la puta -->
+  <macro name="verb_nopron_pron" p1="prostituer" p2="prostituar" p3="fâre# la puta" />
 
   <!-- rattacher >> apondre, ratachiér -->
   <rule weight="0.8">

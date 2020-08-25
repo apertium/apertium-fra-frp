@@ -7,6 +7,8 @@
     <sdef n="adv"/>
     <sdef n="det"/>
     <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="tn"/>
     <sdef n="def"/>
     <sdef n="ind"/>
     <sdef n="pos"/>
@@ -502,6 +504,13 @@
       <p><l></l><r>mâl<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
+    <e lm="étre en dèsacôrd">
+      <p><l>étre<s n="vblex"/><t/><g><b/>en<b/>dèsacôrd</g><j/></l><r>étre<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>en<s n="pr"/><j/></r></p>
+      <p><l></l><r>dèsacôrd<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
     <e lm="menar a ben">
       <p><l>menar<s n="vblex"/><t/><g><b/>a<b/>ben</g><j/></l><r>menar<s n="vblex"/><t/><j/></r></p>
       <par n="adv"/>
@@ -639,6 +648,18 @@
       <p><l></l><r>a<s n="pr"/><j/></r></p>
       <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
       <p><l></l><r>minimon<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+    <!-- vblex det prn pr det n -->
+
+    <e lm="èluegnér de l'ôtro">
+      <p><l>èluegnér<s n="vblex"/><t/><g><b/>l'un<b/>de<b/>l'ôtro</g><j/></l><r>èluegnér<s n="vblex"/><t/><j/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>de<s n="pr"/><j/></r></p>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>ôtro<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
     </e>
 
 </section>
