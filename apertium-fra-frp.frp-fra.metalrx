@@ -1316,6 +1316,11 @@
     <match lemma="premiér" tags="adj.*"><select lemma="aîné"/></match>
   </rule>
 
+  <!-- tuche >> suisse allemand, allemand, etc. -->
+  <rule weight="0.8">
+    <match lemma="tuche" tags="adj.*"><select lemma="suisse allemand"/></match>
+  </rule>
+
   <!-- volontèro >> volontaire, bénévole -->
   <rule weight="0.8">
     <match lemma="volontèro" tags="adj.*"><select lemma="volontaire"/></match>
@@ -1377,7 +1382,17 @@
   </rule>
   <rule weight="1.0">
     <match tags="det.dem.*"/>
-    <match lemma="an" tags="n.m.pl"><select lemma="année"/></match>
+    <match lemma="an" tags="n.*"><select lemma="année"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="jorn" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.def.*"/>
+    <match lemma="an" tags="n.*"><select lemma="année"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="an" tags="n.*"><select lemma="année"/></match>
+    <match lemma="bissèxtilo" tags="adj.*"/>
   </rule>
 
   <!-- ârche >> arche, coffre -->
@@ -2429,6 +2444,11 @@
       <match lemma="truflla" tags="n.*"><select lemma="pomme# de terre"/></match>
       <match lemma="trufa" tags="n.*"><select lemma="pomme# de terre"/></match>
     </or>
+  </rule>
+
+  <!-- tuche >> suisse allemand, allemand, etc. -->
+  <rule weight="0.8">
+    <match lemma="tuche" tags="n.*"><select lemma="suisse allemand"/></match>
   </rule>
 
   <!-- vielyongement >> vieillissement, obsolescence -->
