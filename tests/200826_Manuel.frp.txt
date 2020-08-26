@@ -1,0 +1,52 @@
+Lo Trèsor Arpitan
+
+Entro()
+
+A la fin, aprés una longe grossèsse, noutron Trèsor est venu u mondo ; en parlent de la têla fôdret miél dire dens lo mondo. Bien que l’enfrastructura seye por lo moment oncor un pou spartana, los contenus sont très très rechos et, naturèlament, a nos tôs la tache de oncor ples los enrichir.
+
+L’ècritura du logicièl et sa metua en ôvra sur la têla me sont revenus des longes hores de travaly que je compenseré en vos veyent travalyér dur avouéc ceti outil. Totes suggèstions, idês et remârques seront benvenues, féte-mè les avêr per lo méten de la é-mèl du Trèsor suggestions@tresorarpitan.eu, je vos rèpondré et si possiblo je les metré en legne.
+
+Permètéd-mè de vos rapelar oncor un viâjo los fondements de noutron travaly : la dèfensa, lo manteniment et l’èpanouissement de la lengoua et de la cultura Arpitana. Nos nos batens, sans afèssament a parti poltico ou a idèologie , por lo manteniment d’un bien que nos apartint, mas que u mémo temps est patrimouèno de l’entiéra humanitât.
+
+fc
+(Châtelyon - Aoûta, lo 11/11/2011, jorn de St. Martin de Tours)
+
+Apèrçus g·ènèrals
+
+Lo Trèsor Arpitan est un logicièl complètament libro et gratuit, issu des ples modèrnes tècnologies enformatiques (en l’èspèce MS ASP.NET MVC 3). Ceti logicièl se presente come un outil de rechèrche des paroles Arpitanes que sont ilustrâye avouéc traduccions en francês et italien, j·anro gramatical, émâges, sinonimos, ètimologies, frases d’ègzemplo et variantes locales.
+
+Les principâles opcions sont les suiventes :
+    1. Dèpârt
+Prèsentacion g·ènèrala du travaly.
+    2. Trèsor
+Lo diccionèro arpitan ilustrâ.
+    3. Dic&outils
+Diccionèros d’utilitât et méten por entèrag·ir avouéc lo trèsor.
+    4. A propôs
+Notes statistiques.
+
+A coutâ du diccionèro principâl, dènomâ |TRÈSOR |, que pèrmèt la rechèrche des mots dirèctament en Arpitan, se trôve l’opcion| DIC&OUTILS |que contint dedens la sèccion [DICCIONÈROS] los diccionèros pour la recèrche partent de l’italien ou du francês, et una petiôda syntèsa du diccionèro ORB de Dominique Stich, (ceti diccionèro pôt étre achetâ chiéz www.arpitania.eu ). Châcun de cetos diccionèros, quand est possiblo, remande u diccionèro arpitan. En futur lo Trèsor porat acuelyir tôs tipos de diccionèros utilos.
+
+    • Francês [Diccionèro Francês-Arpitan]
+    • Italien [Diccionèro Italien-Arpitan]
+    • Dominique Stich Arpitan
+    • Dominique Stich Francês
+
+A ceta sèccion [DICCIONÈROS] siut la sèccion [OUTILS] avouéc le métens por dirèctament ag·ir avouéc lo Trèsor :
+    • Ècri u Trèsor Arpitan [Un adrèce é-mèl por ècrire ux admnistrators du logicièl.]
+    • Proposa una parola [La vie ples facila por proposar l’entroduccion u diccionèro d’un nôvo mot.]
+    • Suggèra una nota [La vie por suggèrar modificacions et notes ux mots que ja ègzistont.]
+
+Enfin l’opcion|A PROPÔS|presente des notes statistiques regardents la situacion d’utilisacion du Trèsor, tipicament :
+
+Tipica session de travaly
+
+Ceti logicièl, u delé d’étre un dèpôt naturèl por tota la cultura arpitana et un pouent de repèro por l’ortografia de rèfèrènce ORB, vôt étre un enstrument de travaly por tôs celos que entendont ècrire des tèxte en Arpitan.
+
+Tipicament una session de travaly arat l’aspèt siuvent, d’un coutâ lo tèxte qu’on est en tren d’ècrire, de l’ôtro un des diccionèros du Trèsor en consultacion :
+
+Lo simplo fêt d’avêr a disposicion a bôrd de noutron computor des diccionèros dediâs a l’Arpitan rendrat l’ofice de l’ècritura bien ples éso en nos solevent de la tache de longe et ennoyoses rechèrches sur papiér.
+
+Châcun porrat fére sa rechèrche selon ses rèeles cognesences a partir directament du diccionèro arpitan ou en se servent des ôtres diccionèros tal que cél du francês ou de l’italien. En travalyent d’ense on arat la possibilitât d’entrar en profondior dens la lengoua avouéc frases, tornures, diton et sinonimos et de se rendre compto de la ènorma rechèce de noutra cultura. En outre, porquè pas ?, on porat signalar fôtes, proposar notes et nôves paroles.
+
+Veyens ora quârques ègzemplos de rechèrche.

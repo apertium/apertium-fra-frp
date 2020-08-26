@@ -1,0 +1,52 @@
+Le Trésor Arpitan
+
+Entre()
+
+À la fin, après une longue grossesse, notre Trésor est venu au monde ; en parlant de la toile *fôdret miel *dire dans le monde. Bien que l'infrastructure soit pour le moment encore un peu *spartana, les contenus sont très très riches et, naturellement, à nous tous la tache d'encore plus les *enrichir.
+
+L'écriture du *logicièl et sa mise en œuvre internet *me sont revenus des longues heures de *travaly que je compenserai en vous voyant travailler dur avec cet outil. Toutes suggestions, idées et remarques seront bienvenues, faites-moi les avoir par le milieu de l'ai-mèl du Trésor *suggestions@*tresorarpitan.*eu, je vous répondrai et si possible je les mettrai en ligne.
+
+*Permètéd-moi de vous rappeler encore un autrefois les fondements de notre *travaly : la défense, le *manteniment et la *èpanouissement de la langue et de la culture Arpitane. Nous nous battons, sains *afèssament à parti *poltico ou à idéologie , pour le *manteniment d'un bien que nous appartient, pourvu qu'au même temps est patrimoine de l'entière humanité.
+
+*fc
+(*Châtelyon - Aoste, le 11/11/2011, jour de *St. Martin de Tours)
+
+Aperçus généraux
+
+Le Trésor Arpitan est un *logicièl complètement libre et gratuit, *issu des plus modernes technologies informatiques (en l'espèce MS *ASP.*NET *MVC 3). Celui-ci *logicièl est-ce que présente comme un outil de recherche des paroles Arpitanes qui sont illustrée avec traductions en français et italien, *j·anro grammatical, images, synonymes, étymologies, *frases d'exemple et variantes locales.
+
+Les principales options sont les *suiventes :
+ 1. Départ
+*Prèsentacion générale du *travaly.
+ 2. Trésor
+Le dictionnaire arpitan illustré.
+ 3. *Dic&outils
+Dictionnaires d'utilité et milieu pour *entèrag·ir avec le trésor.
+ 4. À propos
+Notes statistiques.
+
+À côté du dictionnaire principal, *dènomâ |TRÉSOR |, qui permet la recherche des émoussés directement en Arpitan, est-ce que trouve l'option| *DIC&OUTILS |que contient dans la section [DICTIONNAIRES] les dictionnaires *pour la *recèrche partant de l'italien ou du français, et une petite *syntèsa du dictionnaire ORB de Dominique Stich, (ce dictionnaire peut être acheté chez *www.*arpitania.*eu ). Chacun de ces dictionnaires, quand est possible, renvoie au dictionnaire arpitan. En futur le Trésor pourra accueillir tous types de dictionnaires utiles.
+
+ • Français [Dictionnaire Français-Arpitan]
+ • Italien [Dictionnaire Italien-Arpitan]
+ • Dominique Stich Arpitan
+ • Dominique Stich Français
+
+À cette section [DICTIONNAIRES] suit la section [OUTILS] avec le milieux pour directement *ag·ir avec le Trésor :
+ • Écris au Trésor Arpitan [Un adresse ai-mèl pour écrire aux *admnistrators du *logicièl.]
+ • *Proposa une parole [La voie plus facile pour proposer l'introduction au dictionnaire d'un nouveau mot.]
+ • Suggère une note [La voie pour suggérer modifications et notes aux émoussés qui déjà existent.]
+
+Enfin l'option|À PROPOS|présente des notes statistiques *regardents la situation de *utilisacion du Trésor, typiquement :
+
+Typique *session de *travaly
+
+Celui-ci *logicièl, au delà d'être un dépôt naturel pour toute la culture arpitane et un point de repère pour l'orthographe de *rèfèrènce ORB, veut être un instrument de *travaly pour tous ceux qui entendent écrire des texte en Arpitan.
+
+Typiquement une *session de *travaly aura la *aspèt suivant, d'un côté le texte qu'on est en train d'écrire, de l'autre un des dictionnaires du Trésor en *consultacion :
+
+Le simple fait d'avoir à disposition à bord de notre ordinateur des dictionnaires *dediâs à l'Arpitan rendra l'officie de l'écriture bien plus aise en nous soulevant de la tache de longe et ennuyeuses recherches sur papier.
+
+Chacun pourra faire sa recherche selon ses *rèeles *cognesences à partir *directament du dictionnaire arpitan ou en est-ce que servant des autres dictionnaires *tal que celui du français ou de l'italien. En travaillant ainsi on aura la possibilité d'entrer en *profondior dans la langue avec *frases, tournures, *diton et synonymes et d'est-ce que rendre compte de l'énorme richesse de notre culture. En outre, pourquoi pas ?, on pourra signaler manques, proposer notes et nouvelles paroles.
+
+Voyons maintenant quelques exemples de recherche.

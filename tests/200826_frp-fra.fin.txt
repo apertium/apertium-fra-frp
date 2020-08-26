@@ -1,0 +1,138 @@
+Le Trésor Arpitan
+
+Intro()
+
+À la fin, après une longue grossesse, notre Trésor est venu au monde ; en parlant de la toile il faudrait mieux dire dans le monde. Bien que l'infrastructure soit pour le moment encore un peu austère, les contenus sont très très riches et, naturellement, à nous tous la tâche de les enrichir encore davantage.
+
+L'écriture du logiciel et sa mise en œuvre internet m'ont pris des longues heures de travail que je compenserai en vous voyant travailler dur avec cet outil. Toutes les suggestions, idées et remarques seront bienvenues, faites-moi les avoir par le milieu de l'e-mail du Trésor suggestions@tresorarpitan.eu, je vous répondrai et si possible je les mettrai en ligne.
+
+Permétez-moi de vous rappeler encore une autre fois les fondements de notre travail : la défense, la préservation et l'épanouissement de la langue et de la culture Arpitane. Nous nous battons, sans se subordonner à un parti politique ou à une idéologie , pour la préservation d'un bien qui nous appartient, bien qu'en même temps il est patrimoine de l'humanité entière.
+
+fc
+(Châtillon - Aoste, le 11/11/2011, jour de St. Martin de Tours)
+
+Aperçus généraux
+
+Le Trésor Arpitan est un logiciel complètement libre et gratuit, issu des plus modernes technologies informatiques (en l'espèce MS ASP.NET MVC 3). Ce logiciel se présente comme un outil de recherche des mots arpitans qui sont illustrées avec des traductions en français et italien, genre grammatical, images, synonymes, étymologies, phrases d'exemple et variantes locales.
+
+Les principales options sont les suivantes :
+ 1. Départ
+Présentation générale du travail.
+ 2. Trésor
+Le dictionnaire arpitan illustré.
+ 3. Dic&outils
+Dictionnaires d'utilité et place pour interagir avec le trésor.
+ 4. À propos
+Notes statistiques.
+
+À côté du dictionnaire principal, appelé |TRÉSOR |, qui permet la recherche des mots directement en Arpitan, se trouve l'option| DIC&OUTILS |qui contient dans la section [DICTIONNAIRES] les dictionnaires pour la recherche en partant de l'italien ou du français, et une petite synthèse du dictionnaire ORB de Dominique Stich, (ce dictionnaire peut être acheté chez www.arpitania.eu ). Chacun de ces dictionnaires, quand il est possible, renvoie au dictionnaire arpitan. À l'avenir le Trésor pourra accueillir tous types de dictionnaires utiles.
+
+ • Français [Dictionnaire Français-Arpitan]
+ • Italien [Dictionnaire Italien-Arpitan]
+ • Dominique Stich Arpitan
+ • Dominique Stich Français
+
+À cette section [DICTIONNAIRES] suit la section [OUTILS] avec le lieu pour directement agir avec le Trésor :
+ • Écris au Trésor Arpitan [Une adresse e-mail pour écrire aux admnistrateurs du logiciel.]
+ • Propose un mot [La voie plus facile pour proposer l'introduction au dictionnaire d'un nouveau mot.]
+ • Suggère une note [La voie pour suggérer des modifications et des notes aux mots qui déjà existent.]
+
+Enfin l'option|À PROPOS|présente des notes statistiques sur la situation d'utilisation du Trésor, typiquement :
+
+Typique session de travail
+
+Ce logiciel, au delà d'être un dépôt naturel pour toute la culture arpitane et un point de repère pour l'orthographe de référence ORB, veut être un instrument de travail pour tous ceux qui veulent écrire des textes en arpitan.
+
+Typiquement une session de travail aura l'aspect suivant, d'un côté le texte qu'on est en train d'écrire, de l'autre un des dictionnaires du Trésor en consultation :
+
+Le simple fait d'avoir à disposition à bord de notre ordinateur des dictionnaires consacrés à l'Arpitan rendra la tâche de l'écriture bien plus aisée en nous soulageant de la tâche de longues et ennuyeuses recherches sur papier.
+
+Chacun pourra faire sa recherche selon ses connaissances réelles à partir directement du dictionnaire arpitan ou en se servant des autres dictionnaires tels que le français ou l'italien. En travaillant ainsi on aura la possibilité d'entrer en profondeur dans la langue avec des phrases, tournures, dictons et synonymes et de se rendre compte de l'énorme richesse de notre culture. En outre, pourquoi pas ?, on pourra signaler des manques, proposer des notes et des nouveaux mots.
+
+Voyons maintenant quelques exemples de recherche.
+
+Le 19 octobre est le 292e jour de l'année (293e en cas d'année bissextile) du calendrier grégorien.
+
+Le 23 juin est le 174e jour de l'année (175e en cas d'année bissextile) du calendrier grégorien.
+
+Le 29 novembre est le 333e jour de l'année (334e en cas d'année bissextile) du calendrier grégorien.
+
+2 Girls 1 Cup, également Deux Filles Une Coupe en arpitan, est le nom de la bande-annonce du film Hungry Bitches. Dans la vidéo, deux filles font du caca dans une coupe, consomment la coupe, puis l'avalent dans la bouche. Cette bande-annonce est une vidéo devenue populaire sur le réseau, parce qu'elle est vue comme un des films les plus affreux sur la toile.
+
+Bâgé-le-Châtel, également Bâgé-le-Châtel, est une commune du département de l'Ain.
+
+Chambles[1],[2] [ˈtsã.blɒ][Note 1] (Chambles en français, Chambla[3] [ˈtsɑ̃.blɒ][Note 2],[1] en occitan) est une commune française et occitane du Forez, qui se trouve dans le département de la Loire en région Auvergne-Rhône-Alpes.
+
+Les habitants du village sont appelés les Chamblons [lu tsã.ˈblu] et les Chamblones [le tsã.ˈblyn][Note 3],[2].
+
+Le chat est un mammifère carnivore de la famille des félidés.
+
+David Woodard, né le 6 avril 1964 à Santa Barbara, Californie, est un écrivain et musicien américain.[1][2][3][4]
+
+Le drapeau de la Finlande est l'emblème national de la Finlande.
+
+Le drapeau est bicolore bleu et blanc.
+
+Courchevel [CFLL : Kourtsevé] (Courchevel en français) est une commune française et arpitane de Tarantaise, qui se trouve dans le département de la Savoie en région Auvergne-Rhône-Alpes.
+
+Elle est crée le 1er janvier 2017 sous le statut de commune nouvelle après la fusion des communes de Saint-Bon-Tarentaise et La Pèrriére.
+
+Les habitants du village sont appelés les Courchevelois et les Courcheveloises.
+
+L'Église orthodoxe de Constantinople est une Église orthodoxe autocéphale. Le chef de l'Église porte le titre d'Archevêque de Constantinople, nouvelle Rome et Patriarche œcuménique, avec résidence au Phanar à Istanbul (anciennement Constantinople) en Turquie (titulaire actuel : Sa Sainteté Bartholomée Ier depuis le 2 novembre 1991).
+
+L'Émilie-Romagne[Note 1] [e.mi.ˈlja ʁɔ.ˈmaɲ][Note 2] ou bien l'Émilie-Romagne [e.mi.ˈli ʁɔ.ˈmaɲ][Note 3] (Emilia-Romagna [e.ˈmiː.lja ro.ˈmaɲ.ɲa] en italien, Emégglia-Rumâgna, Emélia-Rumàgna, Emélia-Rumâgna, Emilja-Româgna ou bien Emilia-Rumagna en èmilien, Emèlia-Rumâgna en romagnol) est une région d'Italie nord-orientale. La capitale régionale est la ville de Bologne.
+
+Les habitants de la région sont appelés les Émiliens [luz e.mi.ˈljɛ̃] et les Émiliennes [lez e.mi.ˈljeːn][Note 4] pour l'Émilie et puis les Romagnols [lu ʁɔ.ma.ˈɲɔl] et les Romagnoles [le ʁɔ.ma.ˈɲɔːl][Note 5] pour la Romagne.
+
+Estavayer est une commune suisse et arpitane du canton de Fribourg.
+
+Le 1er janvier 2017, la commune est créée.
+
+Étoile des neiges est une chanson de l'an 1947 en langue française. Les paroles sont écrites par Jacques Plante et puis la musique est faite en 1944 par Franz Winkler. La chanson est très connue en Savoie.
+
+Youhana Yazigi, né en 1955 à Lattaquié, dans le nord-ouest de la Syrie, est l'actuel et 158e patriarche de l'église orthodoxe d'Antioche depuis son élection comme patriarche d'Antioche et de tout le Levant le 17 décembre 2012, sous le nom de Jean X d'Antioche.
+
+Lavaldens [Note 1] (Lavaldens en français) est une commune française et arpitane du Dauphiné, qui se trouve dans le département de l'Isère en région Auvergne-Rhône-Alpes.
+
+Lavaux[1],[2] [la vo][1],[2] (Lavaux en français) est une région viticole suisse et arpitane du canton de Vaud, connue pour ses vignobles en terrasses à rive nord du lac Léman entre Lausanne et Vevey. Le 28 juin 2007, Lavaux rentre au classement du patrimoine mondial de l'humanité de l'UNESCO[3].
+
+Il est dans le district de Lavaux-Oron.
+
+Le Lac de Neuchâtel est un grand lac de la Suisse.
+
+L'Hôpital-sous-Rochefort[Note 1],[1],[3] [lɔ.pi.ˈtɛr][Note 2],[4] (L'Hôpital-sous-Rochefort en français) est une commune française et arpitane du Forez, qui se trouve dans le département de la Loire en région Auvergne-Rhône-Alpes.
+
+Les habitants du village sont appelés les Pitarlas [lu pi.tɒr.ˈla] et les Pitarlases [le pi.tɒr.ˈlat][Note 3],[3].
+
+L'euro est la monnaie de l'Irlande depuis le 1er janvier 2002.
+
+Peyraud (Peyraud en français) est une commune française et arpitane du Vivarais, que se trouve dans le département de l'Ardèche en région Auvergne-Rhône-Alpes.
+
+Le Rhin (en latin Rhenus, en allemand Rhein, en français Rhin, en suisse allemand Rhy) est un fleuve européen.
+
+Le fleuve est long de 1233 kilomètres. Du lac de Toma dans les Alpes il traverse la Suisse, l'Autriche, le lac de Constance et coule entre la Suisse et l'Allemagne. À Bâle il remonte vers le nord et forme la frontière de la France et de l'Allemagne avec la Rhénanie. Sur le territoire des Pays-Bas il va dans la Mer du Nord.
+
+La « Secousse de Harlem », « The Harlem Shake » en anglais, est une vidéo dans laquelle on voit une bande de gens danser sur un fragment de chanson Harlem Shake, une musique électronique du compositeur américain Baauer.
+
+La Sicile [sə.ˈsiː.la] ou bien la Sicile[Note 1] [si.ˈsiː.la] (Sicilia [si.ˈtʃiː.lja] en italien, Sicìlia en sicilien) est une île de la mer Méditerranée et puis une région autonome à statut spécial d'Italie insulaire, qui se trouve au midi de l'Italie continentale, au sud-est de la Sardaigne, au nord-est de la Tunisie et au nord de Malte. La capitale régionale est la ville de Palerme.
+
+Les habitants de la région sont appelés les Siciliens [lu sə.si.ˈljɛ̃] et les Siciliennes [le sə.si.ˈljeːn][Note 2].
+
+Saint-Jean-Soleymieux[Note 1],[1],[2] [sɛ̃ dzɥã sy.le.ˈmi][1],[3],[4] (Saint-Jean-Soleymieux en français) ou bien plus simplement Saint-Jean[1],[2] [sɛ̃ dzɥã][3],[4] est une commune française et arpitane du Forez, qui se trouve dans le département de la Loire en région Auvergne-Rhône-Alpes.
+
+Les habitants du village sont appelés les Saint-Joinards [lu sɛ̃ dzɥa.ˈnaːr] et les Saint-Joinardes [le sɛ̃ dzɥa.ˈnaːrd][Note 2],[2].
+
+Cessy[1][2][3] [sɛ.ˈsi] (Cessy en français) est une commune française et arpitane du pays de Gex, qui se trouve dans le département de l'Ain en région Auvergne-Rhône-Alpes.
+
+Les habitants du bourg sont appelés les Cessiens [le ðɛ də sɛ.ˈsi][Note 1][2].
+
+Varsovie (en polonais Warszawa, de Wars et Zawa) est la plus grande ville et la capitale de la Pologne, 1 758 143 hab. (2017).
+
+Vex est une commune du canton du Valais.
+
+La commune qui est située dans les Alpes et dans le District d'Hérens, comprend les villages de Vex, Les Collons, Les Prasses et Ypresses et puis la station de sports d'hiver Thyon 2000.
+
+La commune est sur la rivière Borgne. Dans le vallée se trouve la station hydro-électrique de Bramois construite 1914-1915 par l'industrie Alusuisse.[1]
+
+Le Zimbabwe est un pays d'Afrique.
