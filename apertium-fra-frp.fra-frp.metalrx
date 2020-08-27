@@ -2830,6 +2830,7 @@
       <match lemma="cela" tags="prn.*"><select lemma="cen"/></match>
       <match lemma="ceci" tags="prn.*"><select lemma="cen"/></match>
       <match lemma="ce" tags="prn.*"><select lemma="cen"/></match>
+      <match lemma="ça" tags="prn.*"><select lemma="cen"/></match>
     </or>
   </rule>
   <rule weight="1.0">
