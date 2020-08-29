@@ -1300,28 +1300,135 @@
   <rule weight="0.8">
     <match lemma="chèrn" tags="n.*"><select lemma="chair"/></match>
   </rule>
-  <rule weight="1.0"> <!-- PENDENT de traduir i de duplicar/invertir -->
+  <rule weight="1.0">
     <match lemma="chèrn" tags="n.*"><select lemma="viande"/></match>
     <repeat from="0" upto="6">
       <match/>
     </repeat>
     <or>
-      <match lemma="manger" tags="vblex.*"/>
-      <match lemma="cuire" tags="vblex.*"/>
+      <match lemma="megiér" tags="vblex.*"/>
+      <match lemma="mengiér" tags="vblex.*"/>
+      <match lemma="couére" tags="vblex.*"/>
+      <match lemma="recouére" tags="vblex.*"/>
       <match lemma="frire" tags="vblex.*"/>
-      <match lemma="bouillir" tags="vblex.*"/>
-      <match lemma="préparer" tags="vblex.*"/>
-      <match lemma="hacher" tags="vblex.*"/>
-      <match lemma="salate" tags="n.*"/>
-      <match lemma="soupe" tags="n.*"/>
-      <match lemma="pomme# de terre" tags="n.*"/>
+      <match lemma="frecassiér" tags="vblex.*"/>
+      <match lemma="bolyir" tags="vblex.*"/>
+      <match lemma="prèparar" tags="vblex.*"/>
+      <match lemma="parar" tags="vblex.*"/>
+      <match lemma="chaplar" tags="vblex.*"/>
+      <match lemma="hâchiér" tags="vblex.*"/>
+      <match lemma="dèjon" tags="n.*"/>
+      <match lemma="dèjonon" tags="n.*"/>
+      <match lemma="denâ" tags="n.*"/>
+      <match lemma="dèjonar" tags="vblex.*"/>
+      <match lemma="denar" tags="vblex.*"/>
+      <match lemma="dinar" tags="vblex.*"/>
+      <match lemma="repâs" tags="n.*"/>
+      <match lemma="souye" tags="n.*"/>
+      <match lemma="marenda" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="cenar" tags="n.*"/>
+      <match lemma="sopar" tags="n.*"/>
+      <match lemma="sopar" tags="vblex.*"/>
+      <match lemma="soupa" tags="n.*"/>
+      <match lemma="papèt" tags="n.*"/>
+      <match lemma="salata" tags="n.*"/>	<!-- VERIFIER : pas dans les dicos -->
+      <match lemma="ruti" tags="n.*"/>
+      <match lemma="ruti" tags="adj.*"/>
+      <match lemma="rutir" tags="vblex.*"/>
+      <match lemma="tarteflla" tags="n.*"/>
+      <match lemma="catrolye" tags="n.*"/>
+      <match lemma="trufa" tags="n.*"/>
+      <match lemma="truflla" tags="n.*"/>
+      <match lemma="poma# de tèrra" tags="n.*"/>
+      <match lemma="perét# de tèrra" tags="n.*"/>
+      <match lemma="patenalye" tags="n.*"/>
+      <match lemma="passenâda" tags="n.*"/>
+      <match lemma="passenalye" tags="n.*"/>
+      <match lemma="pastenalye" tags="n.*"/>
+      <match lemma="carota" tags="n.*"/>
       <match lemma="plat" tags="n.*"/>
-      <match lemma="porc" tags="n.*"/>
+      <match lemma="platél" tags="n.*"/>
+      <match lemma="pan" tags="n.*"/>
+      <match lemma="vin" tags="n.*"/>
+      <match lemma="biére" tags="n.*"/>
+      <match lemma="bire" tags="n.*"/>
+      <match lemma="cayon" tags="n.*"/>
+      <match lemma="puerc" tags="n.*"/>
       <match lemma="mouton" tags="n.*"/>
-      <match lemma="agneau" tags="n.*"/>
-      <match lemma="boeuf" tags="n.*"/>
-      <match lemma="veau" tags="n.*"/>
+      <match lemma="agnél" tags="n.*"/>
+      <match lemma="belin" tags="n.*"/>
+      <match lemma="bôf" tags="n.*"/>
+      <match lemma="buef" tags="n.*"/>
+      <match lemma="vel" tags="n.*"/>
+      <match lemma="dinda" tags="n.*"/>
+      <match lemma="piota" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="megiér" tags="vblex.*"/>
+      <match lemma="mengiér" tags="vblex.*"/>
+      <match lemma="couére" tags="vblex.*"/>
+      <match lemma="recouére" tags="vblex.*"/>
+      <match lemma="frire" tags="vblex.*"/>
+      <match lemma="frecassiér" tags="vblex.*"/>
+      <match lemma="bolyir" tags="vblex.*"/>
+      <match lemma="prèparar" tags="vblex.*"/>
+      <match lemma="parar" tags="vblex.*"/>
+      <match lemma="chaplar" tags="vblex.*"/>
+      <match lemma="hâchiér" tags="vblex.*"/>
+      <match lemma="dèjon" tags="n.*"/>
+      <match lemma="dèjonon" tags="n.*"/>
+      <match lemma="denâ" tags="n.*"/>
+      <match lemma="dèjonar" tags="vblex.*"/>
+      <match lemma="denar" tags="vblex.*"/>
+      <match lemma="dinar" tags="vblex.*"/>
+      <match lemma="repâs" tags="n.*"/>
+      <match lemma="souye" tags="n.*"/>
+      <match lemma="marenda" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="cenar" tags="n.*"/>
+      <match lemma="sopar" tags="n.*"/>
+      <match lemma="sopar" tags="vblex.*"/>
+      <match lemma="soupa" tags="n.*"/>
+      <match lemma="papèt" tags="n.*"/>
+      <match lemma="salata" tags="n.*"/>	<!-- VERIFIER : pas dans les dicos -->
+      <match lemma="ruti" tags="n.*"/>
+      <match lemma="ruti" tags="adj.*"/>
+      <match lemma="rutir" tags="vblex.*"/>
+      <match lemma="tarteflla" tags="n.*"/>
+      <match lemma="catrolye" tags="n.*"/>
+      <match lemma="trufa" tags="n.*"/>
+      <match lemma="truflla" tags="n.*"/>
+      <match lemma="poma# de tèrra" tags="n.*"/>
+      <match lemma="perét# de tèrra" tags="n.*"/>
+      <match lemma="patenalye" tags="n.*"/>
+      <match lemma="passenâda" tags="n.*"/>
+      <match lemma="passenalye" tags="n.*"/>
+      <match lemma="pastenalye" tags="n.*"/>
+      <match lemma="carota" tags="n.*"/>
+      <match lemma="plat" tags="n.*"/>
+      <match lemma="platél" tags="n.*"/>
+      <match lemma="pan" tags="n.*"/>
+      <match lemma="vin" tags="n.*"/>
+      <match lemma="biére" tags="n.*"/>
+      <match lemma="bire" tags="n.*"/>
+      <match lemma="cayon" tags="n.*"/>
+      <match lemma="puerc" tags="n.*"/>
+      <match lemma="mouton" tags="n.*"/>
+      <match lemma="agnél" tags="n.*"/>
+      <match lemma="belin" tags="n.*"/>
+      <match lemma="bôf" tags="n.*"/>
+      <match lemma="buef" tags="n.*"/>
+      <match lemma="vel" tags="n.*"/>
+      <match lemma="dinda" tags="n.*"/>
+      <match lemma="piota" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match/>
+    </repeat>
+    <match lemma="chèrn" tags="n.*"><select lemma="viande"/></match>
   </rule>
 
   <!-- cibar/chiba >> cible, but -->
