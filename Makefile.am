@@ -243,11 +243,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . fra-frp | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Apertium est un logiciel de traduction automatique." | apertium -d . fra-frp | tee .test-mt
+	@echo "Apertium est una programerie de traduccion ôtomatica." > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . frp-fra | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Apertium est una programerie de traduccion ôtomatica." | apertium -d . frp-fra | tee .test-mt
+	@echo "Apertium est un logiciel de traduction automatique." > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 

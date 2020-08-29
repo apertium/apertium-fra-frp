@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium French-Arpitan], [0.2.0], [hectoralos@gmail.com], [apertium-fra-frp], [http://wiki.apertium.org/wiki/Apertium-fra-frp])
+AC_INIT([Apertium French-Arpitan], [1.0.0], [hectoralos@gmail.com], [apertium-fra-frp], [http://wiki.apertium.org/wiki/Apertium-fra-frp])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
@@ -27,19 +27,13 @@ AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installe
 AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
 AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
 
-
-
-
-
-
-
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
 
 m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
-AP_CHECK_LING([1], [apertium-fra], [1.9.0])
-AP_CHECK_LING([2], [apertium-frp], [0.1.0])
+AP_CHECK_LING([1], [apertium-fra], [1.10.0])
+AP_CHECK_LING([2], [apertium-frp], [1.0.0])
 
 AP_MKINCLUDE
 
