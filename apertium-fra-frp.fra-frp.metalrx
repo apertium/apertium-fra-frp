@@ -2200,14 +2200,6 @@
     <match lemma="siège" tags="n.*"><select lemma="sièta"/></match>
   </rule>
 
-  <!-- sœur >> suèra, seror, sœr, sor -->
-  <rule weight="0.8">
-    <match lemma="sœur" tags="n.*"><select lemma="suèra"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="sœur" tags="n.*"><select lemma="sœr"/></match>
-    <match tags="np.ant.*"/>
-  </rule>
 
   <!-- seuil >> limita, lendâr -->
   <rule weight="0.8">
