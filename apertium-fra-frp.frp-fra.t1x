@@ -4884,6 +4884,7 @@
 
     <!-- REGLES CET NOM-CI/LÀ -->
 
+<!--
     <rule comment="REGLA: CE_DET NOM-CI > CETI NOM">
       <pattern>
         <pattern-item n="ce_det"/>
@@ -4989,6 +4990,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <!-- FIN REGLES CET NOM-CI/LÀ -->
 
