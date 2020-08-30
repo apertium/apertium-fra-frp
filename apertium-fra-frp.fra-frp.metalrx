@@ -2379,7 +2379,6 @@
       <match lemma="pleuvoir" tags="vblex.*.p3.sg"/>
       <match lemma="neiger" tags="vblex.*.p3.sg"/>
       <match lemma="geler" tags="vblex.*.p3.sg"/>
-      <match lemma="xxxfalloir" tags="vblex.*.p3.sg"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2395,7 +2394,6 @@
       <match lemma="pleuvoir" tags="vblex.pp.*"/>
       <match lemma="neiger" tags="vblex.pp.*"/>
       <match lemma="geler" tags="vblex.pp.*"/>
-      <match lemma="xxxfalloir" tags="vblex.pp.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2412,7 +2410,6 @@
       <match lemma="pleuvoir" tags="vblex.pp.*"/>
       <match lemma="neiger" tags="vblex.pp.*"/>
       <match lemma="geler" tags="vblex.pp.*"/>
-      <match lemma="xxxfalloir" tags="vblex.pp.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2428,7 +2425,6 @@
       <match lemma="pleuvoir" tags="vblex.inf"/>
       <match lemma="neiger" tags="vblex.inf"/>
       <match lemma="geler" tags="vblex.inf"/>
-      <match lemma="xxxfalloir" tags="vblex.inf"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2445,7 +2441,6 @@
       <match lemma="pleuvoir" tags="vblex.inf"/>
       <match lemma="neiger" tags="vblex.inf"/>
       <match lemma="geler" tags="vblex.inf"/>
-      <match lemma="xxxfalloir" tags="vblex.inf"/>
     </or>
   </rule>
   <rule weight="1.0">
