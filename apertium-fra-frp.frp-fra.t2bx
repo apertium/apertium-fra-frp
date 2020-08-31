@@ -32,6 +32,10 @@
       <cat-item lemma="encore" tags="SAdv"/>
       <cat-item lemma="encore" tags="SAdv.*"/>
     </def-cat>
+    <def-cat n="pas">
+      <cat-item lemma="pas" tags="SAdv"/>
+      <cat-item lemma="pas" tags="SAdv.*"/>
+    </def-cat>
     <def-cat n="pas_rien">
       <cat-item lemma="pas" tags="SAdv"/>
       <cat-item lemma="pas" tags="SAdv.*"/>
@@ -43,6 +47,12 @@
     <def-cat n="rien">
       <cat-item lemma="rien" tags="SPron"/>
       <cat-item lemma="rien" tags="SPron.*"/>
+    </def-cat>
+    <def-cat n="personne_aucun">
+      <cat-item lemma="personne" tags="SPron"/>
+      <cat-item lemma="personne" tags="SPron.*"/>
+      <cat-item lemma="aucun" tags="SPron"/>
+      <cat-item lemma="aucun" tags="SPron.*"/>
     </def-cat>
     <def-cat n="jamais">
       <cat-item lemma="jamais" tags="SAdv"/>
@@ -288,6 +298,43 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: personne SV pas > personne ne SV">
+      <pattern>
+        <pattern-item n="personne_aucun"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="pas"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="2"/>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -634,6 +681,50 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: personne SPron_pro SV pas > personne SPron_pro ne SV">
+      <pattern>
+        <pattern-item n="personne_aucun"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="pas"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SPron_pro SPron_pro SV pas > ne SPron_pro SPron_pro SV pas">
       <pattern>
         <pattern-item n="SPron_pro"/>
@@ -674,6 +765,57 @@
             <clip pos="3" part="chcontent"/>
           </chunk>
           <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+        <let><var n="fifrase"/><lit v="no"/></let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: personne SPron_pro SPron_pro SV pas > personne ne SPron_pro SPron_pro SV">
+      <pattern>
+        <pattern-item n="personne_aucun"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SPron_pro"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="pas_rien"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="SAdv"/>
+            <lit v="{^"/>
+            <get-case-from pos="2">
+              <lit v="ne"/>
+            </get-case-from>
+            <lit-tag v="adv"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
           <chunk>
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
