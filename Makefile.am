@@ -28,6 +28,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
+	$(PREFIX2).autosep1.bin	\
+	$(PREFIX2).autosep2.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).t1x.bin	\
@@ -86,6 +88,11 @@ $(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 $(PREFIX1).autosep1.bin: $(BASENAME).$(PREFIX1).l1x
 	lsx-comp lr $< $@
 $(PREFIX1).autosep2.bin: $(BASENAME).$(PREFIX1).l2x
+	lsx-comp lr $< $@
+
+$(PREFIX2).autosep1.bin: $(BASENAME).$(PREFIX2).l1x
+	lsx-comp lr $< $@
+$(PREFIX2).autosep2.bin: $(BASENAME).$(PREFIX2).l2x
 	lsx-comp lr $< $@
 
 ###############################################################################
