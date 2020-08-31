@@ -2651,7 +2651,7 @@
           <append n="pronom">
             <lit v="^"/>
             <lit v="prn"/>
-            <lit-tag v="SPron.pref"/>
+            <lit-tag v="SPron.pro"/>
             <lit v="{"/>
           </append>
           <choose>
