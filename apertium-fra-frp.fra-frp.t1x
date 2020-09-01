@@ -6916,6 +6916,7 @@
        </action>
     </rule>
 
+<!--
     <rule comment="REGLA: PERSONNE NE VERB (personne ne dit: nion desét pas)">
       <pattern>
         <pattern-item n="personne"/>
@@ -6954,6 +6955,7 @@
          </out>
       </action>
     </rule>
+-->
 
 <!--
     <rule comment="REGLA: NE AVOIR RIEN PP > AVER PAS PP RES: Jean n'a rien dit > Jean a diz pas res">
