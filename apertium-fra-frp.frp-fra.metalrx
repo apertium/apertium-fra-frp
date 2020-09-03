@@ -33,6 +33,7 @@
         <or>
           <match tags="num.*"/>
           <match lemma="Iiér" tags="adj.*"/>
+          <match lemma="Iér" tags="adj.*"/>
           <match lemma="II" tags="num.*"/>
           <match lemma="III" tags="num.*"/>
           <match lemma="IV" tags="num.*"/>
@@ -71,6 +72,7 @@
         <or>
           <match tags="num.*"/>
           <match lemma="Iiér" tags="adj.*"/>
+          <match lemma="Iér" tags="adj.*"/>
           <match lemma="II" tags="num.*"/>
           <match lemma="III" tags="num.*"/>
           <match lemma="IV" tags="num.*"/>
@@ -2210,7 +2212,9 @@
 <!-- **************** NP **************** -->
 
   <macro name="noms_propres" p1="Charlo" p2="Charles" />
+  <macro name="noms_propres" p1="Chârlo" p2="Charles" />
   <macro name="noms_propres" p1="Èdouard" p2="Édouard" />
+  <macro name="noms_propres" p1="Felepo" p2="Philippe" />
   <macro name="noms_propres" p1="Filipo" p2="Philippe" />
   <macro name="noms_propres" p1="Françouès" p2="François" />
   <macro name="noms_propres" p1="Frèdèric" p2="Frédéric" />
