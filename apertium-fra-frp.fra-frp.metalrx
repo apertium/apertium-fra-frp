@@ -4122,6 +4122,29 @@
     <match lemma="réputation" tags="n.*"/>
   </rule>
 
+  <!-- entrer >> entrar, enfatar -->
+  <rule weight="0.8">
+    <match lemma="entrer" tags="vblex.*"><select lemma="entrar"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="entrer" tags="vblex.*"><select lemma="enfatar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match tags="det.*"/>
+    </or>
+    <or>
+      <match lemma="texte" tags="n.*"/>
+      <match lemma="mot# de passe" tags="n.*"/>
+      <match lemma="mot" tags="n.*"/>
+      <match lemma="code" tags="n.*"/>
+      <match lemma="clé" tags="n.*"/>
+      <match lemma="clef" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- ériger >> construire, èlevar -->
   <macro name="verb_prep" p1="ériger" p2="construire" p3="en" p4="èlevar" />
 

@@ -2077,6 +2077,36 @@
     <match lemma="cotar" tags="vblex.*"><select lemma="étayer"/></match>
   </rule>
 
+  <!-- enfatar >> enfiler, empocher, entrer -->
+  <!-- encafar >> enfiler, empocher, entrer -->
+  <rule weight="0.8">
+    <or>
+      <match lemma="enfatar" tags="vblex.*"><select lemma="enfiler"/></match>
+      <match lemma="encafar" tags="vblex.*"><select lemma="enfiler"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="enfatar" tags="vblex.*"><select lemma="entrer"/></match>
+      <match lemma="encafar" tags="vblex.*"><select lemma="entrer"/></match>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match tags="det.*"/>
+    </or>
+    <or>
+      <match lemma="tèxto" tags="n.*"/>
+      <match lemma="mot" tags="n.*"/>
+      <match lemma="parola" tags="n.*"/>
+      <match lemma="code" tags="n.*"/>
+      <match lemma="codo" tags="n.*"/>
+      <match lemma="cllâf" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- engolar >> avaler, engueuler -->
   <macro name="verb_nopron_pron" p1="engolar" p2="avaler" p3="engueuler" />
   <rule weight="1.4">
