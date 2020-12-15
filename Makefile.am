@@ -2,7 +2,6 @@
 ## Makefile for French--frp
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=fra
 LANG2=frp
 PREFIX1=$(LANG1)-$(LANG2)
@@ -257,4 +256,3 @@ test: all
 	@echo "Apertium est un logiciel de traduction automatique." > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
