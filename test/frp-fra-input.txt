@@ -1,0 +1,1 @@
+Apertium est una programerie de traduccion ôtomatica.

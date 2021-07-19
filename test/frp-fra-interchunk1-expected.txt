@@ -1,0 +1,2 @@
+[3k0UQF_Se0co#0] ^np<SN><m><sg><sl_m><sl_sg>{^Apertium<np><al><m><sg>$}$ ^être<SV><vbser><pri><p3><sg>{^être<vbser><pri><p3><sg>$}$ ^det<Det><ind><m><sg><sl_f><sl_sg>{^un<det><ind><m><sg>$}$ ^n<SN><m><sg><sl_f><sl_sg>{^logiciel<n><m><sg>$}$ ^de<PREP>{^de<pr>$}$ ^n_a<SN><f><sg><sl_f><sl_sg>{^traduction<n><f><sg>$ ^automatique<adj><mf><sg>$}$^sent<SENT>{^.<sent>$}$
+[/3k0UQF_Se0co]

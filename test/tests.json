@@ -1,0 +1,10 @@
+{
+    "fra-frp": {
+        "input": "fra-frp-input.txt",
+        "mode": "fra-frp"
+    },
+    "frp-fra": {
+        "input": "frp-fra-input.txt",
+        "mode": "frp-fra"
+    }
+}

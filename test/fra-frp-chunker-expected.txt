@@ -1,0 +1,2 @@
+[o5L6Kxu4mdLX#0] ^np<SN><m><sg><sl_m><sl_sg>{^Apertium<np><al><m><sg>$}$ ^verb<SV><vbser>{^étre<vbser><pri><p3><sg>$}$ ^det<Det><ind><f><sg><sl_m><sl_sg>{^un<det><ind><f><sg>$}$ ^n<SN><f><sg><sl_m><sl_sg>{^programerie<n><f><sg>$}$ ^de<PREP>{^de<pr>$}$ ^n_a<SN><f><sg><sl_f><sl_sg>{^traduccion<n><f><sg>$ ^ôtomatico<adj><f><sg>$}$^sent<SENT>{^.<sent>$}$
+[/o5L6Kxu4mdLX]

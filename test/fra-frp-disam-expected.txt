@@ -1,0 +1,2 @@
+[o5L6Kxu4mdLX#0] ^Apertium/Apertium<np><al><m><sg>$ ^est/être<vbser><pri><p3><sg>$ ^un/un<det><ind><m><sg>$ ^logiciel/logiciel<n><m><sg>$ ^de/de<pr>$ ^traduction/traduction<n><f><sg>$ ^automatique/automatique<adj><mf><sg>$^./.<sent>$
+[/o5L6Kxu4mdLX]

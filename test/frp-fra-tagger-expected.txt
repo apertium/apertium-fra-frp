@@ -1,0 +1,2 @@
+[3k0UQF_Se0co#0] ^Apertium<np><al><m><sg>$ ^étre<vbser><pri><p3><sg>$ ^un<det><ind><f><sg>$ ^programerie<n><f><sg>$ ^de<pr>$ ^traduccion<n><f><sg>$ ^ôtomatico<adj><f><sg>$^.<sent>$
+[/3k0UQF_Se0co]
