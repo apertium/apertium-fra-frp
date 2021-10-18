@@ -25,22 +25,22 @@
   </sdefs>
   <pardefs>
     <pardef n="adv">
-      <e><i><w/><s n="adv"/><j/></i></e>
-      <e><i><w/><s n="adv"/><t/><j/></i></e>
-      <e><i><w/><s n="adv"/><j/><w/><s n="adv"/><j/></i></e>
-      <e><i><w/><s n="adv"/><j/><w/><s n="adv"/><t/><j/></i></e>
-      <e><i><w/><s n="adv"/><t/><j/><w/><s n="adv"/><j/></i></e>
-      <e><i><w/><s n="adv"/><t/><j/><w/><s n="adv"/><t/><j/></i></e>
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><t/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
+      <e><i><w/><s n="adv"/><t/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><t/><d/><w/><s n="adv"/><t/><d/></i></e>
     </pardef>
     <pardef n="pas">
-      <e><i>pas<s n="adv"/><j/></i></e>
-      <e><i>jamés<s n="adv"/><j/></i></e>
-      <e><i>tojorn<s n="adv"/><j/></i></e>
-      <e><i>adés<s n="adv"/><j/></i></e>
+      <e><i>pas<s n="adv"/><d/></i></e>
+      <e><i>jamés<s n="adv"/><d/></i></e>
+      <e><i>tojorn<s n="adv"/><d/></i></e>
+      <e><i>adés<s n="adv"/><d/></i></e>
     </pardef>
     <pardef n="adj_pp">
-      <e><i><w/><s n="adj"/><t/><j/></i></e>
-      <e><i><w/><s n="vblex"/><s n="pp"/><t/><j/></i></e>
+      <e><i><w/><s n="adj"/><t/><d/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pp"/><t/><d/></i></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -48,105 +48,105 @@
     <!-- vblex n -->
 
     <e lm="avoir besoin">
-      <p><l>avoir<s n="vblex"/><t/><g><b/>besoin</g><j/></l><r>avoir<s n="vblex"/><t/><j/></r></p>
+      <p><l>avoir<s n="vblex"/><t/><g><b/>besoin</g><d/></l><r>avoir<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>besoin<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>besoin<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="faire attention">
-      <p><l>faire<s n="vblex"/><t/><g><b/>attention</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>attention</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>attention<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>attention<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="faire bombance">
-      <p><l>faire<s n="vblex"/><t/><g><b/>bombance</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>bombance</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>bombance<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>bombance<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="faire grâce">
-      <p><l>faire<s n="vblex"/><t/><g><b/>grâce</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>grâce</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>grâce<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>grâce<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="faire honte">
-      <p><l>faire<s n="vblex"/><t/><g><b/>honte</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>honte</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>honte<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>honte<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="rendre hommage">
-      <p><l>rendre<s n="vblex"/><t/><g><b/>hommage</g><j/></l><r>rendre<s n="vblex"/><t/><j/></r></p>
+      <p><l>rendre<s n="vblex"/><t/><g><b/>hommage</g><d/></l><r>rendre<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>hommage<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>hommage<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="tourner casaque">
-      <p><l>tourner<s n="vblex"/><t/><g><b/>casaque</g><j/></l><r>tourner<s n="vblex"/><t/><j/></r></p>
+      <p><l>tourner<s n="vblex"/><t/><g><b/>casaque</g><d/></l><r>tourner<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>casaque<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>casaque<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <!-- vblex inf -->
 
     <e lm="faire frire">
-      <p><l>faire<s n="vblex"/><t/><g><b/>frire</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>frire</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>frire<s n="vblex"/><s n="inf"/><j/></r></p>
+      <p><l></l><r>frire<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <!-- vblex det n -->
 
     <e lm="faire la sieste">
-      <p><l>faire<s n="vblex"/><t/><g><b/>la<b/>sieste</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>la<b/>sieste</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/></r></p>
-      <p><l></l><r>sieste<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>sieste<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <!-- vblex det n pr -->
 
     <e lm="faire l'objet de">
-      <p><l>faire<s n="vblex"/><t/><g><b/>l'objet<b/>de</g><j/></l><r>faire<s n="vblex"/><t/><j/></r></p>
+      <p><l>faire<s n="vblex"/><t/><g><b/>l'objet<b/>de</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/></r></p>
-      <p><l></l><r>objet<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
-      <p><l></l><r>de<s n="pr"/><j/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>objet<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
     </e>
 
     <!-- vblex pr n -->
 
     <e lm="fermer à clé">
-      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clé</g><j/></l><r>fermer<s n="vblex"/><t/><j/></r></p>
+      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clé</g><d/></l><r>fermer<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><j/></r></p>
-      <p><l></l><r>clé<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>à<s n="pr"/><d/></r></p>
+      <p><l></l><r>clé<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="fermer à clef">
-      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clef</g><j/></l><r>fermer<s n="vblex"/><t/><j/></r></p>
+      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clef</g><d/></l><r>fermer<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><j/></r></p>
-      <p><l></l><r>clef<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>à<s n="pr"/><d/></r></p>
+      <p><l></l><r>clef<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="mettre sur pied">
-      <p><l>mettre<s n="vblex"/><t/><g><b/>sur<b/>pied</g><j/></l><r>mettre<s n="vblex"/><t/><j/></r></p>
+      <p><l>mettre<s n="vblex"/><t/><g><b/>sur<b/>pied</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>sur<s n="pr"/><j/></r></p>
-      <p><l></l><r>pied<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l></l><r>sur<s n="pr"/><d/></r></p>
+      <p><l></l><r>pied<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
     <!-- vblex pr det n -->
 
     <e lm="rire aux éclats">
-      <p><l>rire<s n="vblex"/><t/><g><b/>aux<b/>éclats</g><j/></l><r>rire<s n="vblex"/><t/><j/></r></p>
+      <p><l>rire<s n="vblex"/><t/><g><b/>aux<b/>éclats</g><d/></l><r>rire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><j/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><j/></r></p>
-      <p><l></l><r>éclat<s n="n"/><s n="m"/><s n="pl"/><j/></r></p>
+      <p><l></l><r>à<s n="pr"/><d/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><d/></r></p>
+      <p><l></l><r>éclat<s n="n"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
 </section>
