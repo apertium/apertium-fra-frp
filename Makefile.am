@@ -131,9 +131,11 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 ###############################################################################
@@ -189,8 +191,8 @@ $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 ###############################################################################
 
 EXTRA_DIST=					\
-		./deps/$(BASENAME).$(PREFIX1).lrx	\
-		./deps/$(BASENAME).$(PREFIX2).lrx	\
+		$(BASENAME).$(PREFIX1).lrx	\
+		$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).dix	\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
@@ -214,11 +216,11 @@ apertium_fra_frp_DATA=	\
 	$(BASENAME).$(PREFIX1).dix			\
 	$(BASENAME).$(PREFIX1).l1x			\
 	$(BASENAME).$(PREFIX1).l2x			\
-	$(BASENAME).$(PREFIX1).metalrx			\
+	$(BASENAME).$(PREFIX1).lrx			\
 	$(BASENAME).$(PREFIX1).t1x			\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
-	$(BASENAME).$(PREFIX2).metalrx			\
+	$(BASENAME).$(PREFIX2).lrx			\
 	$(BASENAME).$(PREFIX2).t1x			\
 	$(BASENAME).$(PREFIX2).t2ax			\
 	$(BASENAME).$(PREFIX2).t2bx			\

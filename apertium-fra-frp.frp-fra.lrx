@@ -2159,9 +2159,9 @@
     </repeat>
     <match tags="det.*"/>
     <or>
-      <match n="téta" tags="n.*"/>
-      <match n="man" tags="n.*"/>
-      <match n="pied" tags="n.*"/>
+      <match lemma="téta" tags="n.*"/>
+      <match lemma="man" tags="n.*"/>
+      <match lemma="pied" tags="n.*"/>
     </or>
   </rule>
 
@@ -2255,7 +2255,7 @@
   <macro n="noms_propres"><with-param v="Felepo"/><with-param v="Philippe"/></macro>
   <macro n="noms_propres"><with-param v="Filipo"/><with-param v="Philippe"/></macro>
   <macro n="noms_propres"><with-param v="Françouès"/><with-param v="François"/></macro>
-  <macro n="noms_propres"><with-param v="Frèdèric"/><with-param v="Frédéric"/></macro>
+  <macro n="noms_propres"><with-param v="Frèdèric"/><with-param v="Frédéric"/></macro>
   <macro n="noms_propres"><with-param v="Hanri"/><with-param v="Henri"/></macro>
   <macro n="noms_propres"><with-param v="Jâque"/><with-param v="Jacques"/></macro>
   <macro n="noms_propres"><with-param v="Jian"/><with-param v="Jean"/></macro>
@@ -2277,33 +2277,33 @@
   <macro n="noms_propres"><with-param v="Ètièno"/><with-param v="Étienne"/></macro>
   <macro n="noms_propres"><with-param v="Reniér"/><with-param v="René"/></macro>
   <macro n="noms_propres"><with-param v="Renâ"/><with-param v="René"/></macro>
-  <macro n="noms_propres"><with-param v="Gregouère"/><with-param v="Grégoire"/></macro>
-  <macro n="noms_propres"><with-param v="Èmanuèl"/><with-param v="Emmanuel"/></macro>
+  <macro n="noms_propres"><with-param v="Gregouère"/><with-param v="Grégoire"/></macro>
+  <macro n="noms_propres"><with-param v="Èmanuèl"/><with-param v="Emmanuel"/></macro>
   <macro n="noms_propres"><with-param v="Bèrnârd"/><with-param v="Bernard"/></macro>
   <macro n="noms_propres"><with-param v="Jian-Pol"/><with-param v="Jean-Paul"/></macro>
-  <macro n="noms_propres"><with-param v="Benêt"/><with-param v="Benoît"/></macro>
+  <macro n="noms_propres"><with-param v="Benêt"/><with-param v="Benoît"/></macro>
   <macro n="noms_propres"><with-param v="Sixto"/><with-param v="Sixte"/></macro>
   <macro n="noms_propres"><with-param v="Inocent"/><with-param v="Innocent"/></macro>
   <macro n="noms_propres"><with-param v="Lion"/><with-param v="Léon"/></macro>
-  <macro n="noms_propres"><with-param v="Fèrnand"/><with-param v="Ferdinand"/></macro>
+  <macro n="noms_propres"><with-param v="Fèrnand"/><with-param v="Ferdinand"/></macro>
   <macro n="noms_propres"><with-param v="Richârd"/><with-param v="Richard"/></macro>
   <macro n="noms_propres"><with-param v="Alfonse"/><with-param v="Alphonse"/></macro>
-  <macro n="noms_propres"><with-param v="Rêmond"/><with-param v="Raymond"/></macro>
-  <macro n="noms_propres"><with-param v="Cllèment"/><with-param v="Clément"/></macro>
+  <macro n="noms_propres"><with-param v="Rêmond"/><with-param v="Raymond"/></macro>
+  <macro n="noms_propres"><with-param v="Cllèment"/><with-param v="Clément"/></macro>
   <macro n="noms_propres"><with-param v="Jôrjo"/><with-param v="Georges"/></macro>
   <macro n="noms_propres"><with-param v="Jorio"/><with-param v="Georges"/></macro>
-  <macro n="noms_propres"><with-param v="Antouèno"/><with-param v="Antoine"/></macro>
-  <macro n="noms_propres"><with-param v="Ugènia"/><with-param v="Eugénie"/></macro>
-  <macro n="noms_propres"><with-param v="Baldouin"/><with-param v="Baudouin"/></macro>
+  <macro n="noms_propres"><with-param v="Antouèno"/><with-param v="Antoine"/></macro>
+  <macro n="noms_propres"><with-param v="Ugènia"/><with-param v="Eugénie"/></macro>
+  <macro n="noms_propres"><with-param v="Baldouin"/><with-param v="Baudouin"/></macro>
   <macro n="noms_propres"><with-param v="Liopold"/><with-param v="Léopold"/></macro>
-  <macro n="noms_propres"><with-param v="Amèdê"/><with-param v="Amédée"/></macro>
+  <macro n="noms_propres"><with-param v="Amèdê"/><with-param v="Amédée"/></macro>
   <macro n="noms_propres"><with-param v="Rèmi"/><with-param v="Rémi"/></macro>
   <macro n="noms_propres"><with-param v="Robèrt"/><with-param v="Robert"/></macro>
   <macro n="noms_propres"><with-param v="Hugo"/><with-param v="Hugues"/></macro>
   <macro n="noms_propres"><with-param v="Urben"/><with-param v="Urbain"/></macro>
   <macro n="noms_propres"><with-param v="Fèlix"/><with-param v="Félix"/></macro>
-  <macro n="noms_propres"><with-param v="Filibèrt"/><with-param v="Philibert"/></macro>
-  <macro n="noms_propres"><with-param v="Sigimond"/><with-param v="Sigismond"/></macro>
+  <macro n="noms_propres"><with-param v="Filibèrt"/><with-param v="Philibert"/></macro>
+  <macro n="noms_propres"><with-param v="Sigimond"/><with-param v="Sigismond"/></macro>
   <macro n="noms_propres"><with-param v="Ansèlmo"/><with-param v="Anselme"/></macro>
   <macro n="noms_propres"><with-param v="Jèfrê"/><with-param v="Geoffroy"/></macro>
   <macro n="noms_propres"><with-param v="Gllôdo"/><with-param v="Claude"/></macro>
@@ -2317,8 +2317,8 @@
   <macro n="noms_propres"><with-param v="Isabèla"/><with-param v="Isabelle"/></macro>
   <macro n="noms_propres"><with-param v="Sofia"/><with-param v="Sophie"/></macro>
   <macro n="noms_propres"><with-param v="Louisa"/><with-param v="Louise"/></macro>
-  <macro n="noms_propres"><with-param v="Alionor"/><with-param v="Aliénor"/></macro>
-  <macro n="noms_propres"><with-param v="Èstèfania"/><with-param v="Stéphanie"/></macro>
+  <macro n="noms_propres"><with-param v="Alionor"/><with-param v="Aliénor"/></macro>
+  <macro n="noms_propres"><with-param v="Èstèfania"/><with-param v="Stéphanie"/></macro>
   <macro n="noms_propres"><with-param v="Iolanda"/><with-param v="Yolande"/></macro>
   <macro n="noms_propres"><with-param v="Bèatrice"/><with-param v="Béatrice"/></macro>
   <macro n="noms_propres"><with-param v="Diana"/><with-param v="Diane"/></macro>
