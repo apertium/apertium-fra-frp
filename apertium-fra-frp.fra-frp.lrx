@@ -2,34 +2,34 @@
 <lrx>
 
   <def-macros>
-    <def-macro name="noms_propres">
+    <def-macro n="noms_propres" npar="2">
       <rule weight="0.6">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="1"/></match>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match lemma="de" tags="pr"/>
        <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.ant.*"><select plemma="2"/></match>
        <match tags="np.ant.*"/>
        <match lemma="de" tags="pr"/>
        <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="det.*"/>
        <match tags="adj.*"/>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="np.ant.*"/>
        <match tags="det.*"/>
        <match tags="adj.*"/>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <or>
          <match tags="num.*"/>
          <match lemma="Ier" tags="adj.*"/>
@@ -77,7 +77,7 @@
        </or>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="np.ant.*"/>
        <or>
          <match tags="num.*"/>
@@ -158,7 +158,7 @@
          <match lemma="déesse" tags="n.*"/>
        </or>
        <match tags="np.ant.*"/>
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
        <or>
@@ -192,10 +192,10 @@
          <match lemma="dieu" tags="n.*"/>
          <match lemma="déesse" tags="n.*"/>
        </or>
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="cm"/>
        <or>
          <match lemma="pape" tags="n.*"/>
@@ -230,7 +230,7 @@
        </or>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="np.ant.*"/>
        <match tags="cm"/>
        <or>
@@ -275,7 +275,7 @@
          <match lemma="vice-royauté" tags="n.*"/>
        </or>
        <match lemma="de" tags="pr"/>
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
        <or>
@@ -288,17 +288,17 @@
        </or>
        <match lemma="de" tags="pr"/>
        <match tags="np.ant.*"/>
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <or>
          <match lemma="régner" tags="vblex.*"/>
          <match lemma="gouverner" tags="vblex.*"/>
        </or>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="np.*"><select plemma="2"/></match>
        <match tags="np.ant.*"/>
        <or>
          <match lemma="régner" tags="vblex.*"/>
@@ -308,36 +308,36 @@
     </def-macro>
 
     <!-- p1 verb fra, p2 verb cat estandard, p3 prep fra, p3 verb cat alternatiufra -->
-   <!-- <macro name="verb_prep" p1="chasser" p2="caçar" p3="de" p4="expulsar" /> -->
-    <def-macro name="verb_prep">
+   <!-- <macro n="verb_prep"><with-param v="chasser"/><with-param v="caçar"/><with-param v="de"/><with-param v="expulsar"/></macro> -->
+    <def-macro n="verb_prep" npar="4">
       <rule weight="0.6">
-       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+       <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
-       <match lemma="{{p3}}" tags="pr"/>
+       <match plemma="1" tags="vblex.*"><select plemma="4"/></match>
+       <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
+       <match plemma="1" tags="vblex.*"><select plemma="4"/></match>
        <match tags="adv"/>
-       <match lemma="{{p3}}" tags="pr"/>
+       <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-       <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p4}}"/></match>
+       <match plemma="1" tags="vblex.*"><select plemma="4"/></match>
        <match tags="adv"/>
        <match tags="adv"/>
-       <match lemma="{{p3}}" tags="pr"/>
+       <match plemma="3" tags="pr"/>
         </rule>
     </def-macro>
 
     <!-- p1 verbe fra, p2 locution verbale frp par défault terminée par une préposition, p3 verbe frp quand on a "p1.pp par" (ou bien une autre situation dans laquelle ne pas pas précéder une préposition) -->
-   <!-- <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" /> -->
-    <def-macro name="verb_locprep">
+   <!-- <macro n="verb_locprep"><with-param v="insérer"/><with-param v="betar# dens"/><with-param v="betar"/></macro> -->
+    <def-macro n="verb_locprep" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <repeat from="0" upto="2">
           <or>
             <match tags="adv"/>
@@ -355,10 +355,10 @@
           <match tags="n.*"/>
           <match tags="adj.*"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.2">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
         <repeat from="0" upto="2">
           <or>
             <match tags="adv"/>
@@ -373,12 +373,12 @@
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
     <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
     <!-- la manera de veure que el verb és transitiu és molt barroera -->
-    <def-macro name="verb_intrans_trans">
+    <def-macro n="verb_intrans_trans" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <repeat from="0" upto="2">
           <match tags="adv"/>
         </repeat>
@@ -389,7 +389,7 @@
       </rule>
       <rule weight="1.0">
         <match lemma="le" tags="prn.pro.*"/>
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <or>
@@ -397,86 +397,86 @@
           <match tags="adj.*"/>
           <match tags="vblex.pp.*"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb cat, p2 = verb fra no pron, p3 = verb fra pron -->
-    <def-macro name="verb_nopron_pron">
+    <def-macro n="verb_nopron_pron" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.sg"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.sg"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="3"/></match>
         </or>
       </rule>
       <rule weight="1.0">
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="3"/></match>
         </or>
         <match tags="prn.enc.ref.p3.*.sp"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.pl"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.pl"/>
       </rule>
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
         <match lemma="être" tags="vbser.*.p1.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
         <match lemma="être" tags="vbser.*.p2.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
         <match lemma="être" tags="vbser.*.p1.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
         <match lemma="être" tags="vbser.*.p2.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
@@ -484,63 +484,63 @@
           <match lemma="être" tags="vbser.*.p3.sg"/>
           <match lemma="être" tags="vbser.*.p3.pl"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal et suivi de 'que' -->
     <!-- p1 = verb cat, p2 = verb fra no pron, p3 = verb fra pron -->
-    <def-macro name="verb_nopron_pronque">
+    <def-macro n="verb_nopron_pronque" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.sg"/>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.sg"/>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="3"/></match>
         </or>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="3"/></match>
         </or>
         <match tags="prn.enc.ref.p3.*.sp"/>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.pl"/>
         <match lemma="que" tags="cnjsub"/>
       </rule>
@@ -548,25 +548,25 @@
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
         <match lemma="être" tags="vbser.*.p1.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
         <match lemma="être" tags="vbser.*.p2.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
         <match lemma="être" tags="vbser.*.p1.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
         <match lemma="être" tags="vbser.*.p2.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
       <rule weight="1.0">
@@ -575,30 +575,30 @@
           <match lemma="être" tags="vbser.*.p3.sg"/>
           <match lemma="être" tags="vbser.*.p3.pl"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         <match lemma="que" tags="cnjsub"/>
       </rule>
     </def-macro>
 
     <!-- Dans le cas où un verbe se traduit par verbe + adv, l'adverbe doit plutôt précéder ou suivre le verbe -->
     <!-- p1 = vblex langue source, p2 = adv + vblex (langue cible), p3 = vblex + adv (langue cible) -->
-    <def-macro name="verb_adv">
+    <def-macro n="verb_adv" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
     </def-macro>
 
     <!-- Dans le cas où un verbe se traduit par verbe + adj, l'adjectif doit s'accorder en genre et nombre. Cette macro est pour des adjectifs a 4 formes différentes -->
     <!-- p1 = vblex langue source, p2 = vblex + adj msg, p3 = vblex + adj mpl, p4 = vblex + adj fsg, p5 = vblex + adj fpl -->
-    <def-macro name="verb_adj4">
+    <def-macro n="verb_adj4" npar="5">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="3"/></match>
       </rule>
       <rule weight="1.2">
         <or>
@@ -609,7 +609,7 @@
         <repeat from="0" upto="1">
           <match tags="adv"/>
         </repeat>
-        <match lemma="{{p1}}" tags="vblex.*.sg"><select lemma="{{p4}}"/></match>
+        <match plemma="1" tags="vblex.*.sg"><select plemma="4"/></match>
       </rule>
       <rule weight="1.2">
         <or>
@@ -620,7 +620,7 @@
         <repeat from="0" upto="1">
           <match tags="adv"/>
         </repeat>
-        <match lemma="{{p1}}" tags="vblex.*.pl"><select lemma="{{p5}}"/></match>
+        <match plemma="1" tags="vblex.*.pl"><select plemma="5"/></match>
       </rule>
     </def-macro>
 
@@ -3812,7 +3812,7 @@
   </rule>
 
   <!-- aliéner >> cèdar, prononciér -->
-  <macro name="verb_nopron_pron" p1="aliéner" p2="cèdar" p3="changiér" />
+  <macro n="verb_nopron_pron"><with-param v="aliéner"/><with-param v="cèdar"/><with-param v="changiér"/></macro>
 
   <!-- articuler >> assemblar, prononciér -->
   <rule weight="0.8">
@@ -3842,13 +3842,13 @@
   </rule>
 
   <!-- assumer >> chargiér# de/ocupar# de, accèptar -->
-  <macro name="verb_locprep" p1="assumer" p2="chargiér# de" p3="accèptar" />
+  <macro n="verb_locprep"><with-param v="assumer"/><with-param v="chargiér# de"/><with-param v="accèptar"/></macro>
 
   <!-- baser >> fondar, enstalar -->
-  <macro name="verb_prep" p1="baser" p2="fondar" p3="à" p4="enstalar" />
+  <macro n="verb_prep"><with-param v="baser"/><with-param v="fondar"/><with-param v="à"/><with-param v="enstalar"/></macro>
 
   <!-- cadrer >> alar, cadrar -->
-  <macro name="verb_intrans_trans" p1="cadrer" p2="alar" p3="cadrar" />
+  <macro n="verb_intrans_trans"><with-param v="cadrer"/><with-param v="alar"/><with-param v="cadrar"/></macro>
 
   <!-- causer >> provocar, côsar -->
   <rule weight="0.8">
@@ -3877,7 +3877,7 @@
   </rule>
 
   <!-- classifier >> ben cllassiér, cllassiér# ben -->
-  <macro name="verb_adv" p1="classifier" p2="ben cllassiér" p3="cllassiér# ben" />
+  <macro n="verb_adv"><with-param v="classifier"/><with-param v="ben cllassiér"/><with-param v="cllassiér# ben"/></macro>
 
   <!-- commémorer >> fétar, rapelar -->
   <rule weight="0.8">
@@ -3913,7 +3913,7 @@
   </rule>
 
   <!-- déchaîner >> dèchênar, èxplosar -->
-  <macro name="verb_nopron_pron" p1="déchaîner" p2="dèchênar" p3="èxplosar" />
+  <macro n="verb_nopron_pron"><with-param v="déchaîner"/><with-param v="dèchênar"/><with-param v="èxplosar"/></macro>
 
   <!-- décoller >> dègllètar, dècôlar -->
   <rule weight="0.8">
@@ -3938,7 +3938,7 @@
   </rule>
 
   <!-- dérouler >> dèroular, passar -->
-  <macro name="verb_nopron_pron" p1="dérouler" p2="dèroular" p3="passar" />
+  <macro n="verb_nopron_pron"><with-param v="dérouler"/><with-param v="dèroular"/><with-param v="passar"/></macro>
 
   <!-- désobéir >> acutar# pas, ratachiér -->
   <rule weight="0.8">
@@ -3961,7 +3961,7 @@
   </rule>
 
   <!-- différer >> étre# difèrent, retardar -->
-  <macro name="verb_adj4" p1="différer" p2="étre# difèrent" p3="étre# difèrents" p4="étre# difèrente" p5="étre# difèrentes" />
+  <macro n="verb_adj4"><with-param v="différer"/><with-param v="étre# difèrent"/><with-param v="étre# difèrents"/><with-param v="étre# difèrente"/><with-param v="étre# difèrentes"/></macro>
   <rule weight="2.0">
     <match lemma="différer" tags="vblex.*"><select lemma="retardar"/></match>
     <repeat from="0" upto="2">
@@ -4089,7 +4089,7 @@
   </rule>
 
   <!-- éjecter >> champar# defôr, champar -->
-  <macro name="verb_locprep" p1="éjecter" p2="champar# defôr" p3="champar" />
+  <macro n="verb_locprep"><with-param v="éjecter"/><with-param v="champar# defôr"/><with-param v="champar"/></macro>
 
   <!-- entamer >> comenciér, entanar/entamar, atacar -->
   <rule weight="0.8">
@@ -4154,10 +4154,10 @@
   </rule>
 
   <!-- ériger >> construire, èlevar -->
-  <macro name="verb_prep" p1="ériger" p2="construire" p3="en" p4="èlevar" />
+  <macro n="verb_prep"><with-param v="ériger"/><with-param v="construire"/><with-param v="en"/><with-param v="èlevar"/></macro>
 
   <!-- établir >> ètablir, enstalar -->
-  <macro name="verb_nopron_pron" p1="établir" p2="ètablir" p3="enstalar" />
+  <macro n="verb_nopron_pron"><with-param v="établir"/><with-param v="ètablir"/><with-param v="enstalar"/></macro>
 
   <!-- étayer >> sotenir, cotar, acotar -->
   <rule weight="0.8">
@@ -4189,16 +4189,16 @@
   </rule>
 
   <!-- exceller >> étre# lo mèlyor, étre# los mèlyors, étre# la mèlyora, étre# les mèlyores -->
-  <macro name="verb_adj4" p1="exceller" p2="étre# lo mèlyor" p3="étre# los mèlyors" p4="étre# la mèlyora" p5="étre# les mèlyores" />
+  <macro n="verb_adj4"><with-param v="exceller"/><with-param v="étre# lo mèlyor"/><with-param v="étre# los mèlyors"/><with-param v="étre# la mèlyora"/><with-param v="étre# les mèlyores"/></macro>
 
   <!-- exclure >> betar# defôr, ècartar -->
-  <macro name="verb_locprep" p1="exclure" p2="betar# defôr" p3="ècartar" />
+  <macro n="verb_locprep"><with-param v="exclure"/><with-param v="betar# defôr"/><with-param v="ècartar"/></macro>
 
   <!-- expulser >> chaciér# defôr, chaciér -->
-  <macro name="verb_locprep" p1="expulser" p2="chaciér# defôr" p3="chaciér" />
+  <macro n="verb_locprep"><with-param v="expulser"/><with-param v="chaciér# defôr"/><with-param v="chaciér"/></macro>
 
   <!-- finaliser >> betar# bôna fin a, betar# bôna fin -->
-  <macro name="verb_locprep" p1="finaliser" p2="betar# bôna fin a" p3="betar# bôna fin" />
+  <macro n="verb_locprep"><with-param v="finaliser"/><with-param v="betar# bôna fin a"/><with-param v="betar# bôna fin"/></macro>
 
   <!-- frapper >> bouciér, etc. -->
   <rule weight="0.8">
@@ -4211,13 +4211,13 @@
   </rule>
 
   <!-- harmoniser >> mariar# ben, harmonisar -->
-  <macro name="verb_intrans_trans" p1="harmoniser" p2="mariar# ben" p3="harmonisar" />
+  <macro n="verb_intrans_trans"><with-param v="harmoniser"/><with-param v="mariar# ben"/><with-param v="harmonisar"/></macro>
 
   <!-- imaginer >> émaginar, imaginar ; pensar -->
-  <macro name="verb_nopron_pronque" p1="émaginar" p2="émaginar" p3="pensar" />
+  <macro n="verb_nopron_pronque"><with-param v="émaginar"/><with-param v="émaginar"/><with-param v="pensar"/></macro>
 
   <!-- implanter >> grèfar, emplantar -->
-  <macro name="verb_prep" p1="implanter" p2="grèfar" p3="à" p4="emplantar" />
+  <macro n="verb_prep"><with-param v="implanter"/><with-param v="grèfar"/><with-param v="à"/><with-param v="emplantar"/></macro>
 
   <!-- impliquer >> emplicar, molyér -->
   <rule weight="0.8">
@@ -4225,7 +4225,7 @@
   </rule>
 
   <!-- incendier >> betar# lo fuè, encendiyér -->
-  <macro name="verb_intrans_trans" p1="incendier" p2="betar# lo fuè" p3="betar# lo fuè a" />
+  <macro n="verb_intrans_trans"><with-param v="incendier"/><with-param v="betar# lo fuè"/><with-param v="betar# lo fuè a"/></macro>
   <rule weight="1.4">
     <match tags="vbser.*"/>
     <repeat from="0" upto="2">
@@ -4262,10 +4262,10 @@
   </rule>
 
   <!-- influencer >> pesar# sur, enfluenciér -->
-  <macro name="verb_locprep" p1="influencer" p2="pesar# sur" p3="enfluenciér" />
+  <macro n="verb_locprep"><with-param v="influencer"/><with-param v="pesar# sur"/><with-param v="enfluenciér"/></macro>
 
   <!-- ingérer >> engolar, entèrfèrar -->
-  <macro name="verb_nopron_pron" p1="ingérer" p2="engolar" p3="entèrfèrar" />
+  <macro n="verb_nopron_pron"><with-param v="ingérer"/><with-param v="engolar"/><with-param v="entèrfèrar"/></macro>
 
   <!-- initier >> comenciér, iniciér -->
   <rule weight="0.8">
@@ -4295,10 +4295,10 @@
   </rule>
 
   <!-- insérer >> betar# dens, betar -->
-  <macro name="verb_locprep" p1="insérer" p2="betar# dens" p3="betar" />
+  <macro n="verb_locprep"><with-param v="insérer"/><with-param v="betar# dens"/><with-param v="betar"/></macro>
 
   <!-- inventorier >> fâre# l'enventèro, fâre# l'enventèro de -->
-  <macro name="verb_intrans_trans" p1="inventorier" p2="fâre# l'enventèro" p3="fâre# l'enventèro de" />
+  <macro n="verb_intrans_trans"><with-param v="inventorier"/><with-param v="fâre# l'enventèro"/><with-param v="fâre# l'enventèro de"/></macro>
 
   <!-- jouer >> jouyér, menar -->
   <rule weight="0.8">
@@ -4377,13 +4377,13 @@
 -->
 
   <!-- moquer >> mourgar, mocar -->
-  <macro name="verb_nopron_pron" p1="moquer" p2="mourgar" p3="mocar" />
+  <macro n="verb_nopron_pron"><with-param v="moquer"/><with-param v="mourgar"/><with-param v="mocar"/></macro>
 
   <!-- nommer >> nomar, avêr# nom -->
-  <macro name="verb_nopron_pron" p1="nommer" p2="nomar" p3="avêr# nom" />
+  <macro n="verb_nopron_pron"><with-param v="nommer"/><with-param v="nomar"/><with-param v="avêr# nom"/></macro>
 
   <!-- orbiter >> veriér# utôrn, veriér# utôrn de, orbitar -->
-  <macro name="verb_intrans_trans" p1="orbiter" p2="veriér# utôrn" p3="veriér# utôrn de" />
+  <macro n="verb_intrans_trans"><with-param v="orbiter"/><with-param v="veriér# utôrn"/><with-param v="veriér# utôrn de"/></macro>
 
   <!-- parasiter >> parasitar, vivre# dens, vivre# dessus -->
   <rule weight="0.8">
@@ -4424,7 +4424,7 @@
   </rule>
 
   <!-- poursuivre >> porsiuvre, prolongiér, continuar -->
-  <macro name="verb_nopron_pron" p1="poursuivre" p2="perseguir" p3="prolongiér" />
+  <macro n="verb_nopron_pron"><with-param v="poursuivre"/><with-param v="perseguir"/><with-param v="prolongiér"/></macro>
   <rule weight="1.0">
     <match lemma="poursuivre" tags="vblex.*"><select lemma="continuar"/></match>
     <repeat from="0" upto="2">
@@ -4441,7 +4441,7 @@
   </rule>
 
   <!-- préparer >> prèparar, aprèstar -->
-  <macro name="verb_nopron_pron" p1="préparer" p2="prèparar" p3="aprèstar" />
+  <macro n="verb_nopron_pron"><with-param v="préparer"/><with-param v="prèparar"/><with-param v="aprèstar"/></macro>
 
   <!-- primer >> devanciér, rècompensar -->
   <rule weight="0.8">
@@ -4512,7 +4512,7 @@
   </rule>
 
   <!-- prostituer >> prostituar, fâre# la puta -->
-  <macro name="verb_nopron_pron" p1="prostituer" p2="prostituar" p3="fâre# la puta" />
+  <macro n="verb_nopron_pron"><with-param v="prostituer"/><with-param v="prostituar"/><with-param v="fâre# la puta"/></macro>
 
   <!-- provoquer >> provocar, mourgar -->
   <rule weight="0.8">
@@ -4557,10 +4557,10 @@
   </rule>
 
   <!-- réintroduire >> rebetar# dedens, rèentroduire -->
-  <macro name="verb_locprep" p1="réintroduire" p2="rebetar# dedens" p3="rèentroduire" />
+  <macro n="verb_locprep"><with-param v="réintroduire"/><with-param v="rebetar# dedens"/><with-param v="rèentroduire"/></macro>
 
   <!-- rendre >> rebalyér, rendre -->
-  <macro name="verb_nopron_pron" p1="rendre" p2="rebalyér" p3="rendre" />
+  <macro n="verb_nopron_pron"><with-param v="rendre"/><with-param v="rebalyér"/><with-param v="rendre"/></macro>
   <rule weight="1.4">
     <match lemma="rendre" tags="vblex.*"><select lemma="rendre"/></match>
     <repeat from="0" upto="2">
@@ -4570,7 +4570,7 @@
   </rule>
 
   <!-- répertorier >> fâre# la lista de, listar -->
-  <macro name="verb_locprep" p1="répertorier" p2="fâre# la lista de" p3="listar" />
+  <macro n="verb_locprep"><with-param v="répertorier"/><with-param v="fâre# la lista de"/><with-param v="listar"/></macro>
 
   <!-- répliquer >> rabatre, recopiyér -->
   <rule weight="0.8">
@@ -4623,7 +4623,7 @@
   </rule>
 
   <!-- retourner >> reveriér, retornar, etc. -->
-  <macro name="verb_prep" p1="retourner" p2="reveriér" p3="à" p4="retornar" />
+  <macro n="verb_prep"><with-param v="retourner"/><with-param v="reveriér"/><with-param v="à"/><with-param v="retornar"/></macro>
 
   <!-- réveiller >> rèvelyér, èvelyér, dèvelyér -->
   <rule weight="0.8">
@@ -4683,10 +4683,10 @@
   </rule>
 
   <!-- sévir >> punir, agir -->
-  <macro name="verb_prep" p1="sévir" p2="punir" p3="contre" p4="agir" />
+  <macro n="verb_prep"><with-param v="sévir"/><with-param v="punir"/><with-param v="contre"/><with-param v="agir"/></macro>
 
   <!-- siéger >> étre# assetâ, étre# assetâs, étre# assetâye, étre# assetâyes   -->
-  <macro name="verb_adj4" p1="siéger" p2="étre# assetâ" p3="étre# assetâs" p4="étre# assetâye" p5="étre# assetâyes" />
+  <macro n="verb_adj4"><with-param v="siéger"/><with-param v="étre# assetâ"/><with-param v="étre# assetâs"/><with-param v="étre# assetâye"/><with-param v="étre# assetâyes"/></macro>
 
   <!-- subdiviser >> divisar, redivisar -->
   <rule weight="0.8">
@@ -4706,7 +4706,7 @@
   </rule>
 
   <!-- surchauffer >> trop charfar, charfar# trop -->
-  <macro name="verb_adv" p1="surchauffer" p2="trop charfar" p3="charfar# trop" />
+  <macro n="verb_adv"><with-param v="surchauffer"/><with-param v="trop charfar"/><with-param v="charfar# trop"/></macro>
 
   <!-- synthétiser >> sintètisar, rèsumar -->
   <rule weight="0.8">
@@ -4799,7 +4799,7 @@
   </rule>
 
   <!-- terroriser >> fâre# pouer, fâre# pouer a -->
-  <macro name="verb_intrans_trans" p1="terroriser" p2="fâre# pouer" p3="fâre# pouer a" />
+  <macro n="verb_intrans_trans"><with-param v="terroriser"/><with-param v="fâre# pouer"/><with-param v="fâre# pouer a"/></macro>
 
   <!-- transcrire >> transcrire, copiyér -->
   <rule weight="0.8">
@@ -4909,76 +4909,76 @@
     <match lemma="Vienne" tags="np.top.*"><select lemma="Vièna"/></match>
   </rule>
 
-  <macro name="noms_propres" p1="Charles" p2="Charlo" />
-  <macro name="noms_propres" p1="Édouard" p2="Èdouard" />
-  <macro name="noms_propres" p1="François" p2="Françouès" />
-  <macro name="noms_propres" p1="Jacques" p2="Jâque" />
-  <macro name="noms_propres" p1="Jean" p2="Jian" />
-  <macro name="noms_propres" p1="Joseph" p2="Josèf" />
-  <macro name="noms_propres" p1="Philippe" p2="Filipo" />
-  <macro name="noms_propres" p1="Pierre" p2="Pierro" />
-  <macro name="noms_propres" p1="Paul" p2="Pol" />
-  <macro name="noms_propres" p1="Thomas" p2="Tomas" />
-  <macro name="noms_propres" p1="Albert" p2="Albèrt" />
-  <macro name="noms_propres" p1="Humbert" p2="Hombèrt" />
-  <macro name="noms_propres" p1="Michel" p2="Mechiél" />
-  <macro name="noms_propres" p1="Guillaume" p2="Guelyômo" />
-  <macro name="noms_propres" p1="Alexandre" p2="Alèxandro" />
-  <macro name="noms_propres" p1="Bertrand" p2="Bèrtrand" />
-  <macro name="noms_propres" p1="Daniel" p2="Danièl" />
-  <macro name="noms_propres" p1="Étienne" p2="Ètièno" />
-  <macro name="noms_propres" p1="René" p2="Reniér" />
+  <macro n="noms_propres"><with-param v="Charles"/><with-param v="Charlo"/></macro>
+  <macro n="noms_propres"><with-param v="Édouard"/><with-param v="Èdouard"/></macro>
+  <macro n="noms_propres"><with-param v="François"/><with-param v="Françouès"/></macro>
+  <macro n="noms_propres"><with-param v="Jacques"/><with-param v="Jâque"/></macro>
+  <macro n="noms_propres"><with-param v="Jean"/><with-param v="Jian"/></macro>
+  <macro n="noms_propres"><with-param v="Joseph"/><with-param v="Josèf"/></macro>
+  <macro n="noms_propres"><with-param v="Philippe"/><with-param v="Filipo"/></macro>
+  <macro n="noms_propres"><with-param v="Pierre"/><with-param v="Pierro"/></macro>
+  <macro n="noms_propres"><with-param v="Paul"/><with-param v="Pol"/></macro>
+  <macro n="noms_propres"><with-param v="Thomas"/><with-param v="Tomas"/></macro>
+  <macro n="noms_propres"><with-param v="Albert"/><with-param v="Albèrt"/></macro>
+  <macro n="noms_propres"><with-param v="Humbert"/><with-param v="Hombèrt"/></macro>
+  <macro n="noms_propres"><with-param v="Michel"/><with-param v="Mechiél"/></macro>
+  <macro n="noms_propres"><with-param v="Guillaume"/><with-param v="Guelyômo"/></macro>
+  <macro n="noms_propres"><with-param v="Alexandre"/><with-param v="Alèxandro"/></macro>
+  <macro n="noms_propres"><with-param v="Bertrand"/><with-param v="Bèrtrand"/></macro>
+  <macro n="noms_propres"><with-param v="Daniel"/><with-param v="Danièl"/></macro>
+  <macro n="noms_propres"><with-param v="Étienne"/><with-param v="Ètièno"/></macro>
+  <macro n="noms_propres"><with-param v="René"/><with-param v="Reniér"/></macro>
 
-  <macro name="noms_propres" p1="Grégoire" p2="Gregouère" />
-  <macro name="noms_propres" p1="Emmanuel" p2="Èmanuèl" />
-  <macro name="noms_propres" p1="Bernard" p2="Bèrnârd" />
-  <macro name="noms_propres" p1="Jean-Paul" p2="Jian-Pol" />
-  <macro name="noms_propres" p1="Benoît" p2="Benêt" />
-  <macro name="noms_propres" p1="Sixte" p2="Sixto" />
-  <macro name="noms_propres" p1="Innocent" p2="Inocent" />
-  <macro name="noms_propres" p1="Léon" p2="Lion" />
-  <macro name="noms_propres" p1="Léopold" p2="Liopold" />
-  <macro name="noms_propres" p1="Ferdinand" p2="Fèrnand" />
-  <macro name="noms_propres" p1="Richard" p2="Richârd" />
-  <macro name="noms_propres" p1="Alphonse" p2="Alfonse" />
-  <macro name="noms_propres" p1="Aliénor" p2="Alionor" />
-  <macro name="noms_propres" p1="Raymond" p2="Rêmond" />
-  <macro name="noms_propres" p1="Clément" p2="Cllèment" />
-  <macro name="noms_propres" p1="Georges" p2="Jôrjo" />
-  <macro name="noms_propres" p1="Antoine" p2="Antouèno" />
-  <macro name="noms_propres" p1="Frédéric" p2="Frèdèric" />
-  <macro name="noms_propres" p1="Baudouin" p2="Baldouin" />
-  <macro name="noms_propres" p1="Amédée" p2="Amèdê" />
-  <macro name="noms_propres" p1="Rémi" p2="Rèmi" />
-  <macro name="noms_propres" p1="Robert" p2="Robèrt" />
-  <macro name="noms_propres" p1="Hubert" p2="Hubèrt" />
-  <macro name="noms_propres" p1="Hugues" p2="Hugo" />
-  <macro name="noms_propres" p1="Urbain" p2="Urben" />
-  <macro name="noms_propres" p1="Félix" p2="Fèlix" />
-  <macro name="noms_propres" p1="Philibert" p2="Filibèrt" />
-  <macro name="noms_propres" p1="Sigismond" p2="Sigimond" />
-  <macro name="noms_propres" p1="Anselme" p2="Ansèlmo" />
-  <macro name="noms_propres" p1="Geoffroy" p2="Jèfrê" />
-  <macro name="noms_propres" p1="Claude" p2="Gllôdo" />
-  <macro name="noms_propres" p1="Mathieu" p2="Matiô" />
+  <macro n="noms_propres"><with-param v="Grégoire"/><with-param v="Gregouère"/></macro>
+  <macro n="noms_propres"><with-param v="Emmanuel"/><with-param v="Èmanuèl"/></macro>
+  <macro n="noms_propres"><with-param v="Bernard"/><with-param v="Bèrnârd"/></macro>
+  <macro n="noms_propres"><with-param v="Jean-Paul"/><with-param v="Jian-Pol"/></macro>
+  <macro n="noms_propres"><with-param v="Benoît"/><with-param v="Benêt"/></macro>
+  <macro n="noms_propres"><with-param v="Sixte"/><with-param v="Sixto"/></macro>
+  <macro n="noms_propres"><with-param v="Innocent"/><with-param v="Inocent"/></macro>
+  <macro n="noms_propres"><with-param v="Léon"/><with-param v="Lion"/></macro>
+  <macro n="noms_propres"><with-param v="Léopold"/><with-param v="Liopold"/></macro>
+  <macro n="noms_propres"><with-param v="Ferdinand"/><with-param v="Fèrnand"/></macro>
+  <macro n="noms_propres"><with-param v="Richard"/><with-param v="Richârd"/></macro>
+  <macro n="noms_propres"><with-param v="Alphonse"/><with-param v="Alfonse"/></macro>
+  <macro n="noms_propres"><with-param v="Aliénor"/><with-param v="Alionor"/></macro>
+  <macro n="noms_propres"><with-param v="Raymond"/><with-param v="Rêmond"/></macro>
+  <macro n="noms_propres"><with-param v="Clément"/><with-param v="Cllèment"/></macro>
+  <macro n="noms_propres"><with-param v="Georges"/><with-param v="Jôrjo"/></macro>
+  <macro n="noms_propres"><with-param v="Antoine"/><with-param v="Antouèno"/></macro>
+  <macro n="noms_propres"><with-param v="Frédéric"/><with-param v="Frèdèric"/></macro>
+  <macro n="noms_propres"><with-param v="Baudouin"/><with-param v="Baldouin"/></macro>
+  <macro n="noms_propres"><with-param v="Amédée"/><with-param v="Amèdê"/></macro>
+  <macro n="noms_propres"><with-param v="Rémi"/><with-param v="Rèmi"/></macro>
+  <macro n="noms_propres"><with-param v="Robert"/><with-param v="Robèrt"/></macro>
+  <macro n="noms_propres"><with-param v="Hubert"/><with-param v="Hubèrt"/></macro>
+  <macro n="noms_propres"><with-param v="Hugues"/><with-param v="Hugo"/></macro>
+  <macro n="noms_propres"><with-param v="Urbain"/><with-param v="Urben"/></macro>
+  <macro n="noms_propres"><with-param v="Félix"/><with-param v="Fèlix"/></macro>
+  <macro n="noms_propres"><with-param v="Philibert"/><with-param v="Filibèrt"/></macro>
+  <macro n="noms_propres"><with-param v="Sigismond"/><with-param v="Sigimond"/></macro>
+  <macro n="noms_propres"><with-param v="Anselme"/><with-param v="Ansèlmo"/></macro>
+  <macro n="noms_propres"><with-param v="Geoffroy"/><with-param v="Jèfrê"/></macro>
+  <macro n="noms_propres"><with-param v="Claude"/><with-param v="Gllôdo"/></macro>
+  <macro n="noms_propres"><with-param v="Mathieu"/><with-param v="Matiô"/></macro>
 
-  <macro name="noms_propres" p1="Catherine" p2="Caterina" />
-  <macro name="noms_propres" p1="Jeanne" p2="Jiana" />
-  <macro name="noms_propres" p1="Anne" p2="Ana" />
-  <macro name="noms_propres" p1="Élisabeth" p2="Èlisabèt" />
-  <macro name="noms_propres" p1="Isabelle" p2="Isabèla" />
-  <macro name="noms_propres" p1="Sophie" p2="Sofia" />
-  <macro name="noms_propres" p1="Louise" p2="Louisa" />
-  <macro name="noms_propres" p1="Stéphanie" p2="Èstèfania" />
-  <macro name="noms_propres" p1="Eugénie" p2="Ugènia" />
-  <macro name="noms_propres" p1="Marguerite" p2="Margrita" />
-  <macro name="noms_propres" p1="Yolande" p2="Iolanda" />
-  <macro name="noms_propres" p1="Béatrice" p2="Bèatrice" />
-  <macro name="noms_propres" p1="Christine" p2="Cristina" />
-  <macro name="noms_propres" p1="Diane" p2="Diana" />
+  <macro n="noms_propres"><with-param v="Catherine"/><with-param v="Caterina"/></macro>
+  <macro n="noms_propres"><with-param v="Jeanne"/><with-param v="Jiana"/></macro>
+  <macro n="noms_propres"><with-param v="Anne"/><with-param v="Ana"/></macro>
+  <macro n="noms_propres"><with-param v="Élisabeth"/><with-param v="Èlisabèt"/></macro>
+  <macro n="noms_propres"><with-param v="Isabelle"/><with-param v="Isabèla"/></macro>
+  <macro n="noms_propres"><with-param v="Sophie"/><with-param v="Sofia"/></macro>
+  <macro n="noms_propres"><with-param v="Louise"/><with-param v="Louisa"/></macro>
+  <macro n="noms_propres"><with-param v="Stéphanie"/><with-param v="Èstèfania"/></macro>
+  <macro n="noms_propres"><with-param v="Eugénie"/><with-param v="Ugènia"/></macro>
+  <macro n="noms_propres"><with-param v="Marguerite"/><with-param v="Margrita"/></macro>
+  <macro n="noms_propres"><with-param v="Yolande"/><with-param v="Iolanda"/></macro>
+  <macro n="noms_propres"><with-param v="Béatrice"/><with-param v="Bèatrice"/></macro>
+  <macro n="noms_propres"><with-param v="Christine"/><with-param v="Cristina"/></macro>
+  <macro n="noms_propres"><with-param v="Diane"/><with-param v="Diana"/></macro>
 
 <!--
-  <macro name="noms_propres" p1="Bonface" p2="Bonfaci" />
+  <macro n="noms_propres"><with-param v="Bonface"/><with-param v="Bonfaci"/></macro>
 -->
 
 </rules>
