@@ -4604,7 +4604,7 @@
                 <lu>
                   <clip pos="2" side="tl" part="lemh"/>
                   <clip pos="2" side="tl" part="tags"/>
-                  <clip pos="2" side="tl" part="lemg"/>
+                  <clip pos="2" side="tl" part="lemq"/>
                 </lu>
               </chunk>
             </out>
@@ -5130,7 +5130,7 @@
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="tags"/>
-                  <clip pos="1" side="tl" part="lemg"/>
+                  <clip pos="1" side="tl" part="lemq"/>
                 </lu>
               </chunk>
             </out>
