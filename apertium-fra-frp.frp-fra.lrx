@@ -1857,7 +1857,7 @@
       <match lemma="pàr" tags="n.*"><select lemma="pair"/></match>
     </or>
     <match lemma="de" tags="pr"/>
-    <match tags="np.top"/>
+    <match tags="np.top.*"/>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1961,7 +1961,7 @@
     <repeat from="0" upto="1">
       <match tags="det.*"/>
     </repeat>
-    <match tags="np.top"/>
+    <match tags="np.top.*"/>
   </rule>
   <rule weight="1.0">
     <match lemma="prince" tags="n.*"/>
