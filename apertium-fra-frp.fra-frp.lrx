@@ -1713,6 +1713,7 @@
       <match lemma="aérien" tags="adj.*"/>
       <match lemma="bancaire" tags="adj.*"/>
       <match lemma="phosphate" tags="n.*"/>
+      <match tags="n.acr.*"/>
       <match tags="np.al.*"/>
       <match tags="np.cog.*"/>
       <match tags=""/>
