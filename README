@@ -75,10 +75,10 @@ Files and data
 * [`apertium-fra-frp.frp-fra.t3x`](apertium-fra-frp.frp-fra.t3x) - Postchunk rules for translating into French
 * [`apertium-fra-frp.fra-frp.lrx`](apertium-fra-frp.fra-frp.lrx) - Lexical selection rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.lrx`](apertium-fra-frp.frp-fra.lrx) - Lexical selection rules for translating into French
-* [ apertium-fra-frp.fra-frp.l1x ](apertium-fra-frp.fra-frp.l1x) - Rules for recognising expressions with discontiguous words for translating into Arpitan
-* [ apertium-fra-frp.fra-frp.l2x ](apertium-fra-frp.fra-frp.l2x) - Rules for reordering words in discontiguous expressions for translating into Arpitan
-* [ apertium-fra-frp.frp-fra.l1x ](apertium-fra-frp.frp-fra.l1x) - Rules for recognising expressions with discontiguous words for translating into French
-* [ apertium-fra-frp.frp-fra.l2x ](apertium-fra-frp.frp-fra.l2x) - Rules for reordering words in discontiguous expressions for translating into French
+* [`apertium-fra-frp.fra-frp.l1x`](apertium-fra-frp.fra-frp.l1x) - Rules for recognising expressions with discontiguous words for translating into Arpitan
+* [`apertium-fra-frp.fra-frp.l2x`](apertium-fra-frp.fra-frp.l2x) - Rules for reordering words in discontiguous expressions for translating into Arpitan
+* [`apertium-fra-frp.frp-fra.l1x`](apertium-fra-frp.frp-fra.l1x) - Rules for recognising expressions with discontiguous words for translating into French
+* [`apertium-fra-frp.frp-fra.l2x`](apertium-fra-frp.frp-fra.l2x) - Rules for reordering words in discontiguous expressions for translating into French
 * [`modes.xml`](modes.xml) - Translation modes
 
 For more information
