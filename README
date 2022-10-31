@@ -47,18 +47,18 @@ If you are in the source directory after running make, the following
 commands should work:
 
 ```console
-$ echo "TODO test sentence 1" | apertium -d . fra-frp
-TODO test translated sentence 1
+echo "Apertium est un logiciel de traduction automatique" | apertium -d . fra-oci
+Apertium est una programerie de traduccion ôtomatica
 
-$ echo "TODO test sentence 2" | apertium -d . frp-fra
-TODO test translated sentence 2
+$ echo "Apertium est una programerie de traduccion ôtomatica" | apertium -d . frp-fra
+Apertium est un logiciel de traduction automatique
 ```
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
 
 ```console
-$ echo "TODO test sentence 1" | apertium fra-frp
-TODO test translated sentence 1
+$ echo "Apertium est un logiciel de traduction automatique" | apertium fra-frp
+Apertium est una programerie de traduccion ôtomatica
 ```
 
 Files and data
@@ -68,11 +68,17 @@ Files and data
 * [`apertium-fra-frp.fra-frp.t1x`](apertium-fra-frp.fra-frp.t1x) - Chunking rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.t1x`](apertium-fra-frp.frp-fra.t1x) - Chunking rules for translating into French
 * [`apertium-fra-frp.fra-frp.t2x`](apertium-fra-frp.fra-frp.t2x) - Interchunk rules for translating into Arpitan
-* [`apertium-fra-frp.frp-fra.t2x`](apertium-fra-frp.frp-fra.t2x) - Interchunk rules for translating into French
+* [`apertium-fra-frp.frp-fra.t2ax`](apertium-fra-frp.frp-fra.t2ax) - Interchunk rules for translating into French (step 1)
+* [`apertium-fra-frp.frp-fra.t2bx`](apertium-fra-frp.frp-fra.t2bx) - Interchunk rules for translating into French (step 2)
+* [`apertium-fra-frp.frp-fra.t2cx`](apertium-fra-frp.frp-fra.t2cx) - Interchunk rules for translating into French (step 3)
 * [`apertium-fra-frp.fra-frp.t3x`](apertium-fra-frp.fra-frp.t3x) - Postchunk rules for translating into Arpitan
 * [`apertium-fra-frp.frp-fra.t3x`](apertium-fra-frp.frp-fra.t3x) - Postchunk rules for translating into French
-* [`apertium-fra-frp.fra-frp.metalrx`](apertium-fra-frp.fra-frp.metalrx) - Lexical selection rules for translating into Arpitan
-* [`apertium-fra-frp.frp-fra.metalrx`](apertium-fra-frp.frp-fra.metalrx) - Lexical selection rules for translating into French
+* [`apertium-fra-frp.fra-frp.lrx`](apertium-fra-frp.fra-frp.lrx) - Lexical selection rules for translating into Arpitan
+* [`apertium-fra-frp.frp-fra.lrx`](apertium-fra-frp.frp-fra.lrx) - Lexical selection rules for translating into French
+* [ apertium-fra-frp.fra-frp.l1x ](apertium-fra-frp.fra-frp.l1x) - Rules for recognising expressions with discontiguous words for translating into Arpitan
+* [ apertium-fra-frp.fra-frp.l2x ](apertium-fra-frp.fra-frp.l2x) - Rules for reordering words in discontiguous expressions for translating into Arpitan
+* [ apertium-fra-frp.frp-fra.l1x ](apertium-fra-frp.frp-fra.l1x) - Rules for recognising expressions with discontiguous words for translating into French
+* [ apertium-fra-frp.frp-fra.l2x ](apertium-fra-frp.frp-fra.l2x) - Rules for reordering words in discontiguous expressions for translating into French
 * [`modes.xml`](modes.xml) - Translation modes
 
 For more information
